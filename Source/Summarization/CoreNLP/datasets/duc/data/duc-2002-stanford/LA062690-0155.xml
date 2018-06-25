@@ -1,0 +1,2792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="LA062690-0155">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Writer Salman Rushdie, who has been sentenced to die by Iranian zealots, has donated $8,600 to victims of last week&amp;apost;s devastating earthquake in Iran.</content>
+      <tokens>
+        <token id="1" string="Writer" lemma="writer" stem="writer" pos="NN" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="2" string="Salman" lemma="Salman" stem="salman" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="sentenced" lemma="sentence" stem="sentenc" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="die" lemma="die" stem="die" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Iranian" lemma="iranian" stem="iranian" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="13" string="zealots" lemma="zealot" stem="zealot" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="donated" lemma="donate" stem="donat" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="18" string="8,600" lemma="8,600" stem="8,600" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="19" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="victims" lemma="victim" stem="victim" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="23" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="24" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="devastating" lemma="devastating" stem="devast" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="27" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NN Writer) (NNP Salman) (NNP Rushdie)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN sentenced) (S (VP (TO to) (VP (VB die) (PP (IN by) (NP (JJ Iranian) (NNS zealots))))))))))) (, ,)) (VP (VBZ has) (VP (VBN donated) (NP ($ $) (CD 8,600)) (PP (TO to) (NP (NP (NNS victims)) (PP (IN of) (NP (NP (JJ last) (NN week) (POS 's)) (JJ devastating) (NN earthquake))))) (PP (IN in) (NP (NNP Iran))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="has donated $ 8,600 to victims of last week 's devastating earthquake in Iran" type="VP">
+          <tokens>
+            <token id="15" string="has" />
+            <token id="16" string="donated" />
+            <token id="17" string="$" />
+            <token id="18" string="8,600" />
+            <token id="19" string="to" />
+            <token id="20" string="victims" />
+            <token id="21" string="of" />
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+            <token id="24" string="'s" />
+            <token id="25" string="devastating" />
+            <token id="26" string="earthquake" />
+            <token id="27" string="in" />
+            <token id="28" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="$ 8,600" type="NP">
+          <tokens>
+            <token id="17" string="$" />
+            <token id="18" string="8,600" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="last week 's devastating earthquake" type="NP">
+          <tokens>
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+            <token id="24" string="'s" />
+            <token id="25" string="devastating" />
+            <token id="26" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to die by Iranian zealots" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Writer Salman Rushdie" type="NP">
+          <tokens>
+            <token id="1" string="Writer" />
+            <token id="2" string="Salman" />
+            <token id="3" string="Rushdie" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Iranian zealots" type="NP">
+          <tokens>
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Writer Salman Rushdie , who has been sentenced to die by Iranian zealots ," type="NP">
+          <tokens>
+            <token id="1" string="Writer" />
+            <token id="2" string="Salman" />
+            <token id="3" string="Rushdie" />
+            <token id="4" string="," />
+            <token id="5" string="who" />
+            <token id="6" string="has" />
+            <token id="7" string="been" />
+            <token id="8" string="sentenced" />
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+            <token id="14" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="donated $ 8,600 to victims of last week 's devastating earthquake in Iran" type="VP">
+          <tokens>
+            <token id="16" string="donated" />
+            <token id="17" string="$" />
+            <token id="18" string="8,600" />
+            <token id="19" string="to" />
+            <token id="20" string="victims" />
+            <token id="21" string="of" />
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+            <token id="24" string="'s" />
+            <token id="25" string="devastating" />
+            <token id="26" string="earthquake" />
+            <token id="27" string="in" />
+            <token id="28" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="last week 's" type="NP">
+          <tokens>
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+            <token id="24" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="has been sentenced to die by Iranian zealots" type="VP">
+          <tokens>
+            <token id="6" string="has" />
+            <token id="7" string="been" />
+            <token id="8" string="sentenced" />
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Iran" type="NP">
+          <tokens>
+            <token id="28" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="who has been sentenced to die by Iranian zealots" type="SBAR">
+          <tokens>
+            <token id="5" string="who" />
+            <token id="6" string="has" />
+            <token id="7" string="been" />
+            <token id="8" string="sentenced" />
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="die by Iranian zealots" type="VP">
+          <tokens>
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="victims of last week 's devastating earthquake" type="NP">
+          <tokens>
+            <token id="20" string="victims" />
+            <token id="21" string="of" />
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+            <token id="24" string="'s" />
+            <token id="25" string="devastating" />
+            <token id="26" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="been sentenced to die by Iranian zealots" type="VP">
+          <tokens>
+            <token id="7" string="been" />
+            <token id="8" string="sentenced" />
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="sentenced to die by Iranian zealots" type="VP">
+          <tokens>
+            <token id="8" string="sentenced" />
+            <token id="9" string="to" />
+            <token id="10" string="die" />
+            <token id="11" string="by" />
+            <token id="12" string="Iranian" />
+            <token id="13" string="zealots" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="victims" type="NP">
+          <tokens>
+            <token id="20" string="victims" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Rushdie</governor>
+          <dependent id="1">Writer</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Rushdie</governor>
+          <dependent id="2">Salman</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">donated</governor>
+          <dependent id="3">Rushdie</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="8">sentenced</governor>
+          <dependent id="5">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">sentenced</governor>
+          <dependent id="6">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="8">sentenced</governor>
+          <dependent id="7">been</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="3">Rushdie</governor>
+          <dependent id="8">sentenced</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">die</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">sentenced</governor>
+          <dependent id="10">die</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">zealots</governor>
+          <dependent id="11">by</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">zealots</governor>
+          <dependent id="12">Iranian</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">die</governor>
+          <dependent id="13">zealots</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="16">donated</governor>
+          <dependent id="15">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">donated</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="18">8,600</governor>
+          <dependent id="17">$</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">donated</governor>
+          <dependent id="18">8,600</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">victims</governor>
+          <dependent id="19">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">donated</governor>
+          <dependent id="20">victims</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">earthquake</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">week</governor>
+          <dependent id="22">last</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="26">earthquake</governor>
+          <dependent id="23">week</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">week</governor>
+          <dependent id="24">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">earthquake</governor>
+          <dependent id="25">devastating</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">victims</governor>
+          <dependent id="26">earthquake</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">Iran</governor>
+          <dependent id="27">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">donated</governor>
+          <dependent id="28">Iran</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="$ 8,600" type="MONEY" score="0.0">
+          <tokens>
+            <token id="17" string="$" />
+            <token id="18" string="8,600" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iranian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="12" string="Iranian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="last week" type="DATE" score="0.0">
+          <tokens>
+            <token id="22" string="last" />
+            <token id="23" string="week" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="5" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="26" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Writer" type="TITLE" score="0.0">
+          <tokens>
+            <token id="1" string="Writer" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Salman Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Salman" />
+            <token id="3" string="Rushdie" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Iran said today his death order still stands.</content>
+      <tokens>
+        <token id="1" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="today" lemma="today" stem="todai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="death" lemma="death" stem="death" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="order" lemma="order" stem="order" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="still" lemma="still" stem="still" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="stands" lemma="stand" stem="stand" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Iran)) (VP (VBD said) (NP-TMP (NN today)) (SBAR (S (NP (PRP$ his) (NN death) (NN order)) (ADVP (RB still)) (VP (VBZ stands))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="stands" type="VP">
+          <tokens>
+            <token id="8" string="stands" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="his death order" type="NP">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="death" />
+            <token id="6" string="order" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Iran" type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said today his death order still stands" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="today" />
+            <token id="4" string="his" />
+            <token id="5" string="death" />
+            <token id="6" string="order" />
+            <token id="7" string="still" />
+            <token id="8" string="stands" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="his death order still stands" type="SBAR">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="death" />
+            <token id="6" string="order" />
+            <token id="7" string="still" />
+            <token id="8" string="stands" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Iran</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="2">said</governor>
+          <dependent id="3">today</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="6">order</governor>
+          <dependent id="4">his</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">order</governor>
+          <dependent id="5">death</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">stands</governor>
+          <dependent id="6">order</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">stands</governor>
+          <dependent id="7">still</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="8">stands</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="today" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="today" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Rushdie donated the money to the Independent Iranian Earthquake Appeal, organized by the Independent newspaper to help survivors of the earthquake that Iranian officials said left at least 50,000 people dead.</content>
+      <tokens>
+        <token id="1" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="donated" lemma="donate" stem="donat" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="money" lemma="money" stem="monei" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Independent" lemma="Independent" stem="independ" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="Iranian" lemma="Iranian" stem="iranian" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="Earthquake" lemma="Earthquake" stem="earthquak" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="Appeal" lemma="Appeal" stem="appeal" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="organized" lemma="organize" stem="organ" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Independent" lemma="independent" stem="independ" pos="JJ" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="true" is_refers="false" />
+        <token id="16" string="newspaper" lemma="newspaper" stem="newspap" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="help" lemma="help" stem="help" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="survivors" lemma="survivor" stem="survivor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="23" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Iranian" lemma="iranian" stem="iranian" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="25" string="officials" lemma="official" stem="offici" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="left" lemma="leave" stem="left" pos="VBN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="28" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="least" lemma="least" stem="least" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="50,000" lemma="50,000" stem="50,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="31" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="dead" lemma="dead" stem="dead" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Rushdie)) (VP (VBD donated) (NP (DT the) (NN money)) (PP (TO to) (NP (NP (DT the) (NNP Independent) (NNP Iranian) (NNP Earthquake) (NNP Appeal)) (, ,) (VP (VBN organized) (PP (IN by) (NP (DT the) (JJ Independent) (NN newspaper))) (S (VP (TO to) (VP (VB help) (NP (NP (NNS survivors)) (PP (IN of) (NP (NP (DT the) (NN earthquake)) (SBAR (WHNP (WDT that)) (S (NP (JJ Iranian) (NNS officials)) (VP (VBD said) (VP (VBN left)))))))))))) (ADJP (ADVP (IN at) (JJS least)) (NP (CD 50,000) (NNS people)) (JJ dead))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Iranian officials" type="NP">
+          <tokens>
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to help survivors of the earthquake that Iranian officials said left" type="VP">
+          <tokens>
+            <token id="17" string="to" />
+            <token id="18" string="help" />
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Independent Iranian Earthquake Appeal" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="Iranian" />
+            <token id="9" string="Earthquake" />
+            <token id="10" string="Appeal" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said left" type="VP">
+          <tokens>
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Independent Iranian Earthquake Appeal , organized by the Independent newspaper to help survivors of the earthquake that Iranian officials said left at least 50,000 people dead" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="Iranian" />
+            <token id="9" string="Earthquake" />
+            <token id="10" string="Appeal" />
+            <token id="11" string="," />
+            <token id="12" string="organized" />
+            <token id="13" string="by" />
+            <token id="14" string="the" />
+            <token id="15" string="Independent" />
+            <token id="16" string="newspaper" />
+            <token id="17" string="to" />
+            <token id="18" string="help" />
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+            <token id="28" string="at" />
+            <token id="29" string="least" />
+            <token id="30" string="50,000" />
+            <token id="31" string="people" />
+            <token id="32" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Independent newspaper" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="Independent" />
+            <token id="16" string="newspaper" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="donated the money to the Independent Iranian Earthquake Appeal , organized by the Independent newspaper to help survivors of the earthquake that Iranian officials said left at least 50,000 people dead" type="VP">
+          <tokens>
+            <token id="2" string="donated" />
+            <token id="3" string="the" />
+            <token id="4" string="money" />
+            <token id="5" string="to" />
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="Iranian" />
+            <token id="9" string="Earthquake" />
+            <token id="10" string="Appeal" />
+            <token id="11" string="," />
+            <token id="12" string="organized" />
+            <token id="13" string="by" />
+            <token id="14" string="the" />
+            <token id="15" string="Independent" />
+            <token id="16" string="newspaper" />
+            <token id="17" string="to" />
+            <token id="18" string="help" />
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+            <token id="28" string="at" />
+            <token id="29" string="least" />
+            <token id="30" string="50,000" />
+            <token id="31" string="people" />
+            <token id="32" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Rushdie" type="NP">
+          <tokens>
+            <token id="1" string="Rushdie" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="organized by the Independent newspaper to help survivors of the earthquake that Iranian officials said left" type="VP">
+          <tokens>
+            <token id="12" string="organized" />
+            <token id="13" string="by" />
+            <token id="14" string="the" />
+            <token id="15" string="Independent" />
+            <token id="16" string="newspaper" />
+            <token id="17" string="to" />
+            <token id="18" string="help" />
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="at least 50,000 people dead" type="ADJP">
+          <tokens>
+            <token id="28" string="at" />
+            <token id="29" string="least" />
+            <token id="30" string="50,000" />
+            <token id="31" string="people" />
+            <token id="32" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the money" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="money" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="survivors of the earthquake that Iranian officials said left" type="NP">
+          <tokens>
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="help survivors of the earthquake that Iranian officials said left" type="VP">
+          <tokens>
+            <token id="18" string="help" />
+            <token id="19" string="survivors" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the earthquake that Iranian officials said left" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="survivors" type="NP">
+          <tokens>
+            <token id="19" string="survivors" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="left" type="VP">
+          <tokens>
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the earthquake" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="50,000 people" type="NP">
+          <tokens>
+            <token id="30" string="50,000" />
+            <token id="31" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="that Iranian officials said left" type="SBAR">
+          <tokens>
+            <token id="23" string="that" />
+            <token id="24" string="Iranian" />
+            <token id="25" string="officials" />
+            <token id="26" string="said" />
+            <token id="27" string="left" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">donated</governor>
+          <dependent id="1">Rushdie</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">donated</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">money</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">donated</governor>
+          <dependent id="4">money</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Appeal</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Appeal</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Appeal</governor>
+          <dependent id="7">Independent</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Appeal</governor>
+          <dependent id="8">Iranian</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Appeal</governor>
+          <dependent id="9">Earthquake</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">donated</governor>
+          <dependent id="10">Appeal</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="10">Appeal</governor>
+          <dependent id="12">organized</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">newspaper</governor>
+          <dependent id="13">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">newspaper</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">newspaper</governor>
+          <dependent id="15">Independent</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">organized</governor>
+          <dependent id="16">newspaper</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">help</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="12">organized</governor>
+          <dependent id="18">help</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">help</governor>
+          <dependent id="19">survivors</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">earthquake</governor>
+          <dependent id="20">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">earthquake</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">survivors</governor>
+          <dependent id="22">earthquake</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="26">said</governor>
+          <dependent id="23">that</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">officials</governor>
+          <dependent id="24">Iranian</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="26">said</governor>
+          <dependent id="25">officials</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="22">earthquake</governor>
+          <dependent id="26">said</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="26">said</governor>
+          <dependent id="27">left</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">least</governor>
+          <dependent id="28">at</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="32">dead</governor>
+          <dependent id="29">least</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="31">people</governor>
+          <dependent id="30">50,000</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="32">dead</governor>
+          <dependent id="31">people</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">Appeal</governor>
+          <dependent id="32">dead</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Independent" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="15" string="Independent" />
+          </tokens>
+        </entity>
+        <entity id="2" string="left" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="27" string="left" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Iranian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="24" string="Iranian" />
+          </tokens>
+        </entity>
+        <entity id="4" string="50,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="30" string="50,000" />
+          </tokens>
+        </entity>
+        <entity id="5" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="22" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Rushdie" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Independent Iranian Earthquake Appeal" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="7" string="Independent" />
+            <token id="8" string="Iranian" />
+            <token id="9" string="Earthquake" />
+            <token id="10" string="Appeal" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>&amp;quot;I wanted to join the Independent and the hostage families and many other people in their appeal for contributions toward the needs of the Iranian earthquake victims,&amp;quot; Rushdie said in a message delivered from his hiding place.</content>
+      <tokens>
+        <token id="1" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="wanted" lemma="want" stem="want" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="join" lemma="join" stem="join" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="Independent" lemma="Independent" stem="independ" pos="NNP" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="true" is_refers="false" />
+        <token id="8" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="hostage" lemma="hostage" stem="hostag" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="families" lemma="family" stem="famili" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="many" lemma="many" stem="mani" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="appeal" lemma="appeal" stem="appeal" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="19" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="contributions" lemma="contribution" stem="contribut" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="toward" lemma="toward" stem="toward" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="needs" lemma="need" stem="need" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="Iranian" lemma="iranian" stem="iranian" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="true" is_refers="false" />
+        <token id="27" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="28" string="victims" lemma="victim" stem="victim" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="32" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="message" lemma="message" stem="messag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="delivered" lemma="deliver" stem="deliv" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="39" string="hiding" lemma="hide" stem="hide" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="40" string="place" lemma="place" stem="place" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBD wanted) (S (VP (TO to) (VP (VB join) (NP (NP (NP (DT the) (NNP Independent)) (CC and) (NP (DT the) (NN hostage) (NNS families))) (CC and) (NP (NP (JJ many) (JJ other) (NNS people)) (PP (IN in) (NP (PRP$ their) (NN appeal))))) (PP (IN for) (NP (NP (NNS contributions)) (PP (IN toward) (NP (NP (DT the) (NNS needs)) (PP (IN of) (NP (DT the) (JJ Iranian) (NN earthquake) (NNS victims)))))))))))) (, ,) ('' '') (NP (NNP Rushdie)) (VP (VBD said) (PP (IN in) (NP (NP (DT a) (NN message)) (VP (VBN delivered) (PP (IN from) (NP (PRP$ his) (VBG hiding) (NN place))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="many other people in their appeal" type="NP">
+          <tokens>
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="contributions toward the needs of the Iranian earthquake victims" type="NP">
+          <tokens>
+            <token id="20" string="contributions" />
+            <token id="21" string="toward" />
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Independent and the hostage families and many other people in their appeal" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="and" />
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+            <token id="12" string="and" />
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the needs" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="I" type="NP">
+          <tokens>
+            <token id="2" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="delivered from his hiding place" type="VP">
+          <tokens>
+            <token id="36" string="delivered" />
+            <token id="37" string="from" />
+            <token id="38" string="his" />
+            <token id="39" string="hiding" />
+            <token id="40" string="place" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="his hiding place" type="NP">
+          <tokens>
+            <token id="38" string="his" />
+            <token id="39" string="hiding" />
+            <token id="40" string="place" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Rushdie" type="NP">
+          <tokens>
+            <token id="31" string="Rushdie" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="wanted to join the Independent and the hostage families and many other people in their appeal for contributions toward the needs of the Iranian earthquake victims" type="VP">
+          <tokens>
+            <token id="3" string="wanted" />
+            <token id="4" string="to" />
+            <token id="5" string="join" />
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="and" />
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+            <token id="12" string="and" />
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+            <token id="19" string="for" />
+            <token id="20" string="contributions" />
+            <token id="21" string="toward" />
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="their appeal" type="NP">
+          <tokens>
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="to join the Independent and the hostage families and many other people in their appeal for contributions toward the needs of the Iranian earthquake victims" type="VP">
+          <tokens>
+            <token id="4" string="to" />
+            <token id="5" string="join" />
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="and" />
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+            <token id="12" string="and" />
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+            <token id="19" string="for" />
+            <token id="20" string="contributions" />
+            <token id="21" string="toward" />
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="contributions" type="NP">
+          <tokens>
+            <token id="20" string="contributions" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the Iranian earthquake victims" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="said in a message delivered from his hiding place" type="VP">
+          <tokens>
+            <token id="32" string="said" />
+            <token id="33" string="in" />
+            <token id="34" string="a" />
+            <token id="35" string="message" />
+            <token id="36" string="delivered" />
+            <token id="37" string="from" />
+            <token id="38" string="his" />
+            <token id="39" string="hiding" />
+            <token id="40" string="place" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a message delivered from his hiding place" type="NP">
+          <tokens>
+            <token id="34" string="a" />
+            <token id="35" string="message" />
+            <token id="36" string="delivered" />
+            <token id="37" string="from" />
+            <token id="38" string="his" />
+            <token id="39" string="hiding" />
+            <token id="40" string="place" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="a message" type="NP">
+          <tokens>
+            <token id="34" string="a" />
+            <token id="35" string="message" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the needs of the Iranian earthquake victims" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="join the Independent and the hostage families and many other people in their appeal for contributions toward the needs of the Iranian earthquake victims" type="VP">
+          <tokens>
+            <token id="5" string="join" />
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="and" />
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+            <token id="12" string="and" />
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="appeal" />
+            <token id="19" string="for" />
+            <token id="20" string="contributions" />
+            <token id="21" string="toward" />
+            <token id="22" string="the" />
+            <token id="23" string="needs" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Iranian" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the Independent and the hostage families" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+            <token id="8" string="and" />
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="many other people" type="NP">
+          <tokens>
+            <token id="13" string="many" />
+            <token id="14" string="other" />
+            <token id="15" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the Independent" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Independent" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="the hostage families" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="hostage" />
+            <token id="11" string="families" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">wanted</governor>
+          <dependent id="2">I</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="32">said</governor>
+          <dependent id="3">wanted</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="5">join</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">wanted</governor>
+          <dependent id="5">join</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">Independent</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">join</governor>
+          <dependent id="7">Independent</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">Independent</governor>
+          <dependent id="8">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">families</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">families</governor>
+          <dependent id="10">hostage</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">Independent</governor>
+          <dependent id="11">families</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">Independent</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">people</governor>
+          <dependent id="13">many</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">people</governor>
+          <dependent id="14">other</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">Independent</governor>
+          <dependent id="15">people</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">appeal</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="18">appeal</governor>
+          <dependent id="17">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">people</governor>
+          <dependent id="18">appeal</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">contributions</governor>
+          <dependent id="19">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">join</governor>
+          <dependent id="20">contributions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">needs</governor>
+          <dependent id="21">toward</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">needs</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">contributions</governor>
+          <dependent id="23">needs</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">victims</governor>
+          <dependent id="24">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">victims</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">victims</governor>
+          <dependent id="26">Iranian</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">victims</governor>
+          <dependent id="27">earthquake</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">needs</governor>
+          <dependent id="28">victims</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="32">said</governor>
+          <dependent id="31">Rushdie</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="32">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">message</governor>
+          <dependent id="33">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">message</governor>
+          <dependent id="34">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="32">said</governor>
+          <dependent id="35">message</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="35">message</governor>
+          <dependent id="36">delivered</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="40">place</governor>
+          <dependent id="37">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="40">place</governor>
+          <dependent id="38">his</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="40">place</governor>
+          <dependent id="39">hiding</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="36">delivered</governor>
+          <dependent id="40">place</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Independent" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="7" string="Independent" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iranian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="26" string="Iranian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="27" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="31" string="Rushdie" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>&amp;quot;It&amp;apost;s quite clear that at the moment, we should be thinking only of the humanitarian issue, which transcends all other discussion,&amp;quot; said Rushdie, 42.</content>
+      <tokens>
+        <token id="1" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="quite" lemma="quite" stem="quit" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="clear" lemma="clear" stem="clear" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="moment" lemma="moment" stem="moment" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="thinking" lemma="think" stem="think" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="only" lemma="only" stem="onli" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="humanitarian" lemma="humanitarian" stem="humanitarian" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="issue" lemma="issue" stem="issu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="transcends" lemma="transcend" stem="transcend" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="discussion" lemma="discussion" stem="discuss" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="31" string="42" lemma="42" stem="42" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (NP (PRP It)) (VP (VBZ 's) (ADJP (RB quite) (JJ clear)) (SBAR (IN that) (S (PP (IN at) (NP (DT the) (NN moment))) (, ,) (NP (PRP we)) (VP (MD should) (VP (VB be) (VP (VBG thinking) (ADVP (RB only)) (PP (IN of) (NP (NP (DT the) (JJ humanitarian) (NN issue)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ transcends) (NP (DT all) (JJ other) (NN discussion)))))))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Rushdie)) (, ,) (NP (CD 42))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="thinking only of the humanitarian issue , which transcends all other discussion" type="VP">
+          <tokens>
+            <token id="14" string="thinking" />
+            <token id="15" string="only" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that at the moment , we should be thinking only of the humanitarian issue , which transcends all other discussion" type="SBAR">
+          <tokens>
+            <token id="6" string="that" />
+            <token id="7" string="at" />
+            <token id="8" string="the" />
+            <token id="9" string="moment" />
+            <token id="10" string="," />
+            <token id="11" string="we" />
+            <token id="12" string="should" />
+            <token id="13" string="be" />
+            <token id="14" string="thinking" />
+            <token id="15" string="only" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the humanitarian issue" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Rushdie , 42" type="NP">
+          <tokens>
+            <token id="29" string="Rushdie" />
+            <token id="30" string="," />
+            <token id="31" string="42" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="It" type="NP">
+          <tokens>
+            <token id="2" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="which transcends all other discussion" type="SBAR">
+          <tokens>
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="should be thinking only of the humanitarian issue , which transcends all other discussion" type="VP">
+          <tokens>
+            <token id="12" string="should" />
+            <token id="13" string="be" />
+            <token id="14" string="thinking" />
+            <token id="15" string="only" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Rushdie" type="NP">
+          <tokens>
+            <token id="29" string="Rushdie" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="we" type="NP">
+          <tokens>
+            <token id="11" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the moment" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="moment" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the humanitarian issue , which transcends all other discussion" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="all other discussion" type="NP">
+          <tokens>
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="quite clear" type="ADJP">
+          <tokens>
+            <token id="4" string="quite" />
+            <token id="5" string="clear" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="be thinking only of the humanitarian issue , which transcends all other discussion" type="VP">
+          <tokens>
+            <token id="13" string="be" />
+            <token id="14" string="thinking" />
+            <token id="15" string="only" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="'s quite clear that at the moment , we should be thinking only of the humanitarian issue , which transcends all other discussion" type="VP">
+          <tokens>
+            <token id="3" string="'s" />
+            <token id="4" string="quite" />
+            <token id="5" string="clear" />
+            <token id="6" string="that" />
+            <token id="7" string="at" />
+            <token id="8" string="the" />
+            <token id="9" string="moment" />
+            <token id="10" string="," />
+            <token id="11" string="we" />
+            <token id="12" string="should" />
+            <token id="13" string="be" />
+            <token id="14" string="thinking" />
+            <token id="15" string="only" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="humanitarian" />
+            <token id="19" string="issue" />
+            <token id="20" string="," />
+            <token id="21" string="which" />
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said" type="VP">
+          <tokens>
+            <token id="28" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="42" type="NP">
+          <tokens>
+            <token id="31" string="42" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="transcends all other discussion" type="VP">
+          <tokens>
+            <token id="22" string="transcends" />
+            <token id="23" string="all" />
+            <token id="24" string="other" />
+            <token id="25" string="discussion" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">clear</governor>
+          <dependent id="2">It</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">clear</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">clear</governor>
+          <dependent id="4">quite</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="28">said</governor>
+          <dependent id="5">clear</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">thinking</governor>
+          <dependent id="6">that</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">moment</governor>
+          <dependent id="7">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">moment</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">thinking</governor>
+          <dependent id="9">moment</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">thinking</governor>
+          <dependent id="11">we</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">thinking</governor>
+          <dependent id="12">should</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">thinking</governor>
+          <dependent id="13">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="5">clear</governor>
+          <dependent id="14">thinking</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">thinking</governor>
+          <dependent id="15">only</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">issue</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">issue</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">issue</governor>
+          <dependent id="18">humanitarian</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">thinking</governor>
+          <dependent id="19">issue</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">transcends</governor>
+          <dependent id="21">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="19">issue</governor>
+          <dependent id="22">transcends</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">discussion</governor>
+          <dependent id="23">all</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">discussion</governor>
+          <dependent id="24">other</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">transcends</governor>
+          <dependent id="25">discussion</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="28">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="28">said</governor>
+          <dependent id="29">Rushdie</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">Rushdie</governor>
+          <dependent id="31">42</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="29" string="Rushdie" />
+          </tokens>
+        </entity>
+        <entity id="2" string="42" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="31" string="42" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="false">
+      <content>The Indian-born writer has been out of public view since Feb. 14, 1989, when the late Ayatollah Ruhollah Khomeini sentenced him to death for writing &amp;quot;The Satanic Verses,&amp;quot; a novel many Muslims regard as blasphemous.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Indian-born" lemma="indian-born" stem="indian-born" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="3" string="writer" lemma="writer" stem="writer" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="out" lemma="out" stem="out" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="public" lemma="public" stem="public" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="view" lemma="view" stem="view" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="Feb." lemma="Feb." stem="feb." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="12" string="14" lemma="14" stem="14" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="1989" lemma="1989" stem="1989" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="late" lemma="late" stem="late" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="Ayatollah" lemma="Ayatollah" stem="ayatollah" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="20" string="Ruhollah" lemma="Ruhollah" stem="ruhollah" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="21" string="Khomeini" lemma="Khomeini" stem="khomeini" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="22" string="sentenced" lemma="sentence" stem="sentenc" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="death" lemma="death" stem="death" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="writing" lemma="write" stem="write" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Satanic" lemma="satanic" stem="satan" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="Verses" lemma="verse" stem="vers" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="novel" lemma="novel" stem="novel" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="many" lemma="many" stem="mani" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="Muslims" lemma="Muslims" stem="muslim" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="38" string="regard" lemma="regard" stem="regard" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="blasphemous" lemma="blasphemous" stem="blasphem" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (JJ Indian-born) (NN writer)) (VP (VBZ has) (VP (VBN been) (ADVP (IN out) (PP (IN of) (NP (JJ public) (NN view)))) (ADVP (IN since)) (NP-TMP (NNP Feb.) (CD 14) (, ,) (CD 1989)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (JJ late) (NNP Ayatollah) (NNP Ruhollah) (NNP Khomeini)) (VP (VBD sentenced) (NP (PRP him)) (PP (TO to) (NP (NN death))) (PP (IN for) (S (VP (VBG writing) (NP (`` ``) (NP (DT The) (JJ Satanic) (NNS Verses)) (, ,) ('' '')) (PP (NP (DT a) (JJ novel) (JJ many) (NNPS Muslims) (NN regard)) (IN as) (ADJP (JJ blasphemous))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="been out of public view since Feb. 14 , 1989 , when the late Ayatollah Ruhollah Khomeini sentenced him to death for writing `` The Satanic Verses , '' a novel many Muslims regard as blasphemous" type="VP">
+          <tokens>
+            <token id="5" string="been" />
+            <token id="6" string="out" />
+            <token id="7" string="of" />
+            <token id="8" string="public" />
+            <token id="9" string="view" />
+            <token id="10" string="since" />
+            <token id="11" string="Feb." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="1989" />
+            <token id="15" string="," />
+            <token id="16" string="when" />
+            <token id="17" string="the" />
+            <token id="18" string="late" />
+            <token id="19" string="Ayatollah" />
+            <token id="20" string="Ruhollah" />
+            <token id="21" string="Khomeini" />
+            <token id="22" string="sentenced" />
+            <token id="23" string="him" />
+            <token id="24" string="to" />
+            <token id="25" string="death" />
+            <token id="26" string="for" />
+            <token id="27" string="writing" />
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+            <token id="39" string="as" />
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="blasphemous" type="ADJP">
+          <tokens>
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="writing `` The Satanic Verses , '' a novel many Muslims regard as blasphemous" type="VP">
+          <tokens>
+            <token id="27" string="writing" />
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+            <token id="39" string="as" />
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="death" type="NP">
+          <tokens>
+            <token id="25" string="death" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the late Ayatollah Ruhollah Khomeini" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="late" />
+            <token id="19" string="Ayatollah" />
+            <token id="20" string="Ruhollah" />
+            <token id="21" string="Khomeini" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="`` The Satanic Verses , ''" type="NP">
+          <tokens>
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="him" type="NP">
+          <tokens>
+            <token id="23" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="16" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="The Satanic Verses" type="NP">
+          <tokens>
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="public view" type="NP">
+          <tokens>
+            <token id="8" string="public" />
+            <token id="9" string="view" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="when the late Ayatollah Ruhollah Khomeini sentenced him to death for writing `` The Satanic Verses , '' a novel many Muslims regard as blasphemous" type="SBAR">
+          <tokens>
+            <token id="16" string="when" />
+            <token id="17" string="the" />
+            <token id="18" string="late" />
+            <token id="19" string="Ayatollah" />
+            <token id="20" string="Ruhollah" />
+            <token id="21" string="Khomeini" />
+            <token id="22" string="sentenced" />
+            <token id="23" string="him" />
+            <token id="24" string="to" />
+            <token id="25" string="death" />
+            <token id="26" string="for" />
+            <token id="27" string="writing" />
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+            <token id="39" string="as" />
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="sentenced him to death for writing `` The Satanic Verses , '' a novel many Muslims regard as blasphemous" type="VP">
+          <tokens>
+            <token id="22" string="sentenced" />
+            <token id="23" string="him" />
+            <token id="24" string="to" />
+            <token id="25" string="death" />
+            <token id="26" string="for" />
+            <token id="27" string="writing" />
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+            <token id="39" string="as" />
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a novel many Muslims regard" type="NP">
+          <tokens>
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="The Indian-born writer" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Indian-born" />
+            <token id="3" string="writer" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="has been out of public view since Feb. 14 , 1989 , when the late Ayatollah Ruhollah Khomeini sentenced him to death for writing `` The Satanic Verses , '' a novel many Muslims regard as blasphemous" type="VP">
+          <tokens>
+            <token id="4" string="has" />
+            <token id="5" string="been" />
+            <token id="6" string="out" />
+            <token id="7" string="of" />
+            <token id="8" string="public" />
+            <token id="9" string="view" />
+            <token id="10" string="since" />
+            <token id="11" string="Feb." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="1989" />
+            <token id="15" string="," />
+            <token id="16" string="when" />
+            <token id="17" string="the" />
+            <token id="18" string="late" />
+            <token id="19" string="Ayatollah" />
+            <token id="20" string="Ruhollah" />
+            <token id="21" string="Khomeini" />
+            <token id="22" string="sentenced" />
+            <token id="23" string="him" />
+            <token id="24" string="to" />
+            <token id="25" string="death" />
+            <token id="26" string="for" />
+            <token id="27" string="writing" />
+            <token id="28" string="&quot;" />
+            <token id="29" string="The" />
+            <token id="30" string="Satanic" />
+            <token id="31" string="Verses" />
+            <token id="32" string="," />
+            <token id="33" string="&quot;" />
+            <token id="34" string="a" />
+            <token id="35" string="novel" />
+            <token id="36" string="many" />
+            <token id="37" string="Muslims" />
+            <token id="38" string="regard" />
+            <token id="39" string="as" />
+            <token id="40" string="blasphemous" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">writer</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">writer</governor>
+          <dependent id="2">Indian-born</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">been</governor>
+          <dependent id="3">writer</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">been</governor>
+          <dependent id="4">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">been</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">view</governor>
+          <dependent id="6">out</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="6">out</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">view</governor>
+          <dependent id="8">public</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">been</governor>
+          <dependent id="9">view</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">been</governor>
+          <dependent id="10">since</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="5">been</governor>
+          <dependent id="11">Feb.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">Feb.</governor>
+          <dependent id="12">14</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">Feb.</governor>
+          <dependent id="14">1989</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">sentenced</governor>
+          <dependent id="16">when</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">Khomeini</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">Khomeini</governor>
+          <dependent id="18">late</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Khomeini</governor>
+          <dependent id="19">Ayatollah</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Khomeini</governor>
+          <dependent id="20">Ruhollah</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">sentenced</governor>
+          <dependent id="21">Khomeini</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">been</governor>
+          <dependent id="22">sentenced</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">sentenced</governor>
+          <dependent id="23">him</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">death</governor>
+          <dependent id="24">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">sentenced</governor>
+          <dependent id="25">death</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="27">writing</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="22">sentenced</governor>
+          <dependent id="27">writing</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">Verses</governor>
+          <dependent id="29">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">Verses</governor>
+          <dependent id="30">Satanic</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="27">writing</governor>
+          <dependent id="31">Verses</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="38">regard</governor>
+          <dependent id="34">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="38">regard</governor>
+          <dependent id="35">novel</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="38">regard</governor>
+          <dependent id="36">many</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="38">regard</governor>
+          <dependent id="37">Muslims</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">writing</governor>
+          <dependent id="38">regard</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="38">regard</governor>
+          <dependent id="39">as</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="38">regard</governor>
+          <dependent id="40">blasphemous</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Muslims" type="MISC" score="0.0">
+          <tokens>
+            <token id="37" string="Muslims" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Indian-born" type="MISC" score="0.0">
+          <tokens>
+            <token id="2" string="Indian-born" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Ayatollah Ruhollah Khomeini" type="PERSON" score="0.0">
+          <tokens>
+            <token id="19" string="Ayatollah" />
+            <token id="20" string="Ruhollah" />
+            <token id="21" string="Khomeini" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Feb. 14 , 1989" type="DATE" score="0.0">
+          <tokens>
+            <token id="11" string="Feb." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="1989" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>&amp;quot;The foreign media seems to think that by publishing news of aid from Salman Rushdie to earthquake victims, we will compromise on Rushdie&amp;apost;s fatwa (edict),&amp;quot; Ayatollah Sadeq Khalkhali, known as the &amp;quot;Hanging Judge,&amp;quot; said in Tehran.</content>
+      <tokens>
+        <token id="1" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="foreign" lemma="foreign" stem="foreign" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="media" lemma="media" stem="media" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="seems" lemma="seem" stem="seem" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="think" lemma="think" stem="think" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="publishing" lemma="publish" stem="publish" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="news" lemma="news" stem="new" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="aid" lemma="aid" stem="aid" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Salman" lemma="Salman" stem="salman" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="16" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="true" />
+        <token id="19" string="victims" lemma="victim" stem="victim" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="22" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="compromise" lemma="compromise" stem="compromis" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="Rushdie" lemma="Rushdie" stem="rushdi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="26" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="27" string="fatwa" lemma="fatwa" stem="fatwa" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="edict" lemma="edict" stem="edict" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="Ayatollah" lemma="Ayatollah" stem="ayatollah" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="34" string="Sadeq" lemma="Sadeq" stem="sadeq" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="35" string="Khalkhali" lemma="Khalkhali" stem="khalkhali" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="36" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="known" lemma="know" stem="known" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="Hanging" lemma="hang" stem="hang" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="Judge" lemma="Judge" stem="judg" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="43" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="44" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="45" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="46" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="47" string="Tehran" lemma="Tehran" stem="tehran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="48" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (DT The) (JJ foreign) (NNS media)) (VP (VBZ seems) (S (VP (TO to) (VP (VB think) (SBAR (IN that) (S (PP (IN by) (S (VP (VBG publishing) (NP (NP (NN news)) (PP (IN of) (NP (NN aid)))) (PP (IN from) (NP (NP (NNP Salman) (NNP Rushdie)) (PP (TO to) (NP (NN earthquake) (NNS victims)))))))) (, ,) (NP (PRP we)) (VP (MD will) (VP (VB compromise) (PP (IN on) (NP (NP (NP (NNP Rushdie) (POS 's)) (NN fatwa)) (PRN (-LRB- -LRB-) (NP (NN edict)) (-RRB- -RRB-))))))))))))) (, ,) ('' '') (NP (NP (NNP Ayatollah) (NNP Sadeq) (NNP Khalkhali)) (, ,) (VP (VBN known) (PP (IN as) (NP (NP (DT the) (`` ``) (VBG Hanging)) (NP (NNP Judge))))) (, ,) ('' '')) (VP (VBD said) (PP (IN in) (NP (NNP Tehran)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="news" type="NP">
+          <tokens>
+            <token id="11" string="news" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Rushdie 's fatwa -LRB- edict -RRB-" type="NP">
+          <tokens>
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="edict" type="NP">
+          <tokens>
+            <token id="29" string="edict" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="think that by publishing news of aid from Salman Rushdie to earthquake victims , we will compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="VP">
+          <tokens>
+            <token id="7" string="think" />
+            <token id="8" string="that" />
+            <token id="9" string="by" />
+            <token id="10" string="publishing" />
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+            <token id="14" string="from" />
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+            <token id="20" string="," />
+            <token id="21" string="we" />
+            <token id="22" string="will" />
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Salman Rushdie" type="NP">
+          <tokens>
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The foreign media" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="foreign" />
+            <token id="4" string="media" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="VP">
+          <tokens>
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Rushdie 's fatwa" type="NP">
+          <tokens>
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said in Tehran" type="VP">
+          <tokens>
+            <token id="45" string="said" />
+            <token id="46" string="in" />
+            <token id="47" string="Tehran" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="earthquake victims" type="NP">
+          <tokens>
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="that by publishing news of aid from Salman Rushdie to earthquake victims , we will compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="SBAR">
+          <tokens>
+            <token id="8" string="that" />
+            <token id="9" string="by" />
+            <token id="10" string="publishing" />
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+            <token id="14" string="from" />
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+            <token id="20" string="," />
+            <token id="21" string="we" />
+            <token id="22" string="will" />
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="aid" type="NP">
+          <tokens>
+            <token id="13" string="aid" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Ayatollah Sadeq Khalkhali , known as the `` Hanging Judge , ''" type="NP">
+          <tokens>
+            <token id="33" string="Ayatollah" />
+            <token id="34" string="Sadeq" />
+            <token id="35" string="Khalkhali" />
+            <token id="36" string="," />
+            <token id="37" string="known" />
+            <token id="38" string="as" />
+            <token id="39" string="the" />
+            <token id="40" string="&quot;" />
+            <token id="41" string="Hanging" />
+            <token id="42" string="Judge" />
+            <token id="43" string="," />
+            <token id="44" string="&quot;" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the `` Hanging" type="NP">
+          <tokens>
+            <token id="39" string="the" />
+            <token id="40" string="&quot;" />
+            <token id="41" string="Hanging" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Judge" type="NP">
+          <tokens>
+            <token id="42" string="Judge" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the `` Hanging Judge" type="NP">
+          <tokens>
+            <token id="39" string="the" />
+            <token id="40" string="&quot;" />
+            <token id="41" string="Hanging" />
+            <token id="42" string="Judge" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="news of aid" type="NP">
+          <tokens>
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="Salman Rushdie to earthquake victims" type="NP">
+          <tokens>
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="we" type="NP">
+          <tokens>
+            <token id="21" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="to think that by publishing news of aid from Salman Rushdie to earthquake victims , we will compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="think" />
+            <token id="8" string="that" />
+            <token id="9" string="by" />
+            <token id="10" string="publishing" />
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+            <token id="14" string="from" />
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+            <token id="20" string="," />
+            <token id="21" string="we" />
+            <token id="22" string="will" />
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="Tehran" type="NP">
+          <tokens>
+            <token id="47" string="Tehran" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="seems to think that by publishing news of aid from Salman Rushdie to earthquake victims , we will compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="VP">
+          <tokens>
+            <token id="5" string="seems" />
+            <token id="6" string="to" />
+            <token id="7" string="think" />
+            <token id="8" string="that" />
+            <token id="9" string="by" />
+            <token id="10" string="publishing" />
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+            <token id="14" string="from" />
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+            <token id="20" string="," />
+            <token id="21" string="we" />
+            <token id="22" string="will" />
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="Rushdie 's" type="NP">
+          <tokens>
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="known as the `` Hanging Judge" type="VP">
+          <tokens>
+            <token id="37" string="known" />
+            <token id="38" string="as" />
+            <token id="39" string="the" />
+            <token id="40" string="&quot;" />
+            <token id="41" string="Hanging" />
+            <token id="42" string="Judge" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="publishing news of aid from Salman Rushdie to earthquake victims" type="VP">
+          <tokens>
+            <token id="10" string="publishing" />
+            <token id="11" string="news" />
+            <token id="12" string="of" />
+            <token id="13" string="aid" />
+            <token id="14" string="from" />
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+            <token id="17" string="to" />
+            <token id="18" string="earthquake" />
+            <token id="19" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="will compromise on Rushdie 's fatwa -LRB- edict -RRB-" type="VP">
+          <tokens>
+            <token id="22" string="will" />
+            <token id="23" string="compromise" />
+            <token id="24" string="on" />
+            <token id="25" string="Rushdie" />
+            <token id="26" string="'s" />
+            <token id="27" string="fatwa" />
+            <token id="28" string="(" />
+            <token id="29" string="edict" />
+            <token id="30" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="Ayatollah Sadeq Khalkhali" type="NP">
+          <tokens>
+            <token id="33" string="Ayatollah" />
+            <token id="34" string="Sadeq" />
+            <token id="35" string="Khalkhali" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">media</governor>
+          <dependent id="2">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">media</governor>
+          <dependent id="3">foreign</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">seems</governor>
+          <dependent id="4">media</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="45">said</governor>
+          <dependent id="5">seems</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">think</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">seems</governor>
+          <dependent id="7">think</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">compromise</governor>
+          <dependent id="8">that</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">publishing</governor>
+          <dependent id="9">by</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="23">compromise</governor>
+          <dependent id="10">publishing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">publishing</governor>
+          <dependent id="11">news</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">aid</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">news</governor>
+          <dependent id="13">aid</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Rushdie</governor>
+          <dependent id="14">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Rushdie</governor>
+          <dependent id="15">Salman</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">publishing</governor>
+          <dependent id="16">Rushdie</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">victims</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">victims</governor>
+          <dependent id="18">earthquake</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">Rushdie</governor>
+          <dependent id="19">victims</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">compromise</governor>
+          <dependent id="21">we</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="23">compromise</governor>
+          <dependent id="22">will</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">think</governor>
+          <dependent id="23">compromise</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">fatwa</governor>
+          <dependent id="24">on</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="27">fatwa</governor>
+          <dependent id="25">Rushdie</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">Rushdie</governor>
+          <dependent id="26">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">compromise</governor>
+          <dependent id="27">fatwa</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="27">fatwa</governor>
+          <dependent id="29">edict</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">Khalkhali</governor>
+          <dependent id="33">Ayatollah</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">Khalkhali</governor>
+          <dependent id="34">Sadeq</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="45">said</governor>
+          <dependent id="35">Khalkhali</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="35">Khalkhali</governor>
+          <dependent id="37">known</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="39">the</governor>
+          <dependent id="38">as</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="37">known</governor>
+          <dependent id="39">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="39">the</governor>
+          <dependent id="41">Hanging</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="39">the</governor>
+          <dependent id="42">Judge</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="45">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="47">Tehran</governor>
+          <dependent id="46">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="45">said</governor>
+          <dependent id="47">Tehran</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Tehran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="47" string="Tehran" />
+          </tokens>
+        </entity>
+        <entity id="2" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="18" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="25" string="Rushdie" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Ayatollah Sadeq Khalkhali" type="PERSON" score="0.0">
+          <tokens>
+            <token id="33" string="Ayatollah" />
+            <token id="34" string="Sadeq" />
+            <token id="35" string="Khalkhali" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Salman Rushdie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="Salman" />
+            <token id="16" string="Rushdie" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Judge" type="TITLE" score="0.0">
+          <tokens>
+            <token id="42" string="Judge" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>He indicated they would not.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="indicated" lemma="indicate" stem="indic" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (VP (VBD indicated) (SBAR (S (NP (PRP they)) (VP (MD would) (RB not))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="would not" type="VP">
+          <tokens>
+            <token id="4" string="would" />
+            <token id="5" string="not" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="they would not" type="SBAR">
+          <tokens>
+            <token id="3" string="they" />
+            <token id="4" string="would" />
+            <token id="5" string="not" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="they" type="NP">
+          <tokens>
+            <token id="3" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="indicated they would not" type="VP">
+          <tokens>
+            <token id="2" string="indicated" />
+            <token id="3" string="they" />
+            <token id="4" string="would" />
+            <token id="5" string="not" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">indicated</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">indicated</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">would</governor>
+          <dependent id="3">they</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">indicated</governor>
+          <dependent id="4">would</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="4">would</governor>
+          <dependent id="5">not</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="2-3" string="Salman Rushdie" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="4" string="his" id_sentence="2" />
+        <mention ids_tokens="1" string="Rushdie" id_sentence="3" />
+        <mention ids_tokens="31" string="Rushdie" id_sentence="4" />
+        <mention ids_tokens="29-31" string="Rushdie , 42" id_sentence="5" />
+        <mention ids_tokens="29" string="Rushdie" id_sentence="5" />
+        <mention ids_tokens="25-26" string="Rushdie's" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="7-8-9-10" string="Independent Iranian Earthquake Appeal" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="17-18" string="their appeal" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="15" string="Independent" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="2" string="I" id_sentence="4" />
+        <mention ids_tokens="38" string="his" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="6-7" string="the Independent" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="2" string="It" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="NOMINAL">
+      <referenced ids_tokens="9-10-11" string="the hostage families" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="11" string="we" id_sentence="5" />
+        <mention ids_tokens="21" string="we" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="25-26-27-28" string="the Iranian earthquake victims" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="18-19" string="earthquake victims" id_sentence="7" />
+        <mention ids_tokens="3" string="they" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PROPER">
+      <referenced ids_tokens="15-16-17-18-19" string="Salman Rushdie to earthquake victims" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="8" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

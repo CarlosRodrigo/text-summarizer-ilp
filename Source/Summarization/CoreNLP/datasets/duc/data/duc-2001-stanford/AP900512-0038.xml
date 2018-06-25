@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP900512-0038">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Elizabeth Taylor will remain in the hospital six more weeks due to complications in her fifth week of treatment for pneumonia, doctors said.</content>
+      <tokens>
+        <token id="1" string="Elizabeth" lemma="Elizabeth" stem="elizabeth" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Taylor" lemma="Taylor" stem="taylor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="remain" lemma="remain" stem="remain" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="hospital" lemma="hospital" stem="hospit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="weeks" lemma="week" stem="week" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="due" lemma="due" stem="due" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="complications" lemma="complication" stem="complic" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="fifth" lemma="fifth" stem="fifth" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="17" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="18" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="treatment" lemma="treatment" stem="treatment" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="doctors" lemma="doctor" stem="doctor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="24" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNP Elizabeth) (NNP Taylor)) (VP (MD will) (VP (VB remain) (PP (IN in) (NP (DT the) (NN hospital))) (NP (NP (CD six) (JJR more) (NNS weeks)) (ADJP (JJ due) (PP (TO to) (NP (NP (NNS complications)) (PP (IN in) (NP (NP (PRP$ her) (JJ fifth) (NN week)) (PP (IN of) (NP (NP (NN treatment)) (PP (IN for) (NP (NN pneumonia)))))))))))))) (, ,) (NP (NNS doctors)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="complications" type="NP">
+          <tokens>
+            <token id="13" string="complications" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="her fifth week of treatment for pneumonia" type="NP">
+          <tokens>
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Elizabeth Taylor" type="NP">
+          <tokens>
+            <token id="1" string="Elizabeth" />
+            <token id="2" string="Taylor" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="complications in her fifth week of treatment for pneumonia" type="NP">
+          <tokens>
+            <token id="13" string="complications" />
+            <token id="14" string="in" />
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="her fifth week" type="NP">
+          <tokens>
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="remain in the hospital six more weeks due to complications in her fifth week of treatment for pneumonia" type="VP">
+          <tokens>
+            <token id="4" string="remain" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="hospital" />
+            <token id="8" string="six" />
+            <token id="9" string="more" />
+            <token id="10" string="weeks" />
+            <token id="11" string="due" />
+            <token id="12" string="to" />
+            <token id="13" string="complications" />
+            <token id="14" string="in" />
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="treatment for pneumonia" type="NP">
+          <tokens>
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="six more weeks" type="NP">
+          <tokens>
+            <token id="8" string="six" />
+            <token id="9" string="more" />
+            <token id="10" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="treatment" type="NP">
+          <tokens>
+            <token id="19" string="treatment" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="will remain in the hospital six more weeks due to complications in her fifth week of treatment for pneumonia" type="VP">
+          <tokens>
+            <token id="3" string="will" />
+            <token id="4" string="remain" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="hospital" />
+            <token id="8" string="six" />
+            <token id="9" string="more" />
+            <token id="10" string="weeks" />
+            <token id="11" string="due" />
+            <token id="12" string="to" />
+            <token id="13" string="complications" />
+            <token id="14" string="in" />
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="doctors" type="NP">
+          <tokens>
+            <token id="23" string="doctors" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="six more weeks due to complications in her fifth week of treatment for pneumonia" type="NP">
+          <tokens>
+            <token id="8" string="six" />
+            <token id="9" string="more" />
+            <token id="10" string="weeks" />
+            <token id="11" string="due" />
+            <token id="12" string="to" />
+            <token id="13" string="complications" />
+            <token id="14" string="in" />
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="due to complications in her fifth week of treatment for pneumonia" type="ADJP">
+          <tokens>
+            <token id="11" string="due" />
+            <token id="12" string="to" />
+            <token id="13" string="complications" />
+            <token id="14" string="in" />
+            <token id="15" string="her" />
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+            <token id="18" string="of" />
+            <token id="19" string="treatment" />
+            <token id="20" string="for" />
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="pneumonia" type="NP">
+          <tokens>
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="said" type="VP">
+          <tokens>
+            <token id="24" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the hospital" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="hospital" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Taylor</governor>
+          <dependent id="1">Elizabeth</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">remain</governor>
+          <dependent id="2">Taylor</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">remain</governor>
+          <dependent id="3">will</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="24">said</governor>
+          <dependent id="4">remain</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">hospital</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">hospital</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">remain</governor>
+          <dependent id="7">hospital</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">weeks</governor>
+          <dependent id="8">six</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">weeks</governor>
+          <dependent id="9">more</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="4">remain</governor>
+          <dependent id="10">weeks</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">weeks</governor>
+          <dependent id="11">due</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">complications</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">due</governor>
+          <dependent id="13">complications</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">week</governor>
+          <dependent id="14">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="17">week</governor>
+          <dependent id="15">her</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">week</governor>
+          <dependent id="16">fifth</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">complications</governor>
+          <dependent id="17">week</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">treatment</governor>
+          <dependent id="18">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">week</governor>
+          <dependent id="19">treatment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">pneumonia</governor>
+          <dependent id="20">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">treatment</governor>
+          <dependent id="21">pneumonia</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">said</governor>
+          <dependent id="23">doctors</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="24">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="six" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="six" />
+          </tokens>
+        </entity>
+        <entity id="2" string="weeks" type="DURATION" score="0.0">
+          <tokens>
+            <token id="10" string="weeks" />
+          </tokens>
+        </entity>
+        <entity id="3" string="pneumonia" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="21" string="pneumonia" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Elizabeth Taylor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Elizabeth" />
+            <token id="2" string="Taylor" />
+          </tokens>
+        </entity>
+        <entity id="5" string="fifth week" type="DATE" score="0.0">
+          <tokens>
+            <token id="16" string="fifth" />
+            <token id="17" string="week" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>The recovery of Miss Taylor, near death two weeks ago with viral pneumonia, was dealt a setback by bacterial pneumonia and a yeast infection, her doctors said Friday.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="recovery" lemma="recovery" stem="recoveri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="Taylor" lemma="Taylor" stem="taylor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="death" lemma="death" stem="death" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="weeks" lemma="week" stem="week" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="11" string="ago" lemma="ago" stem="ago" pos="IN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="12" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="viral" lemma="viral" stem="viral" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="dealt" lemma="deal" stem="dealt" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="setback" lemma="setback" stem="setback" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="bacterial" lemma="bacterial" stem="bacteri" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="23" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="yeast" lemma="yeast" stem="yeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="infection" lemma="infection" stem="infect" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="27" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="29" string="doctors" lemma="doctor" stem="doctor" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="30" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT The) (NN recovery)) (PP (IN of) (NP (NNP Miss) (NNP Taylor))) (, ,) (PP (IN near) (NP (NP (NN death)) (PP (ADVP (NP (CD two) (NNS weeks)) (IN ago)) (IN with) (NP (JJ viral) (NN pneumonia))))) (, ,)) (VP (VBD was) (VP (VBN dealt) (NP (DT a) (NN setback)) (PP (IN by) (NP (NP (JJ bacterial) (NN pneumonia)) (CC and) (NP (DT a) (NN yeast) (NN infection))))))) (, ,) (NP (PRP$ her) (NNS doctors)) (VP (VBD said) (NP-TMP (NNP Friday))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="death two weeks ago with viral pneumonia" type="NP">
+          <tokens>
+            <token id="8" string="death" />
+            <token id="9" string="two" />
+            <token id="10" string="weeks" />
+            <token id="11" string="ago" />
+            <token id="12" string="with" />
+            <token id="13" string="viral" />
+            <token id="14" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="death" type="NP">
+          <tokens>
+            <token id="8" string="death" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a setback" type="NP">
+          <tokens>
+            <token id="18" string="a" />
+            <token id="19" string="setback" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a yeast infection" type="NP">
+          <tokens>
+            <token id="24" string="a" />
+            <token id="25" string="yeast" />
+            <token id="26" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was dealt a setback by bacterial pneumonia and a yeast infection" type="VP">
+          <tokens>
+            <token id="16" string="was" />
+            <token id="17" string="dealt" />
+            <token id="18" string="a" />
+            <token id="19" string="setback" />
+            <token id="20" string="by" />
+            <token id="21" string="bacterial" />
+            <token id="22" string="pneumonia" />
+            <token id="23" string="and" />
+            <token id="24" string="a" />
+            <token id="25" string="yeast" />
+            <token id="26" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="her doctors" type="NP">
+          <tokens>
+            <token id="28" string="her" />
+            <token id="29" string="doctors" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="viral pneumonia" type="NP">
+          <tokens>
+            <token id="13" string="viral" />
+            <token id="14" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The recovery of Miss Taylor , near death two weeks ago with viral pneumonia ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="recovery" />
+            <token id="3" string="of" />
+            <token id="4" string="Miss" />
+            <token id="5" string="Taylor" />
+            <token id="6" string="," />
+            <token id="7" string="near" />
+            <token id="8" string="death" />
+            <token id="9" string="two" />
+            <token id="10" string="weeks" />
+            <token id="11" string="ago" />
+            <token id="12" string="with" />
+            <token id="13" string="viral" />
+            <token id="14" string="pneumonia" />
+            <token id="15" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="two weeks" type="NP">
+          <tokens>
+            <token id="9" string="two" />
+            <token id="10" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="dealt a setback by bacterial pneumonia and a yeast infection" type="VP">
+          <tokens>
+            <token id="17" string="dealt" />
+            <token id="18" string="a" />
+            <token id="19" string="setback" />
+            <token id="20" string="by" />
+            <token id="21" string="bacterial" />
+            <token id="22" string="pneumonia" />
+            <token id="23" string="and" />
+            <token id="24" string="a" />
+            <token id="25" string="yeast" />
+            <token id="26" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="bacterial pneumonia and a yeast infection" type="NP">
+          <tokens>
+            <token id="21" string="bacterial" />
+            <token id="22" string="pneumonia" />
+            <token id="23" string="and" />
+            <token id="24" string="a" />
+            <token id="25" string="yeast" />
+            <token id="26" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Miss Taylor" type="NP">
+          <tokens>
+            <token id="4" string="Miss" />
+            <token id="5" string="Taylor" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="The recovery" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="bacterial pneumonia" type="NP">
+          <tokens>
+            <token id="21" string="bacterial" />
+            <token id="22" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="said Friday" type="VP">
+          <tokens>
+            <token id="30" string="said" />
+            <token id="31" string="Friday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">recovery</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="17">dealt</governor>
+          <dependent id="2">recovery</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">Taylor</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Taylor</governor>
+          <dependent id="4">Miss</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">recovery</governor>
+          <dependent id="5">Taylor</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">death</governor>
+          <dependent id="7">near</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">recovery</governor>
+          <dependent id="8">death</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">weeks</governor>
+          <dependent id="9">two</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">pneumonia</governor>
+          <dependent id="10">weeks</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">weeks</governor>
+          <dependent id="11">ago</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">pneumonia</governor>
+          <dependent id="12">with</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">pneumonia</governor>
+          <dependent id="13">viral</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">death</governor>
+          <dependent id="14">pneumonia</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="17">dealt</governor>
+          <dependent id="16">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="30">said</governor>
+          <dependent id="17">dealt</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">setback</governor>
+          <dependent id="18">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="17">dealt</governor>
+          <dependent id="19">setback</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">pneumonia</governor>
+          <dependent id="20">by</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">pneumonia</governor>
+          <dependent id="21">bacterial</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">dealt</governor>
+          <dependent id="22">pneumonia</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="22">pneumonia</governor>
+          <dependent id="23">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">infection</governor>
+          <dependent id="24">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">infection</governor>
+          <dependent id="25">yeast</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="22">pneumonia</governor>
+          <dependent id="26">infection</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="29">doctors</governor>
+          <dependent id="28">her</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="30">said</governor>
+          <dependent id="29">doctors</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="30">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="30">said</governor>
+          <dependent id="31">Friday</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="two weeks ago" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="two" />
+            <token id="10" string="weeks" />
+            <token id="11" string="ago" />
+          </tokens>
+        </entity>
+        <entity id="2" string="infection" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="26" string="infection" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Taylor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="5" string="Taylor" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="31" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="pneumonia" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="14" string="pneumonia" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="false">
+      <content>``This secondary bacterial pneumonia often follows viral pneumonia.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="This" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="secondary" lemma="secondary" stem="secondari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="bacterial" lemma="bacterial" stem="bacteri" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="6" string="often" lemma="often" stem="often" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="follows" lemma="follow" stem="follow" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="viral" lemma="viral" stem="viral" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="10" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (DT This) (JJ secondary) (JJ bacterial) (NN pneumonia)) (ADVP (RB often)) (VP (VBZ follows) (NP (JJ viral) (NN pneumonia))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="viral pneumonia" type="NP">
+          <tokens>
+            <token id="8" string="viral" />
+            <token id="9" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="follows viral pneumonia" type="VP">
+          <tokens>
+            <token id="7" string="follows" />
+            <token id="8" string="viral" />
+            <token id="9" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="This secondary bacterial pneumonia" type="NP">
+          <tokens>
+            <token id="2" string="This" />
+            <token id="3" string="secondary" />
+            <token id="4" string="bacterial" />
+            <token id="5" string="pneumonia" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="5">pneumonia</governor>
+          <dependent id="2">This</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">pneumonia</governor>
+          <dependent id="3">secondary</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">pneumonia</governor>
+          <dependent id="4">bacterial</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">follows</governor>
+          <dependent id="5">pneumonia</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">follows</governor>
+          <dependent id="6">often</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">follows</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">pneumonia</governor>
+          <dependent id="8">viral</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">follows</governor>
+          <dependent id="9">pneumonia</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="pneumonia" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="5" string="pneumonia" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Her condition is listed as stable and she is improving significantly,&amp;apost;&amp;apost; they said in a statement released by St. John&amp;apost;s Hospital and Health Center.</content>
+      <tokens>
+        <token id="1" string="Her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="listed" lemma="list" stem="list" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="stable" lemma="stable" stem="stabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="improving" lemma="improve" stem="improv" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="significantly" lemma="significantly" stem="significantli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="statement" lemma="statement" stem="statement" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="released" lemma="release" stem="releas" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="St." lemma="St." stem="st." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="John" lemma="John" stem="john" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="Hospital" lemma="Hospital" stem="hospit" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="Health" lemma="Health" stem="health" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="Center" lemma="Center" stem="center" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (S (NP (PRP$ Her) (NN condition)) (VP (VBZ is) (VP (VBN listed) (PP (IN as) (ADJP (JJ stable)))))) (CC and) (S (NP (PRP she)) (VP (VBZ is) (VP (VBG improving) (ADVP (RB significantly)))))) (, ,) ('' '') (NP (PRP they)) (VP (VBD said) (PP (IN in) (NP (NP (DT a) (NN statement)) (VP (VBN released) (PP (IN by) (NP (NP (NNP St.) (NNP John) (POS 's)) (NNP Hospital) (CC and) (NNP Health) (NNP Center))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a statement" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="statement" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="is listed as stable" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="listed" />
+            <token id="5" string="as" />
+            <token id="6" string="stable" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="listed as stable" type="VP">
+          <tokens>
+            <token id="4" string="listed" />
+            <token id="5" string="as" />
+            <token id="6" string="stable" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="St. John 's" type="NP">
+          <tokens>
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="she" type="NP">
+          <tokens>
+            <token id="8" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="improving significantly" type="VP">
+          <tokens>
+            <token id="10" string="improving" />
+            <token id="11" string="significantly" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Her condition" type="NP">
+          <tokens>
+            <token id="1" string="Her" />
+            <token id="2" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="they" type="NP">
+          <tokens>
+            <token id="14" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said in a statement released by St. John 's Hospital and Health Center" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string="in" />
+            <token id="17" string="a" />
+            <token id="18" string="statement" />
+            <token id="19" string="released" />
+            <token id="20" string="by" />
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+            <token id="24" string="Hospital" />
+            <token id="25" string="and" />
+            <token id="26" string="Health" />
+            <token id="27" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="stable" type="ADJP">
+          <tokens>
+            <token id="6" string="stable" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a statement released by St. John 's Hospital and Health Center" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="statement" />
+            <token id="19" string="released" />
+            <token id="20" string="by" />
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+            <token id="24" string="Hospital" />
+            <token id="25" string="and" />
+            <token id="26" string="Health" />
+            <token id="27" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="St. John 's Hospital and Health Center" type="NP">
+          <tokens>
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+            <token id="24" string="Hospital" />
+            <token id="25" string="and" />
+            <token id="26" string="Health" />
+            <token id="27" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="is improving significantly" type="VP">
+          <tokens>
+            <token id="9" string="is" />
+            <token id="10" string="improving" />
+            <token id="11" string="significantly" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="released by St. John 's Hospital and Health Center" type="VP">
+          <tokens>
+            <token id="19" string="released" />
+            <token id="20" string="by" />
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+            <token id="24" string="Hospital" />
+            <token id="25" string="and" />
+            <token id="26" string="Health" />
+            <token id="27" string="Center" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="2">condition</governor>
+          <dependent id="1">Her</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">listed</governor>
+          <dependent id="2">condition</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">listed</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="4">listed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">stable</governor>
+          <dependent id="5">as</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">listed</governor>
+          <dependent id="6">stable</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">listed</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">improving</governor>
+          <dependent id="8">she</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="10">improving</governor>
+          <dependent id="9">is</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">listed</governor>
+          <dependent id="10">improving</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">improving</governor>
+          <dependent id="11">significantly</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="14">they</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">statement</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">statement</governor>
+          <dependent id="17">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">said</governor>
+          <dependent id="18">statement</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="18">statement</governor>
+          <dependent id="19">released</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Hospital</governor>
+          <dependent id="20">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">John</governor>
+          <dependent id="21">St.</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="24">Hospital</governor>
+          <dependent id="22">John</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">John</governor>
+          <dependent id="23">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">released</governor>
+          <dependent id="24">Hospital</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="24">Hospital</governor>
+          <dependent id="25">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Center</governor>
+          <dependent id="26">Health</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">Hospital</governor>
+          <dependent id="27">Center</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="St. John 's Hospital and Health Center" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="21" string="St." />
+            <token id="22" string="John" />
+            <token id="23" string="'s" />
+            <token id="24" string="Hospital" />
+            <token id="25" string="and" />
+            <token id="26" string="Health" />
+            <token id="27" string="Center" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Earlier this week Miss Taylor&amp;apost;s New York publicist, Chen Sam, had said the 58-year-old actress was improving and would be released from the hospital this week to recuperate at home.</content>
+      <tokens>
+        <token id="1" string="Earlier" lemma="earlier" stem="earlier" pos="RBR" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="2" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="3" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="4" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="Taylor" lemma="Taylor" stem="taylor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="6" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="publicist" lemma="publicist" stem="publicist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Chen" lemma="Chen" stem="chen" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="12" string="Sam" lemma="Sam" stem="sam" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="58-year-old" lemma="58-year-old" stem="58-year-old" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="actress" lemma="actress" stem="actress" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="improving" lemma="improve" stem="improv" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="released" lemma="release" stem="releas" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="hospital" lemma="hospital" stem="hospit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="29" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="30" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="recuperate" lemma="recuperate" stem="recuper" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="home" lemma="home" stem="home" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP-TMP (RBR Earlier) (DT this) (NN week)) (NP (NP (NP (NNP Miss) (NNP Taylor) (POS 's)) (NNP New) (NNP York) (NN publicist)) (, ,) (NP (NNP Chen) (NNP Sam)) (, ,)) (VP (VBD had) (VP (VBN said) (SBAR (S (NP (DT the) (JJ 58-year-old) (NN actress)) (VP (VP (VBD was) (ADJP (VBG improving))) (CC and) (VP (MD would) (VP (VB be) (VP (VBN released) (PP (IN from) (NP (NP (DT the) (NN hospital)) (NP (DT this) (NN week)))) (S (VP (TO to) (VP (VB recuperate) (PP (IN at) (NP (NN home)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the 58-year-old actress" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="58-year-old" />
+            <token id="18" string="actress" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Chen Sam" type="NP">
+          <tokens>
+            <token id="11" string="Chen" />
+            <token id="12" string="Sam" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was improving and would be released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="19" string="was" />
+            <token id="20" string="improving" />
+            <token id="21" string="and" />
+            <token id="22" string="would" />
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="would be released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="22" string="would" />
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Miss Taylor 's New York publicist , Chen Sam ," type="NP">
+          <tokens>
+            <token id="4" string="Miss" />
+            <token id="5" string="Taylor" />
+            <token id="6" string="'s" />
+            <token id="7" string="New" />
+            <token id="8" string="York" />
+            <token id="9" string="publicist" />
+            <token id="10" string="," />
+            <token id="11" string="Chen" />
+            <token id="12" string="Sam" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the 58-year-old actress was improving and would be released from the hospital this week to recuperate at home" type="SBAR">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="58-year-old" />
+            <token id="18" string="actress" />
+            <token id="19" string="was" />
+            <token id="20" string="improving" />
+            <token id="21" string="and" />
+            <token id="22" string="would" />
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="home" type="NP">
+          <tokens>
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Miss Taylor 's New York publicist" type="NP">
+          <tokens>
+            <token id="4" string="Miss" />
+            <token id="5" string="Taylor" />
+            <token id="6" string="'s" />
+            <token id="7" string="New" />
+            <token id="8" string="York" />
+            <token id="9" string="publicist" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="recuperate at home" type="VP">
+          <tokens>
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="said the 58-year-old actress was improving and would be released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string="the" />
+            <token id="17" string="58-year-old" />
+            <token id="18" string="actress" />
+            <token id="19" string="was" />
+            <token id="20" string="improving" />
+            <token id="21" string="and" />
+            <token id="22" string="would" />
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="improving" type="ADJP">
+          <tokens>
+            <token id="20" string="improving" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="was improving" type="VP">
+          <tokens>
+            <token id="19" string="was" />
+            <token id="20" string="improving" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="be released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="to recuperate at home" type="VP">
+          <tokens>
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="this week" type="NP">
+          <tokens>
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="had said the 58-year-old actress was improving and would be released from the hospital this week to recuperate at home" type="VP">
+          <tokens>
+            <token id="14" string="had" />
+            <token id="15" string="said" />
+            <token id="16" string="the" />
+            <token id="17" string="58-year-old" />
+            <token id="18" string="actress" />
+            <token id="19" string="was" />
+            <token id="20" string="improving" />
+            <token id="21" string="and" />
+            <token id="22" string="would" />
+            <token id="23" string="be" />
+            <token id="24" string="released" />
+            <token id="25" string="from" />
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+            <token id="30" string="to" />
+            <token id="31" string="recuperate" />
+            <token id="32" string="at" />
+            <token id="33" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="the hospital this week" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Miss Taylor 's" type="NP">
+          <tokens>
+            <token id="4" string="Miss" />
+            <token id="5" string="Taylor" />
+            <token id="6" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the hospital" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="hospital" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="3">week</governor>
+          <dependent id="1">Earlier</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">week</governor>
+          <dependent id="2">this</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="15">said</governor>
+          <dependent id="3">week</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Taylor</governor>
+          <dependent id="4">Miss</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="9">publicist</governor>
+          <dependent id="5">Taylor</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">Taylor</governor>
+          <dependent id="6">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">publicist</governor>
+          <dependent id="7">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">publicist</governor>
+          <dependent id="8">York</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="9">publicist</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Sam</governor>
+          <dependent id="11">Chen</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="9">publicist</governor>
+          <dependent id="12">Sam</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="15">said</governor>
+          <dependent id="14">had</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">actress</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">actress</governor>
+          <dependent id="17">58-year-old</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">improving</governor>
+          <dependent id="18">actress</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="20">improving</governor>
+          <dependent id="19">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="20">improving</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="20">improving</governor>
+          <dependent id="21">and</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">released</governor>
+          <dependent id="22">would</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">released</governor>
+          <dependent id="23">be</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="20">improving</governor>
+          <dependent id="24">released</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">hospital</governor>
+          <dependent id="25">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">hospital</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">released</governor>
+          <dependent id="27">hospital</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">week</governor>
+          <dependent id="28">this</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="27">hospital</governor>
+          <dependent id="29">week</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="31">recuperate</governor>
+          <dependent id="30">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="24">released</governor>
+          <dependent id="31">recuperate</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">home</governor>
+          <dependent id="32">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">recuperate</governor>
+          <dependent id="33">home</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="New" />
+            <token id="8" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Chen Sam" type="PERSON" score="0.0">
+          <tokens>
+            <token id="11" string="Chen" />
+            <token id="12" string="Sam" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Taylor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="5" string="Taylor" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Earlier this week" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Earlier" />
+            <token id="2" string="this" />
+            <token id="3" string="week" />
+          </tokens>
+        </entity>
+        <entity id="5" string="58-year-old" type="DURATION" score="0.0">
+          <tokens>
+            <token id="17" string="58-year-old" />
+          </tokens>
+        </entity>
+        <entity id="6" string="this week" type="DATE" score="0.0">
+          <tokens>
+            <token id="28" string="this" />
+            <token id="29" string="week" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>During a news conference last month, Miss Taylor&amp;apost;s doctors revealed she was near death on April 22.</content>
+      <tokens>
+        <token id="1" string="During" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="news" lemma="news" stem="new" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="conference" lemma="conference" stem="confer" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="Taylor" lemma="Taylor" stem="taylor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="10" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="doctors" lemma="doctor" stem="doctor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="revealed" lemma="reveal" stem="reveal" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="death" lemma="death" stem="death" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="19" string="22" lemma="22" stem="22" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN During) (NP (DT a) (NN news) (NN conference))) (NP-TMP (JJ last) (NN month)) (, ,) (NP (NP (NNP Miss) (NNP Taylor) (POS 's)) (NNS doctors)) (VP (VBD revealed) (SBAR (S (NP (PRP she)) (VP (VBD was) (PP (IN near) (NP (NP (NN death)) (PP (IN on) (NP (NNP April) (CD 22))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="she was near death on April 22" type="SBAR">
+          <tokens>
+            <token id="13" string="she" />
+            <token id="14" string="was" />
+            <token id="15" string="near" />
+            <token id="16" string="death" />
+            <token id="17" string="on" />
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="was near death on April 22" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="near" />
+            <token id="16" string="death" />
+            <token id="17" string="on" />
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="April 22" type="NP">
+          <tokens>
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a news conference" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="news" />
+            <token id="4" string="conference" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="death" type="NP">
+          <tokens>
+            <token id="16" string="death" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Miss Taylor 's doctors" type="NP">
+          <tokens>
+            <token id="8" string="Miss" />
+            <token id="9" string="Taylor" />
+            <token id="10" string="'s" />
+            <token id="11" string="doctors" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="revealed she was near death on April 22" type="VP">
+          <tokens>
+            <token id="12" string="revealed" />
+            <token id="13" string="she" />
+            <token id="14" string="was" />
+            <token id="15" string="near" />
+            <token id="16" string="death" />
+            <token id="17" string="on" />
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="death on April 22" type="NP">
+          <tokens>
+            <token id="16" string="death" />
+            <token id="17" string="on" />
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Miss Taylor 's" type="NP">
+          <tokens>
+            <token id="8" string="Miss" />
+            <token id="9" string="Taylor" />
+            <token id="10" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="she" type="NP">
+          <tokens>
+            <token id="13" string="she" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">conference</governor>
+          <dependent id="1">During</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">conference</governor>
+          <dependent id="2">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">conference</governor>
+          <dependent id="3">news</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">revealed</governor>
+          <dependent id="4">conference</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">month</governor>
+          <dependent id="5">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="12">revealed</governor>
+          <dependent id="6">month</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Taylor</governor>
+          <dependent id="8">Miss</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="11">doctors</governor>
+          <dependent id="9">Taylor</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Taylor</governor>
+          <dependent id="10">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">revealed</governor>
+          <dependent id="11">doctors</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">revealed</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">death</governor>
+          <dependent id="13">she</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="16">death</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">death</governor>
+          <dependent id="15">near</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="12">revealed</governor>
+          <dependent id="16">death</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">April</governor>
+          <dependent id="17">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">death</governor>
+          <dependent id="18">April</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="18">April</governor>
+          <dependent id="19">22</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="April 22" type="DATE" score="0.0">
+          <tokens>
+            <token id="18" string="April" />
+            <token id="19" string="22" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Taylor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="9" string="Taylor" />
+          </tokens>
+        </entity>
+        <entity id="3" string="last month" type="DATE" score="0.0">
+          <tokens>
+            <token id="5" string="last" />
+            <token id="6" string="month" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The Oscar-winning star of ``Who&amp;apost;s Afraid of Virginia Woolf?&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Oscar-winning" lemma="oscar-winning" stem="oscar-win" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="3" string="star" lemma="star" stem="star" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Afraid" lemma="Afraid" stem="afraid" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Virginia" lemma="Virginia" stem="virginia" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="Woolf" lemma="Woolf" stem="woolf" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="?" lemma="?" stem="?" pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (DT The) (JJ Oscar-winning) (NN star)) (PP (IN of) (`` ``) (SBARQ (WHNP (WP Who)) (SQ (VBZ 's) (NP (NP (NNP Afraid)) (PP (IN of) (NP (NNP Virginia) (NNP Woolf))))) (. ?)) ('' ''))))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Afraid of Virginia Woolf" type="NP">
+          <tokens>
+            <token id="8" string="Afraid" />
+            <token id="9" string="of" />
+            <token id="10" string="Virginia" />
+            <token id="11" string="Woolf" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Virginia Woolf" type="NP">
+          <tokens>
+            <token id="10" string="Virginia" />
+            <token id="11" string="Woolf" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Afraid" type="NP">
+          <tokens>
+            <token id="8" string="Afraid" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The Oscar-winning star of `` Who 's Afraid of Virginia Woolf ? ''" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Oscar-winning" />
+            <token id="3" string="star" />
+            <token id="4" string="of" />
+            <token id="5" string="``" />
+            <token id="6" string="Who" />
+            <token id="7" string="'s" />
+            <token id="8" string="Afraid" />
+            <token id="9" string="of" />
+            <token id="10" string="Virginia" />
+            <token id="11" string="Woolf" />
+            <token id="12" string="?" />
+            <token id="13" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The Oscar-winning star" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Oscar-winning" />
+            <token id="3" string="star" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">star</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">star</governor>
+          <dependent id="2">Oscar-winning</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">star</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Who</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="3">star</governor>
+          <dependent id="6">Who</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">Who</governor>
+          <dependent id="7">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">Who</governor>
+          <dependent id="8">Afraid</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Woolf</governor>
+          <dependent id="9">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Woolf</governor>
+          <dependent id="10">Virginia</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">Afraid</governor>
+          <dependent id="11">Woolf</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Oscar-winning" type="MISC" score="0.0">
+          <tokens>
+            <token id="2" string="Oscar-winning" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Virginia Woolf" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="10" string="Virginia" />
+            <token id="11" string="Woolf" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>and ``Butterfield 8&amp;apost;&amp;apost; entered Daniel Freeman Marina Hospital on April 9 with a sinus infection, but her condition deteriorated and she was moved to St. John&amp;apost;s for treatment of viral pneumonia.</content>
+      <tokens>
+        <token id="1" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Butterfield" lemma="Butterfield" stem="butterfield" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="8" lemma="8" stem="8" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="entered" lemma="enter" stem="enter" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="Daniel" lemma="Daniel" stem="daniel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="8" string="Freeman" lemma="Freeman" stem="freeman" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="Marina" lemma="Marina" stem="marina" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="Hospital" lemma="Hospital" stem="hospit" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="13" string="9" lemma="9" stem="9" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="sinus" lemma="sinus" stem="sinu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="infection" lemma="infection" stem="infect" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="deteriorated" lemma="deteriorated" stem="deterior" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="25" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="moved" lemma="move" stem="move" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="St." lemma="St." stem="st." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="29" string="John" lemma="John" stem="john" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="30" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="treatment" lemma="treatment" stem="treatment" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="viral" lemma="viral" stem="viral" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="pneumonia" lemma="pneumonia" stem="pneumonia" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (CC and) (`` ``) (NP (NNP Butterfield) (CD 8)) ('' '') (VP (VBD entered) (NP (NP (NNP Daniel) (NNP Freeman) (NNP Marina) (NNP Hospital)) (PP (IN on) (NP (NNP April) (CD 9)))) (PP (IN with) (NP (DT a) (NN sinus) (NN infection))))) (, ,) (CC but) (S (NP (NP (PRP$ her) (NN condition) (JJ deteriorated)) (CC and) (NP (PRP she))) (VP (VBD was) (VP (VBN moved) (PP (TO to) (NP (NP (NNP St.) (NNP John) (POS 's)) (PP (IN for) (NP (NN treatment))) (PP (IN of) (NP (JJ viral) (NN pneumonia)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="her condition deteriorated and she" type="NP">
+          <tokens>
+            <token id="20" string="her" />
+            <token id="21" string="condition" />
+            <token id="22" string="deteriorated" />
+            <token id="23" string="and" />
+            <token id="24" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Butterfield 8" type="NP">
+          <tokens>
+            <token id="3" string="Butterfield" />
+            <token id="4" string="8" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="her condition deteriorated" type="NP">
+          <tokens>
+            <token id="20" string="her" />
+            <token id="21" string="condition" />
+            <token id="22" string="deteriorated" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was moved to St. John 's for treatment of viral pneumonia" type="VP">
+          <tokens>
+            <token id="25" string="was" />
+            <token id="26" string="moved" />
+            <token id="27" string="to" />
+            <token id="28" string="St." />
+            <token id="29" string="John" />
+            <token id="30" string="'s" />
+            <token id="31" string="for" />
+            <token id="32" string="treatment" />
+            <token id="33" string="of" />
+            <token id="34" string="viral" />
+            <token id="35" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="St. John 's" type="NP">
+          <tokens>
+            <token id="28" string="St." />
+            <token id="29" string="John" />
+            <token id="30" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Daniel Freeman Marina Hospital" type="NP">
+          <tokens>
+            <token id="7" string="Daniel" />
+            <token id="8" string="Freeman" />
+            <token id="9" string="Marina" />
+            <token id="10" string="Hospital" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="she" type="NP">
+          <tokens>
+            <token id="24" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="treatment" type="NP">
+          <tokens>
+            <token id="32" string="treatment" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="viral pneumonia" type="NP">
+          <tokens>
+            <token id="34" string="viral" />
+            <token id="35" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a sinus infection" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="sinus" />
+            <token id="17" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="moved to St. John 's for treatment of viral pneumonia" type="VP">
+          <tokens>
+            <token id="26" string="moved" />
+            <token id="27" string="to" />
+            <token id="28" string="St." />
+            <token id="29" string="John" />
+            <token id="30" string="'s" />
+            <token id="31" string="for" />
+            <token id="32" string="treatment" />
+            <token id="33" string="of" />
+            <token id="34" string="viral" />
+            <token id="35" string="pneumonia" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="April 9" type="NP">
+          <tokens>
+            <token id="12" string="April" />
+            <token id="13" string="9" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Daniel Freeman Marina Hospital on April 9" type="NP">
+          <tokens>
+            <token id="7" string="Daniel" />
+            <token id="8" string="Freeman" />
+            <token id="9" string="Marina" />
+            <token id="10" string="Hospital" />
+            <token id="11" string="on" />
+            <token id="12" string="April" />
+            <token id="13" string="9" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="entered Daniel Freeman Marina Hospital on April 9 with a sinus infection" type="VP">
+          <tokens>
+            <token id="6" string="entered" />
+            <token id="7" string="Daniel" />
+            <token id="8" string="Freeman" />
+            <token id="9" string="Marina" />
+            <token id="10" string="Hospital" />
+            <token id="11" string="on" />
+            <token id="12" string="April" />
+            <token id="13" string="9" />
+            <token id="14" string="with" />
+            <token id="15" string="a" />
+            <token id="16" string="sinus" />
+            <token id="17" string="infection" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="St. John 's for treatment of viral pneumonia" type="NP">
+          <tokens>
+            <token id="28" string="St." />
+            <token id="29" string="John" />
+            <token id="30" string="'s" />
+            <token id="31" string="for" />
+            <token id="32" string="treatment" />
+            <token id="33" string="of" />
+            <token id="34" string="viral" />
+            <token id="35" string="pneumonia" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="cc">
+          <governor id="6">entered</governor>
+          <dependent id="1">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">entered</governor>
+          <dependent id="3">Butterfield</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Butterfield</governor>
+          <dependent id="4">8</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">entered</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Hospital</governor>
+          <dependent id="7">Daniel</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Hospital</governor>
+          <dependent id="8">Freeman</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Hospital</governor>
+          <dependent id="9">Marina</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">entered</governor>
+          <dependent id="10">Hospital</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">April</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">Hospital</governor>
+          <dependent id="12">April</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">April</governor>
+          <dependent id="13">9</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">infection</governor>
+          <dependent id="14">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">infection</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">infection</governor>
+          <dependent id="16">sinus</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">entered</governor>
+          <dependent id="17">infection</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">entered</governor>
+          <dependent id="19">but</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="21">condition</governor>
+          <dependent id="20">her</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="26">moved</governor>
+          <dependent id="21">condition</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">condition</governor>
+          <dependent id="22">deteriorated</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="21">condition</governor>
+          <dependent id="23">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="21">condition</governor>
+          <dependent id="24">she</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="26">moved</governor>
+          <dependent id="25">was</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">entered</governor>
+          <dependent id="26">moved</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">John</governor>
+          <dependent id="27">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">John</governor>
+          <dependent id="28">St.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">moved</governor>
+          <dependent id="29">John</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">John</governor>
+          <dependent id="30">'s</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">treatment</governor>
+          <dependent id="31">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">John</governor>
+          <dependent id="32">treatment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">pneumonia</governor>
+          <dependent id="33">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="35">pneumonia</governor>
+          <dependent id="34">viral</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">John</governor>
+          <dependent id="35">pneumonia</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="infection" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="17" string="infection" />
+          </tokens>
+        </entity>
+        <entity id="2" string="St. John" type="PERSON" score="0.0">
+          <tokens>
+            <token id="28" string="St." />
+            <token id="29" string="John" />
+          </tokens>
+        </entity>
+        <entity id="3" string="April 9" type="DATE" score="0.0">
+          <tokens>
+            <token id="12" string="April" />
+            <token id="13" string="9" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Daniel Freeman" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Daniel" />
+            <token id="8" string="Freeman" />
+          </tokens>
+        </entity>
+        <entity id="5" string="8" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="8" />
+          </tokens>
+        </entity>
+        <entity id="6" string="pneumonia" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="35" string="pneumonia" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Marina Hospital" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Marina" />
+            <token id="10" string="Hospital" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="1-2" string="Elizabeth Taylor" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="4-5" string="Miss Taylor" id_sentence="2" />
+        <mention ids_tokens="5" string="Taylor" id_sentence="2" />
+        <mention ids_tokens="28" string="her" id_sentence="2" />
+        <mention ids_tokens="1" string="Her" id_sentence="4" />
+        <mention ids_tokens="4-6" string="Miss Taylor's" id_sentence="5" />
+        <mention ids_tokens="8-10" string="Miss Taylor's" id_sentence="6" />
+        <mention ids_tokens="13" string="she" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="15-16-17-18-19-20-21" string="her fifth week of treatment for pneumonia" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1-3" string="Earlier this week" id_sentence="5" />
+        <mention ids_tokens="28-29" string="this week" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="NOMINAL">
+      <referenced ids_tokens="28-29" string="her doctors" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="23" string="doctors" id_sentence="1" />
+        <mention ids_tokens="14" string="they" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="2" string="Oscar-winning" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="20" string="her" id_sentence="8" />
+        <mention ids_tokens="24" string="she" id_sentence="8" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

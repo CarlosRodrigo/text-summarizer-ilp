@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="WSJ910718-0143">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>For that reason and others, the Constitutional Convention unanimously rejected term limits and the First Congress soundly defeated two subsequent term-limit proposals.</content>
+      <tokens>
+        <token id="1" string="For" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="reason" lemma="reason" stem="reason" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="others" lemma="other" stem="other" pos="NNS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Constitutional" lemma="Constitutional" stem="constitut" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="9" string="Convention" lemma="Convention" stem="convent" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="10" string="unanimously" lemma="unanimously" stem="unanim" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="rejected" lemma="reject" stem="reject" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="term" lemma="term" stem="term" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="limits" lemma="limit" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="First" lemma="First" stem="first" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="Congress" lemma="Congress" stem="congress" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="18" string="soundly" lemma="soundly" stem="soundli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="defeated" lemma="defeat" stem="defeat" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="subsequent" lemma="subsequent" stem="subsequ" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="term-limit" lemma="term-limit" stem="term-limit" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="proposals" lemma="proposal" stem="propos" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN For) (NP (NP (DT that) (NN reason)) (CC and) (NP (NNS others)))) (, ,) (S (NP (DT the) (NNP Constitutional) (NNP Convention)) (ADVP (RB unanimously)) (VP (VBD rejected) (NP (NN term) (NNS limits)))) (CC and) (S (NP (DT the) (NNP First) (NNP Congress)) (ADVP (RB soundly)) (VP (VBD defeated) (NP (CD two) (JJ subsequent) (JJ term-limit) (NNS proposals)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="that reason" type="NP">
+          <tokens>
+            <token id="2" string="that" />
+            <token id="3" string="reason" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that reason and others" type="NP">
+          <tokens>
+            <token id="2" string="that" />
+            <token id="3" string="reason" />
+            <token id="4" string="and" />
+            <token id="5" string="others" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the First Congress" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="First" />
+            <token id="17" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="rejected term limits" type="VP">
+          <tokens>
+            <token id="11" string="rejected" />
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="term limits" type="NP">
+          <tokens>
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="two subsequent term-limit proposals" type="NP">
+          <tokens>
+            <token id="20" string="two" />
+            <token id="21" string="subsequent" />
+            <token id="22" string="term-limit" />
+            <token id="23" string="proposals" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="defeated two subsequent term-limit proposals" type="VP">
+          <tokens>
+            <token id="19" string="defeated" />
+            <token id="20" string="two" />
+            <token id="21" string="subsequent" />
+            <token id="22" string="term-limit" />
+            <token id="23" string="proposals" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Constitutional Convention" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="Constitutional" />
+            <token id="9" string="Convention" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="others" type="NP">
+          <tokens>
+            <token id="5" string="others" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">reason</governor>
+          <dependent id="1">For</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">reason</governor>
+          <dependent id="2">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">rejected</governor>
+          <dependent id="3">reason</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">reason</governor>
+          <dependent id="4">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">reason</governor>
+          <dependent id="5">others</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">Convention</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Convention</governor>
+          <dependent id="8">Constitutional</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">rejected</governor>
+          <dependent id="9">Convention</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">rejected</governor>
+          <dependent id="10">unanimously</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">rejected</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">limits</governor>
+          <dependent id="12">term</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">rejected</governor>
+          <dependent id="13">limits</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">rejected</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">Congress</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Congress</governor>
+          <dependent id="16">First</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">defeated</governor>
+          <dependent id="17">Congress</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">defeated</governor>
+          <dependent id="18">soundly</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">rejected</governor>
+          <dependent id="19">defeated</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="23">proposals</governor>
+          <dependent id="20">two</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">proposals</governor>
+          <dependent id="21">subsequent</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">proposals</governor>
+          <dependent id="22">term-limit</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">defeated</governor>
+          <dependent id="23">proposals</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="two" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Constitutional Convention" type="MISC" score="0.0">
+          <tokens>
+            <token id="8" string="Constitutional" />
+            <token id="9" string="Convention" />
+          </tokens>
+        </entity>
+        <entity id="3" string="First Congress" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="16" string="First" />
+            <token id="17" string="Congress" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Hamilton, who did not even support term limitations on the presidency, reasoned that imposing limits &amp;quot;would be a diminution of the inducements to good behavior.&amp;quot;</content>
+      <tokens>
+        <token id="1" string="Hamilton" lemma="Hamilton" stem="hamilton" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="did" lemma="do" stem="did" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="even" lemma="even" stem="even" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="support" lemma="support" stem="support" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="term" lemma="term" stem="term" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="limitations" lemma="limitation" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="presidency" lemma="presidency" stem="presid" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="reasoned" lemma="reason" stem="reason" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="imposing" lemma="impose" stem="impos" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="limits" lemma="limit" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="18" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="diminution" lemma="diminution" stem="diminut" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="inducements" lemma="inducement" stem="induc" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="good" lemma="good" stem="good" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="behavior" lemma="behavior" stem="behavior" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Hamilton)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD did) (RB not) (ADVP (RB even)) (VP (VB support) (NP (NN term) (NNS limitations)) (PP (IN on) (NP (DT the) (NN presidency))))))) (, ,)) (VP (VBD reasoned) (SBAR (IN that) (S (S (VP (VBG imposing) (NP (NNS limits)))) (`` ``) (VP (MD would) (VP (VB be) (NP (NP (DT a) (NN diminution)) (PP (IN of) (NP (NP (DT the) (NNS inducements)) (PP (TO to) (NP (JJ good) (NN behavior))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="good behavior" type="NP">
+          <tokens>
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that imposing limits `` would be a diminution of the inducements to good behavior" type="SBAR">
+          <tokens>
+            <token id="15" string="that" />
+            <token id="16" string="imposing" />
+            <token id="17" string="limits" />
+            <token id="18" string="&quot;" />
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a diminution" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="reasoned that imposing limits `` would be a diminution of the inducements to good behavior" type="VP">
+          <tokens>
+            <token id="14" string="reasoned" />
+            <token id="15" string="that" />
+            <token id="16" string="imposing" />
+            <token id="17" string="limits" />
+            <token id="18" string="&quot;" />
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Hamilton , who did not even support term limitations on the presidency ," type="NP">
+          <tokens>
+            <token id="1" string="Hamilton" />
+            <token id="2" string="," />
+            <token id="3" string="who" />
+            <token id="4" string="did" />
+            <token id="5" string="not" />
+            <token id="6" string="even" />
+            <token id="7" string="support" />
+            <token id="8" string="term" />
+            <token id="9" string="limitations" />
+            <token id="10" string="on" />
+            <token id="11" string="the" />
+            <token id="12" string="presidency" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Hamilton" type="NP">
+          <tokens>
+            <token id="1" string="Hamilton" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="limits" type="NP">
+          <tokens>
+            <token id="17" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the inducements" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="imposing limits" type="VP">
+          <tokens>
+            <token id="16" string="imposing" />
+            <token id="17" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the inducements to good behavior" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="did not even support term limitations on the presidency" type="VP">
+          <tokens>
+            <token id="4" string="did" />
+            <token id="5" string="not" />
+            <token id="6" string="even" />
+            <token id="7" string="support" />
+            <token id="8" string="term" />
+            <token id="9" string="limitations" />
+            <token id="10" string="on" />
+            <token id="11" string="the" />
+            <token id="12" string="presidency" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="term limitations" type="NP">
+          <tokens>
+            <token id="8" string="term" />
+            <token id="9" string="limitations" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="would be a diminution of the inducements to good behavior" type="VP">
+          <tokens>
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="support term limitations on the presidency" type="VP">
+          <tokens>
+            <token id="7" string="support" />
+            <token id="8" string="term" />
+            <token id="9" string="limitations" />
+            <token id="10" string="on" />
+            <token id="11" string="the" />
+            <token id="12" string="presidency" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="who did not even support term limitations on the presidency" type="SBAR">
+          <tokens>
+            <token id="3" string="who" />
+            <token id="4" string="did" />
+            <token id="5" string="not" />
+            <token id="6" string="even" />
+            <token id="7" string="support" />
+            <token id="8" string="term" />
+            <token id="9" string="limitations" />
+            <token id="10" string="on" />
+            <token id="11" string="the" />
+            <token id="12" string="presidency" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the presidency" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="presidency" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="be a diminution of the inducements to good behavior" type="VP">
+          <tokens>
+            <token id="20" string="be" />
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="a diminution of the inducements to good behavior" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="diminution" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="inducements" />
+            <token id="26" string="to" />
+            <token id="27" string="good" />
+            <token id="28" string="behavior" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="14">reasoned</governor>
+          <dependent id="1">Hamilton</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">support</governor>
+          <dependent id="3">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="7">support</governor>
+          <dependent id="4">did</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="7">support</governor>
+          <dependent id="5">not</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">support</governor>
+          <dependent id="6">even</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="1">Hamilton</governor>
+          <dependent id="7">support</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">limitations</governor>
+          <dependent id="8">term</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">support</governor>
+          <dependent id="9">limitations</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">presidency</governor>
+          <dependent id="10">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">presidency</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">support</governor>
+          <dependent id="12">presidency</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">reasoned</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">diminution</governor>
+          <dependent id="15">that</dependent>
+        </dependency>
+        <dependency type="csubj">
+          <governor id="22">diminution</governor>
+          <dependent id="16">imposing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">imposing</governor>
+          <dependent id="17">limits</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">diminution</governor>
+          <dependent id="19">would</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">diminution</governor>
+          <dependent id="20">be</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">diminution</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">reasoned</governor>
+          <dependent id="22">diminution</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">inducements</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">inducements</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">diminution</governor>
+          <dependent id="25">inducements</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">behavior</governor>
+          <dependent id="26">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">behavior</governor>
+          <dependent id="27">good</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">inducements</governor>
+          <dependent id="28">behavior</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Hamilton" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Hamilton" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Madison said that some members of Congress will &amp;quot;by frequent re-elections, become members of long-standing; will be thoroughly masters of the public business.&amp;quot;</content>
+      <tokens>
+        <token id="1" string="Madison" lemma="Madison" stem="madison" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="members" lemma="member" stem="member" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Congress" lemma="Congress" stem="congress" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="frequent" lemma="frequent" stem="frequent" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="re-elections" lemma="re-election" stem="re-elect" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="become" lemma="become" stem="becom" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="members" lemma="member" stem="member" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="long-standing" lemma="long-standing" stem="long-stand" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string=";" lemma=";" stem=";" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="thoroughly" lemma="thoroughly" stem="thoroughli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="masters" lemma="master" stem="master" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="public" lemma="public" stem="public" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="business" lemma="business" stem="busi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Madison)) (VP (VBD said) (SBAR (IN that) (S (NP (NP (DT some) (NNS members)) (PP (IN of) (NP (NNP Congress)))) (VP (MD will) (S (`` ``) (S (PP (IN by) (NP (JJ frequent) (NNS re-elections))) (, ,) (S (VP (VBP become) (NP (NP (NNS members)) (PP (IN of) (NP (JJ long-standing)))))) (: ;) (VP (MD will) (VP (VB be) (NP (NP (ADVP (RB thoroughly)) (NNS masters)) (PP (IN of) (NP (DT the) (JJ public) (NN business)))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Madison" type="NP">
+          <tokens>
+            <token id="1" string="Madison" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that some members of Congress will `` by frequent re-elections , become members of long-standing ; will be thoroughly masters of the public business" type="SBAR">
+          <tokens>
+            <token id="3" string="that" />
+            <token id="4" string="some" />
+            <token id="5" string="members" />
+            <token id="6" string="of" />
+            <token id="7" string="Congress" />
+            <token id="8" string="will" />
+            <token id="9" string="&quot;" />
+            <token id="10" string="by" />
+            <token id="11" string="frequent" />
+            <token id="12" string="re-elections" />
+            <token id="13" string="," />
+            <token id="14" string="become" />
+            <token id="15" string="members" />
+            <token id="16" string="of" />
+            <token id="17" string="long-standing" />
+            <token id="18" string=";" />
+            <token id="19" string="will" />
+            <token id="20" string="be" />
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="members of long-standing" type="NP">
+          <tokens>
+            <token id="15" string="members" />
+            <token id="16" string="of" />
+            <token id="17" string="long-standing" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="thoroughly masters" type="NP">
+          <tokens>
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="be thoroughly masters of the public business" type="VP">
+          <tokens>
+            <token id="20" string="be" />
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Congress" type="NP">
+          <tokens>
+            <token id="7" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said that some members of Congress will `` by frequent re-elections , become members of long-standing ; will be thoroughly masters of the public business" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="that" />
+            <token id="4" string="some" />
+            <token id="5" string="members" />
+            <token id="6" string="of" />
+            <token id="7" string="Congress" />
+            <token id="8" string="will" />
+            <token id="9" string="&quot;" />
+            <token id="10" string="by" />
+            <token id="11" string="frequent" />
+            <token id="12" string="re-elections" />
+            <token id="13" string="," />
+            <token id="14" string="become" />
+            <token id="15" string="members" />
+            <token id="16" string="of" />
+            <token id="17" string="long-standing" />
+            <token id="18" string=";" />
+            <token id="19" string="will" />
+            <token id="20" string="be" />
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="thoroughly masters of the public business" type="NP">
+          <tokens>
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the public business" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="members" type="NP">
+          <tokens>
+            <token id="15" string="members" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="some members of Congress" type="NP">
+          <tokens>
+            <token id="4" string="some" />
+            <token id="5" string="members" />
+            <token id="6" string="of" />
+            <token id="7" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="some members" type="NP">
+          <tokens>
+            <token id="4" string="some" />
+            <token id="5" string="members" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="will `` by frequent re-elections , become members of long-standing ; will be thoroughly masters of the public business" type="VP">
+          <tokens>
+            <token id="8" string="will" />
+            <token id="9" string="&quot;" />
+            <token id="10" string="by" />
+            <token id="11" string="frequent" />
+            <token id="12" string="re-elections" />
+            <token id="13" string="," />
+            <token id="14" string="become" />
+            <token id="15" string="members" />
+            <token id="16" string="of" />
+            <token id="17" string="long-standing" />
+            <token id="18" string=";" />
+            <token id="19" string="will" />
+            <token id="20" string="be" />
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="become members of long-standing" type="VP">
+          <tokens>
+            <token id="14" string="become" />
+            <token id="15" string="members" />
+            <token id="16" string="of" />
+            <token id="17" string="long-standing" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="will be thoroughly masters of the public business" type="VP">
+          <tokens>
+            <token id="19" string="will" />
+            <token id="20" string="be" />
+            <token id="21" string="thoroughly" />
+            <token id="22" string="masters" />
+            <token id="23" string="of" />
+            <token id="24" string="the" />
+            <token id="25" string="public" />
+            <token id="26" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="frequent re-elections" type="NP">
+          <tokens>
+            <token id="11" string="frequent" />
+            <token id="12" string="re-elections" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="long-standing" type="NP">
+          <tokens>
+            <token id="17" string="long-standing" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Madison</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">will</governor>
+          <dependent id="3">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">members</governor>
+          <dependent id="4">some</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">will</governor>
+          <dependent id="5">members</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Congress</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">members</governor>
+          <dependent id="7">Congress</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="8">will</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">re-elections</governor>
+          <dependent id="10">by</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">re-elections</governor>
+          <dependent id="11">frequent</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">masters</governor>
+          <dependent id="12">re-elections</dependent>
+        </dependency>
+        <dependency type="csubj">
+          <governor id="22">masters</governor>
+          <dependent id="14">become</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="14">become</governor>
+          <dependent id="15">members</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">long-standing</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">members</governor>
+          <dependent id="17">long-standing</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">masters</governor>
+          <dependent id="19">will</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">masters</governor>
+          <dependent id="20">be</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">masters</governor>
+          <dependent id="21">thoroughly</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">will</governor>
+          <dependent id="22">masters</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">business</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">business</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">business</governor>
+          <dependent id="25">public</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">masters</governor>
+          <dependent id="26">business</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Madison" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Madison" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Congress" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="7" string="Congress" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>In fact, that has been the case.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="fact" lemma="fact" stem="fact" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="case" lemma="case" stem="case" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (NN fact))) (, ,) (NP (WDT that)) (VP (VBZ has) (VP (VBN been) (NP (DT the) (NN case)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="that" type="NP">
+          <tokens>
+            <token id="4" string="that" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="been the case" type="VP">
+          <tokens>
+            <token id="6" string="been" />
+            <token id="7" string="the" />
+            <token id="8" string="case" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="fact" type="NP">
+          <tokens>
+            <token id="2" string="fact" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the case" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="case" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="has been the case" type="VP">
+          <tokens>
+            <token id="5" string="has" />
+            <token id="6" string="been" />
+            <token id="7" string="the" />
+            <token id="8" string="case" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">fact</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">case</governor>
+          <dependent id="2">fact</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">case</governor>
+          <dependent id="4">that</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">case</governor>
+          <dependent id="5">has</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="8">case</governor>
+          <dependent id="6">been</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">case</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">case</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>Over the years, term limits would have unseated Daniel Webster and Henry Clay 10 years before they forged the 1850 Compromise that held the Union together.</content>
+      <tokens>
+        <token id="1" string="Over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="term" lemma="term" stem="term" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="limits" lemma="limit" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="unseated" lemma="unseated" stem="unseat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="Daniel" lemma="Daniel" stem="daniel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="11" string="Webster" lemma="Webster" stem="webster" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="Henry" lemma="Henry" stem="henri" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="14" string="Clay" lemma="Clay" stem="clai" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="15" string="10" lemma="10" stem="10" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="forged" lemma="forge" stem="forg" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="1850" lemma="1850" stem="1850" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="22" string="Compromise" lemma="compromise" stem="compromis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="held" lemma="hold" stem="held" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Union" lemma="Union" stem="union" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="together" lemma="together" stem="togeth" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Over) (NP (DT the) (NNS years))) (, ,) (NP (NN term) (NNS limits)) (VP (MD would) (VP (VB have) (S (VP (JJ unseated) (NP (NP (NNP Daniel) (NNP Webster)) (CC and) (NP (NNP Henry) (NNP Clay))))) (SBAR (NP (CD 10) (NNS years)) (IN before) (S (NP (PRP they)) (VP (VBD forged) (NP (NP (DT the) (CD 1850) (NN Compromise)) (SBAR (WHNP (WDT that)) (S (VP (VBD held) (NP (DT the) (NNP Union)) (ADVP (RB together))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Daniel Webster" type="NP">
+          <tokens>
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the years" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Henry Clay" type="NP">
+          <tokens>
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="10 years before they forged the 1850 Compromise that held the Union together" type="SBAR">
+          <tokens>
+            <token id="15" string="10" />
+            <token id="16" string="years" />
+            <token id="17" string="before" />
+            <token id="18" string="they" />
+            <token id="19" string="forged" />
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="would have unseated Daniel Webster and Henry Clay 10 years before they forged the 1850 Compromise that held the Union together" type="VP">
+          <tokens>
+            <token id="7" string="would" />
+            <token id="8" string="have" />
+            <token id="9" string="unseated" />
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+            <token id="12" string="and" />
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+            <token id="15" string="10" />
+            <token id="16" string="years" />
+            <token id="17" string="before" />
+            <token id="18" string="they" />
+            <token id="19" string="forged" />
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Daniel Webster and Henry Clay" type="NP">
+          <tokens>
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+            <token id="12" string="and" />
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the 1850 Compromise that held the Union together" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="held the Union together" type="VP">
+          <tokens>
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="term limits" type="NP">
+          <tokens>
+            <token id="5" string="term" />
+            <token id="6" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="forged the 1850 Compromise that held the Union together" type="VP">
+          <tokens>
+            <token id="19" string="forged" />
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="10 years" type="NP">
+          <tokens>
+            <token id="15" string="10" />
+            <token id="16" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the 1850 Compromise" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="they" type="NP">
+          <tokens>
+            <token id="18" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the Union" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="have unseated Daniel Webster and Henry Clay 10 years before they forged the 1850 Compromise that held the Union together" type="VP">
+          <tokens>
+            <token id="8" string="have" />
+            <token id="9" string="unseated" />
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+            <token id="12" string="and" />
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+            <token id="15" string="10" />
+            <token id="16" string="years" />
+            <token id="17" string="before" />
+            <token id="18" string="they" />
+            <token id="19" string="forged" />
+            <token id="20" string="the" />
+            <token id="21" string="1850" />
+            <token id="22" string="Compromise" />
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="unseated Daniel Webster and Henry Clay" type="VP">
+          <tokens>
+            <token id="9" string="unseated" />
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+            <token id="12" string="and" />
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="that held the Union together" type="SBAR">
+          <tokens>
+            <token id="23" string="that" />
+            <token id="24" string="held" />
+            <token id="25" string="the" />
+            <token id="26" string="Union" />
+            <token id="27" string="together" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">years</governor>
+          <dependent id="1">Over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">years</governor>
+          <dependent id="2">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">have</governor>
+          <dependent id="3">years</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">limits</governor>
+          <dependent id="5">term</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">have</governor>
+          <dependent id="6">limits</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">have</governor>
+          <dependent id="7">would</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="8">have</governor>
+          <dependent id="9">unseated</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Webster</governor>
+          <dependent id="10">Daniel</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">unseated</governor>
+          <dependent id="11">Webster</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">Webster</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Clay</governor>
+          <dependent id="13">Henry</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">Webster</governor>
+          <dependent id="14">Clay</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">years</governor>
+          <dependent id="15">10</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="19">forged</governor>
+          <dependent id="16">years</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="19">forged</governor>
+          <dependent id="17">before</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">forged</governor>
+          <dependent id="18">they</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="8">have</governor>
+          <dependent id="19">forged</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">Compromise</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="22">Compromise</governor>
+          <dependent id="21">1850</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">forged</governor>
+          <dependent id="22">Compromise</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">held</governor>
+          <dependent id="23">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="22">Compromise</governor>
+          <dependent id="24">held</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">Union</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">held</governor>
+          <dependent id="26">Union</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">held</governor>
+          <dependent id="27">together</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Daniel Webster" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="Daniel" />
+            <token id="11" string="Webster" />
+          </tokens>
+        </entity>
+        <entity id="2" string="the years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="years" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Henry Clay" type="PERSON" score="0.0">
+          <tokens>
+            <token id="13" string="Henry" />
+            <token id="14" string="Clay" />
+          </tokens>
+        </entity>
+        <entity id="4" string="1850" type="DATE" score="0.0">
+          <tokens>
+            <token id="21" string="1850" />
+          </tokens>
+        </entity>
+        <entity id="5" string="10 years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="15" string="10" />
+            <token id="16" string="years" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Term limits would have cost us Everett Dirksen, who rallied Republicans around early civil-rights bills and Florida&amp;apost;s own Claude Pepper, who long defended Social Security and Medicare against revenue raids.</content>
+      <tokens>
+        <token id="1" string="Term" lemma="term" stem="term" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="limits" lemma="limit" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="cost" lemma="cost" stem="cost" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="us" lemma="we" stem="u" pos="PRP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="Everett" lemma="Everett" stem="everett" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="8" string="Dirksen" lemma="Dirksen" stem="dirksen" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="rallied" lemma="rally" stem="ralli" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="Republicans" lemma="Republicans" stem="republican" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="13" string="around" lemma="around" stem="around" pos="RB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="early" lemma="early" stem="earli" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="civil-rights" lemma="civil-rights" stem="civil-right" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="bills" lemma="bill" stem="bill" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="Florida" lemma="Florida" stem="florida" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="own" lemma="own" stem="own" pos="JJ" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="Claude" lemma="Claude" stem="claud" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="22" string="Pepper" lemma="Pepper" stem="pepper" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="24" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="long" lemma="long" stem="long" pos="RB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="26" string="defended" lemma="defend" stem="defend" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="Social" lemma="Social" stem="social" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="28" string="Security" lemma="Security" stem="secur" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="29" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="30" string="Medicare" lemma="Medicare" stem="medicar" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="31" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="32" string="revenue" lemma="revenue" stem="revenu" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="33" string="raids" lemma="raid" stem="raid" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NN Term) (NNS limits)) (VP (MD would) (VP (VB have) (S (VP (VB cost) (NP (PRP us)) (NP (NP (NP (NNP Everett) (NNP Dirksen)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD rallied) (NP (NNPS Republicans)) (PP (RB around) (NP (JJ early) (NNS civil-rights) (NNS bills))))))) (CC and) (NP (NP (NP (NNP Florida) (POS 's)) (JJ own) (NNP Claude) (NNP Pepper)) (, ,) (SBAR (WHNP (WP who)) (S (ADVP (RB long)) (VP (VBD defended) (NP (NNP Social) (NNP Security) (CC and) (NNP Medicare)) (PP (IN against) (NP (NN revenue) (NNS raids)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Term limits" type="NP">
+          <tokens>
+            <token id="1" string="Term" />
+            <token id="2" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Everett Dirksen , who rallied Republicans around early civil-rights bills and Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" type="NP">
+          <tokens>
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+            <token id="9" string="," />
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+            <token id="17" string="and" />
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+            <token id="23" string="," />
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="early civil-rights bills" type="NP">
+          <tokens>
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="who rallied Republicans around early civil-rights bills" type="SBAR">
+          <tokens>
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="who long defended Social Security and Medicare against revenue raids" type="SBAR">
+          <tokens>
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Everett Dirksen" type="NP">
+          <tokens>
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="have cost us Everett Dirksen , who rallied Republicans around early civil-rights bills and Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" type="VP">
+          <tokens>
+            <token id="4" string="have" />
+            <token id="5" string="cost" />
+            <token id="6" string="us" />
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+            <token id="9" string="," />
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+            <token id="17" string="and" />
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+            <token id="23" string="," />
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="rallied Republicans around early civil-rights bills" type="VP">
+          <tokens>
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="revenue raids" type="NP">
+          <tokens>
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Everett Dirksen , who rallied Republicans around early civil-rights bills" type="NP">
+          <tokens>
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+            <token id="9" string="," />
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Republicans" type="NP">
+          <tokens>
+            <token id="12" string="Republicans" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="cost us Everett Dirksen , who rallied Republicans around early civil-rights bills and Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" type="VP">
+          <tokens>
+            <token id="5" string="cost" />
+            <token id="6" string="us" />
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+            <token id="9" string="," />
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+            <token id="17" string="and" />
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+            <token id="23" string="," />
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="defended Social Security and Medicare against revenue raids" type="VP">
+          <tokens>
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" type="NP">
+          <tokens>
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+            <token id="23" string="," />
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Florida 's own Claude Pepper" type="NP">
+          <tokens>
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Florida 's" type="NP">
+          <tokens>
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Social Security and Medicare" type="NP">
+          <tokens>
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="would have cost us Everett Dirksen , who rallied Republicans around early civil-rights bills and Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" type="VP">
+          <tokens>
+            <token id="3" string="would" />
+            <token id="4" string="have" />
+            <token id="5" string="cost" />
+            <token id="6" string="us" />
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+            <token id="9" string="," />
+            <token id="10" string="who" />
+            <token id="11" string="rallied" />
+            <token id="12" string="Republicans" />
+            <token id="13" string="around" />
+            <token id="14" string="early" />
+            <token id="15" string="civil-rights" />
+            <token id="16" string="bills" />
+            <token id="17" string="and" />
+            <token id="18" string="Florida" />
+            <token id="19" string="'s" />
+            <token id="20" string="own" />
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+            <token id="23" string="," />
+            <token id="24" string="who" />
+            <token id="25" string="long" />
+            <token id="26" string="defended" />
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+            <token id="29" string="and" />
+            <token id="30" string="Medicare" />
+            <token id="31" string="against" />
+            <token id="32" string="revenue" />
+            <token id="33" string="raids" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="us" type="NP">
+          <tokens>
+            <token id="6" string="us" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">limits</governor>
+          <dependent id="1">Term</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">have</governor>
+          <dependent id="2">limits</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">have</governor>
+          <dependent id="3">would</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="4">have</governor>
+          <dependent id="5">cost</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="5">cost</governor>
+          <dependent id="6">us</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Dirksen</governor>
+          <dependent id="7">Everett</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">cost</governor>
+          <dependent id="8">Dirksen</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">rallied</governor>
+          <dependent id="10">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="8">Dirksen</governor>
+          <dependent id="11">rallied</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">rallied</governor>
+          <dependent id="12">Republicans</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">bills</governor>
+          <dependent id="13">around</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">bills</governor>
+          <dependent id="14">early</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">bills</governor>
+          <dependent id="15">civil-rights</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">rallied</governor>
+          <dependent id="16">bills</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">Dirksen</governor>
+          <dependent id="17">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="22">Pepper</governor>
+          <dependent id="18">Florida</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Florida</governor>
+          <dependent id="19">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">Pepper</governor>
+          <dependent id="20">own</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Pepper</governor>
+          <dependent id="21">Claude</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">Dirksen</governor>
+          <dependent id="22">Pepper</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="26">defended</governor>
+          <dependent id="24">who</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="26">defended</governor>
+          <dependent id="25">long</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="22">Pepper</governor>
+          <dependent id="26">defended</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">Security</governor>
+          <dependent id="27">Social</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="26">defended</governor>
+          <dependent id="28">Security</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">Security</governor>
+          <dependent id="29">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="28">Security</governor>
+          <dependent id="30">Medicare</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">raids</governor>
+          <dependent id="31">against</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="33">raids</governor>
+          <dependent id="32">revenue</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">defended</governor>
+          <dependent id="33">raids</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Republicans" type="MISC" score="0.0">
+          <tokens>
+            <token id="12" string="Republicans" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Everett Dirksen" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Everett" />
+            <token id="8" string="Dirksen" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Claude Pepper" type="PERSON" score="0.0">
+          <tokens>
+            <token id="21" string="Claude" />
+            <token id="22" string="Pepper" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Social Security" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="27" string="Social" />
+            <token id="28" string="Security" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Medicare" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="30" string="Medicare" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Florida" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Florida" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>It was not the Federalists but their adversaries who clamored for term limits, perhaps because they were then out of power.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Federalists" lemma="Federalists" stem="federalist" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="6" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="8" string="adversaries" lemma="adversary" stem="adversari" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="clamored" lemma="clamor" stem="clamor" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="term" lemma="term" stem="term" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="limits" lemma="limit" stem="limit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="perhaps" lemma="perhaps" stem="perhap" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="because" lemma="because" stem="becaus" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="then" lemma="then" stem="then" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="out" lemma="out" stem="out" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="power" lemma="power" stem="power" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBD was) (RB not) (NP (NP (DT the) (NNPS Federalists)) (PP (CC but) (NP (PRP$ their) (NNS adversaries))) (SBAR (WHNP (WP who)) (S (VP (VBD clamored) (PP (IN for) (NP (NN term) (NNS limits))) (, ,) (SBAR (ADVP (RB perhaps)) (IN because) (S (NP (PRP they)) (VP (VBD were) (RB then) (ADJP (IN out) (PP (IN of) (NP (NN power)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="who clamored for term limits , perhaps because they were then out of power" type="SBAR">
+          <tokens>
+            <token id="9" string="who" />
+            <token id="10" string="clamored" />
+            <token id="11" string="for" />
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+            <token id="14" string="," />
+            <token id="15" string="perhaps" />
+            <token id="16" string="because" />
+            <token id="17" string="they" />
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="perhaps because they were then out of power" type="SBAR">
+          <tokens>
+            <token id="15" string="perhaps" />
+            <token id="16" string="because" />
+            <token id="17" string="they" />
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Federalists" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Federalists" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="term limits" type="NP">
+          <tokens>
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="were then out of power" type="VP">
+          <tokens>
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was not the Federalists but their adversaries who clamored for term limits , perhaps because they were then out of power" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="not" />
+            <token id="4" string="the" />
+            <token id="5" string="Federalists" />
+            <token id="6" string="but" />
+            <token id="7" string="their" />
+            <token id="8" string="adversaries" />
+            <token id="9" string="who" />
+            <token id="10" string="clamored" />
+            <token id="11" string="for" />
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+            <token id="14" string="," />
+            <token id="15" string="perhaps" />
+            <token id="16" string="because" />
+            <token id="17" string="they" />
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="clamored for term limits , perhaps because they were then out of power" type="VP">
+          <tokens>
+            <token id="10" string="clamored" />
+            <token id="11" string="for" />
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+            <token id="14" string="," />
+            <token id="15" string="perhaps" />
+            <token id="16" string="because" />
+            <token id="17" string="they" />
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="they" type="NP">
+          <tokens>
+            <token id="17" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="out of power" type="ADJP">
+          <tokens>
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="their adversaries" type="NP">
+          <tokens>
+            <token id="7" string="their" />
+            <token id="8" string="adversaries" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the Federalists but their adversaries who clamored for term limits , perhaps because they were then out of power" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Federalists" />
+            <token id="6" string="but" />
+            <token id="7" string="their" />
+            <token id="8" string="adversaries" />
+            <token id="9" string="who" />
+            <token id="10" string="clamored" />
+            <token id="11" string="for" />
+            <token id="12" string="term" />
+            <token id="13" string="limits" />
+            <token id="14" string="," />
+            <token id="15" string="perhaps" />
+            <token id="16" string="because" />
+            <token id="17" string="they" />
+            <token id="18" string="were" />
+            <token id="19" string="then" />
+            <token id="20" string="out" />
+            <token id="21" string="of" />
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="power" type="NP">
+          <tokens>
+            <token id="22" string="power" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">Federalists</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">Federalists</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="5">Federalists</governor>
+          <dependent id="3">not</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">Federalists</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">Federalists</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">adversaries</governor>
+          <dependent id="6">but</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">adversaries</governor>
+          <dependent id="7">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">Federalists</governor>
+          <dependent id="8">adversaries</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">clamored</governor>
+          <dependent id="9">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="5">Federalists</governor>
+          <dependent id="10">clamored</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">limits</governor>
+          <dependent id="11">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">limits</governor>
+          <dependent id="12">term</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">clamored</governor>
+          <dependent id="13">limits</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">power</governor>
+          <dependent id="15">perhaps</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">power</governor>
+          <dependent id="16">because</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">power</governor>
+          <dependent id="17">they</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">power</governor>
+          <dependent id="18">were</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">power</governor>
+          <dependent id="19">then</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">power</governor>
+          <dependent id="20">out</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="20">out</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="10">clamored</governor>
+          <dependent id="22">power</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Federalists" type="MISC" score="0.0">
+          <tokens>
+            <token id="5" string="Federalists" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Robert Livingston said it best at the New York convention to ratify the Constitution: &amp;quot;The people are the best judges who ought to represent them.</content>
+      <tokens>
+        <token id="1" string="Robert" lemma="Robert" stem="robert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="Livingston" lemma="Livingston" stem="livingston" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="best" lemma="best" stem="best" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="convention" lemma="convention" stem="convent" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="ratify" lemma="ratify" stem="ratifi" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Constitution" lemma="Constitution" stem="constitut" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="best" lemma="best" stem="best" pos="JJS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="judges" lemma="judge" stem="judg" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="23" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="24" string="ought" lemma="ought" stem="ought" pos="MD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="represent" lemma="represent" stem="repres" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNP Robert) (NNP Livingston)) (VP (VBD said) (S (NP (PRP it)) (ADJP (ADJP (JJS best)) (PP (IN at) (NP (DT the) (NNP New) (NNP York) (NN convention)))) (S (VP (TO to) (VP (VB ratify) (NP (DT the) (NNP Constitution)))))))) (: :) (`` ``) (S (NP (DT The) (NNS people)) (VP (VBP are) (NP (NP (DT the) (JJS best) (NNS judges)) (SBAR (WHNP (WP who)) (S (VP (MD ought) (S (VP (TO to) (VP (VB represent) (NP (PRP them))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Robert Livingston" type="NP">
+          <tokens>
+            <token id="1" string="Robert" />
+            <token id="2" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="who ought to represent them" type="SBAR">
+          <tokens>
+            <token id="23" string="who" />
+            <token id="24" string="ought" />
+            <token id="25" string="to" />
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="best at the New York convention" type="ADJP">
+          <tokens>
+            <token id="5" string="best" />
+            <token id="6" string="at" />
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="convention" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Constitution" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the best judges" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="judges" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to represent them" type="VP">
+          <tokens>
+            <token id="25" string="to" />
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="4" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="best" type="ADJP">
+          <tokens>
+            <token id="5" string="best" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="them" type="NP">
+          <tokens>
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="ought to represent them" type="VP">
+          <tokens>
+            <token id="24" string="ought" />
+            <token id="25" string="to" />
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the New York convention" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="convention" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to ratify the Constitution" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="ratify" />
+            <token id="13" string="the" />
+            <token id="14" string="Constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the best judges who ought to represent them" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="judges" />
+            <token id="23" string="who" />
+            <token id="24" string="ought" />
+            <token id="25" string="to" />
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="ratify the Constitution" type="VP">
+          <tokens>
+            <token id="12" string="ratify" />
+            <token id="13" string="the" />
+            <token id="14" string="Constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="are the best judges who ought to represent them" type="VP">
+          <tokens>
+            <token id="19" string="are" />
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="judges" />
+            <token id="23" string="who" />
+            <token id="24" string="ought" />
+            <token id="25" string="to" />
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said it best at the New York convention to ratify the Constitution" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+            <token id="4" string="it" />
+            <token id="5" string="best" />
+            <token id="6" string="at" />
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="convention" />
+            <token id="11" string="to" />
+            <token id="12" string="ratify" />
+            <token id="13" string="the" />
+            <token id="14" string="Constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="The people" type="NP">
+          <tokens>
+            <token id="17" string="The" />
+            <token id="18" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="represent them" type="VP">
+          <tokens>
+            <token id="26" string="represent" />
+            <token id="27" string="them" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Livingston</governor>
+          <dependent id="1">Robert</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="2">Livingston</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">ratify</governor>
+          <dependent id="4">it</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="12">ratify</governor>
+          <dependent id="5">best</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">convention</governor>
+          <dependent id="6">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">convention</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">convention</governor>
+          <dependent id="8">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">convention</governor>
+          <dependent id="9">York</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">best</governor>
+          <dependent id="10">convention</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">ratify</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">said</governor>
+          <dependent id="12">ratify</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">Constitution</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">ratify</governor>
+          <dependent id="14">Constitution</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">people</governor>
+          <dependent id="17">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">judges</governor>
+          <dependent id="18">people</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">judges</governor>
+          <dependent id="19">are</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">judges</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">judges</governor>
+          <dependent id="21">best</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="3">said</governor>
+          <dependent id="22">judges</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">ought</governor>
+          <dependent id="23">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="22">judges</governor>
+          <dependent id="24">ought</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="26">represent</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="24">ought</governor>
+          <dependent id="26">represent</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="26">represent</governor>
+          <dependent id="27">them</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Robert Livingston" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Robert" />
+            <token id="2" string="Livingston" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>To dictate and control them, to tell them who they shall not elect, is to abridge their natural rights.&amp;quot;</content>
+      <tokens>
+        <token id="1" string="To" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="dictate" lemma="dictate" stem="dictat" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="control" lemma="control" stem="control" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="tell" lemma="tell" stem="tell" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="shall" lemma="shall" stem="shall" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="elect" lemma="elect" stem="elect" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="abridge" lemma="abridge" stem="abridg" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="natural" lemma="natural" stem="natur" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="rights" lemma="rights" stem="right" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (VP (TO To) (VP (VB dictate) (CC and) (VB control) (NP (PRP them))))) (, ,) (S (VP (TO to) (VP (VB tell) (NP (PRP them)) (SBAR (WHNP (WP who)) (S (NP (PRP they)) (VP (MD shall) (RB not) (VP (VB elect)))))))) (, ,) (VP (VBZ is) (S (VP (TO to) (VP (VB abridge) (NP (PRP$ their) (JJ natural) (NNS rights)))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="is to abridge their natural rights" type="VP">
+          <tokens>
+            <token id="16" string="is" />
+            <token id="17" string="to" />
+            <token id="18" string="abridge" />
+            <token id="19" string="their" />
+            <token id="20" string="natural" />
+            <token id="21" string="rights" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="abridge their natural rights" type="VP">
+          <tokens>
+            <token id="18" string="abridge" />
+            <token id="19" string="their" />
+            <token id="20" string="natural" />
+            <token id="21" string="rights" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="shall not elect" type="VP">
+          <tokens>
+            <token id="12" string="shall" />
+            <token id="13" string="not" />
+            <token id="14" string="elect" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="dictate and control them" type="VP">
+          <tokens>
+            <token id="2" string="dictate" />
+            <token id="3" string="and" />
+            <token id="4" string="control" />
+            <token id="5" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="them" type="NP">
+          <tokens>
+            <token id="5" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to abridge their natural rights" type="VP">
+          <tokens>
+            <token id="17" string="to" />
+            <token id="18" string="abridge" />
+            <token id="19" string="their" />
+            <token id="20" string="natural" />
+            <token id="21" string="rights" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="elect" type="VP">
+          <tokens>
+            <token id="14" string="elect" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to tell them who they shall not elect" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="tell" />
+            <token id="9" string="them" />
+            <token id="10" string="who" />
+            <token id="11" string="they" />
+            <token id="12" string="shall" />
+            <token id="13" string="not" />
+            <token id="14" string="elect" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="they" type="NP">
+          <tokens>
+            <token id="11" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="To dictate and control them" type="VP">
+          <tokens>
+            <token id="1" string="To" />
+            <token id="2" string="dictate" />
+            <token id="3" string="and" />
+            <token id="4" string="control" />
+            <token id="5" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="who they shall not elect" type="SBAR">
+          <tokens>
+            <token id="10" string="who" />
+            <token id="11" string="they" />
+            <token id="12" string="shall" />
+            <token id="13" string="not" />
+            <token id="14" string="elect" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="their natural rights" type="NP">
+          <tokens>
+            <token id="19" string="their" />
+            <token id="20" string="natural" />
+            <token id="21" string="rights" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="tell them who they shall not elect" type="VP">
+          <tokens>
+            <token id="8" string="tell" />
+            <token id="9" string="them" />
+            <token id="10" string="who" />
+            <token id="11" string="they" />
+            <token id="12" string="shall" />
+            <token id="13" string="not" />
+            <token id="14" string="elect" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="mark">
+          <governor id="2">dictate</governor>
+          <dependent id="1">To</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="16">is</governor>
+          <dependent id="2">dictate</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">dictate</governor>
+          <dependent id="3">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">dictate</governor>
+          <dependent id="4">control</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">dictate</governor>
+          <dependent id="5">them</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">tell</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="16">is</governor>
+          <dependent id="8">tell</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">tell</governor>
+          <dependent id="9">them</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">elect</governor>
+          <dependent id="10">who</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">elect</governor>
+          <dependent id="11">they</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">elect</governor>
+          <dependent id="12">shall</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="14">elect</governor>
+          <dependent id="13">not</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="8">tell</governor>
+          <dependent id="14">elect</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">is</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">abridge</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="16">is</governor>
+          <dependent id="18">abridge</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="21">rights</governor>
+          <dependent id="19">their</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">rights</governor>
+          <dependent id="20">natural</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">abridge</governor>
+          <dependent id="21">rights</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>T.K. Wetherel Speaker Florida House of Representatives Tallahassee, Fla.</content>
+      <tokens>
+        <token id="1" string="T.K." lemma="T.K." stem="t.k." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="Wetherel" lemma="Wetherel" stem="wetherel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="Speaker" lemma="Speaker" stem="speaker" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="Florida" lemma="Florida" stem="florida" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="House" lemma="House" stem="hous" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="Representatives" lemma="Representatives" stem="repres" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="Tallahassee" lemma="Tallahassee" stem="tallahasse" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Fla" lemma="Fla." stem="fla" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP T.K.) (NNP Wetherel) (NNP Speaker) (NNP Florida) (NNP House)) (PP (IN of) (NP (NP (NNPS Representatives) (NNP Tallahassee)) (, ,) (NP (NNP Fla.)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="T.K. Wetherel Speaker Florida House" type="NP">
+          <tokens>
+            <token id="1" string="T.K." />
+            <token id="2" string="Wetherel" />
+            <token id="3" string="Speaker" />
+            <token id="4" string="Florida" />
+            <token id="5" string="House" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Fla." type="NP">
+          <tokens>
+            <token id="10" string="Fla" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="T.K. Wetherel Speaker Florida House of Representatives Tallahassee , Fla. ." type="NP">
+          <tokens>
+            <token id="1" string="T.K." />
+            <token id="2" string="Wetherel" />
+            <token id="3" string="Speaker" />
+            <token id="4" string="Florida" />
+            <token id="5" string="House" />
+            <token id="6" string="of" />
+            <token id="7" string="Representatives" />
+            <token id="8" string="Tallahassee" />
+            <token id="9" string="," />
+            <token id="10" string="Fla" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Representatives Tallahassee , Fla." type="NP">
+          <tokens>
+            <token id="7" string="Representatives" />
+            <token id="8" string="Tallahassee" />
+            <token id="9" string="," />
+            <token id="10" string="Fla" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Representatives Tallahassee" type="NP">
+          <tokens>
+            <token id="7" string="Representatives" />
+            <token id="8" string="Tallahassee" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="5">House</governor>
+          <dependent id="1">T.K.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">House</governor>
+          <dependent id="2">Wetherel</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">House</governor>
+          <dependent id="3">Speaker</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">House</governor>
+          <dependent id="4">Florida</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">House</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Tallahassee</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Tallahassee</governor>
+          <dependent id="7">Representatives</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">House</governor>
+          <dependent id="8">Tallahassee</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="8">Tallahassee</governor>
+          <dependent id="10">Fla.</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Tallahassee" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Tallahassee" />
+          </tokens>
+        </entity>
+        <entity id="2" string="T.K. Wetherel" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="T.K." />
+            <token id="2" string="Wetherel" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Florida House of Representatives" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="Florida" />
+            <token id="5" string="House" />
+            <token id="6" string="of" />
+            <token id="7" string="Representatives" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Fla" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Fla" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="NOMINAL">
+      <referenced ids_tokens="12-13" string="term limits" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="17" string="limits" id_sentence="2" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="15-16-17" string="the First Congress" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="7" string="Congress" id_sentence="3" />
+        <mention ids_tokens="4" string="that" id_sentence="4" />
+        <mention ids_tokens="7-8" string="the case" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="NOMINAL">
+      <referenced ids_tokens="11-12" string="frequent re-elections" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="6" string="us" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="18-19" string="Florida 's" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="4" string="it" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="LIST">
+      <referenced ids_tokens="7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33" string="Everett Dirksen , who rallied Republicans around early civil-rights bills and Florida 's own Claude Pepper , who long defended Social Security and Medicare against revenue raids" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="7" string="their" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="20-21-22-23-24-25-26-27" string="the best judges who ought to represent them" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="5" string="them" id_sentence="9" />
+        <mention ids_tokens="9" string="them" id_sentence="9" />
+        <mention ids_tokens="11" string="they" id_sentence="9" />
+        <mention ids_tokens="19" string="their" id_sentence="9" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

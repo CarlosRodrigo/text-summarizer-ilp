@@ -1,0 +1,3288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="FT923-5835">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>GENERAL ACCIDENT, the leading British insurer, said yesterday that insurance claims arising from Hurricane Andrew could &amp;apost;cost it as much as Dollars 40m.&amp;apost;</content>
+      <tokens>
+        <token id="1" string="GENERAL" lemma="general" stem="general" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="ACCIDENT" lemma="accident" stem="accident" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="leading" lemma="lead" stem="lead" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="British" lemma="british" stem="british" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="7" string="insurer" lemma="insurer" stem="insur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="yesterday" lemma="yesterday" stem="yesterdai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="11" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="insurance" lemma="insurance" stem="insur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="claims" lemma="claim" stem="claim" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="arising" lemma="arise" stem="aris" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="Andrew" lemma="Andrew" stem="andrew" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="cost" lemma="cost" stem="cost" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="much" lemma="much" stem="much" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="Dollars" lemma="Dollars" stem="dollar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="40m" lemma="40m" stem="40m" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (JJ GENERAL) (NN ACCIDENT)) (, ,) (NP (DT the) (VBG leading) (JJ British) (NN insurer)) (, ,)) (VP (VBD said) (NP-TMP (NN yesterday)) (SBAR (IN that) (S (NP (NN insurance)) (VP (VBZ claims) (SBAR (S (S (VP (VBG arising) (PP (IN from) (NP (NNP Hurricane) (NNP Andrew))))) (VP (MD could) (`` `) (VP (VB cost) (NP (PRP it)) (ADVP (RB as) (RB much)) (PP (IN as) (NP (NNP Dollars) (NN 40m))))))))))) (. .) ('' ')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said yesterday that insurance claims arising from Hurricane Andrew could ` cost it as much as Dollars 40m" type="VP">
+          <tokens>
+            <token id="9" string="said" />
+            <token id="10" string="yesterday" />
+            <token id="11" string="that" />
+            <token id="12" string="insurance" />
+            <token id="13" string="claims" />
+            <token id="14" string="arising" />
+            <token id="15" string="from" />
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+            <token id="18" string="could" />
+            <token id="19" string="'" />
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="arising from Hurricane Andrew" type="VP">
+          <tokens>
+            <token id="14" string="arising" />
+            <token id="15" string="from" />
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Hurricane Andrew" type="NP">
+          <tokens>
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="insurance" type="NP">
+          <tokens>
+            <token id="12" string="insurance" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="could ` cost it as much as Dollars 40m" type="VP">
+          <tokens>
+            <token id="18" string="could" />
+            <token id="19" string="'" />
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="it" type="NP">
+          <tokens>
+            <token id="21" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="GENERAL ACCIDENT" type="NP">
+          <tokens>
+            <token id="1" string="GENERAL" />
+            <token id="2" string="ACCIDENT" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="GENERAL ACCIDENT , the leading British insurer ," type="NP">
+          <tokens>
+            <token id="1" string="GENERAL" />
+            <token id="2" string="ACCIDENT" />
+            <token id="3" string="," />
+            <token id="4" string="the" />
+            <token id="5" string="leading" />
+            <token id="6" string="British" />
+            <token id="7" string="insurer" />
+            <token id="8" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="that insurance claims arising from Hurricane Andrew could ` cost it as much as Dollars 40m" type="SBAR">
+          <tokens>
+            <token id="11" string="that" />
+            <token id="12" string="insurance" />
+            <token id="13" string="claims" />
+            <token id="14" string="arising" />
+            <token id="15" string="from" />
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+            <token id="18" string="could" />
+            <token id="19" string="'" />
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="arising from Hurricane Andrew could ` cost it as much as Dollars 40m" type="SBAR">
+          <tokens>
+            <token id="14" string="arising" />
+            <token id="15" string="from" />
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+            <token id="18" string="could" />
+            <token id="19" string="'" />
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the leading British insurer" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="leading" />
+            <token id="6" string="British" />
+            <token id="7" string="insurer" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="claims arising from Hurricane Andrew could ` cost it as much as Dollars 40m" type="VP">
+          <tokens>
+            <token id="13" string="claims" />
+            <token id="14" string="arising" />
+            <token id="15" string="from" />
+            <token id="16" string="Hurricane" />
+            <token id="17" string="Andrew" />
+            <token id="18" string="could" />
+            <token id="19" string="'" />
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Dollars 40m" type="NP">
+          <tokens>
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="cost it as much as Dollars 40m" type="VP">
+          <tokens>
+            <token id="20" string="cost" />
+            <token id="21" string="it" />
+            <token id="22" string="as" />
+            <token id="23" string="much" />
+            <token id="24" string="as" />
+            <token id="25" string="Dollars" />
+            <token id="26" string="40m" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">ACCIDENT</governor>
+          <dependent id="1">GENERAL</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">said</governor>
+          <dependent id="2">ACCIDENT</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">insurer</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">insurer</governor>
+          <dependent id="5">leading</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">insurer</governor>
+          <dependent id="6">British</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">ACCIDENT</governor>
+          <dependent id="7">insurer</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="9">said</governor>
+          <dependent id="10">yesterday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">claims</governor>
+          <dependent id="11">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">claims</governor>
+          <dependent id="12">insurance</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="9">said</governor>
+          <dependent id="13">claims</dependent>
+        </dependency>
+        <dependency type="csubj">
+          <governor id="20">cost</governor>
+          <dependent id="14">arising</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Andrew</governor>
+          <dependent id="15">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Andrew</governor>
+          <dependent id="16">Hurricane</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">arising</governor>
+          <dependent id="17">Andrew</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="20">cost</governor>
+          <dependent id="18">could</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="13">claims</governor>
+          <dependent id="20">cost</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">cost</governor>
+          <dependent id="21">it</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">much</governor>
+          <dependent id="22">as</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="20">cost</governor>
+          <dependent id="23">much</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">40m</governor>
+          <dependent id="24">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">40m</governor>
+          <dependent id="25">Dollars</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">cost</governor>
+          <dependent id="26">40m</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="British" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="6" string="British" />
+          </tokens>
+        </entity>
+        <entity id="2" string="yesterday" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="yesterday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Lord Airlie, the chairman who was addressing an extraordinary shareholders&amp;apost; meeting, said: &amp;apost;On the basis of emerging information, General Accident advise that the losses to their US operations arising from Hurricane Andrew, which struck Florida and Louisiana, might in total reach the level at which external catastrophe reinsurance covers would become exposed&amp;apost;.</content>
+      <tokens>
+        <token id="1" string="Lord" lemma="Lord" stem="lord" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Airlie" lemma="Airlie" stem="airli" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="chairman" lemma="chairman" stem="chairman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="addressing" lemma="address" stem="address" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="extraordinary" lemma="extraordinary" stem="extraordinari" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="shareholders" lemma="shareholder" stem="sharehold" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="'" lemma="'" stem="'" pos="POS" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="meeting" lemma="meeting" stem="meet" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="On" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="basis" lemma="basis" stem="basi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="emerging" lemma="emerge" stem="emerg" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="information" lemma="information" stem="inform" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="General" lemma="General" stem="gener" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="26" string="Accident" lemma="Accident" stem="accident" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="advise" lemma="advise" stem="advis" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="30" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="31" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="32" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="33" string="US" lemma="US" stem="us" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="34" string="operations" lemma="operation" stem="oper" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="35" string="arising" lemma="arise" stem="aris" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="36" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="37" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="38" string="Andrew" lemma="Andrew" stem="andrew" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="39" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="40" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="41" string="struck" lemma="strike" stem="struck" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="42" string="Florida" lemma="Florida" stem="florida" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="43" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="44" string="Louisiana" lemma="Louisiana" stem="louisiana" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="45" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="46" string="might" lemma="might" stem="might" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="47" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="48" string="total" lemma="total" stem="total" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="49" string="reach" lemma="reach" stem="reach" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="50" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="51" string="level" lemma="level" stem="level" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="52" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="53" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="54" string="external" lemma="external" stem="extern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="55" string="catastrophe" lemma="catastrophe" stem="catastroph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="56" string="reinsurance" lemma="reinsurance" stem="reinsur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="57" string="covers" lemma="cover" stem="cover" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="58" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="59" string="become" lemma="become" stem="becom" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="60" string="exposed" lemma="expose" stem="expos" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="61" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="62" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Lord) (NNP Airlie)) (, ,) (NP (NP (DT the) (NN chairman)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBG addressing) (NP (NP (DT an) (JJ extraordinary) (NNS shareholders) (POS ')) (NN meeting))))))) (, ,)) (VP (VBD said) (: :) (`` `) (S (S (PP (IN On) (NP (NP (DT the) (NN basis)) (PP (IN of) (NP (VBG emerging) (NN information)))))) (, ,) (NP (NNP General) (NNP Accident)) (VP (VBP advise) (SBAR (IN that) (S (NP (NP (DT the) (NNS losses)) (PP (TO to) (NP (PRP$ their) (NNP US) (NNS operations))) (VP (VBG arising) (PP (IN from) (NP (NP (NNP Hurricane) (NNP Andrew)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD struck) (NP (NNP Florida) (CC and) (NNP Louisiana))))) (, ,))))) (VP (MD might) (PP (IN in) (NP (NP (JJ total)) (SBAR (S (VP (VBP reach) (SBAR (S (NP (NP (DT the) (NN level)) (SBAR (WHPP (IN at) (WHNP (WDT which))) (S (NP (JJ external) (NN catastrophe) (NN reinsurance)) (VP (VBZ covers))))) (VP (MD would) (VP (VB become)))))))))) (VP (VBN exposed)))))) ('' '))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="advise that the losses to their US operations arising from Hurricane Andrew , which struck Florida and Louisiana , might in total reach the level at which external catastrophe reinsurance covers would become exposed" type="VP">
+          <tokens>
+            <token id="27" string="advise" />
+            <token id="28" string="that" />
+            <token id="29" string="the" />
+            <token id="30" string="losses" />
+            <token id="31" string="to" />
+            <token id="32" string="their" />
+            <token id="33" string="US" />
+            <token id="34" string="operations" />
+            <token id="35" string="arising" />
+            <token id="36" string="from" />
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+            <token id="46" string="might" />
+            <token id="47" string="in" />
+            <token id="48" string="total" />
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+            <token id="60" string="exposed" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Hurricane Andrew" type="NP">
+          <tokens>
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the level at which external catastrophe reinsurance covers" type="NP">
+          <tokens>
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Hurricane Andrew , which struck Florida and Louisiana ," type="NP">
+          <tokens>
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="exposed" type="VP">
+          <tokens>
+            <token id="60" string="exposed" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="General Accident" type="NP">
+          <tokens>
+            <token id="25" string="General" />
+            <token id="26" string="Accident" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Florida and Louisiana" type="NP">
+          <tokens>
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="emerging information" type="NP">
+          <tokens>
+            <token id="22" string="emerging" />
+            <token id="23" string="information" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="reach the level at which external catastrophe reinsurance covers would become" type="SBAR">
+          <tokens>
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the chairman who was addressing an extraordinary shareholders ' meeting" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="chairman" />
+            <token id="6" string="who" />
+            <token id="7" string="was" />
+            <token id="8" string="addressing" />
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the basis" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="basis" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="addressing an extraordinary shareholders ' meeting" type="VP">
+          <tokens>
+            <token id="8" string="addressing" />
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="total reach the level at which external catastrophe reinsurance covers would become" type="NP">
+          <tokens>
+            <token id="48" string="total" />
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="struck Florida and Louisiana" type="VP">
+          <tokens>
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="said : ` On the basis of emerging information , General Accident advise that the losses to their US operations arising from Hurricane Andrew , which struck Florida and Louisiana , might in total reach the level at which external catastrophe reinsurance covers would become exposed '" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string=":" />
+            <token id="17" string="'" />
+            <token id="18" string="On" />
+            <token id="19" string="the" />
+            <token id="20" string="basis" />
+            <token id="21" string="of" />
+            <token id="22" string="emerging" />
+            <token id="23" string="information" />
+            <token id="24" string="," />
+            <token id="25" string="General" />
+            <token id="26" string="Accident" />
+            <token id="27" string="advise" />
+            <token id="28" string="that" />
+            <token id="29" string="the" />
+            <token id="30" string="losses" />
+            <token id="31" string="to" />
+            <token id="32" string="their" />
+            <token id="33" string="US" />
+            <token id="34" string="operations" />
+            <token id="35" string="arising" />
+            <token id="36" string="from" />
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+            <token id="46" string="might" />
+            <token id="47" string="in" />
+            <token id="48" string="total" />
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+            <token id="60" string="exposed" />
+            <token id="61" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="which struck Florida and Louisiana" type="SBAR">
+          <tokens>
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="become" type="VP">
+          <tokens>
+            <token id="59" string="become" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="the losses to their US operations arising from Hurricane Andrew , which struck Florida and Louisiana ," type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="losses" />
+            <token id="31" string="to" />
+            <token id="32" string="their" />
+            <token id="33" string="US" />
+            <token id="34" string="operations" />
+            <token id="35" string="arising" />
+            <token id="36" string="from" />
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="at which external catastrophe reinsurance covers" type="SBAR">
+          <tokens>
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="who was addressing an extraordinary shareholders ' meeting" type="SBAR">
+          <tokens>
+            <token id="6" string="who" />
+            <token id="7" string="was" />
+            <token id="8" string="addressing" />
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="their US operations" type="NP">
+          <tokens>
+            <token id="32" string="their" />
+            <token id="33" string="US" />
+            <token id="34" string="operations" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="was addressing an extraordinary shareholders ' meeting" type="VP">
+          <tokens>
+            <token id="7" string="was" />
+            <token id="8" string="addressing" />
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="an extraordinary shareholders ' meeting" type="NP">
+          <tokens>
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="the chairman" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="chairman" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="the losses" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="the level at which external catastrophe reinsurance covers would become" type="SBAR">
+          <tokens>
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="the basis of emerging information" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="basis" />
+            <token id="21" string="of" />
+            <token id="22" string="emerging" />
+            <token id="23" string="information" />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="arising from Hurricane Andrew , which struck Florida and Louisiana ," type="VP">
+          <tokens>
+            <token id="35" string="arising" />
+            <token id="36" string="from" />
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="29" string="Lord Airlie" type="NP">
+          <tokens>
+            <token id="1" string="Lord" />
+            <token id="2" string="Airlie" />
+          </tokens>
+        </chunking>
+        <chunking id="30" string="would become" type="VP">
+          <tokens>
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+          </tokens>
+        </chunking>
+        <chunking id="31" string="total" type="NP">
+          <tokens>
+            <token id="48" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="32" string="Lord Airlie , the chairman who was addressing an extraordinary shareholders ' meeting ," type="NP">
+          <tokens>
+            <token id="1" string="Lord" />
+            <token id="2" string="Airlie" />
+            <token id="3" string="," />
+            <token id="4" string="the" />
+            <token id="5" string="chairman" />
+            <token id="6" string="who" />
+            <token id="7" string="was" />
+            <token id="8" string="addressing" />
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+            <token id="13" string="meeting" />
+            <token id="14" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="33" string="external catastrophe reinsurance" type="NP">
+          <tokens>
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+          </tokens>
+        </chunking>
+        <chunking id="34" string="covers" type="VP">
+          <tokens>
+            <token id="57" string="covers" />
+          </tokens>
+        </chunking>
+        <chunking id="35" string="the level" type="NP">
+          <tokens>
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="36" string="an extraordinary shareholders '" type="NP">
+          <tokens>
+            <token id="9" string="an" />
+            <token id="10" string="extraordinary" />
+            <token id="11" string="shareholders" />
+            <token id="12" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="37" string="that the losses to their US operations arising from Hurricane Andrew , which struck Florida and Louisiana , might in total reach the level at which external catastrophe reinsurance covers would become exposed" type="SBAR">
+          <tokens>
+            <token id="28" string="that" />
+            <token id="29" string="the" />
+            <token id="30" string="losses" />
+            <token id="31" string="to" />
+            <token id="32" string="their" />
+            <token id="33" string="US" />
+            <token id="34" string="operations" />
+            <token id="35" string="arising" />
+            <token id="36" string="from" />
+            <token id="37" string="Hurricane" />
+            <token id="38" string="Andrew" />
+            <token id="39" string="," />
+            <token id="40" string="which" />
+            <token id="41" string="struck" />
+            <token id="42" string="Florida" />
+            <token id="43" string="and" />
+            <token id="44" string="Louisiana" />
+            <token id="45" string="," />
+            <token id="46" string="might" />
+            <token id="47" string="in" />
+            <token id="48" string="total" />
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+            <token id="60" string="exposed" />
+          </tokens>
+        </chunking>
+        <chunking id="38" string="might in total reach the level at which external catastrophe reinsurance covers would become exposed" type="VP">
+          <tokens>
+            <token id="46" string="might" />
+            <token id="47" string="in" />
+            <token id="48" string="total" />
+            <token id="49" string="reach" />
+            <token id="50" string="the" />
+            <token id="51" string="level" />
+            <token id="52" string="at" />
+            <token id="53" string="which" />
+            <token id="54" string="external" />
+            <token id="55" string="catastrophe" />
+            <token id="56" string="reinsurance" />
+            <token id="57" string="covers" />
+            <token id="58" string="would" />
+            <token id="59" string="become" />
+            <token id="60" string="exposed" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Airlie</governor>
+          <dependent id="1">Lord</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="2">Airlie</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">chairman</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Airlie</governor>
+          <dependent id="5">chairman</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">addressing</governor>
+          <dependent id="6">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">addressing</governor>
+          <dependent id="7">was</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="5">chairman</governor>
+          <dependent id="8">addressing</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">shareholders</governor>
+          <dependent id="9">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">shareholders</governor>
+          <dependent id="10">extraordinary</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">meeting</governor>
+          <dependent id="11">shareholders</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">shareholders</governor>
+          <dependent id="12">'</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">addressing</governor>
+          <dependent id="13">meeting</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">basis</governor>
+          <dependent id="18">On</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">basis</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="27">advise</governor>
+          <dependent id="20">basis</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">information</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">information</governor>
+          <dependent id="22">emerging</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">basis</governor>
+          <dependent id="23">information</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Accident</governor>
+          <dependent id="25">General</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">advise</governor>
+          <dependent id="26">Accident</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="27">advise</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="60">exposed</governor>
+          <dependent id="28">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">losses</governor>
+          <dependent id="29">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="60">exposed</governor>
+          <dependent id="30">losses</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">operations</governor>
+          <dependent id="31">to</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="34">operations</governor>
+          <dependent id="32">their</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="34">operations</governor>
+          <dependent id="33">US</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">losses</governor>
+          <dependent id="34">operations</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="30">losses</governor>
+          <dependent id="35">arising</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="38">Andrew</governor>
+          <dependent id="36">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="38">Andrew</governor>
+          <dependent id="37">Hurricane</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">arising</governor>
+          <dependent id="38">Andrew</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="41">struck</governor>
+          <dependent id="40">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="38">Andrew</governor>
+          <dependent id="41">struck</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="41">struck</governor>
+          <dependent id="42">Florida</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="42">Florida</governor>
+          <dependent id="43">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="42">Florida</governor>
+          <dependent id="44">Louisiana</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="60">exposed</governor>
+          <dependent id="46">might</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="48">total</governor>
+          <dependent id="47">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="60">exposed</governor>
+          <dependent id="48">total</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="48">total</governor>
+          <dependent id="49">reach</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="51">level</governor>
+          <dependent id="50">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="59">become</governor>
+          <dependent id="51">level</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="53">which</governor>
+          <dependent id="52">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="57">covers</governor>
+          <dependent id="53">which</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="56">reinsurance</governor>
+          <dependent id="54">external</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="56">reinsurance</governor>
+          <dependent id="55">catastrophe</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="57">covers</governor>
+          <dependent id="56">reinsurance</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="51">level</governor>
+          <dependent id="57">covers</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="59">become</governor>
+          <dependent id="58">would</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="49">reach</governor>
+          <dependent id="59">become</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="27">advise</governor>
+          <dependent id="60">exposed</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Lord Airlie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Lord" />
+            <token id="2" string="Airlie" />
+          </tokens>
+        </entity>
+        <entity id="2" string="General" type="TITLE" score="0.0">
+          <tokens>
+            <token id="25" string="General" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Louisiana" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="44" string="Louisiana" />
+          </tokens>
+        </entity>
+        <entity id="4" string="US" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="33" string="US" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Florida" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="42" string="Florida" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>What this means is that GA is able to pass on its losses to external reinsurers once a certain claims threshold has been breached.</content>
+      <tokens>
+        <token id="1" string="What" lemma="what" stem="what" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="means" lemma="mean" stem="mean" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="GA" lemma="ga" stem="ga" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="able" lemma="able" stem="abl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="pass" lemma="pass" stem="pass" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="14" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="external" lemma="external" stem="extern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="reinsurers" lemma="reinsurer" stem="reinsur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="once" lemma="once" stem="onc" pos="RB" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="certain" lemma="certain" stem="certain" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="claims" lemma="claim" stem="claim" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="threshold" lemma="threshold" stem="threshold" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="breached" lemma="breach" stem="breach" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (SBAR (WHNP (WP What)) (S (NP (DT this)) (VP (VBZ means)))) (VP (VBZ is) (SBAR (IN that) (S (NP (NN GA)) (VP (VBZ is) (ADJP (JJ able) (S (VP (TO to) (VP (VB pass) (PP (IN on) (NP (PRP$ its) (NNS losses))) (PP (TO to) (NP (JJ external) (NNS reinsurers))) (SBAR (RB once) (S (NP (DT a) (JJ certain) (NNS claims) (NN threshold)) (VP (VBZ has) (VP (VBN been) (VP (VBN breached)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="is that GA is able to pass on its losses to external reinsurers once a certain claims threshold has been breached" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="that" />
+            <token id="6" string="GA" />
+            <token id="7" string="is" />
+            <token id="8" string="able" />
+            <token id="9" string="to" />
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="means" type="VP">
+          <tokens>
+            <token id="3" string="means" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="has been breached" type="VP">
+          <tokens>
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to pass on its losses to external reinsurers once a certain claims threshold has been breached" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="its losses" type="NP">
+          <tokens>
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a certain claims threshold" type="NP">
+          <tokens>
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="What this means" type="SBAR">
+          <tokens>
+            <token id="1" string="What" />
+            <token id="2" string="this" />
+            <token id="3" string="means" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="this" type="NP">
+          <tokens>
+            <token id="2" string="this" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="once a certain claims threshold has been breached" type="SBAR">
+          <tokens>
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="external reinsurers" type="NP">
+          <tokens>
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="been breached" type="VP">
+          <tokens>
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="that GA is able to pass on its losses to external reinsurers once a certain claims threshold has been breached" type="SBAR">
+          <tokens>
+            <token id="5" string="that" />
+            <token id="6" string="GA" />
+            <token id="7" string="is" />
+            <token id="8" string="able" />
+            <token id="9" string="to" />
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="able to pass on its losses to external reinsurers once a certain claims threshold has been breached" type="ADJP">
+          <tokens>
+            <token id="8" string="able" />
+            <token id="9" string="to" />
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="breached" type="VP">
+          <tokens>
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="pass on its losses to external reinsurers once a certain claims threshold has been breached" type="VP">
+          <tokens>
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="GA" type="NP">
+          <tokens>
+            <token id="6" string="GA" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="is able to pass on its losses to external reinsurers once a certain claims threshold has been breached" type="VP">
+          <tokens>
+            <token id="7" string="is" />
+            <token id="8" string="able" />
+            <token id="9" string="to" />
+            <token id="10" string="pass" />
+            <token id="11" string="on" />
+            <token id="12" string="its" />
+            <token id="13" string="losses" />
+            <token id="14" string="to" />
+            <token id="15" string="external" />
+            <token id="16" string="reinsurers" />
+            <token id="17" string="once" />
+            <token id="18" string="a" />
+            <token id="19" string="certain" />
+            <token id="20" string="claims" />
+            <token id="21" string="threshold" />
+            <token id="22" string="has" />
+            <token id="23" string="been" />
+            <token id="24" string="breached" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="dobj">
+          <governor id="3">means</governor>
+          <dependent id="1">What</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">means</governor>
+          <dependent id="2">this</dependent>
+        </dependency>
+        <dependency type="csubj">
+          <governor id="4">is</governor>
+          <dependent id="3">means</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">is</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">able</governor>
+          <dependent id="5">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">able</governor>
+          <dependent id="6">GA</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="8">able</governor>
+          <dependent id="7">is</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="4">is</governor>
+          <dependent id="8">able</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">pass</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">able</governor>
+          <dependent id="10">pass</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">losses</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">losses</governor>
+          <dependent id="12">its</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">pass</governor>
+          <dependent id="13">losses</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">reinsurers</governor>
+          <dependent id="14">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">reinsurers</governor>
+          <dependent id="15">external</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">pass</governor>
+          <dependent id="16">reinsurers</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">breached</governor>
+          <dependent id="17">once</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">threshold</governor>
+          <dependent id="18">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">threshold</governor>
+          <dependent id="19">certain</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">threshold</governor>
+          <dependent id="20">claims</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">breached</governor>
+          <dependent id="21">threshold</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">breached</governor>
+          <dependent id="22">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">breached</governor>
+          <dependent id="23">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">pass</governor>
+          <dependent id="24">breached</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="once" type="DATE" score="0.0">
+          <tokens>
+            <token id="17" string="once" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>It believes this threshold may be breached in respect of Hurricane Andrew claims.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="believes" lemma="believe" stem="believ" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="threshold" lemma="threshold" stem="threshold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="may" lemma="may" stem="mai" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="breached" lemma="breach" stem="breach" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="respect" lemma="respect" stem="respect" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="Andrew" lemma="Andrew" stem="andrew" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="claims" lemma="claim" stem="claim" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBZ believes) (SBAR (S (NP (DT this) (NN threshold)) (VP (MD may) (VP (VB be) (VP (VBN breached) (PP (IN in) (NP (NP (NN respect)) (PP (IN of) (NP (NP (NNP Hurricane) (NNP Andrew)) (VP (VBZ claims)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Hurricane Andrew" type="NP">
+          <tokens>
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="breached in respect of Hurricane Andrew claims" type="VP">
+          <tokens>
+            <token id="7" string="breached" />
+            <token id="8" string="in" />
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="respect of Hurricane Andrew claims" type="NP">
+          <tokens>
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="may be breached in respect of Hurricane Andrew claims" type="VP">
+          <tokens>
+            <token id="5" string="may" />
+            <token id="6" string="be" />
+            <token id="7" string="breached" />
+            <token id="8" string="in" />
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="claims" type="VP">
+          <tokens>
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="this threshold" type="NP">
+          <tokens>
+            <token id="3" string="this" />
+            <token id="4" string="threshold" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="be breached in respect of Hurricane Andrew claims" type="VP">
+          <tokens>
+            <token id="6" string="be" />
+            <token id="7" string="breached" />
+            <token id="8" string="in" />
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="respect" type="NP">
+          <tokens>
+            <token id="9" string="respect" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Hurricane Andrew claims" type="NP">
+          <tokens>
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="this threshold may be breached in respect of Hurricane Andrew claims" type="SBAR">
+          <tokens>
+            <token id="3" string="this" />
+            <token id="4" string="threshold" />
+            <token id="5" string="may" />
+            <token id="6" string="be" />
+            <token id="7" string="breached" />
+            <token id="8" string="in" />
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="believes this threshold may be breached in respect of Hurricane Andrew claims" type="VP">
+          <tokens>
+            <token id="2" string="believes" />
+            <token id="3" string="this" />
+            <token id="4" string="threshold" />
+            <token id="5" string="may" />
+            <token id="6" string="be" />
+            <token id="7" string="breached" />
+            <token id="8" string="in" />
+            <token id="9" string="respect" />
+            <token id="10" string="of" />
+            <token id="11" string="Hurricane" />
+            <token id="12" string="Andrew" />
+            <token id="13" string="claims" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">believes</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">believes</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">threshold</governor>
+          <dependent id="3">this</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">breached</governor>
+          <dependent id="4">threshold</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="7">breached</governor>
+          <dependent id="5">may</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">breached</governor>
+          <dependent id="6">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">believes</governor>
+          <dependent id="7">breached</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">respect</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">breached</governor>
+          <dependent id="9">respect</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Andrew</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Andrew</governor>
+          <dependent id="11">Hurricane</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">respect</governor>
+          <dependent id="12">Andrew</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="12">Andrew</governor>
+          <dependent id="13">claims</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>However, if this happens, it would suffer a post-tax loss of Dollars 40m (Pounds 20m).</content>
+      <tokens>
+        <token id="1" string="However" lemma="however" stem="howev" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="if" lemma="if" stem="if" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="happens" lemma="happen" stem="happen" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="suffer" lemma="suffer" stem="suffer" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="post-tax" lemma="post-tax" stem="post-tax" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="loss" lemma="loss" stem="loss" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Dollars" lemma="Dollars" stem="dollar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="40m" lemma="40m" stem="40m" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Pounds" lemma="Pounds" stem="pound" pos="NNPS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="20m" lemma="20m" stem="20m" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (ADVP (RB However)) (, ,) (SBAR (IN if) (S (NP (DT this)) (VP (VBZ happens)))) (, ,) (NP (PRP it)) (VP (MD would) (VP (VB suffer) (NP (NP (DT a) (JJ post-tax) (NN loss)) (PP (IN of) (NP (NP (NNP Dollars) (NN 40m)) (PRN (-LRB- -LRB-) (NP (NP (NNPS Pounds)) (NP (NN 20m))) (-RRB- -RRB-))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="would suffer a post-tax loss of Dollars 40m -LRB- Pounds 20m -RRB-" type="VP">
+          <tokens>
+            <token id="8" string="would" />
+            <token id="9" string="suffer" />
+            <token id="10" string="a" />
+            <token id="11" string="post-tax" />
+            <token id="12" string="loss" />
+            <token id="13" string="of" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="40m" />
+            <token id="16" string="(" />
+            <token id="17" string="Pounds" />
+            <token id="18" string="20m" />
+            <token id="19" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="if this happens" type="SBAR">
+          <tokens>
+            <token id="3" string="if" />
+            <token id="4" string="this" />
+            <token id="5" string="happens" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a post-tax loss" type="NP">
+          <tokens>
+            <token id="10" string="a" />
+            <token id="11" string="post-tax" />
+            <token id="12" string="loss" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a post-tax loss of Dollars 40m -LRB- Pounds 20m -RRB-" type="NP">
+          <tokens>
+            <token id="10" string="a" />
+            <token id="11" string="post-tax" />
+            <token id="12" string="loss" />
+            <token id="13" string="of" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="40m" />
+            <token id="16" string="(" />
+            <token id="17" string="Pounds" />
+            <token id="18" string="20m" />
+            <token id="19" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="it" type="NP">
+          <tokens>
+            <token id="7" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="this" type="NP">
+          <tokens>
+            <token id="4" string="this" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Pounds 20m" type="NP">
+          <tokens>
+            <token id="17" string="Pounds" />
+            <token id="18" string="20m" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="20m" type="NP">
+          <tokens>
+            <token id="18" string="20m" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Pounds" type="NP">
+          <tokens>
+            <token id="17" string="Pounds" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Dollars 40m" type="NP">
+          <tokens>
+            <token id="14" string="Dollars" />
+            <token id="15" string="40m" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Dollars 40m -LRB- Pounds 20m -RRB-" type="NP">
+          <tokens>
+            <token id="14" string="Dollars" />
+            <token id="15" string="40m" />
+            <token id="16" string="(" />
+            <token id="17" string="Pounds" />
+            <token id="18" string="20m" />
+            <token id="19" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="happens" type="VP">
+          <tokens>
+            <token id="5" string="happens" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="suffer a post-tax loss of Dollars 40m -LRB- Pounds 20m -RRB-" type="VP">
+          <tokens>
+            <token id="9" string="suffer" />
+            <token id="10" string="a" />
+            <token id="11" string="post-tax" />
+            <token id="12" string="loss" />
+            <token id="13" string="of" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="40m" />
+            <token id="16" string="(" />
+            <token id="17" string="Pounds" />
+            <token id="18" string="20m" />
+            <token id="19" string=")" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="9">suffer</governor>
+          <dependent id="1">However</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="5">happens</governor>
+          <dependent id="3">if</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">happens</governor>
+          <dependent id="4">this</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">suffer</governor>
+          <dependent id="5">happens</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">suffer</governor>
+          <dependent id="7">it</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">suffer</governor>
+          <dependent id="8">would</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">suffer</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">loss</governor>
+          <dependent id="10">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">loss</governor>
+          <dependent id="11">post-tax</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">suffer</governor>
+          <dependent id="12">loss</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">40m</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">40m</governor>
+          <dependent id="14">Dollars</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">loss</governor>
+          <dependent id="15">40m</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="15">40m</governor>
+          <dependent id="17">Pounds</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="17">Pounds</governor>
+          <dependent id="18">20m</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Mr Nelson Robertson, GA&amp;apost;s chief general manager, explained later that the company has a 1/2 per cent share of the Florida market.</content>
+      <tokens>
+        <token id="1" string="Mr" lemma="Mr" stem="mr" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Nelson" lemma="Nelson" stem="nelson" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Robertson" lemma="Robertson" stem="robertson" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="GA" lemma="GA" stem="ga" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="chief" lemma="chief" stem="chief" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="general" lemma="general" stem="gener" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="manager" lemma="manager" stem="manag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="explained" lemma="explain" stem="explain" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="later" lemma="later" stem="later" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="company" lemma="company" stem="compani" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="1/2" lemma="1/2" stem="1/2" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="per" lemma="per" stem="per" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="cent" lemma="cent" stem="cent" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="share" lemma="share" stem="share" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Florida" lemma="Florida" stem="florida" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="market" lemma="market" stem="market" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Mr) (NNP Nelson) (NNP Robertson)) (, ,) (NP (NP (NNP GA) (POS 's)) (JJ chief) (JJ general) (NN manager)) (, ,)) (VP (VBD explained) (ADVP (RB later)) (SBAR (IN that) (S (NP (DT the) (NN company)) (VP (VBZ has) (NP (NP (QP (DT a) (CD 1/2))) (PP (IN per) (NP (NP (NN cent) (NN share)) (PP (IN of) (NP (DT the) (NNP Florida) (NN market)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="cent share of the Florida market" type="NP">
+          <tokens>
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a 1/2 per cent share of the Florida market" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="1/2" />
+            <token id="19" string="per" />
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Mr Nelson Robertson" type="NP">
+          <tokens>
+            <token id="1" string="Mr" />
+            <token id="2" string="Nelson" />
+            <token id="3" string="Robertson" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="that the company has a 1/2 per cent share of the Florida market" type="SBAR">
+          <tokens>
+            <token id="13" string="that" />
+            <token id="14" string="the" />
+            <token id="15" string="company" />
+            <token id="16" string="has" />
+            <token id="17" string="a" />
+            <token id="18" string="1/2" />
+            <token id="19" string="per" />
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Mr Nelson Robertson , GA 's chief general manager ," type="NP">
+          <tokens>
+            <token id="1" string="Mr" />
+            <token id="2" string="Nelson" />
+            <token id="3" string="Robertson" />
+            <token id="4" string="," />
+            <token id="5" string="GA" />
+            <token id="6" string="'s" />
+            <token id="7" string="chief" />
+            <token id="8" string="general" />
+            <token id="9" string="manager" />
+            <token id="10" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Florida market" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the company" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="company" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a 1/2" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="1/2" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="GA 's" type="NP">
+          <tokens>
+            <token id="5" string="GA" />
+            <token id="6" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="has a 1/2 per cent share of the Florida market" type="VP">
+          <tokens>
+            <token id="16" string="has" />
+            <token id="17" string="a" />
+            <token id="18" string="1/2" />
+            <token id="19" string="per" />
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="explained later that the company has a 1/2 per cent share of the Florida market" type="VP">
+          <tokens>
+            <token id="11" string="explained" />
+            <token id="12" string="later" />
+            <token id="13" string="that" />
+            <token id="14" string="the" />
+            <token id="15" string="company" />
+            <token id="16" string="has" />
+            <token id="17" string="a" />
+            <token id="18" string="1/2" />
+            <token id="19" string="per" />
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="Florida" />
+            <token id="25" string="market" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="cent share" type="NP">
+          <tokens>
+            <token id="20" string="cent" />
+            <token id="21" string="share" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="GA 's chief general manager" type="NP">
+          <tokens>
+            <token id="5" string="GA" />
+            <token id="6" string="'s" />
+            <token id="7" string="chief" />
+            <token id="8" string="general" />
+            <token id="9" string="manager" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Robertson</governor>
+          <dependent id="1">Mr</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Robertson</governor>
+          <dependent id="2">Nelson</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">explained</governor>
+          <dependent id="3">Robertson</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="9">manager</governor>
+          <dependent id="5">GA</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">GA</governor>
+          <dependent id="6">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">manager</governor>
+          <dependent id="7">chief</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">manager</governor>
+          <dependent id="8">general</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">Robertson</governor>
+          <dependent id="9">manager</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">explained</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">explained</governor>
+          <dependent id="12">later</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">has</governor>
+          <dependent id="13">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">company</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">has</governor>
+          <dependent id="15">company</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="11">explained</governor>
+          <dependent id="16">has</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">1/2</governor>
+          <dependent id="17">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">has</governor>
+          <dependent id="18">1/2</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">share</governor>
+          <dependent id="19">per</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">share</governor>
+          <dependent id="20">cent</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">1/2</governor>
+          <dependent id="21">share</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">market</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">market</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">market</governor>
+          <dependent id="24">Florida</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">share</governor>
+          <dependent id="25">market</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1/2" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="1/2" />
+          </tokens>
+        </entity>
+        <entity id="2" string="GA" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="5" string="GA" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Nelson Robertson" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Nelson" />
+            <token id="3" string="Robertson" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Florida" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="24" string="Florida" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>It has a branch in Orlando.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="branch" lemma="branch" stem="branch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Orlando" lemma="Orlando" stem="orlando" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBZ has) (NP (NP (DT a) (NN branch)) (PP (IN in) (NP (NNP Orlando))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a branch in Orlando" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="branch" />
+            <token id="5" string="in" />
+            <token id="6" string="Orlando" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Orlando" type="NP">
+          <tokens>
+            <token id="6" string="Orlando" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="has a branch in Orlando" type="VP">
+          <tokens>
+            <token id="2" string="has" />
+            <token id="3" string="a" />
+            <token id="4" string="branch" />
+            <token id="5" string="in" />
+            <token id="6" string="Orlando" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a branch" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="branch" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">has</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">has</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">branch</governor>
+          <dependent id="3">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">has</governor>
+          <dependent id="4">branch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Orlando</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">branch</governor>
+          <dependent id="6">Orlando</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Orlando" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Orlando" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The company&amp;apost;s loss adjusters are in the area trying to estimate the losses.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="2" string="company" lemma="company" stem="compani" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="3" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="4" string="loss" lemma="loss" stem="loss" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="adjusters" lemma="adjuster" stem="adjust" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="trying" lemma="try" stem="try" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="estimate" lemma="estimate" stem="estim" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="14" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NN company) (POS 's)) (NN loss) (NNS adjusters)) (VP (VBP are) (PP (IN in) (NP (NP (DT the) (NN area)) (VP (VBG trying) (S (VP (TO to) (VP (VB estimate) (NP (DT the) (NNS losses))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the area" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The company 's loss adjusters" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="company" />
+            <token id="3" string="'s" />
+            <token id="4" string="loss" />
+            <token id="5" string="adjusters" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="are in the area trying to estimate the losses" type="VP">
+          <tokens>
+            <token id="6" string="are" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="area" />
+            <token id="10" string="trying" />
+            <token id="11" string="to" />
+            <token id="12" string="estimate" />
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to estimate the losses" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="estimate" />
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The company 's" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="company" />
+            <token id="3" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="estimate the losses" type="VP">
+          <tokens>
+            <token id="12" string="estimate" />
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the area trying to estimate the losses" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="area" />
+            <token id="10" string="trying" />
+            <token id="11" string="to" />
+            <token id="12" string="estimate" />
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="trying to estimate the losses" type="VP">
+          <tokens>
+            <token id="10" string="trying" />
+            <token id="11" string="to" />
+            <token id="12" string="estimate" />
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the losses" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="losses" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">company</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="5">adjusters</governor>
+          <dependent id="2">company</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="2">company</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">adjusters</governor>
+          <dependent id="4">loss</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">area</governor>
+          <dependent id="5">adjusters</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">area</governor>
+          <dependent id="6">are</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">area</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">area</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">area</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="9">area</governor>
+          <dependent id="10">trying</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">estimate</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="10">trying</governor>
+          <dependent id="12">estimate</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">losses</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">estimate</governor>
+          <dependent id="14">losses</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Their guess is that losses to be faced by all insurers may total more than Dollars 8bn.</content>
+      <tokens>
+        <token id="1" string="Their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="guess" lemma="guess" stem="guess" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="faced" lemma="face" stem="face" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="insurers" lemma="insurer" stem="insur" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="may" lemma="may" stem="mai" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="total" lemma="total" stem="total" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Dollars" lemma="Dollars" stem="dollar" pos="NNPS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="8bn" lemma="8bn" stem="8bn" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP$ Their) (NN guess)) (VP (VBZ is) (SBAR (IN that) (S (NP (NNS losses) (S (VP (TO to) (VP (VB be) (VP (VBN faced) (PP (IN by) (NP (DT all) (NNS insurers)))))))) (VP (MD may) (VP (VB total) (S (NP (NP (JJR more)) (PP (IN than) (NP (NNPS Dollars)))) (ADJP (JJ 8bn)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Dollars" type="NP">
+          <tokens>
+            <token id="16" string="Dollars" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="8bn" type="ADJP">
+          <tokens>
+            <token id="17" string="8bn" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="total more than Dollars 8bn" type="VP">
+          <tokens>
+            <token id="13" string="total" />
+            <token id="14" string="more" />
+            <token id="15" string="than" />
+            <token id="16" string="Dollars" />
+            <token id="17" string="8bn" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="that losses to be faced by all insurers may total more than Dollars 8bn" type="SBAR">
+          <tokens>
+            <token id="4" string="that" />
+            <token id="5" string="losses" />
+            <token id="6" string="to" />
+            <token id="7" string="be" />
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+            <token id="12" string="may" />
+            <token id="13" string="total" />
+            <token id="14" string="more" />
+            <token id="15" string="than" />
+            <token id="16" string="Dollars" />
+            <token id="17" string="8bn" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is that losses to be faced by all insurers may total more than Dollars 8bn" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="that" />
+            <token id="5" string="losses" />
+            <token id="6" string="to" />
+            <token id="7" string="be" />
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+            <token id="12" string="may" />
+            <token id="13" string="total" />
+            <token id="14" string="more" />
+            <token id="15" string="than" />
+            <token id="16" string="Dollars" />
+            <token id="17" string="8bn" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="more" type="NP">
+          <tokens>
+            <token id="14" string="more" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="faced by all insurers" type="VP">
+          <tokens>
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="more than Dollars" type="NP">
+          <tokens>
+            <token id="14" string="more" />
+            <token id="15" string="than" />
+            <token id="16" string="Dollars" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="be faced by all insurers" type="VP">
+          <tokens>
+            <token id="7" string="be" />
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Their guess" type="NP">
+          <tokens>
+            <token id="1" string="Their" />
+            <token id="2" string="guess" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="may total more than Dollars 8bn" type="VP">
+          <tokens>
+            <token id="12" string="may" />
+            <token id="13" string="total" />
+            <token id="14" string="more" />
+            <token id="15" string="than" />
+            <token id="16" string="Dollars" />
+            <token id="17" string="8bn" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to be faced by all insurers" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="be" />
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="losses to be faced by all insurers" type="NP">
+          <tokens>
+            <token id="5" string="losses" />
+            <token id="6" string="to" />
+            <token id="7" string="be" />
+            <token id="8" string="faced" />
+            <token id="9" string="by" />
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="all insurers" type="NP">
+          <tokens>
+            <token id="10" string="all" />
+            <token id="11" string="insurers" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="2">guess</governor>
+          <dependent id="1">Their</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">is</governor>
+          <dependent id="2">guess</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">total</governor>
+          <dependent id="4">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">total</governor>
+          <dependent id="5">losses</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">faced</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="8">faced</governor>
+          <dependent id="7">be</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="5">losses</governor>
+          <dependent id="8">faced</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">insurers</governor>
+          <dependent id="9">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">insurers</governor>
+          <dependent id="10">all</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">faced</governor>
+          <dependent id="11">insurers</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="13">total</governor>
+          <dependent id="12">may</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">is</governor>
+          <dependent id="13">total</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">8bn</governor>
+          <dependent id="14">more</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Dollars</governor>
+          <dependent id="15">than</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">more</governor>
+          <dependent id="16">Dollars</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="13">total</governor>
+          <dependent id="17">8bn</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Not all damaged property in the area is insured and there have been estimates that the storm caused more than Dollars 20bn of damage.</content>
+      <tokens>
+        <token id="1" string="Not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="damaged" lemma="damage" stem="damag" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="property" lemma="property" stem="properti" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="insured" lemma="insure" stem="insur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="estimates" lemma="estimate" stem="estim" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="18" string="caused" lemma="cause" stem="caus" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Dollars" lemma="Dollars" stem="dollar" pos="NNPS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="20bn" lemma="20bn" stem="20bn" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (RB Not) (S (NP (NP (DT all) (VBN damaged) (NN property)) (PP (IN in) (NP (DT the) (NN area)))) (VP (VBZ is) (VP (VBN insured)))) (CC and) (S (NP (EX there)) (VP (VBP have) (VP (VBN been) (NP (NNS estimates)) (SBAR (IN that) (S (NP (DT the) (NN storm)) (VP (VBD caused) (NP (NP (JJR more)) (PP (IN than) (NP (NNPS Dollars)))) (NP-TMP (NP (CD 20bn)) (PP (IN of) (NP (NN damage)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="have been estimates that the storm caused more than Dollars 20bn of damage" type="VP">
+          <tokens>
+            <token id="12" string="have" />
+            <token id="13" string="been" />
+            <token id="14" string="estimates" />
+            <token id="15" string="that" />
+            <token id="16" string="the" />
+            <token id="17" string="storm" />
+            <token id="18" string="caused" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="Dollars" />
+            <token id="22" string="20bn" />
+            <token id="23" string="of" />
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Dollars" type="NP">
+          <tokens>
+            <token id="21" string="Dollars" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="damage" type="NP">
+          <tokens>
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the area" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is insured" type="VP">
+          <tokens>
+            <token id="8" string="is" />
+            <token id="9" string="insured" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="insured" type="VP">
+          <tokens>
+            <token id="9" string="insured" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="more" type="NP">
+          <tokens>
+            <token id="19" string="more" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="more than Dollars" type="NP">
+          <tokens>
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="Dollars" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the storm" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="all damaged property in the area" type="NP">
+          <tokens>
+            <token id="2" string="all" />
+            <token id="3" string="damaged" />
+            <token id="4" string="property" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="there" type="NP">
+          <tokens>
+            <token id="11" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="that the storm caused more than Dollars 20bn of damage" type="SBAR">
+          <tokens>
+            <token id="15" string="that" />
+            <token id="16" string="the" />
+            <token id="17" string="storm" />
+            <token id="18" string="caused" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="Dollars" />
+            <token id="22" string="20bn" />
+            <token id="23" string="of" />
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="all damaged property" type="NP">
+          <tokens>
+            <token id="2" string="all" />
+            <token id="3" string="damaged" />
+            <token id="4" string="property" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="caused more than Dollars 20bn of damage" type="VP">
+          <tokens>
+            <token id="18" string="caused" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="Dollars" />
+            <token id="22" string="20bn" />
+            <token id="23" string="of" />
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="been estimates that the storm caused more than Dollars 20bn of damage" type="VP">
+          <tokens>
+            <token id="13" string="been" />
+            <token id="14" string="estimates" />
+            <token id="15" string="that" />
+            <token id="16" string="the" />
+            <token id="17" string="storm" />
+            <token id="18" string="caused" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="Dollars" />
+            <token id="22" string="20bn" />
+            <token id="23" string="of" />
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="estimates" type="NP">
+          <tokens>
+            <token id="14" string="estimates" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="20bn" type="NP">
+          <tokens>
+            <token id="22" string="20bn" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="neg">
+          <governor id="9">insured</governor>
+          <dependent id="1">Not</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">property</governor>
+          <dependent id="2">all</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">property</governor>
+          <dependent id="3">damaged</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">insured</governor>
+          <dependent id="4">property</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">area</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">area</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">property</governor>
+          <dependent id="7">area</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">insured</governor>
+          <dependent id="8">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">insured</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">insured</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="14">estimates</governor>
+          <dependent id="11">there</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">estimates</governor>
+          <dependent id="12">have</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="14">estimates</governor>
+          <dependent id="13">been</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">insured</governor>
+          <dependent id="14">estimates</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">caused</governor>
+          <dependent id="15">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">storm</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">caused</governor>
+          <dependent id="17">storm</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">estimates</governor>
+          <dependent id="18">caused</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">caused</governor>
+          <dependent id="19">more</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">Dollars</governor>
+          <dependent id="20">than</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">more</governor>
+          <dependent id="21">Dollars</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="18">caused</governor>
+          <dependent id="22">20bn</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">damage</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">20bn</governor>
+          <dependent id="24">damage</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="storm" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="17" string="storm" />
+          </tokens>
+        </entity>
+        <entity id="2" string="20bn" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="20bn" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>However, other insurers have estimated that losses could be as low as Dollars 1bn in total.</content>
+      <tokens>
+        <token id="1" string="However" lemma="however" stem="howev" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="insurers" lemma="insurer" stem="insur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="estimated" lemma="estimate" stem="estim" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="low" lemma="low" stem="low" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Dollars" lemma="Dollars" stem="dollar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="1bn" lemma="1bn" stem="1bn" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="total" lemma="total" stem="total" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (ADVP (RB However)) (, ,) (NP (JJ other) (NNS insurers)) (VP (VBP have) (VP (VBN estimated) (SBAR (IN that) (S (NP (NNS losses)) (VP (MD could) (VP (VB be) (ADJP (RB as) (JJ low) (PP (IN as) (NP (NNP Dollars) (CD 1bn)))) (PP (IN in) (NP (NN total))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="have estimated that losses could be as low as Dollars 1bn in total" type="VP">
+          <tokens>
+            <token id="5" string="have" />
+            <token id="6" string="estimated" />
+            <token id="7" string="that" />
+            <token id="8" string="losses" />
+            <token id="9" string="could" />
+            <token id="10" string="be" />
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+            <token id="16" string="in" />
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="could be as low as Dollars 1bn in total" type="VP">
+          <tokens>
+            <token id="9" string="could" />
+            <token id="10" string="be" />
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+            <token id="16" string="in" />
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="as low as Dollars 1bn" type="ADJP">
+          <tokens>
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="total" type="NP">
+          <tokens>
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="other insurers" type="NP">
+          <tokens>
+            <token id="3" string="other" />
+            <token id="4" string="insurers" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="be as low as Dollars 1bn in total" type="VP">
+          <tokens>
+            <token id="10" string="be" />
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+            <token id="16" string="in" />
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="estimated that losses could be as low as Dollars 1bn in total" type="VP">
+          <tokens>
+            <token id="6" string="estimated" />
+            <token id="7" string="that" />
+            <token id="8" string="losses" />
+            <token id="9" string="could" />
+            <token id="10" string="be" />
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+            <token id="16" string="in" />
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="that losses could be as low as Dollars 1bn in total" type="SBAR">
+          <tokens>
+            <token id="7" string="that" />
+            <token id="8" string="losses" />
+            <token id="9" string="could" />
+            <token id="10" string="be" />
+            <token id="11" string="as" />
+            <token id="12" string="low" />
+            <token id="13" string="as" />
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+            <token id="16" string="in" />
+            <token id="17" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="losses" type="NP">
+          <tokens>
+            <token id="8" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Dollars 1bn" type="NP">
+          <tokens>
+            <token id="14" string="Dollars" />
+            <token id="15" string="1bn" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="6">estimated</governor>
+          <dependent id="1">However</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">insurers</governor>
+          <dependent id="3">other</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">estimated</governor>
+          <dependent id="4">insurers</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">estimated</governor>
+          <dependent id="5">have</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">estimated</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">low</governor>
+          <dependent id="7">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">low</governor>
+          <dependent id="8">losses</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="12">low</governor>
+          <dependent id="9">could</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="12">low</governor>
+          <dependent id="10">be</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">low</governor>
+          <dependent id="11">as</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="6">estimated</governor>
+          <dependent id="12">low</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Dollars</governor>
+          <dependent id="13">as</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">low</governor>
+          <dependent id="14">Dollars</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="14">Dollars</governor>
+          <dependent id="15">1bn</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">total</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">low</governor>
+          <dependent id="17">total</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1bn" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="15" string="1bn" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>Mr Robertson said: &amp;apost;No one knows at this time what the exact loss is&amp;apost;.</content>
+      <tokens>
+        <token id="1" string="Mr" lemma="Mr" stem="mr" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Robertson" lemma="Robertson" stem="robertson" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="No" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="one" lemma="one" stem="on" pos="NN" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="knows" lemma="know" stem="know" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="time" lemma="time" stem="time" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="what" lemma="what" stem="what" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="exact" lemma="exact" stem="exact" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="loss" lemma="loss" stem="loss" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (NP (NNP Mr) (NNP Robertson)) (VP (VBD said) (: :) (`` `) (SBAR (S (NP (DT No) (NN one)) (VP (VBZ knows) (PP (IN at) (NP (NP (DT this) (NN time)) (SBAR (WHNP (WP what)) (S (NP (DT the) (JJ exact) (NN loss)) (VP (VBZ is))))))))) ('' ')) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="No one" type="NP">
+          <tokens>
+            <token id="6" string="No" />
+            <token id="7" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="knows at this time what the exact loss is" type="VP">
+          <tokens>
+            <token id="8" string="knows" />
+            <token id="9" string="at" />
+            <token id="10" string="this" />
+            <token id="11" string="time" />
+            <token id="12" string="what" />
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+            <token id="16" string="is" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the exact loss" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="this time what the exact loss is" type="NP">
+          <tokens>
+            <token id="10" string="this" />
+            <token id="11" string="time" />
+            <token id="12" string="what" />
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+            <token id="16" string="is" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is" type="VP">
+          <tokens>
+            <token id="16" string="is" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="No one knows at this time what the exact loss is" type="SBAR">
+          <tokens>
+            <token id="6" string="No" />
+            <token id="7" string="one" />
+            <token id="8" string="knows" />
+            <token id="9" string="at" />
+            <token id="10" string="this" />
+            <token id="11" string="time" />
+            <token id="12" string="what" />
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+            <token id="16" string="is" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="what the exact loss is" type="SBAR">
+          <tokens>
+            <token id="12" string="what" />
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+            <token id="16" string="is" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said : ` No one knows at this time what the exact loss is '" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+            <token id="4" string=":" />
+            <token id="5" string="'" />
+            <token id="6" string="No" />
+            <token id="7" string="one" />
+            <token id="8" string="knows" />
+            <token id="9" string="at" />
+            <token id="10" string="this" />
+            <token id="11" string="time" />
+            <token id="12" string="what" />
+            <token id="13" string="the" />
+            <token id="14" string="exact" />
+            <token id="15" string="loss" />
+            <token id="16" string="is" />
+            <token id="17" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Mr Robertson" type="NP">
+          <tokens>
+            <token id="1" string="Mr" />
+            <token id="2" string="Robertson" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="this time" type="NP">
+          <tokens>
+            <token id="10" string="this" />
+            <token id="11" string="time" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Robertson</governor>
+          <dependent id="1">Mr</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="2">Robertson</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="7">one</governor>
+          <dependent id="6">No</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">knows</governor>
+          <dependent id="7">one</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">said</governor>
+          <dependent id="8">knows</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">time</governor>
+          <dependent id="9">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">time</governor>
+          <dependent id="10">this</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">knows</governor>
+          <dependent id="11">time</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">is</governor>
+          <dependent id="12">what</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">loss</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">loss</governor>
+          <dependent id="14">exact</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">is</governor>
+          <dependent id="15">loss</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="11">time</governor>
+          <dependent id="16">is</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="one" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Robertson" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Robertson" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="16-17" string="Hurricane Andrew" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="37-44" string="Hurricane Andrew , which struck Florida and Louisiana" id_sentence="2" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="NOMINAL">
+      <referenced ids_tokens="29-30-31-32-33-34-35-36-37-38-39-40-41-42-43-44" string="the losses to their US operations arising from Hurricane Andrew , which struck Florida and Louisiana" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="12-13" string="its losses" id_sentence="3" />
+        <mention ids_tokens="13-14" string="the losses" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="2" string="this" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="4" />
+        <mention ids_tokens="7" string="it" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="18-19-20-21" string="a certain claims threshold" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="3-4" string="this threshold" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="5-6" string="GA 's" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Mr Nelson Robertson" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1-2" string="Mr Robertson" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="NOMINAL">
+      <referenced ids_tokens="14-15" string="the company" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1-3" string="The company's" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5" string="The company 's loss adjusters" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="1" string="Their" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="14" type="NOMINAL">
+      <referenced ids_tokens="8-9-10-11-12-13-14" string="the area trying to estimate the losses" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="6-7" string="the area" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="15" type="NOMINAL">
+      <referenced ids_tokens="5-6-7-8-9-10-11" string="losses to be faced by all insurers" id_sentence="9" />
+      <mentions>
+        <mention ids_tokens="8" string="losses" id_sentence="11" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

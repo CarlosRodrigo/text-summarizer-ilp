@@ -1,0 +1,3555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890928-0099">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>It&amp;apost;s taken the devastation caused by Hurricane Hugo to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="taken" lemma="take" stem="taken" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="devastation" lemma="devastation" stem="devast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="caused" lemma="cause" stem="caus" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="Hugo" lemma="Hugo" stem="hugo" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="stimulate" lemma="stimulate" stem="stimul" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="repayment" lemma="repayment" stem="repay" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="211-year-old" lemma="211-year-old" stem="211-year-old" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="debt" lemma="debt" stem="debt" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="between" lemma="between" stem="between" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="19" string="cities" lemma="city" stem="citi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="almost" lemma="almost" stem="almost" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="1,000" lemma="1,000" stem="1,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="22" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="apart" lemma="apart" stem="apart" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBZ 's) (VP (VBN taken) (NP (NP (DT the) (NN devastation)) (VP (VBN caused) (PP (IN by) (NP (NNP Hurricane) (NNP Hugo))) (S (VP (TO to) (VP (VB stimulate) (NP (NP (NN repayment)) (PP (IN of) (NP (NP (DT a) (JJ 211-year-old) (NN debt)) (PP (IN between) (NP (NP (CD two) (NNS cities)) (ADVP (NP (RB almost) (CD 1,000) (NNS miles)) (RB apart)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a 211-year-old debt" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="'s taken the devastation caused by Hurricane Hugo to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="VP">
+          <tokens>
+            <token id="2" string="'s" />
+            <token id="3" string="taken" />
+            <token id="4" string="the" />
+            <token id="5" string="devastation" />
+            <token id="6" string="caused" />
+            <token id="7" string="by" />
+            <token id="8" string="Hurricane" />
+            <token id="9" string="Hugo" />
+            <token id="10" string="to" />
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Hurricane Hugo" type="NP">
+          <tokens>
+            <token id="8" string="Hurricane" />
+            <token id="9" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the devastation caused by Hurricane Hugo to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="devastation" />
+            <token id="6" string="caused" />
+            <token id="7" string="by" />
+            <token id="8" string="Hurricane" />
+            <token id="9" string="Hugo" />
+            <token id="10" string="to" />
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="caused by Hurricane Hugo to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="VP">
+          <tokens>
+            <token id="6" string="caused" />
+            <token id="7" string="by" />
+            <token id="8" string="Hurricane" />
+            <token id="9" string="Hugo" />
+            <token id="10" string="to" />
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="almost 1,000 miles" type="NP">
+          <tokens>
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="NP">
+          <tokens>
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="taken the devastation caused by Hurricane Hugo to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="VP">
+          <tokens>
+            <token id="3" string="taken" />
+            <token id="4" string="the" />
+            <token id="5" string="devastation" />
+            <token id="6" string="caused" />
+            <token id="7" string="by" />
+            <token id="8" string="Hurricane" />
+            <token id="9" string="Hugo" />
+            <token id="10" string="to" />
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="two cities" type="NP">
+          <tokens>
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="VP">
+          <tokens>
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a 211-year-old debt between two cities almost 1,000 miles apart" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="two cities almost 1,000 miles apart" type="NP">
+          <tokens>
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="to stimulate repayment of a 211-year-old debt between two cities almost 1,000 miles apart" type="VP">
+          <tokens>
+            <token id="10" string="to" />
+            <token id="11" string="stimulate" />
+            <token id="12" string="repayment" />
+            <token id="13" string="of" />
+            <token id="14" string="a" />
+            <token id="15" string="211-year-old" />
+            <token id="16" string="debt" />
+            <token id="17" string="between" />
+            <token id="18" string="two" />
+            <token id="19" string="cities" />
+            <token id="20" string="almost" />
+            <token id="21" string="1,000" />
+            <token id="22" string="miles" />
+            <token id="23" string="apart" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the devastation" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="devastation" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="repayment" type="NP">
+          <tokens>
+            <token id="12" string="repayment" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="3">taken</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="3">taken</governor>
+          <dependent id="2">'s</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">taken</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">devastation</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">taken</governor>
+          <dependent id="5">devastation</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="5">devastation</governor>
+          <dependent id="6">caused</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Hugo</governor>
+          <dependent id="7">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Hugo</governor>
+          <dependent id="8">Hurricane</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">caused</governor>
+          <dependent id="9">Hugo</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">stimulate</governor>
+          <dependent id="10">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">caused</governor>
+          <dependent id="11">stimulate</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">stimulate</governor>
+          <dependent id="12">repayment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">debt</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">debt</governor>
+          <dependent id="14">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">debt</governor>
+          <dependent id="15">211-year-old</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">repayment</governor>
+          <dependent id="16">debt</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">cities</governor>
+          <dependent id="17">between</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="19">cities</governor>
+          <dependent id="18">two</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">debt</governor>
+          <dependent id="19">cities</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">miles</governor>
+          <dependent id="20">almost</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="22">miles</governor>
+          <dependent id="21">1,000</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="23">apart</governor>
+          <dependent id="22">miles</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">cities</governor>
+          <dependent id="23">apart</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="21" string="1,000" />
+          </tokens>
+        </entity>
+        <entity id="2" string="211-year-old" type="DURATION" score="0.0">
+          <tokens>
+            <token id="15" string="211-year-old" />
+          </tokens>
+        </entity>
+        <entity id="3" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="two" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>As a way of repaying a kindness dating to 1778, Kingston is raising money to help Charleston, S.C., recover.</content>
+      <tokens>
+        <token id="1" string="As" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="way" lemma="way" stem="wai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="repaying" lemma="repay" stem="repai" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="kindness" lemma="kindness" stem="kind" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="dating" lemma="date" stem="date" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="1778" lemma="1778" stem="1778" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Kingston" lemma="Kingston" stem="kingston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="raising" lemma="raise" stem="rais" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="money" lemma="money" stem="monei" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="help" lemma="help" stem="help" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="Charleston" lemma="Charleston" stem="charleston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="S.C." lemma="S.C." stem="s.c." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="recover" lemma="recover" stem="recov" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN As) (NP (NP (DT a) (NN way)) (PP (IN of) (S (VP (VBG repaying) (NP (NP (DT a) (NN kindness)) (VP (VBG dating) (PP (TO to) (NP (CD 1778)))))))))) (, ,) (NP (NNP Kingston)) (VP (VBZ is) (VP (VBG raising) (NP (NN money)) (S (VP (TO to) (VP (VB help) (S (NP (NP (NNP Charleston)) (, ,) (NP (NNP S.C.)) (, ,)) (VP (VB recover)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Charleston" type="NP">
+          <tokens>
+            <token id="18" string="Charleston" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="S.C." type="NP">
+          <tokens>
+            <token id="20" string="S.C." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="recover" type="VP">
+          <tokens>
+            <token id="22" string="recover" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a way of repaying a kindness dating to 1778" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="way" />
+            <token id="4" string="of" />
+            <token id="5" string="repaying" />
+            <token id="6" string="a" />
+            <token id="7" string="kindness" />
+            <token id="8" string="dating" />
+            <token id="9" string="to" />
+            <token id="10" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a way" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="way" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Kingston" type="NP">
+          <tokens>
+            <token id="12" string="Kingston" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="money" type="NP">
+          <tokens>
+            <token id="15" string="money" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="raising money to help Charleston , S.C. , recover" type="VP">
+          <tokens>
+            <token id="14" string="raising" />
+            <token id="15" string="money" />
+            <token id="16" string="to" />
+            <token id="17" string="help" />
+            <token id="18" string="Charleston" />
+            <token id="19" string="," />
+            <token id="20" string="S.C." />
+            <token id="21" string="," />
+            <token id="22" string="recover" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="help Charleston , S.C. , recover" type="VP">
+          <tokens>
+            <token id="17" string="help" />
+            <token id="18" string="Charleston" />
+            <token id="19" string="," />
+            <token id="20" string="S.C." />
+            <token id="21" string="," />
+            <token id="22" string="recover" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="1778" type="NP">
+          <tokens>
+            <token id="10" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Charleston , S.C. ," type="NP">
+          <tokens>
+            <token id="18" string="Charleston" />
+            <token id="19" string="," />
+            <token id="20" string="S.C." />
+            <token id="21" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="repaying a kindness dating to 1778" type="VP">
+          <tokens>
+            <token id="5" string="repaying" />
+            <token id="6" string="a" />
+            <token id="7" string="kindness" />
+            <token id="8" string="dating" />
+            <token id="9" string="to" />
+            <token id="10" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="is raising money to help Charleston , S.C. , recover" type="VP">
+          <tokens>
+            <token id="13" string="is" />
+            <token id="14" string="raising" />
+            <token id="15" string="money" />
+            <token id="16" string="to" />
+            <token id="17" string="help" />
+            <token id="18" string="Charleston" />
+            <token id="19" string="," />
+            <token id="20" string="S.C." />
+            <token id="21" string="," />
+            <token id="22" string="recover" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a kindness" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="kindness" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="dating to 1778" type="VP">
+          <tokens>
+            <token id="8" string="dating" />
+            <token id="9" string="to" />
+            <token id="10" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="a kindness dating to 1778" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="kindness" />
+            <token id="8" string="dating" />
+            <token id="9" string="to" />
+            <token id="10" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="to help Charleston , S.C. , recover" type="VP">
+          <tokens>
+            <token id="16" string="to" />
+            <token id="17" string="help" />
+            <token id="18" string="Charleston" />
+            <token id="19" string="," />
+            <token id="20" string="S.C." />
+            <token id="21" string="," />
+            <token id="22" string="recover" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">way</governor>
+          <dependent id="1">As</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">way</governor>
+          <dependent id="2">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">raising</governor>
+          <dependent id="3">way</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="5">repaying</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="3">way</governor>
+          <dependent id="5">repaying</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">kindness</governor>
+          <dependent id="6">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">repaying</governor>
+          <dependent id="7">kindness</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="7">kindness</governor>
+          <dependent id="8">dating</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">1778</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">dating</governor>
+          <dependent id="10">1778</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">raising</governor>
+          <dependent id="12">Kingston</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">raising</governor>
+          <dependent id="13">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">raising</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">raising</governor>
+          <dependent id="15">money</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="17">help</governor>
+          <dependent id="16">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="14">raising</governor>
+          <dependent id="17">help</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">recover</governor>
+          <dependent id="18">Charleston</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="18">Charleston</governor>
+          <dependent id="20">S.C.</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="17">help</governor>
+          <dependent id="22">recover</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Charleston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Charleston" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1778" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="1778" />
+          </tokens>
+        </entity>
+        <entity id="3" string="S.C." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="S.C." />
+          </tokens>
+        </entity>
+        <entity id="4" string="Kingston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Kingston" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>After Kingston, then New York&amp;apost;s capital, was burned in October 1777 by the British, New York Gov. George Clinton received a letter from South Carolina Gov. Abraham Livingston.</content>
+      <tokens>
+        <token id="1" string="After" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Kingston" lemma="Kingston" stem="kingston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="then" lemma="then" stem="then" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="6" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="7" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="8" string="capital" lemma="capital" stem="capit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="burned" lemma="burn" stem="burn" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="October" lemma="October" stem="october" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="1777" lemma="1777" stem="1777" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="British" lemma="british" stem="british" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="Gov." lemma="Gov." stem="gov." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="George" lemma="George" stem="georg" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="23" string="Clinton" lemma="Clinton" stem="clinton" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="24" string="received" lemma="receive" stem="receiv" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="letter" lemma="letter" stem="letter" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="South" lemma="South" stem="south" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="29" string="Carolina" lemma="Carolina" stem="carolina" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="30" string="Gov." lemma="Gov." stem="gov." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="31" string="Abraham" lemma="Abraham" stem="abraham" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="32" string="Livingston" lemma="Livingston" stem="livingston" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (SBAR (IN After) (S (NP (NP (NNP Kingston)) (, ,) (ADVP (RB then)) (NP (NP (NNP New) (NNP York) (POS 's)) (NN capital)) (, ,)) (VP (VBD was) (VP (VBN burned) (PP (IN in) (NP (NNP October) (CD 1777))) (PP (IN by) (NP (DT the) (JJ British))))))) (, ,) (NP (NNP New) (NNP York) (NNP Gov.) (NNP George) (NNP Clinton)) (VP (VBD received) (NP (DT a) (NN letter)) (PP (IN from) (NP (NNP South) (NNP Carolina) (NNP Gov.) (NNP Abraham) (NNP Livingston)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="burned in October 1777 by the British" type="VP">
+          <tokens>
+            <token id="11" string="burned" />
+            <token id="12" string="in" />
+            <token id="13" string="October" />
+            <token id="14" string="1777" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="British" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Kingston , then New York 's capital ," type="NP">
+          <tokens>
+            <token id="2" string="Kingston" />
+            <token id="3" string="," />
+            <token id="4" string="then" />
+            <token id="5" string="New" />
+            <token id="6" string="York" />
+            <token id="7" string="'s" />
+            <token id="8" string="capital" />
+            <token id="9" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="October 1777" type="NP">
+          <tokens>
+            <token id="13" string="October" />
+            <token id="14" string="1777" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="received a letter from South Carolina Gov. Abraham Livingston" type="VP">
+          <tokens>
+            <token id="24" string="received" />
+            <token id="25" string="a" />
+            <token id="26" string="letter" />
+            <token id="27" string="from" />
+            <token id="28" string="South" />
+            <token id="29" string="Carolina" />
+            <token id="30" string="Gov." />
+            <token id="31" string="Abraham" />
+            <token id="32" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="South Carolina Gov. Abraham Livingston" type="NP">
+          <tokens>
+            <token id="28" string="South" />
+            <token id="29" string="Carolina" />
+            <token id="30" string="Gov." />
+            <token id="31" string="Abraham" />
+            <token id="32" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Kingston" type="NP">
+          <tokens>
+            <token id="2" string="Kingston" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the British" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="British" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="New York 's capital" type="NP">
+          <tokens>
+            <token id="5" string="New" />
+            <token id="6" string="York" />
+            <token id="7" string="'s" />
+            <token id="8" string="capital" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="was burned in October 1777 by the British" type="VP">
+          <tokens>
+            <token id="10" string="was" />
+            <token id="11" string="burned" />
+            <token id="12" string="in" />
+            <token id="13" string="October" />
+            <token id="14" string="1777" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="British" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="New York Gov. George Clinton" type="NP">
+          <tokens>
+            <token id="19" string="New" />
+            <token id="20" string="York" />
+            <token id="21" string="Gov." />
+            <token id="22" string="George" />
+            <token id="23" string="Clinton" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a letter" type="NP">
+          <tokens>
+            <token id="25" string="a" />
+            <token id="26" string="letter" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="After Kingston , then New York 's capital , was burned in October 1777 by the British" type="SBAR">
+          <tokens>
+            <token id="1" string="After" />
+            <token id="2" string="Kingston" />
+            <token id="3" string="," />
+            <token id="4" string="then" />
+            <token id="5" string="New" />
+            <token id="6" string="York" />
+            <token id="7" string="'s" />
+            <token id="8" string="capital" />
+            <token id="9" string="," />
+            <token id="10" string="was" />
+            <token id="11" string="burned" />
+            <token id="12" string="in" />
+            <token id="13" string="October" />
+            <token id="14" string="1777" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="British" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="New York 's" type="NP">
+          <tokens>
+            <token id="5" string="New" />
+            <token id="6" string="York" />
+            <token id="7" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="mark">
+          <governor id="11">burned</governor>
+          <dependent id="1">After</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="11">burned</governor>
+          <dependent id="2">Kingston</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">capital</governor>
+          <dependent id="4">then</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">York</governor>
+          <dependent id="5">New</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">capital</governor>
+          <dependent id="6">York</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">York</governor>
+          <dependent id="7">'s</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Kingston</governor>
+          <dependent id="8">capital</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">burned</governor>
+          <dependent id="10">was</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="24">received</governor>
+          <dependent id="11">burned</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">October</governor>
+          <dependent id="12">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">burned</governor>
+          <dependent id="13">October</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">October</governor>
+          <dependent id="14">1777</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">British</governor>
+          <dependent id="15">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">British</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">burned</governor>
+          <dependent id="17">British</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Clinton</governor>
+          <dependent id="19">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Clinton</governor>
+          <dependent id="20">York</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Clinton</governor>
+          <dependent id="21">Gov.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Clinton</governor>
+          <dependent id="22">George</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">received</governor>
+          <dependent id="23">Clinton</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="24">received</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">letter</governor>
+          <dependent id="25">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">received</governor>
+          <dependent id="26">letter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">Livingston</governor>
+          <dependent id="27">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">Livingston</governor>
+          <dependent id="28">South</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">Livingston</governor>
+          <dependent id="29">Carolina</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">Livingston</governor>
+          <dependent id="30">Gov.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">Livingston</governor>
+          <dependent id="31">Abraham</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">received</governor>
+          <dependent id="32">Livingston</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="New" />
+            <token id="6" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="British" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="17" string="British" />
+          </tokens>
+        </entity>
+        <entity id="3" string="October 1777" type="DATE" score="0.0">
+          <tokens>
+            <token id="13" string="October" />
+            <token id="14" string="1777" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Abraham Livingston" type="PERSON" score="0.0">
+          <tokens>
+            <token id="31" string="Abraham" />
+            <token id="32" string="Livingston" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Kingston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Kingston" />
+          </tokens>
+        </entity>
+        <entity id="6" string="South Carolina" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="South" />
+            <token id="29" string="Carolina" />
+          </tokens>
+        </entity>
+        <entity id="7" string="George Clinton" type="PERSON" score="0.0">
+          <tokens>
+            <token id="22" string="George" />
+            <token id="23" string="Clinton" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>The letter included nearly 1,000 New York pounds to help Kingston residents get through their crisis.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="letter" lemma="letter" stem="letter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="included" lemma="include" stem="includ" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="nearly" lemma="nearly" stem="nearli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="1,000" lemma="1,000" stem="1,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="6" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="7" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="pounds" lemma="pound" stem="pound" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="help" lemma="help" stem="help" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="Kingston" lemma="Kingston" stem="kingston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="residents" lemma="resident" stem="resid" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="get" lemma="get" stem="get" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="crisis" lemma="crisis" stem="crisi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN letter)) (VP (VBD included) (S (NP (RB nearly) (CD 1,000) (NNP New) (NNP York) (NNS pounds)) (VP (TO to) (VP (VB help) (SBAR (S (NP (NNP Kingston) (NNS residents)) (VP (VBP get) (PP (IN through) (NP (PRP$ their) (NN crisis)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The letter" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="letter" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Kingston residents get through their crisis" type="SBAR">
+          <tokens>
+            <token id="11" string="Kingston" />
+            <token id="12" string="residents" />
+            <token id="13" string="get" />
+            <token id="14" string="through" />
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="help Kingston residents get through their crisis" type="VP">
+          <tokens>
+            <token id="10" string="help" />
+            <token id="11" string="Kingston" />
+            <token id="12" string="residents" />
+            <token id="13" string="get" />
+            <token id="14" string="through" />
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="nearly 1,000 New York pounds" type="NP">
+          <tokens>
+            <token id="4" string="nearly" />
+            <token id="5" string="1,000" />
+            <token id="6" string="New" />
+            <token id="7" string="York" />
+            <token id="8" string="pounds" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="get through their crisis" type="VP">
+          <tokens>
+            <token id="13" string="get" />
+            <token id="14" string="through" />
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="included nearly 1,000 New York pounds to help Kingston residents get through their crisis" type="VP">
+          <tokens>
+            <token id="3" string="included" />
+            <token id="4" string="nearly" />
+            <token id="5" string="1,000" />
+            <token id="6" string="New" />
+            <token id="7" string="York" />
+            <token id="8" string="pounds" />
+            <token id="9" string="to" />
+            <token id="10" string="help" />
+            <token id="11" string="Kingston" />
+            <token id="12" string="residents" />
+            <token id="13" string="get" />
+            <token id="14" string="through" />
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to help Kingston residents get through their crisis" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="help" />
+            <token id="11" string="Kingston" />
+            <token id="12" string="residents" />
+            <token id="13" string="get" />
+            <token id="14" string="through" />
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Kingston residents" type="NP">
+          <tokens>
+            <token id="11" string="Kingston" />
+            <token id="12" string="residents" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="their crisis" type="NP">
+          <tokens>
+            <token id="15" string="their" />
+            <token id="16" string="crisis" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">letter</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">included</governor>
+          <dependent id="2">letter</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">included</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">pounds</governor>
+          <dependent id="4">nearly</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">pounds</governor>
+          <dependent id="5">1,000</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">pounds</governor>
+          <dependent id="6">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">pounds</governor>
+          <dependent id="7">York</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">included</governor>
+          <dependent id="8">pounds</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">help</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">included</governor>
+          <dependent id="10">help</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">residents</governor>
+          <dependent id="11">Kingston</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">get</governor>
+          <dependent id="12">residents</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">help</governor>
+          <dependent id="13">get</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">crisis</governor>
+          <dependent id="14">through</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">crisis</governor>
+          <dependent id="15">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">get</governor>
+          <dependent id="16">crisis</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="New" />
+            <token id="7" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="5" string="1,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Kingston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Kingston" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>``This money has been received for the charitable purpose of alleviating the distresses of the now-indigent inhabitants of the town of Kingston, who by the ravages of the enemy are reduced to poverty and want,&amp;apost;&amp;apost; Livingston wrote on March 31, 1778.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="This" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="money" lemma="money" stem="monei" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="received" lemma="receive" stem="receiv" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="charitable" lemma="charitable" stem="charit" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="purpose" lemma="purpose" stem="purpos" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="alleviating" lemma="alleviate" stem="allevi" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="distresses" lemma="distress" stem="distress" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="now-indigent" lemma="now-indigent" stem="now-indig" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="inhabitants" lemma="inhabitant" stem="inhabit" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="town" lemma="town" stem="town" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="Kingston" lemma="Kingston" stem="kingston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="28" string="ravages" lemma="ravages" stem="ravag" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="31" string="enemy" lemma="enemy" stem="enemi" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="32" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="33" string="reduced" lemma="reduce" stem="reduc" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="34" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="35" string="poverty" lemma="poverty" stem="poverti" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="36" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="37" string="want" lemma="want" stem="want" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="38" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="Livingston" lemma="Livingston" stem="livingston" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="41" string="wrote" lemma="write" stem="wrote" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="March" lemma="March" stem="march" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="44" string="31" lemma="31" stem="31" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="45" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="46" string="1778" lemma="1778" stem="1778" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="47" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (DT This) (NN money)) (VP (VBZ has) (VP (VBN been) (VP (VBN received) (PP (IN for) (NP (NP (DT the) (JJ charitable) (NN purpose)) (PP (IN of) (S (VP (VBG alleviating) (NP (NP (DT the) (NNS distresses)) (PP (IN of) (NP (NP (DT the) (JJ now-indigent) (NNS inhabitants)) (PP (IN of) (NP (NP (DT the) (NN town)) (PP (IN of) (NP (NNP Kingston))))) (, ,) (SBAR (WHNP (WP who)) (S (PP (IN by) (NP (NP (DT the) (NNS ravages)) (PP (IN of) (NP (DT the) (NN enemy))))) (VP (VBP are) (VP (VP (VBN reduced) (PP (TO to) (NP (NN poverty)))) (CC and) (VP (VB want)))))))))))))))))) (, ,) ('' '') (NP (NNP Livingston)) (VP (VBD wrote) (PP (IN on) (NP (NNP March) (CD 31) (, ,) (CD 1778)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="This money" type="NP">
+          <tokens>
+            <token id="2" string="This" />
+            <token id="3" string="money" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="March 31 , 1778" type="NP">
+          <tokens>
+            <token id="43" string="March" />
+            <token id="44" string="31" />
+            <token id="45" string="," />
+            <token id="46" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="received for the charitable purpose of alleviating the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="6" string="received" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="charitable" />
+            <token id="10" string="purpose" />
+            <token id="11" string="of" />
+            <token id="12" string="alleviating" />
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Livingston" type="NP">
+          <tokens>
+            <token id="40" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="alleviating the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="12" string="alleviating" />
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the enemy" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="want" type="VP">
+          <tokens>
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="who by the ravages of the enemy are reduced to poverty and want" type="SBAR">
+          <tokens>
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="are reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="wrote on March 31 , 1778" type="VP">
+          <tokens>
+            <token id="41" string="wrote" />
+            <token id="42" string="on" />
+            <token id="43" string="March" />
+            <token id="44" string="31" />
+            <token id="45" string="," />
+            <token id="46" string="1778" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the town" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the town of Kingston" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="has been received for the charitable purpose of alleviating the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="4" string="has" />
+            <token id="5" string="been" />
+            <token id="6" string="received" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="charitable" />
+            <token id="10" string="purpose" />
+            <token id="11" string="of" />
+            <token id="12" string="alleviating" />
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the distresses" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the charitable purpose of alleviating the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="charitable" />
+            <token id="10" string="purpose" />
+            <token id="11" string="of" />
+            <token id="12" string="alleviating" />
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Kingston" type="NP">
+          <tokens>
+            <token id="23" string="Kingston" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the now-indigent inhabitants" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="been received for the charitable purpose of alleviating the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="5" string="been" />
+            <token id="6" string="received" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="charitable" />
+            <token id="10" string="purpose" />
+            <token id="11" string="of" />
+            <token id="12" string="alleviating" />
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the distresses of the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="distresses" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="now-indigent" />
+            <token id="18" string="inhabitants" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="town" />
+            <token id="22" string="of" />
+            <token id="23" string="Kingston" />
+            <token id="24" string="," />
+            <token id="25" string="who" />
+            <token id="26" string="by" />
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+            <token id="32" string="are" />
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="reduced to poverty and want" type="VP">
+          <tokens>
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+            <token id="36" string="and" />
+            <token id="37" string="want" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="poverty" type="NP">
+          <tokens>
+            <token id="35" string="poverty" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="the ravages of the enemy" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="enemy" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="the ravages" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="ravages" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="the charitable purpose" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="charitable" />
+            <token id="10" string="purpose" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="reduced to poverty" type="VP">
+          <tokens>
+            <token id="33" string="reduced" />
+            <token id="34" string="to" />
+            <token id="35" string="poverty" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">money</governor>
+          <dependent id="2">This</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="6">received</governor>
+          <dependent id="3">money</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">received</governor>
+          <dependent id="4">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="6">received</governor>
+          <dependent id="5">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="41">wrote</governor>
+          <dependent id="6">received</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">purpose</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">purpose</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">purpose</governor>
+          <dependent id="9">charitable</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">received</governor>
+          <dependent id="10">purpose</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">alleviating</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="10">purpose</governor>
+          <dependent id="12">alleviating</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">distresses</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">alleviating</governor>
+          <dependent id="14">distresses</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">inhabitants</governor>
+          <dependent id="15">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">inhabitants</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">inhabitants</governor>
+          <dependent id="17">now-indigent</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">distresses</governor>
+          <dependent id="18">inhabitants</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">town</governor>
+          <dependent id="19">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">town</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">inhabitants</governor>
+          <dependent id="21">town</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Kingston</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">town</governor>
+          <dependent id="23">Kingston</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="33">reduced</governor>
+          <dependent id="25">who</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">ravages</governor>
+          <dependent id="26">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">ravages</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">reduced</governor>
+          <dependent id="28">ravages</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">enemy</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">enemy</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">ravages</governor>
+          <dependent id="31">enemy</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="33">reduced</governor>
+          <dependent id="32">are</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="18">inhabitants</governor>
+          <dependent id="33">reduced</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">poverty</governor>
+          <dependent id="34">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">reduced</governor>
+          <dependent id="35">poverty</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="33">reduced</governor>
+          <dependent id="36">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="33">reduced</governor>
+          <dependent id="37">want</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="41">wrote</governor>
+          <dependent id="40">Livingston</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="41">wrote</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="43">March</governor>
+          <dependent id="42">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="41">wrote</governor>
+          <dependent id="43">March</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="43">March</governor>
+          <dependent id="44">31</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="43">March</governor>
+          <dependent id="46">1778</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="March 31 , 1778" type="DATE" score="0.0">
+          <tokens>
+            <token id="43" string="March" />
+            <token id="44" string="31" />
+            <token id="45" string="," />
+            <token id="46" string="1778" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Livingston" type="PERSON" score="0.0">
+          <tokens>
+            <token id="40" string="Livingston" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Kingston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="23" string="Kingston" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Kingston Historian Edwin Ford remembered the letter when Hurricane Hugo ravaged the Carolinas last week.</content>
+      <tokens>
+        <token id="1" string="Kingston" lemma="Kingston" stem="kingston" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="2" string="Historian" lemma="Historian" stem="historian" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="false" />
+        <token id="3" string="Edwin" lemma="Edwin" stem="edwin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="Ford" lemma="Ford" stem="ford" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="remembered" lemma="remember" stem="rememb" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="letter" lemma="letter" stem="letter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="Hugo" lemma="Hugo" stem="hugo" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="ravaged" lemma="ravage" stem="ravag" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="Carolinas" lemma="Carolinas" stem="carolina" pos="NNPS" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="14" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="15" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Kingston) (NNP Historian) (NNP Edwin) (NNP Ford)) (VP (VBD remembered) (NP (DT the) (NN letter)) (SBAR (WHADVP (WRB when)) (S (NP (NNP Hurricane) (NNP Hugo)) (VP (VBD ravaged) (NP (DT the) (NNPS Carolinas)) (NP-TMP (JJ last) (NN week)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Kingston Historian Edwin Ford" type="NP">
+          <tokens>
+            <token id="1" string="Kingston" />
+            <token id="2" string="Historian" />
+            <token id="3" string="Edwin" />
+            <token id="4" string="Ford" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="when Hurricane Hugo ravaged the Carolinas last week" type="SBAR">
+          <tokens>
+            <token id="8" string="when" />
+            <token id="9" string="Hurricane" />
+            <token id="10" string="Hugo" />
+            <token id="11" string="ravaged" />
+            <token id="12" string="the" />
+            <token id="13" string="Carolinas" />
+            <token id="14" string="last" />
+            <token id="15" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="remembered the letter when Hurricane Hugo ravaged the Carolinas last week" type="VP">
+          <tokens>
+            <token id="5" string="remembered" />
+            <token id="6" string="the" />
+            <token id="7" string="letter" />
+            <token id="8" string="when" />
+            <token id="9" string="Hurricane" />
+            <token id="10" string="Hugo" />
+            <token id="11" string="ravaged" />
+            <token id="12" string="the" />
+            <token id="13" string="Carolinas" />
+            <token id="14" string="last" />
+            <token id="15" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the letter" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="letter" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="ravaged the Carolinas last week" type="VP">
+          <tokens>
+            <token id="11" string="ravaged" />
+            <token id="12" string="the" />
+            <token id="13" string="Carolinas" />
+            <token id="14" string="last" />
+            <token id="15" string="week" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Hurricane Hugo" type="NP">
+          <tokens>
+            <token id="9" string="Hurricane" />
+            <token id="10" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Carolinas" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="Carolinas" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="8" string="when" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="4">Ford</governor>
+          <dependent id="1">Kingston</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ford</governor>
+          <dependent id="2">Historian</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ford</governor>
+          <dependent id="3">Edwin</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">remembered</governor>
+          <dependent id="4">Ford</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">remembered</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">letter</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">remembered</governor>
+          <dependent id="7">letter</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">ravaged</governor>
+          <dependent id="8">when</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Hugo</governor>
+          <dependent id="9">Hurricane</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">ravaged</governor>
+          <dependent id="10">Hugo</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">remembered</governor>
+          <dependent id="11">ravaged</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Carolinas</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">ravaged</governor>
+          <dependent id="13">Carolinas</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">week</governor>
+          <dependent id="14">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="11">ravaged</governor>
+          <dependent id="15">week</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Edwin Ford" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="Edwin" />
+            <token id="4" string="Ford" />
+          </tokens>
+        </entity>
+        <entity id="2" string="last week" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="last" />
+            <token id="15" string="week" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Carolinas" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="13" string="Carolinas" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Historian" type="TITLE" score="0.0">
+          <tokens>
+            <token id="2" string="Historian" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Kingston" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Kingston" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>``I figured they helped us, we should do something for them,&amp;apost;&amp;apost; Ford said.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="figured" lemma="figure" stem="figur" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="helped" lemma="help" stem="help" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="us" lemma="we" stem="u" pos="PRP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="do" lemma="do" stem="do" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="something" lemma="something" stem="someth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Ford" lemma="Ford" stem="ford" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="17" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (S (NP (PRP I)) (VP (VBD figured) (SBAR (S (NP (PRP they)) (VP (VBD helped) (NP (PRP us))))))) (, ,) (NP (PRP we)) (VP (MD should) (VP (VB do) (NP (NN something)) (PP (IN for) (NP (PRP them)))))) (, ,) ('' '') (NP (NNP Ford)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="I" type="NP">
+          <tokens>
+            <token id="2" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="we" type="NP">
+          <tokens>
+            <token id="8" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="something" type="NP">
+          <tokens>
+            <token id="11" string="something" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="them" type="NP">
+          <tokens>
+            <token id="13" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="they" type="NP">
+          <tokens>
+            <token id="4" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="they helped us" type="SBAR">
+          <tokens>
+            <token id="4" string="they" />
+            <token id="5" string="helped" />
+            <token id="6" string="us" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="should do something for them" type="VP">
+          <tokens>
+            <token id="9" string="should" />
+            <token id="10" string="do" />
+            <token id="11" string="something" />
+            <token id="12" string="for" />
+            <token id="13" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="do something for them" type="VP">
+          <tokens>
+            <token id="10" string="do" />
+            <token id="11" string="something" />
+            <token id="12" string="for" />
+            <token id="13" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Ford" type="NP">
+          <tokens>
+            <token id="16" string="Ford" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="helped us" type="VP">
+          <tokens>
+            <token id="5" string="helped" />
+            <token id="6" string="us" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="us" type="NP">
+          <tokens>
+            <token id="6" string="us" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="said" type="VP">
+          <tokens>
+            <token id="17" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="figured they helped us" type="VP">
+          <tokens>
+            <token id="3" string="figured" />
+            <token id="4" string="they" />
+            <token id="5" string="helped" />
+            <token id="6" string="us" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">figured</governor>
+          <dependent id="2">I</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">do</governor>
+          <dependent id="3">figured</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">helped</governor>
+          <dependent id="4">they</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">figured</governor>
+          <dependent id="5">helped</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">helped</governor>
+          <dependent id="6">us</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">do</governor>
+          <dependent id="8">we</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="10">do</governor>
+          <dependent id="9">should</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="17">said</governor>
+          <dependent id="10">do</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">do</governor>
+          <dependent id="11">something</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">them</governor>
+          <dependent id="12">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">do</governor>
+          <dependent id="13">them</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">said</governor>
+          <dependent id="16">Ford</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="17">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ford" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="16" string="Ford" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>On Wednesday, a local Red Cross chapter began collecting donations for victims of the hurricane.</content>
+      <tokens>
+        <token id="1" string="On" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="local" lemma="local" stem="local" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="Red" lemma="Red" stem="red" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="Cross" lemma="Cross" stem="cross" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="chapter" lemma="chapter" stem="chapter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="began" lemma="begin" stem="began" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="collecting" lemma="collect" stem="collect" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="donations" lemma="donation" stem="donat" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="victims" lemma="victim" stem="victim" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="hurricane" lemma="hurricane" stem="hurrican" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN On) (NP (NNP Wednesday))) (, ,) (NP (DT a) (JJ local) (NNP Red) (NNP Cross) (NN chapter)) (VP (VBD began) (S (VP (VBG collecting) (NP (NNS donations)) (PP (IN for) (NP (NP (NNS victims)) (PP (IN of) (NP (DT the) (NN hurricane)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="collecting donations for victims of the hurricane" type="VP">
+          <tokens>
+            <token id="10" string="collecting" />
+            <token id="11" string="donations" />
+            <token id="12" string="for" />
+            <token id="13" string="victims" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Wednesday" type="NP">
+          <tokens>
+            <token id="2" string="Wednesday" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="donations" type="NP">
+          <tokens>
+            <token id="11" string="donations" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="victims of the hurricane" type="NP">
+          <tokens>
+            <token id="13" string="victims" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a local Red Cross chapter" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="local" />
+            <token id="6" string="Red" />
+            <token id="7" string="Cross" />
+            <token id="8" string="chapter" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="began collecting donations for victims of the hurricane" type="VP">
+          <tokens>
+            <token id="9" string="began" />
+            <token id="10" string="collecting" />
+            <token id="11" string="donations" />
+            <token id="12" string="for" />
+            <token id="13" string="victims" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="victims" type="NP">
+          <tokens>
+            <token id="13" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the hurricane" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="hurricane" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">Wednesday</governor>
+          <dependent id="1">On</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">began</governor>
+          <dependent id="2">Wednesday</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">chapter</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">chapter</governor>
+          <dependent id="5">local</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">chapter</governor>
+          <dependent id="6">Red</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">chapter</governor>
+          <dependent id="7">Cross</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">began</governor>
+          <dependent id="8">chapter</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">began</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="9">began</governor>
+          <dependent id="10">collecting</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">collecting</governor>
+          <dependent id="11">donations</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">victims</governor>
+          <dependent id="12">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">collecting</governor>
+          <dependent id="13">victims</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">hurricane</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">hurricane</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">victims</governor>
+          <dependent id="16">hurricane</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Red Cross" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="Red" />
+            <token id="7" string="Cross" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="hurricane" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="16" string="hurricane" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>``A lot of people have been calling, asking to send donations down there,&amp;apost;&amp;apost; said Susan Lawlor, executive director of the Ulster County Chapter of the Red Cross.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="lot" lemma="lot" stem="lot" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="calling" lemma="call" stem="call" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="asking" lemma="ask" stem="ask" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="send" lemma="send" stem="send" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="donations" lemma="donation" stem="donat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="down" lemma="down" stem="down" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="there" lemma="there" stem="there" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Susan" lemma="Susan" stem="susan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="Lawlor" lemma="Lawlor" stem="lawlor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="executive" lemma="executive" stem="execut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Ulster" lemma="Ulster" stem="ulster" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="County" lemma="County" stem="counti" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="28" string="Chapter" lemma="chapter" stem="chapter" pos="NN" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="31" string="Red" lemma="Red" stem="red" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="32" string="Cross" lemma="Cross" stem="cross" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (NP (NP (DT A) (NN lot)) (PP (IN of) (NP (NNS people)))) (VP (VBP have) (VP (VBN been) (VP (VP (VBG calling)) (, ,) (VP (VBG asking) (S (VP (TO to) (VP (VB send) (NP (NNS donations)) (ADVP (RB down) (RB there)))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Susan) (NNP Lawlor)) (, ,) (NP (NP (JJ executive) (NN director)) (PP (IN of) (NP (NP (DT the) (NNP Ulster) (NNP County) (NN Chapter)) (PP (IN of) (NP (DT the) (NNP Red) (NNP Cross))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="executive director of the Ulster County Chapter of the Red Cross" type="NP">
+          <tokens>
+            <token id="22" string="executive" />
+            <token id="23" string="director" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Ulster" />
+            <token id="27" string="County" />
+            <token id="28" string="Chapter" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="Red" />
+            <token id="32" string="Cross" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="donations" type="NP">
+          <tokens>
+            <token id="13" string="donations" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Red Cross" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="Red" />
+            <token id="32" string="Cross" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Ulster County Chapter" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Ulster" />
+            <token id="27" string="County" />
+            <token id="28" string="Chapter" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="been calling , asking to send donations down there" type="VP">
+          <tokens>
+            <token id="7" string="been" />
+            <token id="8" string="calling" />
+            <token id="9" string="," />
+            <token id="10" string="asking" />
+            <token id="11" string="to" />
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="send donations down there" type="VP">
+          <tokens>
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="executive director" type="NP">
+          <tokens>
+            <token id="22" string="executive" />
+            <token id="23" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to send donations down there" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="people" type="NP">
+          <tokens>
+            <token id="5" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="A lot of people" type="NP">
+          <tokens>
+            <token id="2" string="A" />
+            <token id="3" string="lot" />
+            <token id="4" string="of" />
+            <token id="5" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="calling" type="VP">
+          <tokens>
+            <token id="8" string="calling" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="have been calling , asking to send donations down there" type="VP">
+          <tokens>
+            <token id="6" string="have" />
+            <token id="7" string="been" />
+            <token id="8" string="calling" />
+            <token id="9" string="," />
+            <token id="10" string="asking" />
+            <token id="11" string="to" />
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="A lot" type="NP">
+          <tokens>
+            <token id="2" string="A" />
+            <token id="3" string="lot" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Susan Lawlor , executive director of the Ulster County Chapter of the Red Cross" type="NP">
+          <tokens>
+            <token id="19" string="Susan" />
+            <token id="20" string="Lawlor" />
+            <token id="21" string="," />
+            <token id="22" string="executive" />
+            <token id="23" string="director" />
+            <token id="24" string="of" />
+            <token id="25" string="the" />
+            <token id="26" string="Ulster" />
+            <token id="27" string="County" />
+            <token id="28" string="Chapter" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="Red" />
+            <token id="32" string="Cross" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the Ulster County Chapter of the Red Cross" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Ulster" />
+            <token id="27" string="County" />
+            <token id="28" string="Chapter" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="Red" />
+            <token id="32" string="Cross" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="calling , asking to send donations down there" type="VP">
+          <tokens>
+            <token id="8" string="calling" />
+            <token id="9" string="," />
+            <token id="10" string="asking" />
+            <token id="11" string="to" />
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="asking to send donations down there" type="VP">
+          <tokens>
+            <token id="10" string="asking" />
+            <token id="11" string="to" />
+            <token id="12" string="send" />
+            <token id="13" string="donations" />
+            <token id="14" string="down" />
+            <token id="15" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Susan Lawlor" type="NP">
+          <tokens>
+            <token id="19" string="Susan" />
+            <token id="20" string="Lawlor" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">lot</governor>
+          <dependent id="2">A</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">calling</governor>
+          <dependent id="3">lot</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">people</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">lot</governor>
+          <dependent id="5">people</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">calling</governor>
+          <dependent id="6">have</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">calling</governor>
+          <dependent id="7">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="8">calling</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">calling</governor>
+          <dependent id="10">asking</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">send</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="10">asking</governor>
+          <dependent id="12">send</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">send</governor>
+          <dependent id="13">donations</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">there</governor>
+          <dependent id="14">down</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">send</governor>
+          <dependent id="15">there</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Lawlor</governor>
+          <dependent id="19">Susan</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="20">Lawlor</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">director</governor>
+          <dependent id="22">executive</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="20">Lawlor</governor>
+          <dependent id="23">director</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">Chapter</governor>
+          <dependent id="24">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">Chapter</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">Chapter</governor>
+          <dependent id="26">Ulster</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">Chapter</governor>
+          <dependent id="27">County</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">director</governor>
+          <dependent id="28">Chapter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">Cross</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="32">Cross</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">Cross</governor>
+          <dependent id="31">Red</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">Chapter</governor>
+          <dependent id="32">Cross</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ulster County Chapter of the Red Cross" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="26" string="Ulster" />
+            <token id="27" string="County" />
+            <token id="28" string="Chapter" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="Red" />
+            <token id="32" string="Cross" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Susan Lawlor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="19" string="Susan" />
+            <token id="20" string="Lawlor" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>On Tuesday, New York state sent two airplanes full of food, clothing and water to parts of the Caribbean ravaged by Hugo.</content>
+      <tokens>
+        <token id="1" string="On" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="5" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="6" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="sent" lemma="send" stem="sent" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="airplanes" lemma="airplane" stem="airplan" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="full" lemma="full" stem="full" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="food" lemma="food" stem="food" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="clothing" lemma="clothing" stem="cloth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="water" lemma="water" stem="water" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="parts" lemma="part" stem="part" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Caribbean" lemma="Caribbean" stem="caribbean" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="ravaged" lemma="ravage" stem="ravag" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Hugo" lemma="Hugo" stem="hugo" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN On) (NP (NNP Tuesday))) (, ,) (NP (NNP New) (NNP York) (NN state)) (VP (VBD sent) (NP (NP (CD two) (NNS airplanes)) (PP (JJ full) (IN of) (NP (NN food) (, ,) (NN clothing) (CC and) (NN water)))) (PP (TO to) (NP (NP (NNS parts)) (PP (IN of) (NP (NP (DT the) (NNP Caribbean)) (VP (VBN ravaged) (PP (IN by) (NP (NNP Hugo))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="sent two airplanes full of food , clothing and water to parts of the Caribbean ravaged by Hugo" type="VP">
+          <tokens>
+            <token id="7" string="sent" />
+            <token id="8" string="two" />
+            <token id="9" string="airplanes" />
+            <token id="10" string="full" />
+            <token id="11" string="of" />
+            <token id="12" string="food" />
+            <token id="13" string="," />
+            <token id="14" string="clothing" />
+            <token id="15" string="and" />
+            <token id="16" string="water" />
+            <token id="17" string="to" />
+            <token id="18" string="parts" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="Caribbean" />
+            <token id="22" string="ravaged" />
+            <token id="23" string="by" />
+            <token id="24" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="food , clothing and water" type="NP">
+          <tokens>
+            <token id="12" string="food" />
+            <token id="13" string="," />
+            <token id="14" string="clothing" />
+            <token id="15" string="and" />
+            <token id="16" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="two airplanes" type="NP">
+          <tokens>
+            <token id="8" string="two" />
+            <token id="9" string="airplanes" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="New York state" type="NP">
+          <tokens>
+            <token id="4" string="New" />
+            <token id="5" string="York" />
+            <token id="6" string="state" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Hugo" type="NP">
+          <tokens>
+            <token id="24" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="parts" type="NP">
+          <tokens>
+            <token id="18" string="parts" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Caribbean ravaged by Hugo" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="Caribbean" />
+            <token id="22" string="ravaged" />
+            <token id="23" string="by" />
+            <token id="24" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Caribbean" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="Caribbean" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Tuesday" type="NP">
+          <tokens>
+            <token id="2" string="Tuesday" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="parts of the Caribbean ravaged by Hugo" type="NP">
+          <tokens>
+            <token id="18" string="parts" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="Caribbean" />
+            <token id="22" string="ravaged" />
+            <token id="23" string="by" />
+            <token id="24" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="ravaged by Hugo" type="VP">
+          <tokens>
+            <token id="22" string="ravaged" />
+            <token id="23" string="by" />
+            <token id="24" string="Hugo" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="two airplanes full of food , clothing and water" type="NP">
+          <tokens>
+            <token id="8" string="two" />
+            <token id="9" string="airplanes" />
+            <token id="10" string="full" />
+            <token id="11" string="of" />
+            <token id="12" string="food" />
+            <token id="13" string="," />
+            <token id="14" string="clothing" />
+            <token id="15" string="and" />
+            <token id="16" string="water" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">Tuesday</governor>
+          <dependent id="1">On</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">sent</governor>
+          <dependent id="2">Tuesday</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">state</governor>
+          <dependent id="4">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">state</governor>
+          <dependent id="5">York</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">sent</governor>
+          <dependent id="6">state</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">sent</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="9">airplanes</governor>
+          <dependent id="8">two</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">sent</governor>
+          <dependent id="9">airplanes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">food</governor>
+          <dependent id="10">full</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">food</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">airplanes</governor>
+          <dependent id="12">food</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">food</governor>
+          <dependent id="14">clothing</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">food</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">food</governor>
+          <dependent id="16">water</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">parts</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">sent</governor>
+          <dependent id="18">parts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">Caribbean</governor>
+          <dependent id="19">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">Caribbean</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">parts</governor>
+          <dependent id="21">Caribbean</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="21">Caribbean</governor>
+          <dependent id="22">ravaged</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Hugo</governor>
+          <dependent id="23">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">ravaged</governor>
+          <dependent id="24">Hugo</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="4" string="New" />
+            <token id="5" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="two" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="Tuesday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Caribbean" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="21" string="Caribbean" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="false">
+      <content>A New York National Guard C-5A cargo plane also left Tuesday to pick up equipment in Mississippi and take it to Puerto Rico.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="4" string="National" lemma="National" stem="nation" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="Guard" lemma="Guard" stem="guard" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="C-5A" lemma="C-5A" stem="c-5a" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="cargo" lemma="cargo" stem="cargo" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="plane" lemma="plane" stem="plane" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="left" lemma="leave" stem="left" pos="VBD" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="11" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="pick" lemma="pick" stem="pick" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="up" lemma="up" stem="up" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="equipment" lemma="equipment" stem="equip" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="Mississippi" lemma="Mississippi" stem="mississippi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="18" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="take" lemma="take" stem="take" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="23" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (NNP New) (NNP York) (NNP National) (NNP Guard) (NNP C-5A) (NN cargo) (NN plane)) (ADVP (RB also)) (VP (VBD left) (NP-TMP (NNP Tuesday)) (S (VP (TO to) (VP (VP (VB pick) (PRT (RP up)) (NP (NP (NN equipment)) (PP (IN in) (NP (NNP Mississippi))))) (CC and) (VP (VB take) (NP (PRP it)) (PP (TO to) (NP (NNP Puerto) (NNP Rico)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="left Tuesday to pick up equipment in Mississippi and take it to Puerto Rico" type="VP">
+          <tokens>
+            <token id="10" string="left" />
+            <token id="11" string="Tuesday" />
+            <token id="12" string="to" />
+            <token id="13" string="pick" />
+            <token id="14" string="up" />
+            <token id="15" string="equipment" />
+            <token id="16" string="in" />
+            <token id="17" string="Mississippi" />
+            <token id="18" string="and" />
+            <token id="19" string="take" />
+            <token id="20" string="it" />
+            <token id="21" string="to" />
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Puerto Rico" type="NP">
+          <tokens>
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="equipment in Mississippi" type="NP">
+          <tokens>
+            <token id="15" string="equipment" />
+            <token id="16" string="in" />
+            <token id="17" string="Mississippi" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Mississippi" type="NP">
+          <tokens>
+            <token id="17" string="Mississippi" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="pick up equipment in Mississippi" type="VP">
+          <tokens>
+            <token id="13" string="pick" />
+            <token id="14" string="up" />
+            <token id="15" string="equipment" />
+            <token id="16" string="in" />
+            <token id="17" string="Mississippi" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="A New York National Guard C-5A cargo plane" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="New" />
+            <token id="3" string="York" />
+            <token id="4" string="National" />
+            <token id="5" string="Guard" />
+            <token id="6" string="C-5A" />
+            <token id="7" string="cargo" />
+            <token id="8" string="plane" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="equipment" type="NP">
+          <tokens>
+            <token id="15" string="equipment" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="it" type="NP">
+          <tokens>
+            <token id="20" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="take it to Puerto Rico" type="VP">
+          <tokens>
+            <token id="19" string="take" />
+            <token id="20" string="it" />
+            <token id="21" string="to" />
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to pick up equipment in Mississippi and take it to Puerto Rico" type="VP">
+          <tokens>
+            <token id="12" string="to" />
+            <token id="13" string="pick" />
+            <token id="14" string="up" />
+            <token id="15" string="equipment" />
+            <token id="16" string="in" />
+            <token id="17" string="Mississippi" />
+            <token id="18" string="and" />
+            <token id="19" string="take" />
+            <token id="20" string="it" />
+            <token id="21" string="to" />
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="pick up equipment in Mississippi and take it to Puerto Rico" type="VP">
+          <tokens>
+            <token id="13" string="pick" />
+            <token id="14" string="up" />
+            <token id="15" string="equipment" />
+            <token id="16" string="in" />
+            <token id="17" string="Mississippi" />
+            <token id="18" string="and" />
+            <token id="19" string="take" />
+            <token id="20" string="it" />
+            <token id="21" string="to" />
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="8">plane</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="2">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="3">York</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="4">National</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="5">Guard</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="6">C-5A</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">plane</governor>
+          <dependent id="7">cargo</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">left</governor>
+          <dependent id="8">plane</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">left</governor>
+          <dependent id="9">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">left</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="10">left</governor>
+          <dependent id="11">Tuesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">pick</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="10">left</governor>
+          <dependent id="13">pick</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="13">pick</governor>
+          <dependent id="14">up</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">pick</governor>
+          <dependent id="15">equipment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Mississippi</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">equipment</governor>
+          <dependent id="17">Mississippi</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">pick</governor>
+          <dependent id="18">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">pick</governor>
+          <dependent id="19">take</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">take</governor>
+          <dependent id="20">it</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Rico</governor>
+          <dependent id="21">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Rico</governor>
+          <dependent id="22">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">take</governor>
+          <dependent id="23">Rico</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York National Guard C-5A" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="New" />
+            <token id="3" string="York" />
+            <token id="4" string="National" />
+            <token id="5" string="Guard" />
+            <token id="6" string="C-5A" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="22" string="Puerto" />
+            <token id="23" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Mississippi" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="17" string="Mississippi" />
+          </tokens>
+        </entity>
+        <entity id="4" string="left" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="10" string="left" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="11" string="Tuesday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="false">
+      <content>Another cargo plane was scheduled to leave Stewart Air Force Base in Newburgh, taking 70 tons of food, water and other supplies to Puerto Rico.</content>
+      <tokens>
+        <token id="1" string="Another" lemma="another" stem="another" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="cargo" lemma="cargo" stem="cargo" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="plane" lemma="plane" stem="plane" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="scheduled" lemma="schedule" stem="schedul" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="leave" lemma="leave" stem="leav" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Stewart" lemma="Stewart" stem="stewart" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="Air" lemma="Air" stem="air" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="Force" lemma="Force" stem="forc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="Base" lemma="Base" stem="base" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Newburgh" lemma="Newburgh" stem="newburgh" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="taking" lemma="take" stem="take" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="70" lemma="70" stem="70" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="tons" lemma="ton" stem="ton" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="food" lemma="food" stem="food" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="water" lemma="water" stem="water" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="supplies" lemma="supplies" stem="suppli" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT Another) (NN cargo) (NN plane)) (VP (VBD was) (VP (VBN scheduled) (S (VP (TO to) (VP (VB leave) (NP (NP (NNP Stewart) (NNP Air) (NNP Force) (NNP Base)) (PP (IN in) (NP (NNP Newburgh)))) (, ,) (S (VP (VBG taking) (NP (NP (CD 70) (NNS tons)) (PP (IN of) (NP (NN food) (, ,) (NN water) (CC and) (JJ other) (NNS supplies)))) (PP (TO to) (NP (NNP Puerto) (NNP Rico)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Puerto Rico" type="NP">
+          <tokens>
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="leave Stewart Air Force Base in Newburgh , taking 70 tons of food , water and other supplies to Puerto Rico" type="VP">
+          <tokens>
+            <token id="7" string="leave" />
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+            <token id="12" string="in" />
+            <token id="13" string="Newburgh" />
+            <token id="14" string="," />
+            <token id="15" string="taking" />
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+            <token id="25" string="to" />
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Newburgh" type="NP">
+          <tokens>
+            <token id="13" string="Newburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was scheduled to leave Stewart Air Force Base in Newburgh , taking 70 tons of food , water and other supplies to Puerto Rico" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="scheduled" />
+            <token id="6" string="to" />
+            <token id="7" string="leave" />
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+            <token id="12" string="in" />
+            <token id="13" string="Newburgh" />
+            <token id="14" string="," />
+            <token id="15" string="taking" />
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+            <token id="25" string="to" />
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="scheduled to leave Stewart Air Force Base in Newburgh , taking 70 tons of food , water and other supplies to Puerto Rico" type="VP">
+          <tokens>
+            <token id="5" string="scheduled" />
+            <token id="6" string="to" />
+            <token id="7" string="leave" />
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+            <token id="12" string="in" />
+            <token id="13" string="Newburgh" />
+            <token id="14" string="," />
+            <token id="15" string="taking" />
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+            <token id="25" string="to" />
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to leave Stewart Air Force Base in Newburgh , taking 70 tons of food , water and other supplies to Puerto Rico" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="leave" />
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+            <token id="12" string="in" />
+            <token id="13" string="Newburgh" />
+            <token id="14" string="," />
+            <token id="15" string="taking" />
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+            <token id="25" string="to" />
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="70 tons of food , water and other supplies" type="NP">
+          <tokens>
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="taking 70 tons of food , water and other supplies to Puerto Rico" type="VP">
+          <tokens>
+            <token id="15" string="taking" />
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+            <token id="18" string="of" />
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+            <token id="25" string="to" />
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="food , water and other supplies" type="NP">
+          <tokens>
+            <token id="19" string="food" />
+            <token id="20" string="," />
+            <token id="21" string="water" />
+            <token id="22" string="and" />
+            <token id="23" string="other" />
+            <token id="24" string="supplies" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Another cargo plane" type="NP">
+          <tokens>
+            <token id="1" string="Another" />
+            <token id="2" string="cargo" />
+            <token id="3" string="plane" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="70 tons" type="NP">
+          <tokens>
+            <token id="16" string="70" />
+            <token id="17" string="tons" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Stewart Air Force Base in Newburgh" type="NP">
+          <tokens>
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+            <token id="12" string="in" />
+            <token id="13" string="Newburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Stewart Air Force Base" type="NP">
+          <tokens>
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">plane</governor>
+          <dependent id="1">Another</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">plane</governor>
+          <dependent id="2">cargo</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">scheduled</governor>
+          <dependent id="3">plane</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">scheduled</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">scheduled</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">leave</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">scheduled</governor>
+          <dependent id="7">leave</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Base</governor>
+          <dependent id="8">Stewart</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Base</governor>
+          <dependent id="9">Air</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Base</governor>
+          <dependent id="10">Force</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">leave</governor>
+          <dependent id="11">Base</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Newburgh</governor>
+          <dependent id="12">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">Base</governor>
+          <dependent id="13">Newburgh</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="7">leave</governor>
+          <dependent id="15">taking</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">tons</governor>
+          <dependent id="16">70</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">taking</governor>
+          <dependent id="17">tons</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">supplies</governor>
+          <dependent id="18">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">water</governor>
+          <dependent id="19">food</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">supplies</governor>
+          <dependent id="21">water</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="21">water</governor>
+          <dependent id="22">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="21">water</governor>
+          <dependent id="23">other</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">tons</governor>
+          <dependent id="24">supplies</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Rico</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Rico</governor>
+          <dependent id="26">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">taking</governor>
+          <dependent id="27">Rico</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Puerto" />
+            <token id="27" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Newburgh" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="13" string="Newburgh" />
+          </tokens>
+        </entity>
+        <entity id="3" string="70" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="70" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Stewart Air Force Base" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Stewart" />
+            <token id="9" string="Air" />
+            <token id="10" string="Force" />
+            <token id="11" string="Base" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="8-9" string="Hurricane Hugo" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="24" string="Hugo" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="12" string="Kingston" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="2-8" string="Kingston , then New York's capital" id_sentence="3" />
+        <mention ids_tokens="5-8" string="New York's capital" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="28-29" string="South Carolina" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="20" string="S.C." id_sentence="2" />
+        <mention ids_tokens="12-13" string="the Carolinas" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="5-6-7" string="New York 's" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="6-7" string="New York" id_sentence="4" />
+        <mention ids_tokens="4-5" string="New York" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="25-26" string="a letter" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The letter" id_sentence="4" />
+        <mention ids_tokens="6-7" string="the letter" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="28-29-30-31-32" string="South Carolina Gov. Abraham Livingston" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="40" string="Livingston" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="NOMINAL">
+      <referenced ids_tokens="11-12" string="Kingston residents" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="6" string="us" id_sentence="7" />
+        <mention ids_tokens="8" string="we" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="NOMINAL">
+      <referenced ids_tokens="16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37" string="the now-indigent inhabitants of the town of Kingston , who by the ravages of the enemy are reduced to poverty and want" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="4" string="they" id_sentence="7" />
+        <mention ids_tokens="13" string="them" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="PROPER">
+      <referenced ids_tokens="1-2-3-4" string="Kingston Historian Edwin Ford" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="16" string="Ford" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="PROPER">
+      <referenced ids_tokens="14-15" string="last week" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="2" string="I" id_sentence="7" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

@@ -1,0 +1,2430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880217-0100">
+  <sentences>
+    <sentence id="1" has_coreference="false">
+      <content>The motion picture industry&amp;apost;s most coveted award, Oscar, was created 60 years ago and 1,816 of the statuettes have been produced so far.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="motion" lemma="motion" stem="motion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="picture" lemma="picture" stem="pictur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="industry" lemma="industry" stem="industri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="coveted" lemma="coveted" stem="covet" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="award" lemma="award" stem="award" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Oscar" lemma="Oscar" stem="oscar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="created" lemma="create" stem="creat" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="60" lemma="60" stem="60" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="ago" lemma="ago" stem="ago" pos="RB" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="1,816" lemma="1,816" stem="1,816" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="statuettes" lemma="statuette" stem="statuett" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="produced" lemma="produce" stem="produc" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="so" lemma="so" stem="so" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="far" lemma="far" stem="far" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NP (DT The) (NN motion) (NN picture) (NN industry) (POS 's)) (ADJP (RBS most) (JJ coveted)) (NN award)) (, ,) (NP (NNP Oscar)) (, ,)) (VP (VBD was) (VP (VBN created) (ADVP (NP (CD 60) (NNS years)) (RB ago))))) (CC and) (S (NP (NP (CD 1,816)) (PP (IN of) (NP (DT the) (NNS statuettes)))) (VP (VBP have) (VP (VBN been) (VP (VBN produced) (ADVP (RB so) (RB far)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Oscar" type="NP">
+          <tokens>
+            <token id="10" string="Oscar" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The motion picture industry 's most coveted award , Oscar ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="motion" />
+            <token id="3" string="picture" />
+            <token id="4" string="industry" />
+            <token id="5" string="'s" />
+            <token id="6" string="most" />
+            <token id="7" string="coveted" />
+            <token id="8" string="award" />
+            <token id="9" string="," />
+            <token id="10" string="Oscar" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was created 60 years ago" type="VP">
+          <tokens>
+            <token id="12" string="was" />
+            <token id="13" string="created" />
+            <token id="14" string="60" />
+            <token id="15" string="years" />
+            <token id="16" string="ago" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="have been produced so far" type="VP">
+          <tokens>
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="produced" />
+            <token id="25" string="so" />
+            <token id="26" string="far" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1,816" type="NP">
+          <tokens>
+            <token id="18" string="1,816" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The motion picture industry 's most coveted award" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="motion" />
+            <token id="3" string="picture" />
+            <token id="4" string="industry" />
+            <token id="5" string="'s" />
+            <token id="6" string="most" />
+            <token id="7" string="coveted" />
+            <token id="8" string="award" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="been produced so far" type="VP">
+          <tokens>
+            <token id="23" string="been" />
+            <token id="24" string="produced" />
+            <token id="25" string="so" />
+            <token id="26" string="far" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="produced so far" type="VP">
+          <tokens>
+            <token id="24" string="produced" />
+            <token id="25" string="so" />
+            <token id="26" string="far" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="most coveted" type="ADJP">
+          <tokens>
+            <token id="6" string="most" />
+            <token id="7" string="coveted" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="1,816 of the statuettes" type="NP">
+          <tokens>
+            <token id="18" string="1,816" />
+            <token id="19" string="of" />
+            <token id="20" string="the" />
+            <token id="21" string="statuettes" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="60 years" type="NP">
+          <tokens>
+            <token id="14" string="60" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="The motion picture industry 's" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="motion" />
+            <token id="3" string="picture" />
+            <token id="4" string="industry" />
+            <token id="5" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the statuettes" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="statuettes" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="created 60 years ago" type="VP">
+          <tokens>
+            <token id="13" string="created" />
+            <token id="14" string="60" />
+            <token id="15" string="years" />
+            <token id="16" string="ago" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">industry</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">industry</governor>
+          <dependent id="2">motion</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">industry</governor>
+          <dependent id="3">picture</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">award</governor>
+          <dependent id="4">industry</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">industry</governor>
+          <dependent id="5">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">coveted</governor>
+          <dependent id="6">most</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">award</governor>
+          <dependent id="7">coveted</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="13">created</governor>
+          <dependent id="8">award</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="8">award</governor>
+          <dependent id="10">Oscar</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">created</governor>
+          <dependent id="12">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">created</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="15">years</governor>
+          <dependent id="14">60</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="16">ago</governor>
+          <dependent id="15">years</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">created</governor>
+          <dependent id="16">ago</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">created</governor>
+          <dependent id="17">and</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">produced</governor>
+          <dependent id="18">1,816</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">statuettes</governor>
+          <dependent id="19">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">statuettes</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">1,816</governor>
+          <dependent id="21">statuettes</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">produced</governor>
+          <dependent id="22">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">produced</governor>
+          <dependent id="23">been</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">created</governor>
+          <dependent id="24">produced</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="26">far</governor>
+          <dependent id="25">so</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">produced</governor>
+          <dependent id="26">far</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1,816" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="1,816" />
+          </tokens>
+        </entity>
+        <entity id="2" string="60 years ago" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="60" />
+            <token id="15" string="years" />
+            <token id="16" string="ago" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Weighing 8{ pounds and standing 13{ inches tall, Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons, who went on to win 11 of the trophies.</content>
+      <tokens>
+        <token id="1" string="Weighing" lemma="weigh" stem="weigh" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="8" lemma="8" stem="8" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="{" lemma="-lcb-" stem="{" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="pounds" lemma="pound" stem="pound" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="standing" lemma="stand" stem="stand" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="13" lemma="13" stem="13" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="{" lemma="-lcb-" stem="{" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="inches" lemma="inch" stem="inch" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="tall" lemma="tall" stem="tall" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Oscar" lemma="Oscar" stem="oscar" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="13" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="created" lemma="create" stem="creat" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Metro-Goldwyn-Mayer" lemma="Metro-Goldwyn-Mayer" stem="metro-goldwyn-may" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="studios" lemma="studio" stem="studio" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="art" lemma="art" stem="art" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Cedric" lemma="Cedric" stem="cedric" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="21" string="Gibbons" lemma="Gibbons" stem="gibbon" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="went" lemma="go" stem="went" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="win" lemma="win" stem="win" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="11" lemma="11" stem="11" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="31" string="trophies" lemma="trophy" stem="trophi" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (VP (VBG Weighing) (NP (NP (NP (CD 8)) (-LRB- -LCB-) (NP (NP (NNS pounds)) (CC and) (S (VP (VBG standing) (NP (NP (NP (CD 13)) (-LRB- -LCB-) (NP (NP (NNS inches)) (ADJP (JJ tall))) (, ,)) (SBAR (S (NP (NNP Oscar)) (VP (VBD was) (VP (VBN created) (PP (IN by) (NP (NNP Metro-Goldwyn-Mayer) (NNS studios) (NP (NN art) (NN director) (NNP Cedric) (NNP Gibbons)))))))))))) (, ,)) (SBAR (WHNP (WP who)) (S (VP (VBD went) (PP (IN on)) (S (VP (TO to) (VP (VB win) (NP (NP (CD 11)) (PP (IN of) (NP (DT the) (NNS trophies)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="8 -LCB- pounds and standing 13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons ," type="NP">
+          <tokens>
+            <token id="2" string="8" />
+            <token id="3" string="{" />
+            <token id="4" string="pounds" />
+            <token id="5" string="and" />
+            <token id="6" string="standing" />
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+            <token id="22" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="NP">
+          <tokens>
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="13" type="NP">
+          <tokens>
+            <token id="7" string="13" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="SBAR">
+          <tokens>
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="VP">
+          <tokens>
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="NP">
+          <tokens>
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="standing 13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="VP">
+          <tokens>
+            <token id="6" string="standing" />
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="8 -LCB- pounds and standing 13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons , who went on to win 11 of the trophies" type="NP">
+          <tokens>
+            <token id="2" string="8" />
+            <token id="3" string="{" />
+            <token id="4" string="pounds" />
+            <token id="5" string="and" />
+            <token id="6" string="standing" />
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+            <token id="22" string="," />
+            <token id="23" string="who" />
+            <token id="24" string="went" />
+            <token id="25" string="on" />
+            <token id="26" string="to" />
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="8" type="NP">
+          <tokens>
+            <token id="2" string="8" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="13 -LCB- inches tall ," type="NP">
+          <tokens>
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="pounds and standing 13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="NP">
+          <tokens>
+            <token id="4" string="pounds" />
+            <token id="5" string="and" />
+            <token id="6" string="standing" />
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Oscar" type="NP">
+          <tokens>
+            <token id="12" string="Oscar" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="win 11 of the trophies" type="VP">
+          <tokens>
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="art director Cedric Gibbons" type="NP">
+          <tokens>
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="inches tall" type="NP">
+          <tokens>
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Weighing 8 -LCB- pounds and standing 13 -LCB- inches tall , Oscar was created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons , who went on to win 11 of the trophies" type="VP">
+          <tokens>
+            <token id="1" string="Weighing" />
+            <token id="2" string="8" />
+            <token id="3" string="{" />
+            <token id="4" string="pounds" />
+            <token id="5" string="and" />
+            <token id="6" string="standing" />
+            <token id="7" string="13" />
+            <token id="8" string="{" />
+            <token id="9" string="inches" />
+            <token id="10" string="tall" />
+            <token id="11" string="," />
+            <token id="12" string="Oscar" />
+            <token id="13" string="was" />
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+            <token id="22" string="," />
+            <token id="23" string="who" />
+            <token id="24" string="went" />
+            <token id="25" string="on" />
+            <token id="26" string="to" />
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="11 of the trophies" type="NP">
+          <tokens>
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="pounds" type="NP">
+          <tokens>
+            <token id="4" string="pounds" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="tall" type="ADJP">
+          <tokens>
+            <token id="10" string="tall" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="went on to win 11 of the trophies" type="VP">
+          <tokens>
+            <token id="24" string="went" />
+            <token id="25" string="on" />
+            <token id="26" string="to" />
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="inches" type="NP">
+          <tokens>
+            <token id="9" string="inches" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="created by Metro-Goldwyn-Mayer studios art director Cedric Gibbons" type="VP">
+          <tokens>
+            <token id="14" string="created" />
+            <token id="15" string="by" />
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+            <token id="17" string="studios" />
+            <token id="18" string="art" />
+            <token id="19" string="director" />
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="who went on to win 11 of the trophies" type="SBAR">
+          <tokens>
+            <token id="23" string="who" />
+            <token id="24" string="went" />
+            <token id="25" string="on" />
+            <token id="26" string="to" />
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="to win 11 of the trophies" type="VP">
+          <tokens>
+            <token id="26" string="to" />
+            <token id="27" string="win" />
+            <token id="28" string="11" />
+            <token id="29" string="of" />
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="the trophies" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="trophies" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="11" type="NP">
+          <tokens>
+            <token id="28" string="11" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="1">Weighing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="1">Weighing</governor>
+          <dependent id="2">8</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">8</governor>
+          <dependent id="4">pounds</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">pounds</governor>
+          <dependent id="5">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">pounds</governor>
+          <dependent id="6">standing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">standing</governor>
+          <dependent id="7">13</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="7">13</governor>
+          <dependent id="9">inches</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">inches</governor>
+          <dependent id="10">tall</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="14">created</governor>
+          <dependent id="12">Oscar</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="14">created</governor>
+          <dependent id="13">was</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="7">13</governor>
+          <dependent id="14">created</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">studios</governor>
+          <dependent id="15">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">studios</governor>
+          <dependent id="16">Metro-Goldwyn-Mayer</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">created</governor>
+          <dependent id="17">studios</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Gibbons</governor>
+          <dependent id="18">art</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Gibbons</governor>
+          <dependent id="19">director</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Gibbons</governor>
+          <dependent id="20">Cedric</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="17">studios</governor>
+          <dependent id="21">Gibbons</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">went</governor>
+          <dependent id="23">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">8</governor>
+          <dependent id="24">went</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">went</governor>
+          <dependent id="25">on</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="27">win</governor>
+          <dependent id="26">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="24">went</governor>
+          <dependent id="27">win</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="27">win</governor>
+          <dependent id="28">11</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">trophies</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">trophies</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">11</governor>
+          <dependent id="31">trophies</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Oscar" type="PERSON" score="0.0">
+          <tokens>
+            <token id="12" string="Oscar" />
+          </tokens>
+        </entity>
+        <entity id="2" string="13" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="13" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cedric Gibbons" type="PERSON" score="0.0">
+          <tokens>
+            <token id="20" string="Cedric" />
+            <token id="21" string="Gibbons" />
+          </tokens>
+        </entity>
+        <entity id="4" string="8" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="8" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Metro-Goldwyn-Mayer" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="16" string="Metro-Goldwyn-Mayer" />
+          </tokens>
+        </entity>
+        <entity id="6" string="11" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="28" string="11" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Oscar, manufactured by the R.S. Owens Co., Chicago, is made of Britannia metal, copper plate, nickel plate and gold plate.</content>
+      <tokens>
+        <token id="1" string="Oscar" lemma="Oscar" stem="oscar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="manufactured" lemma="manufacture" stem="manufactur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="R.S." lemma="R.S." stem="r.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="7" string="Owens" lemma="Owens" stem="owen" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="Co." lemma="Co." stem="co." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="Chicago" lemma="Chicago" stem="chicago" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="made" lemma="make" stem="made" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Britannia" lemma="Britannia" stem="britannia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="metal" lemma="metal" stem="metal" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="copper" lemma="copper" stem="copper" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="plate" lemma="plate" stem="plate" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="nickel" lemma="nickel" stem="nickel" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="plate" lemma="plate" stem="plate" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="gold" lemma="gold" stem="gold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="plate" lemma="plate" stem="plate" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Oscar)) (, ,) (VP (VBN manufactured) (PP (IN by) (NP (NP (DT the) (NNP R.S.) (NNP Owens) (NNP Co.)) (, ,) (NP (NNP Chicago))))) (, ,)) (VP (VBZ is) (VP (VBN made) (PP (IN of) (NP (NP (NNP Britannia) (NN metal)) (, ,) (NP (NN copper) (NN plate)) (, ,) (NP (NN nickel) (NN plate)) (CC and) (NP (NN gold) (NN plate)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Oscar" type="NP">
+          <tokens>
+            <token id="1" string="Oscar" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the R.S. Owens Co. , Chicago" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="R.S." />
+            <token id="7" string="Owens" />
+            <token id="8" string="Co." />
+            <token id="9" string="," />
+            <token id="10" string="Chicago" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Chicago" type="NP">
+          <tokens>
+            <token id="10" string="Chicago" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the R.S. Owens Co." type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="R.S." />
+            <token id="7" string="Owens" />
+            <token id="8" string="Co." />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="gold plate" type="NP">
+          <tokens>
+            <token id="24" string="gold" />
+            <token id="25" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="nickel plate" type="NP">
+          <tokens>
+            <token id="21" string="nickel" />
+            <token id="22" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="copper plate" type="NP">
+          <tokens>
+            <token id="18" string="copper" />
+            <token id="19" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="is made of Britannia metal , copper plate , nickel plate and gold plate" type="VP">
+          <tokens>
+            <token id="12" string="is" />
+            <token id="13" string="made" />
+            <token id="14" string="of" />
+            <token id="15" string="Britannia" />
+            <token id="16" string="metal" />
+            <token id="17" string="," />
+            <token id="18" string="copper" />
+            <token id="19" string="plate" />
+            <token id="20" string="," />
+            <token id="21" string="nickel" />
+            <token id="22" string="plate" />
+            <token id="23" string="and" />
+            <token id="24" string="gold" />
+            <token id="25" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="made of Britannia metal , copper plate , nickel plate and gold plate" type="VP">
+          <tokens>
+            <token id="13" string="made" />
+            <token id="14" string="of" />
+            <token id="15" string="Britannia" />
+            <token id="16" string="metal" />
+            <token id="17" string="," />
+            <token id="18" string="copper" />
+            <token id="19" string="plate" />
+            <token id="20" string="," />
+            <token id="21" string="nickel" />
+            <token id="22" string="plate" />
+            <token id="23" string="and" />
+            <token id="24" string="gold" />
+            <token id="25" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Britannia metal , copper plate , nickel plate and gold plate" type="NP">
+          <tokens>
+            <token id="15" string="Britannia" />
+            <token id="16" string="metal" />
+            <token id="17" string="," />
+            <token id="18" string="copper" />
+            <token id="19" string="plate" />
+            <token id="20" string="," />
+            <token id="21" string="nickel" />
+            <token id="22" string="plate" />
+            <token id="23" string="and" />
+            <token id="24" string="gold" />
+            <token id="25" string="plate" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="manufactured by the R.S. Owens Co. , Chicago" type="VP">
+          <tokens>
+            <token id="3" string="manufactured" />
+            <token id="4" string="by" />
+            <token id="5" string="the" />
+            <token id="6" string="R.S." />
+            <token id="7" string="Owens" />
+            <token id="8" string="Co." />
+            <token id="9" string="," />
+            <token id="10" string="Chicago" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Britannia metal" type="NP">
+          <tokens>
+            <token id="15" string="Britannia" />
+            <token id="16" string="metal" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Oscar , manufactured by the R.S. Owens Co. , Chicago ," type="NP">
+          <tokens>
+            <token id="1" string="Oscar" />
+            <token id="2" string="," />
+            <token id="3" string="manufactured" />
+            <token id="4" string="by" />
+            <token id="5" string="the" />
+            <token id="6" string="R.S." />
+            <token id="7" string="Owens" />
+            <token id="8" string="Co." />
+            <token id="9" string="," />
+            <token id="10" string="Chicago" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="13">made</governor>
+          <dependent id="1">Oscar</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="1">Oscar</governor>
+          <dependent id="3">manufactured</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Co.</governor>
+          <dependent id="4">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">Co.</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Co.</governor>
+          <dependent id="6">R.S.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Co.</governor>
+          <dependent id="7">Owens</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">manufactured</governor>
+          <dependent id="8">Co.</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="8">Co.</governor>
+          <dependent id="10">Chicago</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">made</governor>
+          <dependent id="12">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">made</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">metal</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">metal</governor>
+          <dependent id="15">Britannia</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">made</governor>
+          <dependent id="16">metal</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">plate</governor>
+          <dependent id="18">copper</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">metal</governor>
+          <dependent id="19">plate</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">plate</governor>
+          <dependent id="21">nickel</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">metal</governor>
+          <dependent id="22">plate</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">metal</governor>
+          <dependent id="23">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">plate</governor>
+          <dependent id="24">gold</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">metal</governor>
+          <dependent id="25">plate</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Chicago" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Chicago" />
+          </tokens>
+        </entity>
+        <entity id="2" string="R.S. Owens Co." type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="R.S." />
+            <token id="7" string="Owens" />
+            <token id="8" string="Co." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Britannia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="15" string="Britannia" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="false">
+      <content>From 1942 to 1944, the trophy was made of plaster, but winners were later presented with the real thing.</content>
+      <tokens>
+        <token id="1" string="From" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="1942" lemma="1942" stem="1942" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="1944" lemma="1944" stem="1944" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="trophy" lemma="trophy" stem="trophi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="made" lemma="make" stem="made" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="plaster" lemma="plaster" stem="plaster" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="winners" lemma="winner" stem="winner" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="later" lemma="later" stem="later" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="presented" lemma="present" stem="present" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="real" lemma="real" stem="real" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="thing" lemma="thing" stem="thing" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (PP (IN From) (NP (CD 1942) (TO to) (CD 1944))) (, ,) (NP (DT the) (NN trophy)) (VP (VBD was) (VP (VBN made) (PP (IN of) (NP (NN plaster)))))) (, ,) (CC but) (S (NP (NNS winners)) (VP (VBD were) (ADVP (RB later)) (VP (VBN presented) (PP (IN with) (NP (DT the) (JJ real) (NN thing)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="made of plaster" type="VP">
+          <tokens>
+            <token id="9" string="made" />
+            <token id="10" string="of" />
+            <token id="11" string="plaster" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="plaster" type="NP">
+          <tokens>
+            <token id="11" string="plaster" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the trophy" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="trophy" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were later presented with the real thing" type="VP">
+          <tokens>
+            <token id="15" string="were" />
+            <token id="16" string="later" />
+            <token id="17" string="presented" />
+            <token id="18" string="with" />
+            <token id="19" string="the" />
+            <token id="20" string="real" />
+            <token id="21" string="thing" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1942 to 1944" type="NP">
+          <tokens>
+            <token id="2" string="1942" />
+            <token id="3" string="to" />
+            <token id="4" string="1944" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="was made of plaster" type="VP">
+          <tokens>
+            <token id="8" string="was" />
+            <token id="9" string="made" />
+            <token id="10" string="of" />
+            <token id="11" string="plaster" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the real thing" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="real" />
+            <token id="21" string="thing" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="winners" type="NP">
+          <tokens>
+            <token id="14" string="winners" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="presented with the real thing" type="VP">
+          <tokens>
+            <token id="17" string="presented" />
+            <token id="18" string="with" />
+            <token id="19" string="the" />
+            <token id="20" string="real" />
+            <token id="21" string="thing" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">1944</governor>
+          <dependent id="1">From</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">1944</governor>
+          <dependent id="2">1942</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">1944</governor>
+          <dependent id="3">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">made</governor>
+          <dependent id="4">1944</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">trophy</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">made</governor>
+          <dependent id="7">trophy</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">made</governor>
+          <dependent id="8">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">made</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">plaster</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">made</governor>
+          <dependent id="11">plaster</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">made</governor>
+          <dependent id="13">but</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="17">presented</governor>
+          <dependent id="14">winners</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="17">presented</governor>
+          <dependent id="15">were</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="17">presented</governor>
+          <dependent id="16">later</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">made</governor>
+          <dependent id="17">presented</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">thing</governor>
+          <dependent id="18">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">thing</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">thing</governor>
+          <dependent id="20">real</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">presented</governor>
+          <dependent id="21">thing</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1944" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="1944" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1942" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="1942" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>According to the Academy of Motion Pictures Arts and Sciences, the only engraving mistake was in 1938 when the best actor trophy given to Spencer Tracy for ``Boy&amp;apost;s Town&amp;apost;&amp;apost; read: ``Best Actor: Dick Tracy.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="According" lemma="accord" stem="accord" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Academy" lemma="academy" stem="academi" pos="NN" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="6" string="Motion" lemma="Motion" stem="motion" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="7" string="Pictures" lemma="Pictures" stem="pictur" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="Arts" lemma="art" stem="art" pos="NNS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="9" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="10" string="Sciences" lemma="Sciences" stem="scienc" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="only" lemma="only" stem="onli" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="engraving" lemma="engraving" stem="engrav" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="mistake" lemma="mistake" stem="mistak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="1938" lemma="1938" stem="1938" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="19" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="best" lemma="best" stem="best" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="actor" lemma="actor" stem="actor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="trophy" lemma="trophy" stem="trophi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="given" lemma="give" stem="given" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Spencer" lemma="Spencer" stem="spencer" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="27" string="Tracy" lemma="Tracy" stem="traci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="28" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Boy" lemma="boy" stem="boi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="Town" lemma="town" stem="town" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="read" lemma="read" stem="read" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="Best" lemma="best" stem="best" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="Actor" lemma="actor" stem="actor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="Dick" lemma="Dick" stem="dick" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="41" string="Tracy" lemma="Tracy" stem="traci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="42" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (VBG According) (PP (TO to) (NP (NP (DT the) (NN Academy)) (PP (IN of) (NP (NP (NNP Motion) (NNP Pictures) (NNS Arts)) (CC and) (NP (NNPS Sciences))))))) (, ,) (NP (DT the) (JJ only) (NN engraving) (NN mistake)) (VP (VBD was) (PP (IN in) (NP (CD 1938))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (JJS best) (NN actor) (NN trophy)) (VP (VBN given) (PP (TO to) (NP (NP (NNP Spencer) (NNP Tracy)) (PP (IN for) (`` ``) (NP (NP (NN Boy) (POS 's)) (NN Town)) ('' '')))) (NP (NP (NN read)) (: :) (`` ``) (NP (JJS Best) (NN Actor)) (: :) (NP (NNP Dick) (NNP Tracy))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="read" type="NP">
+          <tokens>
+            <token id="34" string="read" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="when the best actor trophy given to Spencer Tracy for `` Boy 's Town '' read : `` Best Actor : Dick Tracy" type="SBAR">
+          <tokens>
+            <token id="19" string="when" />
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="actor" />
+            <token id="23" string="trophy" />
+            <token id="24" string="given" />
+            <token id="25" string="to" />
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+            <token id="28" string="for" />
+            <token id="29" string="``" />
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+            <token id="32" string="Town" />
+            <token id="33" string="''" />
+            <token id="34" string="read" />
+            <token id="35" string=":" />
+            <token id="36" string="``" />
+            <token id="37" string="Best" />
+            <token id="38" string="Actor" />
+            <token id="39" string=":" />
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Spencer Tracy" type="NP">
+          <tokens>
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the only engraving mistake" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="only" />
+            <token id="14" string="engraving" />
+            <token id="15" string="mistake" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Spencer Tracy for `` Boy 's Town ''" type="NP">
+          <tokens>
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+            <token id="28" string="for" />
+            <token id="29" string="``" />
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+            <token id="32" string="Town" />
+            <token id="33" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Motion Pictures Arts and Sciences" type="NP">
+          <tokens>
+            <token id="6" string="Motion" />
+            <token id="7" string="Pictures" />
+            <token id="8" string="Arts" />
+            <token id="9" string="and" />
+            <token id="10" string="Sciences" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Boy 's" type="NP">
+          <tokens>
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Motion Pictures Arts" type="NP">
+          <tokens>
+            <token id="6" string="Motion" />
+            <token id="7" string="Pictures" />
+            <token id="8" string="Arts" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="given to Spencer Tracy for `` Boy 's Town '' read : `` Best Actor : Dick Tracy" type="VP">
+          <tokens>
+            <token id="24" string="given" />
+            <token id="25" string="to" />
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+            <token id="28" string="for" />
+            <token id="29" string="``" />
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+            <token id="32" string="Town" />
+            <token id="33" string="''" />
+            <token id="34" string="read" />
+            <token id="35" string=":" />
+            <token id="36" string="``" />
+            <token id="37" string="Best" />
+            <token id="38" string="Actor" />
+            <token id="39" string=":" />
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="when" type="WHADVP">
+          <tokens>
+            <token id="19" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the best actor trophy" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="actor" />
+            <token id="23" string="trophy" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="was in 1938 when the best actor trophy given to Spencer Tracy for `` Boy 's Town '' read : `` Best Actor : Dick Tracy" type="VP">
+          <tokens>
+            <token id="16" string="was" />
+            <token id="17" string="in" />
+            <token id="18" string="1938" />
+            <token id="19" string="when" />
+            <token id="20" string="the" />
+            <token id="21" string="best" />
+            <token id="22" string="actor" />
+            <token id="23" string="trophy" />
+            <token id="24" string="given" />
+            <token id="25" string="to" />
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+            <token id="28" string="for" />
+            <token id="29" string="``" />
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+            <token id="32" string="Town" />
+            <token id="33" string="''" />
+            <token id="34" string="read" />
+            <token id="35" string=":" />
+            <token id="36" string="``" />
+            <token id="37" string="Best" />
+            <token id="38" string="Actor" />
+            <token id="39" string=":" />
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="read : `` Best Actor : Dick Tracy" type="NP">
+          <tokens>
+            <token id="34" string="read" />
+            <token id="35" string=":" />
+            <token id="36" string="``" />
+            <token id="37" string="Best" />
+            <token id="38" string="Actor" />
+            <token id="39" string=":" />
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Sciences" type="NP">
+          <tokens>
+            <token id="10" string="Sciences" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Boy 's Town" type="NP">
+          <tokens>
+            <token id="30" string="Boy" />
+            <token id="31" string="'s" />
+            <token id="32" string="Town" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Dick Tracy" type="NP">
+          <tokens>
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the Academy" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="Academy" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="1938" type="NP">
+          <tokens>
+            <token id="18" string="1938" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the Academy of Motion Pictures Arts and Sciences" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="Academy" />
+            <token id="5" string="of" />
+            <token id="6" string="Motion" />
+            <token id="7" string="Pictures" />
+            <token id="8" string="Arts" />
+            <token id="9" string="and" />
+            <token id="10" string="Sciences" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="Best Actor" type="NP">
+          <tokens>
+            <token id="37" string="Best" />
+            <token id="38" string="Actor" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">Academy</governor>
+          <dependent id="1">According</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="1">According</governor>
+          <dependent id="2">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">Academy</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">1938</governor>
+          <dependent id="4">Academy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Arts</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Arts</governor>
+          <dependent id="6">Motion</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Arts</governor>
+          <dependent id="7">Pictures</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">Academy</governor>
+          <dependent id="8">Arts</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">Arts</governor>
+          <dependent id="9">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">Arts</governor>
+          <dependent id="10">Sciences</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">mistake</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">mistake</governor>
+          <dependent id="13">only</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">mistake</governor>
+          <dependent id="14">engraving</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">1938</governor>
+          <dependent id="15">mistake</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="18">1938</governor>
+          <dependent id="16">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">1938</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">1938</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">given</governor>
+          <dependent id="19">when</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">trophy</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">trophy</governor>
+          <dependent id="21">best</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">trophy</governor>
+          <dependent id="22">actor</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">given</governor>
+          <dependent id="23">trophy</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="18">1938</governor>
+          <dependent id="24">given</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Tracy</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Tracy</governor>
+          <dependent id="26">Spencer</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">given</governor>
+          <dependent id="27">Tracy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">Town</governor>
+          <dependent id="28">for</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="32">Town</governor>
+          <dependent id="30">Boy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">Boy</governor>
+          <dependent id="31">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">Tracy</governor>
+          <dependent id="32">Town</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">given</governor>
+          <dependent id="34">read</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="38">Actor</governor>
+          <dependent id="37">Best</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="34">read</governor>
+          <dependent id="38">Actor</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="41">Tracy</governor>
+          <dependent id="40">Dick</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="34">read</governor>
+          <dependent id="41">Tracy</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Spencer Tracy" type="PERSON" score="0.0">
+          <tokens>
+            <token id="26" string="Spencer" />
+            <token id="27" string="Tracy" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Dick Tracy" type="PERSON" score="0.0">
+          <tokens>
+            <token id="40" string="Dick" />
+            <token id="41" string="Tracy" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Academy of Motion Pictures Arts and Sciences" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="Academy" />
+            <token id="5" string="of" />
+            <token id="6" string="Motion" />
+            <token id="7" string="Pictures" />
+            <token id="8" string="Arts" />
+            <token id="9" string="and" />
+            <token id="10" string="Sciences" />
+          </tokens>
+        </entity>
+        <entity id="4" string="1938" type="DATE" score="0.0">
+          <tokens>
+            <token id="18" string="1938" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>The Academy holds all the rights on the statue and ``reserves the right to buy back an Oscar before someone takes it to a pawn shop,&amp;apost;&amp;apost; said Academy spokesman Bob Werden.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="Academy" lemma="Academy" stem="academi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="holds" lemma="hold" stem="hold" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="all" lemma="all" stem="all" pos="PDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="rights" lemma="rights" stem="right" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="statue" lemma="statue" stem="statu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="reserves" lemma="reserve" stem="reserv" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="true" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="buy" lemma="buy" stem="bui" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="back" lemma="back" stem="back" pos="RP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="Oscar" lemma="Oscar" stem="oscar" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="someone" lemma="someone" stem="someon" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="takes" lemma="take" stem="take" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="pawn" lemma="pawn" stem="pawn" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="shop" lemma="shop" stem="shop" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="Academy" lemma="Academy" stem="academi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="32" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="Bob" lemma="Bob" stem="bob" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="34" string="Werden" lemma="Werden" stem="werden" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="35" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (S (NP (DT The) (NNP Academy)) (VP (VBZ holds) (NP (PDT all) (DT the) (NNS rights)) (PP (IN on) (NP (NP (DT the) (NN statue)) (CC and) (`` ``) (NP (NP (NNS reserves)) (SBAR (S (NP (DT the) (NN right) (S (VP (TO to) (VP (VB buy) (PRT (RP back)) (NP (DT an) (NNP Oscar)) (PP (IN before) (NP (NN someone))))))) (VP (VBZ takes) (NP (PRP it)) (PP (TO to) (NP (DT a) (NN pawn) (NN shop))))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Academy) (NN spokesman) (NNP Bob) (NNP Werden)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a pawn shop" type="NP">
+          <tokens>
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="holds all the rights on the statue and `` reserves the right to buy back an Oscar before someone takes it to a pawn shop" type="VP">
+          <tokens>
+            <token id="3" string="holds" />
+            <token id="4" string="all" />
+            <token id="5" string="the" />
+            <token id="6" string="rights" />
+            <token id="7" string="on" />
+            <token id="8" string="the" />
+            <token id="9" string="statue" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="reserves" />
+            <token id="13" string="the" />
+            <token id="14" string="right" />
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+            <token id="22" string="takes" />
+            <token id="23" string="it" />
+            <token id="24" string="to" />
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="reserves the right to buy back an Oscar before someone takes it to a pawn shop" type="NP">
+          <tokens>
+            <token id="12" string="reserves" />
+            <token id="13" string="the" />
+            <token id="14" string="right" />
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+            <token id="22" string="takes" />
+            <token id="23" string="it" />
+            <token id="24" string="to" />
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="it" type="NP">
+          <tokens>
+            <token id="23" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Academy spokesman Bob Werden" type="NP">
+          <tokens>
+            <token id="31" string="Academy" />
+            <token id="32" string="spokesman" />
+            <token id="33" string="Bob" />
+            <token id="34" string="Werden" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="reserves" type="NP">
+          <tokens>
+            <token id="12" string="reserves" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The Academy" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Academy" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="all the rights" type="NP">
+          <tokens>
+            <token id="4" string="all" />
+            <token id="5" string="the" />
+            <token id="6" string="rights" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the right to buy back an Oscar before someone takes it to a pawn shop" type="SBAR">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="right" />
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+            <token id="22" string="takes" />
+            <token id="23" string="it" />
+            <token id="24" string="to" />
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the statue" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="statue" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="an Oscar" type="NP">
+          <tokens>
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="someone" type="NP">
+          <tokens>
+            <token id="21" string="someone" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="buy back an Oscar before someone" type="VP">
+          <tokens>
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the right to buy back an Oscar before someone" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="right" />
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="to buy back an Oscar before someone" type="VP">
+          <tokens>
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the statue and `` reserves the right to buy back an Oscar before someone takes it to a pawn shop" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="statue" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="reserves" />
+            <token id="13" string="the" />
+            <token id="14" string="right" />
+            <token id="15" string="to" />
+            <token id="16" string="buy" />
+            <token id="17" string="back" />
+            <token id="18" string="an" />
+            <token id="19" string="Oscar" />
+            <token id="20" string="before" />
+            <token id="21" string="someone" />
+            <token id="22" string="takes" />
+            <token id="23" string="it" />
+            <token id="24" string="to" />
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="said" type="VP">
+          <tokens>
+            <token id="30" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="takes it to a pawn shop" type="VP">
+          <tokens>
+            <token id="22" string="takes" />
+            <token id="23" string="it" />
+            <token id="24" string="to" />
+            <token id="25" string="a" />
+            <token id="26" string="pawn" />
+            <token id="27" string="shop" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">Academy</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">holds</governor>
+          <dependent id="2">Academy</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="30">said</governor>
+          <dependent id="3">holds</dependent>
+        </dependency>
+        <dependency type="det:predet">
+          <governor id="6">rights</governor>
+          <dependent id="4">all</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">rights</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">holds</governor>
+          <dependent id="6">rights</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">statue</governor>
+          <dependent id="7">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">statue</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">holds</governor>
+          <dependent id="9">statue</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">statue</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">statue</governor>
+          <dependent id="12">reserves</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">right</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">takes</governor>
+          <dependent id="14">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">buy</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="14">right</governor>
+          <dependent id="16">buy</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="16">buy</governor>
+          <dependent id="17">back</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">Oscar</governor>
+          <dependent id="18">an</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">buy</governor>
+          <dependent id="19">Oscar</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">someone</governor>
+          <dependent id="20">before</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">buy</governor>
+          <dependent id="21">someone</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="12">reserves</governor>
+          <dependent id="22">takes</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">takes</governor>
+          <dependent id="23">it</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">shop</governor>
+          <dependent id="24">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">shop</governor>
+          <dependent id="25">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">shop</governor>
+          <dependent id="26">pawn</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">takes</governor>
+          <dependent id="27">shop</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="30">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="34">Werden</governor>
+          <dependent id="31">Academy</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="34">Werden</governor>
+          <dependent id="32">spokesman</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="34">Werden</governor>
+          <dependent id="33">Bob</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="30">said</governor>
+          <dependent id="34">Werden</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Academy" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="Academy" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Bob Werden" type="PERSON" score="0.0">
+          <tokens>
+            <token id="33" string="Bob" />
+            <token id="34" string="Werden" />
+          </tokens>
+        </entity>
+        <entity id="3" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="14" string="right" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The most-nominated film was ``All About Eve&amp;apost;&amp;apost; in 1950.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="most-nominated" lemma="most-nominated" stem="most-nomin" pos="JJS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="film" lemma="film" stem="film" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="All" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="About" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Eve" lemma="Eve" stem="eve" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="1950" lemma="1950" stem="1950" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (JJS most-nominated) (NN film)) (VP (VBD was) (`` ``) (NP (DT All)) (PP (IN About) (NP (NP (NNP Eve)) ('' '') (PP (IN in) (NP (CD 1950)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was `` All About Eve '' in 1950" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="``" />
+            <token id="6" string="All" />
+            <token id="7" string="About" />
+            <token id="8" string="Eve" />
+            <token id="9" string="''" />
+            <token id="10" string="in" />
+            <token id="11" string="1950" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Eve '' in 1950" type="NP">
+          <tokens>
+            <token id="8" string="Eve" />
+            <token id="9" string="''" />
+            <token id="10" string="in" />
+            <token id="11" string="1950" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="All" type="NP">
+          <tokens>
+            <token id="6" string="All" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Eve" type="NP">
+          <tokens>
+            <token id="8" string="Eve" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1950" type="NP">
+          <tokens>
+            <token id="11" string="1950" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The most-nominated film" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="most-nominated" />
+            <token id="3" string="film" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">film</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">film</governor>
+          <dependent id="2">most-nominated</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">All</governor>
+          <dependent id="3">film</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">All</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">All</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Eve</governor>
+          <dependent id="7">About</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">All</governor>
+          <dependent id="8">Eve</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">1950</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">Eve</governor>
+          <dependent id="11">1950</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1950" type="DATE" score="0.0">
+          <tokens>
+            <token id="11" string="1950" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>It got 14 nominations.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="got" lemma="get" stem="got" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="14" lemma="14" stem="14" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="nominations" lemma="nomination" stem="nomin" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBD got) (NP (CD 14) (NNS nominations))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="got 14 nominations" type="VP">
+          <tokens>
+            <token id="2" string="got" />
+            <token id="3" string="14" />
+            <token id="4" string="nominations" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="14 nominations" type="NP">
+          <tokens>
+            <token id="3" string="14" />
+            <token id="4" string="nominations" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">got</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">got</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">nominations</governor>
+          <dependent id="3">14</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">got</governor>
+          <dependent id="4">nominations</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="14" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="14" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>``Ben-Hur&amp;apost;&amp;apost; in 1959 was the most-awarded film with 11, and Walt Disney was the most-awarded person with 32.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="Ben-Hur" lemma="Ben-Hur" stem="ben-hur" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="1959" lemma="1959" stem="1959" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="6" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="most-awarded" lemma="most-awarded" stem="most-award" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="film" lemma="film" stem="film" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="11" lemma="11" stem="11" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Walt" lemma="Walt" stem="walt" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="15" string="Disney" lemma="Disney" stem="disnei" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="16" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="most-awarded" lemma="most-awarded" stem="most-award" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="person" lemma="person" stem="person" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="32" lemma="32" stem="32" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (`` ``) (NP (NNP Ben-Hur)) ('' '') (PP (IN in) (NP (CD 1959)))) (VP (VBD was) (NP (NP (DT the) (JJS most-awarded) (NN film)) (PP (IN with) (NP (CD 11)))))) (, ,) (CC and) (S (NP (NNP Walt) (NNP Disney)) (VP (VBD was) (NP (NP (DT the) (JJS most-awarded) (NN person)) (PP (IN with) (NP (CD 32)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Walt Disney" type="NP">
+          <tokens>
+            <token id="14" string="Walt" />
+            <token id="15" string="Disney" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the most-awarded film with 11" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="most-awarded" />
+            <token id="9" string="film" />
+            <token id="10" string="with" />
+            <token id="11" string="11" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was the most-awarded person with 32" type="VP">
+          <tokens>
+            <token id="16" string="was" />
+            <token id="17" string="the" />
+            <token id="18" string="most-awarded" />
+            <token id="19" string="person" />
+            <token id="20" string="with" />
+            <token id="21" string="32" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was the most-awarded film with 11" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="the" />
+            <token id="8" string="most-awarded" />
+            <token id="9" string="film" />
+            <token id="10" string="with" />
+            <token id="11" string="11" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Ben-Hur" type="NP">
+          <tokens>
+            <token id="2" string="Ben-Hur" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="1959" type="NP">
+          <tokens>
+            <token id="5" string="1959" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the most-awarded person" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="most-awarded" />
+            <token id="19" string="person" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the most-awarded person with 32" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="most-awarded" />
+            <token id="19" string="person" />
+            <token id="20" string="with" />
+            <token id="21" string="32" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="`` Ben-Hur '' in 1959" type="NP">
+          <tokens>
+            <token id="1" string="``" />
+            <token id="2" string="Ben-Hur" />
+            <token id="3" string="''" />
+            <token id="4" string="in" />
+            <token id="5" string="1959" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the most-awarded film" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="most-awarded" />
+            <token id="9" string="film" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="32" type="NP">
+          <tokens>
+            <token id="21" string="32" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="11" type="NP">
+          <tokens>
+            <token id="11" string="11" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="9">film</governor>
+          <dependent id="2">Ben-Hur</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">1959</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">Ben-Hur</governor>
+          <dependent id="5">1959</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">film</governor>
+          <dependent id="6">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">film</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">film</governor>
+          <dependent id="8">most-awarded</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">film</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">11</governor>
+          <dependent id="10">with</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">film</governor>
+          <dependent id="11">11</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">film</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Disney</governor>
+          <dependent id="14">Walt</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">person</governor>
+          <dependent id="15">Disney</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="19">person</governor>
+          <dependent id="16">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">person</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">person</governor>
+          <dependent id="18">most-awarded</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">film</governor>
+          <dependent id="19">person</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">32</governor>
+          <dependent id="20">with</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">person</governor>
+          <dependent id="21">32</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Walt Disney" type="PERSON" score="0.0">
+          <tokens>
+            <token id="14" string="Walt" />
+            <token id="15" string="Disney" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1959" type="DATE" score="0.0">
+          <tokens>
+            <token id="5" string="1959" />
+          </tokens>
+        </entity>
+        <entity id="3" string="32" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="21" string="32" />
+          </tokens>
+        </entity>
+        <entity id="4" string="11" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="11" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="12" string="Oscar" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1-10" string="Oscar , manufactured by the R.S. Owens Co. , Chicago" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="28-29-30-31" string="11 of the trophies" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="11" string="11" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="1-2" string="The Academy" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="4-10" string="Academy of Motion Pictures Arts and Sciences" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="1-2-3" string="The most-nominated film" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="8" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

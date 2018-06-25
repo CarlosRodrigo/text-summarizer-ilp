@@ -1,0 +1,2863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890122-0087">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>In a dramatic finish, the San Francisco 49ers football team won the Super Bowl on Sunday with a 20-16 victory over the Cincinnati Bengals.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="dramatic" lemma="dramatic" stem="dramat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="finish" lemma="finish" stem="finish" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="49ers" lemma="49ers" stem="49er" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="football" lemma="football" stem="footbal" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="team" lemma="team" stem="team" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="won" lemma="win" stem="won" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="Super" lemma="Super" stem="super" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="15" string="Bowl" lemma="Bowl" stem="bowl" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="16" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="20-16" lemma="20-16" stem="20-16" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="21" string="victory" lemma="victory" stem="victori" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="24" string="Cincinnati" lemma="Cincinnati" stem="cincinnati" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="25" string="Bengals" lemma="Bengals" stem="bengal" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (DT a) (JJ dramatic) (NN finish))) (, ,) (NP (DT the) (NNP San) (NNP Francisco) (NNPS 49ers) (NN football) (NN team)) (VP (VBD won) (NP (DT the) (NNP Super) (NNP Bowl)) (PP (IN on) (NP (NNP Sunday))) (PP (IN with) (NP (NP (DT a) (CD 20-16) (NN victory)) (PP (IN over) (NP (DT the) (NNP Cincinnati) (NNPS Bengals)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the San Francisco 49ers football team" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="San" />
+            <token id="8" string="Francisco" />
+            <token id="9" string="49ers" />
+            <token id="10" string="football" />
+            <token id="11" string="team" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the Super Bowl" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Super" />
+            <token id="15" string="Bowl" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Cincinnati Bengals" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="Cincinnati" />
+            <token id="25" string="Bengals" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Sunday" type="NP">
+          <tokens>
+            <token id="17" string="Sunday" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a 20-16 victory" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="20-16" />
+            <token id="21" string="victory" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a 20-16 victory over the Cincinnati Bengals" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="20-16" />
+            <token id="21" string="victory" />
+            <token id="22" string="over" />
+            <token id="23" string="the" />
+            <token id="24" string="Cincinnati" />
+            <token id="25" string="Bengals" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a dramatic finish" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="dramatic" />
+            <token id="4" string="finish" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="won the Super Bowl on Sunday with a 20-16 victory over the Cincinnati Bengals" type="VP">
+          <tokens>
+            <token id="12" string="won" />
+            <token id="13" string="the" />
+            <token id="14" string="Super" />
+            <token id="15" string="Bowl" />
+            <token id="16" string="on" />
+            <token id="17" string="Sunday" />
+            <token id="18" string="with" />
+            <token id="19" string="a" />
+            <token id="20" string="20-16" />
+            <token id="21" string="victory" />
+            <token id="22" string="over" />
+            <token id="23" string="the" />
+            <token id="24" string="Cincinnati" />
+            <token id="25" string="Bengals" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">finish</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">finish</governor>
+          <dependent id="2">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">finish</governor>
+          <dependent id="3">dramatic</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">won</governor>
+          <dependent id="4">finish</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">team</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">team</governor>
+          <dependent id="7">San</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">team</governor>
+          <dependent id="8">Francisco</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">team</governor>
+          <dependent id="9">49ers</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">team</governor>
+          <dependent id="10">football</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">won</governor>
+          <dependent id="11">team</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">won</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">Bowl</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Bowl</governor>
+          <dependent id="14">Super</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">won</governor>
+          <dependent id="15">Bowl</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Sunday</governor>
+          <dependent id="16">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">won</governor>
+          <dependent id="17">Sunday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">victory</governor>
+          <dependent id="18">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">victory</governor>
+          <dependent id="19">a</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">victory</governor>
+          <dependent id="20">20-16</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">won</governor>
+          <dependent id="21">victory</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">Bengals</governor>
+          <dependent id="22">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">Bengals</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">Bengals</governor>
+          <dependent id="24">Cincinnati</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">victory</governor>
+          <dependent id="25">Bengals</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="San Francisco 49ers" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="7" string="San" />
+            <token id="8" string="Francisco" />
+            <token id="9" string="49ers" />
+          </tokens>
+        </entity>
+        <entity id="2" string="20-16" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="20-16" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cincinnati Bengals" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="24" string="Cincinnati" />
+            <token id="25" string="Bengals" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="17" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Super Bowl" type="MISC" score="0.0">
+          <tokens>
+            <token id="14" string="Super" />
+            <token id="15" string="Bowl" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Joe Montana&amp;apost;s 10-yard touchdown pass to John Taylor with 34 seconds left provided the winning margin.</content>
+      <tokens>
+        <token id="1" string="Joe" lemma="Joe" stem="joe" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Montana" lemma="Montana" stem="montana" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="10-yard" lemma="10-yard" stem="10-yard" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="touchdown" lemma="touchdown" stem="touchdown" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="pass" lemma="pass" stem="pass" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="John" lemma="John" stem="john" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="9" string="Taylor" lemma="Taylor" stem="taylor" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="10" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="34" lemma="34" stem="34" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="seconds" lemma="seconds" stem="second" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="left" lemma="leave" stem="left" pos="VBD" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="14" string="provided" lemma="provide" stem="provid" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="winning" lemma="win" stem="win" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="margin" lemma="margin" stem="margin" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NP (NNP Joe) (NNP Montana) (POS 's)) (JJ 10-yard) (NN touchdown) (NN pass)) (PP (TO to) (NP (NP (NNP John) (NNP Taylor)) (PP (IN with) (NP (CD 34) (NNS seconds)))))) (VP (VBD left) (PP (VBN provided) (NP (DT the) (VBG winning) (NN margin)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="John Taylor with 34 seconds" type="NP">
+          <tokens>
+            <token id="8" string="John" />
+            <token id="9" string="Taylor" />
+            <token id="10" string="with" />
+            <token id="11" string="34" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Joe Montana 's 10-yard touchdown pass" type="NP">
+          <tokens>
+            <token id="1" string="Joe" />
+            <token id="2" string="Montana" />
+            <token id="3" string="'s" />
+            <token id="4" string="10-yard" />
+            <token id="5" string="touchdown" />
+            <token id="6" string="pass" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="34 seconds" type="NP">
+          <tokens>
+            <token id="11" string="34" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="left provided the winning margin" type="VP">
+          <tokens>
+            <token id="13" string="left" />
+            <token id="14" string="provided" />
+            <token id="15" string="the" />
+            <token id="16" string="winning" />
+            <token id="17" string="margin" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the winning margin" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="winning" />
+            <token id="17" string="margin" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="John Taylor" type="NP">
+          <tokens>
+            <token id="8" string="John" />
+            <token id="9" string="Taylor" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Joe Montana 's 10-yard touchdown pass to John Taylor with 34 seconds" type="NP">
+          <tokens>
+            <token id="1" string="Joe" />
+            <token id="2" string="Montana" />
+            <token id="3" string="'s" />
+            <token id="4" string="10-yard" />
+            <token id="5" string="touchdown" />
+            <token id="6" string="pass" />
+            <token id="7" string="to" />
+            <token id="8" string="John" />
+            <token id="9" string="Taylor" />
+            <token id="10" string="with" />
+            <token id="11" string="34" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Joe Montana 's" type="NP">
+          <tokens>
+            <token id="1" string="Joe" />
+            <token id="2" string="Montana" />
+            <token id="3" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Montana</governor>
+          <dependent id="1">Joe</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="6">pass</governor>
+          <dependent id="2">Montana</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="2">Montana</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">pass</governor>
+          <dependent id="4">10-yard</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">pass</governor>
+          <dependent id="5">touchdown</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">left</governor>
+          <dependent id="6">pass</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Taylor</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Taylor</governor>
+          <dependent id="8">John</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">pass</governor>
+          <dependent id="9">Taylor</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">seconds</governor>
+          <dependent id="10">with</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">seconds</governor>
+          <dependent id="11">34</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Taylor</governor>
+          <dependent id="12">seconds</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">left</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">margin</governor>
+          <dependent id="14">provided</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">margin</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">margin</governor>
+          <dependent id="16">winning</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">left</governor>
+          <dependent id="17">margin</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="left" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="13" string="left" />
+          </tokens>
+        </entity>
+        <entity id="2" string="34 seconds" type="DURATION" score="0.0">
+          <tokens>
+            <token id="11" string="34" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </entity>
+        <entity id="3" string="John Taylor" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="John" />
+            <token id="9" string="Taylor" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Joe Montana" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Joe" />
+            <token id="2" string="Montana" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>The victory was achieved through the brilliance of Montana and Jerry Rice, the wide receiver who caught 12 passes for 222 yards, both Super Bowl records.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="victory" lemma="victory" stem="victori" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="achieved" lemma="achieve" stem="achiev" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="brilliance" lemma="brilliance" stem="brillianc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Montana" lemma="Montana" stem="montana" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Jerry" lemma="Jerry" stem="jerri" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="12" string="Rice" lemma="Rice" stem="rice" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="wide" lemma="wide" stem="wide" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="receiver" lemma="receiver" stem="receiv" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="caught" lemma="catch" stem="caught" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="12" lemma="12" stem="12" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="20" string="passes" lemma="pass" stem="pass" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="222" lemma="222" stem="222" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="yards" lemma="yard" stem="yard" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="both" lemma="both" stem="both" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Super" lemma="Super" stem="super" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="27" string="Bowl" lemma="Bowl" stem="bowl" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="28" string="records" lemma="record" stem="record" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN victory)) (VP (VBD was) (VP (VBN achieved) (PP (IN through) (NP (NP (DT the) (NN brilliance)) (PP (IN of) (NP (NP (NNP Montana) (CC and) (NNP Jerry) (NNP Rice)) (, ,) (NP (NP (DT the) (JJ wide) (NN receiver)) (SBAR (WHNP (WP who)) (S (VP (VBD caught) (NP (CD 12) (NNS passes)) (PP (IN for) (NP (NP (CD 222) (NNS yards)) (, ,) (NP (DT both) (NNP Super) (NNP Bowl) (NNS records)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="222 yards" type="NP">
+          <tokens>
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the brilliance of Montana and Jerry Rice , the wide receiver who caught 12 passes for 222 yards , both Super Bowl records" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="brilliance" />
+            <token id="8" string="of" />
+            <token id="9" string="Montana" />
+            <token id="10" string="and" />
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="both Super Bowl records" type="NP">
+          <tokens>
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Montana and Jerry Rice" type="NP">
+          <tokens>
+            <token id="9" string="Montana" />
+            <token id="10" string="and" />
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="who caught 12 passes for 222 yards , both Super Bowl records" type="SBAR">
+          <tokens>
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the wide receiver who caught 12 passes for 222 yards , both Super Bowl records" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was achieved through the brilliance of Montana and Jerry Rice , the wide receiver who caught 12 passes for 222 yards , both Super Bowl records" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="achieved" />
+            <token id="5" string="through" />
+            <token id="6" string="the" />
+            <token id="7" string="brilliance" />
+            <token id="8" string="of" />
+            <token id="9" string="Montana" />
+            <token id="10" string="and" />
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the brilliance" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="brilliance" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="The victory" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="victory" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Montana and Jerry Rice , the wide receiver who caught 12 passes for 222 yards , both Super Bowl records" type="NP">
+          <tokens>
+            <token id="9" string="Montana" />
+            <token id="10" string="and" />
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="caught 12 passes for 222 yards , both Super Bowl records" type="VP">
+          <tokens>
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="12 passes" type="NP">
+          <tokens>
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="222 yards , both Super Bowl records" type="NP">
+          <tokens>
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the wide receiver" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="achieved through the brilliance of Montana and Jerry Rice , the wide receiver who caught 12 passes for 222 yards , both Super Bowl records" type="VP">
+          <tokens>
+            <token id="4" string="achieved" />
+            <token id="5" string="through" />
+            <token id="6" string="the" />
+            <token id="7" string="brilliance" />
+            <token id="8" string="of" />
+            <token id="9" string="Montana" />
+            <token id="10" string="and" />
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="wide" />
+            <token id="16" string="receiver" />
+            <token id="17" string="who" />
+            <token id="18" string="caught" />
+            <token id="19" string="12" />
+            <token id="20" string="passes" />
+            <token id="21" string="for" />
+            <token id="22" string="222" />
+            <token id="23" string="yards" />
+            <token id="24" string="," />
+            <token id="25" string="both" />
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+            <token id="28" string="records" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">victory</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">achieved</governor>
+          <dependent id="2">victory</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">achieved</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">achieved</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">brilliance</governor>
+          <dependent id="5">through</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">brilliance</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">achieved</governor>
+          <dependent id="7">brilliance</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Rice</governor>
+          <dependent id="8">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Rice</governor>
+          <dependent id="9">Montana</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">Montana</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">Montana</governor>
+          <dependent id="11">Jerry</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">brilliance</governor>
+          <dependent id="12">Rice</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">receiver</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">receiver</governor>
+          <dependent id="15">wide</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="12">Rice</governor>
+          <dependent id="16">receiver</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">caught</governor>
+          <dependent id="17">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="16">receiver</governor>
+          <dependent id="18">caught</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">passes</governor>
+          <dependent id="19">12</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">caught</governor>
+          <dependent id="20">passes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">yards</governor>
+          <dependent id="21">for</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="23">yards</governor>
+          <dependent id="22">222</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">caught</governor>
+          <dependent id="23">yards</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">records</governor>
+          <dependent id="25">both</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">records</governor>
+          <dependent id="26">Super</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">records</governor>
+          <dependent id="27">Bowl</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="23">yards</governor>
+          <dependent id="28">records</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="12" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="12" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Jerry Rice" type="PERSON" score="0.0">
+          <tokens>
+            <token id="11" string="Jerry" />
+            <token id="12" string="Rice" />
+          </tokens>
+        </entity>
+        <entity id="3" string="222" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="222" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Montana" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Montana" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Super Bowl" type="MISC" score="0.0">
+          <tokens>
+            <token id="26" string="Super" />
+            <token id="27" string="Bowl" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Rice was named the game&amp;apost;s most valuable player.</content>
+      <tokens>
+        <token id="1" string="Rice" lemma="Rice" stem="rice" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="named" lemma="name" stem="name" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="game" lemma="game" stem="game" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="valuable" lemma="valuable" stem="valuabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="player" lemma="player" stem="player" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Rice)) (VP (VBD was) (VP (VBN named) (NP (NP (DT the) (NN game) (POS 's)) (ADJP (RBS most) (JJ valuable)) (NN player)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="named the game 's most valuable player" type="VP">
+          <tokens>
+            <token id="3" string="named" />
+            <token id="4" string="the" />
+            <token id="5" string="game" />
+            <token id="6" string="'s" />
+            <token id="7" string="most" />
+            <token id="8" string="valuable" />
+            <token id="9" string="player" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the game 's most valuable player" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="game" />
+            <token id="6" string="'s" />
+            <token id="7" string="most" />
+            <token id="8" string="valuable" />
+            <token id="9" string="player" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the game 's" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="game" />
+            <token id="6" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="most valuable" type="ADJP">
+          <tokens>
+            <token id="7" string="most" />
+            <token id="8" string="valuable" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was named the game 's most valuable player" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="named" />
+            <token id="4" string="the" />
+            <token id="5" string="game" />
+            <token id="6" string="'s" />
+            <token id="7" string="most" />
+            <token id="8" string="valuable" />
+            <token id="9" string="player" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Rice" type="NP">
+          <tokens>
+            <token id="1" string="Rice" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="3">named</governor>
+          <dependent id="1">Rice</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="3">named</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">named</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">game</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="9">player</governor>
+          <dependent id="5">game</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">game</governor>
+          <dependent id="6">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">valuable</governor>
+          <dependent id="7">most</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">player</governor>
+          <dependent id="8">valuable</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">named</governor>
+          <dependent id="9">player</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Rice" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Rice" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>The winning score came at the end of a 92-yard drive, engineered by Montana, whose touchdown pass gave him a Super Bowl record with 357 yards passing.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="winning" lemma="win" stem="win" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="score" lemma="score" stem="score" pos="NN" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="4" string="came" lemma="come" stem="came" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="end" lemma="end" stem="end" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="92-yard" lemma="92-yard" stem="92-yard" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="drive" lemma="drive" stem="drive" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="engineered" lemma="engineer" stem="engin" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Montana" lemma="Montana" stem="montana" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="whose" lemma="whose" stem="whose" pos="WP$" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="touchdown" lemma="touchdown" stem="touchdown" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="19" string="pass" lemma="pass" stem="pass" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="20" string="gave" lemma="give" stem="gave" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="22" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Super" lemma="Super" stem="super" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="24" string="Bowl" lemma="Bowl" stem="bowl" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="25" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="357" lemma="357" stem="357" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="28" string="yards" lemma="yard" stem="yard" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="passing" lemma="pass" stem="pass" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (VBG winning) (NN score)) (VP (VBD came) (PP (IN at) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (NP (DT a) (JJ 92-yard) (NN drive)) (, ,) (VP (VBN engineered) (PP (IN by) (NP (NNP Montana)))) (, ,) (SBAR (WP$ whose) (S (NP (NN touchdown) (NN pass)) (VP (VBD gave) (NP (PRP him)) (NP (NP (DT a) (NNP Super) (NNP Bowl) (NN record)) (PP (IN with) (NP (NP (CD 357) (NNS yards)) (VP (VBG passing))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the end" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="end" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a 92-yard drive" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="92-yard" />
+            <token id="11" string="drive" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="whose touchdown pass gave him a Super Bowl record with 357 yards passing" type="SBAR">
+          <tokens>
+            <token id="17" string="whose" />
+            <token id="18" string="touchdown" />
+            <token id="19" string="pass" />
+            <token id="20" string="gave" />
+            <token id="21" string="him" />
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="357 yards passing" type="NP">
+          <tokens>
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="357 yards" type="NP">
+          <tokens>
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Montana" type="NP">
+          <tokens>
+            <token id="15" string="Montana" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The winning score" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="winning" />
+            <token id="3" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="him" type="NP">
+          <tokens>
+            <token id="21" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="gave him a Super Bowl record with 357 yards passing" type="VP">
+          <tokens>
+            <token id="20" string="gave" />
+            <token id="21" string="him" />
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="engineered by Montana" type="VP">
+          <tokens>
+            <token id="13" string="engineered" />
+            <token id="14" string="by" />
+            <token id="15" string="Montana" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="came at the end of a 92-yard drive , engineered by Montana , whose touchdown pass gave him a Super Bowl record with 357 yards passing" type="VP">
+          <tokens>
+            <token id="4" string="came" />
+            <token id="5" string="at" />
+            <token id="6" string="the" />
+            <token id="7" string="end" />
+            <token id="8" string="of" />
+            <token id="9" string="a" />
+            <token id="10" string="92-yard" />
+            <token id="11" string="drive" />
+            <token id="12" string="," />
+            <token id="13" string="engineered" />
+            <token id="14" string="by" />
+            <token id="15" string="Montana" />
+            <token id="16" string="," />
+            <token id="17" string="whose" />
+            <token id="18" string="touchdown" />
+            <token id="19" string="pass" />
+            <token id="20" string="gave" />
+            <token id="21" string="him" />
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a 92-yard drive , engineered by Montana , whose touchdown pass gave him a Super Bowl record with 357 yards passing" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="92-yard" />
+            <token id="11" string="drive" />
+            <token id="12" string="," />
+            <token id="13" string="engineered" />
+            <token id="14" string="by" />
+            <token id="15" string="Montana" />
+            <token id="16" string="," />
+            <token id="17" string="whose" />
+            <token id="18" string="touchdown" />
+            <token id="19" string="pass" />
+            <token id="20" string="gave" />
+            <token id="21" string="him" />
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a Super Bowl record with 357 yards passing" type="NP">
+          <tokens>
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a Super Bowl record" type="NP">
+          <tokens>
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="touchdown pass" type="NP">
+          <tokens>
+            <token id="18" string="touchdown" />
+            <token id="19" string="pass" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the end of a 92-yard drive , engineered by Montana , whose touchdown pass gave him a Super Bowl record with 357 yards passing" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="end" />
+            <token id="8" string="of" />
+            <token id="9" string="a" />
+            <token id="10" string="92-yard" />
+            <token id="11" string="drive" />
+            <token id="12" string="," />
+            <token id="13" string="engineered" />
+            <token id="14" string="by" />
+            <token id="15" string="Montana" />
+            <token id="16" string="," />
+            <token id="17" string="whose" />
+            <token id="18" string="touchdown" />
+            <token id="19" string="pass" />
+            <token id="20" string="gave" />
+            <token id="21" string="him" />
+            <token id="22" string="a" />
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+            <token id="25" string="record" />
+            <token id="26" string="with" />
+            <token id="27" string="357" />
+            <token id="28" string="yards" />
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="passing" type="VP">
+          <tokens>
+            <token id="29" string="passing" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">score</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">score</governor>
+          <dependent id="2">winning</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">came</governor>
+          <dependent id="3">score</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">came</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">end</governor>
+          <dependent id="5">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">end</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">came</governor>
+          <dependent id="7">end</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">drive</governor>
+          <dependent id="8">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">drive</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">drive</governor>
+          <dependent id="10">92-yard</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">end</governor>
+          <dependent id="11">drive</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="11">drive</governor>
+          <dependent id="13">engineered</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Montana</governor>
+          <dependent id="14">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">engineered</governor>
+          <dependent id="15">Montana</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="20">gave</governor>
+          <dependent id="17">whose</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">pass</governor>
+          <dependent id="18">touchdown</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">gave</governor>
+          <dependent id="19">pass</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="11">drive</governor>
+          <dependent id="20">gave</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="20">gave</governor>
+          <dependent id="21">him</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">record</governor>
+          <dependent id="22">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">record</governor>
+          <dependent id="23">Super</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">record</governor>
+          <dependent id="24">Bowl</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">gave</governor>
+          <dependent id="25">record</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">yards</governor>
+          <dependent id="26">with</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="28">yards</governor>
+          <dependent id="27">357</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">record</governor>
+          <dependent id="28">yards</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="28">yards</governor>
+          <dependent id="29">passing</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="score" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="score" />
+          </tokens>
+        </entity>
+        <entity id="2" string="357" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="27" string="357" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Montana" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="15" string="Montana" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Super Bowl" type="MISC" score="0.0">
+          <tokens>
+            <token id="23" string="Super" />
+            <token id="24" string="Bowl" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>It was the fifth straight win for a National Football Conference team, but by far the most dramatic _ the previous four had been by an average score of 41-14.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="fifth" lemma="fifth" stem="fifth" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="true" />
+        <token id="5" string="straight" lemma="straight" stem="straight" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="win" lemma="win" stem="win" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="National" lemma="National" stem="nation" pos="NNP" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="10" string="Football" lemma="Football" stem="footbal" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="11" string="Conference" lemma="Conference" stem="confer" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="12" string="team" lemma="team" stem="team" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="far" lemma="far" stem="far" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="dramatic" lemma="dramatic" stem="dramat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="_" lemma="_" stem="_" pos="IN" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="previous" lemma="previous" stem="previou" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="24" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="average" lemma="average" stem="averag" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="score" lemma="score" stem="score" pos="NN" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="30" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="41-14" lemma="41-14" stem="41-14" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (PRP It)) (VP (VBD was) (NP (DT the) (JJ fifth) (JJ straight))) (VP (VB win) (PP (IN for) (NP (DT a) (NNP National) (NNP Football) (NNP Conference) (NN team))))) (, ,) (CC but) (S (ADVP (IN by) (RB far)) (NP (NP (DT the) (ADJP (RBS most) (JJ dramatic))) (PP (IN _) (NP (DT the) (JJ previous) (CD four)))) (VP (VBD had) (VP (VBN been) (PP (IN by) (NP (NP (DT an) (JJ average) (NN score)) (PP (IN of) (NP (CD 41-14)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was the fifth straight" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="the" />
+            <token id="4" string="fifth" />
+            <token id="5" string="straight" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="41-14" type="NP">
+          <tokens>
+            <token id="31" string="41-14" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the most dramatic" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="most" />
+            <token id="19" string="dramatic" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="an average score of 41-14" type="NP">
+          <tokens>
+            <token id="27" string="an" />
+            <token id="28" string="average" />
+            <token id="29" string="score" />
+            <token id="30" string="of" />
+            <token id="31" string="41-14" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="win for a National Football Conference team" type="VP">
+          <tokens>
+            <token id="6" string="win" />
+            <token id="7" string="for" />
+            <token id="8" string="a" />
+            <token id="9" string="National" />
+            <token id="10" string="Football" />
+            <token id="11" string="Conference" />
+            <token id="12" string="team" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a National Football Conference team" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="National" />
+            <token id="10" string="Football" />
+            <token id="11" string="Conference" />
+            <token id="12" string="team" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the most dramatic _ the previous four" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="most" />
+            <token id="19" string="dramatic" />
+            <token id="20" string="_" />
+            <token id="21" string="the" />
+            <token id="22" string="previous" />
+            <token id="23" string="four" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="an average score" type="NP">
+          <tokens>
+            <token id="27" string="an" />
+            <token id="28" string="average" />
+            <token id="29" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="most dramatic" type="ADJP">
+          <tokens>
+            <token id="18" string="most" />
+            <token id="19" string="dramatic" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="been by an average score of 41-14" type="VP">
+          <tokens>
+            <token id="25" string="been" />
+            <token id="26" string="by" />
+            <token id="27" string="an" />
+            <token id="28" string="average" />
+            <token id="29" string="score" />
+            <token id="30" string="of" />
+            <token id="31" string="41-14" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="had been by an average score of 41-14" type="VP">
+          <tokens>
+            <token id="24" string="had" />
+            <token id="25" string="been" />
+            <token id="26" string="by" />
+            <token id="27" string="an" />
+            <token id="28" string="average" />
+            <token id="29" string="score" />
+            <token id="30" string="of" />
+            <token id="31" string="41-14" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the fifth straight" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="fifth" />
+            <token id="5" string="straight" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the previous four" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="previous" />
+            <token id="23" string="four" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">straight</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">straight</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">straight</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">straight</governor>
+          <dependent id="4">fifth</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">straight</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="5">straight</governor>
+          <dependent id="6">win</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">team</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">team</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">team</governor>
+          <dependent id="9">National</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">team</governor>
+          <dependent id="10">Football</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">team</governor>
+          <dependent id="11">Conference</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">win</governor>
+          <dependent id="12">team</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">straight</governor>
+          <dependent id="14">but</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">far</governor>
+          <dependent id="15">by</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="29">score</governor>
+          <dependent id="16">far</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">dramatic</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">dramatic</governor>
+          <dependent id="18">most</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="29">score</governor>
+          <dependent id="19">dramatic</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">four</governor>
+          <dependent id="20">_</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">four</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">four</governor>
+          <dependent id="22">previous</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">dramatic</governor>
+          <dependent id="23">four</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="29">score</governor>
+          <dependent id="24">had</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="29">score</governor>
+          <dependent id="25">been</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">score</governor>
+          <dependent id="26">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">score</governor>
+          <dependent id="27">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">score</governor>
+          <dependent id="28">average</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">straight</governor>
+          <dependent id="29">score</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">41-14</governor>
+          <dependent id="30">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">score</governor>
+          <dependent id="31">41-14</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Football Conference" type="MISC" score="0.0">
+          <tokens>
+            <token id="10" string="Football" />
+            <token id="11" string="Conference" />
+          </tokens>
+        </entity>
+        <entity id="2" string="41-14" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="31" string="41-14" />
+          </tokens>
+        </entity>
+        <entity id="3" string="score" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="29" string="score" />
+          </tokens>
+        </entity>
+        <entity id="4" string="four" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="23" string="four" />
+          </tokens>
+        </entity>
+        <entity id="5" string="National" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="9" string="National" />
+          </tokens>
+        </entity>
+        <entity id="6" string="fifth" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="4" string="fifth" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>It also gave 49ers Coach Bill Walsh his third Super Bowl win.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="gave" lemma="give" stem="gave" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="49ers" lemma="49ers" stem="49er" pos="NNPS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="Coach" lemma="coach" stem="coach" pos="VBP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="false" />
+        <token id="6" string="Bill" lemma="Bill" stem="bill" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="7" string="Walsh" lemma="Walsh" stem="walsh" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="8" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="third" lemma="third" stem="third" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="10" string="Super" lemma="Super" stem="super" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="11" string="Bowl" lemma="Bowl" stem="bowl" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="12" string="win" lemma="win" stem="win" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (ADVP (RB also)) (VP (VBD gave) (SBAR (S (NP (NNPS 49ers)) (VP (VBP Coach) (S (NP (NP (NNP Bill) (NNP Walsh)) (NP (PRP$ his) (JJ third) (NNP Super) (NNP Bowl))) (VP (VB win))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Bill Walsh his third Super Bowl" type="NP">
+          <tokens>
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+            <token id="8" string="his" />
+            <token id="9" string="third" />
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="49ers" type="NP">
+          <tokens>
+            <token id="4" string="49ers" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="gave 49ers Coach Bill Walsh his third Super Bowl win" type="VP">
+          <tokens>
+            <token id="3" string="gave" />
+            <token id="4" string="49ers" />
+            <token id="5" string="Coach" />
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+            <token id="8" string="his" />
+            <token id="9" string="third" />
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+            <token id="12" string="win" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="his third Super Bowl" type="NP">
+          <tokens>
+            <token id="8" string="his" />
+            <token id="9" string="third" />
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="win" type="VP">
+          <tokens>
+            <token id="12" string="win" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="49ers Coach Bill Walsh his third Super Bowl win" type="SBAR">
+          <tokens>
+            <token id="4" string="49ers" />
+            <token id="5" string="Coach" />
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+            <token id="8" string="his" />
+            <token id="9" string="third" />
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+            <token id="12" string="win" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Coach Bill Walsh his third Super Bowl win" type="VP">
+          <tokens>
+            <token id="5" string="Coach" />
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+            <token id="8" string="his" />
+            <token id="9" string="third" />
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+            <token id="12" string="win" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Bill Walsh" type="NP">
+          <tokens>
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">gave</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">gave</governor>
+          <dependent id="2">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">gave</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">Coach</governor>
+          <dependent id="4">49ers</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">gave</governor>
+          <dependent id="5">Coach</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Walsh</governor>
+          <dependent id="6">Bill</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">win</governor>
+          <dependent id="7">Walsh</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="11">Bowl</governor>
+          <dependent id="8">his</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">Bowl</governor>
+          <dependent id="9">third</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Bowl</governor>
+          <dependent id="10">Super</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="7">Walsh</governor>
+          <dependent id="11">Bowl</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="5">Coach</governor>
+          <dependent id="12">win</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="third" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="9" string="third" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Super Bowl" type="MISC" score="0.0">
+          <tokens>
+            <token id="10" string="Super" />
+            <token id="11" string="Bowl" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Coach" type="TITLE" score="0.0">
+          <tokens>
+            <token id="5" string="Coach" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Bill Walsh" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Bill" />
+            <token id="7" string="Walsh" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The game was a defensive struggle in the first half, which ended in a 3-3 tie.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="game" lemma="game" stem="game" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="defensive" lemma="defensive" stem="defens" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="struggle" lemma="struggle" stem="struggl" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="9" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="10" string="half" lemma="half" stem="half" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="ended" lemma="end" stem="end" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="3-3" lemma="3-3" stem="3-3" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="tie" lemma="tie" stem="tie" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN game)) (VP (VBD was) (NP (NP (DT a) (JJ defensive) (NN struggle)) (PP (IN in) (NP (NP (DT the) (JJ first) (NN half)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD ended) (PP (IN in) (NP (DT a) (JJ 3-3) (NN tie)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a defensive struggle" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="defensive" />
+            <token id="6" string="struggle" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="ended in a 3-3 tie" type="VP">
+          <tokens>
+            <token id="13" string="ended" />
+            <token id="14" string="in" />
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the first half" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="first" />
+            <token id="10" string="half" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a 3-3 tie" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The game" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="game" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a defensive struggle in the first half , which ended in a 3-3 tie" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="defensive" />
+            <token id="6" string="struggle" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="first" />
+            <token id="10" string="half" />
+            <token id="11" string="," />
+            <token id="12" string="which" />
+            <token id="13" string="ended" />
+            <token id="14" string="in" />
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="which ended in a 3-3 tie" type="SBAR">
+          <tokens>
+            <token id="12" string="which" />
+            <token id="13" string="ended" />
+            <token id="14" string="in" />
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="was a defensive struggle in the first half , which ended in a 3-3 tie" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="a" />
+            <token id="5" string="defensive" />
+            <token id="6" string="struggle" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="first" />
+            <token id="10" string="half" />
+            <token id="11" string="," />
+            <token id="12" string="which" />
+            <token id="13" string="ended" />
+            <token id="14" string="in" />
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the first half , which ended in a 3-3 tie" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="first" />
+            <token id="10" string="half" />
+            <token id="11" string="," />
+            <token id="12" string="which" />
+            <token id="13" string="ended" />
+            <token id="14" string="in" />
+            <token id="15" string="a" />
+            <token id="16" string="3-3" />
+            <token id="17" string="tie" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">game</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">struggle</governor>
+          <dependent id="2">game</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">struggle</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">struggle</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">struggle</governor>
+          <dependent id="5">defensive</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">struggle</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">half</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">half</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">half</governor>
+          <dependent id="9">first</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">struggle</governor>
+          <dependent id="10">half</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">ended</governor>
+          <dependent id="12">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="10">half</governor>
+          <dependent id="13">ended</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">tie</governor>
+          <dependent id="14">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">tie</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">tie</governor>
+          <dependent id="16">3-3</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">ended</governor>
+          <dependent id="17">tie</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="the first half" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="first" />
+            <token id="10" string="half" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>Two key players were injured in the first 14 plays, Cincinnati&amp;apost;s All-Pro nose tackle Tim Krumrie and San Francisco&amp;apost;s tackle Steve Wallace.</content>
+      <tokens>
+        <token id="1" string="Two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="2" string="key" lemma="key" stem="kei" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="players" lemma="player" stem="player" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="injured" lemma="injure" stem="injur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="9" string="14" lemma="14" stem="14" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="plays" lemma="play" stem="plai" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Cincinnati" lemma="Cincinnati" stem="cincinnati" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="All-Pro" lemma="All-Pro" stem="all-pro" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="nose" lemma="nose" stem="nose" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="tackle" lemma="tackle" stem="tackl" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="Tim" lemma="Tim" stem="tim" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="18" string="Krumrie" lemma="Krumrie" stem="krumri" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="tackle" lemma="tackle" stem="tackl" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="Steve" lemma="Steve" stem="steve" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="25" string="Wallace" lemma="Wallace" stem="wallac" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (CD Two) (JJ key) (NNS players)) (VP (VBD were) (VP (VBN injured) (PP (IN in) (NP (DT the) (JJ first) (CD 14) (NNS plays)))))) (, ,) (NP (NP (NNP Cincinnati) (POS 's)) (NNP All-Pro) (NN nose)) (VP (VB tackle) (SBAR (S (NP (NP (NNP Tim) (NNP Krumrie)) (CC and) (NP (NNP San) (NNP Francisco) (POS 's))) (VP (VBP tackle) (NP (NNP Steve) (NNP Wallace)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Tim Krumrie and San Francisco 's tackle Steve Wallace" type="SBAR">
+          <tokens>
+            <token id="17" string="Tim" />
+            <token id="18" string="Krumrie" />
+            <token id="19" string="and" />
+            <token id="20" string="San" />
+            <token id="21" string="Francisco" />
+            <token id="22" string="'s" />
+            <token id="23" string="tackle" />
+            <token id="24" string="Steve" />
+            <token id="25" string="Wallace" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Two key players" type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="key" />
+            <token id="3" string="players" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="San Francisco 's" type="NP">
+          <tokens>
+            <token id="20" string="San" />
+            <token id="21" string="Francisco" />
+            <token id="22" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="injured in the first 14 plays" type="VP">
+          <tokens>
+            <token id="5" string="injured" />
+            <token id="6" string="in" />
+            <token id="7" string="the" />
+            <token id="8" string="first" />
+            <token id="9" string="14" />
+            <token id="10" string="plays" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="tackle Steve Wallace" type="VP">
+          <tokens>
+            <token id="23" string="tackle" />
+            <token id="24" string="Steve" />
+            <token id="25" string="Wallace" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Cincinnati 's All-Pro nose" type="NP">
+          <tokens>
+            <token id="12" string="Cincinnati" />
+            <token id="13" string="'s" />
+            <token id="14" string="All-Pro" />
+            <token id="15" string="nose" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="tackle Tim Krumrie and San Francisco 's tackle Steve Wallace" type="VP">
+          <tokens>
+            <token id="16" string="tackle" />
+            <token id="17" string="Tim" />
+            <token id="18" string="Krumrie" />
+            <token id="19" string="and" />
+            <token id="20" string="San" />
+            <token id="21" string="Francisco" />
+            <token id="22" string="'s" />
+            <token id="23" string="tackle" />
+            <token id="24" string="Steve" />
+            <token id="25" string="Wallace" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Cincinnati 's" type="NP">
+          <tokens>
+            <token id="12" string="Cincinnati" />
+            <token id="13" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Tim Krumrie and San Francisco 's" type="NP">
+          <tokens>
+            <token id="17" string="Tim" />
+            <token id="18" string="Krumrie" />
+            <token id="19" string="and" />
+            <token id="20" string="San" />
+            <token id="21" string="Francisco" />
+            <token id="22" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Tim Krumrie" type="NP">
+          <tokens>
+            <token id="17" string="Tim" />
+            <token id="18" string="Krumrie" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the first 14 plays" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="first" />
+            <token id="9" string="14" />
+            <token id="10" string="plays" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Steve Wallace" type="NP">
+          <tokens>
+            <token id="24" string="Steve" />
+            <token id="25" string="Wallace" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="were injured in the first 14 plays" type="VP">
+          <tokens>
+            <token id="4" string="were" />
+            <token id="5" string="injured" />
+            <token id="6" string="in" />
+            <token id="7" string="the" />
+            <token id="8" string="first" />
+            <token id="9" string="14" />
+            <token id="10" string="plays" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="3">players</governor>
+          <dependent id="1">Two</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">players</governor>
+          <dependent id="2">key</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">injured</governor>
+          <dependent id="3">players</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">injured</governor>
+          <dependent id="4">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="16">tackle</governor>
+          <dependent id="5">injured</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">plays</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">plays</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">plays</governor>
+          <dependent id="8">first</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">plays</governor>
+          <dependent id="9">14</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">injured</governor>
+          <dependent id="10">plays</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="15">nose</governor>
+          <dependent id="12">Cincinnati</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Cincinnati</governor>
+          <dependent id="13">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">nose</governor>
+          <dependent id="14">All-Pro</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">tackle</governor>
+          <dependent id="15">nose</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">tackle</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Krumrie</governor>
+          <dependent id="17">Tim</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">tackle</governor>
+          <dependent id="18">Krumrie</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">Krumrie</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Francisco</governor>
+          <dependent id="20">San</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">Krumrie</governor>
+          <dependent id="21">Francisco</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">Francisco</governor>
+          <dependent id="22">'s</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="16">tackle</governor>
+          <dependent id="23">tackle</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">Wallace</governor>
+          <dependent id="24">Steve</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">tackle</governor>
+          <dependent id="25">Wallace</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="8" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="14" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="14" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Tim Krumrie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Tim" />
+            <token id="18" string="Krumrie" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Cincinnati" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Cincinnati" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Steve Wallace" type="PERSON" score="0.0">
+          <tokens>
+            <token id="24" string="Steve" />
+            <token id="25" string="Wallace" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Two" />
+          </tokens>
+        </entity>
+        <entity id="7" string="San Francisco" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="San" />
+            <token id="21" string="Francisco" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>The first touchdown didn&amp;apost;t come until 44 minutes into the 60-minute game, when Cincinnati&amp;apost;s Stanford Jennings took a kickoff 93 yards for a score.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="3" string="touchdown" lemma="touchdown" stem="touchdown" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="did" lemma="do" stem="did" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="n't" lemma="not" stem="n't" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="come" lemma="come" stem="come" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="until" lemma="until" stem="until" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="44" lemma="44" stem="44" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="minutes" lemma="minute" stem="minut" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="60-minute" lemma="60-minute" stem="60-minut" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="game" lemma="game" stem="game" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Cincinnati" lemma="Cincinnati" stem="cincinnati" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Stanford" lemma="Stanford" stem="stanford" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="19" string="Jennings" lemma="Jennings" stem="jen" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="took" lemma="take" stem="took" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="kickoff" lemma="kickoff" stem="kickoff" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="93" lemma="93" stem="93" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="24" string="yards" lemma="yard" stem="yard" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="score" lemma="score" stem="score" pos="NN" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (JJ first) (NN touchdown)) (VP (VBD did) (RB n't) (VP (VB come) (PP (IN until) (NP (CD 44) (NNS minutes))) (PP (IN into) (NP (NP (DT the) (JJ 60-minute) (NN game)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NP (NNP Cincinnati) (POS 's)) (NNP Stanford) (NNP Jennings)) (VP (VBD took) (NP (DT a) (NN kickoff)) (PP (NP (CD 93) (NNS yards)) (IN for) (NP (DT a) (NN score)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="93 yards" type="NP">
+          <tokens>
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the 60-minute game" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="60-minute" />
+            <token id="13" string="game" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a score" type="NP">
+          <tokens>
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Cincinnati 's Stanford Jennings" type="NP">
+          <tokens>
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="took a kickoff 93 yards for a score" type="VP">
+          <tokens>
+            <token id="20" string="took" />
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+            <token id="25" string="for" />
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a kickoff" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="44 minutes" type="NP">
+          <tokens>
+            <token id="8" string="44" />
+            <token id="9" string="minutes" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="15" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Cincinnati 's" type="NP">
+          <tokens>
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="when Cincinnati 's Stanford Jennings took a kickoff 93 yards for a score" type="SBAR">
+          <tokens>
+            <token id="15" string="when" />
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+            <token id="20" string="took" />
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+            <token id="25" string="for" />
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the 60-minute game , when Cincinnati 's Stanford Jennings took a kickoff 93 yards for a score" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="60-minute" />
+            <token id="13" string="game" />
+            <token id="14" string="," />
+            <token id="15" string="when" />
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+            <token id="20" string="took" />
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+            <token id="25" string="for" />
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="The first touchdown" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="first" />
+            <token id="3" string="touchdown" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="come until 44 minutes into the 60-minute game , when Cincinnati 's Stanford Jennings took a kickoff 93 yards for a score" type="VP">
+          <tokens>
+            <token id="6" string="come" />
+            <token id="7" string="until" />
+            <token id="8" string="44" />
+            <token id="9" string="minutes" />
+            <token id="10" string="into" />
+            <token id="11" string="the" />
+            <token id="12" string="60-minute" />
+            <token id="13" string="game" />
+            <token id="14" string="," />
+            <token id="15" string="when" />
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+            <token id="20" string="took" />
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+            <token id="25" string="for" />
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="did n't come until 44 minutes into the 60-minute game , when Cincinnati 's Stanford Jennings took a kickoff 93 yards for a score" type="VP">
+          <tokens>
+            <token id="4" string="did" />
+            <token id="5" string="n't" />
+            <token id="6" string="come" />
+            <token id="7" string="until" />
+            <token id="8" string="44" />
+            <token id="9" string="minutes" />
+            <token id="10" string="into" />
+            <token id="11" string="the" />
+            <token id="12" string="60-minute" />
+            <token id="13" string="game" />
+            <token id="14" string="," />
+            <token id="15" string="when" />
+            <token id="16" string="Cincinnati" />
+            <token id="17" string="'s" />
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+            <token id="20" string="took" />
+            <token id="21" string="a" />
+            <token id="22" string="kickoff" />
+            <token id="23" string="93" />
+            <token id="24" string="yards" />
+            <token id="25" string="for" />
+            <token id="26" string="a" />
+            <token id="27" string="score" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">touchdown</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">touchdown</governor>
+          <dependent id="2">first</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">come</governor>
+          <dependent id="3">touchdown</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">come</governor>
+          <dependent id="4">did</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="6">come</governor>
+          <dependent id="5">n't</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">come</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">minutes</governor>
+          <dependent id="7">until</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="9">minutes</governor>
+          <dependent id="8">44</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">come</governor>
+          <dependent id="9">minutes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">game</governor>
+          <dependent id="10">into</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">game</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">game</governor>
+          <dependent id="12">60-minute</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">come</governor>
+          <dependent id="13">game</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="20">took</governor>
+          <dependent id="15">when</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="19">Jennings</governor>
+          <dependent id="16">Cincinnati</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Cincinnati</governor>
+          <dependent id="17">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Jennings</governor>
+          <dependent id="18">Stanford</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">took</governor>
+          <dependent id="19">Jennings</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">game</governor>
+          <dependent id="20">took</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">kickoff</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">took</governor>
+          <dependent id="22">kickoff</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="24">yards</governor>
+          <dependent id="23">93</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">took</governor>
+          <dependent id="24">yards</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">yards</governor>
+          <dependent id="25">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">score</governor>
+          <dependent id="26">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="24">yards</governor>
+          <dependent id="27">score</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="2" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="score" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="27" string="score" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cincinnati" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="Cincinnati" />
+          </tokens>
+        </entity>
+        <entity id="4" string="93" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="23" string="93" />
+          </tokens>
+        </entity>
+        <entity id="5" string="60-minute" type="DURATION" score="0.0">
+          <tokens>
+            <token id="12" string="60-minute" />
+          </tokens>
+        </entity>
+        <entity id="6" string="44 minutes" type="DURATION" score="0.0">
+          <tokens>
+            <token id="8" string="44" />
+            <token id="9" string="minutes" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Stanford Jennings" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Stanford" />
+            <token id="19" string="Jennings" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>The game, before a crowd of 75,179 at Joe Robbie Stadium, went undisrupted by racial tensions in Miami.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="game" lemma="game" stem="game" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="crowd" lemma="crowd" stem="crowd" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="75,179" lemma="75,179" stem="75,179" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Joe" lemma="Joe" stem="joe" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="Robbie" lemma="Robbie" stem="robbi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Stadium" lemma="Stadium" stem="stadium" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="went" lemma="go" stem="went" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="undisrupted" lemma="undisrupted" stem="undisrupt" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="racial" lemma="racial" stem="racial" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="tensions" lemma="tension" stem="tension" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Miami" lemma="Miami" stem="miami" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN game)) (, ,) (PP (IN before) (NP (NP (DT a) (NN crowd)) (PP (IN of) (NP (NP (CD 75,179)) (PP (IN at) (NP (NNP Joe) (NNP Robbie) (NNP Stadium))))))) (, ,) (VP (VBD went) (ADJP (JJ undisrupted) (PP (IN by) (NP (JJ racial) (NNS tensions)))) (PP (IN in) (NP (NNP Miami)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="racial tensions" type="NP">
+          <tokens>
+            <token id="17" string="racial" />
+            <token id="18" string="tensions" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Joe Robbie Stadium" type="NP">
+          <tokens>
+            <token id="10" string="Joe" />
+            <token id="11" string="Robbie" />
+            <token id="12" string="Stadium" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="went undisrupted by racial tensions in Miami" type="VP">
+          <tokens>
+            <token id="14" string="went" />
+            <token id="15" string="undisrupted" />
+            <token id="16" string="by" />
+            <token id="17" string="racial" />
+            <token id="18" string="tensions" />
+            <token id="19" string="in" />
+            <token id="20" string="Miami" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The game" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="game" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="75,179 at Joe Robbie Stadium" type="NP">
+          <tokens>
+            <token id="8" string="75,179" />
+            <token id="9" string="at" />
+            <token id="10" string="Joe" />
+            <token id="11" string="Robbie" />
+            <token id="12" string="Stadium" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="undisrupted by racial tensions" type="ADJP">
+          <tokens>
+            <token id="15" string="undisrupted" />
+            <token id="16" string="by" />
+            <token id="17" string="racial" />
+            <token id="18" string="tensions" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a crowd of 75,179 at Joe Robbie Stadium" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="crowd" />
+            <token id="7" string="of" />
+            <token id="8" string="75,179" />
+            <token id="9" string="at" />
+            <token id="10" string="Joe" />
+            <token id="11" string="Robbie" />
+            <token id="12" string="Stadium" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a crowd" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="crowd" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="75,179" type="NP">
+          <tokens>
+            <token id="8" string="75,179" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Miami" type="NP">
+          <tokens>
+            <token id="20" string="Miami" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">game</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">went</governor>
+          <dependent id="2">game</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">crowd</governor>
+          <dependent id="4">before</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">crowd</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">went</governor>
+          <dependent id="6">crowd</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">75,179</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">crowd</governor>
+          <dependent id="8">75,179</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Stadium</governor>
+          <dependent id="9">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Stadium</governor>
+          <dependent id="10">Joe</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Stadium</governor>
+          <dependent id="11">Robbie</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">75,179</governor>
+          <dependent id="12">Stadium</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">went</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="14">went</governor>
+          <dependent id="15">undisrupted</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">tensions</governor>
+          <dependent id="16">by</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">tensions</governor>
+          <dependent id="17">racial</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">undisrupted</governor>
+          <dependent id="18">tensions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Miami</governor>
+          <dependent id="19">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">went</governor>
+          <dependent id="20">Miami</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Joe Robbie Stadium" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Joe" />
+            <token id="11" string="Robbie" />
+            <token id="12" string="Stadium" />
+          </tokens>
+        </entity>
+        <entity id="2" string="75,179" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="75,179" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Miami" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="Miami" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="7-8-9" string="San Francisco 49ers" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="4" string="49ers" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="8-9-10-11" string="his third Super Bowl" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="13-15" string="the Super Bowl" id_sentence="1" />
+        <mention ids_tokens="26-27" string="Super Bowl" id_sentence="3" />
+        <mention ids_tokens="23-24" string="Super Bowl" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="NOMINAL">
+      <referenced ids_tokens="19-20-21-22-23-24-25" string="a 20-16 victory over the Cincinnati Bengals" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The victory" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Joe Montana 's" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="9" string="Montana" id_sentence="3" />
+        <mention ids_tokens="15" string="Montana" id_sentence="5" />
+        <mention ids_tokens="21" string="him" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11-12" string="Joe Montana 's 10-yard touchdown pass to John Taylor with 34 seconds" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="18-19" string="touchdown pass" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="11-12" string="Jerry Rice" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="1" string="Rice" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9-10-11-12-13-14-15-16-17" string="a defensive struggle in the first half , which ended in a 3-3 tie" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="4-6" string="the game's" id_sentence="4" />
+        <mention ids_tokens="1-2" string="The game" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="The winning score" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="6" />
+        <mention ids_tokens="3-5" string="the fifth straight" id_sentence="6" />
+        <mention ids_tokens="1" string="It" id_sentence="7" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

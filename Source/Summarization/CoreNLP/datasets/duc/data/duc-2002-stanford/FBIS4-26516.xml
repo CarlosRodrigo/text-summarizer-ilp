@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="FBIS4-26516">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>BFN Fuzhou, June 22 (CNS) -- Flood lasting for ten or more days in Fujian Province has brought about heavy losses in agriculture there.</content>
+      <tokens>
+        <token id="1" string="BFN" lemma="BFN" stem="bfn" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Fuzhou" lemma="Fuzhou" stem="fuzhou" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="June" lemma="June" stem="june" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="22" lemma="22" stem="22" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="CNS" lemma="cns" stem="cns" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="--" lemma="--" stem="--" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Flood" lemma="Flood" stem="flood" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="lasting" lemma="last" stem="last" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="12" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="ten" lemma="ten" stem="ten" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="14" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="days" lemma="day" stem="dai" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="true" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="Fujian" lemma="Fujian" stem="fujian" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="19" string="Province" lemma="Province" stem="provinc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="20" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="brought" lemma="bring" stem="brought" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="22" string="about" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="23" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="24" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="agriculture" lemma="agriculture" stem="agricultur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="27" string="there" lemma="there" stem="there" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP BFN) (NNP Fuzhou) (, ,) (NNP June) (CD 22)) (PRN (-LRB- -LRB-) (NP (NN CNS)) (-RRB- -RRB-)) (: --) (NP (NP (NNP Flood)) (VP (VBG lasting) (SBAR (IN for) (S (NP (NP (QP (CD ten) (CC or) (JJR more)) (NNS days)) (PP (IN in) (NP (NNP Fujian) (NNP Province)))) (VP (VBZ has) (VP (VBN brought) (NP (NP (RB about) (JJ heavy) (NNS losses)) (PP (IN in) (NP (NN agriculture)))) (ADVP (RB there)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="CNS" type="NP">
+          <tokens>
+            <token id="7" string="CNS" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Fujian Province" type="NP">
+          <tokens>
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="has brought about heavy losses in agriculture there" type="VP">
+          <tokens>
+            <token id="20" string="has" />
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Flood lasting for ten or more days in Fujian Province has brought about heavy losses in agriculture there" type="NP">
+          <tokens>
+            <token id="10" string="Flood" />
+            <token id="11" string="lasting" />
+            <token id="12" string="for" />
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+            <token id="17" string="in" />
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+            <token id="20" string="has" />
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="BFN Fuzhou , June 22" type="NP">
+          <tokens>
+            <token id="1" string="BFN" />
+            <token id="2" string="Fuzhou" />
+            <token id="3" string="," />
+            <token id="4" string="June" />
+            <token id="5" string="22" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="ten or more days in Fujian Province" type="NP">
+          <tokens>
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+            <token id="17" string="in" />
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="lasting for ten or more days in Fujian Province has brought about heavy losses in agriculture there" type="VP">
+          <tokens>
+            <token id="11" string="lasting" />
+            <token id="12" string="for" />
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+            <token id="17" string="in" />
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+            <token id="20" string="has" />
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="about heavy losses in agriculture" type="NP">
+          <tokens>
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Flood" type="NP">
+          <tokens>
+            <token id="10" string="Flood" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="brought about heavy losses in agriculture there" type="VP">
+          <tokens>
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="about heavy losses" type="NP">
+          <tokens>
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="agriculture" type="NP">
+          <tokens>
+            <token id="26" string="agriculture" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="BFN Fuzhou , June 22 -LRB- CNS -RRB- -- Flood lasting for ten or more days in Fujian Province has brought about heavy losses in agriculture there ." type="NP">
+          <tokens>
+            <token id="1" string="BFN" />
+            <token id="2" string="Fuzhou" />
+            <token id="3" string="," />
+            <token id="4" string="June" />
+            <token id="5" string="22" />
+            <token id="6" string="(" />
+            <token id="7" string="CNS" />
+            <token id="8" string=")" />
+            <token id="9" string="--" />
+            <token id="10" string="Flood" />
+            <token id="11" string="lasting" />
+            <token id="12" string="for" />
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+            <token id="17" string="in" />
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+            <token id="20" string="has" />
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+            <token id="28" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="for ten or more days in Fujian Province has brought about heavy losses in agriculture there" type="SBAR">
+          <tokens>
+            <token id="12" string="for" />
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+            <token id="17" string="in" />
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+            <token id="20" string="has" />
+            <token id="21" string="brought" />
+            <token id="22" string="about" />
+            <token id="23" string="heavy" />
+            <token id="24" string="losses" />
+            <token id="25" string="in" />
+            <token id="26" string="agriculture" />
+            <token id="27" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="ten or more days" type="NP">
+          <tokens>
+            <token id="13" string="ten" />
+            <token id="14" string="or" />
+            <token id="15" string="more" />
+            <token id="16" string="days" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="4">June</governor>
+          <dependent id="1">BFN</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">June</governor>
+          <dependent id="2">Fuzhou</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">June</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">June</governor>
+          <dependent id="5">22</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="4">June</governor>
+          <dependent id="7">CNS</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">June</governor>
+          <dependent id="10">Flood</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="10">Flood</governor>
+          <dependent id="11">lasting</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">brought</governor>
+          <dependent id="12">for</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">days</governor>
+          <dependent id="13">ten</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">ten</governor>
+          <dependent id="14">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">ten</governor>
+          <dependent id="15">more</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">brought</governor>
+          <dependent id="16">days</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Province</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Province</governor>
+          <dependent id="18">Fujian</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">days</governor>
+          <dependent id="19">Province</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="21">brought</governor>
+          <dependent id="20">has</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="11">lasting</governor>
+          <dependent id="21">brought</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">losses</governor>
+          <dependent id="22">about</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">losses</governor>
+          <dependent id="23">heavy</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">brought</governor>
+          <dependent id="24">losses</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">agriculture</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">losses</governor>
+          <dependent id="26">agriculture</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">brought</governor>
+          <dependent id="27">there</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="days" type="DURATION" score="0.0">
+          <tokens>
+            <token id="16" string="days" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Fujian Province" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Fujian" />
+            <token id="19" string="Province" />
+          </tokens>
+        </entity>
+        <entity id="3" string="June 22" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="June" />
+            <token id="5" string="22" />
+          </tokens>
+        </entity>
+        <entity id="4" string="ten" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="ten" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Fuzhou" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Fuzhou" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>According to the latest information offered by the Provincial Agricultural Bureau, a total area of 2.465 million mu of crops have been hit by the flood and of which, 446 000 mu of crops will have no yield, 1.957 million mu of grain have been heavily hit and some 300 million kilogram grain are expected to be lost.</content>
+      <tokens>
+        <token id="1" string="According" lemma="accord" stem="accord" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="latest" lemma="latest" stem="latest" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="information" lemma="information" stem="inform" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="offered" lemma="offer" stem="offer" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Provincial" lemma="Provincial" stem="provinci" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="Agricultural" lemma="Agricultural" stem="agricultur" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="Bureau" lemma="Bureau" stem="bureau" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="total" lemma="total" stem="total" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="2.465" lemma="2.465" stem="2.465" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="18" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="mu" lemma="mu" stem="mu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="crops" lemma="crop" stem="crop" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="hit" lemma="hit" stem="hit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="27" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="28" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="446" lemma="446" stem="446" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="33" string="000" lemma="000" stem="000" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="34" string="mu" lemma="mu" stem="mu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="crops" lemma="crop" stem="crop" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="yield" lemma="yield" stem="yield" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="42" string="1.957" lemma="1.957" stem="1.957" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="43" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="44" string="mu" lemma="mu" stem="mu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="45" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="46" string="grain" lemma="grain" stem="grain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="47" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="48" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="49" string="heavily" lemma="heavily" stem="heavili" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="50" string="hit" lemma="hit" stem="hit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="51" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="52" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="53" string="300" lemma="300" stem="300" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="54" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="55" string="kilogram" lemma="kilogram" stem="kilogram" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="56" string="grain" lemma="grain" stem="grain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="57" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="58" string="expected" lemma="expect" stem="expect" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="59" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="60" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="61" string="lost" lemma="lose" stem="lost" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="62" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (VBG According) (PP (TO to) (NP (NP (DT the) (JJS latest) (NN information)) (VP (VBN offered) (PP (IN by) (NP (DT the) (NNP Provincial) (NNP Agricultural) (NNP Bureau))))))) (, ,) (S (NP (NP (DT a) (JJ total) (NN area)) (PP (IN of) (NP (NP (QP (CD 2.465) (CD million)) (NN mu)) (PP (IN of) (NP (NNS crops)))))) (VP (VBP have) (VP (VBN been) (VP (VBN hit) (PP (IN by) (NP (DT the) (NN flood))))))) (CC and) (S (NP (SBAR (WHPP (IN of) (WHNP (WDT which))) (PRN (, ,) (S (NP (NP (QP (CD 446) (CD 000)) (NN mu)) (PP (IN of) (NP (NNS crops)))) (VP (MD will) (VP (VB have) (NP (DT no) (NN yield))))) (, ,)) (S (NP (NP (QP (CD 1.957) (CD million)) (NN mu)) (PP (IN of) (NP (NN grain)))) (VP (VBP have) (VP (VBN been) (VP (ADVP (RB heavily)) (VBN hit)))))) (CC and) (NP (DT some) (ADJP (QP (CD 300) (CD million))) (NN kilogram) (NN grain))) (VP (VBP are) (VP (VBN expected) (S (VP (TO to) (VP (VB be) (VP (VBN lost)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="of which , 446 000 mu of crops will have no yield , 1.957 million mu of grain have been heavily hit" type="SBAR">
+          <tokens>
+            <token id="29" string="of" />
+            <token id="30" string="which" />
+            <token id="31" string="," />
+            <token id="32" string="446" />
+            <token id="33" string="000" />
+            <token id="34" string="mu" />
+            <token id="35" string="of" />
+            <token id="36" string="crops" />
+            <token id="37" string="will" />
+            <token id="38" string="have" />
+            <token id="39" string="no" />
+            <token id="40" string="yield" />
+            <token id="41" string="," />
+            <token id="42" string="1.957" />
+            <token id="43" string="million" />
+            <token id="44" string="mu" />
+            <token id="45" string="of" />
+            <token id="46" string="grain" />
+            <token id="47" string="have" />
+            <token id="48" string="been" />
+            <token id="49" string="heavily" />
+            <token id="50" string="hit" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="have no yield" type="VP">
+          <tokens>
+            <token id="38" string="have" />
+            <token id="39" string="no" />
+            <token id="40" string="yield" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="are expected to be lost" type="VP">
+          <tokens>
+            <token id="57" string="are" />
+            <token id="58" string="expected" />
+            <token id="59" string="to" />
+            <token id="60" string="be" />
+            <token id="61" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the latest information offered by the Provincial Agricultural Bureau" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="latest" />
+            <token id="5" string="information" />
+            <token id="6" string="offered" />
+            <token id="7" string="by" />
+            <token id="8" string="the" />
+            <token id="9" string="Provincial" />
+            <token id="10" string="Agricultural" />
+            <token id="11" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="have been hit by the flood" type="VP">
+          <tokens>
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="hit" />
+            <token id="25" string="by" />
+            <token id="26" string="the" />
+            <token id="27" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="no yield" type="NP">
+          <tokens>
+            <token id="39" string="no" />
+            <token id="40" string="yield" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="expected to be lost" type="VP">
+          <tokens>
+            <token id="58" string="expected" />
+            <token id="59" string="to" />
+            <token id="60" string="be" />
+            <token id="61" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="2.465 million mu of crops" type="NP">
+          <tokens>
+            <token id="17" string="2.465" />
+            <token id="18" string="million" />
+            <token id="19" string="mu" />
+            <token id="20" string="of" />
+            <token id="21" string="crops" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a total area of 2.465 million mu of crops" type="NP">
+          <tokens>
+            <token id="13" string="a" />
+            <token id="14" string="total" />
+            <token id="15" string="area" />
+            <token id="16" string="of" />
+            <token id="17" string="2.465" />
+            <token id="18" string="million" />
+            <token id="19" string="mu" />
+            <token id="20" string="of" />
+            <token id="21" string="crops" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to be lost" type="VP">
+          <tokens>
+            <token id="59" string="to" />
+            <token id="60" string="be" />
+            <token id="61" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the flood" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="been heavily hit" type="VP">
+          <tokens>
+            <token id="48" string="been" />
+            <token id="49" string="heavily" />
+            <token id="50" string="hit" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="446 000 mu" type="NP">
+          <tokens>
+            <token id="32" string="446" />
+            <token id="33" string="000" />
+            <token id="34" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="have been heavily hit" type="VP">
+          <tokens>
+            <token id="47" string="have" />
+            <token id="48" string="been" />
+            <token id="49" string="heavily" />
+            <token id="50" string="hit" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="heavily hit" type="VP">
+          <tokens>
+            <token id="49" string="heavily" />
+            <token id="50" string="hit" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="of which , 446 000 mu of crops will have no yield , 1.957 million mu of grain have been heavily hit and some 300 million kilogram grain" type="NP">
+          <tokens>
+            <token id="29" string="of" />
+            <token id="30" string="which" />
+            <token id="31" string="," />
+            <token id="32" string="446" />
+            <token id="33" string="000" />
+            <token id="34" string="mu" />
+            <token id="35" string="of" />
+            <token id="36" string="crops" />
+            <token id="37" string="will" />
+            <token id="38" string="have" />
+            <token id="39" string="no" />
+            <token id="40" string="yield" />
+            <token id="41" string="," />
+            <token id="42" string="1.957" />
+            <token id="43" string="million" />
+            <token id="44" string="mu" />
+            <token id="45" string="of" />
+            <token id="46" string="grain" />
+            <token id="47" string="have" />
+            <token id="48" string="been" />
+            <token id="49" string="heavily" />
+            <token id="50" string="hit" />
+            <token id="51" string="and" />
+            <token id="52" string="some" />
+            <token id="53" string="300" />
+            <token id="54" string="million" />
+            <token id="55" string="kilogram" />
+            <token id="56" string="grain" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="will have no yield" type="VP">
+          <tokens>
+            <token id="37" string="will" />
+            <token id="38" string="have" />
+            <token id="39" string="no" />
+            <token id="40" string="yield" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="offered by the Provincial Agricultural Bureau" type="VP">
+          <tokens>
+            <token id="6" string="offered" />
+            <token id="7" string="by" />
+            <token id="8" string="the" />
+            <token id="9" string="Provincial" />
+            <token id="10" string="Agricultural" />
+            <token id="11" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="1.957 million mu of grain" type="NP">
+          <tokens>
+            <token id="42" string="1.957" />
+            <token id="43" string="million" />
+            <token id="44" string="mu" />
+            <token id="45" string="of" />
+            <token id="46" string="grain" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="some 300 million kilogram grain" type="NP">
+          <tokens>
+            <token id="52" string="some" />
+            <token id="53" string="300" />
+            <token id="54" string="million" />
+            <token id="55" string="kilogram" />
+            <token id="56" string="grain" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="crops" type="NP">
+          <tokens>
+            <token id="21" string="crops" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="2.465 million mu" type="NP">
+          <tokens>
+            <token id="17" string="2.465" />
+            <token id="18" string="million" />
+            <token id="19" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="the Provincial Agricultural Bureau" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Provincial" />
+            <token id="10" string="Agricultural" />
+            <token id="11" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="1.957 million mu" type="NP">
+          <tokens>
+            <token id="42" string="1.957" />
+            <token id="43" string="million" />
+            <token id="44" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="be lost" type="VP">
+          <tokens>
+            <token id="60" string="be" />
+            <token id="61" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="lost" type="VP">
+          <tokens>
+            <token id="61" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="been hit by the flood" type="VP">
+          <tokens>
+            <token id="23" string="been" />
+            <token id="24" string="hit" />
+            <token id="25" string="by" />
+            <token id="26" string="the" />
+            <token id="27" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="hit by the flood" type="VP">
+          <tokens>
+            <token id="24" string="hit" />
+            <token id="25" string="by" />
+            <token id="26" string="the" />
+            <token id="27" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="29" string="446 000 mu of crops" type="NP">
+          <tokens>
+            <token id="32" string="446" />
+            <token id="33" string="000" />
+            <token id="34" string="mu" />
+            <token id="35" string="of" />
+            <token id="36" string="crops" />
+          </tokens>
+        </chunking>
+        <chunking id="30" string="300 million" type="ADJP">
+          <tokens>
+            <token id="53" string="300" />
+            <token id="54" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="31" string="grain" type="NP">
+          <tokens>
+            <token id="46" string="grain" />
+          </tokens>
+        </chunking>
+        <chunking id="32" string="a total area" type="NP">
+          <tokens>
+            <token id="13" string="a" />
+            <token id="14" string="total" />
+            <token id="15" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="33" string="the latest information" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="latest" />
+            <token id="5" string="information" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="5">information</governor>
+          <dependent id="1">According</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="1">According</governor>
+          <dependent id="2">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">information</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">information</governor>
+          <dependent id="4">latest</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">hit</governor>
+          <dependent id="5">information</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="5">information</governor>
+          <dependent id="6">offered</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Bureau</governor>
+          <dependent id="7">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">Bureau</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Bureau</governor>
+          <dependent id="9">Provincial</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Bureau</governor>
+          <dependent id="10">Agricultural</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">offered</governor>
+          <dependent id="11">Bureau</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">area</governor>
+          <dependent id="13">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">area</governor>
+          <dependent id="14">total</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">hit</governor>
+          <dependent id="15">area</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">mu</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">million</governor>
+          <dependent id="17">2.465</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="19">mu</governor>
+          <dependent id="18">million</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">area</governor>
+          <dependent id="19">mu</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">crops</governor>
+          <dependent id="20">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">mu</governor>
+          <dependent id="21">crops</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">hit</governor>
+          <dependent id="22">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">hit</governor>
+          <dependent id="23">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="24">hit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">flood</governor>
+          <dependent id="25">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">flood</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">hit</governor>
+          <dependent id="27">flood</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="24">hit</governor>
+          <dependent id="28">and</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">which</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="50">hit</governor>
+          <dependent id="30">which</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="33">000</governor>
+          <dependent id="32">446</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="34">mu</governor>
+          <dependent id="33">000</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="38">have</governor>
+          <dependent id="34">mu</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="36">crops</governor>
+          <dependent id="35">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="34">mu</governor>
+          <dependent id="36">crops</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="38">have</governor>
+          <dependent id="37">will</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="50">hit</governor>
+          <dependent id="38">have</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="40">yield</governor>
+          <dependent id="39">no</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="38">have</governor>
+          <dependent id="40">yield</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="43">million</governor>
+          <dependent id="42">1.957</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="44">mu</governor>
+          <dependent id="43">million</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="50">hit</governor>
+          <dependent id="44">mu</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="46">grain</governor>
+          <dependent id="45">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="44">mu</governor>
+          <dependent id="46">grain</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="50">hit</governor>
+          <dependent id="47">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="50">hit</governor>
+          <dependent id="48">been</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="50">hit</governor>
+          <dependent id="49">heavily</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="58">expected</governor>
+          <dependent id="50">hit</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="50">hit</governor>
+          <dependent id="51">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="56">grain</governor>
+          <dependent id="52">some</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="54">million</governor>
+          <dependent id="53">300</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="56">grain</governor>
+          <dependent id="54">million</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="56">grain</governor>
+          <dependent id="55">kilogram</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="50">hit</governor>
+          <dependent id="56">grain</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="58">expected</governor>
+          <dependent id="57">are</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">hit</governor>
+          <dependent id="58">expected</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="61">lost</governor>
+          <dependent id="59">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="61">lost</governor>
+          <dependent id="60">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="58">expected</governor>
+          <dependent id="61">lost</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Provincial Agricultural Bureau" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Provincial" />
+            <token id="10" string="Agricultural" />
+            <token id="11" string="Bureau" />
+          </tokens>
+        </entity>
+        <entity id="2" string="300 million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="53" string="300" />
+            <token id="54" string="million" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1.957 million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="42" string="1.957" />
+            <token id="43" string="million" />
+          </tokens>
+        </entity>
+        <entity id="4" string="2.465 million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="17" string="2.465" />
+            <token id="18" string="million" />
+          </tokens>
+        </entity>
+        <entity id="5" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="27" string="flood" />
+          </tokens>
+        </entity>
+        <entity id="6" string="446 000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="32" string="446" />
+            <token id="33" string="000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Among nine cities and prefectures in Fujian, those seriously hit by the flood are Sanming, Nanping, Ningde, Fuzhou, Quanzhou and Putian.</content>
+      <tokens>
+        <token id="1" string="Among" lemma="among" stem="among" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="nine" lemma="nine" stem="nine" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="cities" lemma="city" stem="citi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="prefectures" lemma="prefecture" stem="prefectur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Fujian" lemma="Fujian" stem="fujian" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="those" lemma="those" stem="those" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="seriously" lemma="seriously" stem="serious" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="hit" lemma="hit" stem="hit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="15" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Sanming" lemma="Sanming" stem="sanm" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Nanping" lemma="Nanping" stem="nanp" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Ningde" lemma="Ningde" stem="ningd" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Fuzhou" lemma="Fuzhou" stem="fuzhou" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Quanzhou" lemma="Quanzhou" stem="quanzhou" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Putian" lemma="Putian" stem="putian" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Among) (NP (NP (CD nine) (NNS cities) (CC and) (NNS prefectures)) (PP (IN in) (NP (NNP Fujian))))) (, ,) (NP (NP (DT those)) (VP (ADVP (RB seriously)) (VBN hit) (PP (IN by) (NP (DT the) (NN flood))))) (VP (VBP are) (NP (NNP Sanming) (, ,) (NNP Nanping) (, ,) (NNP Ningde) (, ,) (NNP Fuzhou) (, ,) (NNP Quanzhou) (CC and) (NNP Putian))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="nine cities and prefectures" type="NP">
+          <tokens>
+            <token id="2" string="nine" />
+            <token id="3" string="cities" />
+            <token id="4" string="and" />
+            <token id="5" string="prefectures" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the flood" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="those seriously hit by the flood" type="NP">
+          <tokens>
+            <token id="9" string="those" />
+            <token id="10" string="seriously" />
+            <token id="11" string="hit" />
+            <token id="12" string="by" />
+            <token id="13" string="the" />
+            <token id="14" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="nine cities and prefectures in Fujian" type="NP">
+          <tokens>
+            <token id="2" string="nine" />
+            <token id="3" string="cities" />
+            <token id="4" string="and" />
+            <token id="5" string="prefectures" />
+            <token id="6" string="in" />
+            <token id="7" string="Fujian" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="are Sanming , Nanping , Ningde , Fuzhou , Quanzhou and Putian" type="VP">
+          <tokens>
+            <token id="15" string="are" />
+            <token id="16" string="Sanming" />
+            <token id="17" string="," />
+            <token id="18" string="Nanping" />
+            <token id="19" string="," />
+            <token id="20" string="Ningde" />
+            <token id="21" string="," />
+            <token id="22" string="Fuzhou" />
+            <token id="23" string="," />
+            <token id="24" string="Quanzhou" />
+            <token id="25" string="and" />
+            <token id="26" string="Putian" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Sanming , Nanping , Ningde , Fuzhou , Quanzhou and Putian" type="NP">
+          <tokens>
+            <token id="16" string="Sanming" />
+            <token id="17" string="," />
+            <token id="18" string="Nanping" />
+            <token id="19" string="," />
+            <token id="20" string="Ningde" />
+            <token id="21" string="," />
+            <token id="22" string="Fuzhou" />
+            <token id="23" string="," />
+            <token id="24" string="Quanzhou" />
+            <token id="25" string="and" />
+            <token id="26" string="Putian" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="seriously hit by the flood" type="VP">
+          <tokens>
+            <token id="10" string="seriously" />
+            <token id="11" string="hit" />
+            <token id="12" string="by" />
+            <token id="13" string="the" />
+            <token id="14" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Fujian" type="NP">
+          <tokens>
+            <token id="7" string="Fujian" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="those" type="NP">
+          <tokens>
+            <token id="9" string="those" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">cities</governor>
+          <dependent id="1">Among</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">cities</governor>
+          <dependent id="2">nine</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">Sanming</governor>
+          <dependent id="3">cities</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">cities</governor>
+          <dependent id="4">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">cities</governor>
+          <dependent id="5">prefectures</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Fujian</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">cities</governor>
+          <dependent id="7">Fujian</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">Sanming</governor>
+          <dependent id="9">those</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">hit</governor>
+          <dependent id="10">seriously</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="9">those</governor>
+          <dependent id="11">hit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">flood</governor>
+          <dependent id="12">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">flood</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">hit</governor>
+          <dependent id="14">flood</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="16">Sanming</governor>
+          <dependent id="15">are</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">Sanming</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">Sanming</governor>
+          <dependent id="18">Nanping</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">Sanming</governor>
+          <dependent id="20">Ningde</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">Sanming</governor>
+          <dependent id="22">Fuzhou</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">Sanming</governor>
+          <dependent id="24">Quanzhou</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">Sanming</governor>
+          <dependent id="25">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">Sanming</governor>
+          <dependent id="26">Putian</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ningde" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="Ningde" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Quanzhou" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="24" string="Quanzhou" />
+          </tokens>
+        </entity>
+        <entity id="3" string="nine" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="nine" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Nanping" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Nanping" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Sanming" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="Sanming" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Putian" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Putian" />
+          </tokens>
+        </entity>
+        <entity id="7" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="14" string="flood" />
+          </tokens>
+        </entity>
+        <entity id="8" string="Fujian" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Fujian" />
+          </tokens>
+        </entity>
+        <entity id="9" string="Fuzhou" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="22" string="Fuzhou" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Of these, Sanming City is worst hit by the flood.</content>
+      <tokens>
+        <token id="1" string="Of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="these" lemma="these" stem="these" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Sanming" lemma="Sanming" stem="sanm" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="City" lemma="City" stem="citi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="worst" lemma="worst" stem="worst" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="hit" lemma="hit" stem="hit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Of) (NP (DT these))) (, ,) (NP (NNP Sanming) (NNP City)) (VP (VBZ is) (NP (NP (JJS worst)) (VP (VBN hit) (PP (IN by) (NP (DT the) (NN flood)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="these" type="NP">
+          <tokens>
+            <token id="2" string="these" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the flood" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Sanming City" type="NP">
+          <tokens>
+            <token id="4" string="Sanming" />
+            <token id="5" string="City" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is worst hit by the flood" type="VP">
+          <tokens>
+            <token id="6" string="is" />
+            <token id="7" string="worst" />
+            <token id="8" string="hit" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="worst hit by the flood" type="NP">
+          <tokens>
+            <token id="7" string="worst" />
+            <token id="8" string="hit" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="hit by the flood" type="VP">
+          <tokens>
+            <token id="8" string="hit" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="worst" type="NP">
+          <tokens>
+            <token id="7" string="worst" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">these</governor>
+          <dependent id="1">Of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">worst</governor>
+          <dependent id="2">these</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">City</governor>
+          <dependent id="4">Sanming</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">worst</governor>
+          <dependent id="5">City</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="7">worst</governor>
+          <dependent id="6">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">worst</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="7">worst</governor>
+          <dependent id="8">hit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">flood</governor>
+          <dependent id="9">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">flood</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">hit</governor>
+          <dependent id="11">flood</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Sanming City" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="4" string="Sanming" />
+            <token id="5" string="City" />
+          </tokens>
+        </entity>
+        <entity id="2" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="11" string="flood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>In May, the city was hit by the heavy rainstorm and had big losses and now it suffers again from the flood with some 600 000 mu of crops damaged by flood and 200 million kilogram grain expected to be lost.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="May" lemma="May" stem="mai" pos="NNP" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="city" lemma="city" stem="citi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="hit" lemma="hit" stem="hit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="rainstorm" lemma="rainstorm" stem="rainstorm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="big" lemma="big" stem="big" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="now" lemma="now" stem="now" pos="RB" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="suffers" lemma="suffer" stem="suffer" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="again" lemma="again" stem="again" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="24" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="600" lemma="600" stem="600" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="27" string="000" lemma="000" stem="000" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="28" string="mu" lemma="mu" stem="mu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="crops" lemma="crop" stem="crop" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="damaged" lemma="damage" stem="damag" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="34" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="200" lemma="200" stem="200" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="36" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="37" string="kilogram" lemma="kilogram" stem="kilogram" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="grain" lemma="grain" stem="grain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string="expected" lemma="expect" stem="expect" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="40" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="42" string="lost" lemma="lose" stem="lost" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="43" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (NNP May))) (, ,) (S (NP (DT the) (NN city)) (VP (VP (VBD was) (VP (VBN hit) (PP (IN by) (NP (DT the) (JJ heavy) (NN rainstorm))))) (CC and) (VP (VBD had) (NP (JJ big) (NNS losses))))) (CC and) (S (ADVP (RB now)) (NP (PRP it)) (VP (VBZ suffers) (ADVP (RB again)) (PP (IN from) (NP (NP (DT the) (NN flood)) (PP (IN with) (NP (NP (NP (DT some) (ADJP (QP (CD 600) (CD 000))) (NN mu)) (PP (IN of) (NP (NP (NNS crops)) (VP (VBN damaged) (PP (IN by) (NP (NN flood))))))) (CC and) (NP (NP (QP (CD 200) (CD million)) (NN kilogram) (NN grain)) (VP (VBN expected) (S (VP (TO to) (VP (VB be) (VP (VBN lost))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the city" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="city" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="200 million kilogram grain" type="NP">
+          <tokens>
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+            <token id="37" string="kilogram" />
+            <token id="38" string="grain" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was hit by the heavy rainstorm" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="hit" />
+            <token id="8" string="by" />
+            <token id="9" string="the" />
+            <token id="10" string="heavy" />
+            <token id="11" string="rainstorm" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the heavy rainstorm" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="heavy" />
+            <token id="11" string="rainstorm" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was hit by the heavy rainstorm and had big losses" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="hit" />
+            <token id="8" string="by" />
+            <token id="9" string="the" />
+            <token id="10" string="heavy" />
+            <token id="11" string="rainstorm" />
+            <token id="12" string="and" />
+            <token id="13" string="had" />
+            <token id="14" string="big" />
+            <token id="15" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="600 000" type="ADJP">
+          <tokens>
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="18" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="expected to be lost" type="VP">
+          <tokens>
+            <token id="39" string="expected" />
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="some 600 000 mu of crops damaged by flood and 200 million kilogram grain expected to be lost" type="NP">
+          <tokens>
+            <token id="25" string="some" />
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+            <token id="28" string="mu" />
+            <token id="29" string="of" />
+            <token id="30" string="crops" />
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+            <token id="34" string="and" />
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+            <token id="37" string="kilogram" />
+            <token id="38" string="grain" />
+            <token id="39" string="expected" />
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="hit by the heavy rainstorm" type="VP">
+          <tokens>
+            <token id="7" string="hit" />
+            <token id="8" string="by" />
+            <token id="9" string="the" />
+            <token id="10" string="heavy" />
+            <token id="11" string="rainstorm" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="flood" type="NP">
+          <tokens>
+            <token id="33" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="suffers again from the flood with some 600 000 mu of crops damaged by flood and 200 million kilogram grain expected to be lost" type="VP">
+          <tokens>
+            <token id="19" string="suffers" />
+            <token id="20" string="again" />
+            <token id="21" string="from" />
+            <token id="22" string="the" />
+            <token id="23" string="flood" />
+            <token id="24" string="with" />
+            <token id="25" string="some" />
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+            <token id="28" string="mu" />
+            <token id="29" string="of" />
+            <token id="30" string="crops" />
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+            <token id="34" string="and" />
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+            <token id="37" string="kilogram" />
+            <token id="38" string="grain" />
+            <token id="39" string="expected" />
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="to be lost" type="VP">
+          <tokens>
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the flood" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="had big losses" type="VP">
+          <tokens>
+            <token id="13" string="had" />
+            <token id="14" string="big" />
+            <token id="15" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="200 million kilogram grain expected to be lost" type="NP">
+          <tokens>
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+            <token id="37" string="kilogram" />
+            <token id="38" string="grain" />
+            <token id="39" string="expected" />
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="May" type="NP">
+          <tokens>
+            <token id="2" string="May" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="some 600 000 mu" type="NP">
+          <tokens>
+            <token id="25" string="some" />
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+            <token id="28" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="crops" type="NP">
+          <tokens>
+            <token id="30" string="crops" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="damaged by flood" type="VP">
+          <tokens>
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="some 600 000 mu of crops damaged by flood" type="NP">
+          <tokens>
+            <token id="25" string="some" />
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+            <token id="28" string="mu" />
+            <token id="29" string="of" />
+            <token id="30" string="crops" />
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="be lost" type="VP">
+          <tokens>
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="lost" type="VP">
+          <tokens>
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="crops damaged by flood" type="NP">
+          <tokens>
+            <token id="30" string="crops" />
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="the flood with some 600 000 mu of crops damaged by flood and 200 million kilogram grain expected to be lost" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="flood" />
+            <token id="24" string="with" />
+            <token id="25" string="some" />
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+            <token id="28" string="mu" />
+            <token id="29" string="of" />
+            <token id="30" string="crops" />
+            <token id="31" string="damaged" />
+            <token id="32" string="by" />
+            <token id="33" string="flood" />
+            <token id="34" string="and" />
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+            <token id="37" string="kilogram" />
+            <token id="38" string="grain" />
+            <token id="39" string="expected" />
+            <token id="40" string="to" />
+            <token id="41" string="be" />
+            <token id="42" string="lost" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="big losses" type="NP">
+          <tokens>
+            <token id="14" string="big" />
+            <token id="15" string="losses" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">May</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">hit</governor>
+          <dependent id="2">May</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">city</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">hit</governor>
+          <dependent id="5">city</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">hit</governor>
+          <dependent id="6">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">hit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">rainstorm</governor>
+          <dependent id="8">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">rainstorm</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">rainstorm</governor>
+          <dependent id="10">heavy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">hit</governor>
+          <dependent id="11">rainstorm</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">hit</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">hit</governor>
+          <dependent id="13">had</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">losses</governor>
+          <dependent id="14">big</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">had</governor>
+          <dependent id="15">losses</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">hit</governor>
+          <dependent id="16">and</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">suffers</governor>
+          <dependent id="17">now</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">suffers</governor>
+          <dependent id="18">it</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">hit</governor>
+          <dependent id="19">suffers</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">suffers</governor>
+          <dependent id="20">again</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">flood</governor>
+          <dependent id="21">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">flood</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">suffers</governor>
+          <dependent id="23">flood</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">mu</governor>
+          <dependent id="24">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">mu</governor>
+          <dependent id="25">some</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">000</governor>
+          <dependent id="26">600</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="28">mu</governor>
+          <dependent id="27">000</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">flood</governor>
+          <dependent id="28">mu</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">crops</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">mu</governor>
+          <dependent id="30">crops</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="30">crops</governor>
+          <dependent id="31">damaged</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">flood</governor>
+          <dependent id="32">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">damaged</governor>
+          <dependent id="33">flood</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">mu</governor>
+          <dependent id="34">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="36">million</governor>
+          <dependent id="35">200</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="38">grain</governor>
+          <dependent id="36">million</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="38">grain</governor>
+          <dependent id="37">kilogram</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="28">mu</governor>
+          <dependent id="38">grain</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="38">grain</governor>
+          <dependent id="39">expected</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="42">lost</governor>
+          <dependent id="40">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="42">lost</governor>
+          <dependent id="41">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="39">expected</governor>
+          <dependent id="42">lost</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="now" type="DATE" score="0.0">
+          <tokens>
+            <token id="17" string="now" />
+          </tokens>
+        </entity>
+        <entity id="2" string="May" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="May" />
+          </tokens>
+        </entity>
+        <entity id="3" string="600 000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="600" />
+            <token id="27" string="000" />
+          </tokens>
+        </entity>
+        <entity id="4" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="23" string="flood" />
+          </tokens>
+        </entity>
+        <entity id="5" string="200 million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="35" string="200" />
+            <token id="36" string="million" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Per capita possession of cultivated land in Fujian is only 0.05 mu.</content>
+      <tokens>
+        <token id="1" string="Per" lemma="per" stem="per" pos="IN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="capita" lemma="capita" stem="capita" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="possession" lemma="possession" stem="possess" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="cultivated" lemma="cultivate" stem="cultiv" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="land" lemma="land" stem="land" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="Fujian" lemma="Fujian" stem="fujian" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="9" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="only" lemma="only" stem="onli" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="0.05" lemma="0.05" stem="0.05" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="mu" lemma="mu" stem="mu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (ADJP (IN Per) (NN capita)) (NN possession)) (PP (IN of) (NP (NP (VBN cultivated) (NN land)) (PP (IN in) (NP (NNP Fujian)))))) (VP (VBZ is) (NP (RB only) (CD 0.05) (NN mu))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Per capita possession of cultivated land in Fujian" type="NP">
+          <tokens>
+            <token id="1" string="Per" />
+            <token id="2" string="capita" />
+            <token id="3" string="possession" />
+            <token id="4" string="of" />
+            <token id="5" string="cultivated" />
+            <token id="6" string="land" />
+            <token id="7" string="in" />
+            <token id="8" string="Fujian" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Per capita possession" type="NP">
+          <tokens>
+            <token id="1" string="Per" />
+            <token id="2" string="capita" />
+            <token id="3" string="possession" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="cultivated land in Fujian" type="NP">
+          <tokens>
+            <token id="5" string="cultivated" />
+            <token id="6" string="land" />
+            <token id="7" string="in" />
+            <token id="8" string="Fujian" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="cultivated land" type="NP">
+          <tokens>
+            <token id="5" string="cultivated" />
+            <token id="6" string="land" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is only 0.05 mu" type="VP">
+          <tokens>
+            <token id="9" string="is" />
+            <token id="10" string="only" />
+            <token id="11" string="0.05" />
+            <token id="12" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="only 0.05 mu" type="NP">
+          <tokens>
+            <token id="10" string="only" />
+            <token id="11" string="0.05" />
+            <token id="12" string="mu" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Per capita" type="ADJP">
+          <tokens>
+            <token id="1" string="Per" />
+            <token id="2" string="capita" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Fujian" type="NP">
+          <tokens>
+            <token id="8" string="Fujian" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="dep">
+          <governor id="2">capita</governor>
+          <dependent id="1">Per</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">possession</governor>
+          <dependent id="2">capita</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">mu</governor>
+          <dependent id="3">possession</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">land</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">land</governor>
+          <dependent id="5">cultivated</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">possession</governor>
+          <dependent id="6">land</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Fujian</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">land</governor>
+          <dependent id="8">Fujian</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="12">mu</governor>
+          <dependent id="9">is</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">mu</governor>
+          <dependent id="10">only</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">mu</governor>
+          <dependent id="11">0.05</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">mu</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="0.05" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="0.05" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Fujian" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Fujian" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="false">
+      <content>Even if in the normal years, grain output there is not self- sufficient.</content>
+      <tokens>
+        <token id="1" string="Even" lemma="even" stem="even" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="if" lemma="if" stem="if" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="normal" lemma="normal" stem="normal" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="grain" lemma="grain" stem="grain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="output" lemma="output" stem="output" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="self" lemma="self" stem="self" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="-" lemma="-" stem="-" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="sufficient" lemma="sufficient" stem="suffici" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SBAR (RB Even) (IN if) (S (PP (IN in) (NP (NP (DT the) (JJ normal) (NNS years)) (, ,) (NP (NN grain) (NN output)))) (NP (EX there)) (VP (VBZ is) (RB not) (ADJP (ADJP (NN self)) (: -) (ADJP (JJ sufficient))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the normal years , grain output" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="normal" />
+            <token id="6" string="years" />
+            <token id="7" string="," />
+            <token id="8" string="grain" />
+            <token id="9" string="output" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="there" type="NP">
+          <tokens>
+            <token id="10" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="self - sufficient" type="ADJP">
+          <tokens>
+            <token id="13" string="self" />
+            <token id="14" string="-" />
+            <token id="15" string="sufficient" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the normal years" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="normal" />
+            <token id="6" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="sufficient" type="ADJP">
+          <tokens>
+            <token id="15" string="sufficient" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="grain output" type="NP">
+          <tokens>
+            <token id="8" string="grain" />
+            <token id="9" string="output" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="is not self - sufficient" type="VP">
+          <tokens>
+            <token id="11" string="is" />
+            <token id="12" string="not" />
+            <token id="13" string="self" />
+            <token id="14" string="-" />
+            <token id="15" string="sufficient" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Even if in the normal years , grain output there is not self - sufficient ." type="SBAR">
+          <tokens>
+            <token id="1" string="Even" />
+            <token id="2" string="if" />
+            <token id="3" string="in" />
+            <token id="4" string="the" />
+            <token id="5" string="normal" />
+            <token id="6" string="years" />
+            <token id="7" string="," />
+            <token id="8" string="grain" />
+            <token id="9" string="output" />
+            <token id="10" string="there" />
+            <token id="11" string="is" />
+            <token id="12" string="not" />
+            <token id="13" string="self" />
+            <token id="14" string="-" />
+            <token id="15" string="sufficient" />
+            <token id="16" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="self" type="ADJP">
+          <tokens>
+            <token id="13" string="self" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="11">is</governor>
+          <dependent id="1">Even</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">is</governor>
+          <dependent id="2">if</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">years</governor>
+          <dependent id="3">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">years</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">years</governor>
+          <dependent id="5">normal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">is</governor>
+          <dependent id="6">years</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">output</governor>
+          <dependent id="8">grain</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="6">years</governor>
+          <dependent id="9">output</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="11">is</governor>
+          <dependent id="10">there</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">is</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="11">is</governor>
+          <dependent id="12">not</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">is</governor>
+          <dependent id="13">self</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="13">self</governor>
+          <dependent id="15">sufficient</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="the normal years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="normal" />
+            <token id="6" string="years" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>The consecutive flood has made agricultural production situation there more grim.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="consecutive" lemma="consecutive" stem="consecut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="4" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="made" lemma="make" stem="made" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="agricultural" lemma="agricultural" stem="agricultur" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="production" lemma="production" stem="product" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="situation" lemma="situation" stem="situat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="there" lemma="there" stem="there" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="more" lemma="more" stem="more" pos="RBR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="grim" lemma="grim" stem="grim" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (JJ consecutive) (NN flood)) (VP (VBZ has) (VP (VBN made) (S (NP (JJ agricultural) (NN production) (NN situation)) (ADJP (ADVP (RB there)) (RBR more) (JJ grim))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The consecutive flood" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="consecutive" />
+            <token id="3" string="flood" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="there more grim" type="ADJP">
+          <tokens>
+            <token id="9" string="there" />
+            <token id="10" string="more" />
+            <token id="11" string="grim" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="made agricultural production situation there more grim" type="VP">
+          <tokens>
+            <token id="5" string="made" />
+            <token id="6" string="agricultural" />
+            <token id="7" string="production" />
+            <token id="8" string="situation" />
+            <token id="9" string="there" />
+            <token id="10" string="more" />
+            <token id="11" string="grim" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="has made agricultural production situation there more grim" type="VP">
+          <tokens>
+            <token id="4" string="has" />
+            <token id="5" string="made" />
+            <token id="6" string="agricultural" />
+            <token id="7" string="production" />
+            <token id="8" string="situation" />
+            <token id="9" string="there" />
+            <token id="10" string="more" />
+            <token id="11" string="grim" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="agricultural production situation" type="NP">
+          <tokens>
+            <token id="6" string="agricultural" />
+            <token id="7" string="production" />
+            <token id="8" string="situation" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">flood</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">flood</governor>
+          <dependent id="2">consecutive</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">made</governor>
+          <dependent id="3">flood</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">made</governor>
+          <dependent id="4">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">made</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">situation</governor>
+          <dependent id="6">agricultural</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">situation</governor>
+          <dependent id="7">production</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">grim</governor>
+          <dependent id="8">situation</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">grim</governor>
+          <dependent id="9">there</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">grim</governor>
+          <dependent id="10">more</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">made</governor>
+          <dependent id="11">grim</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="3" string="flood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Disaster-relief groups have been sent to the flood-stricken areas striving for minimizing losses.</content>
+      <tokens>
+        <token id="1" string="Disaster-relief" lemma="disaster-relief" stem="disaster-relief" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="groups" lemma="group" stem="group" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="sent" lemma="send" stem="sent" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="flood-stricken" lemma="flood-stricken" stem="flood-stricken" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="areas" lemma="area" stem="area" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="striving" lemma="strive" stem="strive" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="minimizing" lemma="minimize" stem="minim" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="losses" lemma="loss" stem="loss" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NN Disaster-relief) (NNS groups)) (VP (VBP have) (VP (VBN been) (VP (VBN sent) (PP (TO to) (NP (NP (DT the) (JJ flood-stricken) (NNS areas)) (VP (VBG striving) (PP (IN for) (S (VP (VBG minimizing) (NP (NNS losses))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the flood-stricken areas striving for minimizing losses" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="flood-stricken" />
+            <token id="9" string="areas" />
+            <token id="10" string="striving" />
+            <token id="11" string="for" />
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="have been sent to the flood-stricken areas striving for minimizing losses" type="VP">
+          <tokens>
+            <token id="3" string="have" />
+            <token id="4" string="been" />
+            <token id="5" string="sent" />
+            <token id="6" string="to" />
+            <token id="7" string="the" />
+            <token id="8" string="flood-stricken" />
+            <token id="9" string="areas" />
+            <token id="10" string="striving" />
+            <token id="11" string="for" />
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="striving for minimizing losses" type="VP">
+          <tokens>
+            <token id="10" string="striving" />
+            <token id="11" string="for" />
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="been sent to the flood-stricken areas striving for minimizing losses" type="VP">
+          <tokens>
+            <token id="4" string="been" />
+            <token id="5" string="sent" />
+            <token id="6" string="to" />
+            <token id="7" string="the" />
+            <token id="8" string="flood-stricken" />
+            <token id="9" string="areas" />
+            <token id="10" string="striving" />
+            <token id="11" string="for" />
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="minimizing losses" type="VP">
+          <tokens>
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Disaster-relief groups" type="NP">
+          <tokens>
+            <token id="1" string="Disaster-relief" />
+            <token id="2" string="groups" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="losses" type="NP">
+          <tokens>
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="sent to the flood-stricken areas striving for minimizing losses" type="VP">
+          <tokens>
+            <token id="5" string="sent" />
+            <token id="6" string="to" />
+            <token id="7" string="the" />
+            <token id="8" string="flood-stricken" />
+            <token id="9" string="areas" />
+            <token id="10" string="striving" />
+            <token id="11" string="for" />
+            <token id="12" string="minimizing" />
+            <token id="13" string="losses" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the flood-stricken areas" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="flood-stricken" />
+            <token id="9" string="areas" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">groups</governor>
+          <dependent id="1">Disaster-relief</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">sent</governor>
+          <dependent id="2">groups</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">sent</governor>
+          <dependent id="3">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">sent</governor>
+          <dependent id="4">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">sent</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">areas</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">areas</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">areas</governor>
+          <dependent id="8">flood-stricken</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">sent</governor>
+          <dependent id="9">areas</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="9">areas</governor>
+          <dependent id="10">striving</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">minimizing</governor>
+          <dependent id="11">for</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="10">striving</governor>
+          <dependent id="12">minimizing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">minimizing</governor>
+          <dependent id="13">losses</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="18-19" string="Fujian Province" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="7" string="Fujian" id_sentence="3" />
+        <mention ids_tokens="8" string="Fujian" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="26-27" string="the flood" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="10-27" string="Flood lasting for ten or more days in Fujian Province has brought about heavy losses in agriculture there" id_sentence="1" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="4-5" string="Sanming City" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="4-5" string="the city" id_sentence="5" />
+        <mention ids_tokens="18" string="it" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="14-15" string="big losses" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="13" string="losses" id_sentence="9" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

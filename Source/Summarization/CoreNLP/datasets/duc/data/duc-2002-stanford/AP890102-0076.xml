@@ -1,0 +1,2884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890102-0076">
+  <sentences>
+    <sentence id="1" has_coreference="false">
+      <content>A passenger ferry sank off the Caribbean coast while being towed to port, and 59 people drowned and six are missing, authorities and news reports said today.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="passenger" lemma="passenger" stem="passeng" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="off" lemma="off" stem="off" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Caribbean" lemma="caribbean" stem="caribbean" pos="JJ" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="while" lemma="while" stem="while" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="being" lemma="be" stem="be" pos="VBG" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="towed" lemma="tow" stem="tow" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="port" lemma="port" stem="port" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="59" lemma="59" stem="59" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="17" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="drowned" lemma="drown" stem="drown" pos="VBD" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="missing" lemma="miss" stem="miss" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="authorities" lemma="authority" stem="author" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="news" lemma="news" stem="new" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="reports" lemma="report" stem="report" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="today" lemma="today" stem="todai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT A) (NN passenger) (NN ferry)) (VP (VBD sank) (PRT (RP off)) (NP (DT the) (JJ Caribbean) (NN coast)) (SBAR (IN while) (S (S (S (VP (VBG being) (VP (VBN towed) (PP (TO to) (NP (NN port)))))) (, ,) (CC and) (S (NP (CD 59) (NNS people)) (VP (VBD drowned)))) (CC and) (S (NP (CD six)) (VP (VBP are) (ADJP (VBG missing)))))))) (, ,) (NP (NNS authorities) (CC and) (NN news) (NNS reports)) (VP (VBD said) (NP-TMP (NN today))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="six" type="NP">
+          <tokens>
+            <token id="20" string="six" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="said today" type="VP">
+          <tokens>
+            <token id="28" string="said" />
+            <token id="29" string="today" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="towed to port" type="VP">
+          <tokens>
+            <token id="11" string="towed" />
+            <token id="12" string="to" />
+            <token id="13" string="port" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Caribbean coast" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Caribbean" />
+            <token id="8" string="coast" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="A passenger ferry" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="passenger" />
+            <token id="3" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="authorities and news reports" type="NP">
+          <tokens>
+            <token id="24" string="authorities" />
+            <token id="25" string="and" />
+            <token id="26" string="news" />
+            <token id="27" string="reports" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="sank off the Caribbean coast while being towed to port , and 59 people drowned and six are missing" type="VP">
+          <tokens>
+            <token id="4" string="sank" />
+            <token id="5" string="off" />
+            <token id="6" string="the" />
+            <token id="7" string="Caribbean" />
+            <token id="8" string="coast" />
+            <token id="9" string="while" />
+            <token id="10" string="being" />
+            <token id="11" string="towed" />
+            <token id="12" string="to" />
+            <token id="13" string="port" />
+            <token id="14" string="," />
+            <token id="15" string="and" />
+            <token id="16" string="59" />
+            <token id="17" string="people" />
+            <token id="18" string="drowned" />
+            <token id="19" string="and" />
+            <token id="20" string="six" />
+            <token id="21" string="are" />
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="port" type="NP">
+          <tokens>
+            <token id="13" string="port" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="while being towed to port , and 59 people drowned and six are missing" type="SBAR">
+          <tokens>
+            <token id="9" string="while" />
+            <token id="10" string="being" />
+            <token id="11" string="towed" />
+            <token id="12" string="to" />
+            <token id="13" string="port" />
+            <token id="14" string="," />
+            <token id="15" string="and" />
+            <token id="16" string="59" />
+            <token id="17" string="people" />
+            <token id="18" string="drowned" />
+            <token id="19" string="and" />
+            <token id="20" string="six" />
+            <token id="21" string="are" />
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="are missing" type="VP">
+          <tokens>
+            <token id="21" string="are" />
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="being towed to port" type="VP">
+          <tokens>
+            <token id="10" string="being" />
+            <token id="11" string="towed" />
+            <token id="12" string="to" />
+            <token id="13" string="port" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="missing" type="ADJP">
+          <tokens>
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="59 people" type="NP">
+          <tokens>
+            <token id="16" string="59" />
+            <token id="17" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="drowned" type="VP">
+          <tokens>
+            <token id="18" string="drowned" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">ferry</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">ferry</governor>
+          <dependent id="2">passenger</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">sank</governor>
+          <dependent id="3">ferry</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="28">said</governor>
+          <dependent id="4">sank</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="4">sank</governor>
+          <dependent id="5">off</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">coast</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">coast</governor>
+          <dependent id="7">Caribbean</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">sank</governor>
+          <dependent id="8">coast</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">towed</governor>
+          <dependent id="9">while</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">towed</governor>
+          <dependent id="10">being</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">sank</governor>
+          <dependent id="11">towed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">port</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">towed</governor>
+          <dependent id="13">port</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">towed</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">people</governor>
+          <dependent id="16">59</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">drowned</governor>
+          <dependent id="17">people</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">towed</governor>
+          <dependent id="18">drowned</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">towed</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">missing</governor>
+          <dependent id="20">six</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">missing</governor>
+          <dependent id="21">are</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">towed</governor>
+          <dependent id="22">missing</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="28">said</governor>
+          <dependent id="24">authorities</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="24">authorities</governor>
+          <dependent id="25">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">reports</governor>
+          <dependent id="26">news</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">authorities</governor>
+          <dependent id="27">reports</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="28">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="28">said</governor>
+          <dependent id="29">today</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="six" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="six" />
+          </tokens>
+        </entity>
+        <entity id="2" string="59" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="59" />
+          </tokens>
+        </entity>
+        <entity id="3" string="today" type="DATE" score="0.0">
+          <tokens>
+            <token id="29" string="today" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Caribbean" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Caribbean" />
+          </tokens>
+        </entity>
+        <entity id="5" string="drowned" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="18" string="drowned" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Capt. Anibal Giron Arreola, a spokesman at the Puerto Barrios naval base, said the ferry Justo Rufino Barrios II sank Sunday afternoon in Amatique Bay.</content>
+      <tokens>
+        <token id="1" string="Capt." lemma="Capt." stem="capt." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Anibal" lemma="Anibal" stem="anibal" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Giron" lemma="Giron" stem="giron" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="Arreola" lemma="Arreola" stem="arreola" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="naval" lemma="naval" stem="naval" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="base" lemma="base" stem="base" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="Justo" lemma="Justo" stem="justo" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="Rufino" lemma="Rufino" stem="rufino" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="II" lemma="II" stem="ii" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="24" string="afternoon" lemma="afternoon" stem="afternoon" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Amatique" lemma="Amatique" stem="amatiqu" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="27" string="Bay" lemma="Bay" stem="bai" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Capt.) (NNP Anibal) (NNP Giron) (NNP Arreola)) (, ,) (NP (NP (DT a) (NN spokesman)) (PP (IN at) (NP (DT the) (NNP Puerto) (NNP Barrios) (JJ naval) (NN base)))) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (NN ferry) (NNP Justo) (NNP Rufino) (NNP Barrios) (NNP II)) (VP (VBD sank) (NP-TMP (NNP Sunday) (NN afternoon)) (PP (IN in) (NP (NNP Amatique) (NNP Bay))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Amatique Bay" type="NP">
+          <tokens>
+            <token id="26" string="Amatique" />
+            <token id="27" string="Bay" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a spokesman at the Puerto Barrios naval base" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="spokesman" />
+            <token id="8" string="at" />
+            <token id="9" string="the" />
+            <token id="10" string="Puerto" />
+            <token id="11" string="Barrios" />
+            <token id="12" string="naval" />
+            <token id="13" string="base" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a spokesman" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Capt. Anibal Giron Arreola , a spokesman at the Puerto Barrios naval base ," type="NP">
+          <tokens>
+            <token id="1" string="Capt." />
+            <token id="2" string="Anibal" />
+            <token id="3" string="Giron" />
+            <token id="4" string="Arreola" />
+            <token id="5" string="," />
+            <token id="6" string="a" />
+            <token id="7" string="spokesman" />
+            <token id="8" string="at" />
+            <token id="9" string="the" />
+            <token id="10" string="Puerto" />
+            <token id="11" string="Barrios" />
+            <token id="12" string="naval" />
+            <token id="13" string="base" />
+            <token id="14" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="said the ferry Justo Rufino Barrios II sank Sunday afternoon in Amatique Bay" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string="the" />
+            <token id="17" string="ferry" />
+            <token id="18" string="Justo" />
+            <token id="19" string="Rufino" />
+            <token id="20" string="Barrios" />
+            <token id="21" string="II" />
+            <token id="22" string="sank" />
+            <token id="23" string="Sunday" />
+            <token id="24" string="afternoon" />
+            <token id="25" string="in" />
+            <token id="26" string="Amatique" />
+            <token id="27" string="Bay" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the ferry Justo Rufino Barrios II" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="ferry" />
+            <token id="18" string="Justo" />
+            <token id="19" string="Rufino" />
+            <token id="20" string="Barrios" />
+            <token id="21" string="II" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the ferry Justo Rufino Barrios II sank Sunday afternoon in Amatique Bay" type="SBAR">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="ferry" />
+            <token id="18" string="Justo" />
+            <token id="19" string="Rufino" />
+            <token id="20" string="Barrios" />
+            <token id="21" string="II" />
+            <token id="22" string="sank" />
+            <token id="23" string="Sunday" />
+            <token id="24" string="afternoon" />
+            <token id="25" string="in" />
+            <token id="26" string="Amatique" />
+            <token id="27" string="Bay" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Capt. Anibal Giron Arreola" type="NP">
+          <tokens>
+            <token id="1" string="Capt." />
+            <token id="2" string="Anibal" />
+            <token id="3" string="Giron" />
+            <token id="4" string="Arreola" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="sank Sunday afternoon in Amatique Bay" type="VP">
+          <tokens>
+            <token id="22" string="sank" />
+            <token id="23" string="Sunday" />
+            <token id="24" string="afternoon" />
+            <token id="25" string="in" />
+            <token id="26" string="Amatique" />
+            <token id="27" string="Bay" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the Puerto Barrios naval base" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="Puerto" />
+            <token id="11" string="Barrios" />
+            <token id="12" string="naval" />
+            <token id="13" string="base" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="4">Arreola</governor>
+          <dependent id="1">Capt.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Arreola</governor>
+          <dependent id="2">Anibal</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Arreola</governor>
+          <dependent id="3">Giron</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="4">Arreola</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">spokesman</governor>
+          <dependent id="6">a</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="4">Arreola</governor>
+          <dependent id="7">spokesman</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">base</governor>
+          <dependent id="8">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">base</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">base</governor>
+          <dependent id="10">Puerto</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">base</governor>
+          <dependent id="11">Barrios</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">base</governor>
+          <dependent id="12">naval</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">spokesman</governor>
+          <dependent id="13">base</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">II</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">II</governor>
+          <dependent id="17">ferry</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">II</governor>
+          <dependent id="18">Justo</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">II</governor>
+          <dependent id="19">Rufino</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">II</governor>
+          <dependent id="20">Barrios</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">sank</governor>
+          <dependent id="21">II</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="22">sank</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">afternoon</governor>
+          <dependent id="23">Sunday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="22">sank</governor>
+          <dependent id="24">afternoon</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Bay</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Bay</governor>
+          <dependent id="26">Amatique</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">sank</governor>
+          <dependent id="27">Bay</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Anibal Giron Arreola" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Anibal" />
+            <token id="3" string="Giron" />
+            <token id="4" string="Arreola" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Amatique Bay" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Amatique" />
+            <token id="27" string="Bay" />
+          </tokens>
+        </entity>
+        <entity id="3" string="afternoon" type="TIME" score="0.0">
+          <tokens>
+            <token id="24" string="afternoon" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Justo Rufino Barrios II" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="18" string="Justo" />
+            <token id="19" string="Rufino" />
+            <token id="20" string="Barrios" />
+            <token id="21" string="II" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="23" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Puerto Barrios" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Puerto" />
+            <token id="11" string="Barrios" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>He said by telephone that 59 people died.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="telephone" lemma="telephone" stem="telephon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="59" lemma="59" stem="59" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="7" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="died" lemma="die" stem="di" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (VP (VBD said) (PP (IN by) (NP (NN telephone))) (SBAR (WHNP (WDT that)) (S (NP (CD 59) (NNS people)) (VP (VBD died))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said by telephone that 59 people died" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="by" />
+            <token id="4" string="telephone" />
+            <token id="5" string="that" />
+            <token id="6" string="59" />
+            <token id="7" string="people" />
+            <token id="8" string="died" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that 59 people died" type="SBAR">
+          <tokens>
+            <token id="5" string="that" />
+            <token id="6" string="59" />
+            <token id="7" string="people" />
+            <token id="8" string="died" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="died" type="VP">
+          <tokens>
+            <token id="8" string="died" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="telephone" type="NP">
+          <tokens>
+            <token id="4" string="telephone" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="59 people" type="NP">
+          <tokens>
+            <token id="6" string="59" />
+            <token id="7" string="people" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">telephone</governor>
+          <dependent id="3">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">said</governor>
+          <dependent id="4">telephone</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">died</governor>
+          <dependent id="5">that</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="7">people</governor>
+          <dependent id="6">59</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">died</governor>
+          <dependent id="7">people</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="8">died</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="59" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="6" string="59" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Juan Jose Gaytan, a reporter at Radio Portena in Puerto Barrios, said the Justo Rufineo Barrios II ran out of fuel midway on a regular 16-mile run from the town Livingston, across the bay, to Puerto Barrios.</content>
+      <tokens>
+        <token id="1" string="Juan" lemma="Juan" stem="juan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Jose" lemma="Jose" stem="jose" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Gaytan" lemma="Gaytan" stem="gaytan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="reporter" lemma="reporter" stem="report" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Radio" lemma="Radio" stem="radio" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="Portena" lemma="Portena" stem="portena" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Justo" lemma="Justo" stem="justo" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="17" string="Rufineo" lemma="Rufineo" stem="rufineo" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="18" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="19" string="II" lemma="II" stem="ii" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="ran" lemma="run" stem="ran" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="out" lemma="out" stem="out" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="fuel" lemma="fuel" stem="fuel" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="midway" lemma="midway" stem="midwai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="regular" lemma="regular" stem="regular" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="16-mile" lemma="16-mile" stem="16-mile" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="run" lemma="run" stem="run" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="town" lemma="town" stem="town" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="Livingston" lemma="Livingston" stem="livingston" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="34" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="across" lemma="across" stem="across" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="37" string="bay" lemma="bay" stem="bai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="38" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="41" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="42" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Juan) (NNP Jose) (NNP Gaytan)) (, ,) (NP (NP (DT a) (NN reporter)) (PP (IN at) (NP (NP (NNP Radio) (NNP Portena)) (PP (IN in) (NP (NNP Puerto) (NNP Barrios)))))) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (NNP Justo) (NNP Rufineo) (NNP Barrios) (NNP II)) (VP (VBD ran) (ADVP (IN out) (PP (IN of) (NP (NN fuel)) (ADVP (NN midway)))) (PP (IN on) (NP (NP (DT a) (JJ regular) (JJ 16-mile) (NN run)) (PP (IN from) (NP (DT the) (NN town) (NNP Livingston))))) (, ,) (PP (IN across) (NP (DT the) (NN bay))) (, ,) (PP (TO to) (NP (NNP Puerto) (NNP Barrios))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Justo Rufineo Barrios II ran out of fuel midway on a regular 16-mile run from the town Livingston , across the bay , to Puerto Barrios" type="SBAR">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="Justo" />
+            <token id="17" string="Rufineo" />
+            <token id="18" string="Barrios" />
+            <token id="19" string="II" />
+            <token id="20" string="ran" />
+            <token id="21" string="out" />
+            <token id="22" string="of" />
+            <token id="23" string="fuel" />
+            <token id="24" string="midway" />
+            <token id="25" string="on" />
+            <token id="26" string="a" />
+            <token id="27" string="regular" />
+            <token id="28" string="16-mile" />
+            <token id="29" string="run" />
+            <token id="30" string="from" />
+            <token id="31" string="the" />
+            <token id="32" string="town" />
+            <token id="33" string="Livingston" />
+            <token id="34" string="," />
+            <token id="35" string="across" />
+            <token id="36" string="the" />
+            <token id="37" string="bay" />
+            <token id="38" string="," />
+            <token id="39" string="to" />
+            <token id="40" string="Puerto" />
+            <token id="41" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the bay" type="NP">
+          <tokens>
+            <token id="36" string="the" />
+            <token id="37" string="bay" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Juan Jose Gaytan" type="NP">
+          <tokens>
+            <token id="1" string="Juan" />
+            <token id="2" string="Jose" />
+            <token id="3" string="Gaytan" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a reporter at Radio Portena in Puerto Barrios" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="reporter" />
+            <token id="7" string="at" />
+            <token id="8" string="Radio" />
+            <token id="9" string="Portena" />
+            <token id="10" string="in" />
+            <token id="11" string="Puerto" />
+            <token id="12" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="fuel" type="NP">
+          <tokens>
+            <token id="23" string="fuel" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Justo Rufineo Barrios II" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="Justo" />
+            <token id="17" string="Rufineo" />
+            <token id="18" string="Barrios" />
+            <token id="19" string="II" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a regular 16-mile run" type="NP">
+          <tokens>
+            <token id="26" string="a" />
+            <token id="27" string="regular" />
+            <token id="28" string="16-mile" />
+            <token id="29" string="run" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Puerto Barrios" type="NP">
+          <tokens>
+            <token id="11" string="Puerto" />
+            <token id="12" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Juan Jose Gaytan , a reporter at Radio Portena in Puerto Barrios ," type="NP">
+          <tokens>
+            <token id="1" string="Juan" />
+            <token id="2" string="Jose" />
+            <token id="3" string="Gaytan" />
+            <token id="4" string="," />
+            <token id="5" string="a" />
+            <token id="6" string="reporter" />
+            <token id="7" string="at" />
+            <token id="8" string="Radio" />
+            <token id="9" string="Portena" />
+            <token id="10" string="in" />
+            <token id="11" string="Puerto" />
+            <token id="12" string="Barrios" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a reporter" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="reporter" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Radio Portena" type="NP">
+          <tokens>
+            <token id="8" string="Radio" />
+            <token id="9" string="Portena" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the town Livingston" type="NP">
+          <tokens>
+            <token id="31" string="the" />
+            <token id="32" string="town" />
+            <token id="33" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="ran out of fuel midway on a regular 16-mile run from the town Livingston , across the bay , to Puerto Barrios" type="VP">
+          <tokens>
+            <token id="20" string="ran" />
+            <token id="21" string="out" />
+            <token id="22" string="of" />
+            <token id="23" string="fuel" />
+            <token id="24" string="midway" />
+            <token id="25" string="on" />
+            <token id="26" string="a" />
+            <token id="27" string="regular" />
+            <token id="28" string="16-mile" />
+            <token id="29" string="run" />
+            <token id="30" string="from" />
+            <token id="31" string="the" />
+            <token id="32" string="town" />
+            <token id="33" string="Livingston" />
+            <token id="34" string="," />
+            <token id="35" string="across" />
+            <token id="36" string="the" />
+            <token id="37" string="bay" />
+            <token id="38" string="," />
+            <token id="39" string="to" />
+            <token id="40" string="Puerto" />
+            <token id="41" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a regular 16-mile run from the town Livingston" type="NP">
+          <tokens>
+            <token id="26" string="a" />
+            <token id="27" string="regular" />
+            <token id="28" string="16-mile" />
+            <token id="29" string="run" />
+            <token id="30" string="from" />
+            <token id="31" string="the" />
+            <token id="32" string="town" />
+            <token id="33" string="Livingston" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Radio Portena in Puerto Barrios" type="NP">
+          <tokens>
+            <token id="8" string="Radio" />
+            <token id="9" string="Portena" />
+            <token id="10" string="in" />
+            <token id="11" string="Puerto" />
+            <token id="12" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said the Justo Rufineo Barrios II ran out of fuel midway on a regular 16-mile run from the town Livingston , across the bay , to Puerto Barrios" type="VP">
+          <tokens>
+            <token id="14" string="said" />
+            <token id="15" string="the" />
+            <token id="16" string="Justo" />
+            <token id="17" string="Rufineo" />
+            <token id="18" string="Barrios" />
+            <token id="19" string="II" />
+            <token id="20" string="ran" />
+            <token id="21" string="out" />
+            <token id="22" string="of" />
+            <token id="23" string="fuel" />
+            <token id="24" string="midway" />
+            <token id="25" string="on" />
+            <token id="26" string="a" />
+            <token id="27" string="regular" />
+            <token id="28" string="16-mile" />
+            <token id="29" string="run" />
+            <token id="30" string="from" />
+            <token id="31" string="the" />
+            <token id="32" string="town" />
+            <token id="33" string="Livingston" />
+            <token id="34" string="," />
+            <token id="35" string="across" />
+            <token id="36" string="the" />
+            <token id="37" string="bay" />
+            <token id="38" string="," />
+            <token id="39" string="to" />
+            <token id="40" string="Puerto" />
+            <token id="41" string="Barrios" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Gaytan</governor>
+          <dependent id="1">Juan</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Gaytan</governor>
+          <dependent id="2">Jose</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">said</governor>
+          <dependent id="3">Gaytan</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">reporter</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">Gaytan</governor>
+          <dependent id="6">reporter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Portena</governor>
+          <dependent id="7">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Portena</governor>
+          <dependent id="8">Radio</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">reporter</governor>
+          <dependent id="9">Portena</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Barrios</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Barrios</governor>
+          <dependent id="11">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Portena</governor>
+          <dependent id="12">Barrios</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">II</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">II</governor>
+          <dependent id="16">Justo</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">II</governor>
+          <dependent id="17">Rufineo</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">II</governor>
+          <dependent id="18">Barrios</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">ran</governor>
+          <dependent id="19">II</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">said</governor>
+          <dependent id="20">ran</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">fuel</governor>
+          <dependent id="21">out</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="21">out</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">ran</governor>
+          <dependent id="23">fuel</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">fuel</governor>
+          <dependent id="24">midway</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">run</governor>
+          <dependent id="25">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">run</governor>
+          <dependent id="26">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">run</governor>
+          <dependent id="27">regular</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">run</governor>
+          <dependent id="28">16-mile</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">ran</governor>
+          <dependent id="29">run</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">Livingston</governor>
+          <dependent id="30">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="33">Livingston</governor>
+          <dependent id="31">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="33">Livingston</governor>
+          <dependent id="32">town</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">run</governor>
+          <dependent id="33">Livingston</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">bay</governor>
+          <dependent id="35">across</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="37">bay</governor>
+          <dependent id="36">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">ran</governor>
+          <dependent id="37">bay</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="41">Barrios</governor>
+          <dependent id="39">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="41">Barrios</governor>
+          <dependent id="40">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">ran</governor>
+          <dependent id="41">Barrios</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Juan Jose Gaytan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Juan" />
+            <token id="2" string="Jose" />
+            <token id="3" string="Gaytan" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Radio Portena" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="8" string="Radio" />
+            <token id="9" string="Portena" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Livingston" type="PERSON" score="0.0">
+          <tokens>
+            <token id="33" string="Livingston" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Justo Rufineo Barrios II" type="PERSON" score="0.0">
+          <tokens>
+            <token id="16" string="Justo" />
+            <token id="17" string="Rufineo" />
+            <token id="18" string="Barrios" />
+            <token id="19" string="II" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Puerto Barrios" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Puerto" />
+            <token id="12" string="Barrios" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Gaytan said the boat sank while it was being towed by a tugboat.</content>
+      <tokens>
+        <token id="1" string="Gaytan" lemma="Gaytan" stem="gaytan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="boat" lemma="boat" stem="boat" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="while" lemma="while" stem="while" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="being" lemma="be" stem="be" pos="VBG" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="towed" lemma="tow" stem="tow" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="tugboat" lemma="tugboat" stem="tugboat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Gaytan)) (VP (VBD said) (SBAR (S (NP (DT the) (NN boat)) (VP (VBD sank) (SBAR (IN while) (S (NP (PRP it)) (VP (VBD was) (VP (VBG being) (VP (VBN towed) (PP (IN by) (NP (DT a) (NN tugboat)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said the boat sank while it was being towed by a tugboat" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="the" />
+            <token id="4" string="boat" />
+            <token id="5" string="sank" />
+            <token id="6" string="while" />
+            <token id="7" string="it" />
+            <token id="8" string="was" />
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="towed by a tugboat" type="VP">
+          <tokens>
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a tugboat" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the boat" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="boat" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="sank while it was being towed by a tugboat" type="VP">
+          <tokens>
+            <token id="5" string="sank" />
+            <token id="6" string="while" />
+            <token id="7" string="it" />
+            <token id="8" string="was" />
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Gaytan" type="NP">
+          <tokens>
+            <token id="1" string="Gaytan" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="being towed by a tugboat" type="VP">
+          <tokens>
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="it" type="NP">
+          <tokens>
+            <token id="7" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the boat sank while it was being towed by a tugboat" type="SBAR">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="boat" />
+            <token id="5" string="sank" />
+            <token id="6" string="while" />
+            <token id="7" string="it" />
+            <token id="8" string="was" />
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="while it was being towed by a tugboat" type="SBAR">
+          <tokens>
+            <token id="6" string="while" />
+            <token id="7" string="it" />
+            <token id="8" string="was" />
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="was being towed by a tugboat" type="VP">
+          <tokens>
+            <token id="8" string="was" />
+            <token id="9" string="being" />
+            <token id="10" string="towed" />
+            <token id="11" string="by" />
+            <token id="12" string="a" />
+            <token id="13" string="tugboat" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Gaytan</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">boat</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">sank</governor>
+          <dependent id="4">boat</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="5">sank</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">towed</governor>
+          <dependent id="6">while</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="10">towed</governor>
+          <dependent id="7">it</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="10">towed</governor>
+          <dependent id="8">was</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="10">towed</governor>
+          <dependent id="9">being</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">sank</governor>
+          <dependent id="10">towed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">tugboat</governor>
+          <dependent id="11">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">tugboat</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">towed</governor>
+          <dependent id="13">tugboat</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Gaytan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Gaytan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>The Spanish Embassy in Guatemala City confirmed the sinking and said a 40-year-old Spanish citizen, Vicente Daudi, was among the dead.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="Spanish" lemma="Spanish" stem="spanish" pos="NNP" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="true" is_refers="false" />
+        <token id="3" string="Embassy" lemma="Embassy" stem="embassi" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="Guatemala" lemma="Guatemala" stem="guatemala" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="City" lemma="City" stem="citi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="confirmed" lemma="confirm" stem="confirm" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="sinking" lemma="sinking" stem="sink" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="40-year-old" lemma="40-year-old" stem="40-year-old" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="Spanish" lemma="spanish" stem="spanish" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="15" string="citizen" lemma="citizen" stem="citizen" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Vicente" lemma="Vicente" stem="vicent" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="Daudi" lemma="daudi" stem="daudi" pos="NN" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="among" lemma="among" stem="among" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="dead" lemma="dead" stem="dead" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNP Spanish) (NNP Embassy)) (PP (IN in) (NP (NNP Guatemala) (NNP City)))) (VP (VP (VBD confirmed) (NP (DT the) (NN sinking))) (CC and) (VP (VBD said) (SBAR (S (NP (NP (DT a) (JJ 40-year-old) (JJ Spanish) (NN citizen)) (, ,) (NP (NNP Vicente) (NN Daudi)) (, ,)) (VP (VBD was) (PP (IN among) (NP (DT the) (JJ dead)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The Spanish Embassy in Guatemala City" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Spanish" />
+            <token id="3" string="Embassy" />
+            <token id="4" string="in" />
+            <token id="5" string="Guatemala" />
+            <token id="6" string="City" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a 40-year-old Spanish citizen , Vicente Daudi , was among the dead" type="SBAR">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="40-year-old" />
+            <token id="14" string="Spanish" />
+            <token id="15" string="citizen" />
+            <token id="16" string="," />
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+            <token id="19" string="," />
+            <token id="20" string="was" />
+            <token id="21" string="among" />
+            <token id="22" string="the" />
+            <token id="23" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a 40-year-old Spanish citizen , Vicente Daudi ," type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="40-year-old" />
+            <token id="14" string="Spanish" />
+            <token id="15" string="citizen" />
+            <token id="16" string="," />
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+            <token id="19" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The Spanish Embassy" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Spanish" />
+            <token id="3" string="Embassy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the sinking" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="sinking" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the dead" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="confirmed the sinking and said a 40-year-old Spanish citizen , Vicente Daudi , was among the dead" type="VP">
+          <tokens>
+            <token id="7" string="confirmed" />
+            <token id="8" string="the" />
+            <token id="9" string="sinking" />
+            <token id="10" string="and" />
+            <token id="11" string="said" />
+            <token id="12" string="a" />
+            <token id="13" string="40-year-old" />
+            <token id="14" string="Spanish" />
+            <token id="15" string="citizen" />
+            <token id="16" string="," />
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+            <token id="19" string="," />
+            <token id="20" string="was" />
+            <token id="21" string="among" />
+            <token id="22" string="the" />
+            <token id="23" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said a 40-year-old Spanish citizen , Vicente Daudi , was among the dead" type="VP">
+          <tokens>
+            <token id="11" string="said" />
+            <token id="12" string="a" />
+            <token id="13" string="40-year-old" />
+            <token id="14" string="Spanish" />
+            <token id="15" string="citizen" />
+            <token id="16" string="," />
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+            <token id="19" string="," />
+            <token id="20" string="was" />
+            <token id="21" string="among" />
+            <token id="22" string="the" />
+            <token id="23" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="confirmed the sinking" type="VP">
+          <tokens>
+            <token id="7" string="confirmed" />
+            <token id="8" string="the" />
+            <token id="9" string="sinking" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a 40-year-old Spanish citizen" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="40-year-old" />
+            <token id="14" string="Spanish" />
+            <token id="15" string="citizen" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Guatemala City" type="NP">
+          <tokens>
+            <token id="5" string="Guatemala" />
+            <token id="6" string="City" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="was among the dead" type="VP">
+          <tokens>
+            <token id="20" string="was" />
+            <token id="21" string="among" />
+            <token id="22" string="the" />
+            <token id="23" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Vicente Daudi" type="NP">
+          <tokens>
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">Embassy</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Embassy</governor>
+          <dependent id="2">Spanish</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">confirmed</governor>
+          <dependent id="3">Embassy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">City</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">City</governor>
+          <dependent id="5">Guatemala</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">Embassy</governor>
+          <dependent id="6">City</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">confirmed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">sinking</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">confirmed</governor>
+          <dependent id="9">sinking</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">confirmed</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">confirmed</governor>
+          <dependent id="11">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">citizen</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">citizen</governor>
+          <dependent id="13">40-year-old</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">citizen</governor>
+          <dependent id="14">Spanish</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">dead</governor>
+          <dependent id="15">citizen</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Daudi</governor>
+          <dependent id="17">Vicente</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="15">citizen</governor>
+          <dependent id="18">Daudi</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="23">dead</governor>
+          <dependent id="20">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">dead</governor>
+          <dependent id="21">among</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">dead</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="11">said</governor>
+          <dependent id="23">dead</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="40-year-old" type="DURATION" score="0.0">
+          <tokens>
+            <token id="13" string="40-year-old" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Guatemala City" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Guatemala" />
+            <token id="6" string="City" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Spanish" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="2" string="Spanish" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Vicente Daudi" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Vicente" />
+            <token id="18" string="Daudi" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The embassy reported his wife, Rosa Maria Arnal, and a son survived the shipwreck, but two daughters were missing.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="embassy" lemma="embassy" stem="embassi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="reported" lemma="report" stem="report" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="wife" lemma="wife" stem="wife" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Rosa" lemma="Rosa" stem="rosa" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="8" string="Maria" lemma="Maria" stem="maria" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="Arnal" lemma="Arnal" stem="arnal" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="son" lemma="son" stem="son" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="survived" lemma="survive" stem="surviv" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="shipwreck" lemma="shipwreck" stem="shipwreck" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="20" string="daughters" lemma="daughter" stem="daughter" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="missing" lemma="miss" stem="miss" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NN embassy)) (VP (VBD reported) (SBAR (S (NP (NP (PRP$ his) (NN wife)) (, ,) (NP (NNP Rosa) (NNP Maria) (NNP Arnal)) (, ,) (CC and) (NP (DT a) (NN son))) (VP (VBD survived) (NP (DT the) (NN shipwreck))))))) (, ,) (CC but) (S (NP (CD two) (NNS daughters)) (VP (VBD were) (ADJP (VBG missing)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="were missing" type="VP">
+          <tokens>
+            <token id="21" string="were" />
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="reported his wife , Rosa Maria Arnal , and a son survived the shipwreck" type="VP">
+          <tokens>
+            <token id="3" string="reported" />
+            <token id="4" string="his" />
+            <token id="5" string="wife" />
+            <token id="6" string="," />
+            <token id="7" string="Rosa" />
+            <token id="8" string="Maria" />
+            <token id="9" string="Arnal" />
+            <token id="10" string="," />
+            <token id="11" string="and" />
+            <token id="12" string="a" />
+            <token id="13" string="son" />
+            <token id="14" string="survived" />
+            <token id="15" string="the" />
+            <token id="16" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Rosa Maria Arnal" type="NP">
+          <tokens>
+            <token id="7" string="Rosa" />
+            <token id="8" string="Maria" />
+            <token id="9" string="Arnal" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="his wife , Rosa Maria Arnal , and a son" type="NP">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="wife" />
+            <token id="6" string="," />
+            <token id="7" string="Rosa" />
+            <token id="8" string="Maria" />
+            <token id="9" string="Arnal" />
+            <token id="10" string="," />
+            <token id="11" string="and" />
+            <token id="12" string="a" />
+            <token id="13" string="son" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a son" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="son" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="survived the shipwreck" type="VP">
+          <tokens>
+            <token id="14" string="survived" />
+            <token id="15" string="the" />
+            <token id="16" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="two daughters" type="NP">
+          <tokens>
+            <token id="19" string="two" />
+            <token id="20" string="daughters" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="his wife , Rosa Maria Arnal , and a son survived the shipwreck" type="SBAR">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="wife" />
+            <token id="6" string="," />
+            <token id="7" string="Rosa" />
+            <token id="8" string="Maria" />
+            <token id="9" string="Arnal" />
+            <token id="10" string="," />
+            <token id="11" string="and" />
+            <token id="12" string="a" />
+            <token id="13" string="son" />
+            <token id="14" string="survived" />
+            <token id="15" string="the" />
+            <token id="16" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="missing" type="ADJP">
+          <tokens>
+            <token id="22" string="missing" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="The embassy" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="embassy" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the shipwreck" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="his wife" type="NP">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="wife" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">embassy</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">reported</governor>
+          <dependent id="2">embassy</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">reported</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="5">wife</governor>
+          <dependent id="4">his</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">survived</governor>
+          <dependent id="5">wife</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Arnal</governor>
+          <dependent id="7">Rosa</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Arnal</governor>
+          <dependent id="8">Maria</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">wife</governor>
+          <dependent id="9">Arnal</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">wife</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">son</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">wife</governor>
+          <dependent id="13">son</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">reported</governor>
+          <dependent id="14">survived</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">shipwreck</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">survived</governor>
+          <dependent id="16">shipwreck</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">reported</governor>
+          <dependent id="18">but</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">daughters</governor>
+          <dependent id="19">two</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">missing</governor>
+          <dependent id="20">daughters</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">missing</governor>
+          <dependent id="21">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">reported</governor>
+          <dependent id="22">missing</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Rosa Maria Arnal" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Rosa" />
+            <token id="8" string="Maria" />
+            <token id="9" string="Arnal" />
+          </tokens>
+        </entity>
+        <entity id="2" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="two" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Daudi was working with a Spanish technical aid and economic development mission in Guatemala, the embassy said.</content>
+      <tokens>
+        <token id="1" string="Daudi" lemma="daudi" stem="daudi" pos="NN" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="working" lemma="work" stem="work" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Spanish" lemma="spanish" stem="spanish" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="7" string="technical" lemma="technical" stem="technic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="aid" lemma="aid" stem="aid" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="economic" lemma="economic" stem="econom" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="development" lemma="development" stem="develop" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="mission" lemma="mission" stem="mission" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Guatemala" lemma="Guatemala" stem="guatemala" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="embassy" lemma="embassy" stem="embassi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NN Daudi)) (VP (VBD was) (VP (VBG working) (PP (IN with) (NP (NP (DT a) (JJ Spanish) (JJ technical) (NN aid) (CC and) (JJ economic) (NN development) (NN mission)) (PP (IN in) (NP (NNP Guatemala)))))))) (, ,) (NP (DT the) (NN embassy)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Daudi" type="NP">
+          <tokens>
+            <token id="1" string="Daudi" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a Spanish technical aid and economic development mission in Guatemala" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="Spanish" />
+            <token id="7" string="technical" />
+            <token id="8" string="aid" />
+            <token id="9" string="and" />
+            <token id="10" string="economic" />
+            <token id="11" string="development" />
+            <token id="12" string="mission" />
+            <token id="13" string="in" />
+            <token id="14" string="Guatemala" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was working with a Spanish technical aid and economic development mission in Guatemala" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="working" />
+            <token id="4" string="with" />
+            <token id="5" string="a" />
+            <token id="6" string="Spanish" />
+            <token id="7" string="technical" />
+            <token id="8" string="aid" />
+            <token id="9" string="and" />
+            <token id="10" string="economic" />
+            <token id="11" string="development" />
+            <token id="12" string="mission" />
+            <token id="13" string="in" />
+            <token id="14" string="Guatemala" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the embassy" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="embassy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a Spanish technical aid and economic development mission" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="Spanish" />
+            <token id="7" string="technical" />
+            <token id="8" string="aid" />
+            <token id="9" string="and" />
+            <token id="10" string="economic" />
+            <token id="11" string="development" />
+            <token id="12" string="mission" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Guatemala" type="NP">
+          <tokens>
+            <token id="14" string="Guatemala" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="working with a Spanish technical aid and economic development mission in Guatemala" type="VP">
+          <tokens>
+            <token id="3" string="working" />
+            <token id="4" string="with" />
+            <token id="5" string="a" />
+            <token id="6" string="Spanish" />
+            <token id="7" string="technical" />
+            <token id="8" string="aid" />
+            <token id="9" string="and" />
+            <token id="10" string="economic" />
+            <token id="11" string="development" />
+            <token id="12" string="mission" />
+            <token id="13" string="in" />
+            <token id="14" string="Guatemala" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">working</governor>
+          <dependent id="1">Daudi</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">working</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="3">working</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">aid</governor>
+          <dependent id="4">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">aid</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">aid</governor>
+          <dependent id="6">Spanish</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">aid</governor>
+          <dependent id="7">technical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">working</governor>
+          <dependent id="8">aid</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">aid</governor>
+          <dependent id="9">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">mission</governor>
+          <dependent id="10">economic</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">mission</governor>
+          <dependent id="11">development</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">aid</governor>
+          <dependent id="12">mission</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Guatemala</governor>
+          <dependent id="13">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">aid</governor>
+          <dependent id="14">Guatemala</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">embassy</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="17">embassy</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Daudi" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Daudi" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Guatemala" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="14" string="Guatemala" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Spanish" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="6" string="Spanish" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>An official at the Puerto Barrios morgue said 13 bodies have been identified.</content>
+      <tokens>
+        <token id="1" string="An" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="official" lemma="official" stem="offici" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="morgue" lemma="morgue" stem="morgu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="13" lemma="13" stem="13" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="bodies" lemma="body" stem="bodi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="identified" lemma="identify" stem="identifi" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT An) (NN official)) (PP (IN at) (NP (DT the) (NNP Puerto) (NNP Barrios) (NN morgue)))) (VP (VBD said) (SBAR (S (NP (CD 13) (NNS bodies)) (VP (VBP have) (VP (VBN been) (VP (VBN identified))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="An official at the Puerto Barrios morgue" type="NP">
+          <tokens>
+            <token id="1" string="An" />
+            <token id="2" string="official" />
+            <token id="3" string="at" />
+            <token id="4" string="the" />
+            <token id="5" string="Puerto" />
+            <token id="6" string="Barrios" />
+            <token id="7" string="morgue" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="identified" type="VP">
+          <tokens>
+            <token id="13" string="identified" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Puerto Barrios morgue" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Puerto" />
+            <token id="6" string="Barrios" />
+            <token id="7" string="morgue" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="have been identified" type="VP">
+          <tokens>
+            <token id="11" string="have" />
+            <token id="12" string="been" />
+            <token id="13" string="identified" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="said 13 bodies have been identified" type="VP">
+          <tokens>
+            <token id="8" string="said" />
+            <token id="9" string="13" />
+            <token id="10" string="bodies" />
+            <token id="11" string="have" />
+            <token id="12" string="been" />
+            <token id="13" string="identified" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="13 bodies have been identified" type="SBAR">
+          <tokens>
+            <token id="9" string="13" />
+            <token id="10" string="bodies" />
+            <token id="11" string="have" />
+            <token id="12" string="been" />
+            <token id="13" string="identified" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="been identified" type="VP">
+          <tokens>
+            <token id="12" string="been" />
+            <token id="13" string="identified" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="An official" type="NP">
+          <tokens>
+            <token id="1" string="An" />
+            <token id="2" string="official" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="13 bodies" type="NP">
+          <tokens>
+            <token id="9" string="13" />
+            <token id="10" string="bodies" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">official</governor>
+          <dependent id="1">An</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">said</governor>
+          <dependent id="2">official</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">morgue</governor>
+          <dependent id="3">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">morgue</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">morgue</governor>
+          <dependent id="5">Puerto</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">morgue</governor>
+          <dependent id="6">Barrios</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">official</governor>
+          <dependent id="7">morgue</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">said</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">bodies</governor>
+          <dependent id="9">13</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="13">identified</governor>
+          <dependent id="10">bodies</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="13">identified</governor>
+          <dependent id="11">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">identified</governor>
+          <dependent id="12">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="8">said</governor>
+          <dependent id="13">identified</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="13" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="13" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Puerto Barrios" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Puerto" />
+            <token id="6" string="Barrios" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>Besides Daudi, the nationalities of the victims were not immediately known.</content>
+      <tokens>
+        <token id="1" string="Besides" lemma="besides" stem="besid" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Daudi" lemma="daudi" stem="daudi" pos="NN" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="nationalities" lemma="nationality" stem="nation" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="victims" lemma="victim" stem="victim" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="immediately" lemma="immediately" stem="immedi" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="known" lemma="know" stem="known" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Besides) (NP (NN Daudi))) (, ,) (NP (NP (DT the) (NNS nationalities)) (PP (IN of) (NP (DT the) (NNS victims)))) (VP (VBD were) (RB not) (VP (ADVP (RB immediately)) (VBN known))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Daudi" type="NP">
+          <tokens>
+            <token id="2" string="Daudi" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="immediately known" type="VP">
+          <tokens>
+            <token id="11" string="immediately" />
+            <token id="12" string="known" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the nationalities of the victims" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="nationalities" />
+            <token id="6" string="of" />
+            <token id="7" string="the" />
+            <token id="8" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were not immediately known" type="VP">
+          <tokens>
+            <token id="9" string="were" />
+            <token id="10" string="not" />
+            <token id="11" string="immediately" />
+            <token id="12" string="known" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the victims" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="victims" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the nationalities" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="nationalities" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">Daudi</governor>
+          <dependent id="1">Besides</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">known</governor>
+          <dependent id="2">Daudi</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">nationalities</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="12">known</governor>
+          <dependent id="5">nationalities</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">victims</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">victims</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">nationalities</governor>
+          <dependent id="8">victims</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="12">known</governor>
+          <dependent id="9">were</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="12">known</governor>
+          <dependent id="10">not</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">known</governor>
+          <dependent id="11">immediately</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">known</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Daudi" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Daudi" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Gaytan said navy patrol boats, fishing vessels and private craft have been searching the bay for survivors and recovering bodies.</content>
+      <tokens>
+        <token id="1" string="Gaytan" lemma="Gaytan" stem="gaytan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="navy" lemma="navy" stem="navi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="patrol" lemma="patrol" stem="patrol" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="boats" lemma="boat" stem="boat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="fishing" lemma="fishing" stem="fish" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="vessels" lemma="vessel" stem="vessel" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="private" lemma="private" stem="privat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="craft" lemma="craft" stem="craft" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="searching" lemma="search" stem="search" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="bay" lemma="bay" stem="bai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="survivors" lemma="survivor" stem="survivor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="recovering" lemma="recover" stem="recov" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="bodies" lemma="body" stem="bodi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Gaytan)) (VP (VBD said) (SBAR (S (NP (NP (NN navy) (NN patrol) (NNS boats)) (, ,) (NP (NN fishing) (NNS vessels)) (CC and) (NP (JJ private) (NN craft))) (VP (VBP have) (VP (VBN been) (VP (VBG searching) (NP (NP (DT the) (NN bay)) (PP (IN for) (NP (NP (NNS survivors)) (CC and) (NP (VBG recovering) (NNS bodies))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the bay" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="survivors and recovering bodies" type="NP">
+          <tokens>
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="navy patrol boats , fishing vessels and private craft have been searching the bay for survivors and recovering bodies" type="SBAR">
+          <tokens>
+            <token id="3" string="navy" />
+            <token id="4" string="patrol" />
+            <token id="5" string="boats" />
+            <token id="6" string="," />
+            <token id="7" string="fishing" />
+            <token id="8" string="vessels" />
+            <token id="9" string="and" />
+            <token id="10" string="private" />
+            <token id="11" string="craft" />
+            <token id="12" string="have" />
+            <token id="13" string="been" />
+            <token id="14" string="searching" />
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the bay for survivors and recovering bodies" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="navy patrol boats , fishing vessels and private craft" type="NP">
+          <tokens>
+            <token id="3" string="navy" />
+            <token id="4" string="patrol" />
+            <token id="5" string="boats" />
+            <token id="6" string="," />
+            <token id="7" string="fishing" />
+            <token id="8" string="vessels" />
+            <token id="9" string="and" />
+            <token id="10" string="private" />
+            <token id="11" string="craft" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="private craft" type="NP">
+          <tokens>
+            <token id="10" string="private" />
+            <token id="11" string="craft" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="been searching the bay for survivors and recovering bodies" type="VP">
+          <tokens>
+            <token id="13" string="been" />
+            <token id="14" string="searching" />
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="have been searching the bay for survivors and recovering bodies" type="VP">
+          <tokens>
+            <token id="12" string="have" />
+            <token id="13" string="been" />
+            <token id="14" string="searching" />
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="survivors" type="NP">
+          <tokens>
+            <token id="18" string="survivors" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Gaytan" type="NP">
+          <tokens>
+            <token id="1" string="Gaytan" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="recovering bodies" type="NP">
+          <tokens>
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="said navy patrol boats , fishing vessels and private craft have been searching the bay for survivors and recovering bodies" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="navy" />
+            <token id="4" string="patrol" />
+            <token id="5" string="boats" />
+            <token id="6" string="," />
+            <token id="7" string="fishing" />
+            <token id="8" string="vessels" />
+            <token id="9" string="and" />
+            <token id="10" string="private" />
+            <token id="11" string="craft" />
+            <token id="12" string="have" />
+            <token id="13" string="been" />
+            <token id="14" string="searching" />
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="navy patrol boats" type="NP">
+          <tokens>
+            <token id="3" string="navy" />
+            <token id="4" string="patrol" />
+            <token id="5" string="boats" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="searching the bay for survivors and recovering bodies" type="VP">
+          <tokens>
+            <token id="14" string="searching" />
+            <token id="15" string="the" />
+            <token id="16" string="bay" />
+            <token id="17" string="for" />
+            <token id="18" string="survivors" />
+            <token id="19" string="and" />
+            <token id="20" string="recovering" />
+            <token id="21" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="fishing vessels" type="NP">
+          <tokens>
+            <token id="7" string="fishing" />
+            <token id="8" string="vessels" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Gaytan</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">boats</governor>
+          <dependent id="3">navy</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">boats</governor>
+          <dependent id="4">patrol</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">searching</governor>
+          <dependent id="5">boats</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">vessels</governor>
+          <dependent id="7">fishing</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">boats</governor>
+          <dependent id="8">vessels</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">boats</governor>
+          <dependent id="9">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">craft</governor>
+          <dependent id="10">private</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">boats</governor>
+          <dependent id="11">craft</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">searching</governor>
+          <dependent id="12">have</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">searching</governor>
+          <dependent id="13">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="14">searching</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">bay</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">searching</governor>
+          <dependent id="16">bay</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">survivors</governor>
+          <dependent id="17">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">bay</governor>
+          <dependent id="18">survivors</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">survivors</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">bodies</governor>
+          <dependent id="20">recovering</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">survivors</governor>
+          <dependent id="21">bodies</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Gaytan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Gaytan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>He said he had no other details on the shipwreck.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="details" lemma="detail" stem="detail" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="shipwreck" lemma="shipwreck" stem="shipwreck" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD had) (NP (NP (DT no) (JJ other) (NNS details)) (PP (IN on) (NP (DT the) (NN shipwreck)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="no other details" type="NP">
+          <tokens>
+            <token id="5" string="no" />
+            <token id="6" string="other" />
+            <token id="7" string="details" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="said he had no other details on the shipwreck" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="he" />
+            <token id="4" string="had" />
+            <token id="5" string="no" />
+            <token id="6" string="other" />
+            <token id="7" string="details" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="he had no other details on the shipwreck" type="SBAR">
+          <tokens>
+            <token id="3" string="he" />
+            <token id="4" string="had" />
+            <token id="5" string="no" />
+            <token id="6" string="other" />
+            <token id="7" string="details" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="he" type="NP">
+          <tokens>
+            <token id="3" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the shipwreck" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="no other details on the shipwreck" type="NP">
+          <tokens>
+            <token id="5" string="no" />
+            <token id="6" string="other" />
+            <token id="7" string="details" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="shipwreck" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="had no other details on the shipwreck" type="VP">
+          <tokens>
+            <token id="4" string="had" />
+            <token id="5" string="no" />
+            <token id="6" string="other" />
+            <token id="7" string="details" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="shipwreck" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">had</governor>
+          <dependent id="3">he</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="4">had</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="7">details</governor>
+          <dependent id="5">no</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">details</governor>
+          <dependent id="6">other</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">had</governor>
+          <dependent id="7">details</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">shipwreck</governor>
+          <dependent id="8">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">shipwreck</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">details</governor>
+          <dependent id="10">shipwreck</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>Puerto Barrios, 187 miles northeast of the capital, is Guatemala&amp;apost;s principal east coast port.</content>
+      <tokens>
+        <token id="1" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Barrios" lemma="Barrios" stem="barrio" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="187" lemma="187" stem="187" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="5" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="northeast" lemma="northeast" stem="northeast" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="capital" lemma="capital" stem="capit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Guatemala" lemma="Guatemala" stem="guatemala" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="13" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="principal" lemma="principal" stem="princip" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="east" lemma="east" stem="east" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="port" lemma="port" stem="port" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Puerto) (NNP Barrios)) (, ,) (PP (ADVP (NP (CD 187) (NNS miles)) (RB northeast)) (IN of) (NP (DT the) (NN capital))) (, ,)) (VP (VBZ is) (NP (NP (NNP Guatemala) (POS 's)) (JJ principal) (JJ east) (NN coast) (NN port))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="187 miles" type="NP">
+          <tokens>
+            <token id="4" string="187" />
+            <token id="5" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="is Guatemala 's principal east coast port" type="VP">
+          <tokens>
+            <token id="11" string="is" />
+            <token id="12" string="Guatemala" />
+            <token id="13" string="'s" />
+            <token id="14" string="principal" />
+            <token id="15" string="east" />
+            <token id="16" string="coast" />
+            <token id="17" string="port" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Puerto Barrios , 187 miles northeast of the capital ," type="NP">
+          <tokens>
+            <token id="1" string="Puerto" />
+            <token id="2" string="Barrios" />
+            <token id="3" string="," />
+            <token id="4" string="187" />
+            <token id="5" string="miles" />
+            <token id="6" string="northeast" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="capital" />
+            <token id="10" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Guatemala 's" type="NP">
+          <tokens>
+            <token id="12" string="Guatemala" />
+            <token id="13" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Puerto Barrios" type="NP">
+          <tokens>
+            <token id="1" string="Puerto" />
+            <token id="2" string="Barrios" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the capital" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="capital" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Guatemala 's principal east coast port" type="NP">
+          <tokens>
+            <token id="12" string="Guatemala" />
+            <token id="13" string="'s" />
+            <token id="14" string="principal" />
+            <token id="15" string="east" />
+            <token id="16" string="coast" />
+            <token id="17" string="port" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Barrios</governor>
+          <dependent id="1">Puerto</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">port</governor>
+          <dependent id="2">Barrios</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">miles</governor>
+          <dependent id="4">187</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="6">northeast</governor>
+          <dependent id="5">miles</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">capital</governor>
+          <dependent id="6">northeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">capital</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">capital</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">Barrios</governor>
+          <dependent id="9">capital</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="17">port</governor>
+          <dependent id="11">is</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="17">port</governor>
+          <dependent id="12">Guatemala</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Guatemala</governor>
+          <dependent id="13">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">port</governor>
+          <dependent id="14">principal</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">port</governor>
+          <dependent id="15">east</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">port</governor>
+          <dependent id="16">coast</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="17">port</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Guatemala" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Guatemala" />
+          </tokens>
+        </entity>
+        <entity id="2" string="187" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="187" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="2-3-4" string="Anibal Giron Arreola" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="10-11" string="Puerto Barrios" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1-9" string="Puerto Barrios , 187 miles northeast of the capital" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="26-27" string="Amatique Bay" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="36-37" string="the bay" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Juan Jose Gaytan" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="1" string="Gaytan" id_sentence="5" />
+        <mention ids_tokens="1" string="Gaytan" id_sentence="11" />
+        <mention ids_tokens="1" string="He" id_sentence="12" />
+        <mention ids_tokens="3" string="he" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="5-6" string="Guatemala City" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="14" string="Guatemala" id_sentence="8" />
+        <mention ids_tokens="12-13" string="Guatemala's" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6" string="The Spanish Embassy in Guatemala City" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The embassy" id_sentence="7" />
+        <mention ids_tokens="16-17" string="the embassy" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="17-18" string="Vicente Daudi" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="4" string="his" id_sentence="7" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

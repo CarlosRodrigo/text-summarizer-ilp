@@ -1,0 +1,3544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="FBIS4-4674">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>BFN Tokyo -- An F-15 fighter of the U.S. Forces on Okinawa crashed near Kadena Air Base on 4 April.</content>
+      <tokens>
+        <token id="1" string="BFN" lemma="BFN" stem="bfn" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Tokyo" lemma="Tokyo" stem="tokyo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="--" lemma="--" stem="--" pos=":" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="An" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="F-15" lemma="f-15" stem="f-15" pos="NN" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="6" string="fighter" lemma="fighter" stem="fighter" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="Forces" lemma="force" stem="forc" pos="NNS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Okinawa" lemma="Okinawa" stem="okinawa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="crashed" lemma="crash" stem="crash" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="Kadena" lemma="Kadena" stem="kadena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="16" string="Air" lemma="Air" stem="air" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="Base" lemma="Base" stem="base" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="18" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="4" lemma="4" stem="4" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="20" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP BFN) (NNP Tokyo)) (: --) (S (NP (NP (DT An) (NN F-15) (NN fighter)) (PP (IN of) (NP (NP (DT the) (NNP U.S.) (NNS Forces)) (PP (IN on) (NP (NNP Okinawa)))))) (VP (VBD crashed) (PP (IN near) (NP (NP (NNP Kadena) (NNP Air) (NNP Base)) (PP (IN on) (NP (CD 4))))) (NP-TMP (NNP April)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the U.S. Forces on Okinawa" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="U.S." />
+            <token id="10" string="Forces" />
+            <token id="11" string="on" />
+            <token id="12" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="4" type="NP">
+          <tokens>
+            <token id="19" string="4" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="BFN Tokyo" type="NP">
+          <tokens>
+            <token id="1" string="BFN" />
+            <token id="2" string="Tokyo" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="An F-15 fighter" type="NP">
+          <tokens>
+            <token id="4" string="An" />
+            <token id="5" string="F-15" />
+            <token id="6" string="fighter" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the U.S. Forces" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="U.S." />
+            <token id="10" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Okinawa" type="NP">
+          <tokens>
+            <token id="12" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="BFN Tokyo -- An F-15 fighter of the U.S. Forces on Okinawa crashed near Kadena Air Base on 4 April ." type="NP">
+          <tokens>
+            <token id="1" string="BFN" />
+            <token id="2" string="Tokyo" />
+            <token id="3" string="--" />
+            <token id="4" string="An" />
+            <token id="5" string="F-15" />
+            <token id="6" string="fighter" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="U.S." />
+            <token id="10" string="Forces" />
+            <token id="11" string="on" />
+            <token id="12" string="Okinawa" />
+            <token id="13" string="crashed" />
+            <token id="14" string="near" />
+            <token id="15" string="Kadena" />
+            <token id="16" string="Air" />
+            <token id="17" string="Base" />
+            <token id="18" string="on" />
+            <token id="19" string="4" />
+            <token id="20" string="April" />
+            <token id="21" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="An F-15 fighter of the U.S. Forces on Okinawa" type="NP">
+          <tokens>
+            <token id="4" string="An" />
+            <token id="5" string="F-15" />
+            <token id="6" string="fighter" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="U.S." />
+            <token id="10" string="Forces" />
+            <token id="11" string="on" />
+            <token id="12" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="crashed near Kadena Air Base on 4 April" type="VP">
+          <tokens>
+            <token id="13" string="crashed" />
+            <token id="14" string="near" />
+            <token id="15" string="Kadena" />
+            <token id="16" string="Air" />
+            <token id="17" string="Base" />
+            <token id="18" string="on" />
+            <token id="19" string="4" />
+            <token id="20" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Kadena Air Base on 4" type="NP">
+          <tokens>
+            <token id="15" string="Kadena" />
+            <token id="16" string="Air" />
+            <token id="17" string="Base" />
+            <token id="18" string="on" />
+            <token id="19" string="4" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Kadena Air Base" type="NP">
+          <tokens>
+            <token id="15" string="Kadena" />
+            <token id="16" string="Air" />
+            <token id="17" string="Base" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Tokyo</governor>
+          <dependent id="1">BFN</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">Tokyo</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">fighter</governor>
+          <dependent id="4">An</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">fighter</governor>
+          <dependent id="5">F-15</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">crashed</governor>
+          <dependent id="6">fighter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Forces</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Forces</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Forces</governor>
+          <dependent id="9">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">fighter</governor>
+          <dependent id="10">Forces</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Okinawa</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">Forces</governor>
+          <dependent id="12">Okinawa</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="2">Tokyo</governor>
+          <dependent id="13">crashed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Base</governor>
+          <dependent id="14">near</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Base</governor>
+          <dependent id="15">Kadena</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Base</governor>
+          <dependent id="16">Air</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">crashed</governor>
+          <dependent id="17">Base</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">4</governor>
+          <dependent id="18">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">Base</governor>
+          <dependent id="19">4</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="13">crashed</governor>
+          <dependent id="20">April</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S. Forces" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="U.S." />
+            <token id="10" string="Forces" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Okinawa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Okinawa" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Tokyo" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Tokyo" />
+          </tokens>
+        </entity>
+        <entity id="4" string="F-15" type="MISC" score="0.0">
+          <tokens>
+            <token id="5" string="F-15" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Kadena Air Base" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="15" string="Kadena" />
+            <token id="16" string="Air" />
+            <token id="17" string="Base" />
+          </tokens>
+        </entity>
+        <entity id="6" string="4 April" type="DATE" score="0.0">
+          <tokens>
+            <token id="19" string="4" />
+            <token id="20" string="April" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Commenting on the crash, Akira Takeshita, deputy director general of the Defense Facilities Administration Agency , said, &amp;quot;Such a crash should not have occurred and it is very regrettable that the crash actually occurred.&amp;quot;</content>
+      <tokens>
+        <token id="1" string="Commenting" lemma="comment" stem="comment" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Akira" lemma="Akira" stem="akira" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="7" string="Takeshita" lemma="Takeshita" stem="takeshita" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="deputy" lemma="deputy" stem="deputi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="general" lemma="general" stem="gener" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Defense" lemma="Defense" stem="defens" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="Facilities" lemma="Facilities" stem="facil" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="Administration" lemma="Administration" stem="administr" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="Agency" lemma="Agency" stem="agenci" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Such" lemma="such" stem="such" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="25" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="occurred" lemma="occur" stem="occur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="regrettable" lemma="regrettable" stem="regrett" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="37" string="actually" lemma="actually" stem="actual" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="occurred" lemma="occur" stem="occur" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (VP (VBG Commenting) (PP (IN on) (NP (DT the) (NN crash))))) (, ,) (NP (NP (NNP Akira) (NNP Takeshita)) (, ,) (NP (NP (NN deputy) (NN director) (NN general)) (PP (IN of) (NP (DT the) (NNP Defense) (NNP Facilities) (NNP Administration) (NNP Agency)))) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (S (NP (JJ Such) (DT a) (NN crash)) (VP (MD should) (RB not) (VP (VB have) (VP (VBN occurred))))) (CC and) (S (NP (PRP it)) (VP (VBZ is) (ADJP (RB very) (JJ regrettable)) (SBAR (IN that) (S (NP (DT the) (NN crash)) (ADVP (RB actually)) (VP (VBD occurred)))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="have occurred" type="VP">
+          <tokens>
+            <token id="27" string="have" />
+            <token id="28" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the crash" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="occurred" type="VP">
+          <tokens>
+            <token id="28" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Akira Takeshita , deputy director general of the Defense Facilities Administration Agency ," type="NP">
+          <tokens>
+            <token id="6" string="Akira" />
+            <token id="7" string="Takeshita" />
+            <token id="8" string="," />
+            <token id="9" string="deputy" />
+            <token id="10" string="director" />
+            <token id="11" string="general" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="Defense" />
+            <token id="15" string="Facilities" />
+            <token id="16" string="Administration" />
+            <token id="17" string="Agency" />
+            <token id="18" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="it" type="NP">
+          <tokens>
+            <token id="30" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="should not have occurred" type="VP">
+          <tokens>
+            <token id="25" string="should" />
+            <token id="26" string="not" />
+            <token id="27" string="have" />
+            <token id="28" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said , `` Such a crash should not have occurred and it is very regrettable that the crash actually occurred" type="VP">
+          <tokens>
+            <token id="19" string="said" />
+            <token id="20" string="," />
+            <token id="21" string="&quot;" />
+            <token id="22" string="Such" />
+            <token id="23" string="a" />
+            <token id="24" string="crash" />
+            <token id="25" string="should" />
+            <token id="26" string="not" />
+            <token id="27" string="have" />
+            <token id="28" string="occurred" />
+            <token id="29" string="and" />
+            <token id="30" string="it" />
+            <token id="31" string="is" />
+            <token id="32" string="very" />
+            <token id="33" string="regrettable" />
+            <token id="34" string="that" />
+            <token id="35" string="the" />
+            <token id="36" string="crash" />
+            <token id="37" string="actually" />
+            <token id="38" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="is very regrettable that the crash actually occurred" type="VP">
+          <tokens>
+            <token id="31" string="is" />
+            <token id="32" string="very" />
+            <token id="33" string="regrettable" />
+            <token id="34" string="that" />
+            <token id="35" string="the" />
+            <token id="36" string="crash" />
+            <token id="37" string="actually" />
+            <token id="38" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="deputy director general" type="NP">
+          <tokens>
+            <token id="9" string="deputy" />
+            <token id="10" string="director" />
+            <token id="11" string="general" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Commenting on the crash" type="VP">
+          <tokens>
+            <token id="1" string="Commenting" />
+            <token id="2" string="on" />
+            <token id="3" string="the" />
+            <token id="4" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the Defense Facilities Administration Agency" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Defense" />
+            <token id="15" string="Facilities" />
+            <token id="16" string="Administration" />
+            <token id="17" string="Agency" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Such a crash" type="NP">
+          <tokens>
+            <token id="22" string="Such" />
+            <token id="23" string="a" />
+            <token id="24" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="that the crash actually occurred" type="SBAR">
+          <tokens>
+            <token id="34" string="that" />
+            <token id="35" string="the" />
+            <token id="36" string="crash" />
+            <token id="37" string="actually" />
+            <token id="38" string="occurred" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="deputy director general of the Defense Facilities Administration Agency" type="NP">
+          <tokens>
+            <token id="9" string="deputy" />
+            <token id="10" string="director" />
+            <token id="11" string="general" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="Defense" />
+            <token id="15" string="Facilities" />
+            <token id="16" string="Administration" />
+            <token id="17" string="Agency" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="very regrettable" type="ADJP">
+          <tokens>
+            <token id="32" string="very" />
+            <token id="33" string="regrettable" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Akira Takeshita" type="NP">
+          <tokens>
+            <token id="6" string="Akira" />
+            <token id="7" string="Takeshita" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advcl">
+          <governor id="19">said</governor>
+          <dependent id="1">Commenting</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">crash</governor>
+          <dependent id="2">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">crash</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Commenting</governor>
+          <dependent id="4">crash</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Takeshita</governor>
+          <dependent id="6">Akira</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">said</governor>
+          <dependent id="7">Takeshita</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">general</governor>
+          <dependent id="9">deputy</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">general</governor>
+          <dependent id="10">director</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="7">Takeshita</governor>
+          <dependent id="11">general</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Agency</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">Agency</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Agency</governor>
+          <dependent id="14">Defense</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Agency</governor>
+          <dependent id="15">Facilities</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Agency</governor>
+          <dependent id="16">Administration</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">general</governor>
+          <dependent id="17">Agency</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">said</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">crash</governor>
+          <dependent id="22">Such</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">crash</governor>
+          <dependent id="23">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="28">occurred</governor>
+          <dependent id="24">crash</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="28">occurred</governor>
+          <dependent id="25">should</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="28">occurred</governor>
+          <dependent id="26">not</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="28">occurred</governor>
+          <dependent id="27">have</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="19">said</governor>
+          <dependent id="28">occurred</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">occurred</governor>
+          <dependent id="29">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">regrettable</governor>
+          <dependent id="30">it</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="33">regrettable</governor>
+          <dependent id="31">is</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="33">regrettable</governor>
+          <dependent id="32">very</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="28">occurred</governor>
+          <dependent id="33">regrettable</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="38">occurred</governor>
+          <dependent id="34">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="36">crash</governor>
+          <dependent id="35">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="38">occurred</governor>
+          <dependent id="36">crash</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="38">occurred</governor>
+          <dependent id="37">actually</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="33">regrettable</governor>
+          <dependent id="38">occurred</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="4" string="crash" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Akira Takeshita" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Akira" />
+            <token id="7" string="Takeshita" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Defense Facilities Administration Agency" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="14" string="Defense" />
+            <token id="15" string="Facilities" />
+            <token id="16" string="Administration" />
+            <token id="17" string="Agency" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>He also made it clear that shortly after the crash, the DFAA asked the command of the U.S. Forces in Japan to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="made" lemma="make" stem="made" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="clear" lemma="clear" stem="clear" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="shortly" lemma="shortly" stem="shortli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="after" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="DFAA" lemma="DFAA" stem="dfaa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="asked" lemma="ask" stem="ask" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="command" lemma="command" stem="command" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="19" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="true" />
+        <token id="20" string="Forces" lemma="Forces" stem="forc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="true" />
+        <token id="21" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Japan" lemma="Japan" stem="japan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="23" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="take" lemma="take" stem="take" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="thorough" lemma="thorough" stem="thorough" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="measures" lemma="measure" stem="measur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="safe" lemma="safe" stem="safe" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="management" lemma="management" stem="manag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="32" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="33" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="34" string="bases" lemma="basis" stem="base" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="35" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="36" string="Okinawa" lemma="Okinawa" stem="okinawa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="37" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="conduct" lemma="conduct" stem="conduct" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="40" string="thorough" lemma="thorough" stem="thorough" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="41" string="investigation" lemma="investigation" stem="investig" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="42" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="44" string="cause" lemma="cause" stem="caus" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="45" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="46" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="47" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="48" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (ADVP (RB also)) (VP (VBD made) (S (NP (PRP it)) (ADJP (JJ clear) (SBAR (IN that) (S (PP (RB shortly) (IN after) (NP (DT the) (NN crash))) (, ,) (NP (DT the) (NNP DFAA)) (VP (VBD asked) (NP (NP (DT the) (NN command)) (PP (IN of) (NP (DT the) (NNP U.S.) (NNP Forces)))) (PP (IN in) (NP (NNP Japan))) (S (VP (TO to) (VP (VP (VB take) (NP (JJ thorough) (NNS measures)) (PP (IN for) (NP (NP (JJ safe) (NN management)) (PP (IN of) (NP (NP (DT the) (NNP U.S.) (JJ military) (NNS bases)) (PP (IN on) (NP (NNP Okinawa)))))))) (CC and) (VP (VB conduct) (NP (DT a) (JJ thorough) (NN investigation)) (PP (IN into) (NP (NP (DT the) (NN cause)) (PP (IN of) (NP (DT the) (NN crash))))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the crash" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="safe management of the U.S. military bases on Okinawa" type="NP">
+          <tokens>
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a thorough investigation" type="NP">
+          <tokens>
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Japan" type="NP">
+          <tokens>
+            <token id="22" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the U.S. military bases on Okinawa" type="NP">
+          <tokens>
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="clear that shortly after the crash , the DFAA asked the command of the U.S. Forces in Japan to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="ADJP">
+          <tokens>
+            <token id="5" string="clear" />
+            <token id="6" string="that" />
+            <token id="7" string="shortly" />
+            <token id="8" string="after" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+            <token id="11" string="," />
+            <token id="12" string="the" />
+            <token id="13" string="DFAA" />
+            <token id="14" string="asked" />
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+            <token id="21" string="in" />
+            <token id="22" string="Japan" />
+            <token id="23" string="to" />
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="4" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="VP">
+          <tokens>
+            <token id="23" string="to" />
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the U.S. military bases" type="NP">
+          <tokens>
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Okinawa" type="NP">
+          <tokens>
+            <token id="36" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the cause" type="NP">
+          <tokens>
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="take thorough measures for safe management of the U.S. military bases on Okinawa" type="VP">
+          <tokens>
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the cause of the crash" type="NP">
+          <tokens>
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the DFAA" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="DFAA" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="conduct a thorough investigation into the cause of the crash" type="VP">
+          <tokens>
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="that shortly after the crash , the DFAA asked the command of the U.S. Forces in Japan to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="SBAR">
+          <tokens>
+            <token id="6" string="that" />
+            <token id="7" string="shortly" />
+            <token id="8" string="after" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+            <token id="11" string="," />
+            <token id="12" string="the" />
+            <token id="13" string="DFAA" />
+            <token id="14" string="asked" />
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+            <token id="21" string="in" />
+            <token id="22" string="Japan" />
+            <token id="23" string="to" />
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the U.S. Forces" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="safe management" type="NP">
+          <tokens>
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="thorough measures" type="NP">
+          <tokens>
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="asked the command of the U.S. Forces in Japan to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="VP">
+          <tokens>
+            <token id="14" string="asked" />
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+            <token id="21" string="in" />
+            <token id="22" string="Japan" />
+            <token id="23" string="to" />
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="VP">
+          <tokens>
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="the command" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="the command of the U.S. Forces" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="made it clear that shortly after the crash , the DFAA asked the command of the U.S. Forces in Japan to take thorough measures for safe management of the U.S. military bases on Okinawa and conduct a thorough investigation into the cause of the crash" type="VP">
+          <tokens>
+            <token id="3" string="made" />
+            <token id="4" string="it" />
+            <token id="5" string="clear" />
+            <token id="6" string="that" />
+            <token id="7" string="shortly" />
+            <token id="8" string="after" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+            <token id="11" string="," />
+            <token id="12" string="the" />
+            <token id="13" string="DFAA" />
+            <token id="14" string="asked" />
+            <token id="15" string="the" />
+            <token id="16" string="command" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+            <token id="21" string="in" />
+            <token id="22" string="Japan" />
+            <token id="23" string="to" />
+            <token id="24" string="take" />
+            <token id="25" string="thorough" />
+            <token id="26" string="measures" />
+            <token id="27" string="for" />
+            <token id="28" string="safe" />
+            <token id="29" string="management" />
+            <token id="30" string="of" />
+            <token id="31" string="the" />
+            <token id="32" string="U.S." />
+            <token id="33" string="military" />
+            <token id="34" string="bases" />
+            <token id="35" string="on" />
+            <token id="36" string="Okinawa" />
+            <token id="37" string="and" />
+            <token id="38" string="conduct" />
+            <token id="39" string="a" />
+            <token id="40" string="thorough" />
+            <token id="41" string="investigation" />
+            <token id="42" string="into" />
+            <token id="43" string="the" />
+            <token id="44" string="cause" />
+            <token id="45" string="of" />
+            <token id="46" string="the" />
+            <token id="47" string="crash" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">made</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">made</governor>
+          <dependent id="2">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">made</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">clear</governor>
+          <dependent id="4">it</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">made</governor>
+          <dependent id="5">clear</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">asked</governor>
+          <dependent id="6">that</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">crash</governor>
+          <dependent id="7">shortly</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">crash</governor>
+          <dependent id="8">after</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">crash</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">asked</governor>
+          <dependent id="10">crash</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">DFAA</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">asked</governor>
+          <dependent id="13">DFAA</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="5">clear</governor>
+          <dependent id="14">asked</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">command</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">asked</governor>
+          <dependent id="16">command</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Forces</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">Forces</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Forces</governor>
+          <dependent id="19">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">command</governor>
+          <dependent id="20">Forces</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Japan</governor>
+          <dependent id="21">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">asked</governor>
+          <dependent id="22">Japan</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">take</governor>
+          <dependent id="23">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="14">asked</governor>
+          <dependent id="24">take</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">measures</governor>
+          <dependent id="25">thorough</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">take</governor>
+          <dependent id="26">measures</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">management</governor>
+          <dependent id="27">for</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">management</governor>
+          <dependent id="28">safe</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">take</governor>
+          <dependent id="29">management</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">bases</governor>
+          <dependent id="30">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="34">bases</governor>
+          <dependent id="31">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="34">bases</governor>
+          <dependent id="32">U.S.</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="34">bases</governor>
+          <dependent id="33">military</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">management</governor>
+          <dependent id="34">bases</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="36">Okinawa</governor>
+          <dependent id="35">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="34">bases</governor>
+          <dependent id="36">Okinawa</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="24">take</governor>
+          <dependent id="37">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">take</governor>
+          <dependent id="38">conduct</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="41">investigation</governor>
+          <dependent id="39">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="41">investigation</governor>
+          <dependent id="40">thorough</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="38">conduct</governor>
+          <dependent id="41">investigation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="44">cause</governor>
+          <dependent id="42">into</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="44">cause</governor>
+          <dependent id="43">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="38">conduct</governor>
+          <dependent id="44">cause</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="47">crash</governor>
+          <dependent id="45">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="47">crash</governor>
+          <dependent id="46">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="44">cause</governor>
+          <dependent id="47">crash</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S. Forces" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="19" string="U.S." />
+            <token id="20" string="Forces" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="32" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Okinawa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="36" string="Okinawa" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Japan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="22" string="Japan" />
+          </tokens>
+        </entity>
+        <entity id="5" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="10" string="crash" />
+          </tokens>
+        </entity>
+        <entity id="6" string="DFAA" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="13" string="DFAA" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>The Kadena Air Base public affairs office gave a briefing on the crash and the DFAA released the briefing.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Kadena" lemma="Kadena" stem="kadena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="3" string="Air" lemma="Air" stem="air" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="4" string="Base" lemma="Base" stem="base" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="5" string="public" lemma="public" stem="public" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="affairs" lemma="affair" stem="affair" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="office" lemma="office" stem="offic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="gave" lemma="give" stem="gave" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="briefing" lemma="briefing" stem="brief" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="DFAA" lemma="DFAA" stem="dfaa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="released" lemma="release" stem="releas" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="briefing" lemma="briefing" stem="brief" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NNP Kadena) (NNP Air) (NNP Base) (JJ public) (NNS affairs) (NN office)) (VP (VBD gave) (NP (DT a) (NN briefing)) (PP (IN on) (NP (DT the) (NN crash))))) (CC and) (S (NP (DT the) (NNP DFAA)) (VP (VBD released) (NP (DT the) (NN briefing)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a briefing" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="briefing" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the crash" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the briefing" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="briefing" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="released the briefing" type="VP">
+          <tokens>
+            <token id="17" string="released" />
+            <token id="18" string="the" />
+            <token id="19" string="briefing" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The Kadena Air Base public affairs office" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Kadena" />
+            <token id="3" string="Air" />
+            <token id="4" string="Base" />
+            <token id="5" string="public" />
+            <token id="6" string="affairs" />
+            <token id="7" string="office" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the DFAA" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="DFAA" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="gave a briefing on the crash" type="VP">
+          <tokens>
+            <token id="8" string="gave" />
+            <token id="9" string="a" />
+            <token id="10" string="briefing" />
+            <token id="11" string="on" />
+            <token id="12" string="the" />
+            <token id="13" string="crash" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="7">office</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">office</governor>
+          <dependent id="2">Kadena</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">office</governor>
+          <dependent id="3">Air</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">office</governor>
+          <dependent id="4">Base</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">office</governor>
+          <dependent id="5">public</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">office</governor>
+          <dependent id="6">affairs</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">gave</governor>
+          <dependent id="7">office</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">gave</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">briefing</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">gave</governor>
+          <dependent id="10">briefing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">crash</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">crash</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">gave</governor>
+          <dependent id="13">crash</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">gave</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">DFAA</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">released</governor>
+          <dependent id="16">DFAA</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">gave</governor>
+          <dependent id="17">released</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">briefing</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="17">released</governor>
+          <dependent id="19">briefing</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Kadena Air Base" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Kadena" />
+            <token id="3" string="Air" />
+            <token id="4" string="Base" />
+          </tokens>
+        </entity>
+        <entity id="2" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="13" string="crash" />
+          </tokens>
+        </entity>
+        <entity id="3" string="DFAA" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="16" string="DFAA" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>The briefing said: An F-15 fighter taking off from Kadena Air Base on a routine training crashed near the air base at 0924 on 4 April.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="briefing" lemma="briefing" stem="brief" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="An" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="F-15" lemma="f-15" stem="f-15" pos="NN" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="7" string="fighter" lemma="fighter" stem="fighter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="taking" lemma="take" stem="take" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="off" lemma="off" stem="off" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Kadena" lemma="Kadena" stem="kadena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Air" lemma="Air" stem="air" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="Base" lemma="Base" stem="base" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="routine" lemma="routine" stem="routin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="training" lemma="training" stem="train" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="crashed" lemma="crash" stem="crash" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="air" lemma="air" stem="air" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="base" lemma="base" stem="base" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="0924" lemma="0924" stem="0924" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="25" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="4" lemma="4" stem="4" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="27" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NN briefing)) (VP (VBD said))) (: :) (S (NP (NP (DT An) (NN F-15) (NN fighter)) (VP (VBG taking) (PRT (RP off)) (PP (IN from) (NP (NP (NNP Kadena) (NNP Air) (NNP Base)) (PP (IN on) (NP (DT a) (JJ routine) (NN training))))))) (VP (VBD crashed) (PP (IN near) (NP (NP (DT the) (NN air) (NN base)) (PP (IN at) (NP (CD 0924))))) (PP (IN on) (NP (CD 4))) (NP-TMP (NNP April)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="crashed near the air base at 0924 on 4 April" type="VP">
+          <tokens>
+            <token id="18" string="crashed" />
+            <token id="19" string="near" />
+            <token id="20" string="the" />
+            <token id="21" string="air" />
+            <token id="22" string="base" />
+            <token id="23" string="at" />
+            <token id="24" string="0924" />
+            <token id="25" string="on" />
+            <token id="26" string="4" />
+            <token id="27" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Kadena Air Base on a routine training" type="NP">
+          <tokens>
+            <token id="11" string="Kadena" />
+            <token id="12" string="Air" />
+            <token id="13" string="Base" />
+            <token id="14" string="on" />
+            <token id="15" string="a" />
+            <token id="16" string="routine" />
+            <token id="17" string="training" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="4" type="NP">
+          <tokens>
+            <token id="26" string="4" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="An F-15 fighter" type="NP">
+          <tokens>
+            <token id="5" string="An" />
+            <token id="6" string="F-15" />
+            <token id="7" string="fighter" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The briefing" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="briefing" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="An F-15 fighter taking off from Kadena Air Base on a routine training" type="NP">
+          <tokens>
+            <token id="5" string="An" />
+            <token id="6" string="F-15" />
+            <token id="7" string="fighter" />
+            <token id="8" string="taking" />
+            <token id="9" string="off" />
+            <token id="10" string="from" />
+            <token id="11" string="Kadena" />
+            <token id="12" string="Air" />
+            <token id="13" string="Base" />
+            <token id="14" string="on" />
+            <token id="15" string="a" />
+            <token id="16" string="routine" />
+            <token id="17" string="training" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a routine training" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="routine" />
+            <token id="17" string="training" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="0924" type="NP">
+          <tokens>
+            <token id="24" string="0924" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the air base" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="air" />
+            <token id="22" string="base" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="taking off from Kadena Air Base on a routine training" type="VP">
+          <tokens>
+            <token id="8" string="taking" />
+            <token id="9" string="off" />
+            <token id="10" string="from" />
+            <token id="11" string="Kadena" />
+            <token id="12" string="Air" />
+            <token id="13" string="Base" />
+            <token id="14" string="on" />
+            <token id="15" string="a" />
+            <token id="16" string="routine" />
+            <token id="17" string="training" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Kadena Air Base" type="NP">
+          <tokens>
+            <token id="11" string="Kadena" />
+            <token id="12" string="Air" />
+            <token id="13" string="Base" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the air base at 0924" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="air" />
+            <token id="22" string="base" />
+            <token id="23" string="at" />
+            <token id="24" string="0924" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">briefing</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="2">briefing</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">fighter</governor>
+          <dependent id="5">An</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">fighter</governor>
+          <dependent id="6">F-15</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">crashed</governor>
+          <dependent id="7">fighter</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="7">fighter</governor>
+          <dependent id="8">taking</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="8">taking</governor>
+          <dependent id="9">off</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Base</governor>
+          <dependent id="10">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Base</governor>
+          <dependent id="11">Kadena</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Base</governor>
+          <dependent id="12">Air</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">taking</governor>
+          <dependent id="13">Base</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">training</governor>
+          <dependent id="14">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">training</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">training</governor>
+          <dependent id="16">routine</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">Base</governor>
+          <dependent id="17">training</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="3">said</governor>
+          <dependent id="18">crashed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">base</governor>
+          <dependent id="19">near</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">base</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">base</governor>
+          <dependent id="21">air</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">crashed</governor>
+          <dependent id="22">base</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">0924</governor>
+          <dependent id="23">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">base</governor>
+          <dependent id="24">0924</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">4</governor>
+          <dependent id="25">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">crashed</governor>
+          <dependent id="26">4</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="18">crashed</governor>
+          <dependent id="27">April</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="F-15" type="MISC" score="0.0">
+          <tokens>
+            <token id="6" string="F-15" />
+          </tokens>
+        </entity>
+        <entity id="2" string="0924" type="DATE" score="0.0">
+          <tokens>
+            <token id="24" string="0924" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Kadena Air Base" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Kadena" />
+            <token id="12" string="Air" />
+            <token id="13" string="Base" />
+          </tokens>
+        </entity>
+        <entity id="4" string="4 April" type="DATE" score="0.0">
+          <tokens>
+            <token id="26" string="4" />
+            <token id="27" string="April" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="false">
+      <content>The crashed aircraft belonged to the 44th Fighter Squadron of the 18th Wing and the pilot safely ejected from the aircraft without injuries.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="crashed" lemma="crash" stem="crash" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="aircraft" lemma="aircraft" stem="aircraft" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="belonged" lemma="belong" stem="belong" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="44th" lemma="44th" stem="44th" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="8" string="Fighter" lemma="Fighter" stem="fighter" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="9" string="Squadron" lemma="Squadron" stem="squadron" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="18th" lemma="18th" stem="18th" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="13" string="Wing" lemma="wing" stem="wing" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="pilot" lemma="pilot" stem="pilot" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="safely" lemma="safely" stem="safe" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="ejected" lemma="eject" stem="eject" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="aircraft" lemma="aircraft" stem="aircraft" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="without" lemma="without" stem="without" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="injuries" lemma="injury" stem="injuri" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (VBN crashed) (NN aircraft)) (VP (VBD belonged) (PP (TO to) (NP (NP (NP (DT the) (JJ 44th) (NNP Fighter) (NNP Squadron)) (PP (IN of) (NP (DT the) (JJ 18th) (NN Wing)))) (CC and) (NP (NP (DT the) (NN pilot)) (VP (ADVP (RB safely)) (VBN ejected) (PP (IN from) (NP (DT the) (NN aircraft))) (PP (IN without) (NP (NNS injuries)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the pilot" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="pilot" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="safely ejected from the aircraft without injuries" type="VP">
+          <tokens>
+            <token id="17" string="safely" />
+            <token id="18" string="ejected" />
+            <token id="19" string="from" />
+            <token id="20" string="the" />
+            <token id="21" string="aircraft" />
+            <token id="22" string="without" />
+            <token id="23" string="injuries" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the 44th Fighter Squadron of the 18th Wing" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="44th" />
+            <token id="8" string="Fighter" />
+            <token id="9" string="Squadron" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="18th" />
+            <token id="13" string="Wing" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the 44th Fighter Squadron" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="44th" />
+            <token id="8" string="Fighter" />
+            <token id="9" string="Squadron" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the pilot safely ejected from the aircraft without injuries" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="pilot" />
+            <token id="17" string="safely" />
+            <token id="18" string="ejected" />
+            <token id="19" string="from" />
+            <token id="20" string="the" />
+            <token id="21" string="aircraft" />
+            <token id="22" string="without" />
+            <token id="23" string="injuries" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the 18th Wing" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="18th" />
+            <token id="13" string="Wing" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the aircraft" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="aircraft" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="injuries" type="NP">
+          <tokens>
+            <token id="23" string="injuries" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the 44th Fighter Squadron of the 18th Wing and the pilot safely ejected from the aircraft without injuries" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="44th" />
+            <token id="8" string="Fighter" />
+            <token id="9" string="Squadron" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="18th" />
+            <token id="13" string="Wing" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="pilot" />
+            <token id="17" string="safely" />
+            <token id="18" string="ejected" />
+            <token id="19" string="from" />
+            <token id="20" string="the" />
+            <token id="21" string="aircraft" />
+            <token id="22" string="without" />
+            <token id="23" string="injuries" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="The crashed aircraft" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="crashed" />
+            <token id="3" string="aircraft" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="belonged to the 44th Fighter Squadron of the 18th Wing and the pilot safely ejected from the aircraft without injuries" type="VP">
+          <tokens>
+            <token id="4" string="belonged" />
+            <token id="5" string="to" />
+            <token id="6" string="the" />
+            <token id="7" string="44th" />
+            <token id="8" string="Fighter" />
+            <token id="9" string="Squadron" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="18th" />
+            <token id="13" string="Wing" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="pilot" />
+            <token id="17" string="safely" />
+            <token id="18" string="ejected" />
+            <token id="19" string="from" />
+            <token id="20" string="the" />
+            <token id="21" string="aircraft" />
+            <token id="22" string="without" />
+            <token id="23" string="injuries" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">aircraft</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">aircraft</governor>
+          <dependent id="2">crashed</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">belonged</governor>
+          <dependent id="3">aircraft</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">belonged</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Squadron</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">Squadron</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">Squadron</governor>
+          <dependent id="7">44th</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Squadron</governor>
+          <dependent id="8">Fighter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">belonged</governor>
+          <dependent id="9">Squadron</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Wing</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Wing</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">Wing</governor>
+          <dependent id="12">18th</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Squadron</governor>
+          <dependent id="13">Wing</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">Squadron</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">pilot</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">Squadron</governor>
+          <dependent id="16">pilot</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">ejected</governor>
+          <dependent id="17">safely</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="16">pilot</governor>
+          <dependent id="18">ejected</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">aircraft</governor>
+          <dependent id="19">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">aircraft</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">ejected</governor>
+          <dependent id="21">aircraft</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">injuries</governor>
+          <dependent id="22">without</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">ejected</governor>
+          <dependent id="23">injuries</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="44th" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="7" string="44th" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Fighter Squadron" type="MISC" score="0.0">
+          <tokens>
+            <token id="8" string="Fighter" />
+            <token id="9" string="Squadron" />
+          </tokens>
+        </entity>
+        <entity id="3" string="18th" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="12" string="18th" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>A team will begin investigating the cause of the crash and details of the accident will be made public once the investigation is completed.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="team" lemma="team" stem="team" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="begin" lemma="begin" stem="begin" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="investigating" lemma="investigate" stem="investig" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="cause" lemma="cause" stem="caus" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="details" lemma="detail" stem="detail" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="accident" lemma="accident" stem="accid" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="16" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="made" lemma="make" stem="made" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="public" lemma="public" stem="public" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="once" lemma="once" stem="onc" pos="RB" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="22" string="investigation" lemma="investigation" stem="investig" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="23" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="completed" lemma="complete" stem="complet" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT A) (NN team)) (VP (MD will) (VP (VB begin) (S (VP (VBG investigating) (NP (NP (DT the) (NN cause)) (PP (IN of) (NP (DT the) (NN crash))))))))) (CC and) (S (NP (NP (NNS details)) (PP (IN of) (NP (DT the) (NN accident)))) (VP (MD will) (VP (VB be) (VP (VBN made) (ADJP (JJ public)) (SBAR (RB once) (S (NP (DT the) (NN investigation)) (VP (VBZ is) (VP (VBN completed))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the crash" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="details of the accident" type="NP">
+          <tokens>
+            <token id="12" string="details" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="accident" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="once the investigation is completed" type="SBAR">
+          <tokens>
+            <token id="20" string="once" />
+            <token id="21" string="the" />
+            <token id="22" string="investigation" />
+            <token id="23" string="is" />
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="completed" type="VP">
+          <tokens>
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="made public once the investigation is completed" type="VP">
+          <tokens>
+            <token id="18" string="made" />
+            <token id="19" string="public" />
+            <token id="20" string="once" />
+            <token id="21" string="the" />
+            <token id="22" string="investigation" />
+            <token id="23" string="is" />
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="begin investigating the cause of the crash" type="VP">
+          <tokens>
+            <token id="4" string="begin" />
+            <token id="5" string="investigating" />
+            <token id="6" string="the" />
+            <token id="7" string="cause" />
+            <token id="8" string="of" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the accident" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="accident" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="will begin investigating the cause of the crash" type="VP">
+          <tokens>
+            <token id="3" string="will" />
+            <token id="4" string="begin" />
+            <token id="5" string="investigating" />
+            <token id="6" string="the" />
+            <token id="7" string="cause" />
+            <token id="8" string="of" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the investigation" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="investigation" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the cause" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="cause" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="will be made public once the investigation is completed" type="VP">
+          <tokens>
+            <token id="16" string="will" />
+            <token id="17" string="be" />
+            <token id="18" string="made" />
+            <token id="19" string="public" />
+            <token id="20" string="once" />
+            <token id="21" string="the" />
+            <token id="22" string="investigation" />
+            <token id="23" string="is" />
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="public" type="ADJP">
+          <tokens>
+            <token id="19" string="public" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="be made public once the investigation is completed" type="VP">
+          <tokens>
+            <token id="17" string="be" />
+            <token id="18" string="made" />
+            <token id="19" string="public" />
+            <token id="20" string="once" />
+            <token id="21" string="the" />
+            <token id="22" string="investigation" />
+            <token id="23" string="is" />
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="details" type="NP">
+          <tokens>
+            <token id="12" string="details" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the cause of the crash" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="cause" />
+            <token id="8" string="of" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="is completed" type="VP">
+          <tokens>
+            <token id="23" string="is" />
+            <token id="24" string="completed" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="A team" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="team" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="investigating the cause of the crash" type="VP">
+          <tokens>
+            <token id="5" string="investigating" />
+            <token id="6" string="the" />
+            <token id="7" string="cause" />
+            <token id="8" string="of" />
+            <token id="9" string="the" />
+            <token id="10" string="crash" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">team</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">begin</governor>
+          <dependent id="2">team</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">begin</governor>
+          <dependent id="3">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">begin</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="4">begin</governor>
+          <dependent id="5">investigating</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">cause</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">investigating</governor>
+          <dependent id="7">cause</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">crash</governor>
+          <dependent id="8">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">crash</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">cause</governor>
+          <dependent id="10">crash</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">begin</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="18">made</governor>
+          <dependent id="12">details</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">accident</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">accident</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">details</governor>
+          <dependent id="15">accident</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">made</governor>
+          <dependent id="16">will</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="18">made</governor>
+          <dependent id="17">be</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">begin</governor>
+          <dependent id="18">made</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="18">made</governor>
+          <dependent id="19">public</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">completed</governor>
+          <dependent id="20">once</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">investigation</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">completed</governor>
+          <dependent id="22">investigation</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">completed</governor>
+          <dependent id="23">is</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">made</governor>
+          <dependent id="24">completed</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="once" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="once" />
+          </tokens>
+        </entity>
+        <entity id="2" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="10" string="crash" />
+          </tokens>
+        </entity>
+        <entity id="3" string="accident" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="15" string="accident" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The U.S. military aircraft crashed about 800 meters northeast of a Kadena Air Base runway and the crash site is within the air base&amp;apost;s facilities.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="aircraft" lemma="aircraft" stem="aircraft" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="crashed" lemma="crash" stem="crash" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="800" lemma="800" stem="800" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="meters" lemma="meter" stem="meter" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="northeast" lemma="northeast" stem="northeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Kadena" lemma="Kadena" stem="kadena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="13" string="Air" lemma="Air" stem="air" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="14" string="Base" lemma="Base" stem="base" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="15" string="runway" lemma="runway" stem="runwai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="19" string="site" lemma="site" stem="site" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="within" lemma="within" stem="within" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="23" string="air" lemma="air" stem="air" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="24" string="base" lemma="base" stem="base" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="25" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="facilities" lemma="facility" stem="facil" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NNP U.S.) (JJ military) (NN aircraft)) (VP (VBD crashed) (PP (IN about) (NP (NP (CD 800) (NNS meters)) (SBAR (S (NP (NP (NN northeast)) (PP (IN of) (NP (NP (DT a) (NNP Kadena) (NNP Air) (NNP Base) (NN runway)) (CC and) (NP (DT the) (NN crash) (NN site))))) (VP (VBZ is) (PP (IN within) (NP (NP (DT the) (NN air) (NN base) (POS 's)) (NNS facilities))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="northeast of a Kadena Air Base runway and the crash site is within the air base 's facilities" type="SBAR">
+          <tokens>
+            <token id="9" string="northeast" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+            <token id="16" string="and" />
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+            <token id="20" string="is" />
+            <token id="21" string="within" />
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+            <token id="26" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="northeast of a Kadena Air Base runway and the crash site" type="NP">
+          <tokens>
+            <token id="9" string="northeast" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+            <token id="16" string="and" />
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the air base 's facilities" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+            <token id="26" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="northeast" type="NP">
+          <tokens>
+            <token id="9" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The U.S. military aircraft" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="U.S." />
+            <token id="3" string="military" />
+            <token id="4" string="aircraft" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the air base 's" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="800 meters northeast of a Kadena Air Base runway and the crash site is within the air base 's facilities" type="NP">
+          <tokens>
+            <token id="7" string="800" />
+            <token id="8" string="meters" />
+            <token id="9" string="northeast" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+            <token id="16" string="and" />
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+            <token id="20" string="is" />
+            <token id="21" string="within" />
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+            <token id="26" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a Kadena Air Base runway and the crash site" type="NP">
+          <tokens>
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+            <token id="16" string="and" />
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="is within the air base 's facilities" type="VP">
+          <tokens>
+            <token id="20" string="is" />
+            <token id="21" string="within" />
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+            <token id="26" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a Kadena Air Base runway" type="NP">
+          <tokens>
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="crashed about 800 meters northeast of a Kadena Air Base runway and the crash site is within the air base 's facilities" type="VP">
+          <tokens>
+            <token id="5" string="crashed" />
+            <token id="6" string="about" />
+            <token id="7" string="800" />
+            <token id="8" string="meters" />
+            <token id="9" string="northeast" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+            <token id="15" string="runway" />
+            <token id="16" string="and" />
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+            <token id="20" string="is" />
+            <token id="21" string="within" />
+            <token id="22" string="the" />
+            <token id="23" string="air" />
+            <token id="24" string="base" />
+            <token id="25" string="'s" />
+            <token id="26" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the crash site" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="crash" />
+            <token id="19" string="site" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="800 meters" type="NP">
+          <tokens>
+            <token id="7" string="800" />
+            <token id="8" string="meters" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">aircraft</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">aircraft</governor>
+          <dependent id="2">U.S.</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">aircraft</governor>
+          <dependent id="3">military</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">crashed</governor>
+          <dependent id="4">aircraft</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">crashed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">meters</governor>
+          <dependent id="6">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">meters</governor>
+          <dependent id="7">800</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">crashed</governor>
+          <dependent id="8">meters</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="26">facilities</governor>
+          <dependent id="9">northeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">runway</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">runway</governor>
+          <dependent id="11">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">runway</governor>
+          <dependent id="12">Kadena</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">runway</governor>
+          <dependent id="13">Air</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">runway</governor>
+          <dependent id="14">Base</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">northeast</governor>
+          <dependent id="15">runway</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="15">runway</governor>
+          <dependent id="16">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">site</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">site</governor>
+          <dependent id="18">crash</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">runway</governor>
+          <dependent id="19">site</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="26">facilities</governor>
+          <dependent id="20">is</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">facilities</governor>
+          <dependent id="21">within</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">base</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">base</governor>
+          <dependent id="23">air</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="26">facilities</governor>
+          <dependent id="24">base</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">base</governor>
+          <dependent id="25">'s</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="8">meters</governor>
+          <dependent id="26">facilities</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="2" string="800" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="800" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Kadena Air Base" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Kadena" />
+            <token id="13" string="Air" />
+            <token id="14" string="Base" />
+          </tokens>
+        </entity>
+        <entity id="4" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="18" string="crash" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Mr. Takeshita said: &amp;quot;As for the safe management of the U.S. military bases on Okinawa, we have long asked the U.S. side for it.</content>
+      <tokens>
+        <token id="1" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Takeshita" lemma="Takeshita" stem="takeshita" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="As" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="safe" lemma="safe" stem="safe" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="management" lemma="management" stem="manag" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="bases" lemma="basis" stem="base" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="Okinawa" lemma="Okinawa" stem="okinawa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="long" lemma="long" stem="long" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="asked" lemma="ask" stem="ask" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="side" lemma="side" stem="side" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Mr.) (NNP Takeshita)) (VP (VBD said) (: :) (`` ``) (S (PP (IN As) (PP (IN for) (NP (NP (DT the) (JJ safe) (NN management)) (PP (IN of) (NP (NP (DT the) (NNP U.S.) (JJ military) (NNS bases)) (PP (IN on) (NP (NNP Okinawa)))))))) (, ,) (NP (PRP we)) (VP (VBP have) (ADVP (JJ long)) (VP (VBD asked) (NP (DT the) (NNP U.S.) (NN side)) (PP (IN for) (NP (PRP it))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said : `` As for the safe management of the U.S. military bases on Okinawa , we have long asked the U.S. side for it" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+            <token id="4" string=":" />
+            <token id="5" string="&quot;" />
+            <token id="6" string="As" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="safe" />
+            <token id="10" string="management" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="U.S." />
+            <token id="14" string="military" />
+            <token id="15" string="bases" />
+            <token id="16" string="on" />
+            <token id="17" string="Okinawa" />
+            <token id="18" string="," />
+            <token id="19" string="we" />
+            <token id="20" string="have" />
+            <token id="21" string="long" />
+            <token id="22" string="asked" />
+            <token id="23" string="the" />
+            <token id="24" string="U.S." />
+            <token id="25" string="side" />
+            <token id="26" string="for" />
+            <token id="27" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Okinawa" type="NP">
+          <tokens>
+            <token id="17" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the U.S. military bases on Okinawa" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="U.S." />
+            <token id="14" string="military" />
+            <token id="15" string="bases" />
+            <token id="16" string="on" />
+            <token id="17" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Mr. Takeshita" type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Takeshita" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the safe management of the U.S. military bases on Okinawa" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="safe" />
+            <token id="10" string="management" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="U.S." />
+            <token id="14" string="military" />
+            <token id="15" string="bases" />
+            <token id="16" string="on" />
+            <token id="17" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="have long asked the U.S. side for it" type="VP">
+          <tokens>
+            <token id="20" string="have" />
+            <token id="21" string="long" />
+            <token id="22" string="asked" />
+            <token id="23" string="the" />
+            <token id="24" string="U.S." />
+            <token id="25" string="side" />
+            <token id="26" string="for" />
+            <token id="27" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="asked the U.S. side for it" type="VP">
+          <tokens>
+            <token id="22" string="asked" />
+            <token id="23" string="the" />
+            <token id="24" string="U.S." />
+            <token id="25" string="side" />
+            <token id="26" string="for" />
+            <token id="27" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="it" type="NP">
+          <tokens>
+            <token id="27" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the safe management" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="safe" />
+            <token id="10" string="management" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the U.S. military bases" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="U.S." />
+            <token id="14" string="military" />
+            <token id="15" string="bases" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="we" type="NP">
+          <tokens>
+            <token id="19" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the U.S. side" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="U.S." />
+            <token id="25" string="side" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Takeshita</governor>
+          <dependent id="1">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="2">Takeshita</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">management</governor>
+          <dependent id="6">As</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="6">As</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">management</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">management</governor>
+          <dependent id="9">safe</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">asked</governor>
+          <dependent id="10">management</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">bases</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">bases</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">bases</governor>
+          <dependent id="13">U.S.</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">bases</governor>
+          <dependent id="14">military</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">management</governor>
+          <dependent id="15">bases</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Okinawa</governor>
+          <dependent id="16">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">bases</governor>
+          <dependent id="17">Okinawa</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">asked</governor>
+          <dependent id="19">we</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">asked</governor>
+          <dependent id="20">have</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">asked</governor>
+          <dependent id="21">long</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">said</governor>
+          <dependent id="22">asked</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">side</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">side</governor>
+          <dependent id="24">U.S.</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">asked</governor>
+          <dependent id="25">side</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">it</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">asked</governor>
+          <dependent id="27">it</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="13" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="2" string="Okinawa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="17" string="Okinawa" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Takeshita" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Takeshita" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>The DFAA immediately expressed regret to the command of the U.S. Forces in Yokota over the crash and the Naha DFAA Bureau expressed regret to the commander of the U.S. Forces on Okinawa.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="DFAA" lemma="DFAA" stem="dfaa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="immediately" lemma="immediately" stem="immedi" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="expressed" lemma="express" stem="express" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="regret" lemma="regret" stem="regret" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="command" lemma="command" stem="command" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="12" string="Forces" lemma="Forces" stem="forc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="13" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Yokota" lemma="Yokota" stem="yokota" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="crash" lemma="crash" stem="crash" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="18" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Naha" lemma="Naha" stem="naha" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="DFAA" lemma="DFAA" stem="dfaa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="Bureau" lemma="Bureau" stem="bureau" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="expressed" lemma="express" stem="express" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="regret" lemma="regret" stem="regret" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="commander" lemma="commander" stem="command" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="30" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="31" string="Forces" lemma="force" stem="forc" pos="NNS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="32" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="Okinawa" lemma="Okinawa" stem="okinawa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NNP DFAA)) (ADVP (RB immediately)) (VP (VBD expressed) (NP (NN regret)) (PP (TO to) (NP (NP (DT the) (NN command)) (PP (IN of) (NP (DT the) (NNP U.S.) (NNP Forces))))) (PP (IN in) (NP (NP (NNP Yokota)) (PP (IN over) (NP (DT the) (NN crash))))))) (CC and) (S (NP (DT the) (NNP Naha) (NNP DFAA) (NNP Bureau)) (VP (VBD expressed) (NP (NN regret)) (PP (TO to) (NP (NP (DT the) (NN commander)) (PP (IN of) (NP (DT the) (NNP U.S.) (NNS Forces))))) (PP (IN on) (NP (NNP Okinawa))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the crash" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="regret" type="NP">
+          <tokens>
+            <token id="5" string="regret" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the U.S. Forces" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="U.S." />
+            <token id="12" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="expressed regret to the command of the U.S. Forces in Yokota over the crash" type="VP">
+          <tokens>
+            <token id="4" string="expressed" />
+            <token id="5" string="regret" />
+            <token id="6" string="to" />
+            <token id="7" string="the" />
+            <token id="8" string="command" />
+            <token id="9" string="of" />
+            <token id="10" string="the" />
+            <token id="11" string="U.S." />
+            <token id="12" string="Forces" />
+            <token id="13" string="in" />
+            <token id="14" string="Yokota" />
+            <token id="15" string="over" />
+            <token id="16" string="the" />
+            <token id="17" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Yokota" type="NP">
+          <tokens>
+            <token id="14" string="Yokota" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Okinawa" type="NP">
+          <tokens>
+            <token id="33" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the commander" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="commander" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The DFAA" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="DFAA" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the commander of the U.S. Forces" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="commander" />
+            <token id="28" string="of" />
+            <token id="29" string="the" />
+            <token id="30" string="U.S." />
+            <token id="31" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Yokota over the crash" type="NP">
+          <tokens>
+            <token id="14" string="Yokota" />
+            <token id="15" string="over" />
+            <token id="16" string="the" />
+            <token id="17" string="crash" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the command" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="command" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="expressed regret to the commander of the U.S. Forces on Okinawa" type="VP">
+          <tokens>
+            <token id="23" string="expressed" />
+            <token id="24" string="regret" />
+            <token id="25" string="to" />
+            <token id="26" string="the" />
+            <token id="27" string="commander" />
+            <token id="28" string="of" />
+            <token id="29" string="the" />
+            <token id="30" string="U.S." />
+            <token id="31" string="Forces" />
+            <token id="32" string="on" />
+            <token id="33" string="Okinawa" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the command of the U.S. Forces" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="command" />
+            <token id="9" string="of" />
+            <token id="10" string="the" />
+            <token id="11" string="U.S." />
+            <token id="12" string="Forces" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the Naha DFAA Bureau" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="Naha" />
+            <token id="21" string="DFAA" />
+            <token id="22" string="Bureau" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">DFAA</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">expressed</governor>
+          <dependent id="2">DFAA</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="4">expressed</governor>
+          <dependent id="3">immediately</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">expressed</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">expressed</governor>
+          <dependent id="5">regret</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">command</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">command</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">expressed</governor>
+          <dependent id="8">command</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Forces</governor>
+          <dependent id="9">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">Forces</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Forces</governor>
+          <dependent id="11">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">command</governor>
+          <dependent id="12">Forces</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Yokota</governor>
+          <dependent id="13">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">expressed</governor>
+          <dependent id="14">Yokota</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">crash</governor>
+          <dependent id="15">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">crash</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">Yokota</governor>
+          <dependent id="17">crash</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">expressed</governor>
+          <dependent id="18">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">Bureau</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Bureau</governor>
+          <dependent id="20">Naha</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Bureau</governor>
+          <dependent id="21">DFAA</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">expressed</governor>
+          <dependent id="22">Bureau</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">expressed</governor>
+          <dependent id="23">expressed</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">expressed</governor>
+          <dependent id="24">regret</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">commander</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">commander</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">expressed</governor>
+          <dependent id="27">commander</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">Forces</governor>
+          <dependent id="28">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">Forces</governor>
+          <dependent id="29">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">Forces</governor>
+          <dependent id="30">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">commander</governor>
+          <dependent id="31">Forces</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">Okinawa</governor>
+          <dependent id="32">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">expressed</governor>
+          <dependent id="33">Okinawa</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S. Forces" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="11" string="U.S." />
+            <token id="12" string="Forces" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Naha DFAA Bureau" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="20" string="Naha" />
+            <token id="21" string="DFAA" />
+            <token id="22" string="Bureau" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Okinawa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="33" string="Okinawa" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Yokota" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="14" string="Yokota" />
+          </tokens>
+        </entity>
+        <entity id="5" string="DFAA" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="DFAA" />
+          </tokens>
+        </entity>
+        <entity id="6" string="crash" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="17" string="crash" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="false">
+      <content>We will continue to ask them to work for the safe management of the U.S. military bases in Japan.&amp;quot;</content>
+      <tokens>
+        <token id="1" string="We" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="continue" lemma="continue" stem="continu" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="ask" lemma="ask" stem="ask" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="work" lemma="work" stem="work" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="safe" lemma="safe" stem="safe" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="management" lemma="management" stem="manag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="bases" lemma="basis" stem="base" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Japan" lemma="Japan" stem="japan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP We)) (VP (MD will) (VP (VB continue) (S (VP (TO to) (VP (VB ask) (S (NP (PRP them)) (VP (TO to) (VP (VB work) (PP (IN for) (NP (NP (DT the) (JJ safe) (NN management)) (PP (IN of) (NP (NP (DT the) (NNP U.S.) (JJ military) (NNS bases)) (PP (IN in) (NP (NNP Japan))))))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="will continue to ask them to work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="2" string="will" />
+            <token id="3" string="continue" />
+            <token id="4" string="to" />
+            <token id="5" string="ask" />
+            <token id="6" string="them" />
+            <token id="7" string="to" />
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the U.S. military bases in Japan" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Japan" type="NP">
+          <tokens>
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="ask them to work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="5" string="ask" />
+            <token id="6" string="them" />
+            <token id="7" string="to" />
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to ask them to work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="4" string="to" />
+            <token id="5" string="ask" />
+            <token id="6" string="them" />
+            <token id="7" string="to" />
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the safe management" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="We" type="NP">
+          <tokens>
+            <token id="1" string="We" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="them" type="NP">
+          <tokens>
+            <token id="6" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the U.S. military bases" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="continue to ask them to work for the safe management of the U.S. military bases in Japan" type="VP">
+          <tokens>
+            <token id="3" string="continue" />
+            <token id="4" string="to" />
+            <token id="5" string="ask" />
+            <token id="6" string="them" />
+            <token id="7" string="to" />
+            <token id="8" string="work" />
+            <token id="9" string="for" />
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the safe management of the U.S. military bases in Japan" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="safe" />
+            <token id="12" string="management" />
+            <token id="13" string="of" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="military" />
+            <token id="17" string="bases" />
+            <token id="18" string="in" />
+            <token id="19" string="Japan" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">continue</governor>
+          <dependent id="1">We</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">continue</governor>
+          <dependent id="2">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">continue</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="5">ask</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">continue</governor>
+          <dependent id="5">ask</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">ask</governor>
+          <dependent id="6">them</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">work</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">ask</governor>
+          <dependent id="8">work</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">management</governor>
+          <dependent id="9">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">management</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">management</governor>
+          <dependent id="11">safe</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">work</governor>
+          <dependent id="12">management</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">bases</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">bases</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">bases</governor>
+          <dependent id="15">U.S.</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">bases</governor>
+          <dependent id="16">military</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">management</governor>
+          <dependent id="17">bases</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Japan</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">bases</governor>
+          <dependent id="19">Japan</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="15" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="2" string="Japan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Japan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21" string="BFN Tokyo -- An F-15 fighter of the U.S. Forces on Okinawa crashed near Kadena Air Base on 4 April ." id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="33" string="Okinawa" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="8-9-10-11-12" string="the U.S. Forces on Okinawa" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="18-20" string="the U.S. Forces" id_sentence="3" />
+        <mention ids_tokens="10-12" string="the U.S. Forces" id_sentence="10" />
+        <mention ids_tokens="29-31" string="the U.S. Forces" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="15-16-17-18-19" string="Kadena Air Base on 4" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="2-4" string="Kadena Air Base" id_sentence="4" />
+        <mention ids_tokens="12-14" string="Kadena Air Base" id_sentence="8" />
+        <mention ids_tokens="22-25" string="the air base's" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="6-7" string="Akira Takeshita" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="3" />
+        <mention ids_tokens="1-2" string="Mr. Takeshita" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="3-4" string="the crash" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="4" string="it" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="NOMINAL">
+      <referenced ids_tokens="39-40-41" string="a thorough investigation" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="21-22" string="the investigation" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="15" type="NOMINAL">
+      <referenced ids_tokens="9-10" string="a briefing" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The briefing" id_sentence="5" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

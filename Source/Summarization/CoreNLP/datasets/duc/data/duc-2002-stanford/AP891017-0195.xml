@@ -1,0 +1,3798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP891017-0195">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>A major earthquake rocked northern California Tuesday evening, collapsing part of the San Francisco Bay Bridge and shaking Candlestick Park and buildings up to 95 miles away.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="major" lemma="major" stem="major" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="4" string="rocked" lemma="rock" stem="rock" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="northern" lemma="northern" stem="northern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="California" lemma="California" stem="california" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="8" string="evening" lemma="evening" stem="even" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="collapsing" lemma="collapse" stem="collaps" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="part" lemma="part" stem="part" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="15" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="16" string="Bay" lemma="Bay" stem="bai" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="Bridge" lemma="Bridge" stem="bridg" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="18" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="shaking" lemma="shake" stem="shake" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Candlestick" lemma="Candlestick" stem="candlestick" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="21" string="Park" lemma="Park" stem="park" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="22" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="24" string="up" lemma="up" stem="up" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="95" lemma="95" stem="95" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="27" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="away" lemma="away" stem="awai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (JJ major) (NN earthquake)) (VP (VBD rocked) (NP (JJ northern) (NNP California) (NNP Tuesday)) (NP-TMP (NN evening)) (, ,) (S (VP (VP (VBG collapsing) (NP (NP (NN part)) (PP (IN of) (NP (DT the) (NNP San) (NNP Francisco) (NNP Bay) (NNP Bridge))))) (CC and) (VP (VBG shaking) (NP (NP (NNP Candlestick) (NNP Park)) (CC and) (NP (NNS buildings))) (ADVP (NP (QP (IN up) (TO to) (CD 95)) (NNS miles)) (RB away)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="collapsing part of the San Francisco Bay Bridge" type="VP">
+          <tokens>
+            <token id="10" string="collapsing" />
+            <token id="11" string="part" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="part" type="NP">
+          <tokens>
+            <token id="11" string="part" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="part of the San Francisco Bay Bridge" type="NP">
+          <tokens>
+            <token id="11" string="part" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="rocked northern California Tuesday evening , collapsing part of the San Francisco Bay Bridge and shaking Candlestick Park and buildings up to 95 miles away" type="VP">
+          <tokens>
+            <token id="4" string="rocked" />
+            <token id="5" string="northern" />
+            <token id="6" string="California" />
+            <token id="7" string="Tuesday" />
+            <token id="8" string="evening" />
+            <token id="9" string="," />
+            <token id="10" string="collapsing" />
+            <token id="11" string="part" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+            <token id="18" string="and" />
+            <token id="19" string="shaking" />
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+            <token id="22" string="and" />
+            <token id="23" string="buildings" />
+            <token id="24" string="up" />
+            <token id="25" string="to" />
+            <token id="26" string="95" />
+            <token id="27" string="miles" />
+            <token id="28" string="away" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="shaking Candlestick Park and buildings up to 95 miles away" type="VP">
+          <tokens>
+            <token id="19" string="shaking" />
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+            <token id="22" string="and" />
+            <token id="23" string="buildings" />
+            <token id="24" string="up" />
+            <token id="25" string="to" />
+            <token id="26" string="95" />
+            <token id="27" string="miles" />
+            <token id="28" string="away" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="A major earthquake" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="major" />
+            <token id="3" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the San Francisco Bay Bridge" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="buildings" type="NP">
+          <tokens>
+            <token id="23" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Candlestick Park and buildings" type="NP">
+          <tokens>
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+            <token id="22" string="and" />
+            <token id="23" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="northern California Tuesday" type="NP">
+          <tokens>
+            <token id="5" string="northern" />
+            <token id="6" string="California" />
+            <token id="7" string="Tuesday" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="collapsing part of the San Francisco Bay Bridge and shaking Candlestick Park and buildings up to 95 miles away" type="VP">
+          <tokens>
+            <token id="10" string="collapsing" />
+            <token id="11" string="part" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+            <token id="18" string="and" />
+            <token id="19" string="shaking" />
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+            <token id="22" string="and" />
+            <token id="23" string="buildings" />
+            <token id="24" string="up" />
+            <token id="25" string="to" />
+            <token id="26" string="95" />
+            <token id="27" string="miles" />
+            <token id="28" string="away" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="up to 95 miles" type="NP">
+          <tokens>
+            <token id="24" string="up" />
+            <token id="25" string="to" />
+            <token id="26" string="95" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Candlestick Park" type="NP">
+          <tokens>
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">earthquake</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">earthquake</governor>
+          <dependent id="2">major</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">rocked</governor>
+          <dependent id="3">earthquake</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">rocked</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">Tuesday</governor>
+          <dependent id="5">northern</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Tuesday</governor>
+          <dependent id="6">California</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">rocked</governor>
+          <dependent id="7">Tuesday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">rocked</governor>
+          <dependent id="8">evening</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">rocked</governor>
+          <dependent id="10">collapsing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">collapsing</governor>
+          <dependent id="11">part</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Bridge</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">Bridge</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Bridge</governor>
+          <dependent id="14">San</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Bridge</governor>
+          <dependent id="15">Francisco</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Bridge</governor>
+          <dependent id="16">Bay</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">part</governor>
+          <dependent id="17">Bridge</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">collapsing</governor>
+          <dependent id="18">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">collapsing</governor>
+          <dependent id="19">shaking</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Park</governor>
+          <dependent id="20">Candlestick</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">shaking</governor>
+          <dependent id="21">Park</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="21">Park</governor>
+          <dependent id="22">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="21">Park</governor>
+          <dependent id="23">buildings</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="26">95</governor>
+          <dependent id="24">up</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="24">up</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="27">miles</governor>
+          <dependent id="26">95</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="28">away</governor>
+          <dependent id="27">miles</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">shaking</governor>
+          <dependent id="28">away</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="evening" type="TIME" score="0.0">
+          <tokens>
+            <token id="8" string="evening" />
+          </tokens>
+        </entity>
+        <entity id="2" string="California" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="California" />
+          </tokens>
+        </entity>
+        <entity id="3" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="3" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="7" string="Tuesday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="95" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="95" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Candlestick Park" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="Candlestick" />
+            <token id="21" string="Park" />
+          </tokens>
+        </entity>
+        <entity id="7" string="San Francisco Bay Bridge" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="14" string="San" />
+            <token id="15" string="Francisco" />
+            <token id="16" string="Bay" />
+            <token id="17" string="Bridge" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="false">
+      <content>Some buildings may have collapsed, said Police Officer D. Collins.</content>
+      <tokens>
+        <token id="1" string="Some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="may" lemma="may" stem="mai" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="collapsed" lemma="collapse" stem="collaps" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Police" lemma="Police" stem="polic" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="Officer" lemma="Officer" stem="officer" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="D." lemma="D." stem="d." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="11" string="Collins" lemma="Collins" stem="collin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (S (NP (DT Some) (NNS buildings)) (VP (MD may) (VP (VB have) (VP (VBN collapsed))))) (, ,) (VP (VBD said)) (NP (NNP Police) (NNP Officer) (NNP D.) (NNP Collins)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Police Officer D. Collins" type="NP">
+          <tokens>
+            <token id="8" string="Police" />
+            <token id="9" string="Officer" />
+            <token id="10" string="D." />
+            <token id="11" string="Collins" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="have collapsed" type="VP">
+          <tokens>
+            <token id="4" string="have" />
+            <token id="5" string="collapsed" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="collapsed" type="VP">
+          <tokens>
+            <token id="5" string="collapsed" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="may have collapsed" type="VP">
+          <tokens>
+            <token id="3" string="may" />
+            <token id="4" string="have" />
+            <token id="5" string="collapsed" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="said" type="VP">
+          <tokens>
+            <token id="7" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Some buildings" type="NP">
+          <tokens>
+            <token id="1" string="Some" />
+            <token id="2" string="buildings" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">buildings</governor>
+          <dependent id="1">Some</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">collapsed</governor>
+          <dependent id="2">buildings</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">collapsed</governor>
+          <dependent id="3">may</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">collapsed</governor>
+          <dependent id="4">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">said</governor>
+          <dependent id="5">collapsed</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Collins</governor>
+          <dependent id="8">Police</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Collins</governor>
+          <dependent id="9">Officer</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Collins</governor>
+          <dependent id="10">D.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">said</governor>
+          <dependent id="11">Collins</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="D. Collins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="D." />
+            <token id="11" string="Collins" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>There were reports of injuries at Candlestick, where fans were waiting for the World Series to begin, and the stadium was evacuated, ABC-TV and Cable News Network reported.</content>
+      <tokens>
+        <token id="1" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="reports" lemma="report" stem="report" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="injuries" lemma="injury" stem="injuri" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Candlestick" lemma="Candlestick" stem="candlestick" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="fans" lemma="fan" stem="fan" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="waiting" lemma="wait" stem="wait" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="World" lemma="World" stem="world" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="16" string="Series" lemma="Series" stem="seri" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="begin" lemma="begin" stem="begin" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="22" string="stadium" lemma="stadium" stem="stadium" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="23" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="evacuated" lemma="evacuate" stem="evacu" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="ABC-TV" lemma="ABC-TV" stem="abc-tv" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="Cable" lemma="Cable" stem="cabl" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="News" lemma="News" stem="new" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="30" string="Network" lemma="Network" stem="network" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="31" string="reported" lemma="report" stem="report" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (S (NP (EX There)) (VP (VBD were) (NP (NP (NNS reports)) (PP (IN of) (NP (NP (NNS injuries)) (PP (IN at) (NP (NNP Candlestick)))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NNS fans)) (VP (VBD were) (VP (VBG waiting) (PP (IN for) (NP (DT the) (NNP World) (NNP Series))) (S (VP (TO to) (VP (VB begin)))))))))) (, ,) (CC and) (S (NP (DT the) (NN stadium)) (VP (VBD was) (VP (VBN evacuated))))) (, ,) (NP (NNP ABC-TV) (CC and) (NNP Cable) (NNP News) (NNP Network)) (VP (VBD reported)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="reports" type="NP">
+          <tokens>
+            <token id="3" string="reports" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="injuries" type="NP">
+          <tokens>
+            <token id="5" string="injuries" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="evacuated" type="VP">
+          <tokens>
+            <token id="24" string="evacuated" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to begin" type="VP">
+          <tokens>
+            <token id="17" string="to" />
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was evacuated" type="VP">
+          <tokens>
+            <token id="23" string="was" />
+            <token id="24" string="evacuated" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the stadium" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="stadium" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the World Series" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="where fans were waiting for the World Series to begin" type="SBAR">
+          <tokens>
+            <token id="9" string="where" />
+            <token id="10" string="fans" />
+            <token id="11" string="were" />
+            <token id="12" string="waiting" />
+            <token id="13" string="for" />
+            <token id="14" string="the" />
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+            <token id="17" string="to" />
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="fans" type="NP">
+          <tokens>
+            <token id="10" string="fans" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="waiting for the World Series to begin" type="VP">
+          <tokens>
+            <token id="12" string="waiting" />
+            <token id="13" string="for" />
+            <token id="14" string="the" />
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+            <token id="17" string="to" />
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="There" type="NP">
+          <tokens>
+            <token id="1" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Candlestick" type="NP">
+          <tokens>
+            <token id="7" string="Candlestick" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="injuries at Candlestick" type="NP">
+          <tokens>
+            <token id="5" string="injuries" />
+            <token id="6" string="at" />
+            <token id="7" string="Candlestick" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="reports of injuries at Candlestick" type="NP">
+          <tokens>
+            <token id="3" string="reports" />
+            <token id="4" string="of" />
+            <token id="5" string="injuries" />
+            <token id="6" string="at" />
+            <token id="7" string="Candlestick" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="reported" type="VP">
+          <tokens>
+            <token id="31" string="reported" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="were waiting for the World Series to begin" type="VP">
+          <tokens>
+            <token id="11" string="were" />
+            <token id="12" string="waiting" />
+            <token id="13" string="for" />
+            <token id="14" string="the" />
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+            <token id="17" string="to" />
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="where" type="WHADVP">
+          <tokens>
+            <token id="9" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="begin" type="VP">
+          <tokens>
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="ABC-TV and Cable News Network" type="NP">
+          <tokens>
+            <token id="26" string="ABC-TV" />
+            <token id="27" string="and" />
+            <token id="28" string="Cable" />
+            <token id="29" string="News" />
+            <token id="30" string="Network" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="were reports of injuries at Candlestick , where fans were waiting for the World Series to begin" type="VP">
+          <tokens>
+            <token id="2" string="were" />
+            <token id="3" string="reports" />
+            <token id="4" string="of" />
+            <token id="5" string="injuries" />
+            <token id="6" string="at" />
+            <token id="7" string="Candlestick" />
+            <token id="8" string="," />
+            <token id="9" string="where" />
+            <token id="10" string="fans" />
+            <token id="11" string="were" />
+            <token id="12" string="waiting" />
+            <token id="13" string="for" />
+            <token id="14" string="the" />
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+            <token id="17" string="to" />
+            <token id="18" string="begin" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="2">were</governor>
+          <dependent id="1">There</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="31">reported</governor>
+          <dependent id="2">were</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="2">were</governor>
+          <dependent id="3">reports</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">injuries</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">reports</governor>
+          <dependent id="5">injuries</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Candlestick</governor>
+          <dependent id="6">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">injuries</governor>
+          <dependent id="7">Candlestick</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">waiting</governor>
+          <dependent id="9">where</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">waiting</governor>
+          <dependent id="10">fans</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="12">waiting</governor>
+          <dependent id="11">were</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="2">were</governor>
+          <dependent id="12">waiting</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Series</governor>
+          <dependent id="13">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">Series</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Series</governor>
+          <dependent id="15">World</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">waiting</governor>
+          <dependent id="16">Series</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">begin</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="12">waiting</governor>
+          <dependent id="18">begin</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">were</governor>
+          <dependent id="20">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">stadium</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">evacuated</governor>
+          <dependent id="22">stadium</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">evacuated</governor>
+          <dependent id="23">was</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">were</governor>
+          <dependent id="24">evacuated</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">Network</governor>
+          <dependent id="26">ABC-TV</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="26">ABC-TV</governor>
+          <dependent id="27">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">ABC-TV</governor>
+          <dependent id="28">Cable</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">Network</governor>
+          <dependent id="29">News</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="31">reported</governor>
+          <dependent id="30">Network</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="31">reported</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="ABC-TV" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="26" string="ABC-TV" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Candlestick" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Candlestick" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cable News Network" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="28" string="Cable" />
+            <token id="29" string="News" />
+            <token id="30" string="Network" />
+          </tokens>
+        </entity>
+        <entity id="4" string="World Series" type="MISC" score="0.0">
+          <tokens>
+            <token id="15" string="World" />
+            <token id="16" string="Series" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>The quake, which lasted about 15 seconds, measured 6.5 on the Richter scale, according to seismologists at the California Institute of Technology in Pasadena.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="lasted" lemma="last" stem="last" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="about" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="15" lemma="15" stem="15" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="seconds" lemma="seconds" stem="second" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="measured" lemma="measure" stem="measur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="6.5" lemma="6.5" stem="6.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="according" lemma="accord" stem="accord" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="seismologists" lemma="seismologist" stem="seismologist" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="California" lemma="California" stem="california" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="Institute" lemma="Institute" stem="institut" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="Technology" lemma="Technology" stem="technologi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="Pasadena" lemma="Pasadena" stem="pasadena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NN quake)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD lasted) (NP (QP (RB about) (CD 15)) (NNS seconds))))) (, ,)) (VP (VBN measured) (NP (NP (CD 6.5)) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale)))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NNS seismologists)) (PP (IN at) (NP (NP (DT the) (NNP California) (NNP Institute)) (PP (IN of) (NP (NP (NNP Technology)) (PP (IN in) (NP (NNP Pasadena))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Richter scale" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Richter" />
+            <token id="15" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="about 15 seconds" type="NP">
+          <tokens>
+            <token id="6" string="about" />
+            <token id="7" string="15" />
+            <token id="8" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="seismologists" type="NP">
+          <tokens>
+            <token id="19" string="seismologists" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="lasted about 15 seconds" type="VP">
+          <tokens>
+            <token id="5" string="lasted" />
+            <token id="6" string="about" />
+            <token id="7" string="15" />
+            <token id="8" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="measured 6.5 on the Richter scale , according to seismologists at the California Institute of Technology in Pasadena" type="VP">
+          <tokens>
+            <token id="10" string="measured" />
+            <token id="11" string="6.5" />
+            <token id="12" string="on" />
+            <token id="13" string="the" />
+            <token id="14" string="Richter" />
+            <token id="15" string="scale" />
+            <token id="16" string="," />
+            <token id="17" string="according" />
+            <token id="18" string="to" />
+            <token id="19" string="seismologists" />
+            <token id="20" string="at" />
+            <token id="21" string="the" />
+            <token id="22" string="California" />
+            <token id="23" string="Institute" />
+            <token id="24" string="of" />
+            <token id="25" string="Technology" />
+            <token id="26" string="in" />
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Technology in Pasadena" type="NP">
+          <tokens>
+            <token id="25" string="Technology" />
+            <token id="26" string="in" />
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The quake , which lasted about 15 seconds ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="quake" />
+            <token id="3" string="," />
+            <token id="4" string="which" />
+            <token id="5" string="lasted" />
+            <token id="6" string="about" />
+            <token id="7" string="15" />
+            <token id="8" string="seconds" />
+            <token id="9" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="6.5 on the Richter scale" type="NP">
+          <tokens>
+            <token id="11" string="6.5" />
+            <token id="12" string="on" />
+            <token id="13" string="the" />
+            <token id="14" string="Richter" />
+            <token id="15" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="which lasted about 15 seconds" type="SBAR">
+          <tokens>
+            <token id="4" string="which" />
+            <token id="5" string="lasted" />
+            <token id="6" string="about" />
+            <token id="7" string="15" />
+            <token id="8" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the California Institute of Technology in Pasadena" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="California" />
+            <token id="23" string="Institute" />
+            <token id="24" string="of" />
+            <token id="25" string="Technology" />
+            <token id="26" string="in" />
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Pasadena" type="NP">
+          <tokens>
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Technology" type="NP">
+          <tokens>
+            <token id="25" string="Technology" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="6.5" type="NP">
+          <tokens>
+            <token id="11" string="6.5" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="seismologists at the California Institute of Technology in Pasadena" type="NP">
+          <tokens>
+            <token id="19" string="seismologists" />
+            <token id="20" string="at" />
+            <token id="21" string="the" />
+            <token id="22" string="California" />
+            <token id="23" string="Institute" />
+            <token id="24" string="of" />
+            <token id="25" string="Technology" />
+            <token id="26" string="in" />
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the California Institute" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="California" />
+            <token id="23" string="Institute" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">measured</governor>
+          <dependent id="2">quake</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">lasted</governor>
+          <dependent id="4">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">quake</governor>
+          <dependent id="5">lasted</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">15</governor>
+          <dependent id="6">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">seconds</governor>
+          <dependent id="7">15</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">lasted</governor>
+          <dependent id="8">seconds</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">measured</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">measured</governor>
+          <dependent id="11">6.5</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">scale</governor>
+          <dependent id="12">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">scale</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">scale</governor>
+          <dependent id="14">Richter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">6.5</governor>
+          <dependent id="15">scale</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">seismologists</governor>
+          <dependent id="17">according</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="17">according</governor>
+          <dependent id="18">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">measured</governor>
+          <dependent id="19">seismologists</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Institute</governor>
+          <dependent id="20">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">Institute</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Institute</governor>
+          <dependent id="22">California</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">seismologists</governor>
+          <dependent id="23">Institute</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">Technology</governor>
+          <dependent id="24">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">Institute</governor>
+          <dependent id="25">Technology</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Pasadena</governor>
+          <dependent id="26">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">Technology</governor>
+          <dependent id="27">Pasadena</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="California Institute of Technology" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="22" string="California" />
+            <token id="23" string="Institute" />
+            <token id="24" string="of" />
+            <token id="25" string="Technology" />
+          </tokens>
+        </entity>
+        <entity id="2" string="about 15 seconds" type="DURATION" score="0.0">
+          <tokens>
+            <token id="6" string="about" />
+            <token id="7" string="15" />
+            <token id="8" string="seconds" />
+          </tokens>
+        </entity>
+        <entity id="3" string="6.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="6.5" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Pasadena" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="27" string="Pasadena" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>The preliminary reading was from the Alaska Tsunami warning system, Caltech said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="preliminary" lemma="preliminary" stem="preliminari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="reading" lemma="reading" stem="read" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Alaska" lemma="Alaska" stem="alaska" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="Tsunami" lemma="tsunami" stem="tsunami" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="warning" lemma="warning" stem="warn" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="system" lemma="system" stem="system" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Caltech" lemma="Caltech" stem="caltech" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (JJ preliminary) (NN reading)) (VP (VBD was) (PP (IN from) (NP (DT the) (NNP Alaska) (NN Tsunami) (NN warning) (NN system))))) (, ,) (NP (NNP Caltech)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was from the Alaska Tsunami warning system" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="from" />
+            <token id="6" string="the" />
+            <token id="7" string="Alaska" />
+            <token id="8" string="Tsunami" />
+            <token id="9" string="warning" />
+            <token id="10" string="system" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Caltech" type="NP">
+          <tokens>
+            <token id="12" string="Caltech" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="said" type="VP">
+          <tokens>
+            <token id="13" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The preliminary reading" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="preliminary" />
+            <token id="3" string="reading" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Alaska Tsunami warning system" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Alaska" />
+            <token id="8" string="Tsunami" />
+            <token id="9" string="warning" />
+            <token id="10" string="system" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">reading</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">reading</governor>
+          <dependent id="2">preliminary</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">system</governor>
+          <dependent id="3">reading</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="10">system</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">system</governor>
+          <dependent id="5">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">system</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">system</governor>
+          <dependent id="7">Alaska</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">system</governor>
+          <dependent id="8">Tsunami</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">system</governor>
+          <dependent id="9">warning</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="13">said</governor>
+          <dependent id="10">system</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">said</governor>
+          <dependent id="12">Caltech</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Alaska" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Alaska" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Caltech" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="12" string="Caltech" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Televised footage of the bridge showed that a 30-foot section of the span&amp;apost;s upper deck had collapsed onto the bottom level.</content>
+      <tokens>
+        <token id="1" string="Televised" lemma="televised" stem="televis" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="footage" lemma="footage" stem="footag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="bridge" lemma="bridge" stem="bridg" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="showed" lemma="show" stem="show" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="30-foot" lemma="30-foot" stem="30-foot" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="section" lemma="section" stem="section" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="span" lemma="span" stem="span" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="upper" lemma="upper" stem="upper" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="deck" lemma="deck" stem="deck" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="collapsed" lemma="collapse" stem="collaps" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="onto" lemma="onto" stem="onto" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="bottom" lemma="bottom" stem="bottom" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="level" lemma="level" stem="level" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (JJ Televised) (NN footage)) (PP (IN of) (NP (DT the) (NN bridge)))) (VP (VBD showed) (SBAR (IN that) (S (NP (NP (DT a) (JJ 30-foot) (NN section)) (PP (IN of) (NP (NP (DT the) (NN span) (POS 's)) (JJ upper) (NN deck)))) (VP (VBD had) (VP (VBN collapsed) (PP (IN onto) (NP (DT the) (JJ bottom) (NN level)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="had collapsed onto the bottom level" type="VP">
+          <tokens>
+            <token id="17" string="had" />
+            <token id="18" string="collapsed" />
+            <token id="19" string="onto" />
+            <token id="20" string="the" />
+            <token id="21" string="bottom" />
+            <token id="22" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the bridge" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="bridge" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="that a 30-foot section of the span 's upper deck had collapsed onto the bottom level" type="SBAR">
+          <tokens>
+            <token id="7" string="that" />
+            <token id="8" string="a" />
+            <token id="9" string="30-foot" />
+            <token id="10" string="section" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="span" />
+            <token id="14" string="'s" />
+            <token id="15" string="upper" />
+            <token id="16" string="deck" />
+            <token id="17" string="had" />
+            <token id="18" string="collapsed" />
+            <token id="19" string="onto" />
+            <token id="20" string="the" />
+            <token id="21" string="bottom" />
+            <token id="22" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the span 's upper deck" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="span" />
+            <token id="14" string="'s" />
+            <token id="15" string="upper" />
+            <token id="16" string="deck" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the span 's" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="span" />
+            <token id="14" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="collapsed onto the bottom level" type="VP">
+          <tokens>
+            <token id="18" string="collapsed" />
+            <token id="19" string="onto" />
+            <token id="20" string="the" />
+            <token id="21" string="bottom" />
+            <token id="22" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a 30-foot section of the span 's upper deck" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="30-foot" />
+            <token id="10" string="section" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="span" />
+            <token id="14" string="'s" />
+            <token id="15" string="upper" />
+            <token id="16" string="deck" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the bottom level" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="bottom" />
+            <token id="22" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Televised footage of the bridge" type="NP">
+          <tokens>
+            <token id="1" string="Televised" />
+            <token id="2" string="footage" />
+            <token id="3" string="of" />
+            <token id="4" string="the" />
+            <token id="5" string="bridge" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Televised footage" type="NP">
+          <tokens>
+            <token id="1" string="Televised" />
+            <token id="2" string="footage" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="showed that a 30-foot section of the span 's upper deck had collapsed onto the bottom level" type="VP">
+          <tokens>
+            <token id="6" string="showed" />
+            <token id="7" string="that" />
+            <token id="8" string="a" />
+            <token id="9" string="30-foot" />
+            <token id="10" string="section" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="span" />
+            <token id="14" string="'s" />
+            <token id="15" string="upper" />
+            <token id="16" string="deck" />
+            <token id="17" string="had" />
+            <token id="18" string="collapsed" />
+            <token id="19" string="onto" />
+            <token id="20" string="the" />
+            <token id="21" string="bottom" />
+            <token id="22" string="level" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a 30-foot section" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="30-foot" />
+            <token id="10" string="section" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">footage</governor>
+          <dependent id="1">Televised</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">showed</governor>
+          <dependent id="2">footage</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">bridge</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">bridge</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">footage</governor>
+          <dependent id="5">bridge</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">showed</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">collapsed</governor>
+          <dependent id="7">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">section</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">section</governor>
+          <dependent id="9">30-foot</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">collapsed</governor>
+          <dependent id="10">section</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">deck</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">span</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">deck</governor>
+          <dependent id="13">span</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">span</governor>
+          <dependent id="14">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">deck</governor>
+          <dependent id="15">upper</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">section</governor>
+          <dependent id="16">deck</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">collapsed</governor>
+          <dependent id="17">had</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="6">showed</governor>
+          <dependent id="18">collapsed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">level</governor>
+          <dependent id="19">onto</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">level</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">level</governor>
+          <dependent id="21">bottom</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">collapsed</governor>
+          <dependent id="22">level</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>Fans at Candlestick screamed as the stadium swayed for about 15 seconds.</content>
+      <tokens>
+        <token id="1" string="Fans" lemma="fan" stem="fan" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Candlestick" lemma="Candlestick" stem="candlestick" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="4" string="screamed" lemma="scream" stem="scream" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="stadium" lemma="stadium" stem="stadium" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="swayed" lemma="sway" stem="swai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="about" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="15" lemma="15" stem="15" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="seconds" lemma="seconds" stem="second" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNS Fans)) (PP (IN at) (NP (NNP Candlestick)))) (VP (VBD screamed) (SBAR (IN as) (S (NP (DT the) (NN stadium)) (VP (VBD swayed) (PP (IN for) (NP (QP (RB about) (CD 15)) (NNS seconds))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Candlestick" type="NP">
+          <tokens>
+            <token id="3" string="Candlestick" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="as the stadium swayed for about 15 seconds" type="SBAR">
+          <tokens>
+            <token id="5" string="as" />
+            <token id="6" string="the" />
+            <token id="7" string="stadium" />
+            <token id="8" string="swayed" />
+            <token id="9" string="for" />
+            <token id="10" string="about" />
+            <token id="11" string="15" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="about 15 seconds" type="NP">
+          <tokens>
+            <token id="10" string="about" />
+            <token id="11" string="15" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="swayed for about 15 seconds" type="VP">
+          <tokens>
+            <token id="8" string="swayed" />
+            <token id="9" string="for" />
+            <token id="10" string="about" />
+            <token id="11" string="15" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Fans at Candlestick" type="NP">
+          <tokens>
+            <token id="1" string="Fans" />
+            <token id="2" string="at" />
+            <token id="3" string="Candlestick" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="screamed as the stadium swayed for about 15 seconds" type="VP">
+          <tokens>
+            <token id="4" string="screamed" />
+            <token id="5" string="as" />
+            <token id="6" string="the" />
+            <token id="7" string="stadium" />
+            <token id="8" string="swayed" />
+            <token id="9" string="for" />
+            <token id="10" string="about" />
+            <token id="11" string="15" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the stadium" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="stadium" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Fans" type="NP">
+          <tokens>
+            <token id="1" string="Fans" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="4">screamed</governor>
+          <dependent id="1">Fans</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="3">Candlestick</governor>
+          <dependent id="2">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Fans</governor>
+          <dependent id="3">Candlestick</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">screamed</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">swayed</governor>
+          <dependent id="5">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">stadium</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">swayed</governor>
+          <dependent id="7">stadium</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">screamed</governor>
+          <dependent id="8">swayed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">seconds</governor>
+          <dependent id="9">for</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">15</governor>
+          <dependent id="10">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">seconds</governor>
+          <dependent id="11">15</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">swayed</governor>
+          <dependent id="12">seconds</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Candlestick" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="3" string="Candlestick" />
+          </tokens>
+        </entity>
+        <entity id="2" string="about 15 seconds" type="DURATION" score="0.0">
+          <tokens>
+            <token id="10" string="about" />
+            <token id="11" string="15" />
+            <token id="12" string="seconds" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Players from the San Francisco Giants and the Oakland Athletics were on the field and stood around as fans began to leave their seats.</content>
+      <tokens>
+        <token id="1" string="Players" lemma="player" stem="player" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="Giants" lemma="Giants" stem="giant" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Oakland" lemma="Oakland" stem="oakland" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="Athletics" lemma="Athletics" stem="athletic" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="field" lemma="field" stem="field" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="stood" lemma="stand" stem="stood" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="around" lemma="around" stem="around" pos="RP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="fans" lemma="fan" stem="fan" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="began" lemma="begin" stem="began" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="leave" lemma="leave" stem="leav" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="24" string="seats" lemma="seat" stem="seat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNS Players)) (PP (IN from) (NP (DT the) (NX (NX (NNP San) (NNP Francisco) (NNPS Giants)) (CC and) (NX (DT the) (NNP Oakland) (NNP Athletics)))))) (VP (VP (VBD were) (PP (IN on) (NP (DT the) (NN field)))) (CC and) (VP (VBD stood) (ADVP (RP around)) (SBAR (IN as) (S (NP (NNS fans)) (VP (VBD began) (S (VP (TO to) (VP (VB leave) (NP (PRP$ their) (NNS seats)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="were on the field and stood around as fans began to leave their seats" type="VP">
+          <tokens>
+            <token id="11" string="were" />
+            <token id="12" string="on" />
+            <token id="13" string="the" />
+            <token id="14" string="field" />
+            <token id="15" string="and" />
+            <token id="16" string="stood" />
+            <token id="17" string="around" />
+            <token id="18" string="as" />
+            <token id="19" string="fans" />
+            <token id="20" string="began" />
+            <token id="21" string="to" />
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="were on the field" type="VP">
+          <tokens>
+            <token id="11" string="were" />
+            <token id="12" string="on" />
+            <token id="13" string="the" />
+            <token id="14" string="field" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="stood around as fans began to leave their seats" type="VP">
+          <tokens>
+            <token id="16" string="stood" />
+            <token id="17" string="around" />
+            <token id="18" string="as" />
+            <token id="19" string="fans" />
+            <token id="20" string="began" />
+            <token id="21" string="to" />
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="began to leave their seats" type="VP">
+          <tokens>
+            <token id="20" string="began" />
+            <token id="21" string="to" />
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="leave their seats" type="VP">
+          <tokens>
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Players from the San Francisco Giants and the Oakland Athletics" type="NP">
+          <tokens>
+            <token id="1" string="Players" />
+            <token id="2" string="from" />
+            <token id="3" string="the" />
+            <token id="4" string="San" />
+            <token id="5" string="Francisco" />
+            <token id="6" string="Giants" />
+            <token id="7" string="and" />
+            <token id="8" string="the" />
+            <token id="9" string="Oakland" />
+            <token id="10" string="Athletics" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="fans" type="NP">
+          <tokens>
+            <token id="19" string="fans" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="their seats" type="NP">
+          <tokens>
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the field" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="field" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="as fans began to leave their seats" type="SBAR">
+          <tokens>
+            <token id="18" string="as" />
+            <token id="19" string="fans" />
+            <token id="20" string="began" />
+            <token id="21" string="to" />
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="to leave their seats" type="VP">
+          <tokens>
+            <token id="21" string="to" />
+            <token id="22" string="leave" />
+            <token id="23" string="their" />
+            <token id="24" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the San Francisco Giants and the Oakland Athletics" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="San" />
+            <token id="5" string="Francisco" />
+            <token id="6" string="Giants" />
+            <token id="7" string="and" />
+            <token id="8" string="the" />
+            <token id="9" string="Oakland" />
+            <token id="10" string="Athletics" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Players" type="NP">
+          <tokens>
+            <token id="1" string="Players" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="14">field</governor>
+          <dependent id="1">Players</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Giants</governor>
+          <dependent id="2">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">Giants</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Giants</governor>
+          <dependent id="4">San</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Giants</governor>
+          <dependent id="5">Francisco</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Players</governor>
+          <dependent id="6">Giants</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">Giants</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Athletics</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Athletics</governor>
+          <dependent id="9">Oakland</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">Giants</governor>
+          <dependent id="10">Athletics</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="14">field</governor>
+          <dependent id="11">were</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">field</governor>
+          <dependent id="12">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">field</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">field</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="14">field</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="14">field</governor>
+          <dependent id="16">stood</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">stood</governor>
+          <dependent id="17">around</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="20">began</governor>
+          <dependent id="18">as</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">began</governor>
+          <dependent id="19">fans</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="16">stood</governor>
+          <dependent id="20">began</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">leave</governor>
+          <dependent id="21">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="20">began</governor>
+          <dependent id="22">leave</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="24">seats</governor>
+          <dependent id="23">their</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">leave</governor>
+          <dependent id="24">seats</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="San Francisco Giants" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="San" />
+            <token id="5" string="Francisco" />
+            <token id="6" string="Giants" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Oakland Athletics" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Oakland" />
+            <token id="10" string="Athletics" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>Buildings in San Francisco swayed several feet.</content>
+      <tokens>
+        <token id="1" string="Buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="swayed" lemma="sway" stem="swai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="several" lemma="several" stem="sever" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="feet" lemma="foot" stem="feet" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNS Buildings)) (PP (IN in) (NP (NNP San) (NNP Francisco)))) (VP (VBD swayed) (NP (JJ several) (NNS feet))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Buildings in San Francisco" type="NP">
+          <tokens>
+            <token id="1" string="Buildings" />
+            <token id="2" string="in" />
+            <token id="3" string="San" />
+            <token id="4" string="Francisco" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="several feet" type="NP">
+          <tokens>
+            <token id="6" string="several" />
+            <token id="7" string="feet" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Buildings" type="NP">
+          <tokens>
+            <token id="1" string="Buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="swayed several feet" type="VP">
+          <tokens>
+            <token id="5" string="swayed" />
+            <token id="6" string="several" />
+            <token id="7" string="feet" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="San Francisco" type="NP">
+          <tokens>
+            <token id="3" string="San" />
+            <token id="4" string="Francisco" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">swayed</governor>
+          <dependent id="1">Buildings</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">Francisco</governor>
+          <dependent id="2">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Francisco</governor>
+          <dependent id="3">San</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Buildings</governor>
+          <dependent id="4">Francisco</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">swayed</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">feet</governor>
+          <dependent id="6">several</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">swayed</governor>
+          <dependent id="7">feet</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="San Francisco" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="3" string="San" />
+            <token id="4" string="Francisco" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>The quake shook buildings in Sacramento, 95 miles to the northeast, and was felt as far away as Reno, Nev., 225 miles to the east.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="shook" lemma="shake" stem="shook" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Sacramento" lemma="Sacramento" stem="sacramento" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="95" lemma="95" stem="95" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="9" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="northeast" lemma="northeast" stem="northeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="felt" lemma="feel" stem="felt" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="far" lemma="far" stem="far" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="away" lemma="away" stem="awai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Reno" lemma="Reno" stem="reno" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Nev." lemma="Nev." stem="nev." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="225" lemma="225" stem="225" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="26" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="east" lemma="east" stem="east" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN quake)) (VP (VP (VBD shook) (NP (NNS buildings)) (PP (IN in) (NP (NP (NNP Sacramento)) (, ,) (NP (CD 95) (NNS miles)))) (PP (TO to) (NP (DT the) (NN northeast)))) (, ,) (CC and) (VP (VBD was) (VP (VBN felt) (PP (IN as) (NP (ADVP (RB far) (RB away) (PP (IN as) (NP (NNP Reno) (, ,) (NNP Nev.) (, ,)))) (CD 225) (NNS miles))) (PP (TO to) (NP (DT the) (JJ east)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="95 miles" type="NP">
+          <tokens>
+            <token id="8" string="95" />
+            <token id="9" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="felt as far away as Reno , Nev. , 225 miles to the east" type="VP">
+          <tokens>
+            <token id="16" string="felt" />
+            <token id="17" string="as" />
+            <token id="18" string="far" />
+            <token id="19" string="away" />
+            <token id="20" string="as" />
+            <token id="21" string="Reno" />
+            <token id="22" string="," />
+            <token id="23" string="Nev." />
+            <token id="24" string="," />
+            <token id="25" string="225" />
+            <token id="26" string="miles" />
+            <token id="27" string="to" />
+            <token id="28" string="the" />
+            <token id="29" string="east" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="shook buildings in Sacramento , 95 miles to the northeast" type="VP">
+          <tokens>
+            <token id="3" string="shook" />
+            <token id="4" string="buildings" />
+            <token id="5" string="in" />
+            <token id="6" string="Sacramento" />
+            <token id="7" string="," />
+            <token id="8" string="95" />
+            <token id="9" string="miles" />
+            <token id="10" string="to" />
+            <token id="11" string="the" />
+            <token id="12" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Sacramento" type="NP">
+          <tokens>
+            <token id="6" string="Sacramento" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Reno , Nev. ," type="NP">
+          <tokens>
+            <token id="21" string="Reno" />
+            <token id="22" string="," />
+            <token id="23" string="Nev." />
+            <token id="24" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was felt as far away as Reno , Nev. , 225 miles to the east" type="VP">
+          <tokens>
+            <token id="15" string="was" />
+            <token id="16" string="felt" />
+            <token id="17" string="as" />
+            <token id="18" string="far" />
+            <token id="19" string="away" />
+            <token id="20" string="as" />
+            <token id="21" string="Reno" />
+            <token id="22" string="," />
+            <token id="23" string="Nev." />
+            <token id="24" string="," />
+            <token id="25" string="225" />
+            <token id="26" string="miles" />
+            <token id="27" string="to" />
+            <token id="28" string="the" />
+            <token id="29" string="east" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the northeast" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="shook buildings in Sacramento , 95 miles to the northeast , and was felt as far away as Reno , Nev. , 225 miles to the east" type="VP">
+          <tokens>
+            <token id="3" string="shook" />
+            <token id="4" string="buildings" />
+            <token id="5" string="in" />
+            <token id="6" string="Sacramento" />
+            <token id="7" string="," />
+            <token id="8" string="95" />
+            <token id="9" string="miles" />
+            <token id="10" string="to" />
+            <token id="11" string="the" />
+            <token id="12" string="northeast" />
+            <token id="13" string="," />
+            <token id="14" string="and" />
+            <token id="15" string="was" />
+            <token id="16" string="felt" />
+            <token id="17" string="as" />
+            <token id="18" string="far" />
+            <token id="19" string="away" />
+            <token id="20" string="as" />
+            <token id="21" string="Reno" />
+            <token id="22" string="," />
+            <token id="23" string="Nev." />
+            <token id="24" string="," />
+            <token id="25" string="225" />
+            <token id="26" string="miles" />
+            <token id="27" string="to" />
+            <token id="28" string="the" />
+            <token id="29" string="east" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="buildings" type="NP">
+          <tokens>
+            <token id="4" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the east" type="NP">
+          <tokens>
+            <token id="28" string="the" />
+            <token id="29" string="east" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Sacramento , 95 miles" type="NP">
+          <tokens>
+            <token id="6" string="Sacramento" />
+            <token id="7" string="," />
+            <token id="8" string="95" />
+            <token id="9" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="far away as Reno , Nev. , 225 miles" type="NP">
+          <tokens>
+            <token id="18" string="far" />
+            <token id="19" string="away" />
+            <token id="20" string="as" />
+            <token id="21" string="Reno" />
+            <token id="22" string="," />
+            <token id="23" string="Nev." />
+            <token id="24" string="," />
+            <token id="25" string="225" />
+            <token id="26" string="miles" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">shook</governor>
+          <dependent id="2">quake</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">shook</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">shook</governor>
+          <dependent id="4">buildings</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Sacramento</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">shook</governor>
+          <dependent id="6">Sacramento</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="9">miles</governor>
+          <dependent id="8">95</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="6">Sacramento</governor>
+          <dependent id="9">miles</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">northeast</governor>
+          <dependent id="10">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">northeast</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">shook</governor>
+          <dependent id="12">northeast</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">shook</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="16">felt</governor>
+          <dependent id="15">was</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">shook</governor>
+          <dependent id="16">felt</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">miles</governor>
+          <dependent id="17">as</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">away</governor>
+          <dependent id="18">far</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="26">miles</governor>
+          <dependent id="19">away</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Nev.</governor>
+          <dependent id="20">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Nev.</governor>
+          <dependent id="21">Reno</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">away</governor>
+          <dependent id="23">Nev.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="26">miles</governor>
+          <dependent id="25">225</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">felt</governor>
+          <dependent id="26">miles</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">east</governor>
+          <dependent id="27">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">east</governor>
+          <dependent id="28">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">felt</governor>
+          <dependent id="29">east</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Sacramento" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Sacramento" />
+          </tokens>
+        </entity>
+        <entity id="2" string="225" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="25" string="225" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Reno" type="PERSON" score="0.0">
+          <tokens>
+            <token id="21" string="Reno" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Nev." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="23" string="Nev." />
+          </tokens>
+        </entity>
+        <entity id="5" string="95" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="95" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>The quake knocked out phones and power, including electricity at The Associated Press&amp;apost; bureau in San Francisco.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="knocked" lemma="knock" stem="knock" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="out" lemma="out" stem="out" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="phones" lemma="phone" stem="phone" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="power" lemma="power" stem="power" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="electricity" lemma="electricity" stem="electr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Associated" lemma="Associated" stem="associat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="Press" lemma="Press" stem="press" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="'" lemma="'" stem="'" pos="POS" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="bureau" lemma="bureau" stem="bureau" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN quake)) (VP (VBD knocked) (PRT (RP out)) (NP (NNS phones) (CC and) (NN power)) (, ,) (PP (VBG including) (NP (NP (NN electricity)) (PP (IN at) (NP (NP (NP (DT The) (NNP Associated) (NNP Press) (POS ')) (NN bureau)) (PP (IN in) (NP (NNP San) (NNP Francisco)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The Associated Press ' bureau in San Francisco" type="NP">
+          <tokens>
+            <token id="12" string="The" />
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+            <token id="15" string="'" />
+            <token id="16" string="bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="San" />
+            <token id="19" string="Francisco" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="phones and power" type="NP">
+          <tokens>
+            <token id="5" string="phones" />
+            <token id="6" string="and" />
+            <token id="7" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The Associated Press '" type="NP">
+          <tokens>
+            <token id="12" string="The" />
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+            <token id="15" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The Associated Press ' bureau" type="NP">
+          <tokens>
+            <token id="12" string="The" />
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+            <token id="15" string="'" />
+            <token id="16" string="bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="knocked out phones and power , including electricity at The Associated Press ' bureau in San Francisco" type="VP">
+          <tokens>
+            <token id="3" string="knocked" />
+            <token id="4" string="out" />
+            <token id="5" string="phones" />
+            <token id="6" string="and" />
+            <token id="7" string="power" />
+            <token id="8" string="," />
+            <token id="9" string="including" />
+            <token id="10" string="electricity" />
+            <token id="11" string="at" />
+            <token id="12" string="The" />
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+            <token id="15" string="'" />
+            <token id="16" string="bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="San" />
+            <token id="19" string="Francisco" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="electricity" type="NP">
+          <tokens>
+            <token id="10" string="electricity" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="electricity at The Associated Press ' bureau in San Francisco" type="NP">
+          <tokens>
+            <token id="10" string="electricity" />
+            <token id="11" string="at" />
+            <token id="12" string="The" />
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+            <token id="15" string="'" />
+            <token id="16" string="bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="San" />
+            <token id="19" string="Francisco" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="San Francisco" type="NP">
+          <tokens>
+            <token id="18" string="San" />
+            <token id="19" string="Francisco" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">knocked</governor>
+          <dependent id="2">quake</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">knocked</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="3">knocked</governor>
+          <dependent id="4">out</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">knocked</governor>
+          <dependent id="5">phones</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">phones</governor>
+          <dependent id="6">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">phones</governor>
+          <dependent id="7">power</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">electricity</governor>
+          <dependent id="9">including</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">knocked</governor>
+          <dependent id="10">electricity</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">bureau</governor>
+          <dependent id="11">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">Press</governor>
+          <dependent id="12">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Press</governor>
+          <dependent id="13">Associated</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">bureau</governor>
+          <dependent id="14">Press</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Press</governor>
+          <dependent id="15">'</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">electricity</governor>
+          <dependent id="16">bureau</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Francisco</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Francisco</governor>
+          <dependent id="18">San</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">bureau</governor>
+          <dependent id="19">Francisco</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Associated Press" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="13" string="Associated" />
+            <token id="14" string="Press" />
+          </tokens>
+        </entity>
+        <entity id="2" string="San Francisco" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="San" />
+            <token id="19" string="Francisco" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>The Richter scale is a measure of ground motion as recorded on seismographs.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="measure" lemma="measure" stem="measur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="ground" lemma="ground" stem="ground" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="motion" lemma="motion" stem="motion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="recorded" lemma="record" stem="record" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="seismographs" lemma="seismograph" stem="seismograph" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NNP Richter) (NN scale)) (VP (VBZ is) (NP (NP (DT a) (NN measure)) (PP (IN of) (NP (NN ground) (NN motion)))) (SBAR (IN as) (S (VP (VBN recorded) (PP (IN on) (NP (NNS seismographs))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="as recorded on seismographs" type="SBAR">
+          <tokens>
+            <token id="10" string="as" />
+            <token id="11" string="recorded" />
+            <token id="12" string="on" />
+            <token id="13" string="seismographs" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="recorded on seismographs" type="VP">
+          <tokens>
+            <token id="11" string="recorded" />
+            <token id="12" string="on" />
+            <token id="13" string="seismographs" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="seismographs" type="NP">
+          <tokens>
+            <token id="13" string="seismographs" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is a measure of ground motion as recorded on seismographs" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="a" />
+            <token id="6" string="measure" />
+            <token id="7" string="of" />
+            <token id="8" string="ground" />
+            <token id="9" string="motion" />
+            <token id="10" string="as" />
+            <token id="11" string="recorded" />
+            <token id="12" string="on" />
+            <token id="13" string="seismographs" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="ground motion" type="NP">
+          <tokens>
+            <token id="8" string="ground" />
+            <token id="9" string="motion" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The Richter scale" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Richter" />
+            <token id="3" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a measure of ground motion" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="measure" />
+            <token id="7" string="of" />
+            <token id="8" string="ground" />
+            <token id="9" string="motion" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a measure" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="measure" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">scale</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">scale</governor>
+          <dependent id="2">Richter</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">measure</governor>
+          <dependent id="3">scale</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">measure</governor>
+          <dependent id="4">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">measure</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">measure</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">motion</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">motion</governor>
+          <dependent id="8">ground</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">measure</governor>
+          <dependent id="9">motion</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">recorded</governor>
+          <dependent id="10">as</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">measure</governor>
+          <dependent id="11">recorded</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">seismographs</governor>
+          <dependent id="12">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">recorded</governor>
+          <dependent id="13">seismographs</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="13" has_coreference="false">
+      <content>Every increase of one number means a tenfold increase in magnitude.</content>
+      <tokens>
+        <token id="1" string="Every" lemma="every" stem="everi" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="increase" lemma="increase" stem="increas" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="means" lemma="mean" stem="mean" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="tenfold" lemma="tenfold" stem="tenfold" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="increase" lemma="increase" stem="increas" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="magnitude" lemma="magnitude" stem="magnitud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT Every) (NN increase)) (PP (IN of) (NP (CD one) (NN number)))) (VP (VBZ means) (NP (NP (DT a) (JJ tenfold) (NN increase)) (PP (IN in) (NP (NN magnitude))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="one number" type="NP">
+          <tokens>
+            <token id="4" string="one" />
+            <token id="5" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="magnitude" type="NP">
+          <tokens>
+            <token id="11" string="magnitude" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="means a tenfold increase in magnitude" type="VP">
+          <tokens>
+            <token id="6" string="means" />
+            <token id="7" string="a" />
+            <token id="8" string="tenfold" />
+            <token id="9" string="increase" />
+            <token id="10" string="in" />
+            <token id="11" string="magnitude" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a tenfold increase in magnitude" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="tenfold" />
+            <token id="9" string="increase" />
+            <token id="10" string="in" />
+            <token id="11" string="magnitude" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a tenfold increase" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="tenfold" />
+            <token id="9" string="increase" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Every increase" type="NP">
+          <tokens>
+            <token id="1" string="Every" />
+            <token id="2" string="increase" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Every increase of one number" type="NP">
+          <tokens>
+            <token id="1" string="Every" />
+            <token id="2" string="increase" />
+            <token id="3" string="of" />
+            <token id="4" string="one" />
+            <token id="5" string="number" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">increase</governor>
+          <dependent id="1">Every</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">means</governor>
+          <dependent id="2">increase</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">number</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">number</governor>
+          <dependent id="4">one</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">increase</governor>
+          <dependent id="5">number</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">means</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">increase</governor>
+          <dependent id="7">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">increase</governor>
+          <dependent id="8">tenfold</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">means</governor>
+          <dependent id="9">increase</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">magnitude</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">increase</governor>
+          <dependent id="11">magnitude</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="one" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="false">
+      <content>Thus a reading of 7.5 reflects an earthquake 10 times stronger than one of 6.5.</content>
+      <tokens>
+        <token id="1" string="Thus" lemma="thus" stem="thu" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="reading" lemma="reading" stem="read" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="7.5" lemma="7.5" stem="7.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="6" string="reflects" lemma="reflect" stem="reflect" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="9" string="10" lemma="10" stem="10" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="stronger" lemma="stronger" stem="stronger" pos="JJR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="6.5" lemma="6.5" stem="6.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (ADVP (RB Thus)) (NP (NP (DT a) (NN reading)) (PP (IN of) (NP (CD 7.5)))) (VP (VBZ reflects) (S (NP (DT an) (NN earthquake)) (ADJP (ADJP (NP (CD 10) (NNS times)) (JJR stronger)) (PP (IN than) (NP (NP (CD one)) (PP (IN of) (NP (CD 6.5)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="one" type="NP">
+          <tokens>
+            <token id="13" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a reading" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="reading" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="reflects an earthquake 10 times stronger than one of 6.5" type="VP">
+          <tokens>
+            <token id="6" string="reflects" />
+            <token id="7" string="an" />
+            <token id="8" string="earthquake" />
+            <token id="9" string="10" />
+            <token id="10" string="times" />
+            <token id="11" string="stronger" />
+            <token id="12" string="than" />
+            <token id="13" string="one" />
+            <token id="14" string="of" />
+            <token id="15" string="6.5" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="an earthquake" type="NP">
+          <tokens>
+            <token id="7" string="an" />
+            <token id="8" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="10 times" type="NP">
+          <tokens>
+            <token id="9" string="10" />
+            <token id="10" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="one of 6.5" type="NP">
+          <tokens>
+            <token id="13" string="one" />
+            <token id="14" string="of" />
+            <token id="15" string="6.5" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a reading of 7.5" type="NP">
+          <tokens>
+            <token id="2" string="a" />
+            <token id="3" string="reading" />
+            <token id="4" string="of" />
+            <token id="5" string="7.5" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="6.5" type="NP">
+          <tokens>
+            <token id="15" string="6.5" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="7.5" type="NP">
+          <tokens>
+            <token id="5" string="7.5" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="10 times stronger than one of 6.5" type="ADJP">
+          <tokens>
+            <token id="9" string="10" />
+            <token id="10" string="times" />
+            <token id="11" string="stronger" />
+            <token id="12" string="than" />
+            <token id="13" string="one" />
+            <token id="14" string="of" />
+            <token id="15" string="6.5" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="10 times stronger" type="ADJP">
+          <tokens>
+            <token id="9" string="10" />
+            <token id="10" string="times" />
+            <token id="11" string="stronger" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="6">reflects</governor>
+          <dependent id="1">Thus</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">reading</governor>
+          <dependent id="2">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">reflects</governor>
+          <dependent id="3">reading</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">7.5</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">reading</governor>
+          <dependent id="5">7.5</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">reflects</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">earthquake</governor>
+          <dependent id="7">an</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">stronger</governor>
+          <dependent id="8">earthquake</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">times</governor>
+          <dependent id="9">10</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="11">stronger</governor>
+          <dependent id="10">times</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">reflects</governor>
+          <dependent id="11">stronger</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">one</governor>
+          <dependent id="12">than</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">stronger</governor>
+          <dependent id="13">one</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">6.5</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">one</governor>
+          <dependent id="15">6.5</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="one" />
+          </tokens>
+        </entity>
+        <entity id="2" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="8" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="3" string="6.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="15" string="6.5" />
+          </tokens>
+        </entity>
+        <entity id="4" string="7.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="5" string="7.5" />
+          </tokens>
+        </entity>
+        <entity id="5" string="10" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="10" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="15" has_coreference="false">
+      <content>An earthquake of 3.5 on the Richter scale can cause slight damage in the local area, 4 moderate damage, 5 considerable damage, 6 severe damage.</content>
+      <tokens>
+        <token id="1" string="An" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="3.5" lemma="3.5" stem="3.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="can" lemma="can" stem="can" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="cause" lemma="cause" stem="caus" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="slight" lemma="slight" stem="slight" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="local" lemma="local" stem="local" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="4" lemma="4" stem="4" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="moderate" lemma="moderate" stem="moder" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="5" lemma="5" stem="5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="considerable" lemma="considerable" stem="consider" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="6" lemma="6" stem="6" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="27" string="severe" lemma="severe" stem="sever" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT An) (NN earthquake)) (PP (IN of) (NP (NP (CD 3.5)) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale)))))) (VP (MD can) (VP (VB cause) (NP (JJ slight) (NN damage)) (PP (IN in) (NP (NP (DT the) (JJ local) (NN area)) (, ,) (NP (CD 4) (JJ moderate) (NN damage)) (, ,) (NP (CD 5) (JJ considerable) (NN damage)) (, ,) (NP (CD 6) (JJ severe) (NN damage)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Richter scale" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="3.5 on the Richter scale" type="NP">
+          <tokens>
+            <token id="4" string="3.5" />
+            <token id="5" string="on" />
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="An earthquake" type="NP">
+          <tokens>
+            <token id="1" string="An" />
+            <token id="2" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the local area" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="local" />
+            <token id="16" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="4 moderate damage" type="NP">
+          <tokens>
+            <token id="18" string="4" />
+            <token id="19" string="moderate" />
+            <token id="20" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="6 severe damage" type="NP">
+          <tokens>
+            <token id="26" string="6" />
+            <token id="27" string="severe" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the local area , 4 moderate damage , 5 considerable damage , 6 severe damage" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="local" />
+            <token id="16" string="area" />
+            <token id="17" string="," />
+            <token id="18" string="4" />
+            <token id="19" string="moderate" />
+            <token id="20" string="damage" />
+            <token id="21" string="," />
+            <token id="22" string="5" />
+            <token id="23" string="considerable" />
+            <token id="24" string="damage" />
+            <token id="25" string="," />
+            <token id="26" string="6" />
+            <token id="27" string="severe" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="cause slight damage in the local area , 4 moderate damage , 5 considerable damage , 6 severe damage" type="VP">
+          <tokens>
+            <token id="10" string="cause" />
+            <token id="11" string="slight" />
+            <token id="12" string="damage" />
+            <token id="13" string="in" />
+            <token id="14" string="the" />
+            <token id="15" string="local" />
+            <token id="16" string="area" />
+            <token id="17" string="," />
+            <token id="18" string="4" />
+            <token id="19" string="moderate" />
+            <token id="20" string="damage" />
+            <token id="21" string="," />
+            <token id="22" string="5" />
+            <token id="23" string="considerable" />
+            <token id="24" string="damage" />
+            <token id="25" string="," />
+            <token id="26" string="6" />
+            <token id="27" string="severe" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="3.5" type="NP">
+          <tokens>
+            <token id="4" string="3.5" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="slight damage" type="NP">
+          <tokens>
+            <token id="11" string="slight" />
+            <token id="12" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="can cause slight damage in the local area , 4 moderate damage , 5 considerable damage , 6 severe damage" type="VP">
+          <tokens>
+            <token id="9" string="can" />
+            <token id="10" string="cause" />
+            <token id="11" string="slight" />
+            <token id="12" string="damage" />
+            <token id="13" string="in" />
+            <token id="14" string="the" />
+            <token id="15" string="local" />
+            <token id="16" string="area" />
+            <token id="17" string="," />
+            <token id="18" string="4" />
+            <token id="19" string="moderate" />
+            <token id="20" string="damage" />
+            <token id="21" string="," />
+            <token id="22" string="5" />
+            <token id="23" string="considerable" />
+            <token id="24" string="damage" />
+            <token id="25" string="," />
+            <token id="26" string="6" />
+            <token id="27" string="severe" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="5 considerable damage" type="NP">
+          <tokens>
+            <token id="22" string="5" />
+            <token id="23" string="considerable" />
+            <token id="24" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="An earthquake of 3.5 on the Richter scale" type="NP">
+          <tokens>
+            <token id="1" string="An" />
+            <token id="2" string="earthquake" />
+            <token id="3" string="of" />
+            <token id="4" string="3.5" />
+            <token id="5" string="on" />
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">earthquake</governor>
+          <dependent id="1">An</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">cause</governor>
+          <dependent id="2">earthquake</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">3.5</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">earthquake</governor>
+          <dependent id="4">3.5</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">scale</governor>
+          <dependent id="5">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">scale</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">scale</governor>
+          <dependent id="7">Richter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">3.5</governor>
+          <dependent id="8">scale</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="10">cause</governor>
+          <dependent id="9">can</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">cause</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">damage</governor>
+          <dependent id="11">slight</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">cause</governor>
+          <dependent id="12">damage</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">area</governor>
+          <dependent id="13">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">area</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">area</governor>
+          <dependent id="15">local</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">cause</governor>
+          <dependent id="16">area</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">damage</governor>
+          <dependent id="18">4</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">damage</governor>
+          <dependent id="19">moderate</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="16">area</governor>
+          <dependent id="20">damage</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="24">damage</governor>
+          <dependent id="22">5</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">damage</governor>
+          <dependent id="23">considerable</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="16">area</governor>
+          <dependent id="24">damage</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="28">damage</governor>
+          <dependent id="26">6</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">damage</governor>
+          <dependent id="27">severe</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="16">area</governor>
+          <dependent id="28">damage</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="4" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="4" />
+          </tokens>
+        </entity>
+        <entity id="2" string="5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="5" />
+          </tokens>
+        </entity>
+        <entity id="3" string="6" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="6" />
+          </tokens>
+        </entity>
+        <entity id="4" string="3.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="3.5" />
+          </tokens>
+        </entity>
+        <entity id="5" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="2" string="earthquake" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="16" has_coreference="false">
+      <content>A 7 reading is a ``major&amp;apost;&amp;apost; earthquake, capable of widespread heavy damage; 8 is a ``great&amp;apost;&amp;apost; quake, capable of tremendous damage.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="7" lemma="7" stem="7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="reading" lemma="reading" stem="read" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="major" lemma="major" stem="major" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="capable" lemma="capable" stem="capabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="widespread" lemma="widespread" stem="widespread" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string=";" lemma=";" stem=";" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="8" lemma="8" stem="8" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="18" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="great" lemma="great" stem="great" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="capable" lemma="capable" stem="capabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="tremendous" lemma="tremendous" stem="tremend" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT A) (CD 7) (NN reading)) (VP (VBZ is) (NP (NP (DT a) (`` ``) (JJ major) ('' '') (NN earthquake)) (, ,) (ADJP (JJ capable) (PP (IN of) (NP (JJ widespread) (JJ heavy) (NN damage))))))) (: ;) (S (NP (CD 8)) (VP (VBZ is) (NP (NP (DT a) (`` ``) (JJ great) ('' '') (NN quake)) (, ,) (ADJP (JJ capable) (PP (IN of) (NP (JJ tremendous) (NN damage))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="is a `` great '' quake , capable of tremendous damage" type="VP">
+          <tokens>
+            <token id="18" string="is" />
+            <token id="19" string="a" />
+            <token id="20" string="``" />
+            <token id="21" string="great" />
+            <token id="22" string="''" />
+            <token id="23" string="quake" />
+            <token id="24" string="," />
+            <token id="25" string="capable" />
+            <token id="26" string="of" />
+            <token id="27" string="tremendous" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="tremendous damage" type="NP">
+          <tokens>
+            <token id="27" string="tremendous" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a `` major '' earthquake" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="``" />
+            <token id="7" string="major" />
+            <token id="8" string="''" />
+            <token id="9" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="capable of widespread heavy damage" type="ADJP">
+          <tokens>
+            <token id="11" string="capable" />
+            <token id="12" string="of" />
+            <token id="13" string="widespread" />
+            <token id="14" string="heavy" />
+            <token id="15" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is a `` major '' earthquake , capable of widespread heavy damage" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="a" />
+            <token id="6" string="``" />
+            <token id="7" string="major" />
+            <token id="8" string="''" />
+            <token id="9" string="earthquake" />
+            <token id="10" string="," />
+            <token id="11" string="capable" />
+            <token id="12" string="of" />
+            <token id="13" string="widespread" />
+            <token id="14" string="heavy" />
+            <token id="15" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="8" type="NP">
+          <tokens>
+            <token id="17" string="8" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a `` great '' quake , capable of tremendous damage" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="``" />
+            <token id="21" string="great" />
+            <token id="22" string="''" />
+            <token id="23" string="quake" />
+            <token id="24" string="," />
+            <token id="25" string="capable" />
+            <token id="26" string="of" />
+            <token id="27" string="tremendous" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="capable of tremendous damage" type="ADJP">
+          <tokens>
+            <token id="25" string="capable" />
+            <token id="26" string="of" />
+            <token id="27" string="tremendous" />
+            <token id="28" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a `` great '' quake" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="``" />
+            <token id="21" string="great" />
+            <token id="22" string="''" />
+            <token id="23" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a `` major '' earthquake , capable of widespread heavy damage" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="``" />
+            <token id="7" string="major" />
+            <token id="8" string="''" />
+            <token id="9" string="earthquake" />
+            <token id="10" string="," />
+            <token id="11" string="capable" />
+            <token id="12" string="of" />
+            <token id="13" string="widespread" />
+            <token id="14" string="heavy" />
+            <token id="15" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="A 7 reading" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="7" />
+            <token id="3" string="reading" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="widespread heavy damage" type="NP">
+          <tokens>
+            <token id="13" string="widespread" />
+            <token id="14" string="heavy" />
+            <token id="15" string="damage" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">reading</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">reading</governor>
+          <dependent id="2">7</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">earthquake</governor>
+          <dependent id="3">reading</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">earthquake</governor>
+          <dependent id="4">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">earthquake</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">earthquake</governor>
+          <dependent id="7">major</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">earthquake</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">earthquake</governor>
+          <dependent id="11">capable</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">damage</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">damage</governor>
+          <dependent id="13">widespread</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">damage</governor>
+          <dependent id="14">heavy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">capable</governor>
+          <dependent id="15">damage</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">quake</governor>
+          <dependent id="17">8</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="23">quake</governor>
+          <dependent id="18">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">quake</governor>
+          <dependent id="19">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">quake</governor>
+          <dependent id="21">great</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="9">earthquake</governor>
+          <dependent id="23">quake</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">quake</governor>
+          <dependent id="25">capable</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">damage</governor>
+          <dependent id="26">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">damage</governor>
+          <dependent id="27">tremendous</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">capable</governor>
+          <dependent id="28">damage</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="7" />
+          </tokens>
+        </entity>
+        <entity id="2" string="8" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="17" string="8" />
+          </tokens>
+        </entity>
+        <entity id="3" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="9" string="earthquake" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="17" has_coreference="false">
+      <content>The San Francisco earthquake of 1906, which occurred before the Richter scale was devised, has been estimated at 8.3 on the Richter scale.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="Francisco" lemma="Francisco" stem="francisco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="4" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="1906" lemma="1906" stem="1906" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="occurred" lemma="occur" stem="occur" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="devised" lemma="devise" stem="devis" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="estimated" lemma="estimate" stem="estim" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="8.3" lemma="8.3" stem="8.3" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="22" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNP San) (NNP Francisco) (NN earthquake)) (PP (IN of) (NP (CD 1906))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD occurred) (SBAR (IN before) (S (NP (DT the) (NNP Richter) (NN scale)) (VP (VBD was) (VP (VBN devised)))))))) (, ,)) (VP (VBZ has) (VP (VBN been) (VP (VBN estimated) (PP (IN at) (NP (CD 8.3))) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Richter scale" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="Richter" />
+            <token id="13" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="estimated at 8.3 on the Richter scale" type="VP">
+          <tokens>
+            <token id="19" string="estimated" />
+            <token id="20" string="at" />
+            <token id="21" string="8.3" />
+            <token id="22" string="on" />
+            <token id="23" string="the" />
+            <token id="24" string="Richter" />
+            <token id="25" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="which occurred before the Richter scale was devised" type="SBAR">
+          <tokens>
+            <token id="8" string="which" />
+            <token id="9" string="occurred" />
+            <token id="10" string="before" />
+            <token id="11" string="the" />
+            <token id="12" string="Richter" />
+            <token id="13" string="scale" />
+            <token id="14" string="was" />
+            <token id="15" string="devised" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="occurred before the Richter scale was devised" type="VP">
+          <tokens>
+            <token id="9" string="occurred" />
+            <token id="10" string="before" />
+            <token id="11" string="the" />
+            <token id="12" string="Richter" />
+            <token id="13" string="scale" />
+            <token id="14" string="was" />
+            <token id="15" string="devised" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="devised" type="VP">
+          <tokens>
+            <token id="15" string="devised" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="before the Richter scale was devised" type="SBAR">
+          <tokens>
+            <token id="10" string="before" />
+            <token id="11" string="the" />
+            <token id="12" string="Richter" />
+            <token id="13" string="scale" />
+            <token id="14" string="was" />
+            <token id="15" string="devised" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The San Francisco earthquake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="San" />
+            <token id="3" string="Francisco" />
+            <token id="4" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="been estimated at 8.3 on the Richter scale" type="VP">
+          <tokens>
+            <token id="18" string="been" />
+            <token id="19" string="estimated" />
+            <token id="20" string="at" />
+            <token id="21" string="8.3" />
+            <token id="22" string="on" />
+            <token id="23" string="the" />
+            <token id="24" string="Richter" />
+            <token id="25" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="The San Francisco earthquake of 1906 , which occurred before the Richter scale was devised ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="San" />
+            <token id="3" string="Francisco" />
+            <token id="4" string="earthquake" />
+            <token id="5" string="of" />
+            <token id="6" string="1906" />
+            <token id="7" string="," />
+            <token id="8" string="which" />
+            <token id="9" string="occurred" />
+            <token id="10" string="before" />
+            <token id="11" string="the" />
+            <token id="12" string="Richter" />
+            <token id="13" string="scale" />
+            <token id="14" string="was" />
+            <token id="15" string="devised" />
+            <token id="16" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="was devised" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="devised" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="1906" type="NP">
+          <tokens>
+            <token id="6" string="1906" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="8.3" type="NP">
+          <tokens>
+            <token id="21" string="8.3" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="has been estimated at 8.3 on the Richter scale" type="VP">
+          <tokens>
+            <token id="17" string="has" />
+            <token id="18" string="been" />
+            <token id="19" string="estimated" />
+            <token id="20" string="at" />
+            <token id="21" string="8.3" />
+            <token id="22" string="on" />
+            <token id="23" string="the" />
+            <token id="24" string="Richter" />
+            <token id="25" string="scale" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">earthquake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">earthquake</governor>
+          <dependent id="2">San</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">earthquake</governor>
+          <dependent id="3">Francisco</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="19">estimated</governor>
+          <dependent id="4">earthquake</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">1906</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">earthquake</governor>
+          <dependent id="6">1906</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">occurred</governor>
+          <dependent id="8">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="4">earthquake</governor>
+          <dependent id="9">occurred</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="15">devised</governor>
+          <dependent id="10">before</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">scale</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">scale</governor>
+          <dependent id="12">Richter</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="15">devised</governor>
+          <dependent id="13">scale</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="15">devised</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">occurred</governor>
+          <dependent id="15">devised</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="19">estimated</governor>
+          <dependent id="17">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="19">estimated</governor>
+          <dependent id="18">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">estimated</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">8.3</governor>
+          <dependent id="20">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">estimated</governor>
+          <dependent id="21">8.3</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">scale</governor>
+          <dependent id="22">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">scale</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">scale</governor>
+          <dependent id="24">Richter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">estimated</governor>
+          <dependent id="25">scale</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1906" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="1906" />
+          </tokens>
+        </entity>
+        <entity id="2" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="4" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="3" string="8.3" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="21" string="8.3" />
+          </tokens>
+        </entity>
+        <entity id="4" string="San Francisco" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="San" />
+            <token id="3" string="Francisco" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="14-15-16-17" string="San Francisco Bay Bridge" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="4-5" string="the bridge" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="20-21" string="Candlestick Park" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="7" string="Candlestick" id_sentence="3" />
+        <mention ids_tokens="3" string="Candlestick" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="24-25-26-27" string="up to 95 miles" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="8-9" string="95 miles" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="NOMINAL">
+      <referenced ids_tokens="10" string="fans" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="23" string="their" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8" string="The quake , which lasted about 15 seconds" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The quake" id_sentence="10" />
+        <mention ids_tokens="1-2" string="The quake" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="NOMINAL">
+      <referenced ids_tokens="13-14-15" string="the Richter scale" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="5-9" string="a measure of ground motion" id_sentence="12" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

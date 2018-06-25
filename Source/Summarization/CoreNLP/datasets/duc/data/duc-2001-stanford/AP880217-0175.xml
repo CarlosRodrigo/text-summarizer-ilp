@@ -1,0 +1,3650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880217-0175">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>A coalition of members of Congress announced Wednesday that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="coalition" lemma="coalition" stem="coalit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="members" lemma="member" stem="member" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="Congress" lemma="Congress" stem="congress" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="announced" lemma="announce" stem="announc" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="plan" lemma="plan" stem="plan" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="sue" lemma="sue" stem="sue" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="16" string="Bureau" lemma="Bureau" stem="bureau" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="effort" lemma="effort" stem="effort" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="force" lemma="force" stem="forc" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="agency" lemma="agency" stem="agenc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="delete" lemma="delete" stem="delet" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="illegal" lemma="illegal" stem="illeg" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="aliens" lemma="alien" stem="alien" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="count" lemma="count" stem="count" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="1990" lemma="1990" stem="1990" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT A) (NN coalition)) (PP (IN of) (NP (NP (NNS members)) (PP (IN of) (NP (NNP Congress)))))) (VP (VBD announced) (NP-TMP (NNP Wednesday)) (SBAR (IN that) (S (NP (PRP they)) (VP (VBP plan) (S (VP (TO to) (VP (VB sue) (NP (DT the) (NNP Census) (NNP Bureau)) (PP (IN in) (NP (DT an) (NN effort) (S (VP (TO to) (VP (VB force) (NP (DT the) (NN agency) (S (VP (TO to) (VP (VB delete) (NP (JJ illegal) (NNS aliens)) (PP (IN from) (NP (NP (PRP$ its) (NN count)) (PP (IN in) (NP (CD 1990))))))))))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="illegal aliens" type="NP">
+          <tokens>
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="SBAR">
+          <tokens>
+            <token id="9" string="that" />
+            <token id="10" string="they" />
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the agency to delete illegal aliens from its count in 1990" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="members of Congress" type="NP">
+          <tokens>
+            <token id="4" string="members" />
+            <token id="5" string="of" />
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Census Bureau" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="an effort to force the agency to delete illegal aliens from its count in 1990" type="NP">
+          <tokens>
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1990" type="NP">
+          <tokens>
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="its count in 1990" type="NP">
+          <tokens>
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Congress" type="NP">
+          <tokens>
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="they" type="NP">
+          <tokens>
+            <token id="10" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="announced Wednesday that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="7" string="announced" />
+            <token id="8" string="Wednesday" />
+            <token id="9" string="that" />
+            <token id="10" string="they" />
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="members" type="NP">
+          <tokens>
+            <token id="4" string="members" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="A coalition" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="coalition" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="A coalition of members of Congress" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="coalition" />
+            <token id="3" string="of" />
+            <token id="4" string="members" />
+            <token id="5" string="of" />
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="its count" type="NP">
+          <tokens>
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">coalition</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">announced</governor>
+          <dependent id="2">coalition</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">members</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">coalition</governor>
+          <dependent id="4">members</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Congress</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">members</governor>
+          <dependent id="6">Congress</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">announced</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="7">announced</governor>
+          <dependent id="8">Wednesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">plan</governor>
+          <dependent id="9">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">plan</governor>
+          <dependent id="10">they</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">announced</governor>
+          <dependent id="11">plan</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">sue</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">plan</governor>
+          <dependent id="13">sue</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">Bureau</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Bureau</governor>
+          <dependent id="15">Census</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">sue</governor>
+          <dependent id="16">Bureau</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">effort</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">effort</governor>
+          <dependent id="18">an</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">sue</governor>
+          <dependent id="19">effort</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">force</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="19">effort</governor>
+          <dependent id="21">force</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">agency</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">force</governor>
+          <dependent id="23">agency</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="25">delete</governor>
+          <dependent id="24">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="23">agency</governor>
+          <dependent id="25">delete</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">aliens</governor>
+          <dependent id="26">illegal</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="25">delete</governor>
+          <dependent id="27">aliens</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">count</governor>
+          <dependent id="28">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="30">count</governor>
+          <dependent id="29">its</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">delete</governor>
+          <dependent id="30">count</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">1990</governor>
+          <dependent id="31">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">count</governor>
+          <dependent id="32">1990</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1990" type="DATE" score="0.0">
+          <tokens>
+            <token id="32" string="1990" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Census Bureau" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Congress" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="Congress" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Some 40 members of the House joined the Federation for American Immigration Reform in announcing that the suit would be filed Thursday in U.S. District Court in Pittsburgh, spokesmen said at a news conference here.</content>
+      <tokens>
+        <token id="1" string="Some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="40" lemma="40" stem="40" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="members" lemma="member" stem="member" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="House" lemma="House" stem="hous" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="joined" lemma="join" stem="join" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="Federation" lemma="Federation" stem="feder" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="American" lemma="American" stem="american" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="Immigration" lemma="Immigration" stem="immigrat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="Reform" lemma="Reform" stem="reform" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="announcing" lemma="announce" stem="announc" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="suit" lemma="suit" stem="suit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="filed" lemma="file" stem="file" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="23" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="District" lemma="District" stem="district" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="Court" lemma="Court" stem="court" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="Pittsburgh" lemma="Pittsburgh" stem="pittsburgh" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="spokesmen" lemma="spokesman" stem="spokesmen" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="news" lemma="news" stem="new" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="conference" lemma="conference" stem="confer" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT Some) (CD 40) (NNS members)) (PP (IN of) (NP (DT the) (NNP House)))) (VP (VBD joined) (NP (NP (DT the) (NNP Federation)) (PP (IN for) (NP (NNP American) (NNP Immigration) (NNP Reform)))) (PP (IN in) (S (VP (VBG announcing) (SBAR (IN that) (S (NP (DT the) (NN suit)) (VP (MD would) (VP (VB be) (VP (VBN filed) (NP-TMP (NNP Thursday)) (PP (IN in) (NP (NP (NNP U.S.) (NNP District) (NNP Court)) (PP (IN in) (NP (NNP Pittsburgh))))))))))))))) (, ,) (NP (NNS spokesmen)) (VP (VBD said) (PP (IN at) (NP (DT a) (NN news) (NN conference))) (ADVP (RB here))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Federation for American Immigration Reform" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Federation" />
+            <token id="10" string="for" />
+            <token id="11" string="American" />
+            <token id="12" string="Immigration" />
+            <token id="13" string="Reform" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a news conference" type="NP">
+          <tokens>
+            <token id="33" string="a" />
+            <token id="34" string="news" />
+            <token id="35" string="conference" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="U.S. District Court" type="NP">
+          <tokens>
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the House" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="House" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="would be filed Thursday in U.S. District Court in Pittsburgh" type="VP">
+          <tokens>
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Some 40 members of the House" type="NP">
+          <tokens>
+            <token id="1" string="Some" />
+            <token id="2" string="40" />
+            <token id="3" string="members" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="House" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="American Immigration Reform" type="NP">
+          <tokens>
+            <token id="11" string="American" />
+            <token id="12" string="Immigration" />
+            <token id="13" string="Reform" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Federation" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Federation" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="be filed Thursday in U.S. District Court in Pittsburgh" type="VP">
+          <tokens>
+            <token id="20" string="be" />
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="joined the Federation for American Immigration Reform in announcing that the suit would be filed Thursday in U.S. District Court in Pittsburgh" type="VP">
+          <tokens>
+            <token id="7" string="joined" />
+            <token id="8" string="the" />
+            <token id="9" string="Federation" />
+            <token id="10" string="for" />
+            <token id="11" string="American" />
+            <token id="12" string="Immigration" />
+            <token id="13" string="Reform" />
+            <token id="14" string="in" />
+            <token id="15" string="announcing" />
+            <token id="16" string="that" />
+            <token id="17" string="the" />
+            <token id="18" string="suit" />
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="filed Thursday in U.S. District Court in Pittsburgh" type="VP">
+          <tokens>
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="announcing that the suit would be filed Thursday in U.S. District Court in Pittsburgh" type="VP">
+          <tokens>
+            <token id="15" string="announcing" />
+            <token id="16" string="that" />
+            <token id="17" string="the" />
+            <token id="18" string="suit" />
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="U.S. District Court in Pittsburgh" type="NP">
+          <tokens>
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Some 40 members" type="NP">
+          <tokens>
+            <token id="1" string="Some" />
+            <token id="2" string="40" />
+            <token id="3" string="members" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="said at a news conference here" type="VP">
+          <tokens>
+            <token id="31" string="said" />
+            <token id="32" string="at" />
+            <token id="33" string="a" />
+            <token id="34" string="news" />
+            <token id="35" string="conference" />
+            <token id="36" string="here" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the suit" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="suit" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Pittsburgh" type="NP">
+          <tokens>
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="that the suit would be filed Thursday in U.S. District Court in Pittsburgh" type="SBAR">
+          <tokens>
+            <token id="16" string="that" />
+            <token id="17" string="the" />
+            <token id="18" string="suit" />
+            <token id="19" string="would" />
+            <token id="20" string="be" />
+            <token id="21" string="filed" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+            <token id="27" string="in" />
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="spokesmen" type="NP">
+          <tokens>
+            <token id="30" string="spokesmen" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">members</governor>
+          <dependent id="1">Some</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">members</governor>
+          <dependent id="2">40</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">joined</governor>
+          <dependent id="3">members</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">House</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">House</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">members</governor>
+          <dependent id="6">House</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="31">said</governor>
+          <dependent id="7">joined</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">Federation</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">joined</governor>
+          <dependent id="9">Federation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Reform</governor>
+          <dependent id="10">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Reform</governor>
+          <dependent id="11">American</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Reform</governor>
+          <dependent id="12">Immigration</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Federation</governor>
+          <dependent id="13">Reform</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="15">announcing</governor>
+          <dependent id="14">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="7">joined</governor>
+          <dependent id="15">announcing</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">filed</governor>
+          <dependent id="16">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">suit</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="21">filed</governor>
+          <dependent id="18">suit</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="21">filed</governor>
+          <dependent id="19">would</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="21">filed</governor>
+          <dependent id="20">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">announcing</governor>
+          <dependent id="21">filed</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="21">filed</governor>
+          <dependent id="22">Thursday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">Court</governor>
+          <dependent id="23">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Court</governor>
+          <dependent id="24">U.S.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Court</governor>
+          <dependent id="25">District</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">filed</governor>
+          <dependent id="26">Court</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">Pittsburgh</governor>
+          <dependent id="27">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">Court</governor>
+          <dependent id="28">Pittsburgh</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="31">said</governor>
+          <dependent id="30">spokesmen</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="31">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">conference</governor>
+          <dependent id="32">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">conference</governor>
+          <dependent id="33">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">conference</governor>
+          <dependent id="34">news</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">said</governor>
+          <dependent id="35">conference</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="31">said</governor>
+          <dependent id="36">here</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="House" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="House" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S. District Court" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="24" string="U.S." />
+            <token id="25" string="District" />
+            <token id="26" string="Court" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="22" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="40" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="40" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Pittsburgh" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="Pittsburgh" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Federation for American Immigration Reform" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Federation" />
+            <token id="10" string="for" />
+            <token id="11" string="American" />
+            <token id="12" string="Immigration" />
+            <token id="13" string="Reform" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>The group contends that including the estimated 2 million or more illegal aliens in the national head count, which is used to distribute seats in the House of Representatives, will cause unfair shifts of seats from one state to another.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="group" lemma="group" stem="group" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="contends" lemma="contend" stem="contend" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="estimated" lemma="estimate" stem="estim" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="2" lemma="2" stem="2" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="illegal" lemma="illegal" stem="illeg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="aliens" lemma="alien" stem="alien" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="national" lemma="national" stem="nation" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="head" lemma="head" stem="head" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="count" lemma="count" stem="count" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="distribute" lemma="distribute" stem="distribut" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="seats" lemma="seat" stem="seat" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="26" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="28" string="House" lemma="House" stem="hous" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="30" string="Representatives" lemma="Representatives" stem="repres" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="31" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="cause" lemma="cause" stem="caus" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="unfair" lemma="unfair" stem="unfair" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="shifts" lemma="shift" stem="shift" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="seats" lemma="seat" stem="seat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="40" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="42" string="another" lemma="another" stem="anoth" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="43" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN group)) (VP (VBZ contends) (SBAR (IN that) (S (PP (VBG including) (NP (DT the) (VBN estimated) (QP (CD 2) (CD million)))) (NP (NP (QP (CC or) (JJR more)) (JJ illegal) (NNS aliens)) (PP (IN in) (NP (NP (DT the) (JJ national) (NN head) (NN count)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (VP (VBN used) (S (VP (TO to) (VP (VB distribute) (NP (NNS seats)) (PP (IN in) (NP (NP (DT the) (NNP House)) (PP (IN of) (NP (NNPS Representatives)))))))))))) (, ,)))) (VP (MD will) (VP (VB cause) (NP (NP (JJ unfair) (NNS shifts)) (PP (IN of) (NP (NNS seats)))) (PP (IN from) (NP (CD one) (NN state))) (PP (TO to) (NP (DT another)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="which is used to distribute seats in the House of Representatives" type="SBAR">
+          <tokens>
+            <token id="20" string="which" />
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="unfair shifts of seats" type="NP">
+          <tokens>
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+            <token id="36" string="of" />
+            <token id="37" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="unfair shifts" type="NP">
+          <tokens>
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="or more illegal aliens in the national head count , which is used to distribute seats in the House of Representatives ," type="NP">
+          <tokens>
+            <token id="10" string="or" />
+            <token id="11" string="more" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+            <token id="14" string="in" />
+            <token id="15" string="the" />
+            <token id="16" string="national" />
+            <token id="17" string="head" />
+            <token id="18" string="count" />
+            <token id="19" string="," />
+            <token id="20" string="which" />
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+            <token id="31" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="another" type="NP">
+          <tokens>
+            <token id="42" string="another" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="that including the estimated 2 million or more illegal aliens in the national head count , which is used to distribute seats in the House of Representatives , will cause unfair shifts of seats from one state to another" type="SBAR">
+          <tokens>
+            <token id="4" string="that" />
+            <token id="5" string="including" />
+            <token id="6" string="the" />
+            <token id="7" string="estimated" />
+            <token id="8" string="2" />
+            <token id="9" string="million" />
+            <token id="10" string="or" />
+            <token id="11" string="more" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+            <token id="14" string="in" />
+            <token id="15" string="the" />
+            <token id="16" string="national" />
+            <token id="17" string="head" />
+            <token id="18" string="count" />
+            <token id="19" string="," />
+            <token id="20" string="which" />
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+            <token id="31" string="," />
+            <token id="32" string="will" />
+            <token id="33" string="cause" />
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+            <token id="36" string="of" />
+            <token id="37" string="seats" />
+            <token id="38" string="from" />
+            <token id="39" string="one" />
+            <token id="40" string="state" />
+            <token id="41" string="to" />
+            <token id="42" string="another" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the House" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Representatives" type="NP">
+          <tokens>
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to distribute seats in the House of Representatives" type="VP">
+          <tokens>
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the national head count" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="national" />
+            <token id="17" string="head" />
+            <token id="18" string="count" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="seats" type="NP">
+          <tokens>
+            <token id="25" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="will cause unfair shifts of seats from one state to another" type="VP">
+          <tokens>
+            <token id="32" string="will" />
+            <token id="33" string="cause" />
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+            <token id="36" string="of" />
+            <token id="37" string="seats" />
+            <token id="38" string="from" />
+            <token id="39" string="one" />
+            <token id="40" string="state" />
+            <token id="41" string="to" />
+            <token id="42" string="another" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="The group" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="group" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="used to distribute seats in the House of Representatives" type="VP">
+          <tokens>
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the estimated 2 million" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="estimated" />
+            <token id="8" string="2" />
+            <token id="9" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="is used to distribute seats in the House of Representatives" type="VP">
+          <tokens>
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the national head count , which is used to distribute seats in the House of Representatives ," type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="national" />
+            <token id="17" string="head" />
+            <token id="18" string="count" />
+            <token id="19" string="," />
+            <token id="20" string="which" />
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+            <token id="31" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="cause unfair shifts of seats from one state to another" type="VP">
+          <tokens>
+            <token id="33" string="cause" />
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+            <token id="36" string="of" />
+            <token id="37" string="seats" />
+            <token id="38" string="from" />
+            <token id="39" string="one" />
+            <token id="40" string="state" />
+            <token id="41" string="to" />
+            <token id="42" string="another" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="or more illegal aliens" type="NP">
+          <tokens>
+            <token id="10" string="or" />
+            <token id="11" string="more" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="contends that including the estimated 2 million or more illegal aliens in the national head count , which is used to distribute seats in the House of Representatives , will cause unfair shifts of seats from one state to another" type="VP">
+          <tokens>
+            <token id="3" string="contends" />
+            <token id="4" string="that" />
+            <token id="5" string="including" />
+            <token id="6" string="the" />
+            <token id="7" string="estimated" />
+            <token id="8" string="2" />
+            <token id="9" string="million" />
+            <token id="10" string="or" />
+            <token id="11" string="more" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+            <token id="14" string="in" />
+            <token id="15" string="the" />
+            <token id="16" string="national" />
+            <token id="17" string="head" />
+            <token id="18" string="count" />
+            <token id="19" string="," />
+            <token id="20" string="which" />
+            <token id="21" string="is" />
+            <token id="22" string="used" />
+            <token id="23" string="to" />
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+            <token id="31" string="," />
+            <token id="32" string="will" />
+            <token id="33" string="cause" />
+            <token id="34" string="unfair" />
+            <token id="35" string="shifts" />
+            <token id="36" string="of" />
+            <token id="37" string="seats" />
+            <token id="38" string="from" />
+            <token id="39" string="one" />
+            <token id="40" string="state" />
+            <token id="41" string="to" />
+            <token id="42" string="another" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the House of Representatives" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="one state" type="NP">
+          <tokens>
+            <token id="39" string="one" />
+            <token id="40" string="state" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="distribute seats in the House of Representatives" type="VP">
+          <tokens>
+            <token id="24" string="distribute" />
+            <token id="25" string="seats" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">group</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">contends</governor>
+          <dependent id="2">group</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">contends</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="33">cause</governor>
+          <dependent id="4">that</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">million</governor>
+          <dependent id="5">including</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">million</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">million</governor>
+          <dependent id="7">estimated</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">million</governor>
+          <dependent id="8">2</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">cause</governor>
+          <dependent id="9">million</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">more</governor>
+          <dependent id="10">or</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">aliens</governor>
+          <dependent id="11">more</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">aliens</governor>
+          <dependent id="12">illegal</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">cause</governor>
+          <dependent id="13">aliens</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">count</governor>
+          <dependent id="14">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">count</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">count</governor>
+          <dependent id="16">national</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">count</governor>
+          <dependent id="17">head</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">aliens</governor>
+          <dependent id="18">count</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="22">used</governor>
+          <dependent id="20">which</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="22">used</governor>
+          <dependent id="21">is</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="18">count</governor>
+          <dependent id="22">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">distribute</governor>
+          <dependent id="23">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="22">used</governor>
+          <dependent id="24">distribute</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">distribute</governor>
+          <dependent id="25">seats</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">House</governor>
+          <dependent id="26">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">House</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">distribute</governor>
+          <dependent id="28">House</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">Representatives</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">House</governor>
+          <dependent id="30">Representatives</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="33">cause</governor>
+          <dependent id="32">will</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">contends</governor>
+          <dependent id="33">cause</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="35">shifts</governor>
+          <dependent id="34">unfair</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="33">cause</governor>
+          <dependent id="35">shifts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">seats</governor>
+          <dependent id="36">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">shifts</governor>
+          <dependent id="37">seats</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="40">state</governor>
+          <dependent id="38">from</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="40">state</governor>
+          <dependent id="39">one</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">cause</governor>
+          <dependent id="40">state</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="42">another</governor>
+          <dependent id="41">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">cause</governor>
+          <dependent id="42">another</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="39" string="one" />
+          </tokens>
+        </entity>
+        <entity id="2" string="2 million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="2" />
+            <token id="9" string="million" />
+          </tokens>
+        </entity>
+        <entity id="3" string="House of Representatives" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="28" string="House" />
+            <token id="29" string="of" />
+            <token id="30" string="Representatives" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Census officials say they are required to count everyone by the U.S. Constitution, which does not mention citizenship but only instructs that the House apportionment be based on the ``whole number of persons&amp;apost;&amp;apost; residing in the various states.</content>
+      <tokens>
+        <token id="1" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="officials" lemma="official" stem="offici" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="say" lemma="say" stem="sai" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="required" lemma="require" stem="requir" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="count" lemma="count" stem="count" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="everyone" lemma="everyone" stem="everyon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="Constitution" lemma="Constitution" stem="constitut" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="does" lemma="do" stem="doe" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="mention" lemma="mention" stem="mention" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="citizenship" lemma="citizenship" stem="citizenship" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="only" lemma="only" stem="onli" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="instructs" lemma="instruct" stem="instruct" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="House" lemma="House" stem="hous" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="26" string="apportionment" lemma="apportionment" stem="apportion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="based" lemma="base" stem="base" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="31" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="32" string="whole" lemma="whole" stem="whole" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="33" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="34" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="35" string="persons" lemma="person" stem="person" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="36" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="residing" lemma="reside" stem="resid" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="various" lemma="various" stem="variou" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="states" lemma="state" stem="state" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Census) (NNS officials)) (VP (VBP say) (SBAR (S (NP (PRP they)) (VP (VBP are) (VP (VBN required) (S (VP (TO to) (VP (VB count) (NP (NN everyone)) (PP (IN by) (NP (NP (DT the) (NNP U.S.) (NNP Constitution)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VP (VBZ does) (RB not) (VP (VB mention) (NP (NN citizenship)))) (CC but) (VP (ADVP (RB only)) (VBZ instructs) (SBAR (IN that) (S (NP (DT the) (NNP House) (NN apportionment)) (VP (VB be) (VP (VBN based) (PP (IN on) (NP (NP (DT the) (`` ``) (JJ whole) (NN number)) (PP (IN of) (NP (NNS persons)))))))))) ('' '') (S (VP (VBG residing) (PP (IN in) (NP (DT the) (JJ various) (NNS states)))))))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="citizenship" type="NP">
+          <tokens>
+            <token id="19" string="citizenship" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="be based on the `` whole number of persons" type="VP">
+          <tokens>
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="everyone" type="NP">
+          <tokens>
+            <token id="9" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="are required to count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="5" string="are" />
+            <token id="6" string="required" />
+            <token id="7" string="to" />
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="only instructs that the House apportionment be based on the `` whole number of persons" type="VP">
+          <tokens>
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="say they are required to count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="3" string="say" />
+            <token id="4" string="they" />
+            <token id="5" string="are" />
+            <token id="6" string="required" />
+            <token id="7" string="to" />
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="persons" type="NP">
+          <tokens>
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="mention citizenship" type="VP">
+          <tokens>
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the `` whole number" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="they are required to count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="SBAR">
+          <tokens>
+            <token id="4" string="they" />
+            <token id="5" string="are" />
+            <token id="6" string="required" />
+            <token id="7" string="to" />
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="SBAR">
+          <tokens>
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the House apportionment" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the `` whole number of persons" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="residing in the various states" type="VP">
+          <tokens>
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="they" type="NP">
+          <tokens>
+            <token id="4" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="that the House apportionment be based on the `` whole number of persons" type="SBAR">
+          <tokens>
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="required to count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="6" string="required" />
+            <token id="7" string="to" />
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the U.S. Constitution" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="to count everyone by the U.S. Constitution , which does not mention citizenship but only instructs that the House apportionment be based on the `` whole number of persons '' residing in the various states" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="count" />
+            <token id="9" string="everyone" />
+            <token id="10" string="by" />
+            <token id="11" string="the" />
+            <token id="12" string="U.S." />
+            <token id="13" string="Constitution" />
+            <token id="14" string="," />
+            <token id="15" string="which" />
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+            <token id="20" string="but" />
+            <token id="21" string="only" />
+            <token id="22" string="instructs" />
+            <token id="23" string="that" />
+            <token id="24" string="the" />
+            <token id="25" string="House" />
+            <token id="26" string="apportionment" />
+            <token id="27" string="be" />
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+            <token id="36" string="''" />
+            <token id="37" string="residing" />
+            <token id="38" string="in" />
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="does not mention citizenship" type="VP">
+          <tokens>
+            <token id="16" string="does" />
+            <token id="17" string="not" />
+            <token id="18" string="mention" />
+            <token id="19" string="citizenship" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="based on the `` whole number of persons" type="VP">
+          <tokens>
+            <token id="28" string="based" />
+            <token id="29" string="on" />
+            <token id="30" string="the" />
+            <token id="31" string="``" />
+            <token id="32" string="whole" />
+            <token id="33" string="number" />
+            <token id="34" string="of" />
+            <token id="35" string="persons" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="Census officials" type="NP">
+          <tokens>
+            <token id="1" string="Census" />
+            <token id="2" string="officials" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="the various states" type="NP">
+          <tokens>
+            <token id="39" string="the" />
+            <token id="40" string="various" />
+            <token id="41" string="states" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">officials</governor>
+          <dependent id="1">Census</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">say</governor>
+          <dependent id="2">officials</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">say</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="6">required</governor>
+          <dependent id="4">they</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="6">required</governor>
+          <dependent id="5">are</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">say</governor>
+          <dependent id="6">required</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">count</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">required</governor>
+          <dependent id="8">count</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">count</governor>
+          <dependent id="9">everyone</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Constitution</governor>
+          <dependent id="10">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Constitution</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Constitution</governor>
+          <dependent id="12">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">count</governor>
+          <dependent id="13">Constitution</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">mention</governor>
+          <dependent id="15">which</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">mention</governor>
+          <dependent id="16">does</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="18">mention</governor>
+          <dependent id="17">not</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">Constitution</governor>
+          <dependent id="18">mention</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">mention</governor>
+          <dependent id="19">citizenship</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">mention</governor>
+          <dependent id="20">but</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">instructs</governor>
+          <dependent id="21">only</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">mention</governor>
+          <dependent id="22">instructs</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="28">based</governor>
+          <dependent id="23">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">apportionment</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">apportionment</governor>
+          <dependent id="25">House</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="28">based</governor>
+          <dependent id="26">apportionment</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="28">based</governor>
+          <dependent id="27">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="22">instructs</governor>
+          <dependent id="28">based</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">number</governor>
+          <dependent id="29">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="33">number</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="33">number</governor>
+          <dependent id="32">whole</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">based</governor>
+          <dependent id="33">number</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">persons</governor>
+          <dependent id="34">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">number</governor>
+          <dependent id="35">persons</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">mention</governor>
+          <dependent id="37">residing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="41">states</governor>
+          <dependent id="38">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="41">states</governor>
+          <dependent id="39">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="41">states</governor>
+          <dependent id="40">various</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="37">residing</governor>
+          <dependent id="41">states</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="House" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="25" string="House" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>That approach was upheld by a federal court in a similar suit, brought by the same immigration reform group, before the 1980 Census.</content>
+      <tokens>
+        <token id="1" string="That" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="approach" lemma="approach" stem="approach" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="upheld" lemma="uphold" stem="upheld" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="federal" lemma="federal" stem="feder" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="court" lemma="court" stem="court" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="similar" lemma="similar" stem="similar" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="suit" lemma="suit" stem="suit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="brought" lemma="bring" stem="brought" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="same" lemma="same" stem="same" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="immigration" lemma="immigration" stem="immigr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="reform" lemma="reform" stem="reform" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="group" lemma="group" stem="group" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="1980" lemma="1980" stem="1980" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="25" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT That) (NN approach)) (VP (VBD was) (VP (VBN upheld) (PP (IN by) (NP (NP (DT a) (JJ federal) (NN court)) (PP (IN in) (NP (NP (DT a) (JJ similar) (NN suit)) (, ,) (VP (VBN brought) (PP (IN by) (NP (DT the) (JJ same) (NN immigration) (NN reform) (NN group)))) (, ,) (PP (IN before) (NP (DT the) (CD 1980))) (NP (NNP Census)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was upheld by a federal court in a similar suit , brought by the same immigration reform group , before the 1980 Census" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="upheld" />
+            <token id="5" string="by" />
+            <token id="6" string="a" />
+            <token id="7" string="federal" />
+            <token id="8" string="court" />
+            <token id="9" string="in" />
+            <token id="10" string="a" />
+            <token id="11" string="similar" />
+            <token id="12" string="suit" />
+            <token id="13" string="," />
+            <token id="14" string="brought" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+            <token id="21" string="," />
+            <token id="22" string="before" />
+            <token id="23" string="the" />
+            <token id="24" string="1980" />
+            <token id="25" string="Census" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="upheld by a federal court in a similar suit , brought by the same immigration reform group , before the 1980 Census" type="VP">
+          <tokens>
+            <token id="4" string="upheld" />
+            <token id="5" string="by" />
+            <token id="6" string="a" />
+            <token id="7" string="federal" />
+            <token id="8" string="court" />
+            <token id="9" string="in" />
+            <token id="10" string="a" />
+            <token id="11" string="similar" />
+            <token id="12" string="suit" />
+            <token id="13" string="," />
+            <token id="14" string="brought" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+            <token id="21" string="," />
+            <token id="22" string="before" />
+            <token id="23" string="the" />
+            <token id="24" string="1980" />
+            <token id="25" string="Census" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a similar suit , brought by the same immigration reform group , before the 1980 Census" type="NP">
+          <tokens>
+            <token id="10" string="a" />
+            <token id="11" string="similar" />
+            <token id="12" string="suit" />
+            <token id="13" string="," />
+            <token id="14" string="brought" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+            <token id="21" string="," />
+            <token id="22" string="before" />
+            <token id="23" string="the" />
+            <token id="24" string="1980" />
+            <token id="25" string="Census" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Census" type="NP">
+          <tokens>
+            <token id="25" string="Census" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a federal court in a similar suit , brought by the same immigration reform group , before the 1980 Census" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="federal" />
+            <token id="8" string="court" />
+            <token id="9" string="in" />
+            <token id="10" string="a" />
+            <token id="11" string="similar" />
+            <token id="12" string="suit" />
+            <token id="13" string="," />
+            <token id="14" string="brought" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+            <token id="21" string="," />
+            <token id="22" string="before" />
+            <token id="23" string="the" />
+            <token id="24" string="1980" />
+            <token id="25" string="Census" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a similar suit" type="NP">
+          <tokens>
+            <token id="10" string="a" />
+            <token id="11" string="similar" />
+            <token id="12" string="suit" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="brought by the same immigration reform group" type="VP">
+          <tokens>
+            <token id="14" string="brought" />
+            <token id="15" string="by" />
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="That approach" type="NP">
+          <tokens>
+            <token id="1" string="That" />
+            <token id="2" string="approach" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a federal court" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="federal" />
+            <token id="8" string="court" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the 1980" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="1980" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the same immigration reform group" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="same" />
+            <token id="18" string="immigration" />
+            <token id="19" string="reform" />
+            <token id="20" string="group" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">approach</governor>
+          <dependent id="1">That</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">upheld</governor>
+          <dependent id="2">approach</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">upheld</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">upheld</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">court</governor>
+          <dependent id="5">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">court</governor>
+          <dependent id="6">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">court</governor>
+          <dependent id="7">federal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">upheld</governor>
+          <dependent id="8">court</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">suit</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">suit</governor>
+          <dependent id="10">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">suit</governor>
+          <dependent id="11">similar</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">court</governor>
+          <dependent id="12">suit</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="12">suit</governor>
+          <dependent id="14">brought</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">group</governor>
+          <dependent id="15">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">group</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">group</governor>
+          <dependent id="17">same</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">group</governor>
+          <dependent id="18">immigration</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">group</governor>
+          <dependent id="19">reform</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">brought</governor>
+          <dependent id="20">group</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">1980</governor>
+          <dependent id="22">before</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">1980</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">suit</governor>
+          <dependent id="24">1980</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="12">suit</governor>
+          <dependent id="25">Census</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1980" type="DATE" score="0.0">
+          <tokens>
+            <token id="24" string="1980" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Nonetheless, Dan Stein of the immigration reform federation contended that illegal aliens should not be allowed to be part of determining the political structure of the United States.</content>
+      <tokens>
+        <token id="1" string="Nonetheless" lemma="nonetheless" stem="nonetheless" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Dan" lemma="Dan" stem="dan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="4" string="Stein" lemma="Stein" stem="stein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="immigration" lemma="immigration" stem="immigr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="reform" lemma="reform" stem="reform" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="federation" lemma="federation" stem="feder" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="contended" lemma="contend" stem="contend" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="illegal" lemma="illegal" stem="illeg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="aliens" lemma="alien" stem="alien" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="allowed" lemma="allow" stem="allow" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="part" lemma="part" stem="part" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="determining" lemma="determine" stem="determin" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="political" lemma="political" stem="polit" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="structure" lemma="structure" stem="structur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="United" lemma="United" stem="unite" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="States" lemma="States" stem="state" pos="NNPS" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (ADVP (RB Nonetheless)) (, ,) (NP (NP (NNP Dan) (NNP Stein)) (PP (IN of) (NP (DT the) (NN immigration) (NN reform) (NN federation)))) (VP (VBD contended) (SBAR (IN that) (S (NP (JJ illegal) (NNS aliens)) (VP (MD should) (RB not) (VP (VB be) (VP (VBN allowed) (S (VP (TO to) (VP (VB be) (NP (NP (NN part)) (PP (IN of) (S (VP (VBG determining) (NP (NP (DT the) (JJ political) (NN structure)) (PP (IN of) (NP (DT the) (NNP United) (NNPS States))))))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="illegal aliens" type="NP">
+          <tokens>
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="contended that illegal aliens should not be allowed to be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="10" string="contended" />
+            <token id="11" string="that" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+            <token id="14" string="should" />
+            <token id="15" string="not" />
+            <token id="16" string="be" />
+            <token id="17" string="allowed" />
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="that illegal aliens should not be allowed to be part of determining the political structure of the United States" type="SBAR">
+          <tokens>
+            <token id="11" string="that" />
+            <token id="12" string="illegal" />
+            <token id="13" string="aliens" />
+            <token id="14" string="should" />
+            <token id="15" string="not" />
+            <token id="16" string="be" />
+            <token id="17" string="allowed" />
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="part" type="NP">
+          <tokens>
+            <token id="20" string="part" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="be allowed to be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="16" string="be" />
+            <token id="17" string="allowed" />
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the political structure" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the United States" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Dan Stein of the immigration reform federation" type="NP">
+          <tokens>
+            <token id="3" string="Dan" />
+            <token id="4" string="Stein" />
+            <token id="5" string="of" />
+            <token id="6" string="the" />
+            <token id="7" string="immigration" />
+            <token id="8" string="reform" />
+            <token id="9" string="federation" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the political structure of the United States" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Dan Stein" type="NP">
+          <tokens>
+            <token id="3" string="Dan" />
+            <token id="4" string="Stein" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the immigration reform federation" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="immigration" />
+            <token id="8" string="reform" />
+            <token id="9" string="federation" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="should not be allowed to be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="14" string="should" />
+            <token id="15" string="not" />
+            <token id="16" string="be" />
+            <token id="17" string="allowed" />
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="allowed to be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="17" string="allowed" />
+            <token id="18" string="to" />
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="be part of determining the political structure of the United States" type="VP">
+          <tokens>
+            <token id="19" string="be" />
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="part of determining the political structure of the United States" type="NP">
+          <tokens>
+            <token id="20" string="part" />
+            <token id="21" string="of" />
+            <token id="22" string="determining" />
+            <token id="23" string="the" />
+            <token id="24" string="political" />
+            <token id="25" string="structure" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="10">contended</governor>
+          <dependent id="1">Nonetheless</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Stein</governor>
+          <dependent id="3">Dan</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">contended</governor>
+          <dependent id="4">Stein</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">federation</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">federation</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">federation</governor>
+          <dependent id="7">immigration</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">federation</governor>
+          <dependent id="8">reform</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">Stein</governor>
+          <dependent id="9">federation</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">contended</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="17">allowed</governor>
+          <dependent id="11">that</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">aliens</governor>
+          <dependent id="12">illegal</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="17">allowed</governor>
+          <dependent id="13">aliens</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="17">allowed</governor>
+          <dependent id="14">should</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="17">allowed</governor>
+          <dependent id="15">not</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="17">allowed</governor>
+          <dependent id="16">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">contended</governor>
+          <dependent id="17">allowed</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="20">part</governor>
+          <dependent id="18">to</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="20">part</governor>
+          <dependent id="19">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="17">allowed</governor>
+          <dependent id="20">part</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">determining</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="20">part</governor>
+          <dependent id="22">determining</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">structure</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">structure</governor>
+          <dependent id="24">political</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">determining</governor>
+          <dependent id="25">structure</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">States</governor>
+          <dependent id="26">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">States</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">States</governor>
+          <dependent id="28">United</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">structure</governor>
+          <dependent id="29">States</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="United States" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="United" />
+            <token id="29" string="States" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Dan Stein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="Dan" />
+            <token id="4" string="Stein" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>Rep. Tom Ridge, R-Pa., said the Census Bureau should actually count everyone but that it should develop a method to determine how many people are illegally in the country, and them deduct that number from the figures used for reapportioning Congress.</content>
+      <tokens>
+        <token id="1" string="Rep." lemma="Rep." stem="rep." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Tom" lemma="Tom" stem="tom" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="Ridge" lemma="Ridge" stem="ridg" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="R-Pa." lemma="R-Pa." stem="r-pa." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="Bureau" lemma="Bureau" stem="bureau" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="actually" lemma="actually" stem="actual" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="count" lemma="count" stem="count" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="everyone" lemma="everyone" stem="everyon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="develop" lemma="develop" stem="develop" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="method" lemma="method" stem="method" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="determine" lemma="determine" stem="determin" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="how" lemma="how" stem="how" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="many" lemma="many" stem="mani" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="illegally" lemma="illegally" stem="illeg" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="country" lemma="country" stem="countri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="35" string="deduct" lemma="deduct" stem="deduct" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="37" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="38" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="figures" lemma="figure" stem="figur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="reapportioning" lemma="reapportion" stem="reapport" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="44" string="Congress" lemma="Congress" stem="congress" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="45" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NNP Rep.) (NNP Tom) (NNP Ridge)) (, ,) (NP (NNP R-Pa.)) (, ,)) (VP (VBD said) (SBAR (SBAR (S (NP (DT the) (NNP Census) (NNP Bureau)) (VP (MD should) (ADVP (RB actually)) (VP (VB count) (NP (NN everyone)))))) (CC but) (SBAR (IN that) (S (NP (PRP it)) (VP (MD should) (VP (VB develop) (NP (DT a) (NN method) (S (VP (TO to) (VP (VB determine) (SBAR (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (S (VP (VBP are) (ADVP (RB illegally)) (PP (IN in) (NP (DT the) (NN country))))))))))))))))) (, ,) (CC and) (S (NP (PRP them)) (VP (VB deduct) (NP (DT that) (NN number)) (PP (IN from) (NP (NP (DT the) (NNS figures)) (VP (VBN used) (PP (IN for) (S (VP (VBG reapportioning) (NP (NNP Congress)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="are illegally in the country" type="VP">
+          <tokens>
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="everyone" type="NP">
+          <tokens>
+            <token id="14" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Rep. Tom Ridge" type="NP">
+          <tokens>
+            <token id="1" string="Rep." />
+            <token id="2" string="Tom" />
+            <token id="3" string="Ridge" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Census Bureau" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Census" />
+            <token id="10" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="it" type="NP">
+          <tokens>
+            <token id="17" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="that number" type="NP">
+          <tokens>
+            <token id="36" string="that" />
+            <token id="37" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="them" type="NP">
+          <tokens>
+            <token id="34" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to determine how many people are illegally in the country" type="VP">
+          <tokens>
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the figures used for reapportioning Congress" type="NP">
+          <tokens>
+            <token id="39" string="the" />
+            <token id="40" string="figures" />
+            <token id="41" string="used" />
+            <token id="42" string="for" />
+            <token id="43" string="reapportioning" />
+            <token id="44" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="reapportioning Congress" type="VP">
+          <tokens>
+            <token id="43" string="reapportioning" />
+            <token id="44" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="count everyone" type="VP">
+          <tokens>
+            <token id="13" string="count" />
+            <token id="14" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="that it should develop a method to determine how many people are illegally in the country" type="SBAR">
+          <tokens>
+            <token id="16" string="that" />
+            <token id="17" string="it" />
+            <token id="18" string="should" />
+            <token id="19" string="develop" />
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the figures" type="NP">
+          <tokens>
+            <token id="39" string="the" />
+            <token id="40" string="figures" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="should develop a method to determine how many people are illegally in the country" type="VP">
+          <tokens>
+            <token id="18" string="should" />
+            <token id="19" string="develop" />
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the Census Bureau should actually count everyone but that it should develop a method to determine how many people are illegally in the country" type="SBAR">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Census" />
+            <token id="10" string="Bureau" />
+            <token id="11" string="should" />
+            <token id="12" string="actually" />
+            <token id="13" string="count" />
+            <token id="14" string="everyone" />
+            <token id="15" string="but" />
+            <token id="16" string="that" />
+            <token id="17" string="it" />
+            <token id="18" string="should" />
+            <token id="19" string="develop" />
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the Census Bureau should actually count everyone" type="SBAR">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Census" />
+            <token id="10" string="Bureau" />
+            <token id="11" string="should" />
+            <token id="12" string="actually" />
+            <token id="13" string="count" />
+            <token id="14" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="determine how many people are illegally in the country" type="VP">
+          <tokens>
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="develop a method to determine how many people are illegally in the country" type="VP">
+          <tokens>
+            <token id="19" string="develop" />
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="how many people are illegally in the country" type="SBAR">
+          <tokens>
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="Congress" type="NP">
+          <tokens>
+            <token id="44" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="said the Census Bureau should actually count everyone but that it should develop a method to determine how many people are illegally in the country" type="VP">
+          <tokens>
+            <token id="7" string="said" />
+            <token id="8" string="the" />
+            <token id="9" string="Census" />
+            <token id="10" string="Bureau" />
+            <token id="11" string="should" />
+            <token id="12" string="actually" />
+            <token id="13" string="count" />
+            <token id="14" string="everyone" />
+            <token id="15" string="but" />
+            <token id="16" string="that" />
+            <token id="17" string="it" />
+            <token id="18" string="should" />
+            <token id="19" string="develop" />
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="deduct that number from the figures used for reapportioning Congress" type="VP">
+          <tokens>
+            <token id="35" string="deduct" />
+            <token id="36" string="that" />
+            <token id="37" string="number" />
+            <token id="38" string="from" />
+            <token id="39" string="the" />
+            <token id="40" string="figures" />
+            <token id="41" string="used" />
+            <token id="42" string="for" />
+            <token id="43" string="reapportioning" />
+            <token id="44" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="a method to determine how many people are illegally in the country" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="method" />
+            <token id="22" string="to" />
+            <token id="23" string="determine" />
+            <token id="24" string="how" />
+            <token id="25" string="many" />
+            <token id="26" string="people" />
+            <token id="27" string="are" />
+            <token id="28" string="illegally" />
+            <token id="29" string="in" />
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="the country" type="NP">
+          <tokens>
+            <token id="30" string="the" />
+            <token id="31" string="country" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="R-Pa." type="NP">
+          <tokens>
+            <token id="5" string="R-Pa." />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="should actually count everyone" type="VP">
+          <tokens>
+            <token id="11" string="should" />
+            <token id="12" string="actually" />
+            <token id="13" string="count" />
+            <token id="14" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="Rep. Tom Ridge , R-Pa. ," type="NP">
+          <tokens>
+            <token id="1" string="Rep." />
+            <token id="2" string="Tom" />
+            <token id="3" string="Ridge" />
+            <token id="4" string="," />
+            <token id="5" string="R-Pa." />
+            <token id="6" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="used for reapportioning Congress" type="VP">
+          <tokens>
+            <token id="41" string="used" />
+            <token id="42" string="for" />
+            <token id="43" string="reapportioning" />
+            <token id="44" string="Congress" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Ridge</governor>
+          <dependent id="1">Rep.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Ridge</governor>
+          <dependent id="2">Tom</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">said</governor>
+          <dependent id="3">Ridge</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">Ridge</governor>
+          <dependent id="5">R-Pa.</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">said</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Bureau</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Bureau</governor>
+          <dependent id="9">Census</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">count</governor>
+          <dependent id="10">Bureau</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="13">count</governor>
+          <dependent id="11">should</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">count</governor>
+          <dependent id="12">actually</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">said</governor>
+          <dependent id="13">count</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">count</governor>
+          <dependent id="14">everyone</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">count</governor>
+          <dependent id="15">but</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="19">develop</governor>
+          <dependent id="16">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">develop</governor>
+          <dependent id="17">it</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="19">develop</governor>
+          <dependent id="18">should</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">count</governor>
+          <dependent id="19">develop</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">method</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">develop</governor>
+          <dependent id="21">method</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">determine</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="21">method</governor>
+          <dependent id="23">determine</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="25">many</governor>
+          <dependent id="24">how</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">people</governor>
+          <dependent id="25">many</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="31">country</governor>
+          <dependent id="26">people</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="31">country</governor>
+          <dependent id="27">are</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="31">country</governor>
+          <dependent id="28">illegally</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">country</governor>
+          <dependent id="29">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">country</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="23">determine</governor>
+          <dependent id="31">country</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">said</governor>
+          <dependent id="33">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="35">deduct</governor>
+          <dependent id="34">them</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">said</governor>
+          <dependent id="35">deduct</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="37">number</governor>
+          <dependent id="36">that</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="35">deduct</governor>
+          <dependent id="37">number</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="40">figures</governor>
+          <dependent id="38">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="40">figures</governor>
+          <dependent id="39">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">deduct</governor>
+          <dependent id="40">figures</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="40">figures</governor>
+          <dependent id="41">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="43">reapportioning</governor>
+          <dependent id="42">for</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="41">used</governor>
+          <dependent id="43">reapportioning</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="43">reapportioning</governor>
+          <dependent id="44">Congress</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Tom Ridge" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Tom" />
+            <token id="3" string="Ridge" />
+          </tokens>
+        </entity>
+        <entity id="2" string="R-Pa." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="R-Pa." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Census Bureau" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Census" />
+            <token id="10" string="Bureau" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Congress" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="44" string="Congress" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>Rep. Jan Meyers, R-Kan., suggested including a question on the Census form asking whether respondents are U.S. citizerns.</content>
+      <tokens>
+        <token id="1" string="Rep." lemma="Rep." stem="rep." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Jan" lemma="Jan" stem="jan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="Meyers" lemma="Meyers" stem="meyer" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="R-Kan." lemma="R-Kan." stem="r-kan." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="suggested" lemma="suggest" stem="suggest" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="question" lemma="question" stem="question" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="14" string="form" lemma="form" stem="form" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="asking" lemma="ask" stem="ask" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="whether" lemma="whether" stem="whether" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="respondents" lemma="respondent" stem="respond" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="20" string="citizerns" lemma="citizern" stem="citizern" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Rep.) (NNP Jan) (NNP Meyers)) (, ,) (NP (NNP R-Kan.)) (, ,)) (VP (VBD suggested) (PP (VBG including) (NP (NP (DT a) (NN question)) (PP (IN on) (NP (NP (DT the) (NNP Census) (NN form)) (VP (VBG asking) (SBAR (IN whether) (S (NP (NNS respondents)) (VP (VBP are) (NP (NNP U.S.) (NNS citizerns))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="suggested including a question on the Census form asking whether respondents are U.S. citizerns" type="VP">
+          <tokens>
+            <token id="7" string="suggested" />
+            <token id="8" string="including" />
+            <token id="9" string="a" />
+            <token id="10" string="question" />
+            <token id="11" string="on" />
+            <token id="12" string="the" />
+            <token id="13" string="Census" />
+            <token id="14" string="form" />
+            <token id="15" string="asking" />
+            <token id="16" string="whether" />
+            <token id="17" string="respondents" />
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="U.S. citizerns" type="NP">
+          <tokens>
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Rep. Jan Meyers , R-Kan. ," type="NP">
+          <tokens>
+            <token id="1" string="Rep." />
+            <token id="2" string="Jan" />
+            <token id="3" string="Meyers" />
+            <token id="4" string="," />
+            <token id="5" string="R-Kan." />
+            <token id="6" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="whether respondents are U.S. citizerns" type="SBAR">
+          <tokens>
+            <token id="16" string="whether" />
+            <token id="17" string="respondents" />
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Rep. Jan Meyers" type="NP">
+          <tokens>
+            <token id="1" string="Rep." />
+            <token id="2" string="Jan" />
+            <token id="3" string="Meyers" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a question" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="question" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="respondents" type="NP">
+          <tokens>
+            <token id="17" string="respondents" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Census form" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="Census" />
+            <token id="14" string="form" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the Census form asking whether respondents are U.S. citizerns" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="Census" />
+            <token id="14" string="form" />
+            <token id="15" string="asking" />
+            <token id="16" string="whether" />
+            <token id="17" string="respondents" />
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="asking whether respondents are U.S. citizerns" type="VP">
+          <tokens>
+            <token id="15" string="asking" />
+            <token id="16" string="whether" />
+            <token id="17" string="respondents" />
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="R-Kan." type="NP">
+          <tokens>
+            <token id="5" string="R-Kan." />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a question on the Census form asking whether respondents are U.S. citizerns" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="question" />
+            <token id="11" string="on" />
+            <token id="12" string="the" />
+            <token id="13" string="Census" />
+            <token id="14" string="form" />
+            <token id="15" string="asking" />
+            <token id="16" string="whether" />
+            <token id="17" string="respondents" />
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="are U.S. citizerns" type="VP">
+          <tokens>
+            <token id="18" string="are" />
+            <token id="19" string="U.S." />
+            <token id="20" string="citizerns" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Meyers</governor>
+          <dependent id="1">Rep.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Meyers</governor>
+          <dependent id="2">Jan</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">suggested</governor>
+          <dependent id="3">Meyers</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">Meyers</governor>
+          <dependent id="5">R-Kan.</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">suggested</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">question</governor>
+          <dependent id="8">including</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">question</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">suggested</governor>
+          <dependent id="10">question</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">form</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">form</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">form</governor>
+          <dependent id="13">Census</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">question</governor>
+          <dependent id="14">form</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="14">form</governor>
+          <dependent id="15">asking</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="20">citizerns</governor>
+          <dependent id="16">whether</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">citizerns</governor>
+          <dependent id="17">respondents</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="20">citizerns</governor>
+          <dependent id="18">are</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">citizerns</governor>
+          <dependent id="19">U.S.</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">asking</governor>
+          <dependent id="20">citizerns</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Jan Meyers" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Jan" />
+            <token id="3" string="Meyers" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Census" type="MISC" score="0.0">
+          <tokens>
+            <token id="13" string="Census" />
+          </tokens>
+        </entity>
+        <entity id="3" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="4" string="R-Kan." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="R-Kan." />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="14-15-16" string="the Census Bureau" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="17" string="it" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="26-27" string="illegal aliens" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="34" string="them" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="5-6" string="the House" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="27-30" string="the House of Representatives" id_sentence="3" />
+        <mention ids_tokens="28-30" string="House of Representatives" id_sentence="3" />
+        <mention ids_tokens="25" string="House" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="8-9-10-11-12-13" string="the Federation for American Immigration Reform" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="6-9" string="the immigration reform federation" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="NOMINAL">
+      <referenced ids_tokens="30-31-32-33-34-35" string="the `` whole number of persons" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="36-37" string="that number" id_sentence="7" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

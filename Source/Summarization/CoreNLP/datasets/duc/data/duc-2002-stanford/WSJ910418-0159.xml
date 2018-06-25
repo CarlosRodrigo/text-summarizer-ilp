@@ -1,0 +1,3301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="WSJ910418-0159">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Mirror&amp;apost;s flagship publication is the tabloid Daily Mirror, with sales of three million copies daily.</content>
+      <tokens>
+        <token id="1" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="flagship" lemma="flagship" stem="flagship" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="publication" lemma="publication" stem="public" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="tabloid" lemma="tabloid" stem="tabloid" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="Daily" lemma="Daily" stem="daili" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="sales" lemma="sale" stem="sale" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="15" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="16" string="copies" lemma="copy" stem="copi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="daily" lemma="daily" stem="daili" pos="RB" type="Word" isStopWord="false" ner="SET" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Mirror) (POS 's)) (NN flagship) (NN publication)) (VP (VBZ is) (NP (NP (DT the) (JJ tabloid) (NNP Daily) (NNP Mirror)) (, ,) (PP (IN with) (NP (NP (NNS sales)) (PP (IN of) (NP (QP (CD three) (CD million)) (NNS copies))))) (ADVP (RB daily)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the tabloid Daily Mirror" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="tabloid" />
+            <token id="8" string="Daily" />
+            <token id="9" string="Mirror" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Mirror 's flagship publication" type="NP">
+          <tokens>
+            <token id="1" string="Mirror" />
+            <token id="2" string="'s" />
+            <token id="3" string="flagship" />
+            <token id="4" string="publication" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is the tabloid Daily Mirror , with sales of three million copies daily" type="VP">
+          <tokens>
+            <token id="5" string="is" />
+            <token id="6" string="the" />
+            <token id="7" string="tabloid" />
+            <token id="8" string="Daily" />
+            <token id="9" string="Mirror" />
+            <token id="10" string="," />
+            <token id="11" string="with" />
+            <token id="12" string="sales" />
+            <token id="13" string="of" />
+            <token id="14" string="three" />
+            <token id="15" string="million" />
+            <token id="16" string="copies" />
+            <token id="17" string="daily" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="sales of three million copies" type="NP">
+          <tokens>
+            <token id="12" string="sales" />
+            <token id="13" string="of" />
+            <token id="14" string="three" />
+            <token id="15" string="million" />
+            <token id="16" string="copies" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="three million copies" type="NP">
+          <tokens>
+            <token id="14" string="three" />
+            <token id="15" string="million" />
+            <token id="16" string="copies" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="sales" type="NP">
+          <tokens>
+            <token id="12" string="sales" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the tabloid Daily Mirror , with sales of three million copies daily" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="tabloid" />
+            <token id="8" string="Daily" />
+            <token id="9" string="Mirror" />
+            <token id="10" string="," />
+            <token id="11" string="with" />
+            <token id="12" string="sales" />
+            <token id="13" string="of" />
+            <token id="14" string="three" />
+            <token id="15" string="million" />
+            <token id="16" string="copies" />
+            <token id="17" string="daily" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Mirror 's" type="NP">
+          <tokens>
+            <token id="1" string="Mirror" />
+            <token id="2" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="4">publication</governor>
+          <dependent id="1">Mirror</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="1">Mirror</governor>
+          <dependent id="2">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">publication</governor>
+          <dependent id="3">flagship</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">Mirror</governor>
+          <dependent id="4">publication</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">Mirror</governor>
+          <dependent id="5">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">Mirror</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">Mirror</governor>
+          <dependent id="7">tabloid</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Mirror</governor>
+          <dependent id="8">Daily</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">Mirror</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">sales</governor>
+          <dependent id="11">with</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Mirror</governor>
+          <dependent id="12">sales</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">copies</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">million</governor>
+          <dependent id="14">three</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">copies</governor>
+          <dependent id="15">million</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">sales</governor>
+          <dependent id="16">copies</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">Mirror</governor>
+          <dependent id="17">daily</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="three million" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="14" string="three" />
+            <token id="15" string="million" />
+          </tokens>
+        </entity>
+        <entity id="2" string="daily" type="SET" score="0.0">
+          <tokens>
+            <token id="17" string="daily" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Daily Mirror" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="8" string="Daily" />
+            <token id="9" string="Mirror" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Last month, in another money-raising move, Mr. Maxwell&amp;apost;s Maxwell Communication Corp. sold its Pergamon Press PLC unit for #440 million.</content>
+      <tokens>
+        <token id="1" string="Last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="2" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="another" lemma="another" stem="anoth" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="money-raising" lemma="money-raising" stem="money-rais" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="move" lemma="move" stem="move" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="11" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="Communication" lemma="Communication" stem="commun" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="Corp." lemma="Corp." stem="corp." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="15" string="sold" lemma="sell" stem="sold" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Pergamon" lemma="Pergamon" stem="pergamon" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="Press" lemma="Press" stem="press" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="PLC" lemma="PLC" stem="plc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="unit" lemma="unit" stem="unit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="23" string="440" lemma="440" stem="440" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="24" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP-TMP (JJ Last) (NN month)) (, ,) (PP (IN in) (NP (DT another) (JJ money-raising) (NN move))) (, ,) (NP (NP (NNP Mr.) (NNP Maxwell) (POS 's)) (NNP Maxwell) (NNP Communication) (NNP Corp.)) (VP (VBD sold) (NP (PRP$ its) (NNP Pergamon) (NNP Press) (NNP PLC) (NN unit)) (PP (IN for) (NP (QP (# #) (CD 440) (CD million))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Mr. Maxwell 's Maxwell Communication Corp." type="NP">
+          <tokens>
+            <token id="9" string="Mr." />
+            <token id="10" string="Maxwell" />
+            <token id="11" string="'s" />
+            <token id="12" string="Maxwell" />
+            <token id="13" string="Communication" />
+            <token id="14" string="Corp." />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Mr. Maxwell 's" type="NP">
+          <tokens>
+            <token id="9" string="Mr." />
+            <token id="10" string="Maxwell" />
+            <token id="11" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="sold its Pergamon Press PLC unit for # 440 million" type="VP">
+          <tokens>
+            <token id="15" string="sold" />
+            <token id="16" string="its" />
+            <token id="17" string="Pergamon" />
+            <token id="18" string="Press" />
+            <token id="19" string="PLC" />
+            <token id="20" string="unit" />
+            <token id="21" string="for" />
+            <token id="22" string="#" />
+            <token id="23" string="440" />
+            <token id="24" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="its Pergamon Press PLC unit" type="NP">
+          <tokens>
+            <token id="16" string="its" />
+            <token id="17" string="Pergamon" />
+            <token id="18" string="Press" />
+            <token id="19" string="PLC" />
+            <token id="20" string="unit" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="another money-raising move" type="NP">
+          <tokens>
+            <token id="5" string="another" />
+            <token id="6" string="money-raising" />
+            <token id="7" string="move" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="# 440 million" type="NP">
+          <tokens>
+            <token id="22" string="#" />
+            <token id="23" string="440" />
+            <token id="24" string="million" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">month</governor>
+          <dependent id="1">Last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="15">sold</governor>
+          <dependent id="2">month</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">move</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">move</governor>
+          <dependent id="5">another</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">move</governor>
+          <dependent id="6">money-raising</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">sold</governor>
+          <dependent id="7">move</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Maxwell</governor>
+          <dependent id="9">Mr.</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="14">Corp.</governor>
+          <dependent id="10">Maxwell</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Maxwell</governor>
+          <dependent id="11">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Corp.</governor>
+          <dependent id="12">Maxwell</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Corp.</governor>
+          <dependent id="13">Communication</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">sold</governor>
+          <dependent id="14">Corp.</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">sold</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">unit</governor>
+          <dependent id="16">its</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">unit</governor>
+          <dependent id="17">Pergamon</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">unit</governor>
+          <dependent id="18">Press</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">unit</governor>
+          <dependent id="19">PLC</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">sold</governor>
+          <dependent id="20">unit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">million</governor>
+          <dependent id="21">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">million</governor>
+          <dependent id="22">#</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">million</governor>
+          <dependent id="23">440</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">sold</governor>
+          <dependent id="24">million</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Last month" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Last" />
+            <token id="2" string="month" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Maxwell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="Maxwell" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Maxwell Communication Corp." type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="12" string="Maxwell" />
+            <token id="13" string="Communication" />
+            <token id="14" string="Corp." />
+          </tokens>
+        </entity>
+        <entity id="4" string="Pergamon Press PLC" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="17" string="Pergamon" />
+            <token id="18" string="Press" />
+            <token id="19" string="PLC" />
+          </tokens>
+        </entity>
+        <entity id="5" string="# 440 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="22" string="#" />
+            <token id="23" string="440" />
+            <token id="24" string="million" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>In other changes, Mr. Maxwell&amp;apost;s son Ian, who has been appointed deputy chairman of Mirror Group, will resign from his post at Maxwell Communication, where he was joint deputy managing director.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="changes" lemma="change" stem="chang" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="7" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="son" lemma="son" stem="son" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="Ian" lemma="Ian" stem="ian" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="appointed" lemma="appoint" stem="appoint" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="deputy" lemma="deputy" stem="deputi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="chairman" lemma="chairman" stem="chairman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="19" string="Group" lemma="Group" stem="group" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="resign" lemma="resign" stem="resign" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="post" lemma="post" stem="post" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="28" string="Communication" lemma="Communication" stem="commun" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="30" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="31" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="32" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="33" string="joint" lemma="joint" stem="joint" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="34" string="deputy" lemma="deputy" stem="deputi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="35" string="managing" lemma="manage" stem="manag" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="36" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="37" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (JJ other) (NNS changes))) (, ,) (NP (NP (NP (NP (NNP Mr.) (NNP Maxwell) (POS 's)) (NN son)) (NP (NNP Ian))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN appointed) (NP (NP (NN deputy) (NN chairman)) (PP (IN of) (NP (NNP Mirror) (NNP Group))))))))) (, ,)) (VP (MD will) (VP (VB resign) (PP (IN from) (NP (PRP$ his) (NN post))) (PP (IN at) (NP (NP (NNP Maxwell) (NNP Communication)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (VP (VBD was) (NP (NP (JJ joint) (NN deputy)) (VP (VBG managing) (NP (NN director))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="director" type="NP">
+          <tokens>
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Maxwell Communication" type="NP">
+          <tokens>
+            <token id="27" string="Maxwell" />
+            <token id="28" string="Communication" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="joint deputy managing director" type="NP">
+          <tokens>
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="resign from his post at Maxwell Communication , where he was joint deputy managing director" type="VP">
+          <tokens>
+            <token id="22" string="resign" />
+            <token id="23" string="from" />
+            <token id="24" string="his" />
+            <token id="25" string="post" />
+            <token id="26" string="at" />
+            <token id="27" string="Maxwell" />
+            <token id="28" string="Communication" />
+            <token id="29" string="," />
+            <token id="30" string="where" />
+            <token id="31" string="he" />
+            <token id="32" string="was" />
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="other changes" type="NP">
+          <tokens>
+            <token id="2" string="other" />
+            <token id="3" string="changes" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="deputy chairman of Mirror Group" type="NP">
+          <tokens>
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="his post" type="NP">
+          <tokens>
+            <token id="24" string="his" />
+            <token id="25" string="post" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Mr. Maxwell 's son Ian , who has been appointed deputy chairman of Mirror Group ," type="NP">
+          <tokens>
+            <token id="5" string="Mr." />
+            <token id="6" string="Maxwell" />
+            <token id="7" string="'s" />
+            <token id="8" string="son" />
+            <token id="9" string="Ian" />
+            <token id="10" string="," />
+            <token id="11" string="who" />
+            <token id="12" string="has" />
+            <token id="13" string="been" />
+            <token id="14" string="appointed" />
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+            <token id="20" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Ian" type="NP">
+          <tokens>
+            <token id="9" string="Ian" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Maxwell Communication , where he was joint deputy managing director" type="NP">
+          <tokens>
+            <token id="27" string="Maxwell" />
+            <token id="28" string="Communication" />
+            <token id="29" string="," />
+            <token id="30" string="where" />
+            <token id="31" string="he" />
+            <token id="32" string="was" />
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="he" type="NP">
+          <tokens>
+            <token id="31" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="appointed deputy chairman of Mirror Group" type="VP">
+          <tokens>
+            <token id="14" string="appointed" />
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="has been appointed deputy chairman of Mirror Group" type="VP">
+          <tokens>
+            <token id="12" string="has" />
+            <token id="13" string="been" />
+            <token id="14" string="appointed" />
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Mr. Maxwell 's son" type="NP">
+          <tokens>
+            <token id="5" string="Mr." />
+            <token id="6" string="Maxwell" />
+            <token id="7" string="'s" />
+            <token id="8" string="son" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="managing director" type="VP">
+          <tokens>
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Mr. Maxwell 's son Ian" type="NP">
+          <tokens>
+            <token id="5" string="Mr." />
+            <token id="6" string="Maxwell" />
+            <token id="7" string="'s" />
+            <token id="8" string="son" />
+            <token id="9" string="Ian" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Mr. Maxwell 's" type="NP">
+          <tokens>
+            <token id="5" string="Mr." />
+            <token id="6" string="Maxwell" />
+            <token id="7" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="been appointed deputy chairman of Mirror Group" type="VP">
+          <tokens>
+            <token id="13" string="been" />
+            <token id="14" string="appointed" />
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Mirror Group" type="NP">
+          <tokens>
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="who has been appointed deputy chairman of Mirror Group" type="SBAR">
+          <tokens>
+            <token id="11" string="who" />
+            <token id="12" string="has" />
+            <token id="13" string="been" />
+            <token id="14" string="appointed" />
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+            <token id="17" string="of" />
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="deputy chairman" type="NP">
+          <tokens>
+            <token id="15" string="deputy" />
+            <token id="16" string="chairman" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="joint deputy" type="NP">
+          <tokens>
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="where he was joint deputy managing director" type="SBAR">
+          <tokens>
+            <token id="30" string="where" />
+            <token id="31" string="he" />
+            <token id="32" string="was" />
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="was joint deputy managing director" type="VP">
+          <tokens>
+            <token id="32" string="was" />
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="where" type="WHADVP">
+          <tokens>
+            <token id="30" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="will resign from his post at Maxwell Communication , where he was joint deputy managing director" type="VP">
+          <tokens>
+            <token id="21" string="will" />
+            <token id="22" string="resign" />
+            <token id="23" string="from" />
+            <token id="24" string="his" />
+            <token id="25" string="post" />
+            <token id="26" string="at" />
+            <token id="27" string="Maxwell" />
+            <token id="28" string="Communication" />
+            <token id="29" string="," />
+            <token id="30" string="where" />
+            <token id="31" string="he" />
+            <token id="32" string="was" />
+            <token id="33" string="joint" />
+            <token id="34" string="deputy" />
+            <token id="35" string="managing" />
+            <token id="36" string="director" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">changes</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">changes</governor>
+          <dependent id="2">other</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">resign</governor>
+          <dependent id="3">changes</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Maxwell</governor>
+          <dependent id="5">Mr.</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">son</governor>
+          <dependent id="6">Maxwell</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Maxwell</governor>
+          <dependent id="7">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">resign</governor>
+          <dependent id="8">son</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="8">son</governor>
+          <dependent id="9">Ian</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="14">appointed</governor>
+          <dependent id="11">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">appointed</governor>
+          <dependent id="12">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="14">appointed</governor>
+          <dependent id="13">been</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="8">son</governor>
+          <dependent id="14">appointed</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">chairman</governor>
+          <dependent id="15">deputy</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">appointed</governor>
+          <dependent id="16">chairman</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Group</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Group</governor>
+          <dependent id="18">Mirror</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">chairman</governor>
+          <dependent id="19">Group</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">resign</governor>
+          <dependent id="21">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="22">resign</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">post</governor>
+          <dependent id="23">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="25">post</governor>
+          <dependent id="24">his</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">resign</governor>
+          <dependent id="25">post</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">Communication</governor>
+          <dependent id="26">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">Communication</governor>
+          <dependent id="27">Maxwell</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">resign</governor>
+          <dependent id="28">Communication</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="34">deputy</governor>
+          <dependent id="30">where</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="34">deputy</governor>
+          <dependent id="31">he</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="34">deputy</governor>
+          <dependent id="32">was</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="34">deputy</governor>
+          <dependent id="33">joint</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="28">Communication</governor>
+          <dependent id="34">deputy</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="34">deputy</governor>
+          <dependent id="35">managing</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="35">managing</governor>
+          <dependent id="36">director</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Maxwell Communication" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="27" string="Maxwell" />
+            <token id="28" string="Communication" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Ian" type="PERSON" score="0.0">
+          <tokens>
+            <token id="9" string="Ian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Mirror Group" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="18" string="Mirror" />
+            <token id="19" string="Group" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Maxwell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Maxwell" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Maxwell Communication said last month that its management would be taken over by Kevin Maxwell, Ian&amp;apost;s brother.</content>
+      <tokens>
+        <token id="1" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="2" string="Communication" lemma="Communication" stem="commun" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="management" lemma="management" stem="manag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="taken" lemma="take" stem="taken" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="over" lemma="over" stem="over" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Kevin" lemma="Kevin" stem="kevin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="15" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Ian" lemma="Ian" stem="ian" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="18" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="brother" lemma="brother" stem="brother" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Maxwell) (NNP Communication)) (VP (VBD said) (NP-TMP (JJ last) (NN month)) (SBAR (IN that) (S (NP (PRP$ its) (NN management)) (VP (MD would) (VP (VB be) (VP (VBN taken) (PRT (RP over)) (PP (IN by) (NP (NP (NNP Kevin) (NNP Maxwell)) (, ,) (NP (NP (NNP Ian) (POS 's)) (NN brother)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="taken over by Kevin Maxwell , Ian 's brother" type="VP">
+          <tokens>
+            <token id="11" string="taken" />
+            <token id="12" string="over" />
+            <token id="13" string="by" />
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Maxwell Communication" type="NP">
+          <tokens>
+            <token id="1" string="Maxwell" />
+            <token id="2" string="Communication" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="said last month that its management would be taken over by Kevin Maxwell , Ian 's brother" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+            <token id="4" string="last" />
+            <token id="5" string="month" />
+            <token id="6" string="that" />
+            <token id="7" string="its" />
+            <token id="8" string="management" />
+            <token id="9" string="would" />
+            <token id="10" string="be" />
+            <token id="11" string="taken" />
+            <token id="12" string="over" />
+            <token id="13" string="by" />
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Ian 's brother" type="NP">
+          <tokens>
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Kevin Maxwell , Ian 's brother" type="NP">
+          <tokens>
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="its management" type="NP">
+          <tokens>
+            <token id="7" string="its" />
+            <token id="8" string="management" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="be taken over by Kevin Maxwell , Ian 's brother" type="VP">
+          <tokens>
+            <token id="10" string="be" />
+            <token id="11" string="taken" />
+            <token id="12" string="over" />
+            <token id="13" string="by" />
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Kevin Maxwell" type="NP">
+          <tokens>
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="would be taken over by Kevin Maxwell , Ian 's brother" type="VP">
+          <tokens>
+            <token id="9" string="would" />
+            <token id="10" string="be" />
+            <token id="11" string="taken" />
+            <token id="12" string="over" />
+            <token id="13" string="by" />
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Ian 's" type="NP">
+          <tokens>
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="that its management would be taken over by Kevin Maxwell , Ian 's brother" type="SBAR">
+          <tokens>
+            <token id="6" string="that" />
+            <token id="7" string="its" />
+            <token id="8" string="management" />
+            <token id="9" string="would" />
+            <token id="10" string="be" />
+            <token id="11" string="taken" />
+            <token id="12" string="over" />
+            <token id="13" string="by" />
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+            <token id="16" string="," />
+            <token id="17" string="Ian" />
+            <token id="18" string="'s" />
+            <token id="19" string="brother" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Communication</governor>
+          <dependent id="1">Maxwell</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="2">Communication</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">month</governor>
+          <dependent id="4">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="3">said</governor>
+          <dependent id="5">month</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">taken</governor>
+          <dependent id="6">that</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">management</governor>
+          <dependent id="7">its</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="11">taken</governor>
+          <dependent id="8">management</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">taken</governor>
+          <dependent id="9">would</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">taken</governor>
+          <dependent id="10">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">said</governor>
+          <dependent id="11">taken</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="11">taken</governor>
+          <dependent id="12">over</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Maxwell</governor>
+          <dependent id="13">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Maxwell</governor>
+          <dependent id="14">Kevin</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">taken</governor>
+          <dependent id="15">Maxwell</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="19">brother</governor>
+          <dependent id="17">Ian</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Ian</governor>
+          <dependent id="18">'s</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="15">Maxwell</governor>
+          <dependent id="19">brother</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Maxwell Communication" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="1" string="Maxwell" />
+            <token id="2" string="Communication" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Ian" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Ian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="last month" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="last" />
+            <token id="5" string="month" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Kevin Maxwell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="14" string="Kevin" />
+            <token id="15" string="Maxwell" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Robert Maxwell bought Mirror Group in 1984 from Reed International PLC for #113 million.</content>
+      <tokens>
+        <token id="1" string="Robert" lemma="Robert" stem="robert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="3" string="bought" lemma="buy" stem="bought" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="Group" lemma="Group" stem="group" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="1984" lemma="1984" stem="1984" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="8" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Reed" lemma="Reed" stem="reed" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="International" lemma="International" stem="internat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="PLC" lemma="PLC" stem="plc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="14" string="113" lemma="113" stem="113" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="15" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Robert) (NNP Maxwell)) (VP (VBD bought) (NP (NP (NNP Mirror) (NNP Group)) (PP (IN in) (NP (CD 1984)))) (PP (IN from) (NP (NP (NNP Reed) (NNP International) (NNP PLC)) (PP (IN for) (NP (QP (# #) (CD 113) (CD million))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Reed International PLC for # 113 million" type="NP">
+          <tokens>
+            <token id="9" string="Reed" />
+            <token id="10" string="International" />
+            <token id="11" string="PLC" />
+            <token id="12" string="for" />
+            <token id="13" string="#" />
+            <token id="14" string="113" />
+            <token id="15" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="# 113 million" type="NP">
+          <tokens>
+            <token id="13" string="#" />
+            <token id="14" string="113" />
+            <token id="15" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1984" type="NP">
+          <tokens>
+            <token id="7" string="1984" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="bought Mirror Group in 1984 from Reed International PLC for # 113 million" type="VP">
+          <tokens>
+            <token id="3" string="bought" />
+            <token id="4" string="Mirror" />
+            <token id="5" string="Group" />
+            <token id="6" string="in" />
+            <token id="7" string="1984" />
+            <token id="8" string="from" />
+            <token id="9" string="Reed" />
+            <token id="10" string="International" />
+            <token id="11" string="PLC" />
+            <token id="12" string="for" />
+            <token id="13" string="#" />
+            <token id="14" string="113" />
+            <token id="15" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Mirror Group in 1984" type="NP">
+          <tokens>
+            <token id="4" string="Mirror" />
+            <token id="5" string="Group" />
+            <token id="6" string="in" />
+            <token id="7" string="1984" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Reed International PLC" type="NP">
+          <tokens>
+            <token id="9" string="Reed" />
+            <token id="10" string="International" />
+            <token id="11" string="PLC" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Mirror Group" type="NP">
+          <tokens>
+            <token id="4" string="Mirror" />
+            <token id="5" string="Group" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Robert Maxwell" type="NP">
+          <tokens>
+            <token id="1" string="Robert" />
+            <token id="2" string="Maxwell" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Maxwell</governor>
+          <dependent id="1">Robert</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">bought</governor>
+          <dependent id="2">Maxwell</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">bought</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Group</governor>
+          <dependent id="4">Mirror</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">bought</governor>
+          <dependent id="5">Group</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">1984</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">Group</governor>
+          <dependent id="7">1984</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">PLC</governor>
+          <dependent id="8">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">PLC</governor>
+          <dependent id="9">Reed</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">PLC</governor>
+          <dependent id="10">International</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">bought</governor>
+          <dependent id="11">PLC</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">million</governor>
+          <dependent id="12">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">million</governor>
+          <dependent id="13">#</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">million</governor>
+          <dependent id="14">113</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">PLC</governor>
+          <dependent id="15">million</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="# 113 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="13" string="#" />
+            <token id="14" string="113" />
+            <token id="15" string="million" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1984" type="DATE" score="0.0">
+          <tokens>
+            <token id="7" string="1984" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Reed International PLC" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Reed" />
+            <token id="10" string="International" />
+            <token id="11" string="PLC" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Mirror Group" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="Mirror" />
+            <token id="5" string="Group" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Robert Maxwell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Robert" />
+            <token id="2" string="Maxwell" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Through staff cuts and heavy spending on printing facilities, Mr. Maxwell built Mirror into one of Britain&amp;apost;s most profitable newspaper groups.</content>
+      <tokens>
+        <token id="1" string="Through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="staff" lemma="staff" stem="staff" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="cuts" lemma="cut" stem="cut" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="spending" lemma="spending" stem="spend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="printing" lemma="printing" stem="print" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="facilities" lemma="facility" stem="facil" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="12" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="13" string="built" lemma="build" stem="built" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Britain" lemma="Britain" stem="britain" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="profitable" lemma="profitable" stem="profit" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="newspaper" lemma="newspaper" stem="newspap" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="groups" lemma="group" stem="group" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Through) (NP (NP (NN staff) (NNS cuts)) (CC and) (NP (NP (JJ heavy) (NN spending)) (PP (IN on) (NP (NN printing) (NNS facilities)))))) (, ,) (NP (NNP Mr.) (NNP Maxwell)) (VP (VBD built) (NP (NNP Mirror)) (PP (IN into) (NP (NP (CD one)) (PP (IN of) (NP (NP (NNP Britain) (POS 's)) (ADJP (RBS most) (JJ profitable)) (NN newspaper) (NNS groups)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="staff cuts and heavy spending on printing facilities" type="NP">
+          <tokens>
+            <token id="2" string="staff" />
+            <token id="3" string="cuts" />
+            <token id="4" string="and" />
+            <token id="5" string="heavy" />
+            <token id="6" string="spending" />
+            <token id="7" string="on" />
+            <token id="8" string="printing" />
+            <token id="9" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="built Mirror into one of Britain 's most profitable newspaper groups" type="VP">
+          <tokens>
+            <token id="13" string="built" />
+            <token id="14" string="Mirror" />
+            <token id="15" string="into" />
+            <token id="16" string="one" />
+            <token id="17" string="of" />
+            <token id="18" string="Britain" />
+            <token id="19" string="'s" />
+            <token id="20" string="most" />
+            <token id="21" string="profitable" />
+            <token id="22" string="newspaper" />
+            <token id="23" string="groups" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="one" type="NP">
+          <tokens>
+            <token id="16" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="most profitable" type="ADJP">
+          <tokens>
+            <token id="20" string="most" />
+            <token id="21" string="profitable" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="one of Britain 's most profitable newspaper groups" type="NP">
+          <tokens>
+            <token id="16" string="one" />
+            <token id="17" string="of" />
+            <token id="18" string="Britain" />
+            <token id="19" string="'s" />
+            <token id="20" string="most" />
+            <token id="21" string="profitable" />
+            <token id="22" string="newspaper" />
+            <token id="23" string="groups" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="heavy spending on printing facilities" type="NP">
+          <tokens>
+            <token id="5" string="heavy" />
+            <token id="6" string="spending" />
+            <token id="7" string="on" />
+            <token id="8" string="printing" />
+            <token id="9" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Mr. Maxwell" type="NP">
+          <tokens>
+            <token id="11" string="Mr." />
+            <token id="12" string="Maxwell" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="printing facilities" type="NP">
+          <tokens>
+            <token id="8" string="printing" />
+            <token id="9" string="facilities" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Britain 's most profitable newspaper groups" type="NP">
+          <tokens>
+            <token id="18" string="Britain" />
+            <token id="19" string="'s" />
+            <token id="20" string="most" />
+            <token id="21" string="profitable" />
+            <token id="22" string="newspaper" />
+            <token id="23" string="groups" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Britain 's" type="NP">
+          <tokens>
+            <token id="18" string="Britain" />
+            <token id="19" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Mirror" type="NP">
+          <tokens>
+            <token id="14" string="Mirror" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="staff cuts" type="NP">
+          <tokens>
+            <token id="2" string="staff" />
+            <token id="3" string="cuts" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="heavy spending" type="NP">
+          <tokens>
+            <token id="5" string="heavy" />
+            <token id="6" string="spending" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">cuts</governor>
+          <dependent id="1">Through</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">cuts</governor>
+          <dependent id="2">staff</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">built</governor>
+          <dependent id="3">cuts</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">cuts</governor>
+          <dependent id="4">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">spending</governor>
+          <dependent id="5">heavy</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">cuts</governor>
+          <dependent id="6">spending</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">facilities</governor>
+          <dependent id="7">on</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">facilities</governor>
+          <dependent id="8">printing</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">spending</governor>
+          <dependent id="9">facilities</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Maxwell</governor>
+          <dependent id="11">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">built</governor>
+          <dependent id="12">Maxwell</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">built</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">built</governor>
+          <dependent id="14">Mirror</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">one</governor>
+          <dependent id="15">into</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">built</governor>
+          <dependent id="16">one</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">groups</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="23">groups</governor>
+          <dependent id="18">Britain</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Britain</governor>
+          <dependent id="19">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">profitable</governor>
+          <dependent id="20">most</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">groups</governor>
+          <dependent id="21">profitable</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">groups</governor>
+          <dependent id="22">newspaper</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">one</governor>
+          <dependent id="23">groups</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="one" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Maxwell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="12" string="Maxwell" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Britain" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Britain" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>In 1990, Mirror had profit of #37.2 million, or 28.2 pence a share, on revenue of #445 million.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="1990" lemma="1990" stem="1990" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="profit" lemma="profit" stem="profit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="9" string="37.2" lemma="37.2" stem="37.2" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="10" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="28.2" lemma="28.2" stem="28.2" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="14" string="pence" lemma="pence" stem="penc" pos="NN" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="share" lemma="share" stem="share" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="revenue" lemma="revenue" stem="revenu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="22" string="445" lemma="445" stem="445" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="23" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (CD 1990))) (, ,) (NP (NNP Mirror)) (VP (VBD had) (NP (NP (NN profit)) (PP (IN of) (NP (NP (QP (# #) (CD 37.2) (CD million))) (, ,) (CC or) (NP (NP (CD 28.2) (NN pence)) (NP (DT a) (NN share))) (, ,)))) (PP (IN on) (NP (NP (NN revenue)) (PP (IN of) (NP (QP (# #) (CD 445) (CD million))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="revenue of # 445 million" type="NP">
+          <tokens>
+            <token id="19" string="revenue" />
+            <token id="20" string="of" />
+            <token id="21" string="#" />
+            <token id="22" string="445" />
+            <token id="23" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="28.2 pence a share" type="NP">
+          <tokens>
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+            <token id="15" string="a" />
+            <token id="16" string="share" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a share" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="share" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="# 445 million" type="NP">
+          <tokens>
+            <token id="21" string="#" />
+            <token id="22" string="445" />
+            <token id="23" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1990" type="NP">
+          <tokens>
+            <token id="2" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="profit of # 37.2 million , or 28.2 pence a share ," type="NP">
+          <tokens>
+            <token id="6" string="profit" />
+            <token id="7" string="of" />
+            <token id="8" string="#" />
+            <token id="9" string="37.2" />
+            <token id="10" string="million" />
+            <token id="11" string="," />
+            <token id="12" string="or" />
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+            <token id="15" string="a" />
+            <token id="16" string="share" />
+            <token id="17" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="revenue" type="NP">
+          <tokens>
+            <token id="19" string="revenue" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="28.2 pence" type="NP">
+          <tokens>
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="# 37.2 million" type="NP">
+          <tokens>
+            <token id="8" string="#" />
+            <token id="9" string="37.2" />
+            <token id="10" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="profit" type="NP">
+          <tokens>
+            <token id="6" string="profit" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Mirror" type="NP">
+          <tokens>
+            <token id="4" string="Mirror" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="had profit of # 37.2 million , or 28.2 pence a share , on revenue of # 445 million" type="VP">
+          <tokens>
+            <token id="5" string="had" />
+            <token id="6" string="profit" />
+            <token id="7" string="of" />
+            <token id="8" string="#" />
+            <token id="9" string="37.2" />
+            <token id="10" string="million" />
+            <token id="11" string="," />
+            <token id="12" string="or" />
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+            <token id="15" string="a" />
+            <token id="16" string="share" />
+            <token id="17" string="," />
+            <token id="18" string="on" />
+            <token id="19" string="revenue" />
+            <token id="20" string="of" />
+            <token id="21" string="#" />
+            <token id="22" string="445" />
+            <token id="23" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="# 37.2 million , or 28.2 pence a share ," type="NP">
+          <tokens>
+            <token id="8" string="#" />
+            <token id="9" string="37.2" />
+            <token id="10" string="million" />
+            <token id="11" string="," />
+            <token id="12" string="or" />
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+            <token id="15" string="a" />
+            <token id="16" string="share" />
+            <token id="17" string="," />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">1990</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">had</governor>
+          <dependent id="2">1990</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">had</governor>
+          <dependent id="4">Mirror</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">had</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">had</governor>
+          <dependent id="6">profit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">million</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">million</governor>
+          <dependent id="8">#</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">million</governor>
+          <dependent id="9">37.2</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">profit</governor>
+          <dependent id="10">million</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">million</governor>
+          <dependent id="12">or</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="14">pence</governor>
+          <dependent id="13">28.2</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">million</governor>
+          <dependent id="14">pence</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">share</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">pence</governor>
+          <dependent id="16">share</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">revenue</governor>
+          <dependent id="18">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">had</governor>
+          <dependent id="19">revenue</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">million</governor>
+          <dependent id="20">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">million</governor>
+          <dependent id="21">#</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">million</governor>
+          <dependent id="22">445</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">revenue</governor>
+          <dependent id="23">million</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="# 445 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="21" string="#" />
+            <token id="22" string="445" />
+            <token id="23" string="million" />
+          </tokens>
+        </entity>
+        <entity id="2" string="28.2 pence" type="MONEY" score="0.0">
+          <tokens>
+            <token id="13" string="28.2" />
+            <token id="14" string="pence" />
+          </tokens>
+        </entity>
+        <entity id="3" string="# 37.2 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="8" string="#" />
+            <token id="9" string="37.2" />
+            <token id="10" string="million" />
+          </tokens>
+        </entity>
+        <entity id="4" string="1990" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="1990" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Mirror" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="Mirror" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Proceeds from the share flotation will be used to strengthen and refinance the group&amp;apost;s balance sheet.</content>
+      <tokens>
+        <token id="1" string="Proceeds" lemma="proceeds" stem="proce" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="share" lemma="share" stem="share" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="flotation" lemma="flotation" stem="flotat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="strengthen" lemma="strengthen" stem="strengthen" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="refinance" lemma="refinance" stem="refin" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="group" lemma="group" stem="group" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="15" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="balance" lemma="balance" stem="balanc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="sheet" lemma="sheet" stem="sheet" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNS Proceeds)) (PP (IN from) (NP (DT the) (NN share) (NN flotation)))) (VP (MD will) (VP (VB be) (VP (VBN used) (S (VP (TO to) (VP (VB strengthen) (CC and) (VB refinance) (NP (NP (DT the) (NN group) (POS 's)) (NN balance) (NN sheet)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="used to strengthen and refinance the group 's balance sheet" type="VP">
+          <tokens>
+            <token id="8" string="used" />
+            <token id="9" string="to" />
+            <token id="10" string="strengthen" />
+            <token id="11" string="and" />
+            <token id="12" string="refinance" />
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to strengthen and refinance the group 's balance sheet" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="strengthen" />
+            <token id="11" string="and" />
+            <token id="12" string="refinance" />
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="strengthen and refinance the group 's balance sheet" type="VP">
+          <tokens>
+            <token id="10" string="strengthen" />
+            <token id="11" string="and" />
+            <token id="12" string="refinance" />
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Proceeds from the share flotation" type="NP">
+          <tokens>
+            <token id="1" string="Proceeds" />
+            <token id="2" string="from" />
+            <token id="3" string="the" />
+            <token id="4" string="share" />
+            <token id="5" string="flotation" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Proceeds" type="NP">
+          <tokens>
+            <token id="1" string="Proceeds" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="will be used to strengthen and refinance the group 's balance sheet" type="VP">
+          <tokens>
+            <token id="6" string="will" />
+            <token id="7" string="be" />
+            <token id="8" string="used" />
+            <token id="9" string="to" />
+            <token id="10" string="strengthen" />
+            <token id="11" string="and" />
+            <token id="12" string="refinance" />
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the group 's" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the share flotation" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="share" />
+            <token id="5" string="flotation" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="be used to strengthen and refinance the group 's balance sheet" type="VP">
+          <tokens>
+            <token id="7" string="be" />
+            <token id="8" string="used" />
+            <token id="9" string="to" />
+            <token id="10" string="strengthen" />
+            <token id="11" string="and" />
+            <token id="12" string="refinance" />
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the group 's balance sheet" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="group" />
+            <token id="15" string="'s" />
+            <token id="16" string="balance" />
+            <token id="17" string="sheet" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="8">used</governor>
+          <dependent id="1">Proceeds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">flotation</governor>
+          <dependent id="2">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">flotation</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">flotation</governor>
+          <dependent id="4">share</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Proceeds</governor>
+          <dependent id="5">flotation</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">used</governor>
+          <dependent id="6">will</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="8">used</governor>
+          <dependent id="7">be</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">strengthen</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">used</governor>
+          <dependent id="10">strengthen</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">strengthen</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">strengthen</governor>
+          <dependent id="12">refinance</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">group</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="17">sheet</governor>
+          <dependent id="14">group</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">group</governor>
+          <dependent id="15">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">sheet</governor>
+          <dependent id="16">balance</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">strengthen</governor>
+          <dependent id="17">sheet</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>About #210 million will be used to pay back bank loans and the rest to pay in full a loan from Robert Maxwell Holdings Ltd.</content>
+      <tokens>
+        <token id="1" string="About" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="3" string="210" lemma="210" stem="210" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="4" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="5" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="pay" lemma="pay" stem="pai" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="back" lemma="back" stem="back" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="bank" lemma="bank" stem="bank" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="loans" lemma="loan" stem="loan" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="rest" lemma="rest" stem="rest" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="pay" lemma="pay" stem="pai" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="full" lemma="full" stem="full" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="loan" lemma="loan" stem="loan" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Robert" lemma="Robert" stem="robert" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="Maxwell" lemma="Maxwell" stem="maxwel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="Holdings" lemma="Holdings" stem="hold" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="Ltd" lemma="Ltd." stem="ltd" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN About) (NP (QP (# #) (CD 210) (CD million)))) (VP (MD will) (VP (VB be) (VP (VBN used) (S (VP (TO to) (VP (VB pay) (PRT (RB back)) (NP (NP (NN bank) (NNS loans)) (CC and) (NP (DT the) (NN rest))) (S (VP (TO to) (VP (VB pay) (PP (IN in) (ADJP (JJ full)))))))))))) (NP (NP (DT a) (NN loan)) (PP (IN from) (NP (NNP Robert) (NNP Maxwell) (NNP Holdings) (NNP Ltd.)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the rest" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="used to pay back bank loans and the rest to pay in full" type="VP">
+          <tokens>
+            <token id="7" string="used" />
+            <token id="8" string="to" />
+            <token id="9" string="pay" />
+            <token id="10" string="back" />
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="bank loans and the rest" type="NP">
+          <tokens>
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="pay in full" type="VP">
+          <tokens>
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Robert Maxwell Holdings Ltd." type="NP">
+          <tokens>
+            <token id="23" string="Robert" />
+            <token id="24" string="Maxwell" />
+            <token id="25" string="Holdings" />
+            <token id="26" string="Ltd" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="be used to pay back bank loans and the rest to pay in full" type="VP">
+          <tokens>
+            <token id="6" string="be" />
+            <token id="7" string="used" />
+            <token id="8" string="to" />
+            <token id="9" string="pay" />
+            <token id="10" string="back" />
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="pay back bank loans and the rest to pay in full" type="VP">
+          <tokens>
+            <token id="9" string="pay" />
+            <token id="10" string="back" />
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="# 210 million" type="NP">
+          <tokens>
+            <token id="2" string="#" />
+            <token id="3" string="210" />
+            <token id="4" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to pay back bank loans and the rest to pay in full" type="VP">
+          <tokens>
+            <token id="8" string="to" />
+            <token id="9" string="pay" />
+            <token id="10" string="back" />
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a loan" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="loan" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="bank loans" type="NP">
+          <tokens>
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to pay in full" type="VP">
+          <tokens>
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a loan from Robert Maxwell Holdings Ltd." type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="loan" />
+            <token id="22" string="from" />
+            <token id="23" string="Robert" />
+            <token id="24" string="Maxwell" />
+            <token id="25" string="Holdings" />
+            <token id="26" string="Ltd" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="will be used to pay back bank loans and the rest to pay in full" type="VP">
+          <tokens>
+            <token id="5" string="will" />
+            <token id="6" string="be" />
+            <token id="7" string="used" />
+            <token id="8" string="to" />
+            <token id="9" string="pay" />
+            <token id="10" string="back" />
+            <token id="11" string="bank" />
+            <token id="12" string="loans" />
+            <token id="13" string="and" />
+            <token id="14" string="the" />
+            <token id="15" string="rest" />
+            <token id="16" string="to" />
+            <token id="17" string="pay" />
+            <token id="18" string="in" />
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="full" type="ADJP">
+          <tokens>
+            <token id="19" string="full" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">million</governor>
+          <dependent id="1">About</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">million</governor>
+          <dependent id="2">#</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">million</governor>
+          <dependent id="3">210</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">used</governor>
+          <dependent id="4">million</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="7">used</governor>
+          <dependent id="5">will</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">used</governor>
+          <dependent id="6">be</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="9">pay</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">used</governor>
+          <dependent id="9">pay</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="9">pay</governor>
+          <dependent id="10">back</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">loans</governor>
+          <dependent id="11">bank</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">pay</governor>
+          <dependent id="12">loans</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">loans</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">rest</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">loans</governor>
+          <dependent id="15">rest</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="17">pay</governor>
+          <dependent id="16">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">pay</governor>
+          <dependent id="17">pay</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">full</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="17">pay</governor>
+          <dependent id="19">full</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">loan</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="7">used</governor>
+          <dependent id="21">loan</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">Ltd.</governor>
+          <dependent id="22">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Ltd.</governor>
+          <dependent id="23">Robert</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Ltd.</governor>
+          <dependent id="24">Maxwell</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Ltd.</governor>
+          <dependent id="25">Holdings</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">loan</governor>
+          <dependent id="26">Ltd.</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Robert Maxwell Holdings Ltd" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="23" string="Robert" />
+            <token id="24" string="Maxwell" />
+            <token id="25" string="Holdings" />
+            <token id="26" string="Ltd" />
+          </tokens>
+        </entity>
+        <entity id="2" string="# 210 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="2" string="#" />
+            <token id="3" string="210" />
+            <token id="4" string="million" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>Salomon Bros.</content>
+      <tokens>
+        <token id="1" string="Salomon" lemma="Salomon" stem="salomon" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="Bros" lemma="Bros." stem="bro" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NNP Salomon) (NNP Bros.) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Salomon Bros. ." type="NP">
+          <tokens>
+            <token id="1" string="Salomon" />
+            <token id="2" string="Bros" />
+            <token id="3" string="." />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Bros.</governor>
+          <dependent id="1">Salomon</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">Bros.</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Salomon Bros" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="1" string="Salomon" />
+            <token id="2" string="Bros" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="false">
+      <content>International is underwriting the international part of the offering, covering approximately one-third of the shares on sale, to be privately placed with institutional investors in the U.S., Canada and Europe.</content>
+      <tokens>
+        <token id="1" string="International" lemma="International" stem="internat" pos="NNP" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="2" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="underwriting" lemma="underwrite" stem="underwrit" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="international" lemma="international" stem="intern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="part" lemma="part" stem="part" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="offering" lemma="offering" stem="offer" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="covering" lemma="cover" stem="cover" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="approximately" lemma="approximately" stem="approxim" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="one-third" lemma="one-third" stem="one-third" pos="NN" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="shares" lemma="share" stem="share" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="sale" lemma="sale" stem="sale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="privately" lemma="privately" stem="privat" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="placed" lemma="place" stem="place" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="institutional" lemma="institutional" stem="institut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="investors" lemma="investor" stem="investor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="Canada" lemma="Canada" stem="canada" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="32" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="Europe" lemma="Europe" stem="europ" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP International)) (VP (VBZ is) (VP (VBG underwriting) (NP (NP (DT the) (JJ international) (NN part)) (PP (IN of) (NP (DT the) (NN offering))) (, ,) (VP (VBG covering) (NP (NP (QP (RB approximately) (NN one-third))) (PP (IN of) (NP (DT the) (NNS shares)))) (PP (IN on) (NP (NN sale))) (, ,) (S (VP (TO to) (VP (VB be) (ADJP (RB privately) (VBN placed) (PP (IN with) (NP (NP (JJ institutional) (NNS investors)) (PP (IN in) (NP (NP (DT the) (NNP U.S.)) (, ,) (NP (NNP Canada)) (CC and) (NP (NNP Europe)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="approximately one-third" type="NP">
+          <tokens>
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the U.S. , Canada and Europe" type="NP">
+          <tokens>
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Europe" type="NP">
+          <tokens>
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="privately placed with institutional investors in the U.S. , Canada and Europe" type="ADJP">
+          <tokens>
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is underwriting the international part of the offering , covering approximately one-third of the shares on sale , to be privately placed with institutional investors in the U.S. , Canada and Europe" type="VP">
+          <tokens>
+            <token id="2" string="is" />
+            <token id="3" string="underwriting" />
+            <token id="4" string="the" />
+            <token id="5" string="international" />
+            <token id="6" string="part" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="offering" />
+            <token id="10" string="," />
+            <token id="11" string="covering" />
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+            <token id="17" string="on" />
+            <token id="18" string="sale" />
+            <token id="19" string="," />
+            <token id="20" string="to" />
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="institutional investors" type="NP">
+          <tokens>
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="underwriting the international part of the offering , covering approximately one-third of the shares on sale , to be privately placed with institutional investors in the U.S. , Canada and Europe" type="VP">
+          <tokens>
+            <token id="3" string="underwriting" />
+            <token id="4" string="the" />
+            <token id="5" string="international" />
+            <token id="6" string="part" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="offering" />
+            <token id="10" string="," />
+            <token id="11" string="covering" />
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+            <token id="17" string="on" />
+            <token id="18" string="sale" />
+            <token id="19" string="," />
+            <token id="20" string="to" />
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to be privately placed with institutional investors in the U.S. , Canada and Europe" type="VP">
+          <tokens>
+            <token id="20" string="to" />
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="approximately one-third of the shares" type="NP">
+          <tokens>
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Canada" type="NP">
+          <tokens>
+            <token id="31" string="Canada" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the international part of the offering , covering approximately one-third of the shares on sale , to be privately placed with institutional investors in the U.S. , Canada and Europe" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="international" />
+            <token id="6" string="part" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="offering" />
+            <token id="10" string="," />
+            <token id="11" string="covering" />
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+            <token id="17" string="on" />
+            <token id="18" string="sale" />
+            <token id="19" string="," />
+            <token id="20" string="to" />
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="sale" type="NP">
+          <tokens>
+            <token id="18" string="sale" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the offering" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="offering" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="be privately placed with institutional investors in the U.S. , Canada and Europe" type="VP">
+          <tokens>
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the shares" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the U.S." type="NP">
+          <tokens>
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="institutional investors in the U.S. , Canada and Europe" type="NP">
+          <tokens>
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="the international part" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="international" />
+            <token id="6" string="part" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="covering approximately one-third of the shares on sale , to be privately placed with institutional investors in the U.S. , Canada and Europe" type="VP">
+          <tokens>
+            <token id="11" string="covering" />
+            <token id="12" string="approximately" />
+            <token id="13" string="one-third" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="shares" />
+            <token id="17" string="on" />
+            <token id="18" string="sale" />
+            <token id="19" string="," />
+            <token id="20" string="to" />
+            <token id="21" string="be" />
+            <token id="22" string="privately" />
+            <token id="23" string="placed" />
+            <token id="24" string="with" />
+            <token id="25" string="institutional" />
+            <token id="26" string="investors" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="U.S." />
+            <token id="30" string="," />
+            <token id="31" string="Canada" />
+            <token id="32" string="and" />
+            <token id="33" string="Europe" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="International" type="NP">
+          <tokens>
+            <token id="1" string="International" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">underwriting</governor>
+          <dependent id="1">International</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">underwriting</governor>
+          <dependent id="2">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">underwriting</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">part</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">part</governor>
+          <dependent id="5">international</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">underwriting</governor>
+          <dependent id="6">part</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">offering</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">offering</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">part</governor>
+          <dependent id="9">offering</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="6">part</governor>
+          <dependent id="11">covering</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">one-third</governor>
+          <dependent id="12">approximately</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">covering</governor>
+          <dependent id="13">one-third</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">shares</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">shares</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">one-third</governor>
+          <dependent id="16">shares</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">sale</governor>
+          <dependent id="17">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">covering</governor>
+          <dependent id="18">sale</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">placed</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="23">placed</governor>
+          <dependent id="21">be</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">placed</governor>
+          <dependent id="22">privately</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="11">covering</governor>
+          <dependent id="23">placed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">investors</governor>
+          <dependent id="24">with</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">investors</governor>
+          <dependent id="25">institutional</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">placed</governor>
+          <dependent id="26">investors</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">U.S.</governor>
+          <dependent id="27">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">U.S.</governor>
+          <dependent id="28">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">investors</governor>
+          <dependent id="29">U.S.</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="29">U.S.</governor>
+          <dependent id="31">Canada</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="29">U.S.</governor>
+          <dependent id="32">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="29">U.S.</governor>
+          <dependent id="33">Europe</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Canada" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="31" string="Canada" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="29" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Europe" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="33" string="Europe" />
+          </tokens>
+        </entity>
+        <entity id="4" string="International" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="1" string="International" />
+          </tokens>
+        </entity>
+        <entity id="5" string="one-third" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="13" string="one-third" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="false">
+      <content>The other two-thirds of the shares are to be divided between private and institutional investors in Britain.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="two-thirds" lemma="two-third" stem="two-third" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="shares" lemma="share" stem="share" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="divided" lemma="divide" stem="divid" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="between" lemma="between" stem="between" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="private" lemma="private" stem="privat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="institutional" lemma="institutional" stem="institut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="investors" lemma="investor" stem="investor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Britain" lemma="Britain" stem="britain" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (JJ other) (NNS two-thirds)) (PP (IN of) (NP (DT the) (NNS shares)))) (VP (VBP are) (S (VP (TO to) (VP (VB be) (VP (VBN divided) (PP (IN between) (NP (JJ private) (CC and) (JJ institutional) (NNS investors))) (PP (IN in) (NP (NNP Britain)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="be divided between private and institutional investors in Britain" type="VP">
+          <tokens>
+            <token id="9" string="be" />
+            <token id="10" string="divided" />
+            <token id="11" string="between" />
+            <token id="12" string="private" />
+            <token id="13" string="and" />
+            <token id="14" string="institutional" />
+            <token id="15" string="investors" />
+            <token id="16" string="in" />
+            <token id="17" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="are to be divided between private and institutional investors in Britain" type="VP">
+          <tokens>
+            <token id="7" string="are" />
+            <token id="8" string="to" />
+            <token id="9" string="be" />
+            <token id="10" string="divided" />
+            <token id="11" string="between" />
+            <token id="12" string="private" />
+            <token id="13" string="and" />
+            <token id="14" string="institutional" />
+            <token id="15" string="investors" />
+            <token id="16" string="in" />
+            <token id="17" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="to be divided between private and institutional investors in Britain" type="VP">
+          <tokens>
+            <token id="8" string="to" />
+            <token id="9" string="be" />
+            <token id="10" string="divided" />
+            <token id="11" string="between" />
+            <token id="12" string="private" />
+            <token id="13" string="and" />
+            <token id="14" string="institutional" />
+            <token id="15" string="investors" />
+            <token id="16" string="in" />
+            <token id="17" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the shares" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="shares" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The other two-thirds of the shares" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="other" />
+            <token id="3" string="two-thirds" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="shares" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The other two-thirds" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="other" />
+            <token id="3" string="two-thirds" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="divided between private and institutional investors in Britain" type="VP">
+          <tokens>
+            <token id="10" string="divided" />
+            <token id="11" string="between" />
+            <token id="12" string="private" />
+            <token id="13" string="and" />
+            <token id="14" string="institutional" />
+            <token id="15" string="investors" />
+            <token id="16" string="in" />
+            <token id="17" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Britain" type="NP">
+          <tokens>
+            <token id="17" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="private and institutional investors" type="NP">
+          <tokens>
+            <token id="12" string="private" />
+            <token id="13" string="and" />
+            <token id="14" string="institutional" />
+            <token id="15" string="investors" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">two-thirds</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">two-thirds</governor>
+          <dependent id="2">other</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">are</governor>
+          <dependent id="3">two-thirds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">shares</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">shares</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">two-thirds</governor>
+          <dependent id="6">shares</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">are</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">divided</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="10">divided</governor>
+          <dependent id="9">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">are</governor>
+          <dependent id="10">divided</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">investors</governor>
+          <dependent id="11">between</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">investors</governor>
+          <dependent id="12">private</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">private</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">private</governor>
+          <dependent id="14">institutional</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">divided</governor>
+          <dependent id="15">investors</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Britain</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">divided</governor>
+          <dependent id="17">Britain</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Britain" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="17" string="Britain" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="false">
+      <content>A relatively low minimum-investment figure of #250 has been set to attract small investors, particularly readers of Mirror publications.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="relatively" lemma="relatively" stem="rel" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="low" lemma="low" stem="low" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="minimum-investment" lemma="minimum-investment" stem="minimum-invest" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="figure" lemma="figure" stem="figur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="#" lemma="#" stem="#" pos="#" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="8" string="250" lemma="250" stem="250" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="9" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="set" lemma="set" stem="set" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="attract" lemma="attract" stem="attract" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="small" lemma="small" stem="small" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="investors" lemma="investor" stem="investor" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="particularly" lemma="particularly" stem="particularli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="readers" lemma="reader" stem="reader" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Mirror" lemma="Mirror" stem="mirror" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="publications" lemma="publication" stem="public" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT A) (ADJP (RB relatively) (JJ low)) (NN minimum-investment) (NN figure)) (PP (IN of) (NP (# #) (CD 250)))) (VP (VBZ has) (VP (VBN been) (VP (VBN set) (S (VP (TO to) (VP (VB attract) (NP (NP (JJ small) (NNS investors)) (, ,) (RB particularly) (NP (NP (NNS readers)) (PP (IN of) (NP (NNP Mirror) (NNS publications))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="relatively low" type="ADJP">
+          <tokens>
+            <token id="2" string="relatively" />
+            <token id="3" string="low" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="set to attract small investors , particularly readers of Mirror publications" type="VP">
+          <tokens>
+            <token id="11" string="set" />
+            <token id="12" string="to" />
+            <token id="13" string="attract" />
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Mirror publications" type="NP">
+          <tokens>
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="A relatively low minimum-investment figure of # 250" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="relatively" />
+            <token id="3" string="low" />
+            <token id="4" string="minimum-investment" />
+            <token id="5" string="figure" />
+            <token id="6" string="of" />
+            <token id="7" string="#" />
+            <token id="8" string="250" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="readers" type="NP">
+          <tokens>
+            <token id="18" string="readers" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="readers of Mirror publications" type="NP">
+          <tokens>
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="small investors , particularly readers of Mirror publications" type="NP">
+          <tokens>
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="# 250" type="NP">
+          <tokens>
+            <token id="7" string="#" />
+            <token id="8" string="250" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="has been set to attract small investors , particularly readers of Mirror publications" type="VP">
+          <tokens>
+            <token id="9" string="has" />
+            <token id="10" string="been" />
+            <token id="11" string="set" />
+            <token id="12" string="to" />
+            <token id="13" string="attract" />
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="A relatively low minimum-investment figure" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="relatively" />
+            <token id="3" string="low" />
+            <token id="4" string="minimum-investment" />
+            <token id="5" string="figure" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="attract small investors , particularly readers of Mirror publications" type="VP">
+          <tokens>
+            <token id="13" string="attract" />
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="small investors" type="NP">
+          <tokens>
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="been set to attract small investors , particularly readers of Mirror publications" type="VP">
+          <tokens>
+            <token id="10" string="been" />
+            <token id="11" string="set" />
+            <token id="12" string="to" />
+            <token id="13" string="attract" />
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="to attract small investors , particularly readers of Mirror publications" type="VP">
+          <tokens>
+            <token id="12" string="to" />
+            <token id="13" string="attract" />
+            <token id="14" string="small" />
+            <token id="15" string="investors" />
+            <token id="16" string="," />
+            <token id="17" string="particularly" />
+            <token id="18" string="readers" />
+            <token id="19" string="of" />
+            <token id="20" string="Mirror" />
+            <token id="21" string="publications" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="5">figure</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">low</governor>
+          <dependent id="2">relatively</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">figure</governor>
+          <dependent id="3">low</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">figure</governor>
+          <dependent id="4">minimum-investment</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="11">set</governor>
+          <dependent id="5">figure</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">250</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">250</governor>
+          <dependent id="7">#</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">figure</governor>
+          <dependent id="8">250</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">set</governor>
+          <dependent id="9">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">set</governor>
+          <dependent id="10">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">set</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">attract</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">set</governor>
+          <dependent id="13">attract</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">investors</governor>
+          <dependent id="14">small</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">attract</governor>
+          <dependent id="15">investors</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">investors</governor>
+          <dependent id="17">particularly</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="15">investors</governor>
+          <dependent id="18">readers</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">publications</governor>
+          <dependent id="19">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">publications</governor>
+          <dependent id="20">Mirror</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">readers</governor>
+          <dependent id="21">publications</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="# 250" type="MONEY" score="0.0">
+          <tokens>
+            <token id="7" string="#" />
+            <token id="8" string="250" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="6-7-8-9" string="the tabloid Daily Mirror" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="18-19" string="Mirror Group" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="4" string="Mirror" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="1-2" string="Mirror's" id_sentence="1" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="9-10-11-12-13-14" string="Mr. Maxwell 's Maxwell Communication Corp." id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="27-36" string="Maxwell Communication , where he was joint deputy managing director" id_sentence="3" />
+        <mention ids_tokens="27-28" string="Maxwell Communication" id_sentence="3" />
+        <mention ids_tokens="1-2" string="Maxwell Communication" id_sentence="4" />
+        <mention ids_tokens="7" string="its" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="9-10-11" string="Mr. Maxwell 's" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="11-12" string="Mr. Maxwell" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="9" string="Ian" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="17-18" string="Ian's" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PROPER">
+      <referenced ids_tokens="4-5-6-7" string="Mirror Group in 1984" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="13-15" string="the group's" id_sentence="8" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

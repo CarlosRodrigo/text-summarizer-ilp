@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880217-0175">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>A coalition of members of Congress announced Wednesday that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="coalition" lemma="coalition" stem="coalit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="members" lemma="member" stem="member" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="Congress" lemma="Congress" stem="congress" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="announced" lemma="announce" stem="announc" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="plan" lemma="plan" stem="plan" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="sue" lemma="sue" stem="sue" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="Census" lemma="Census" stem="censu" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="16" string="Bureau" lemma="Bureau" stem="bureau" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="effort" lemma="effort" stem="effort" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="force" lemma="force" stem="forc" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="agency" lemma="agency" stem="agenc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="delete" lemma="delete" stem="delet" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="illegal" lemma="illegal" stem="illeg" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="aliens" lemma="alien" stem="alien" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="count" lemma="count" stem="count" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="1990" lemma="1990" stem="1990" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT A) (NN coalition)) (PP (IN of) (NP (NP (NNS members)) (PP (IN of) (NP (NNP Congress)))))) (VP (VBD announced) (NP-TMP (NNP Wednesday)) (SBAR (IN that) (S (NP (PRP they)) (VP (VBP plan) (S (VP (TO to) (VP (VB sue) (NP (DT the) (NNP Census) (NNP Bureau)) (PP (IN in) (NP (DT an) (NN effort) (S (VP (TO to) (VP (VB force) (NP (DT the) (NN agency) (S (VP (TO to) (VP (VB delete) (NP (JJ illegal) (NNS aliens)) (PP (IN from) (NP (NP (PRP$ its) (NN count)) (PP (IN in) (NP (CD 1990))))))))))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="illegal aliens" type="NP">
+          <tokens>
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="SBAR">
+          <tokens>
+            <token id="9" string="that" />
+            <token id="10" string="they" />
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the agency to delete illegal aliens from its count in 1990" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="members of Congress" type="NP">
+          <tokens>
+            <token id="4" string="members" />
+            <token id="5" string="of" />
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Census Bureau" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="an effort to force the agency to delete illegal aliens from its count in 1990" type="NP">
+          <tokens>
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1990" type="NP">
+          <tokens>
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="its count in 1990" type="NP">
+          <tokens>
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Congress" type="NP">
+          <tokens>
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="they" type="NP">
+          <tokens>
+            <token id="10" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="announced Wednesday that they plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="7" string="announced" />
+            <token id="8" string="Wednesday" />
+            <token id="9" string="that" />
+            <token id="10" string="they" />
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="members" type="NP">
+          <tokens>
+            <token id="4" string="members" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="A coalition" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="coalition" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="A coalition of members of Congress" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="coalition" />
+            <token id="3" string="of" />
+            <token id="4" string="members" />
+            <token id="5" string="of" />
+            <token id="6" string="Congress" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="plan to sue the Census Bureau in an effort to force the agency to delete illegal aliens from its count in 1990" type="VP">
+          <tokens>
+            <token id="11" string="plan" />
+            <token id="12" string="to" />
+            <token id="13" string="sue" />
+            <token id="14" string="the" />
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+            <token id="17" string="in" />
+            <token id="18" string="an" />
+            <token id="19" string="effort" />
+            <token id="20" string="to" />
+            <token id="21" string="force" />
+            <token id="22" string="the" />
+            <token id="23" string="agency" />
+            <token id="24" string="to" />
+            <token id="25" string="delete" />
+            <token id="26" string="illegal" />
+            <token id="27" string="aliens" />
+            <token id="28" string="from" />
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+            <token id="31" string="in" />
+            <token id="32" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="its count" type="NP">
+          <tokens>
+            <token id="29" string="its" />
+            <token id="30" string="count" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">coalition</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">announced</governor>
+          <dependent id="2">coalition</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">members</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">coalition</governor>
+          <dependent id="4">members</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Congress</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">members</governor>
+          <dependent id="6">Congress</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">announced</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="7">announced</governor>
+          <dependent id="8">Wednesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">plan</governor>
+          <dependent id="9">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">plan</governor>
+          <dependent id="10">they</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">announced</governor>
+          <dependent id="11">plan</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">sue</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">plan</governor>
+          <dependent id="13">sue</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">Bureau</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Bureau</governor>
+          <dependent id="15">Census</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">sue</governor>
+          <dependent id="16">Bureau</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">effort</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">effort</governor>
+          <dependent id="18">an</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">sue</governor>
+          <dependent id="19">effort</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">force</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="19">effort</governor>
+          <dependent id="21">force</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">agency</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">force</governor>
+          <dependent id="23">agency</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="25">delete</governor>
+          <dependent id="24">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="23">agency</governor>
+          <dependent id="25">delete</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">aliens</governor>
+          <dependent id="26">illegal</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="25">delete</governor>
+          <dependent id="27">aliens</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">count</governor>
+          <dependent id="28">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="30">count</governor>
+          <dependent id="29">its</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">delete</governor>
+          <dependent id="30">count</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">1990</governor>
+          <dependent id="31">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">count</governor>
+          <dependent id="32">1990</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1990" type="DATE" score="0.0">
+          <tokens>
+            <token id="32" string="1990" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Census Bureau" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="15" string="Census" />
+            <token id="16" string="Bureau" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Congress" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="Congress" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="14-15-16" string="the Census Bureau" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="17" string="it" id_sentence="7" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

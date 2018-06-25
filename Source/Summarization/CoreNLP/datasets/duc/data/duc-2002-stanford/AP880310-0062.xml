@@ -1,0 +1,2882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880310-0062">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>With no seats and no food for the guests of honor, everyone agreed that lunch at Sardi&amp;apost;s had gone to the dogs.</content>
+      <tokens>
+        <token id="1" string="With" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="seats" lemma="seat" stem="seat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="food" lemma="food" stem="food" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="guests" lemma="guest" stem="guest" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="honor" lemma="honor" stem="honor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="everyone" lemma="everyone" stem="everyon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="agreed" lemma="agree" stem="agre" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="lunch" lemma="lunch" stem="lunch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Sardi" lemma="Sardi" stem="sardi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="gone" lemma="go" stem="gone" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN With) (NP (NP (DT no) (NNS seats)) (CC and) (NP (NP (DT no) (NN food)) (PP (IN for) (NP (NP (DT the) (NNS guests)) (PP (IN of) (NP (NN honor)))))))) (, ,) (NP (NN everyone)) (VP (VBD agreed) (SBAR (IN that) (S (NP (NP (NN lunch)) (PP (IN at) (NP (NNP Sardi) (POS 's)))) (VP (VBD had) (VP (VBN gone) (PP (TO to) (NP (DT the) (NNS dogs)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="gone to the dogs" type="VP">
+          <tokens>
+            <token id="21" string="gone" />
+            <token id="22" string="to" />
+            <token id="23" string="the" />
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="lunch" type="NP">
+          <tokens>
+            <token id="16" string="lunch" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="honor" type="NP">
+          <tokens>
+            <token id="11" string="honor" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="everyone" type="NP">
+          <tokens>
+            <token id="13" string="everyone" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="no seats and no food for the guests of honor" type="NP">
+          <tokens>
+            <token id="2" string="no" />
+            <token id="3" string="seats" />
+            <token id="4" string="and" />
+            <token id="5" string="no" />
+            <token id="6" string="food" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="guests" />
+            <token id="10" string="of" />
+            <token id="11" string="honor" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="agreed that lunch at Sardi 's had gone to the dogs" type="VP">
+          <tokens>
+            <token id="14" string="agreed" />
+            <token id="15" string="that" />
+            <token id="16" string="lunch" />
+            <token id="17" string="at" />
+            <token id="18" string="Sardi" />
+            <token id="19" string="'s" />
+            <token id="20" string="had" />
+            <token id="21" string="gone" />
+            <token id="22" string="to" />
+            <token id="23" string="the" />
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="had gone to the dogs" type="VP">
+          <tokens>
+            <token id="20" string="had" />
+            <token id="21" string="gone" />
+            <token id="22" string="to" />
+            <token id="23" string="the" />
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="that lunch at Sardi 's had gone to the dogs" type="SBAR">
+          <tokens>
+            <token id="15" string="that" />
+            <token id="16" string="lunch" />
+            <token id="17" string="at" />
+            <token id="18" string="Sardi" />
+            <token id="19" string="'s" />
+            <token id="20" string="had" />
+            <token id="21" string="gone" />
+            <token id="22" string="to" />
+            <token id="23" string="the" />
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Sardi 's" type="NP">
+          <tokens>
+            <token id="18" string="Sardi" />
+            <token id="19" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="no food" type="NP">
+          <tokens>
+            <token id="5" string="no" />
+            <token id="6" string="food" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the guests of honor" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="guests" />
+            <token id="10" string="of" />
+            <token id="11" string="honor" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="no seats" type="NP">
+          <tokens>
+            <token id="2" string="no" />
+            <token id="3" string="seats" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="lunch at Sardi 's" type="NP">
+          <tokens>
+            <token id="16" string="lunch" />
+            <token id="17" string="at" />
+            <token id="18" string="Sardi" />
+            <token id="19" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="no food for the guests of honor" type="NP">
+          <tokens>
+            <token id="5" string="no" />
+            <token id="6" string="food" />
+            <token id="7" string="for" />
+            <token id="8" string="the" />
+            <token id="9" string="guests" />
+            <token id="10" string="of" />
+            <token id="11" string="honor" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the dogs" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the guests" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="guests" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">seats</governor>
+          <dependent id="1">With</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="3">seats</governor>
+          <dependent id="2">no</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">agreed</governor>
+          <dependent id="3">seats</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">seats</governor>
+          <dependent id="4">and</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="6">food</governor>
+          <dependent id="5">no</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">seats</governor>
+          <dependent id="6">food</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">guests</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">guests</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">food</governor>
+          <dependent id="9">guests</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">honor</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">guests</governor>
+          <dependent id="11">honor</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">agreed</governor>
+          <dependent id="13">everyone</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">agreed</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">gone</governor>
+          <dependent id="15">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">gone</governor>
+          <dependent id="16">lunch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Sardi</governor>
+          <dependent id="17">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">lunch</governor>
+          <dependent id="18">Sardi</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Sardi</governor>
+          <dependent id="19">'s</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="21">gone</governor>
+          <dependent id="20">had</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">agreed</governor>
+          <dependent id="21">gone</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">dogs</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">dogs</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">gone</governor>
+          <dependent id="24">dogs</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Sardi" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="18" string="Sardi" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="false">
+      <content>Two dogs, to be specific, the city&amp;apost;s top police dog and the nation&amp;apost;s top show dog.</content>
+      <tokens>
+        <token id="1" string="Two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="2" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="specific" lemma="specific" stem="specif" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="city" lemma="city" stem="citi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="top" lemma="top" stem="top" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="dog" lemma="dog" stem="dog" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="nation" lemma="nation" stem="nation" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="top" lemma="top" stem="top" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="show" lemma="show" stem="show" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="dog" lemma="dog" stem="dog" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (CD Two) (NNS dogs)) (VP (, ,) (S (VP (TO to) (VP (VB be) (UCP (ADJP (JJ specific)) (, ,) (NP (NP (NP (DT the) (NN city) (POS 's)) (JJ top) (NN police) (NN dog)) (CC and) (NP (NP (DT the) (NN nation) (POS 's)) (JJ top) (NN show) (NN dog)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="to be specific , the city 's top police dog and the nation 's top show dog" type="VP">
+          <tokens>
+            <token id="4" string="to" />
+            <token id="5" string="be" />
+            <token id="6" string="specific" />
+            <token id="7" string="," />
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the city 's top police dog" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Two dogs , to be specific , the city 's top police dog and the nation 's top show dog ." type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="dogs" />
+            <token id="3" string="," />
+            <token id="4" string="to" />
+            <token id="5" string="be" />
+            <token id="6" string="specific" />
+            <token id="7" string="," />
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+            <token id="21" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="4" string=", to be specific , the city 's top police dog and the nation 's top show dog" type="VP">
+          <tokens>
+            <token id="3" string="," />
+            <token id="4" string="to" />
+            <token id="5" string="be" />
+            <token id="6" string="specific" />
+            <token id="7" string="," />
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="be specific , the city 's top police dog and the nation 's top show dog" type="VP">
+          <tokens>
+            <token id="5" string="be" />
+            <token id="6" string="specific" />
+            <token id="7" string="," />
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the city 's top police dog and the nation 's top show dog" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+            <token id="11" string="top" />
+            <token id="12" string="police" />
+            <token id="13" string="dog" />
+            <token id="14" string="and" />
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the city 's" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="city" />
+            <token id="10" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Two dogs" type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the nation 's top show dog" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+            <token id="18" string="top" />
+            <token id="19" string="show" />
+            <token id="20" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="specific" type="ADJP">
+          <tokens>
+            <token id="6" string="specific" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the nation 's" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="nation" />
+            <token id="17" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">dogs</governor>
+          <dependent id="1">Two</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">dogs</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="6">specific</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">specific</governor>
+          <dependent id="5">be</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">dogs</governor>
+          <dependent id="6">specific</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">city</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">dog</governor>
+          <dependent id="9">city</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">city</governor>
+          <dependent id="10">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">dog</governor>
+          <dependent id="11">top</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">dog</governor>
+          <dependent id="12">police</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="6">specific</governor>
+          <dependent id="13">dog</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">dog</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">nation</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">dog</governor>
+          <dependent id="16">nation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">nation</governor>
+          <dependent id="17">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">dog</governor>
+          <dependent id="18">top</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">dog</governor>
+          <dependent id="19">show</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">dog</governor>
+          <dependent id="20">dog</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Two" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>The Dog Fanciers Club organized the event Wednesday to honor Champion Great Elms Prince Charming II, a fluffy little Pomeranian, and Nero, a big, amiable bruiser of a German shepherd.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Dog" lemma="Dog" stem="dog" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="Fanciers" lemma="Fanciers" stem="fancier" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="4" string="Club" lemma="Club" stem="club" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="organized" lemma="organize" stem="organ" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="event" lemma="event" stem="event" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="honor" lemma="honor" stem="honor" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="Champion" lemma="Champion" stem="champion" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="Great" lemma="Great" stem="great" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="Elms" lemma="Elms" stem="elm" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="Prince" lemma="Prince" stem="princ" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="false" />
+        <token id="15" string="Charming" lemma="Charming" stem="charm" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="II" lemma="II" stem="ii" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="fluffy" lemma="fluffy" stem="fluffi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="little" lemma="little" stem="littl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="Pomeranian" lemma="Pomeranian" stem="pomeranian" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="big" lemma="big" stem="big" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="amiable" lemma="amiable" stem="amiabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="bruiser" lemma="bruiser" stem="bruiser" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="German" lemma="german" stem="german" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="34" string="shepherd" lemma="shepherd" stem="shepherd" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NNP Dog) (NNP Fanciers) (NNP Club)) (VP (VBD organized) (NP (DT the) (NN event)) (NP-TMP (NNP Wednesday)) (S (VP (TO to) (VP (VB honor) (NP (NP (NNP Champion) (NNP Great) (NNP Elms) (NNP Prince) (NNP Charming) (NNP II)) (, ,) (NP (DT a) (JJ fluffy) (JJ little) (NNP Pomeranian)) (, ,) (CC and) (NP (NP (NNP Nero)) (, ,) (NP (NP (DT a) (JJ big) (, ,) (JJ amiable) (NN bruiser)) (PP (IN of) (NP (DT a) (JJ German) (NN shepherd)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="honor Champion Great Elms Prince Charming II , a fluffy little Pomeranian , and Nero , a big , amiable bruiser of a German shepherd" type="VP">
+          <tokens>
+            <token id="10" string="honor" />
+            <token id="11" string="Champion" />
+            <token id="12" string="Great" />
+            <token id="13" string="Elms" />
+            <token id="14" string="Prince" />
+            <token id="15" string="Charming" />
+            <token id="16" string="II" />
+            <token id="17" string="," />
+            <token id="18" string="a" />
+            <token id="19" string="fluffy" />
+            <token id="20" string="little" />
+            <token id="21" string="Pomeranian" />
+            <token id="22" string="," />
+            <token id="23" string="and" />
+            <token id="24" string="Nero" />
+            <token id="25" string="," />
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a fluffy little Pomeranian" type="NP">
+          <tokens>
+            <token id="18" string="a" />
+            <token id="19" string="fluffy" />
+            <token id="20" string="little" />
+            <token id="21" string="Pomeranian" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Champion Great Elms Prince Charming II , a fluffy little Pomeranian , and Nero , a big , amiable bruiser of a German shepherd" type="NP">
+          <tokens>
+            <token id="11" string="Champion" />
+            <token id="12" string="Great" />
+            <token id="13" string="Elms" />
+            <token id="14" string="Prince" />
+            <token id="15" string="Charming" />
+            <token id="16" string="II" />
+            <token id="17" string="," />
+            <token id="18" string="a" />
+            <token id="19" string="fluffy" />
+            <token id="20" string="little" />
+            <token id="21" string="Pomeranian" />
+            <token id="22" string="," />
+            <token id="23" string="and" />
+            <token id="24" string="Nero" />
+            <token id="25" string="," />
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Nero , a big , amiable bruiser of a German shepherd" type="NP">
+          <tokens>
+            <token id="24" string="Nero" />
+            <token id="25" string="," />
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a big , amiable bruiser of a German shepherd" type="NP">
+          <tokens>
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a German shepherd" type="NP">
+          <tokens>
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The Dog Fanciers Club" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Dog" />
+            <token id="3" string="Fanciers" />
+            <token id="4" string="Club" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="organized the event Wednesday to honor Champion Great Elms Prince Charming II , a fluffy little Pomeranian , and Nero , a big , amiable bruiser of a German shepherd" type="VP">
+          <tokens>
+            <token id="5" string="organized" />
+            <token id="6" string="the" />
+            <token id="7" string="event" />
+            <token id="8" string="Wednesday" />
+            <token id="9" string="to" />
+            <token id="10" string="honor" />
+            <token id="11" string="Champion" />
+            <token id="12" string="Great" />
+            <token id="13" string="Elms" />
+            <token id="14" string="Prince" />
+            <token id="15" string="Charming" />
+            <token id="16" string="II" />
+            <token id="17" string="," />
+            <token id="18" string="a" />
+            <token id="19" string="fluffy" />
+            <token id="20" string="little" />
+            <token id="21" string="Pomeranian" />
+            <token id="22" string="," />
+            <token id="23" string="and" />
+            <token id="24" string="Nero" />
+            <token id="25" string="," />
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Nero" type="NP">
+          <tokens>
+            <token id="24" string="Nero" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to honor Champion Great Elms Prince Charming II , a fluffy little Pomeranian , and Nero , a big , amiable bruiser of a German shepherd" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="honor" />
+            <token id="11" string="Champion" />
+            <token id="12" string="Great" />
+            <token id="13" string="Elms" />
+            <token id="14" string="Prince" />
+            <token id="15" string="Charming" />
+            <token id="16" string="II" />
+            <token id="17" string="," />
+            <token id="18" string="a" />
+            <token id="19" string="fluffy" />
+            <token id="20" string="little" />
+            <token id="21" string="Pomeranian" />
+            <token id="22" string="," />
+            <token id="23" string="and" />
+            <token id="24" string="Nero" />
+            <token id="25" string="," />
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+            <token id="31" string="of" />
+            <token id="32" string="a" />
+            <token id="33" string="German" />
+            <token id="34" string="shepherd" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the event" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="event" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Champion Great Elms Prince Charming II" type="NP">
+          <tokens>
+            <token id="11" string="Champion" />
+            <token id="12" string="Great" />
+            <token id="13" string="Elms" />
+            <token id="14" string="Prince" />
+            <token id="15" string="Charming" />
+            <token id="16" string="II" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a big , amiable bruiser" type="NP">
+          <tokens>
+            <token id="26" string="a" />
+            <token id="27" string="big" />
+            <token id="28" string="," />
+            <token id="29" string="amiable" />
+            <token id="30" string="bruiser" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">Club</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Club</governor>
+          <dependent id="2">Dog</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Club</governor>
+          <dependent id="3">Fanciers</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">organized</governor>
+          <dependent id="4">Club</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">organized</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">event</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">organized</governor>
+          <dependent id="7">event</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="5">organized</governor>
+          <dependent id="8">Wednesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">honor</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">organized</governor>
+          <dependent id="10">honor</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">II</governor>
+          <dependent id="11">Champion</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">II</governor>
+          <dependent id="12">Great</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">II</governor>
+          <dependent id="13">Elms</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">II</governor>
+          <dependent id="14">Prince</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">II</governor>
+          <dependent id="15">Charming</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">honor</governor>
+          <dependent id="16">II</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">Pomeranian</governor>
+          <dependent id="18">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">Pomeranian</governor>
+          <dependent id="19">fluffy</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">Pomeranian</governor>
+          <dependent id="20">little</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">II</governor>
+          <dependent id="21">Pomeranian</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">II</governor>
+          <dependent id="23">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">II</governor>
+          <dependent id="24">Nero</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">bruiser</governor>
+          <dependent id="26">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="30">bruiser</governor>
+          <dependent id="27">big</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="30">bruiser</governor>
+          <dependent id="29">amiable</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="24">Nero</governor>
+          <dependent id="30">bruiser</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">shepherd</governor>
+          <dependent id="31">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="34">shepherd</governor>
+          <dependent id="32">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="34">shepherd</governor>
+          <dependent id="33">German</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">bruiser</governor>
+          <dependent id="34">shepherd</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Prince" type="TITLE" score="0.0">
+          <tokens>
+            <token id="14" string="Prince" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="24" string="Nero" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Dog Fanciers Club" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="Dog" />
+            <token id="3" string="Fanciers" />
+            <token id="4" string="Club" />
+          </tokens>
+        </entity>
+        <entity id="5" string="German" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="33" string="German" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Pomeranian" type="MISC" score="0.0">
+          <tokens>
+            <token id="21" string="Pomeranian" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>``He&amp;apost;s a very friendly dog,&amp;apost;&amp;apost; said Nero&amp;apost;s master, Officer Joseph Faraguna.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="friendly" lemma="friendly" stem="friendli" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="dog" lemma="dog" stem="dog" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="12" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="master" lemma="master" stem="master" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Officer" lemma="Officer" stem="officer" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="Joseph" lemma="Joseph" stem="joseph" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="17" string="Faraguna" lemma="Faraguna" stem="faraguna" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (NP (PRP He)) (VP (VBZ 's) (NP (DT a) (ADJP (RB very) (JJ friendly)) (NN dog)))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NP (NNP Nero) (POS 's)) (NN master)) (, ,) (NP (NNP Officer) (NNP Joseph) (NNP Faraguna))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="very friendly" type="ADJP">
+          <tokens>
+            <token id="5" string="very" />
+            <token id="6" string="friendly" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a very friendly dog" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="very" />
+            <token id="6" string="friendly" />
+            <token id="7" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Officer Joseph Faraguna" type="NP">
+          <tokens>
+            <token id="15" string="Officer" />
+            <token id="16" string="Joseph" />
+            <token id="17" string="Faraguna" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Nero 's master" type="NP">
+          <tokens>
+            <token id="11" string="Nero" />
+            <token id="12" string="'s" />
+            <token id="13" string="master" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Nero 's master , Officer Joseph Faraguna" type="NP">
+          <tokens>
+            <token id="11" string="Nero" />
+            <token id="12" string="'s" />
+            <token id="13" string="master" />
+            <token id="14" string="," />
+            <token id="15" string="Officer" />
+            <token id="16" string="Joseph" />
+            <token id="17" string="Faraguna" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="He" type="NP">
+          <tokens>
+            <token id="2" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said" type="VP">
+          <tokens>
+            <token id="10" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="'s a very friendly dog" type="VP">
+          <tokens>
+            <token id="3" string="'s" />
+            <token id="4" string="a" />
+            <token id="5" string="very" />
+            <token id="6" string="friendly" />
+            <token id="7" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Nero 's" type="NP">
+          <tokens>
+            <token id="11" string="Nero" />
+            <token id="12" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="7">dog</governor>
+          <dependent id="2">He</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="7">dog</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">dog</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">friendly</governor>
+          <dependent id="5">very</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">dog</governor>
+          <dependent id="6">friendly</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">said</governor>
+          <dependent id="7">dog</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">said</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">master</governor>
+          <dependent id="11">Nero</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Nero</governor>
+          <dependent id="12">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">said</governor>
+          <dependent id="13">master</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Faraguna</governor>
+          <dependent id="15">Officer</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Faraguna</governor>
+          <dependent id="16">Joseph</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="13">master</governor>
+          <dependent id="17">Faraguna</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Joseph Faraguna" type="PERSON" score="0.0">
+          <tokens>
+            <token id="16" string="Joseph" />
+            <token id="17" string="Faraguna" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="11" string="Nero" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>``In all the arrests I&amp;apost;ve made with him, he&amp;apost;s only bitten four times.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="all" lemma="all" stem="all" pos="PDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="arrests" lemma="arrest" stem="arrest" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="'ve" lemma="have" stem="'ve" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="made" lemma="make" stem="made" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="only" lemma="only" stem="onli" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="bitten" lemma="bite" stem="bitten" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (PP (IN In) (NP (PDT all) (DT the) (NNS arrests))) (NP (PRP I)) (VP (VBP 've) (VP (VBN made) (PP (IN with) (NP (PRP him)))))) (, ,) (NP (PRP he)) (VP (VBZ 's) (VP (ADVP (RB only)) (VB bitten) (NP (CD four) (NNS times)))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="made with him" type="VP">
+          <tokens>
+            <token id="8" string="made" />
+            <token id="9" string="with" />
+            <token id="10" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="'ve made with him" type="VP">
+          <tokens>
+            <token id="7" string="'ve" />
+            <token id="8" string="made" />
+            <token id="9" string="with" />
+            <token id="10" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="four times" type="NP">
+          <tokens>
+            <token id="16" string="four" />
+            <token id="17" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="only bitten four times" type="VP">
+          <tokens>
+            <token id="14" string="only" />
+            <token id="15" string="bitten" />
+            <token id="16" string="four" />
+            <token id="17" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="all the arrests" type="NP">
+          <tokens>
+            <token id="3" string="all" />
+            <token id="4" string="the" />
+            <token id="5" string="arrests" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="I" type="NP">
+          <tokens>
+            <token id="6" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="him" type="NP">
+          <tokens>
+            <token id="10" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="he" type="NP">
+          <tokens>
+            <token id="12" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="'s only bitten four times" type="VP">
+          <tokens>
+            <token id="13" string="'s" />
+            <token id="14" string="only" />
+            <token id="15" string="bitten" />
+            <token id="16" string="four" />
+            <token id="17" string="times" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="5">arrests</governor>
+          <dependent id="2">In</dependent>
+        </dependency>
+        <dependency type="det:predet">
+          <governor id="5">arrests</governor>
+          <dependent id="3">all</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">arrests</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">made</governor>
+          <dependent id="5">arrests</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">made</governor>
+          <dependent id="6">I</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">made</governor>
+          <dependent id="7">'ve</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">bitten</governor>
+          <dependent id="8">made</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">him</governor>
+          <dependent id="9">with</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">made</governor>
+          <dependent id="10">him</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">bitten</governor>
+          <dependent id="12">he</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="15">bitten</governor>
+          <dependent id="13">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">bitten</governor>
+          <dependent id="14">only</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">bitten</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">times</governor>
+          <dependent id="16">four</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">bitten</governor>
+          <dependent id="17">times</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="four" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="four" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="false">
+      <content>Nero specializes in sniffing out bombs and narcotics.</content>
+      <tokens>
+        <token id="1" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="specializes" lemma="specialize" stem="special" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="sniffing" lemma="sniff" stem="snif" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="out" lemma="out" stem="out" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="bombs" lemma="bomb" stem="bomb" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="narcotics" lemma="narcotic" stem="narcot" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Nero)) (VP (VBZ specializes) (PP (IN in) (S (VP (VBG sniffing) (PRT (RP out)) (NP (NNS bombs) (CC and) (NNS narcotics)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="specializes in sniffing out bombs and narcotics" type="VP">
+          <tokens>
+            <token id="2" string="specializes" />
+            <token id="3" string="in" />
+            <token id="4" string="sniffing" />
+            <token id="5" string="out" />
+            <token id="6" string="bombs" />
+            <token id="7" string="and" />
+            <token id="8" string="narcotics" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="sniffing out bombs and narcotics" type="VP">
+          <tokens>
+            <token id="4" string="sniffing" />
+            <token id="5" string="out" />
+            <token id="6" string="bombs" />
+            <token id="7" string="and" />
+            <token id="8" string="narcotics" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Nero" type="NP">
+          <tokens>
+            <token id="1" string="Nero" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="bombs and narcotics" type="NP">
+          <tokens>
+            <token id="6" string="bombs" />
+            <token id="7" string="and" />
+            <token id="8" string="narcotics" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">specializes</governor>
+          <dependent id="1">Nero</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">specializes</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="4">sniffing</governor>
+          <dependent id="3">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="2">specializes</governor>
+          <dependent id="4">sniffing</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="4">sniffing</governor>
+          <dependent id="5">out</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">sniffing</governor>
+          <dependent id="6">bombs</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">bombs</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">bombs</governor>
+          <dependent id="8">narcotics</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Nero" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>He has helped the Police Department make hundreds of arrests and has ``apprehended&amp;apost;&amp;apost; more than 50 felons.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="helped" lemma="help" stem="help" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Police" lemma="Police" stem="polic" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="Department" lemma="Department" stem="depart" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="make" lemma="make" stem="make" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="hundreds" lemma="hundred" stem="hundr" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="arrests" lemma="arrest" stem="arrest" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="apprehended" lemma="apprehend" stem="apprehend" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="50" lemma="50" stem="50" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="felons" lemma="felon" stem="felon" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (VP (VP (VBZ has) (VP (VBN helped) (S (NP (DT the) (NNP Police) (NNP Department)) (VP (VB make) (NP (NP (NNS hundreds)) (PP (IN of) (NP (NNS arrests)))))))) (CC and) (VP (VBZ has) (VP (`` ``) (VBN apprehended) ('' '') (NP (JJR more)) (PP (IN than) (NP (CD 50) (NNS felons)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="has helped the Police Department make hundreds of arrests" type="VP">
+          <tokens>
+            <token id="2" string="has" />
+            <token id="3" string="helped" />
+            <token id="4" string="the" />
+            <token id="5" string="Police" />
+            <token id="6" string="Department" />
+            <token id="7" string="make" />
+            <token id="8" string="hundreds" />
+            <token id="9" string="of" />
+            <token id="10" string="arrests" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="make hundreds of arrests" type="VP">
+          <tokens>
+            <token id="7" string="make" />
+            <token id="8" string="hundreds" />
+            <token id="9" string="of" />
+            <token id="10" string="arrests" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="has helped the Police Department make hundreds of arrests and has `` apprehended '' more than 50 felons" type="VP">
+          <tokens>
+            <token id="2" string="has" />
+            <token id="3" string="helped" />
+            <token id="4" string="the" />
+            <token id="5" string="Police" />
+            <token id="6" string="Department" />
+            <token id="7" string="make" />
+            <token id="8" string="hundreds" />
+            <token id="9" string="of" />
+            <token id="10" string="arrests" />
+            <token id="11" string="and" />
+            <token id="12" string="has" />
+            <token id="13" string="``" />
+            <token id="14" string="apprehended" />
+            <token id="15" string="''" />
+            <token id="16" string="more" />
+            <token id="17" string="than" />
+            <token id="18" string="50" />
+            <token id="19" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="more" type="NP">
+          <tokens>
+            <token id="16" string="more" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="`` apprehended '' more than 50 felons" type="VP">
+          <tokens>
+            <token id="13" string="``" />
+            <token id="14" string="apprehended" />
+            <token id="15" string="''" />
+            <token id="16" string="more" />
+            <token id="17" string="than" />
+            <token id="18" string="50" />
+            <token id="19" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="has `` apprehended '' more than 50 felons" type="VP">
+          <tokens>
+            <token id="12" string="has" />
+            <token id="13" string="``" />
+            <token id="14" string="apprehended" />
+            <token id="15" string="''" />
+            <token id="16" string="more" />
+            <token id="17" string="than" />
+            <token id="18" string="50" />
+            <token id="19" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="50 felons" type="NP">
+          <tokens>
+            <token id="18" string="50" />
+            <token id="19" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="arrests" type="NP">
+          <tokens>
+            <token id="10" string="arrests" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="hundreds" type="NP">
+          <tokens>
+            <token id="8" string="hundreds" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="helped the Police Department make hundreds of arrests" type="VP">
+          <tokens>
+            <token id="3" string="helped" />
+            <token id="4" string="the" />
+            <token id="5" string="Police" />
+            <token id="6" string="Department" />
+            <token id="7" string="make" />
+            <token id="8" string="hundreds" />
+            <token id="9" string="of" />
+            <token id="10" string="arrests" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the Police Department" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Police" />
+            <token id="6" string="Department" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="hundreds of arrests" type="NP">
+          <tokens>
+            <token id="8" string="hundreds" />
+            <token id="9" string="of" />
+            <token id="10" string="arrests" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">helped</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">helped</governor>
+          <dependent id="2">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">helped</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">Department</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Department</governor>
+          <dependent id="5">Police</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">make</governor>
+          <dependent id="6">Department</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">helped</governor>
+          <dependent id="7">make</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">make</governor>
+          <dependent id="8">hundreds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">arrests</governor>
+          <dependent id="9">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">hundreds</governor>
+          <dependent id="10">arrests</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">helped</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">apprehended</governor>
+          <dependent id="12">has</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">helped</governor>
+          <dependent id="14">apprehended</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">apprehended</governor>
+          <dependent id="16">more</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">felons</governor>
+          <dependent id="17">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="19">felons</governor>
+          <dependent id="18">50</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">apprehended</governor>
+          <dependent id="19">felons</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="50" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="50" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Nero was kept on his long leather leash while Prince emerged from his elegant, padded carrying case only long enough to pose for photographers.</content>
+      <tokens>
+        <token id="1" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="kept" lemma="keep" stem="kept" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="long" lemma="long" stem="long" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="leather" lemma="leather" stem="leather" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="leash" lemma="leash" stem="leash" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="while" lemma="while" stem="while" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Prince" lemma="Prince" stem="princ" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="11" string="emerged" lemma="emerge" stem="emerg" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="elegant" lemma="elegant" stem="eleg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="padded" lemma="padded" stem="pad" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="carrying" lemma="carry" stem="carri" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="case" lemma="case" stem="case" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="only" lemma="only" stem="onli" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="long" lemma="long" stem="long" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="enough" lemma="enough" stem="enough" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="pose" lemma="pose" stem="pose" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="photographers" lemma="photographer" stem="photograph" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Nero)) (VP (VBD was) (VP (VBN kept) (PP (IN on) (NP (PRP$ his) (JJ long) (NN leather) (NN leash))) (SBAR (IN while) (S (NP (NNP Prince)) (VP (VBD emerged) (PP (IN from) (NP (PRP$ his) (JJ elegant))) (, ,) (S (NP (JJ padded) (VBG carrying) (NN case)) (VP (ADVP (RB only) (RB long) (RB enough)) (S (VP (TO to) (VP (VB pose) (PP (IN for) (NP (NNS photographers))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="while Prince emerged from his elegant , padded carrying case only long enough to pose for photographers" type="SBAR">
+          <tokens>
+            <token id="9" string="while" />
+            <token id="10" string="Prince" />
+            <token id="11" string="emerged" />
+            <token id="12" string="from" />
+            <token id="13" string="his" />
+            <token id="14" string="elegant" />
+            <token id="15" string="," />
+            <token id="16" string="padded" />
+            <token id="17" string="carrying" />
+            <token id="18" string="case" />
+            <token id="19" string="only" />
+            <token id="20" string="long" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="kept on his long leather leash while Prince emerged from his elegant , padded carrying case only long enough to pose for photographers" type="VP">
+          <tokens>
+            <token id="3" string="kept" />
+            <token id="4" string="on" />
+            <token id="5" string="his" />
+            <token id="6" string="long" />
+            <token id="7" string="leather" />
+            <token id="8" string="leash" />
+            <token id="9" string="while" />
+            <token id="10" string="Prince" />
+            <token id="11" string="emerged" />
+            <token id="12" string="from" />
+            <token id="13" string="his" />
+            <token id="14" string="elegant" />
+            <token id="15" string="," />
+            <token id="16" string="padded" />
+            <token id="17" string="carrying" />
+            <token id="18" string="case" />
+            <token id="19" string="only" />
+            <token id="20" string="long" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was kept on his long leather leash while Prince emerged from his elegant , padded carrying case only long enough to pose for photographers" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="kept" />
+            <token id="4" string="on" />
+            <token id="5" string="his" />
+            <token id="6" string="long" />
+            <token id="7" string="leather" />
+            <token id="8" string="leash" />
+            <token id="9" string="while" />
+            <token id="10" string="Prince" />
+            <token id="11" string="emerged" />
+            <token id="12" string="from" />
+            <token id="13" string="his" />
+            <token id="14" string="elegant" />
+            <token id="15" string="," />
+            <token id="16" string="padded" />
+            <token id="17" string="carrying" />
+            <token id="18" string="case" />
+            <token id="19" string="only" />
+            <token id="20" string="long" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="his elegant" type="NP">
+          <tokens>
+            <token id="13" string="his" />
+            <token id="14" string="elegant" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="emerged from his elegant , padded carrying case only long enough to pose for photographers" type="VP">
+          <tokens>
+            <token id="11" string="emerged" />
+            <token id="12" string="from" />
+            <token id="13" string="his" />
+            <token id="14" string="elegant" />
+            <token id="15" string="," />
+            <token id="16" string="padded" />
+            <token id="17" string="carrying" />
+            <token id="18" string="case" />
+            <token id="19" string="only" />
+            <token id="20" string="long" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="his long leather leash" type="NP">
+          <tokens>
+            <token id="5" string="his" />
+            <token id="6" string="long" />
+            <token id="7" string="leather" />
+            <token id="8" string="leash" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="pose for photographers" type="VP">
+          <tokens>
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="photographers" type="NP">
+          <tokens>
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Prince" type="NP">
+          <tokens>
+            <token id="10" string="Prince" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="padded carrying case" type="NP">
+          <tokens>
+            <token id="16" string="padded" />
+            <token id="17" string="carrying" />
+            <token id="18" string="case" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Nero" type="NP">
+          <tokens>
+            <token id="1" string="Nero" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="only long enough to pose for photographers" type="VP">
+          <tokens>
+            <token id="19" string="only" />
+            <token id="20" string="long" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="to pose for photographers" type="VP">
+          <tokens>
+            <token id="22" string="to" />
+            <token id="23" string="pose" />
+            <token id="24" string="for" />
+            <token id="25" string="photographers" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="3">kept</governor>
+          <dependent id="1">Nero</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="3">kept</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">kept</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">leash</governor>
+          <dependent id="4">on</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">leash</governor>
+          <dependent id="5">his</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">leash</governor>
+          <dependent id="6">long</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">leash</governor>
+          <dependent id="7">leather</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">kept</governor>
+          <dependent id="8">leash</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">emerged</governor>
+          <dependent id="9">while</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">emerged</governor>
+          <dependent id="10">Prince</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="3">kept</governor>
+          <dependent id="11">emerged</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">elegant</governor>
+          <dependent id="12">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="14">elegant</governor>
+          <dependent id="13">his</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">emerged</governor>
+          <dependent id="14">elegant</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">case</governor>
+          <dependent id="16">padded</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">case</governor>
+          <dependent id="17">carrying</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">enough</governor>
+          <dependent id="18">case</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">enough</governor>
+          <dependent id="19">only</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">enough</governor>
+          <dependent id="20">long</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="11">emerged</governor>
+          <dependent id="21">enough</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">pose</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="21">enough</governor>
+          <dependent id="23">pose</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">photographers</governor>
+          <dependent id="24">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">pose</governor>
+          <dependent id="25">photographers</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Prince" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="Prince" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Nero" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>The Pomeranian was named best in show at the prestigious Westminister Kennel Club Show in Madison Square Garden last month.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="Pomeranian" lemma="Pomeranian" stem="pomeranian" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="named" lemma="name" stem="name" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="best" lemma="best" stem="best" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="show" lemma="show" stem="show" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="prestigious" lemma="prestigious" stem="prestigi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="Westminister" lemma="Westminister" stem="westminist" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Kennel" lemma="Kennel" stem="kennel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="Club" lemma="Club" stem="club" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="Show" lemma="Show" stem="show" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Madison" lemma="Madison" stem="madison" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="Square" lemma="Square" stem="squar" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="Garden" lemma="Garden" stem="garden" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="20" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NNP Pomeranian)) (VP (VBD was) (VP (VBN named) (NP (NP (JJS best)) (PP (IN in) (NP (NN show)))) (PP (IN at) (NP (NP (DT the) (JJ prestigious) (NNP Westminister) (NNP Kennel) (NNP Club) (NNP Show)) (PP (IN in) (NP (NNP Madison) (NNP Square) (NNP Garden))) (NP-TMP (JJ last) (NN month)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Madison Square Garden" type="NP">
+          <tokens>
+            <token id="16" string="Madison" />
+            <token id="17" string="Square" />
+            <token id="18" string="Garden" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the prestigious Westminister Kennel Club Show" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="prestigious" />
+            <token id="11" string="Westminister" />
+            <token id="12" string="Kennel" />
+            <token id="13" string="Club" />
+            <token id="14" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="best in show" type="NP">
+          <tokens>
+            <token id="5" string="best" />
+            <token id="6" string="in" />
+            <token id="7" string="show" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the prestigious Westminister Kennel Club Show in Madison Square Garden last month" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="prestigious" />
+            <token id="11" string="Westminister" />
+            <token id="12" string="Kennel" />
+            <token id="13" string="Club" />
+            <token id="14" string="Show" />
+            <token id="15" string="in" />
+            <token id="16" string="Madison" />
+            <token id="17" string="Square" />
+            <token id="18" string="Garden" />
+            <token id="19" string="last" />
+            <token id="20" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The Pomeranian" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Pomeranian" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="show" type="NP">
+          <tokens>
+            <token id="7" string="show" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was named best in show at the prestigious Westminister Kennel Club Show in Madison Square Garden last month" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="named" />
+            <token id="5" string="best" />
+            <token id="6" string="in" />
+            <token id="7" string="show" />
+            <token id="8" string="at" />
+            <token id="9" string="the" />
+            <token id="10" string="prestigious" />
+            <token id="11" string="Westminister" />
+            <token id="12" string="Kennel" />
+            <token id="13" string="Club" />
+            <token id="14" string="Show" />
+            <token id="15" string="in" />
+            <token id="16" string="Madison" />
+            <token id="17" string="Square" />
+            <token id="18" string="Garden" />
+            <token id="19" string="last" />
+            <token id="20" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="named best in show at the prestigious Westminister Kennel Club Show in Madison Square Garden last month" type="VP">
+          <tokens>
+            <token id="4" string="named" />
+            <token id="5" string="best" />
+            <token id="6" string="in" />
+            <token id="7" string="show" />
+            <token id="8" string="at" />
+            <token id="9" string="the" />
+            <token id="10" string="prestigious" />
+            <token id="11" string="Westminister" />
+            <token id="12" string="Kennel" />
+            <token id="13" string="Club" />
+            <token id="14" string="Show" />
+            <token id="15" string="in" />
+            <token id="16" string="Madison" />
+            <token id="17" string="Square" />
+            <token id="18" string="Garden" />
+            <token id="19" string="last" />
+            <token id="20" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="best" type="NP">
+          <tokens>
+            <token id="5" string="best" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">Pomeranian</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">named</governor>
+          <dependent id="2">Pomeranian</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">named</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">named</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">named</governor>
+          <dependent id="5">best</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">show</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">best</governor>
+          <dependent id="7">show</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Show</governor>
+          <dependent id="8">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">Show</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">Show</governor>
+          <dependent id="10">prestigious</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Show</governor>
+          <dependent id="11">Westminister</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Show</governor>
+          <dependent id="12">Kennel</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Show</governor>
+          <dependent id="13">Club</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">named</governor>
+          <dependent id="14">Show</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Garden</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Garden</governor>
+          <dependent id="16">Madison</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Garden</governor>
+          <dependent id="17">Square</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">Show</governor>
+          <dependent id="18">Garden</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">month</governor>
+          <dependent id="19">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="14">Show</governor>
+          <dependent id="20">month</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Westminister Kennel Club Show" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="11" string="Westminister" />
+            <token id="12" string="Kennel" />
+            <token id="13" string="Club" />
+            <token id="14" string="Show" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Madison Square Garden" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="Madison" />
+            <token id="17" string="Square" />
+            <token id="18" string="Garden" />
+          </tokens>
+        </entity>
+        <entity id="3" string="last month" type="DATE" score="0.0">
+          <tokens>
+            <token id="19" string="last" />
+            <token id="20" string="month" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Pomeranian" type="MISC" score="0.0">
+          <tokens>
+            <token id="2" string="Pomeranian" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Prince, long used to being coddled and primped, seemed oblivious to all the attention until Nero grew bold enough to prod him on the chin.</content>
+      <tokens>
+        <token id="1" string="Prince" lemma="Prince" stem="princ" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="long" lemma="long" stem="long" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="being" lemma="be" stem="be" pos="VBG" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="coddled" lemma="coddle" stem="coddl" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="primped" lemma="primp" stem="primp" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="seemed" lemma="seem" stem="seem" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="oblivious" lemma="oblivious" stem="oblivi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="all" lemma="all" stem="all" pos="PDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="attention" lemma="attention" stem="attent" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="until" lemma="until" stem="until" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="19" string="grew" lemma="grow" stem="grew" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="bold" lemma="bold" stem="bold" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="enough" lemma="enough" stem="enough" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="prod" lemma="prod" stem="prod" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="25" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="chin" lemma="chin" stem="chin" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Prince)) (, ,) (VP (ADVP (RB long)) (VBN used) (PP (TO to) (S (VP (VBG being) (VP (VBN coddled) (CC and) (VBN primped)))))) (, ,)) (VP (VBD seemed) (ADJP (JJ oblivious) (PP (TO to) (NP (PDT all) (DT the) (NN attention)))) (SBAR (IN until) (S (NP (NNP Nero)) (VP (VBD grew) (S (NP (JJ bold)) (ADJP (JJ enough) (S (VP (TO to) (VP (VB prod) (NP (PRP him)) (PP (IN on) (NP (DT the) (NN chin)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="grew bold enough to prod him on the chin" type="VP">
+          <tokens>
+            <token id="19" string="grew" />
+            <token id="20" string="bold" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="prod him on the chin" type="VP">
+          <tokens>
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the chin" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Prince , long used to being coddled and primped ," type="NP">
+          <tokens>
+            <token id="1" string="Prince" />
+            <token id="2" string="," />
+            <token id="3" string="long" />
+            <token id="4" string="used" />
+            <token id="5" string="to" />
+            <token id="6" string="being" />
+            <token id="7" string="coddled" />
+            <token id="8" string="and" />
+            <token id="9" string="primped" />
+            <token id="10" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="oblivious to all the attention" type="ADJP">
+          <tokens>
+            <token id="12" string="oblivious" />
+            <token id="13" string="to" />
+            <token id="14" string="all" />
+            <token id="15" string="the" />
+            <token id="16" string="attention" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="all the attention" type="NP">
+          <tokens>
+            <token id="14" string="all" />
+            <token id="15" string="the" />
+            <token id="16" string="attention" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="enough to prod him on the chin" type="ADJP">
+          <tokens>
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="bold" type="NP">
+          <tokens>
+            <token id="20" string="bold" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="him" type="NP">
+          <tokens>
+            <token id="24" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="long used to being coddled and primped" type="VP">
+          <tokens>
+            <token id="3" string="long" />
+            <token id="4" string="used" />
+            <token id="5" string="to" />
+            <token id="6" string="being" />
+            <token id="7" string="coddled" />
+            <token id="8" string="and" />
+            <token id="9" string="primped" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="being coddled and primped" type="VP">
+          <tokens>
+            <token id="6" string="being" />
+            <token id="7" string="coddled" />
+            <token id="8" string="and" />
+            <token id="9" string="primped" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="until Nero grew bold enough to prod him on the chin" type="SBAR">
+          <tokens>
+            <token id="17" string="until" />
+            <token id="18" string="Nero" />
+            <token id="19" string="grew" />
+            <token id="20" string="bold" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="seemed oblivious to all the attention until Nero grew bold enough to prod him on the chin" type="VP">
+          <tokens>
+            <token id="11" string="seemed" />
+            <token id="12" string="oblivious" />
+            <token id="13" string="to" />
+            <token id="14" string="all" />
+            <token id="15" string="the" />
+            <token id="16" string="attention" />
+            <token id="17" string="until" />
+            <token id="18" string="Nero" />
+            <token id="19" string="grew" />
+            <token id="20" string="bold" />
+            <token id="21" string="enough" />
+            <token id="22" string="to" />
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="to prod him on the chin" type="VP">
+          <tokens>
+            <token id="22" string="to" />
+            <token id="23" string="prod" />
+            <token id="24" string="him" />
+            <token id="25" string="on" />
+            <token id="26" string="the" />
+            <token id="27" string="chin" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Prince" type="NP">
+          <tokens>
+            <token id="1" string="Prince" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Nero" type="NP">
+          <tokens>
+            <token id="18" string="Nero" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="coddled and primped" type="VP">
+          <tokens>
+            <token id="7" string="coddled" />
+            <token id="8" string="and" />
+            <token id="9" string="primped" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="11">seemed</governor>
+          <dependent id="1">Prince</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="4">used</governor>
+          <dependent id="3">long</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="1">Prince</governor>
+          <dependent id="4">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">coddled</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">coddled</governor>
+          <dependent id="6">being</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">used</governor>
+          <dependent id="7">coddled</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">coddled</governor>
+          <dependent id="8">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">coddled</governor>
+          <dependent id="9">primped</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">seemed</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">seemed</governor>
+          <dependent id="12">oblivious</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">attention</governor>
+          <dependent id="13">to</dependent>
+        </dependency>
+        <dependency type="det:predet">
+          <governor id="16">attention</governor>
+          <dependent id="14">all</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">attention</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">oblivious</governor>
+          <dependent id="16">attention</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="19">grew</governor>
+          <dependent id="17">until</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">grew</governor>
+          <dependent id="18">Nero</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="11">seemed</governor>
+          <dependent id="19">grew</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">enough</governor>
+          <dependent id="20">bold</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="19">grew</governor>
+          <dependent id="21">enough</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">prod</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="21">enough</governor>
+          <dependent id="23">prod</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">prod</governor>
+          <dependent id="24">him</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">chin</governor>
+          <dependent id="25">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">chin</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">prod</governor>
+          <dependent id="27">chin</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Prince" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Prince" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Nero" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Then he blinked and drew back.</content>
+      <tokens>
+        <token id="1" string="Then" lemma="then" stem="then" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="blinked" lemma="blink" stem="blink" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="drew" lemma="draw" stem="drew" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="back" lemma="back" stem="back" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (RB Then) (NP (PRP he)) (VP (VP (VBD blinked)) (CC and) (VP (VBD drew) (ADVP (RB back)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="blinked" type="VP">
+          <tokens>
+            <token id="3" string="blinked" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="he" type="NP">
+          <tokens>
+            <token id="2" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="drew back" type="VP">
+          <tokens>
+            <token id="5" string="drew" />
+            <token id="6" string="back" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="blinked and drew back" type="VP">
+          <tokens>
+            <token id="3" string="blinked" />
+            <token id="4" string="and" />
+            <token id="5" string="drew" />
+            <token id="6" string="back" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="3">blinked</governor>
+          <dependent id="1">Then</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">blinked</governor>
+          <dependent id="2">he</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">blinked</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">blinked</governor>
+          <dependent id="4">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">blinked</governor>
+          <dependent id="5">drew</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">drew</governor>
+          <dependent id="6">back</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>But neither Nero nor Prince got any lunch from the luncheon at Sardi&amp;apost;s, a prominent midtown Manhattan restaurant.</content>
+      <tokens>
+        <token id="1" string="But" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="neither" lemma="neither" stem="neither" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="Nero" lemma="Nero" stem="nero" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="4" string="nor" lemma="nor" stem="nor" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Prince" lemma="Prince" stem="princ" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="6" string="got" lemma="get" stem="got" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="any" lemma="any" stem="ani" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="lunch" lemma="lunch" stem="lunch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="luncheon" lemma="luncheon" stem="luncheon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Sardi" lemma="Sardi" stem="sardi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="14" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="prominent" lemma="prominent" stem="promin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="18" string="midtown" lemma="midtown" stem="midtown" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="19" string="Manhattan" lemma="Manhattan" stem="manhattan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="20" string="restaurant" lemma="restaurant" stem="restaur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (CC But) (ADVP (DT neither)) (NP (NNP Nero) (CC nor) (NNP Prince)) (VP (VBD got) (NP (DT any) (NN lunch)) (PP (IN from) (NP (DT the) (NN luncheon))) (PP (IN at) (NP (NP (NNP Sardi) (POS 's)) (, ,) (NP (DT a) (JJ prominent) (NN midtown) (NNP Manhattan) (NN restaurant))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="any lunch" type="NP">
+          <tokens>
+            <token id="7" string="any" />
+            <token id="8" string="lunch" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a prominent midtown Manhattan restaurant" type="NP">
+          <tokens>
+            <token id="16" string="a" />
+            <token id="17" string="prominent" />
+            <token id="18" string="midtown" />
+            <token id="19" string="Manhattan" />
+            <token id="20" string="restaurant" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Sardi 's" type="NP">
+          <tokens>
+            <token id="13" string="Sardi" />
+            <token id="14" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Nero nor Prince" type="NP">
+          <tokens>
+            <token id="3" string="Nero" />
+            <token id="4" string="nor" />
+            <token id="5" string="Prince" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="got any lunch from the luncheon at Sardi 's , a prominent midtown Manhattan restaurant" type="VP">
+          <tokens>
+            <token id="6" string="got" />
+            <token id="7" string="any" />
+            <token id="8" string="lunch" />
+            <token id="9" string="from" />
+            <token id="10" string="the" />
+            <token id="11" string="luncheon" />
+            <token id="12" string="at" />
+            <token id="13" string="Sardi" />
+            <token id="14" string="'s" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="prominent" />
+            <token id="18" string="midtown" />
+            <token id="19" string="Manhattan" />
+            <token id="20" string="restaurant" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the luncheon" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="luncheon" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Sardi 's , a prominent midtown Manhattan restaurant" type="NP">
+          <tokens>
+            <token id="13" string="Sardi" />
+            <token id="14" string="'s" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="prominent" />
+            <token id="18" string="midtown" />
+            <token id="19" string="Manhattan" />
+            <token id="20" string="restaurant" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="cc">
+          <governor id="6">got</governor>
+          <dependent id="1">But</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">got</governor>
+          <dependent id="2">neither</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">got</governor>
+          <dependent id="3">Nero</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">Nero</governor>
+          <dependent id="4">nor</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">Nero</governor>
+          <dependent id="5">Prince</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">got</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">lunch</governor>
+          <dependent id="7">any</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">got</governor>
+          <dependent id="8">lunch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">luncheon</governor>
+          <dependent id="9">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">luncheon</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">got</governor>
+          <dependent id="11">luncheon</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Sardi</governor>
+          <dependent id="12">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">got</governor>
+          <dependent id="13">Sardi</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Sardi</governor>
+          <dependent id="14">'s</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">restaurant</governor>
+          <dependent id="16">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">restaurant</governor>
+          <dependent id="17">prominent</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">restaurant</governor>
+          <dependent id="18">midtown</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">restaurant</governor>
+          <dependent id="19">Manhattan</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="13">Sardi</governor>
+          <dependent id="20">restaurant</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Prince" type="PERSON" score="0.0">
+          <tokens>
+            <token id="5" string="Prince" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Manhattan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Manhattan" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Nero" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="Nero" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sardi" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="13" string="Sardi" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>Prince, said his agent and master Skip Piazza, ``doesn&amp;apost;t have a very large diet anyway.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="Prince" lemma="Prince" stem="princ" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="agent" lemma="agent" stem="agent" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="master" lemma="master" stem="master" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Skip" lemma="skip" stem="skip" pos="VB" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="Piazza" lemma="Piazza" stem="piazza" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="does" lemma="do" stem="doe" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="n't" lemma="not" stem="n't" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="large" lemma="large" stem="larg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="diet" lemma="diet" stem="diet" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="anyway" lemma="anyway" stem="anywai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Prince)) (PRN (, ,) (SINV (VP (VBD said) (S (NP (PRP$ his) (NN agent) (CC and) (NN master)) (VP (VB Skip)))) (NP (NNP Piazza))) (, ,)) (`` ``) (VP (VBZ does) (RB n't) (VP (VB have) (NP (DT a) (ADJP (RB very) (JJ large)) (NN diet)) (ADVP (RB anyway)))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Piazza" type="NP">
+          <tokens>
+            <token id="9" string="Piazza" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Prince" type="NP">
+          <tokens>
+            <token id="1" string="Prince" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="have a very large diet anyway" type="VP">
+          <tokens>
+            <token id="14" string="have" />
+            <token id="15" string="a" />
+            <token id="16" string="very" />
+            <token id="17" string="large" />
+            <token id="18" string="diet" />
+            <token id="19" string="anyway" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="his agent and master" type="NP">
+          <tokens>
+            <token id="4" string="his" />
+            <token id="5" string="agent" />
+            <token id="6" string="and" />
+            <token id="7" string="master" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Skip" type="VP">
+          <tokens>
+            <token id="8" string="Skip" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="does n't have a very large diet anyway" type="VP">
+          <tokens>
+            <token id="12" string="does" />
+            <token id="13" string="n't" />
+            <token id="14" string="have" />
+            <token id="15" string="a" />
+            <token id="16" string="very" />
+            <token id="17" string="large" />
+            <token id="18" string="diet" />
+            <token id="19" string="anyway" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a very large diet" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="very" />
+            <token id="17" string="large" />
+            <token id="18" string="diet" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="very large" type="ADJP">
+          <tokens>
+            <token id="16" string="very" />
+            <token id="17" string="large" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said his agent and master Skip" type="VP">
+          <tokens>
+            <token id="3" string="said" />
+            <token id="4" string="his" />
+            <token id="5" string="agent" />
+            <token id="6" string="and" />
+            <token id="7" string="master" />
+            <token id="8" string="Skip" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="14">have</governor>
+          <dependent id="1">Prince</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="14">have</governor>
+          <dependent id="3">said</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="5">agent</governor>
+          <dependent id="4">his</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">Skip</governor>
+          <dependent id="5">agent</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">agent</governor>
+          <dependent id="6">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">agent</governor>
+          <dependent id="7">master</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">said</governor>
+          <dependent id="8">Skip</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">said</governor>
+          <dependent id="9">Piazza</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="14">have</governor>
+          <dependent id="12">does</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="14">have</governor>
+          <dependent id="13">n't</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">have</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">diet</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="17">large</governor>
+          <dependent id="16">very</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">diet</governor>
+          <dependent id="17">large</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">have</governor>
+          <dependent id="18">diet</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">have</governor>
+          <dependent id="19">anyway</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Prince" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Prince" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Skip Piazza" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Skip" />
+            <token id="9" string="Piazza" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="18-19" string="Sardi 's" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="13-20" string="Sardi's , a prominent midtown Manhattan restaurant" id_sentence="12" />
+        <mention ids_tokens="16-20" string="a prominent midtown Manhattan restaurant" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="14" string="Prince" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="2" string="He" id_sentence="4" />
+        <mention ids_tokens="4-7" string="a very friendly dog" id_sentence="4" />
+        <mention ids_tokens="10" string="him" id_sentence="5" />
+        <mention ids_tokens="12" string="he" id_sentence="5" />
+        <mention ids_tokens="13" string="his" id_sentence="8" />
+        <mention ids_tokens="1-9" string="Prince , long used to being coddled and primped" id_sentence="10" />
+        <mention ids_tokens="2" string="he" id_sentence="11" />
+        <mention ids_tokens="4" string="his" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="1-2" string="The Pomeranian" id_sentence="9" />
+      <mentions>
+        <mention ids_tokens="21" string="Pomeranian" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="24" string="Nero" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="11-12" string="Nero's" id_sentence="4" />
+        <mention ids_tokens="6" string="I" id_sentence="5" />
+        <mention ids_tokens="1" string="He" id_sentence="7" />
+        <mention ids_tokens="5" string="his" id_sentence="8" />
+        <mention ids_tokens="24" string="him" id_sentence="10" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

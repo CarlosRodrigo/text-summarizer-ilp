@@ -1,0 +1,2722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890105-0224">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Retired Sen. John Tower, the defense secretary-designate, underwent surgery Thursday to remove a colon polyp, a hospital spokesman said.</content>
+      <tokens>
+        <token id="1" string="Retired" lemma="retire" stem="retir" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Sen." lemma="Sen." stem="sen." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="John" lemma="John" stem="john" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="secretary-designate" lemma="secretary-designate" stem="secretary-design" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="underwent" lemma="undergo" stem="underw" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="surgery" lemma="surgery" stem="surgeri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="13" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="remove" lemma="remove" stem="remov" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="colon" lemma="colon" stem="colon" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="polyp" lemma="polyp" stem="polyp" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="hospital" lemma="hospital" stem="hospit" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (VP (VBN Retired) (SBAR (S (NP (NP (NNP Sen.) (NNP John) (NNP Tower)) (, ,) (NP (DT the) (NN defense) (NN secretary-designate)) (, ,)) (VP (VBD underwent) (NP (NN surgery)) (NP-TMP (NNP Thursday)) (S (VP (TO to) (VP (VB remove) (NP (DT a) (NN colon) (NN polyp)))))))))) (, ,) (NP (DT a) (NN hospital) (NN spokesman)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Sen. John Tower" type="NP">
+          <tokens>
+            <token id="2" string="Sen." />
+            <token id="3" string="John" />
+            <token id="4" string="Tower" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Retired Sen. John Tower , the defense secretary-designate , underwent surgery Thursday to remove a colon polyp" type="VP">
+          <tokens>
+            <token id="1" string="Retired" />
+            <token id="2" string="Sen." />
+            <token id="3" string="John" />
+            <token id="4" string="Tower" />
+            <token id="5" string="," />
+            <token id="6" string="the" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary-designate" />
+            <token id="9" string="," />
+            <token id="10" string="underwent" />
+            <token id="11" string="surgery" />
+            <token id="12" string="Thursday" />
+            <token id="13" string="to" />
+            <token id="14" string="remove" />
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Sen. John Tower , the defense secretary-designate ," type="NP">
+          <tokens>
+            <token id="2" string="Sen." />
+            <token id="3" string="John" />
+            <token id="4" string="Tower" />
+            <token id="5" string="," />
+            <token id="6" string="the" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary-designate" />
+            <token id="9" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the defense secretary-designate" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary-designate" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a hospital spokesman" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="hospital" />
+            <token id="21" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Sen. John Tower , the defense secretary-designate , underwent surgery Thursday to remove a colon polyp" type="SBAR">
+          <tokens>
+            <token id="2" string="Sen." />
+            <token id="3" string="John" />
+            <token id="4" string="Tower" />
+            <token id="5" string="," />
+            <token id="6" string="the" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary-designate" />
+            <token id="9" string="," />
+            <token id="10" string="underwent" />
+            <token id="11" string="surgery" />
+            <token id="12" string="Thursday" />
+            <token id="13" string="to" />
+            <token id="14" string="remove" />
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="remove a colon polyp" type="VP">
+          <tokens>
+            <token id="14" string="remove" />
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to remove a colon polyp" type="VP">
+          <tokens>
+            <token id="13" string="to" />
+            <token id="14" string="remove" />
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a colon polyp" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="underwent surgery Thursday to remove a colon polyp" type="VP">
+          <tokens>
+            <token id="10" string="underwent" />
+            <token id="11" string="surgery" />
+            <token id="12" string="Thursday" />
+            <token id="13" string="to" />
+            <token id="14" string="remove" />
+            <token id="15" string="a" />
+            <token id="16" string="colon" />
+            <token id="17" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="said" type="VP">
+          <tokens>
+            <token id="22" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="surgery" type="NP">
+          <tokens>
+            <token id="11" string="surgery" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advcl">
+          <governor id="22">said</governor>
+          <dependent id="1">Retired</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Tower</governor>
+          <dependent id="2">Sen.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Tower</governor>
+          <dependent id="3">John</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">underwent</governor>
+          <dependent id="4">Tower</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">secretary-designate</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">secretary-designate</governor>
+          <dependent id="7">defense</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="4">Tower</governor>
+          <dependent id="8">secretary-designate</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="1">Retired</governor>
+          <dependent id="10">underwent</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">underwent</governor>
+          <dependent id="11">surgery</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="10">underwent</governor>
+          <dependent id="12">Thursday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">remove</governor>
+          <dependent id="13">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="10">underwent</governor>
+          <dependent id="14">remove</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">polyp</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">polyp</governor>
+          <dependent id="16">colon</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">remove</governor>
+          <dependent id="17">polyp</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">spokesman</governor>
+          <dependent id="19">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">spokesman</governor>
+          <dependent id="20">hospital</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">said</governor>
+          <dependent id="21">spokesman</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="22">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="12" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="2" string="John Tower" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="John" />
+            <token id="4" string="Tower" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>``Senator Tower is resting comfortably and is listed in fair condition,&amp;apost;&amp;apost; hospital spokesman Steve Habgood said Thursday night.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Senator" lemma="Senator" stem="senat" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="true" />
+        <token id="3" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="resting" lemma="rest" stem="rest" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="comfortably" lemma="comfortably" stem="comfort" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="listed" lemma="list" stem="list" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="fair" lemma="fair" stem="fair" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="hospital" lemma="hospital" stem="hospit" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="Steve" lemma="Steve" stem="steve" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="Habgood" lemma="Habgood" stem="habgood" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="19" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (NNP Senator) (NNP Tower)) (VP (VP (VBZ is) (VP (VBG resting) (ADVP (RB comfortably)))) (CC and) (VP (VBZ is) (VP (VBN listed) (PP (IN in) (NP (JJ fair) (NN condition))))))) (, ,) ('' '') (NP (NN hospital) (NN spokesman) (NNP Steve) (NNP Habgood)) (VP (VBD said) (NP-TMP (NNP Thursday)) (NP-TMP (NN night))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="fair condition" type="NP">
+          <tokens>
+            <token id="11" string="fair" />
+            <token id="12" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="is resting comfortably and is listed in fair condition" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="resting" />
+            <token id="6" string="comfortably" />
+            <token id="7" string="and" />
+            <token id="8" string="is" />
+            <token id="9" string="listed" />
+            <token id="10" string="in" />
+            <token id="11" string="fair" />
+            <token id="12" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is resting comfortably" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="resting" />
+            <token id="6" string="comfortably" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="resting comfortably" type="VP">
+          <tokens>
+            <token id="5" string="resting" />
+            <token id="6" string="comfortably" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is listed in fair condition" type="VP">
+          <tokens>
+            <token id="8" string="is" />
+            <token id="9" string="listed" />
+            <token id="10" string="in" />
+            <token id="11" string="fair" />
+            <token id="12" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="listed in fair condition" type="VP">
+          <tokens>
+            <token id="9" string="listed" />
+            <token id="10" string="in" />
+            <token id="11" string="fair" />
+            <token id="12" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said Thursday night" type="VP">
+          <tokens>
+            <token id="19" string="said" />
+            <token id="20" string="Thursday" />
+            <token id="21" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Senator Tower" type="NP">
+          <tokens>
+            <token id="2" string="Senator" />
+            <token id="3" string="Tower" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="hospital spokesman Steve Habgood" type="NP">
+          <tokens>
+            <token id="15" string="hospital" />
+            <token id="16" string="spokesman" />
+            <token id="17" string="Steve" />
+            <token id="18" string="Habgood" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Tower</governor>
+          <dependent id="2">Senator</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">resting</governor>
+          <dependent id="3">Tower</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">resting</governor>
+          <dependent id="4">is</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="19">said</governor>
+          <dependent id="5">resting</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">resting</governor>
+          <dependent id="6">comfortably</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">resting</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">listed</governor>
+          <dependent id="8">is</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">resting</governor>
+          <dependent id="9">listed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">condition</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">condition</governor>
+          <dependent id="11">fair</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">listed</governor>
+          <dependent id="12">condition</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Habgood</governor>
+          <dependent id="15">hospital</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Habgood</governor>
+          <dependent id="16">spokesman</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Habgood</governor>
+          <dependent id="17">Steve</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">said</governor>
+          <dependent id="18">Habgood</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="19">said</governor>
+          <dependent id="20">Thursday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="19">said</governor>
+          <dependent id="21">night</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Steve Habgood" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Steve" />
+            <token id="18" string="Habgood" />
+          </tokens>
+        </entity>
+        <entity id="3" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="21" string="night" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Senator" type="TITLE" score="0.0">
+          <tokens>
+            <token id="2" string="Senator" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>``The senator is expected to make a full recovery.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="senator" lemma="senator" stem="senat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="expected" lemma="expect" stem="expect" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="make" lemma="make" stem="make" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="full" lemma="full" stem="full" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="recovery" lemma="recovery" stem="recoveri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (DT The) (NN senator)) (VP (VBZ is) (VP (VBN expected) (S (VP (TO to) (VP (VB make) (NP (DT a) (JJ full) (NN recovery))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="expected to make a full recovery" type="VP">
+          <tokens>
+            <token id="5" string="expected" />
+            <token id="6" string="to" />
+            <token id="7" string="make" />
+            <token id="8" string="a" />
+            <token id="9" string="full" />
+            <token id="10" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="make a full recovery" type="VP">
+          <tokens>
+            <token id="7" string="make" />
+            <token id="8" string="a" />
+            <token id="9" string="full" />
+            <token id="10" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is expected to make a full recovery" type="VP">
+          <tokens>
+            <token id="4" string="is" />
+            <token id="5" string="expected" />
+            <token id="6" string="to" />
+            <token id="7" string="make" />
+            <token id="8" string="a" />
+            <token id="9" string="full" />
+            <token id="10" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to make a full recovery" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="make" />
+            <token id="8" string="a" />
+            <token id="9" string="full" />
+            <token id="10" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a full recovery" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="full" />
+            <token id="10" string="recovery" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The senator" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="senator" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">senator</governor>
+          <dependent id="2">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">expected</governor>
+          <dependent id="3">senator</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">expected</governor>
+          <dependent id="4">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">expected</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">make</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">expected</governor>
+          <dependent id="7">make</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">recovery</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">recovery</governor>
+          <dependent id="9">full</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">make</governor>
+          <dependent id="10">recovery</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Tower, 63, a U.S. senator from Texas for 24 years, was admitted to Baylor University Medical Center on Wednesday after undergoing a colonscopy examination last week that revealed the polyp, Habgood said.</content>
+      <tokens>
+        <token id="1" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="63" lemma="63" stem="63" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="senator" lemma="senator" stem="senat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Texas" lemma="Texas" stem="texa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="24" lemma="24" stem="24" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="admitted" lemma="admit" stem="admit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Baylor" lemma="Baylor" stem="baylor" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="University" lemma="University" stem="univers" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="Medical" lemma="Medical" stem="medic" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="Center" lemma="Center" stem="center" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="23" string="after" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="undergoing" lemma="undergo" stem="undergo" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="colonscopy" lemma="colonscopy" stem="colonscopi" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="examination" lemma="examination" stem="examin" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="29" string="week" lemma="week" stem="week" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="30" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="31" string="revealed" lemma="reveal" stem="reveal" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="32" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="33" string="polyp" lemma="polyp" stem="polyp" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="34" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="Habgood" lemma="Habgood" stem="habgood" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="36" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NNP Tower)) (, ,) (NP (CD 63)) (, ,) (NP (NP (DT a) (NNP U.S.) (NN senator)) (PP (IN from) (NP (NP (NNP Texas)) (PP (IN for) (NP (CD 24) (NNS years)))))) (, ,)) (VP (VBD was) (VP (VBN admitted) (PP (TO to) (NP (NP (NNP Baylor) (NNP University) (NNP Medical) (NNP Center)) (PP (IN on) (NP (NNP Wednesday))))) (PP (IN after) (S (VP (VBG undergoing) (NP (NP (DT a) (JJ colonscopy) (NN examination)) (NP-TMP (JJ last) (NN week)) (SBAR (WHNP (WDT that)) (S (VP (VBD revealed) (NP (DT the) (NN polyp)))))))))))) (, ,) (NP (NNP Habgood)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a U.S. senator" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="U.S." />
+            <token id="7" string="senator" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="24 years" type="NP">
+          <tokens>
+            <token id="11" string="24" />
+            <token id="12" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a colonscopy examination last week that revealed the polyp" type="NP">
+          <tokens>
+            <token id="25" string="a" />
+            <token id="26" string="colonscopy" />
+            <token id="27" string="examination" />
+            <token id="28" string="last" />
+            <token id="29" string="week" />
+            <token id="30" string="that" />
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was admitted to Baylor University Medical Center on Wednesday after undergoing a colonscopy examination last week that revealed the polyp" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="admitted" />
+            <token id="16" string="to" />
+            <token id="17" string="Baylor" />
+            <token id="18" string="University" />
+            <token id="19" string="Medical" />
+            <token id="20" string="Center" />
+            <token id="21" string="on" />
+            <token id="22" string="Wednesday" />
+            <token id="23" string="after" />
+            <token id="24" string="undergoing" />
+            <token id="25" string="a" />
+            <token id="26" string="colonscopy" />
+            <token id="27" string="examination" />
+            <token id="28" string="last" />
+            <token id="29" string="week" />
+            <token id="30" string="that" />
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a U.S. senator from Texas for 24 years" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="U.S." />
+            <token id="7" string="senator" />
+            <token id="8" string="from" />
+            <token id="9" string="Texas" />
+            <token id="10" string="for" />
+            <token id="11" string="24" />
+            <token id="12" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="undergoing a colonscopy examination last week that revealed the polyp" type="VP">
+          <tokens>
+            <token id="24" string="undergoing" />
+            <token id="25" string="a" />
+            <token id="26" string="colonscopy" />
+            <token id="27" string="examination" />
+            <token id="28" string="last" />
+            <token id="29" string="week" />
+            <token id="30" string="that" />
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Tower , 63 , a U.S. senator from Texas for 24 years ," type="NP">
+          <tokens>
+            <token id="1" string="Tower" />
+            <token id="2" string="," />
+            <token id="3" string="63" />
+            <token id="4" string="," />
+            <token id="5" string="a" />
+            <token id="6" string="U.S." />
+            <token id="7" string="senator" />
+            <token id="8" string="from" />
+            <token id="9" string="Texas" />
+            <token id="10" string="for" />
+            <token id="11" string="24" />
+            <token id="12" string="years" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a colonscopy examination" type="NP">
+          <tokens>
+            <token id="25" string="a" />
+            <token id="26" string="colonscopy" />
+            <token id="27" string="examination" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="admitted to Baylor University Medical Center on Wednesday after undergoing a colonscopy examination last week that revealed the polyp" type="VP">
+          <tokens>
+            <token id="15" string="admitted" />
+            <token id="16" string="to" />
+            <token id="17" string="Baylor" />
+            <token id="18" string="University" />
+            <token id="19" string="Medical" />
+            <token id="20" string="Center" />
+            <token id="21" string="on" />
+            <token id="22" string="Wednesday" />
+            <token id="23" string="after" />
+            <token id="24" string="undergoing" />
+            <token id="25" string="a" />
+            <token id="26" string="colonscopy" />
+            <token id="27" string="examination" />
+            <token id="28" string="last" />
+            <token id="29" string="week" />
+            <token id="30" string="that" />
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Baylor University Medical Center" type="NP">
+          <tokens>
+            <token id="17" string="Baylor" />
+            <token id="18" string="University" />
+            <token id="19" string="Medical" />
+            <token id="20" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Baylor University Medical Center on Wednesday" type="NP">
+          <tokens>
+            <token id="17" string="Baylor" />
+            <token id="18" string="University" />
+            <token id="19" string="Medical" />
+            <token id="20" string="Center" />
+            <token id="21" string="on" />
+            <token id="22" string="Wednesday" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Wednesday" type="NP">
+          <tokens>
+            <token id="22" string="Wednesday" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Texas" type="NP">
+          <tokens>
+            <token id="9" string="Texas" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="that revealed the polyp" type="SBAR">
+          <tokens>
+            <token id="30" string="that" />
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Habgood" type="NP">
+          <tokens>
+            <token id="35" string="Habgood" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Tower" type="NP">
+          <tokens>
+            <token id="1" string="Tower" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Texas for 24 years" type="NP">
+          <tokens>
+            <token id="9" string="Texas" />
+            <token id="10" string="for" />
+            <token id="11" string="24" />
+            <token id="12" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="63" type="NP">
+          <tokens>
+            <token id="3" string="63" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="said" type="VP">
+          <tokens>
+            <token id="36" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="revealed the polyp" type="VP">
+          <tokens>
+            <token id="31" string="revealed" />
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the polyp" type="NP">
+          <tokens>
+            <token id="32" string="the" />
+            <token id="33" string="polyp" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="15">admitted</governor>
+          <dependent id="1">Tower</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="1">Tower</governor>
+          <dependent id="3">63</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">senator</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">senator</governor>
+          <dependent id="6">U.S.</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="1">Tower</governor>
+          <dependent id="7">senator</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Texas</governor>
+          <dependent id="8">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">senator</governor>
+          <dependent id="9">Texas</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">years</governor>
+          <dependent id="10">for</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">years</governor>
+          <dependent id="11">24</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Texas</governor>
+          <dependent id="12">years</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="15">admitted</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="36">said</governor>
+          <dependent id="15">admitted</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Center</governor>
+          <dependent id="16">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Center</governor>
+          <dependent id="17">Baylor</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Center</governor>
+          <dependent id="18">University</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Center</governor>
+          <dependent id="19">Medical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">admitted</governor>
+          <dependent id="20">Center</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Wednesday</governor>
+          <dependent id="21">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">Center</governor>
+          <dependent id="22">Wednesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">undergoing</governor>
+          <dependent id="23">after</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="15">admitted</governor>
+          <dependent id="24">undergoing</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">examination</governor>
+          <dependent id="25">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">examination</governor>
+          <dependent id="26">colonscopy</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">undergoing</governor>
+          <dependent id="27">examination</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">week</governor>
+          <dependent id="28">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="27">examination</governor>
+          <dependent id="29">week</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="31">revealed</governor>
+          <dependent id="30">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="27">examination</governor>
+          <dependent id="31">revealed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="33">polyp</governor>
+          <dependent id="32">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="31">revealed</governor>
+          <dependent id="33">polyp</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="36">said</governor>
+          <dependent id="35">Habgood</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="36">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Baylor University Medical Center" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="17" string="Baylor" />
+            <token id="18" string="University" />
+            <token id="19" string="Medical" />
+            <token id="20" string="Center" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="22" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="24 years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="11" string="24" />
+            <token id="12" string="years" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Texas" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Texas" />
+          </tokens>
+        </entity>
+        <entity id="6" string="last week" type="DATE" score="0.0">
+          <tokens>
+            <token id="28" string="last" />
+            <token id="29" string="week" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Habgood" type="PERSON" score="0.0">
+          <tokens>
+            <token id="35" string="Habgood" />
+          </tokens>
+        </entity>
+        <entity id="8" string="63" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="63" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>A preliminary biopsy of the polyp showed it was benign, Habgood said, but further results would be announced Friday by Tower&amp;apost;s surgeon, Dr. R.D. Dignan, of Dallas.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="preliminary" lemma="preliminary" stem="preliminari" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="biopsy" lemma="biopsy" stem="biopsi" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="6" string="polyp" lemma="polyp" stem="polyp" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="7" string="showed" lemma="show" stem="show" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="benign" lemma="benign" stem="benign" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Habgood" lemma="Habgood" stem="habgood" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="13" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="further" lemma="further" stem="further" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="results" lemma="result" stem="result" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="announced" lemma="announce" stem="announc" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="22" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="24" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="surgeon" lemma="surgeon" stem="surgeon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="Dr." lemma="Dr." stem="dr." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="R.D." lemma="R.D." stem="r.d." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="29" string="Dignan" lemma="Dignan" stem="dignan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="Dallas" lemma="Dallas" stem="dalla" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT A) (JJ preliminary) (NN biopsy)) (PP (IN of) (NP (DT the) (NN polyp)))) (VP (VBD showed) (SBAR (S (NP (PRP it)) (VP (VBD was) (ADJP (JJ benign))))))) (PRN (, ,) (NP (NNP Habgood)) (VP (VBD said)) (, ,)) (CC but) (S (NP (JJ further) (NNS results)) (VP (MD would) (VP (VB be) (VP (VBN announced) (NP-TMP (NNP Friday)) (PP (IN by) (NP (NP (NP (NP (NNP Tower) (POS 's)) (NN surgeon)) (, ,) (NP (NNP Dr.) (NNP R.D.) (NNP Dignan)) (, ,)) (PP (IN of) (NP (NNP Dallas))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="it was benign" type="SBAR">
+          <tokens>
+            <token id="8" string="it" />
+            <token id="9" string="was" />
+            <token id="10" string="benign" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="showed it was benign" type="VP">
+          <tokens>
+            <token id="7" string="showed" />
+            <token id="8" string="it" />
+            <token id="9" string="was" />
+            <token id="10" string="benign" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="announced Friday by Tower 's surgeon , Dr. R.D. Dignan , of Dallas" type="VP">
+          <tokens>
+            <token id="20" string="announced" />
+            <token id="21" string="Friday" />
+            <token id="22" string="by" />
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+            <token id="26" string="," />
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+            <token id="30" string="," />
+            <token id="31" string="of" />
+            <token id="32" string="Dallas" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="A preliminary biopsy" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="preliminary" />
+            <token id="3" string="biopsy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was benign" type="VP">
+          <tokens>
+            <token id="9" string="was" />
+            <token id="10" string="benign" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Tower 's" type="NP">
+          <tokens>
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="8" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="further results" type="NP">
+          <tokens>
+            <token id="16" string="further" />
+            <token id="17" string="results" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Tower 's surgeon" type="NP">
+          <tokens>
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="be announced Friday by Tower 's surgeon , Dr. R.D. Dignan , of Dallas" type="VP">
+          <tokens>
+            <token id="19" string="be" />
+            <token id="20" string="announced" />
+            <token id="21" string="Friday" />
+            <token id="22" string="by" />
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+            <token id="26" string="," />
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+            <token id="30" string="," />
+            <token id="31" string="of" />
+            <token id="32" string="Dallas" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Tower 's surgeon , Dr. R.D. Dignan , of Dallas" type="NP">
+          <tokens>
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+            <token id="26" string="," />
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+            <token id="30" string="," />
+            <token id="31" string="of" />
+            <token id="32" string="Dallas" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="benign" type="ADJP">
+          <tokens>
+            <token id="10" string="benign" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Habgood" type="NP">
+          <tokens>
+            <token id="12" string="Habgood" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="A preliminary biopsy of the polyp" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="preliminary" />
+            <token id="3" string="biopsy" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="said" type="VP">
+          <tokens>
+            <token id="13" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Dallas" type="NP">
+          <tokens>
+            <token id="32" string="Dallas" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="would be announced Friday by Tower 's surgeon , Dr. R.D. Dignan , of Dallas" type="VP">
+          <tokens>
+            <token id="18" string="would" />
+            <token id="19" string="be" />
+            <token id="20" string="announced" />
+            <token id="21" string="Friday" />
+            <token id="22" string="by" />
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+            <token id="26" string="," />
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+            <token id="30" string="," />
+            <token id="31" string="of" />
+            <token id="32" string="Dallas" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="Tower 's surgeon , Dr. R.D. Dignan ," type="NP">
+          <tokens>
+            <token id="23" string="Tower" />
+            <token id="24" string="'s" />
+            <token id="25" string="surgeon" />
+            <token id="26" string="," />
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+            <token id="30" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Dr. R.D. Dignan" type="NP">
+          <tokens>
+            <token id="27" string="Dr." />
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the polyp" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="polyp" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">biopsy</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">biopsy</governor>
+          <dependent id="2">preliminary</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">showed</governor>
+          <dependent id="3">biopsy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">polyp</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">polyp</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">biopsy</governor>
+          <dependent id="6">polyp</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">showed</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">benign</governor>
+          <dependent id="8">it</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="10">benign</governor>
+          <dependent id="9">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="7">showed</governor>
+          <dependent id="10">benign</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">said</governor>
+          <dependent id="12">Habgood</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="7">showed</governor>
+          <dependent id="13">said</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">showed</governor>
+          <dependent id="15">but</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">results</governor>
+          <dependent id="16">further</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="20">announced</governor>
+          <dependent id="17">results</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="20">announced</governor>
+          <dependent id="18">would</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="20">announced</governor>
+          <dependent id="19">be</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">showed</governor>
+          <dependent id="20">announced</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="20">announced</governor>
+          <dependent id="21">Friday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">surgeon</governor>
+          <dependent id="22">by</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="25">surgeon</governor>
+          <dependent id="23">Tower</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Tower</governor>
+          <dependent id="24">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">announced</governor>
+          <dependent id="25">surgeon</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">Dignan</governor>
+          <dependent id="27">Dr.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">Dignan</governor>
+          <dependent id="28">R.D.</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="25">surgeon</governor>
+          <dependent id="29">Dignan</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">Dallas</governor>
+          <dependent id="31">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">surgeon</governor>
+          <dependent id="32">Dallas</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="R.D. Dignan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="28" string="R.D." />
+            <token id="29" string="Dignan" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="21" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Habgood" type="PERSON" score="0.0">
+          <tokens>
+            <token id="12" string="Habgood" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Tower" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="23" string="Tower" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Dallas" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="32" string="Dallas" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Thursday&amp;apost;s surgery took approximately three hours, Habgood said.</content>
+      <tokens>
+        <token id="1" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="2" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="surgery" lemma="surgery" stem="surgeri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="took" lemma="take" stem="took" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="approximately" lemma="approximately" stem="approxim" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="hours" lemma="hour" stem="hour" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Habgood" lemma="Habgood" stem="habgood" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="10" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NNP Thursday) (POS 's)) (NN surgery)) (VP (VBD took) (NP-TMP (QP (RB approximately) (CD three)) (NNS hours)))) (, ,) (NP (NNP Habgood)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Thursday 's surgery" type="NP">
+          <tokens>
+            <token id="1" string="Thursday" />
+            <token id="2" string="'s" />
+            <token id="3" string="surgery" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Habgood" type="NP">
+          <tokens>
+            <token id="9" string="Habgood" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Thursday 's" type="NP">
+          <tokens>
+            <token id="1" string="Thursday" />
+            <token id="2" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said" type="VP">
+          <tokens>
+            <token id="10" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="took approximately three hours" type="VP">
+          <tokens>
+            <token id="4" string="took" />
+            <token id="5" string="approximately" />
+            <token id="6" string="three" />
+            <token id="7" string="hours" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="3">surgery</governor>
+          <dependent id="1">Thursday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="1">Thursday</governor>
+          <dependent id="2">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">took</governor>
+          <dependent id="3">surgery</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">said</governor>
+          <dependent id="4">took</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">three</governor>
+          <dependent id="5">approximately</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="7">hours</governor>
+          <dependent id="6">three</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">took</governor>
+          <dependent id="7">hours</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">said</governor>
+          <dependent id="9">Habgood</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="2" string="three hours" type="DURATION" score="0.0">
+          <tokens>
+            <token id="6" string="three" />
+            <token id="7" string="hours" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Habgood" type="PERSON" score="0.0">
+          <tokens>
+            <token id="9" string="Habgood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>When Tower underwent the colonscopy examination, a rectal polyp also was discovered and removed.</content>
+      <tokens>
+        <token id="1" string="When" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="underwent" lemma="undergo" stem="underw" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="colonscopy" lemma="colonscopy" stem="colonscopi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="examination" lemma="examination" stem="examin" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="rectal" lemma="rectal" stem="rectal" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="polyp" lemma="polyp" stem="polyp" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="discovered" lemma="discover" stem="discov" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="removed" lemma="remove" stem="remov" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (SBAR (WHADVP (WRB When)) (S (NP (NNP Tower)) (VP (VBD underwent) (NP (DT the) (JJ colonscopy) (NN examination))))) (, ,) (NP (DT a) (JJ rectal) (NN polyp)) (ADVP (RB also)) (VP (VBD was) (VP (VBN discovered) (CC and) (VBN removed))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="When" type="WHADVP">
+          <tokens>
+            <token id="1" string="When" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="discovered and removed" type="VP">
+          <tokens>
+            <token id="13" string="discovered" />
+            <token id="14" string="and" />
+            <token id="15" string="removed" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="When Tower underwent the colonscopy examination" type="SBAR">
+          <tokens>
+            <token id="1" string="When" />
+            <token id="2" string="Tower" />
+            <token id="3" string="underwent" />
+            <token id="4" string="the" />
+            <token id="5" string="colonscopy" />
+            <token id="6" string="examination" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a rectal polyp" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="rectal" />
+            <token id="10" string="polyp" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Tower" type="NP">
+          <tokens>
+            <token id="2" string="Tower" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="underwent the colonscopy examination" type="VP">
+          <tokens>
+            <token id="3" string="underwent" />
+            <token id="4" string="the" />
+            <token id="5" string="colonscopy" />
+            <token id="6" string="examination" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the colonscopy examination" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="colonscopy" />
+            <token id="6" string="examination" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="was discovered and removed" type="VP">
+          <tokens>
+            <token id="12" string="was" />
+            <token id="13" string="discovered" />
+            <token id="14" string="and" />
+            <token id="15" string="removed" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="3">underwent</governor>
+          <dependent id="1">When</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">underwent</governor>
+          <dependent id="2">Tower</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="13">discovered</governor>
+          <dependent id="3">underwent</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">examination</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">examination</governor>
+          <dependent id="5">colonscopy</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">underwent</governor>
+          <dependent id="6">examination</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">polyp</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">polyp</governor>
+          <dependent id="9">rectal</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="13">discovered</governor>
+          <dependent id="10">polyp</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">discovered</governor>
+          <dependent id="11">also</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">discovered</governor>
+          <dependent id="12">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">discovered</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">discovered</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">discovered</governor>
+          <dependent id="15">removed</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Tests of that growth showed it to contain some ``malignant but well differentiated cells,&amp;apost;&amp;apost; Habgood said.</content>
+      <tokens>
+        <token id="1" string="Tests" lemma="test" stem="test" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="growth" lemma="growth" stem="growth" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="showed" lemma="show" stem="show" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="contain" lemma="contain" stem="contain" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="malignant" lemma="malignant" stem="malign" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="differentiated" lemma="differentiate" stem="differenti" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="cells" lemma="cell" stem="cell" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Habgood" lemma="Habgood" stem="habgood" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="19" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NNS Tests)) (PP (IN of) (NP (DT that) (NN growth)))) (VP (VP (VBD showed) (S (NP (PRP it)) (VP (TO to) (VP (VB contain) (S (NP (DT some)) (`` ``) (ADJP (JJ malignant))))))) (CC but) (ADVP (RB well)) (VP (VBN differentiated) (NP (NNS cells))))) (, ,) ('' '') (NP (NNP Habgood)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="showed it to contain some `` malignant but well differentiated cells" type="VP">
+          <tokens>
+            <token id="5" string="showed" />
+            <token id="6" string="it" />
+            <token id="7" string="to" />
+            <token id="8" string="contain" />
+            <token id="9" string="some" />
+            <token id="10" string="``" />
+            <token id="11" string="malignant" />
+            <token id="12" string="but" />
+            <token id="13" string="well" />
+            <token id="14" string="differentiated" />
+            <token id="15" string="cells" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="showed it to contain some `` malignant" type="VP">
+          <tokens>
+            <token id="5" string="showed" />
+            <token id="6" string="it" />
+            <token id="7" string="to" />
+            <token id="8" string="contain" />
+            <token id="9" string="some" />
+            <token id="10" string="``" />
+            <token id="11" string="malignant" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="some" type="NP">
+          <tokens>
+            <token id="9" string="some" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to contain some `` malignant" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="contain" />
+            <token id="9" string="some" />
+            <token id="10" string="``" />
+            <token id="11" string="malignant" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="it" type="NP">
+          <tokens>
+            <token id="6" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="malignant" type="ADJP">
+          <tokens>
+            <token id="11" string="malignant" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="that growth" type="NP">
+          <tokens>
+            <token id="3" string="that" />
+            <token id="4" string="growth" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Tests" type="NP">
+          <tokens>
+            <token id="1" string="Tests" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="differentiated cells" type="VP">
+          <tokens>
+            <token id="14" string="differentiated" />
+            <token id="15" string="cells" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="cells" type="NP">
+          <tokens>
+            <token id="15" string="cells" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="contain some `` malignant" type="VP">
+          <tokens>
+            <token id="8" string="contain" />
+            <token id="9" string="some" />
+            <token id="10" string="``" />
+            <token id="11" string="malignant" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Habgood" type="NP">
+          <tokens>
+            <token id="18" string="Habgood" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Tests of that growth" type="NP">
+          <tokens>
+            <token id="1" string="Tests" />
+            <token id="2" string="of" />
+            <token id="3" string="that" />
+            <token id="4" string="growth" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="said" type="VP">
+          <tokens>
+            <token id="19" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">showed</governor>
+          <dependent id="1">Tests</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">growth</governor>
+          <dependent id="2">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">growth</governor>
+          <dependent id="3">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Tests</governor>
+          <dependent id="4">growth</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="19">said</governor>
+          <dependent id="5">showed</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">showed</governor>
+          <dependent id="6">it</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">contain</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">showed</governor>
+          <dependent id="8">contain</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="11">malignant</governor>
+          <dependent id="9">some</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">contain</governor>
+          <dependent id="11">malignant</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">showed</governor>
+          <dependent id="12">but</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">differentiated</governor>
+          <dependent id="13">well</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">showed</governor>
+          <dependent id="14">differentiated</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">differentiated</governor>
+          <dependent id="15">cells</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">said</governor>
+          <dependent id="18">Habgood</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Habgood" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Habgood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Further explanation of the first polyp removal would have to come from Tower&amp;apost;s surgeon, who was unavailable for comment Thursday night, the spokesman said.</content>
+      <tokens>
+        <token id="1" string="Further" lemma="further" stem="further" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="explanation" lemma="explanation" stem="explan" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="6" string="polyp" lemma="polyp" stem="polyp" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="removal" lemma="removal" stem="remov" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="come" lemma="come" stem="come" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="14" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="surgeon" lemma="surgeon" stem="surgeon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="unavailable" lemma="unavailable" stem="unavail" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="20" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="comment" lemma="comment" stem="comment" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="22" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="23" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="27" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (JJ Further) (NN explanation)) (PP (IN of) (NP (DT the) (JJ first) (NN polyp) (NN removal)))) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB come) (PP (IN from) (NP (NP (NP (NNP Tower) (POS 's)) (NN surgeon)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (ADJP (JJ unavailable) (PP (IN for) (NP (NN comment)))) (NP-TMP (NNP Thursday) (NN night))))))))))))) (, ,) (NP (DT the) (NN spokesman)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Further explanation of the first polyp removal" type="NP">
+          <tokens>
+            <token id="1" string="Further" />
+            <token id="2" string="explanation" />
+            <token id="3" string="of" />
+            <token id="4" string="the" />
+            <token id="5" string="first" />
+            <token id="6" string="polyp" />
+            <token id="7" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the spokesman" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="who was unavailable for comment Thursday night" type="SBAR">
+          <tokens>
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="unavailable for comment" type="ADJP">
+          <tokens>
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="would have to come from Tower 's surgeon , who was unavailable for comment Thursday night" type="VP">
+          <tokens>
+            <token id="8" string="would" />
+            <token id="9" string="have" />
+            <token id="10" string="to" />
+            <token id="11" string="come" />
+            <token id="12" string="from" />
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+            <token id="16" string="," />
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="come from Tower 's surgeon , who was unavailable for comment Thursday night" type="VP">
+          <tokens>
+            <token id="11" string="come" />
+            <token id="12" string="from" />
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+            <token id="16" string="," />
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Tower 's" type="NP">
+          <tokens>
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the first polyp removal" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="first" />
+            <token id="6" string="polyp" />
+            <token id="7" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Tower 's surgeon , who was unavailable for comment Thursday night" type="NP">
+          <tokens>
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+            <token id="16" string="," />
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="was unavailable for comment Thursday night" type="VP">
+          <tokens>
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="have to come from Tower 's surgeon , who was unavailable for comment Thursday night" type="VP">
+          <tokens>
+            <token id="9" string="have" />
+            <token id="10" string="to" />
+            <token id="11" string="come" />
+            <token id="12" string="from" />
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+            <token id="16" string="," />
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Tower 's surgeon" type="NP">
+          <tokens>
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="to come from Tower 's surgeon , who was unavailable for comment Thursday night" type="VP">
+          <tokens>
+            <token id="10" string="to" />
+            <token id="11" string="come" />
+            <token id="12" string="from" />
+            <token id="13" string="Tower" />
+            <token id="14" string="'s" />
+            <token id="15" string="surgeon" />
+            <token id="16" string="," />
+            <token id="17" string="who" />
+            <token id="18" string="was" />
+            <token id="19" string="unavailable" />
+            <token id="20" string="for" />
+            <token id="21" string="comment" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Further explanation" type="NP">
+          <tokens>
+            <token id="1" string="Further" />
+            <token id="2" string="explanation" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="comment" type="NP">
+          <tokens>
+            <token id="21" string="comment" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said" type="VP">
+          <tokens>
+            <token id="27" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">explanation</governor>
+          <dependent id="1">Further</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">have</governor>
+          <dependent id="2">explanation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">removal</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">removal</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">removal</governor>
+          <dependent id="5">first</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">removal</governor>
+          <dependent id="6">polyp</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">explanation</governor>
+          <dependent id="7">removal</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">have</governor>
+          <dependent id="8">would</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="27">said</governor>
+          <dependent id="9">have</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">come</governor>
+          <dependent id="10">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="9">have</governor>
+          <dependent id="11">come</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">surgeon</governor>
+          <dependent id="12">from</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="15">surgeon</governor>
+          <dependent id="13">Tower</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Tower</governor>
+          <dependent id="14">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">come</governor>
+          <dependent id="15">surgeon</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">unavailable</governor>
+          <dependent id="17">who</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="19">unavailable</governor>
+          <dependent id="18">was</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="15">surgeon</governor>
+          <dependent id="19">unavailable</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">comment</governor>
+          <dependent id="20">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">unavailable</governor>
+          <dependent id="21">comment</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">night</governor>
+          <dependent id="22">Thursday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="19">unavailable</governor>
+          <dependent id="23">night</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">spokesman</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">said</governor>
+          <dependent id="26">spokesman</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="27">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="5" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="22" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="23" string="night" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Tower" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="13" string="Tower" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>After leaving the Senate in 1985, Tower went into business as a defense consultant.</content>
+      <tokens>
+        <token id="1" string="After" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="leaving" lemma="leave" stem="leav" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="Senate" lemma="Senate" stem="senat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="1985" lemma="1985" stem="1985" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Tower" lemma="Tower" stem="tower" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="went" lemma="go" stem="went" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="business" lemma="business" stem="busi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="consultant" lemma="consultant" stem="consult" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN After) (S (VP (VBG leaving) (NP (NP (DT the) (NNP Senate)) (PP (IN in) (NP (CD 1985))))))) (, ,) (NP (NNP Tower)) (VP (VBD went) (PP (IN into) (NP (NN business))) (PP (IN as) (NP (DT a) (NN defense) (NN consultant)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Senate in 1985" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="Senate" />
+            <token id="5" string="in" />
+            <token id="6" string="1985" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the Senate" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="Senate" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1985" type="NP">
+          <tokens>
+            <token id="6" string="1985" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="leaving the Senate in 1985" type="VP">
+          <tokens>
+            <token id="2" string="leaving" />
+            <token id="3" string="the" />
+            <token id="4" string="Senate" />
+            <token id="5" string="in" />
+            <token id="6" string="1985" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a defense consultant" type="NP">
+          <tokens>
+            <token id="13" string="a" />
+            <token id="14" string="defense" />
+            <token id="15" string="consultant" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Tower" type="NP">
+          <tokens>
+            <token id="8" string="Tower" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="business" type="NP">
+          <tokens>
+            <token id="11" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="went into business as a defense consultant" type="VP">
+          <tokens>
+            <token id="9" string="went" />
+            <token id="10" string="into" />
+            <token id="11" string="business" />
+            <token id="12" string="as" />
+            <token id="13" string="a" />
+            <token id="14" string="defense" />
+            <token id="15" string="consultant" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="mark">
+          <governor id="2">leaving</governor>
+          <dependent id="1">After</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">went</governor>
+          <dependent id="2">leaving</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">Senate</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">leaving</governor>
+          <dependent id="4">Senate</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">1985</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">Senate</governor>
+          <dependent id="6">1985</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">went</governor>
+          <dependent id="8">Tower</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">went</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">business</governor>
+          <dependent id="10">into</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">went</governor>
+          <dependent id="11">business</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">consultant</governor>
+          <dependent id="12">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">consultant</governor>
+          <dependent id="13">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">consultant</governor>
+          <dependent id="14">defense</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">went</governor>
+          <dependent id="15">consultant</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Senate" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="Senate" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1985" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="1985" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>He also served as an arms negotiator for President Reagan and he headed the White House&amp;apost;s Iran-Contra investigative panel.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="served" lemma="serve" stem="serv" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="negotiator" lemma="negotiator" stem="negoti" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="President" lemma="President" stem="presid" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="10" string="Reagan" lemma="Reagan" stem="reagan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="headed" lemma="head" stem="head" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="White" lemma="White" stem="white" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="House" lemma="House" stem="hous" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Iran-Contra" lemma="Iran-Contra" stem="iran-contra" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="investigative" lemma="investigative" stem="investig" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="panel" lemma="panel" stem="panel" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (PRP He)) (ADVP (RB also)) (VP (VBD served) (PP (IN as) (NP (DT an) (NNS arms) (NN negotiator))) (PP (IN for) (NP (NNP President) (NNP Reagan))))) (CC and) (S (NP (PRP he)) (VP (VBD headed) (NP (NP (DT the) (NNP White) (NNP House) (POS 's)) (NNP Iran-Contra) (JJ investigative) (NN panel)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="President Reagan" type="NP">
+          <tokens>
+            <token id="9" string="President" />
+            <token id="10" string="Reagan" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="an arms negotiator" type="NP">
+          <tokens>
+            <token id="5" string="an" />
+            <token id="6" string="arms" />
+            <token id="7" string="negotiator" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the White House 's" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="White" />
+            <token id="16" string="House" />
+            <token id="17" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="he" type="NP">
+          <tokens>
+            <token id="12" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="headed the White House 's Iran-Contra investigative panel" type="VP">
+          <tokens>
+            <token id="13" string="headed" />
+            <token id="14" string="the" />
+            <token id="15" string="White" />
+            <token id="16" string="House" />
+            <token id="17" string="'s" />
+            <token id="18" string="Iran-Contra" />
+            <token id="19" string="investigative" />
+            <token id="20" string="panel" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="served as an arms negotiator for President Reagan" type="VP">
+          <tokens>
+            <token id="3" string="served" />
+            <token id="4" string="as" />
+            <token id="5" string="an" />
+            <token id="6" string="arms" />
+            <token id="7" string="negotiator" />
+            <token id="8" string="for" />
+            <token id="9" string="President" />
+            <token id="10" string="Reagan" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the White House 's Iran-Contra investigative panel" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="White" />
+            <token id="16" string="House" />
+            <token id="17" string="'s" />
+            <token id="18" string="Iran-Contra" />
+            <token id="19" string="investigative" />
+            <token id="20" string="panel" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">served</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">served</governor>
+          <dependent id="2">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">served</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">negotiator</governor>
+          <dependent id="4">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">negotiator</governor>
+          <dependent id="5">an</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">negotiator</governor>
+          <dependent id="6">arms</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">served</governor>
+          <dependent id="7">negotiator</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Reagan</governor>
+          <dependent id="8">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Reagan</governor>
+          <dependent id="9">President</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">served</governor>
+          <dependent id="10">Reagan</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">served</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">headed</governor>
+          <dependent id="12">he</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">served</governor>
+          <dependent id="13">headed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">House</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">House</governor>
+          <dependent id="15">White</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">panel</governor>
+          <dependent id="16">House</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">House</governor>
+          <dependent id="17">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">panel</governor>
+          <dependent id="18">Iran-Contra</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">panel</governor>
+          <dependent id="19">investigative</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">headed</governor>
+          <dependent id="20">panel</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="White House" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="15" string="White" />
+            <token id="16" string="House" />
+          </tokens>
+        </entity>
+        <entity id="2" string="President" type="TITLE" score="0.0">
+          <tokens>
+            <token id="9" string="President" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Reagan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="Reagan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="false">
+      <content>President-elect Bush designated Tower as his defense secretary on Dec. 16.</content>
+      <tokens>
+        <token id="1" string="President-elect" lemma="president-elect" stem="president-elect" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Bush" lemma="Bush" stem="bush" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="designated" lemma="designate" stem="design" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="Tower" lemma="tower" stem="tower" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="secretary" lemma="secretary" stem="secretari" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Dec." lemma="Dec." stem="dec." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="11" string="16" lemma="16" stem="16" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NN President-elect) (NNP Bush)) (VP (VBN designated) (NP (NN Tower)) (PP (IN as) (NP (PRP$ his) (NN defense) (NN secretary))) (PP (IN on) (NP (NNP Dec.) (CD 16)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="President-elect Bush" type="NP">
+          <tokens>
+            <token id="1" string="President-elect" />
+            <token id="2" string="Bush" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Dec. 16" type="NP">
+          <tokens>
+            <token id="10" string="Dec." />
+            <token id="11" string="16" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="his defense secretary" type="NP">
+          <tokens>
+            <token id="6" string="his" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="designated Tower as his defense secretary on Dec. 16" type="VP">
+          <tokens>
+            <token id="3" string="designated" />
+            <token id="4" string="Tower" />
+            <token id="5" string="as" />
+            <token id="6" string="his" />
+            <token id="7" string="defense" />
+            <token id="8" string="secretary" />
+            <token id="9" string="on" />
+            <token id="10" string="Dec." />
+            <token id="11" string="16" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Tower" type="NP">
+          <tokens>
+            <token id="4" string="Tower" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Bush</governor>
+          <dependent id="1">President-elect</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">designated</governor>
+          <dependent id="2">Bush</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">designated</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">designated</governor>
+          <dependent id="4">Tower</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">secretary</governor>
+          <dependent id="5">as</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">secretary</governor>
+          <dependent id="6">his</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">secretary</governor>
+          <dependent id="7">defense</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">designated</governor>
+          <dependent id="8">secretary</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Dec.</governor>
+          <dependent id="9">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">designated</governor>
+          <dependent id="10">Dec.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">Dec.</governor>
+          <dependent id="11">16</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Dec. 16" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="Dec." />
+            <token id="11" string="16" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Bush" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Bush" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>The nomination is subject to Senate approval.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="nomination" lemma="nomination" stem="nomin" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="subject" lemma="subject" stem="subject" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Senate" lemma="Senate" stem="senat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="7" string="approval" lemma="approval" stem="approv" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN nomination)) (VP (VBZ is) (ADJP (JJ subject) (PP (TO to) (NP (NNP Senate) (NN approval))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Senate approval" type="NP">
+          <tokens>
+            <token id="6" string="Senate" />
+            <token id="7" string="approval" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="subject to Senate approval" type="ADJP">
+          <tokens>
+            <token id="4" string="subject" />
+            <token id="5" string="to" />
+            <token id="6" string="Senate" />
+            <token id="7" string="approval" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is subject to Senate approval" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="subject" />
+            <token id="5" string="to" />
+            <token id="6" string="Senate" />
+            <token id="7" string="approval" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The nomination" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="nomination" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">nomination</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">subject</governor>
+          <dependent id="2">nomination</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="4">subject</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">subject</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">approval</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">approval</governor>
+          <dependent id="6">Senate</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">subject</governor>
+          <dependent id="7">approval</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Senate" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="6" string="Senate" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="12" string="Thursday" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1-2" string="Thursday's" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="NOMINAL">
+      <referenced ids_tokens="15-16-17" string="a colon polyp" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="32-33" string="the polyp" id_sentence="4" />
+        <mention ids_tokens="5-6" string="the polyp" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="19-20-21" string="a hospital spokesman" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="25-26" string="the spokesman" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="2" string="Senator" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="2-3" string="The senator" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="23-24" string="Tower 's" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="2-3" string="Senator Tower" id_sentence="2" />
+        <mention ids_tokens="1" string="Tower" id_sentence="4" />
+        <mention ids_tokens="2" string="Tower" id_sentence="7" />
+        <mention ids_tokens="8" string="Tower" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="15-16-17-18" string="hospital spokesman Steve Habgood" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="35" string="Habgood" id_sentence="4" />
+        <mention ids_tokens="12" string="Habgood" id_sentence="5" />
+        <mention ids_tokens="9" string="Habgood" id_sentence="6" />
+        <mention ids_tokens="18" string="Habgood" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="25-26-27-28-29-30-31-32-33" string="a colonscopy examination last week that revealed the polyp" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="4-6" string="the colonscopy examination" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="27-28-29" string="Dr. R.D. Dignan" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="13-23" string="Tower's surgeon , who was unavailable for comment Thursday night" id_sentence="9" />
+        <mention ids_tokens="13-15" string="Tower's surgeon" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="PROPER">
+      <referenced ids_tokens="3-4-5-6" string="the Senate in 1985" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="6" string="Senate" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="NOMINAL">
+      <referenced ids_tokens="13-14-15" string="a defense consultant" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="11" />
+        <mention ids_tokens="12" string="he" id_sentence="11" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

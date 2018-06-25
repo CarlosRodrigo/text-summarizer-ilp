@@ -1,0 +1,3929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP881027-0051">
+  <sentences>
+    <sentence id="1" has_coreference="false">
+      <content>More than 100 people were feared drowned after an overcrowded ferry sank at a river junction in southern Bangladesh, police said today.</content>
+      <tokens>
+        <token id="1" string="More" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="100" lemma="100" stem="100" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="4" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="feared" lemma="fear" stem="fear" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="drowned" lemma="drown" stem="drown" pos="VBD" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="8" string="after" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="overcrowded" lemma="overcrowded" stem="overcrowd" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="river" lemma="river" stem="river" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="junction" lemma="junction" stem="junction" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="southern" lemma="southern" stem="southern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Bangladesh" lemma="Bangladesh" stem="bangladesh" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="today" lemma="today" stem="todai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (QP (JJR More) (IN than) (CD 100)) (NNS people)) (VP (VBD were) (ADJP (VBN feared) (SBAR (S (VP (VBD drowned) (SBAR (IN after) (S (NP (DT an) (JJ overcrowded) (NN ferry)) (VP (VBD sank) (PP (IN at) (NP (DT a) (NN river) (NN junction))) (PP (IN in) (NP (JJ southern) (NNP Bangladesh)))))))))))) (, ,) (NP (NN police)) (VP (VBD said) (NP-TMP (NN today))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="More than 100 people" type="NP">
+          <tokens>
+            <token id="1" string="More" />
+            <token id="2" string="than" />
+            <token id="3" string="100" />
+            <token id="4" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="feared drowned after an overcrowded ferry sank at a river junction in southern Bangladesh" type="ADJP">
+          <tokens>
+            <token id="6" string="feared" />
+            <token id="7" string="drowned" />
+            <token id="8" string="after" />
+            <token id="9" string="an" />
+            <token id="10" string="overcrowded" />
+            <token id="11" string="ferry" />
+            <token id="12" string="sank" />
+            <token id="13" string="at" />
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+            <token id="17" string="in" />
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a river junction" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="police" type="NP">
+          <tokens>
+            <token id="21" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="southern Bangladesh" type="NP">
+          <tokens>
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="said today" type="VP">
+          <tokens>
+            <token id="22" string="said" />
+            <token id="23" string="today" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="an overcrowded ferry" type="NP">
+          <tokens>
+            <token id="9" string="an" />
+            <token id="10" string="overcrowded" />
+            <token id="11" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="sank at a river junction in southern Bangladesh" type="VP">
+          <tokens>
+            <token id="12" string="sank" />
+            <token id="13" string="at" />
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+            <token id="17" string="in" />
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="were feared drowned after an overcrowded ferry sank at a river junction in southern Bangladesh" type="VP">
+          <tokens>
+            <token id="5" string="were" />
+            <token id="6" string="feared" />
+            <token id="7" string="drowned" />
+            <token id="8" string="after" />
+            <token id="9" string="an" />
+            <token id="10" string="overcrowded" />
+            <token id="11" string="ferry" />
+            <token id="12" string="sank" />
+            <token id="13" string="at" />
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+            <token id="17" string="in" />
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="drowned after an overcrowded ferry sank at a river junction in southern Bangladesh" type="SBAR">
+          <tokens>
+            <token id="7" string="drowned" />
+            <token id="8" string="after" />
+            <token id="9" string="an" />
+            <token id="10" string="overcrowded" />
+            <token id="11" string="ferry" />
+            <token id="12" string="sank" />
+            <token id="13" string="at" />
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+            <token id="17" string="in" />
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="after an overcrowded ferry sank at a river junction in southern Bangladesh" type="SBAR">
+          <tokens>
+            <token id="8" string="after" />
+            <token id="9" string="an" />
+            <token id="10" string="overcrowded" />
+            <token id="11" string="ferry" />
+            <token id="12" string="sank" />
+            <token id="13" string="at" />
+            <token id="14" string="a" />
+            <token id="15" string="river" />
+            <token id="16" string="junction" />
+            <token id="17" string="in" />
+            <token id="18" string="southern" />
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="3">100</governor>
+          <dependent id="1">More</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="1">More</governor>
+          <dependent id="2">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">people</governor>
+          <dependent id="3">100</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="6">feared</governor>
+          <dependent id="4">people</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="6">feared</governor>
+          <dependent id="5">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="22">said</governor>
+          <dependent id="6">feared</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="6">feared</governor>
+          <dependent id="7">drowned</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">sank</governor>
+          <dependent id="8">after</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">ferry</governor>
+          <dependent id="9">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">ferry</governor>
+          <dependent id="10">overcrowded</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">sank</governor>
+          <dependent id="11">ferry</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="7">drowned</governor>
+          <dependent id="12">sank</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">junction</governor>
+          <dependent id="13">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">junction</governor>
+          <dependent id="14">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">junction</governor>
+          <dependent id="15">river</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">sank</governor>
+          <dependent id="16">junction</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Bangladesh</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">Bangladesh</governor>
+          <dependent id="18">southern</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">sank</governor>
+          <dependent id="19">Bangladesh</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">said</governor>
+          <dependent id="21">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="22">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="22">said</governor>
+          <dependent id="23">today</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="100" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="100" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Bangladesh" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Bangladesh" />
+          </tokens>
+        </entity>
+        <entity id="3" string="today" type="DATE" score="0.0">
+          <tokens>
+            <token id="23" string="today" />
+          </tokens>
+        </entity>
+        <entity id="4" string="drowned" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="7" string="drowned" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Fifteen bodies were recovered and 94 people were reported missing in the sinking Wednesday night where the Ilisha and Tetulia rivers meet and join the Meghna, police and a district administrator said.</content>
+      <tokens>
+        <token id="1" string="Fifteen" lemma="fifteen" stem="fifteen" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="2" string="bodies" lemma="body" stem="bodi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="recovered" lemma="recover" stem="recov" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="94" lemma="94" stem="94" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="7" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="reported" lemma="report" stem="report" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="missing" lemma="miss" stem="miss" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="sinking" lemma="sink" stem="sink" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="15" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="true" is_refers="false" />
+        <token id="16" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Ilisha" lemma="ilisha" stem="ilisha" pos="NN" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Tetulia" lemma="Tetulia" stem="tetulia" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="rivers" lemma="river" stem="river" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="meet" lemma="meet" stem="meet" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="join" lemma="join" stem="join" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Meghna" lemma="Meghna" stem="meghna" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="district" lemma="district" stem="district" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="administrator" lemma="administrator" stem="administr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (S (NP (CD Fifteen) (NNS bodies)) (VP (VBD were) (VP (VBN recovered)))) (CC and) (S (NP (CD 94) (NNS people)) (VP (VBD were) (VP (VBN reported) (S (VP (VBG missing) (PP (IN in) (NP (DT the) (VBG sinking) (NNP Wednesday) (NN night))))) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN Ilisha) (CC and) (NNP Tetulia) (NNS rivers)) (VP (VBP meet) (CC and) (VBP join) (NP (DT the) (NNP Meghna))))))))) (, ,) (NP (NP (NN police)) (CC and) (NP (DT a) (NN district) (NN administrator))) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="were recovered" type="VP">
+          <tokens>
+            <token id="3" string="were" />
+            <token id="4" string="recovered" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="reported missing in the sinking Wednesday night where the Ilisha and Tetulia rivers meet and join the Meghna" type="VP">
+          <tokens>
+            <token id="9" string="reported" />
+            <token id="10" string="missing" />
+            <token id="11" string="in" />
+            <token id="12" string="the" />
+            <token id="13" string="sinking" />
+            <token id="14" string="Wednesday" />
+            <token id="15" string="night" />
+            <token id="16" string="where" />
+            <token id="17" string="the" />
+            <token id="18" string="Ilisha" />
+            <token id="19" string="and" />
+            <token id="20" string="Tetulia" />
+            <token id="21" string="rivers" />
+            <token id="22" string="meet" />
+            <token id="23" string="and" />
+            <token id="24" string="join" />
+            <token id="25" string="the" />
+            <token id="26" string="Meghna" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a district administrator" type="NP">
+          <tokens>
+            <token id="30" string="a" />
+            <token id="31" string="district" />
+            <token id="32" string="administrator" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Meghna" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Meghna" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="meet and join the Meghna" type="VP">
+          <tokens>
+            <token id="22" string="meet" />
+            <token id="23" string="and" />
+            <token id="24" string="join" />
+            <token id="25" string="the" />
+            <token id="26" string="Meghna" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="94 people" type="NP">
+          <tokens>
+            <token id="6" string="94" />
+            <token id="7" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="police" type="NP">
+          <tokens>
+            <token id="28" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Fifteen bodies" type="NP">
+          <tokens>
+            <token id="1" string="Fifteen" />
+            <token id="2" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="missing in the sinking Wednesday night" type="VP">
+          <tokens>
+            <token id="10" string="missing" />
+            <token id="11" string="in" />
+            <token id="12" string="the" />
+            <token id="13" string="sinking" />
+            <token id="14" string="Wednesday" />
+            <token id="15" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="recovered" type="VP">
+          <tokens>
+            <token id="4" string="recovered" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="were reported missing in the sinking Wednesday night where the Ilisha and Tetulia rivers meet and join the Meghna" type="VP">
+          <tokens>
+            <token id="8" string="were" />
+            <token id="9" string="reported" />
+            <token id="10" string="missing" />
+            <token id="11" string="in" />
+            <token id="12" string="the" />
+            <token id="13" string="sinking" />
+            <token id="14" string="Wednesday" />
+            <token id="15" string="night" />
+            <token id="16" string="where" />
+            <token id="17" string="the" />
+            <token id="18" string="Ilisha" />
+            <token id="19" string="and" />
+            <token id="20" string="Tetulia" />
+            <token id="21" string="rivers" />
+            <token id="22" string="meet" />
+            <token id="23" string="and" />
+            <token id="24" string="join" />
+            <token id="25" string="the" />
+            <token id="26" string="Meghna" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="police and a district administrator" type="NP">
+          <tokens>
+            <token id="28" string="police" />
+            <token id="29" string="and" />
+            <token id="30" string="a" />
+            <token id="31" string="district" />
+            <token id="32" string="administrator" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="where" type="WHADVP">
+          <tokens>
+            <token id="16" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the sinking Wednesday night" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="sinking" />
+            <token id="14" string="Wednesday" />
+            <token id="15" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the Ilisha and Tetulia rivers" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="Ilisha" />
+            <token id="19" string="and" />
+            <token id="20" string="Tetulia" />
+            <token id="21" string="rivers" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said" type="VP">
+          <tokens>
+            <token id="33" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="where the Ilisha and Tetulia rivers meet and join the Meghna" type="SBAR">
+          <tokens>
+            <token id="16" string="where" />
+            <token id="17" string="the" />
+            <token id="18" string="Ilisha" />
+            <token id="19" string="and" />
+            <token id="20" string="Tetulia" />
+            <token id="21" string="rivers" />
+            <token id="22" string="meet" />
+            <token id="23" string="and" />
+            <token id="24" string="join" />
+            <token id="25" string="the" />
+            <token id="26" string="Meghna" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">bodies</governor>
+          <dependent id="1">Fifteen</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">recovered</governor>
+          <dependent id="2">bodies</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">recovered</governor>
+          <dependent id="3">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="33">said</governor>
+          <dependent id="4">recovered</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">recovered</governor>
+          <dependent id="5">and</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="7">people</governor>
+          <dependent id="6">94</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">reported</governor>
+          <dependent id="7">people</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">reported</governor>
+          <dependent id="8">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">recovered</governor>
+          <dependent id="9">reported</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="9">reported</governor>
+          <dependent id="10">missing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">night</governor>
+          <dependent id="11">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">night</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">night</governor>
+          <dependent id="13">sinking</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">night</governor>
+          <dependent id="14">Wednesday</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">missing</governor>
+          <dependent id="15">night</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">meet</governor>
+          <dependent id="16">where</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">rivers</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">rivers</governor>
+          <dependent id="18">Ilisha</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">Ilisha</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">Ilisha</governor>
+          <dependent id="20">Tetulia</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">meet</governor>
+          <dependent id="21">rivers</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">reported</governor>
+          <dependent id="22">meet</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="22">meet</governor>
+          <dependent id="23">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="22">meet</governor>
+          <dependent id="24">join</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">Meghna</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">meet</governor>
+          <dependent id="26">Meghna</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">said</governor>
+          <dependent id="28">police</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">police</governor>
+          <dependent id="29">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="32">administrator</governor>
+          <dependent id="30">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">administrator</governor>
+          <dependent id="31">district</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="28">police</governor>
+          <dependent id="32">administrator</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="33">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ilisha" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Ilisha" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Fifteen" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Fifteen" />
+          </tokens>
+        </entity>
+        <entity id="4" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="15" string="night" />
+          </tokens>
+        </entity>
+        <entity id="5" string="94" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="6" string="94" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Meghna" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Meghna" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Another ferry was attacked by river pirates near Chandpur late Tuesday, police said.</content>
+      <tokens>
+        <token id="1" string="Another" lemma="another" stem="another" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="attacked" lemma="attack" stem="attack" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="river" lemma="river" stem="river" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="pirates" lemma="pirate" stem="pirat" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="Chandpur" lemma="Chandpur" stem="chandpur" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="late" lemma="late" stem="late" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="11" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT Another) (NN ferry)) (VP (VBD was) (VP (VBN attacked) (PP (IN by) (NP (NP (NN river) (NNS pirates)) (PP (IN near) (NP (NNP Chandpur))))) (NP-TMP (JJ late) (NNP Tuesday))))) (, ,) (NP (NN police)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Another ferry" type="NP">
+          <tokens>
+            <token id="1" string="Another" />
+            <token id="2" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Chandpur" type="NP">
+          <tokens>
+            <token id="9" string="Chandpur" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="police" type="NP">
+          <tokens>
+            <token id="13" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="river pirates" type="NP">
+          <tokens>
+            <token id="6" string="river" />
+            <token id="7" string="pirates" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was attacked by river pirates near Chandpur late Tuesday" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="attacked" />
+            <token id="5" string="by" />
+            <token id="6" string="river" />
+            <token id="7" string="pirates" />
+            <token id="8" string="near" />
+            <token id="9" string="Chandpur" />
+            <token id="10" string="late" />
+            <token id="11" string="Tuesday" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="river pirates near Chandpur" type="NP">
+          <tokens>
+            <token id="6" string="river" />
+            <token id="7" string="pirates" />
+            <token id="8" string="near" />
+            <token id="9" string="Chandpur" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said" type="VP">
+          <tokens>
+            <token id="14" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="attacked by river pirates near Chandpur late Tuesday" type="VP">
+          <tokens>
+            <token id="4" string="attacked" />
+            <token id="5" string="by" />
+            <token id="6" string="river" />
+            <token id="7" string="pirates" />
+            <token id="8" string="near" />
+            <token id="9" string="Chandpur" />
+            <token id="10" string="late" />
+            <token id="11" string="Tuesday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">ferry</governor>
+          <dependent id="1">Another</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">attacked</governor>
+          <dependent id="2">ferry</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">attacked</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">said</governor>
+          <dependent id="4">attacked</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">pirates</governor>
+          <dependent id="5">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">pirates</governor>
+          <dependent id="6">river</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">attacked</governor>
+          <dependent id="7">pirates</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Chandpur</governor>
+          <dependent id="8">near</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">pirates</governor>
+          <dependent id="9">Chandpur</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">Tuesday</governor>
+          <dependent id="10">late</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">attacked</governor>
+          <dependent id="11">Tuesday</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">said</governor>
+          <dependent id="13">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Chandpur" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Chandpur" />
+          </tokens>
+        </entity>
+        <entity id="2" string="late Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="late" />
+            <token id="11" string="Tuesday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Six passengers, including a pregnant woman, were thrown overboard and have not been found, Chandpur police said.</content>
+      <tokens>
+        <token id="1" string="Six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="2" string="passengers" lemma="passenger" stem="passeng" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="pregnant" lemma="pregnant" stem="pregnant" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="woman" lemma="woman" stem="woman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="thrown" lemma="throw" stem="thrown" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="overboard" lemma="overboard" stem="overboard" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="found" lemma="find" stem="found" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Chandpur" lemma="Chandpur" stem="chandpur" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="police" lemma="police" stem="polic" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (CD Six) (NNS passengers)) (, ,) (PP (VBG including) (NP (DT a) (JJ pregnant) (NN woman))) (, ,)) (VP (VP (VBD were) (VP (VBN thrown) (ADVP (RB overboard)))) (CC and) (VP (VBP have) (RB not) (VP (VBN been) (VP (VBN found)))))) (, ,) (NP (NNP Chandpur) (NNS police)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="were thrown overboard and have not been found" type="VP">
+          <tokens>
+            <token id="9" string="were" />
+            <token id="10" string="thrown" />
+            <token id="11" string="overboard" />
+            <token id="12" string="and" />
+            <token id="13" string="have" />
+            <token id="14" string="not" />
+            <token id="15" string="been" />
+            <token id="16" string="found" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="been found" type="VP">
+          <tokens>
+            <token id="15" string="been" />
+            <token id="16" string="found" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="found" type="VP">
+          <tokens>
+            <token id="16" string="found" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Six passengers , including a pregnant woman ," type="NP">
+          <tokens>
+            <token id="1" string="Six" />
+            <token id="2" string="passengers" />
+            <token id="3" string="," />
+            <token id="4" string="including" />
+            <token id="5" string="a" />
+            <token id="6" string="pregnant" />
+            <token id="7" string="woman" />
+            <token id="8" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="have not been found" type="VP">
+          <tokens>
+            <token id="13" string="have" />
+            <token id="14" string="not" />
+            <token id="15" string="been" />
+            <token id="16" string="found" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a pregnant woman" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="pregnant" />
+            <token id="7" string="woman" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="were thrown overboard" type="VP">
+          <tokens>
+            <token id="9" string="were" />
+            <token id="10" string="thrown" />
+            <token id="11" string="overboard" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Chandpur police" type="NP">
+          <tokens>
+            <token id="18" string="Chandpur" />
+            <token id="19" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="thrown overboard" type="VP">
+          <tokens>
+            <token id="10" string="thrown" />
+            <token id="11" string="overboard" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Six passengers" type="NP">
+          <tokens>
+            <token id="1" string="Six" />
+            <token id="2" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="said" type="VP">
+          <tokens>
+            <token id="20" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">passengers</governor>
+          <dependent id="1">Six</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="10">thrown</governor>
+          <dependent id="2">passengers</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">woman</governor>
+          <dependent id="4">including</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">woman</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">woman</governor>
+          <dependent id="6">pregnant</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">passengers</governor>
+          <dependent id="7">woman</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="10">thrown</governor>
+          <dependent id="9">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="20">said</governor>
+          <dependent id="10">thrown</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">thrown</governor>
+          <dependent id="11">overboard</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">thrown</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="16">found</governor>
+          <dependent id="13">have</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="16">found</governor>
+          <dependent id="14">not</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="16">found</governor>
+          <dependent id="15">been</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">thrown</governor>
+          <dependent id="16">found</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">police</governor>
+          <dependent id="18">Chandpur</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">said</governor>
+          <dependent id="19">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="20">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Six" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Six" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Chandpur" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Chandpur" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>About 200 passengers were wounded when the pirates fired rifles and hurled homemade bombs before making off with about $83,000 in local currency, police said.</content>
+      <tokens>
+        <token id="1" string="About" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="200" lemma="200" stem="200" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="passengers" lemma="passenger" stem="passeng" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="wounded" lemma="wound" stem="wound" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="pirates" lemma="pirate" stem="pirat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="fired" lemma="fire" stem="fire" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="rifles" lemma="rifle" stem="rifl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="hurled" lemma="hurl" stem="hurl" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="homemade" lemma="homemade" stem="homemad" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="bombs" lemma="bomb" stem="bomb" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="making" lemma="make" stem="make" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="off" lemma="off" stem="off" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="about" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="21" string="83,000" lemma="83,000" stem="83,000" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="22" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="local" lemma="local" stem="local" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="currency" lemma="currency" stem="currenc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (QP (RB About) (CD 200)) (NNS passengers)) (VP (VBD were) (VP (VP (VBN wounded) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNS pirates)) (VP (VBD fired) (NP (NNS rifles)))))) (CC and) (VP (VBN hurled) (NP (NN homemade) (NNS bombs)) (PP (IN before) (S (VP (VBG making) (PRT (RP off)) (PP (IN with) (NP (NP (QP (RB about) ($ $) (CD 83,000))) (PP (IN in) (NP (JJ local) (NN currency)))))))))))) (, ,) (NP (NN police)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="About 200 passengers" type="NP">
+          <tokens>
+            <token id="1" string="About" />
+            <token id="2" string="200" />
+            <token id="3" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="rifles" type="NP">
+          <tokens>
+            <token id="10" string="rifles" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="when" type="WHADVP">
+          <tokens>
+            <token id="6" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="when the pirates fired rifles" type="SBAR">
+          <tokens>
+            <token id="6" string="when" />
+            <token id="7" string="the" />
+            <token id="8" string="pirates" />
+            <token id="9" string="fired" />
+            <token id="10" string="rifles" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="police" type="NP">
+          <tokens>
+            <token id="26" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="about $ 83,000 in local currency" type="NP">
+          <tokens>
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+            <token id="22" string="in" />
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="local currency" type="NP">
+          <tokens>
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="wounded when the pirates fired rifles" type="VP">
+          <tokens>
+            <token id="5" string="wounded" />
+            <token id="6" string="when" />
+            <token id="7" string="the" />
+            <token id="8" string="pirates" />
+            <token id="9" string="fired" />
+            <token id="10" string="rifles" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="were wounded when the pirates fired rifles and hurled homemade bombs before making off with about $ 83,000 in local currency" type="VP">
+          <tokens>
+            <token id="4" string="were" />
+            <token id="5" string="wounded" />
+            <token id="6" string="when" />
+            <token id="7" string="the" />
+            <token id="8" string="pirates" />
+            <token id="9" string="fired" />
+            <token id="10" string="rifles" />
+            <token id="11" string="and" />
+            <token id="12" string="hurled" />
+            <token id="13" string="homemade" />
+            <token id="14" string="bombs" />
+            <token id="15" string="before" />
+            <token id="16" string="making" />
+            <token id="17" string="off" />
+            <token id="18" string="with" />
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+            <token id="22" string="in" />
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="hurled homemade bombs before making off with about $ 83,000 in local currency" type="VP">
+          <tokens>
+            <token id="12" string="hurled" />
+            <token id="13" string="homemade" />
+            <token id="14" string="bombs" />
+            <token id="15" string="before" />
+            <token id="16" string="making" />
+            <token id="17" string="off" />
+            <token id="18" string="with" />
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+            <token id="22" string="in" />
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="fired rifles" type="VP">
+          <tokens>
+            <token id="9" string="fired" />
+            <token id="10" string="rifles" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="about $ 83,000" type="NP">
+          <tokens>
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the pirates" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="pirates" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="homemade bombs" type="NP">
+          <tokens>
+            <token id="13" string="homemade" />
+            <token id="14" string="bombs" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="making off with about $ 83,000 in local currency" type="VP">
+          <tokens>
+            <token id="16" string="making" />
+            <token id="17" string="off" />
+            <token id="18" string="with" />
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+            <token id="22" string="in" />
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said" type="VP">
+          <tokens>
+            <token id="27" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="wounded when the pirates fired rifles and hurled homemade bombs before making off with about $ 83,000 in local currency" type="VP">
+          <tokens>
+            <token id="5" string="wounded" />
+            <token id="6" string="when" />
+            <token id="7" string="the" />
+            <token id="8" string="pirates" />
+            <token id="9" string="fired" />
+            <token id="10" string="rifles" />
+            <token id="11" string="and" />
+            <token id="12" string="hurled" />
+            <token id="13" string="homemade" />
+            <token id="14" string="bombs" />
+            <token id="15" string="before" />
+            <token id="16" string="making" />
+            <token id="17" string="off" />
+            <token id="18" string="with" />
+            <token id="19" string="about" />
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+            <token id="22" string="in" />
+            <token id="23" string="local" />
+            <token id="24" string="currency" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="2">200</governor>
+          <dependent id="1">About</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">passengers</governor>
+          <dependent id="2">200</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">wounded</governor>
+          <dependent id="3">passengers</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">wounded</governor>
+          <dependent id="4">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="27">said</governor>
+          <dependent id="5">wounded</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">fired</governor>
+          <dependent id="6">when</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">pirates</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">fired</governor>
+          <dependent id="8">pirates</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">wounded</governor>
+          <dependent id="9">fired</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">fired</governor>
+          <dependent id="10">rifles</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">wounded</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">wounded</governor>
+          <dependent id="12">hurled</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">bombs</governor>
+          <dependent id="13">homemade</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">hurled</governor>
+          <dependent id="14">bombs</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">making</governor>
+          <dependent id="15">before</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="12">hurled</governor>
+          <dependent id="16">making</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="16">making</governor>
+          <dependent id="17">off</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">$</governor>
+          <dependent id="18">with</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="20">$</governor>
+          <dependent id="19">about</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">making</governor>
+          <dependent id="20">$</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">$</governor>
+          <dependent id="21">83,000</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">currency</governor>
+          <dependent id="22">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">currency</governor>
+          <dependent id="23">local</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">$</governor>
+          <dependent id="24">currency</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">said</governor>
+          <dependent id="26">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="27">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="200" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="200" />
+          </tokens>
+        </entity>
+        <entity id="2" string="$ 83,000" type="MONEY" score="0.0">
+          <tokens>
+            <token id="20" string="$" />
+            <token id="21" string="83,000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>The ferry that sank was carrying more than double its authorized capacity of 100 passengers, police said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="carrying" lemma="carry" stem="carri" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="double" lemma="double" stem="doubl" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="authorized" lemma="authorize" stem="author" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="capacity" lemma="capacity" stem="capac" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="100" lemma="100" stem="100" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="15" string="passengers" lemma="passenger" stem="passeng" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="police" lemma="police" stem="polic" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT The) (NN ferry)) (SBAR (WHNP (WDT that)) (S (VP (VBD sank))))) (VP (VBD was) (VP (VBG carrying) (ADVP (JJR more) (IN than) (S (VP (VB double) (NP (NP (PRP$ its) (ADJP (VBN authorized)) (NN capacity)) (PP (IN of) (NP (CD 100) (NNS passengers)))))))))) (, ,) (NP (NNS police)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="that sank" type="SBAR">
+          <tokens>
+            <token id="3" string="that" />
+            <token id="4" string="sank" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="100 passengers" type="NP">
+          <tokens>
+            <token id="14" string="100" />
+            <token id="15" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The ferry" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="its authorized capacity of 100 passengers" type="NP">
+          <tokens>
+            <token id="10" string="its" />
+            <token id="11" string="authorized" />
+            <token id="12" string="capacity" />
+            <token id="13" string="of" />
+            <token id="14" string="100" />
+            <token id="15" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="police" type="NP">
+          <tokens>
+            <token id="17" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="its authorized capacity" type="NP">
+          <tokens>
+            <token id="10" string="its" />
+            <token id="11" string="authorized" />
+            <token id="12" string="capacity" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The ferry that sank" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="ferry" />
+            <token id="3" string="that" />
+            <token id="4" string="sank" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="authorized" type="ADJP">
+          <tokens>
+            <token id="11" string="authorized" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="double its authorized capacity of 100 passengers" type="VP">
+          <tokens>
+            <token id="9" string="double" />
+            <token id="10" string="its" />
+            <token id="11" string="authorized" />
+            <token id="12" string="capacity" />
+            <token id="13" string="of" />
+            <token id="14" string="100" />
+            <token id="15" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="carrying more than double its authorized capacity of 100 passengers" type="VP">
+          <tokens>
+            <token id="6" string="carrying" />
+            <token id="7" string="more" />
+            <token id="8" string="than" />
+            <token id="9" string="double" />
+            <token id="10" string="its" />
+            <token id="11" string="authorized" />
+            <token id="12" string="capacity" />
+            <token id="13" string="of" />
+            <token id="14" string="100" />
+            <token id="15" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="was carrying more than double its authorized capacity of 100 passengers" type="VP">
+          <tokens>
+            <token id="5" string="was" />
+            <token id="6" string="carrying" />
+            <token id="7" string="more" />
+            <token id="8" string="than" />
+            <token id="9" string="double" />
+            <token id="10" string="its" />
+            <token id="11" string="authorized" />
+            <token id="12" string="capacity" />
+            <token id="13" string="of" />
+            <token id="14" string="100" />
+            <token id="15" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="sank" type="VP">
+          <tokens>
+            <token id="4" string="sank" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">ferry</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">carrying</governor>
+          <dependent id="2">ferry</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">sank</governor>
+          <dependent id="3">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">ferry</governor>
+          <dependent id="4">sank</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">carrying</governor>
+          <dependent id="5">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="6">carrying</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">carrying</governor>
+          <dependent id="7">more</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">more</governor>
+          <dependent id="8">than</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="7">more</governor>
+          <dependent id="9">double</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="12">capacity</governor>
+          <dependent id="10">its</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">capacity</governor>
+          <dependent id="11">authorized</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">double</governor>
+          <dependent id="12">capacity</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">passengers</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="15">passengers</governor>
+          <dependent id="14">100</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">capacity</governor>
+          <dependent id="15">passengers</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="17">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="100" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="14" string="100" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>They said about 100 people on the ferry&amp;apost;s roof swam to safety but most of those in the hull were unable to save themselves.</content>
+      <tokens>
+        <token id="1" string="They" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="100" lemma="100" stem="100" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="5" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="roof" lemma="roof" stem="roof" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="swam" lemma="swim" stem="swam" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="safety" lemma="safety" stem="safeti" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="those" lemma="those" stem="those" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="hull" lemma="hull" stem="hull" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="unable" lemma="unable" stem="unabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="save" lemma="save" stem="save" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="themselves" lemma="themselves" stem="themselv" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (PRP They)) (VP (VBD said) (SBAR (IN about) (S (NP (NP (CD 100) (NNS people)) (PP (IN on) (NP (NP (DT the) (NN ferry) (POS 's)) (NN roof)))) (VP (VBD swam) (PP (TO to) (NP (NN safety)))))))) (CC but) (S (NP (NP (JJS most)) (PP (IN of) (NP (NP (DT those)) (PP (IN in) (NP (DT the) (NN hull)))))) (VP (VBD were) (ADJP (JJ unable) (S (VP (TO to) (VP (VB save) (NP (PRP themselves)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="They" type="NP">
+          <tokens>
+            <token id="1" string="They" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the ferry 's" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="most of those in the hull" type="NP">
+          <tokens>
+            <token id="15" string="most" />
+            <token id="16" string="of" />
+            <token id="17" string="those" />
+            <token id="18" string="in" />
+            <token id="19" string="the" />
+            <token id="20" string="hull" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said about 100 people on the ferry 's roof swam to safety" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="about" />
+            <token id="4" string="100" />
+            <token id="5" string="people" />
+            <token id="6" string="on" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="'s" />
+            <token id="10" string="roof" />
+            <token id="11" string="swam" />
+            <token id="12" string="to" />
+            <token id="13" string="safety" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the hull" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="hull" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="those in the hull" type="NP">
+          <tokens>
+            <token id="17" string="those" />
+            <token id="18" string="in" />
+            <token id="19" string="the" />
+            <token id="20" string="hull" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the ferry 's roof" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="'s" />
+            <token id="10" string="roof" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="swam to safety" type="VP">
+          <tokens>
+            <token id="11" string="swam" />
+            <token id="12" string="to" />
+            <token id="13" string="safety" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="most" type="NP">
+          <tokens>
+            <token id="15" string="most" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="unable to save themselves" type="ADJP">
+          <tokens>
+            <token id="22" string="unable" />
+            <token id="23" string="to" />
+            <token id="24" string="save" />
+            <token id="25" string="themselves" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="themselves" type="NP">
+          <tokens>
+            <token id="25" string="themselves" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="safety" type="NP">
+          <tokens>
+            <token id="13" string="safety" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="save themselves" type="VP">
+          <tokens>
+            <token id="24" string="save" />
+            <token id="25" string="themselves" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="were unable to save themselves" type="VP">
+          <tokens>
+            <token id="21" string="were" />
+            <token id="22" string="unable" />
+            <token id="23" string="to" />
+            <token id="24" string="save" />
+            <token id="25" string="themselves" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="100 people" type="NP">
+          <tokens>
+            <token id="4" string="100" />
+            <token id="5" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="to save themselves" type="VP">
+          <tokens>
+            <token id="23" string="to" />
+            <token id="24" string="save" />
+            <token id="25" string="themselves" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="about 100 people on the ferry 's roof swam to safety" type="SBAR">
+          <tokens>
+            <token id="3" string="about" />
+            <token id="4" string="100" />
+            <token id="5" string="people" />
+            <token id="6" string="on" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="'s" />
+            <token id="10" string="roof" />
+            <token id="11" string="swam" />
+            <token id="12" string="to" />
+            <token id="13" string="safety" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="100 people on the ferry 's roof" type="NP">
+          <tokens>
+            <token id="4" string="100" />
+            <token id="5" string="people" />
+            <token id="6" string="on" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="'s" />
+            <token id="10" string="roof" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="those" type="NP">
+          <tokens>
+            <token id="17" string="those" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">They</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">swam</governor>
+          <dependent id="3">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">people</governor>
+          <dependent id="4">100</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">swam</governor>
+          <dependent id="5">people</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">roof</governor>
+          <dependent id="6">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">ferry</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="10">roof</governor>
+          <dependent id="8">ferry</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">ferry</governor>
+          <dependent id="9">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">people</governor>
+          <dependent id="10">roof</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="2">said</governor>
+          <dependent id="11">swam</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">safety</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">swam</governor>
+          <dependent id="13">safety</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">said</governor>
+          <dependent id="14">but</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">unable</governor>
+          <dependent id="15">most</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">those</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">most</governor>
+          <dependent id="17">those</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">hull</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">hull</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">those</governor>
+          <dependent id="20">hull</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">unable</governor>
+          <dependent id="21">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">said</governor>
+          <dependent id="22">unable</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">save</governor>
+          <dependent id="23">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="22">unable</governor>
+          <dependent id="24">save</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">save</governor>
+          <dependent id="25">themselves</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="100" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="100" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The ferry was traveling from Mehendiganj to the island town of Bhola, about 68 miles southeast of Dhaka, when it sank in 22 feet of water.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="traveling" lemma="travel" stem="travel" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Mehendiganj" lemma="Mehendiganj" stem="mehendiganj" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="island" lemma="island" stem="island" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="town" lemma="town" stem="town" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Bhola" lemma="Bhola" stem="bhola" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="68" lemma="68" stem="68" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="16" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="southeast" lemma="southeast" stem="southeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Dhaka" lemma="Dhaka" stem="dhaka" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="23" string="sank" lemma="sink" stem="sank" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="22" lemma="22" stem="22" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="26" string="feet" lemma="foot" stem="feet" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="water" lemma="water" stem="water" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN ferry)) (VP (VBD was) (VP (VBG traveling) (PP (IN from) (NP (NNP Mehendiganj))) (PP (TO to) (NP (NP (NP (DT the) (NN island) (NN town)) (PP (IN of) (NP (NNP Bhola)))) (, ,) (ADVP (IN about) (NP (CD 68) (NNS miles))) (NP (NP (NN southeast)) (PP (IN of) (NP (NNP Dhaka)))))) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBD sank) (PP (IN in) (NP (NP (CD 22) (NNS feet)) (PP (IN of) (NP (NN water)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="22 feet of water" type="NP">
+          <tokens>
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+            <token id="27" string="of" />
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Mehendiganj" type="NP">
+          <tokens>
+            <token id="6" string="Mehendiganj" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="southeast of Dhaka" type="NP">
+          <tokens>
+            <token id="17" string="southeast" />
+            <token id="18" string="of" />
+            <token id="19" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The ferry" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was traveling from Mehendiganj to the island town of Bhola , about 68 miles southeast of Dhaka , when it sank in 22 feet of water" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="traveling" />
+            <token id="5" string="from" />
+            <token id="6" string="Mehendiganj" />
+            <token id="7" string="to" />
+            <token id="8" string="the" />
+            <token id="9" string="island" />
+            <token id="10" string="town" />
+            <token id="11" string="of" />
+            <token id="12" string="Bhola" />
+            <token id="13" string="," />
+            <token id="14" string="about" />
+            <token id="15" string="68" />
+            <token id="16" string="miles" />
+            <token id="17" string="southeast" />
+            <token id="18" string="of" />
+            <token id="19" string="Dhaka" />
+            <token id="20" string="," />
+            <token id="21" string="when" />
+            <token id="22" string="it" />
+            <token id="23" string="sank" />
+            <token id="24" string="in" />
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+            <token id="27" string="of" />
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="it" type="NP">
+          <tokens>
+            <token id="22" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="water" type="NP">
+          <tokens>
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the island town of Bhola , about 68 miles southeast of Dhaka" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="island" />
+            <token id="10" string="town" />
+            <token id="11" string="of" />
+            <token id="12" string="Bhola" />
+            <token id="13" string="," />
+            <token id="14" string="about" />
+            <token id="15" string="68" />
+            <token id="16" string="miles" />
+            <token id="17" string="southeast" />
+            <token id="18" string="of" />
+            <token id="19" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Bhola" type="NP">
+          <tokens>
+            <token id="12" string="Bhola" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="when" type="WHADVP">
+          <tokens>
+            <token id="21" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the island town of Bhola" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="island" />
+            <token id="10" string="town" />
+            <token id="11" string="of" />
+            <token id="12" string="Bhola" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="sank in 22 feet of water" type="VP">
+          <tokens>
+            <token id="23" string="sank" />
+            <token id="24" string="in" />
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+            <token id="27" string="of" />
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="22 feet" type="NP">
+          <tokens>
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="when it sank in 22 feet of water" type="SBAR">
+          <tokens>
+            <token id="21" string="when" />
+            <token id="22" string="it" />
+            <token id="23" string="sank" />
+            <token id="24" string="in" />
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+            <token id="27" string="of" />
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="68 miles" type="NP">
+          <tokens>
+            <token id="15" string="68" />
+            <token id="16" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Dhaka" type="NP">
+          <tokens>
+            <token id="19" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="southeast" type="NP">
+          <tokens>
+            <token id="17" string="southeast" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="traveling from Mehendiganj to the island town of Bhola , about 68 miles southeast of Dhaka , when it sank in 22 feet of water" type="VP">
+          <tokens>
+            <token id="4" string="traveling" />
+            <token id="5" string="from" />
+            <token id="6" string="Mehendiganj" />
+            <token id="7" string="to" />
+            <token id="8" string="the" />
+            <token id="9" string="island" />
+            <token id="10" string="town" />
+            <token id="11" string="of" />
+            <token id="12" string="Bhola" />
+            <token id="13" string="," />
+            <token id="14" string="about" />
+            <token id="15" string="68" />
+            <token id="16" string="miles" />
+            <token id="17" string="southeast" />
+            <token id="18" string="of" />
+            <token id="19" string="Dhaka" />
+            <token id="20" string="," />
+            <token id="21" string="when" />
+            <token id="22" string="it" />
+            <token id="23" string="sank" />
+            <token id="24" string="in" />
+            <token id="25" string="22" />
+            <token id="26" string="feet" />
+            <token id="27" string="of" />
+            <token id="28" string="water" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the island town" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="island" />
+            <token id="10" string="town" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">ferry</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">traveling</governor>
+          <dependent id="2">ferry</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">traveling</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">traveling</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Mehendiganj</governor>
+          <dependent id="5">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">traveling</governor>
+          <dependent id="6">Mehendiganj</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">town</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">town</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">town</governor>
+          <dependent id="9">island</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">traveling</governor>
+          <dependent id="10">town</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Bhola</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">town</governor>
+          <dependent id="12">Bhola</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">miles</governor>
+          <dependent id="14">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">miles</governor>
+          <dependent id="15">68</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">town</governor>
+          <dependent id="16">miles</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="10">town</governor>
+          <dependent id="17">southeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Dhaka</governor>
+          <dependent id="18">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">southeast</governor>
+          <dependent id="19">Dhaka</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">sank</governor>
+          <dependent id="21">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">sank</governor>
+          <dependent id="22">it</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">traveling</governor>
+          <dependent id="23">sank</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">feet</governor>
+          <dependent id="24">in</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="26">feet</governor>
+          <dependent id="25">22</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">sank</governor>
+          <dependent id="26">feet</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">water</governor>
+          <dependent id="27">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">feet</governor>
+          <dependent id="28">water</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="68" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="15" string="68" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Mehendiganj" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Mehendiganj" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Dhaka" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Dhaka" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Bhola" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Bhola" />
+          </tokens>
+        </entity>
+        <entity id="5" string="22" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="25" string="22" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Police said six bodies were found in the hull of the ferry, the M.L. Sonali, and nine others were found more than a mile downstream.</content>
+      <tokens>
+        <token id="1" string="Police" lemma="police" stem="polic" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="bodies" lemma="body" stem="bodi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="found" lemma="find" stem="found" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="hull" lemma="hull" stem="hull" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="M.L." lemma="M.L." stem="m.l." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="16" string="Sonali" lemma="Sonali" stem="sonali" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="nine" lemma="nine" stem="nine" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="20" string="others" lemma="other" stem="other" pos="NNS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="found" lemma="find" stem="found" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="more" lemma="more" stem="more" pos="RBR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="mile" lemma="mile" stem="mile" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="downstream" lemma="downstream" stem="downstream" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNS Police)) (VP (VBD said) (SBAR (S (NP (CD six) (NNS bodies)) (VP (VBD were) (VP (VBN found) (PP (IN in) (NP (NP (DT the) (NN hull)) (PP (IN of) (NP (NP (DT the) (NN ferry)) (, ,) (NP (DT the) (NNP M.L.) (NNP Sonali)))))))))))) (, ,) (CC and) (S (NP (CD nine) (NNS others)) (VP (VBD were) (VP (VBN found) (ADVP (NP (QP (RBR more) (IN than) (DT a)) (NN mile)) (RB downstream))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="found more than a mile downstream" type="VP">
+          <tokens>
+            <token id="22" string="found" />
+            <token id="23" string="more" />
+            <token id="24" string="than" />
+            <token id="25" string="a" />
+            <token id="26" string="mile" />
+            <token id="27" string="downstream" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="six bodies were found in the hull of the ferry , the M.L. Sonali" type="SBAR">
+          <tokens>
+            <token id="3" string="six" />
+            <token id="4" string="bodies" />
+            <token id="5" string="were" />
+            <token id="6" string="found" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the ferry , the M.L. Sonali" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the hull" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="were found more than a mile downstream" type="VP">
+          <tokens>
+            <token id="21" string="were" />
+            <token id="22" string="found" />
+            <token id="23" string="more" />
+            <token id="24" string="than" />
+            <token id="25" string="a" />
+            <token id="26" string="mile" />
+            <token id="27" string="downstream" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="were found in the hull of the ferry , the M.L. Sonali" type="VP">
+          <tokens>
+            <token id="5" string="were" />
+            <token id="6" string="found" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Police" type="NP">
+          <tokens>
+            <token id="1" string="Police" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the M.L. Sonali" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the ferry" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="six bodies" type="NP">
+          <tokens>
+            <token id="3" string="six" />
+            <token id="4" string="bodies" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="more than a mile" type="NP">
+          <tokens>
+            <token id="23" string="more" />
+            <token id="24" string="than" />
+            <token id="25" string="a" />
+            <token id="26" string="mile" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="nine others" type="NP">
+          <tokens>
+            <token id="19" string="nine" />
+            <token id="20" string="others" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="said six bodies were found in the hull of the ferry , the M.L. Sonali" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="six" />
+            <token id="4" string="bodies" />
+            <token id="5" string="were" />
+            <token id="6" string="found" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="found in the hull of the ferry , the M.L. Sonali" type="VP">
+          <tokens>
+            <token id="6" string="found" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the hull of the ferry , the M.L. Sonali" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="hull" />
+            <token id="10" string="of" />
+            <token id="11" string="the" />
+            <token id="12" string="ferry" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">bodies</governor>
+          <dependent id="3">six</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="6">found</governor>
+          <dependent id="4">bodies</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="6">found</governor>
+          <dependent id="5">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="6">found</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">hull</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">hull</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">found</governor>
+          <dependent id="9">hull</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">ferry</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">ferry</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">hull</governor>
+          <dependent id="12">ferry</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">Sonali</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Sonali</governor>
+          <dependent id="15">M.L.</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="12">ferry</governor>
+          <dependent id="16">Sonali</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">said</governor>
+          <dependent id="18">and</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">others</governor>
+          <dependent id="19">nine</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="22">found</governor>
+          <dependent id="20">others</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="22">found</governor>
+          <dependent id="21">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">said</governor>
+          <dependent id="22">found</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="25">a</governor>
+          <dependent id="23">more</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="23">more</governor>
+          <dependent id="24">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="26">mile</governor>
+          <dependent id="25">a</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="27">downstream</governor>
+          <dependent id="26">mile</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">found</governor>
+          <dependent id="27">downstream</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="six" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="six" />
+          </tokens>
+        </entity>
+        <entity id="2" string="nine" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="nine" />
+          </tokens>
+        </entity>
+        <entity id="3" string="M.L. Sonali" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="M.L." />
+            <token id="16" string="Sonali" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Two independent newspapers in Dhaka, Ittefaq and Sangbad, quoted survivors as saying the ferry went out of control while trying to negotiate a turn.</content>
+      <tokens>
+        <token id="1" string="Two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="2" string="independent" lemma="independent" stem="independ" pos="JJ" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="3" string="newspapers" lemma="newspaper" stem="newspap" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Dhaka" lemma="Dhaka" stem="dhaka" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Ittefaq" lemma="Ittefaq" stem="ittefaq" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Sangbad" lemma="Sangbad" stem="sangbad" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="quoted" lemma="quote" stem="quot" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="survivors" lemma="survivor" stem="survivor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="saying" lemma="say" stem="sai" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="went" lemma="go" stem="went" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="out" lemma="out" stem="out" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="control" lemma="control" stem="control" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="while" lemma="while" stem="while" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="trying" lemma="try" stem="try" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="negotiate" lemma="negotiate" stem="negoti" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="turn" lemma="turn" stem="turn" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD Two) (JJ independent) (NNS newspapers)) (PP (IN in) (NP (NNP Dhaka) (, ,) (NNP Ittefaq) (CC and) (NNP Sangbad))) (, ,) (VP (VBN quoted) (NP (NNS survivors)) (PP (IN as) (S (VP (VBG saying) (NP (DT the) (NN ferry))))))) (VP (VBD went) (ADVP (IN out) (PP (IN of) (NP (NN control)))) (PP (IN while) (S (VP (VBG trying) (S (VP (TO to) (VP (VB negotiate) (NP (DT a) (NN turn))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="quoted survivors as saying the ferry" type="VP">
+          <tokens>
+            <token id="11" string="quoted" />
+            <token id="12" string="survivors" />
+            <token id="13" string="as" />
+            <token id="14" string="saying" />
+            <token id="15" string="the" />
+            <token id="16" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a turn" type="NP">
+          <tokens>
+            <token id="25" string="a" />
+            <token id="26" string="turn" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Two independent newspapers" type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="independent" />
+            <token id="3" string="newspapers" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Dhaka , Ittefaq and Sangbad" type="NP">
+          <tokens>
+            <token id="5" string="Dhaka" />
+            <token id="6" string="," />
+            <token id="7" string="Ittefaq" />
+            <token id="8" string="and" />
+            <token id="9" string="Sangbad" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="went out of control while trying to negotiate a turn" type="VP">
+          <tokens>
+            <token id="17" string="went" />
+            <token id="18" string="out" />
+            <token id="19" string="of" />
+            <token id="20" string="control" />
+            <token id="21" string="while" />
+            <token id="22" string="trying" />
+            <token id="23" string="to" />
+            <token id="24" string="negotiate" />
+            <token id="25" string="a" />
+            <token id="26" string="turn" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="control" type="NP">
+          <tokens>
+            <token id="20" string="control" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="trying to negotiate a turn" type="VP">
+          <tokens>
+            <token id="22" string="trying" />
+            <token id="23" string="to" />
+            <token id="24" string="negotiate" />
+            <token id="25" string="a" />
+            <token id="26" string="turn" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the ferry" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="survivors" type="NP">
+          <tokens>
+            <token id="12" string="survivors" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="negotiate a turn" type="VP">
+          <tokens>
+            <token id="24" string="negotiate" />
+            <token id="25" string="a" />
+            <token id="26" string="turn" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Two independent newspapers in Dhaka , Ittefaq and Sangbad , quoted survivors as saying the ferry" type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="independent" />
+            <token id="3" string="newspapers" />
+            <token id="4" string="in" />
+            <token id="5" string="Dhaka" />
+            <token id="6" string="," />
+            <token id="7" string="Ittefaq" />
+            <token id="8" string="and" />
+            <token id="9" string="Sangbad" />
+            <token id="10" string="," />
+            <token id="11" string="quoted" />
+            <token id="12" string="survivors" />
+            <token id="13" string="as" />
+            <token id="14" string="saying" />
+            <token id="15" string="the" />
+            <token id="16" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to negotiate a turn" type="VP">
+          <tokens>
+            <token id="23" string="to" />
+            <token id="24" string="negotiate" />
+            <token id="25" string="a" />
+            <token id="26" string="turn" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="saying the ferry" type="VP">
+          <tokens>
+            <token id="14" string="saying" />
+            <token id="15" string="the" />
+            <token id="16" string="ferry" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="3">newspapers</governor>
+          <dependent id="1">Two</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">newspapers</governor>
+          <dependent id="2">independent</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">went</governor>
+          <dependent id="3">newspapers</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">Dhaka</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">newspapers</governor>
+          <dependent id="5">Dhaka</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">Dhaka</governor>
+          <dependent id="7">Ittefaq</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">Dhaka</governor>
+          <dependent id="8">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">Dhaka</governor>
+          <dependent id="9">Sangbad</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="3">newspapers</governor>
+          <dependent id="11">quoted</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">quoted</governor>
+          <dependent id="12">survivors</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">saying</governor>
+          <dependent id="13">as</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="11">quoted</governor>
+          <dependent id="14">saying</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">ferry</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">saying</governor>
+          <dependent id="16">ferry</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="17">went</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">control</governor>
+          <dependent id="18">out</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="18">out</governor>
+          <dependent id="19">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">went</governor>
+          <dependent id="20">control</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">trying</governor>
+          <dependent id="21">while</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="17">went</governor>
+          <dependent id="22">trying</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">negotiate</governor>
+          <dependent id="23">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="22">trying</governor>
+          <dependent id="24">negotiate</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">turn</governor>
+          <dependent id="25">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">negotiate</governor>
+          <dependent id="26">turn</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ittefaq" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="7" string="Ittefaq" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Sangbad" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="9" string="Sangbad" />
+          </tokens>
+        </entity>
+        <entity id="3" string="independent" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="2" string="independent" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Two" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Dhaka" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Dhaka" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>The pirate attack on the second ferry, the M.V. Sagar, also occurred on the Meghna River.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="pirate" lemma="pirate" stem="pirat" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="attack" lemma="attack" stem="attack" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="4" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="second" lemma="second" stem="second" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="7" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="M.V." lemma="M.V." stem="m.v." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="Sagar" lemma="Sagar" stem="sagar" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="occurred" lemma="occur" stem="occur" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Meghna" lemma="Meghna" stem="meghna" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="River" lemma="River" stem="river" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NN pirate) (NN attack)) (PP (IN on) (NP (NP (DT the) (JJ second) (NN ferry)) (, ,) (NP (DT the) (NNP M.V.) (NNP Sagar)) (, ,)))) (ADVP (RB also)) (VP (VBD occurred) (PP (IN on) (NP (DT the) (NNP Meghna) (NNP River)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The pirate attack on the second ferry , the M.V. Sagar ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="pirate" />
+            <token id="3" string="attack" />
+            <token id="4" string="on" />
+            <token id="5" string="the" />
+            <token id="6" string="second" />
+            <token id="7" string="ferry" />
+            <token id="8" string="," />
+            <token id="9" string="the" />
+            <token id="10" string="M.V." />
+            <token id="11" string="Sagar" />
+            <token id="12" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="occurred on the Meghna River" type="VP">
+          <tokens>
+            <token id="14" string="occurred" />
+            <token id="15" string="on" />
+            <token id="16" string="the" />
+            <token id="17" string="Meghna" />
+            <token id="18" string="River" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the M.V. Sagar" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="M.V." />
+            <token id="11" string="Sagar" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Meghna River" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="Meghna" />
+            <token id="18" string="River" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The pirate attack" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="pirate" />
+            <token id="3" string="attack" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the second ferry" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="second" />
+            <token id="7" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the second ferry , the M.V. Sagar ," type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="second" />
+            <token id="7" string="ferry" />
+            <token id="8" string="," />
+            <token id="9" string="the" />
+            <token id="10" string="M.V." />
+            <token id="11" string="Sagar" />
+            <token id="12" string="," />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">attack</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">attack</governor>
+          <dependent id="2">pirate</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">occurred</governor>
+          <dependent id="3">attack</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">ferry</governor>
+          <dependent id="4">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">ferry</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">ferry</governor>
+          <dependent id="6">second</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">attack</governor>
+          <dependent id="7">ferry</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">Sagar</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Sagar</governor>
+          <dependent id="10">M.V.</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="7">ferry</governor>
+          <dependent id="11">Sagar</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">occurred</governor>
+          <dependent id="13">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">occurred</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">River</governor>
+          <dependent id="15">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">River</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">River</governor>
+          <dependent id="17">Meghna</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">occurred</governor>
+          <dependent id="18">River</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="M.V. Sagar" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="10" string="M.V." />
+            <token id="11" string="Sagar" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Meghna River" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="17" string="Meghna" />
+            <token id="18" string="River" />
+          </tokens>
+        </entity>
+        <entity id="3" string="second" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="6" string="second" />
+          </tokens>
+        </entity>
+        <entity id="4" string="attack" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="3" string="attack" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>The Sagar was en route from Dhaka to Barisal when about 50 pirates launched their attack near Chandpur, 34 miles southeast of Dhaka.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="Sagar" lemma="Sagar" stem="sagar" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="en" lemma="en" stem="en" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="route" lemma="route" stem="rout" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Dhaka" lemma="Dhaka" stem="dhaka" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Barisal" lemma="Barisal" stem="baris" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="about" lemma="about" stem="about" pos="RB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="50" lemma="50" stem="50" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="13" string="pirates" lemma="pirate" stem="pirat" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="launched" lemma="launch" stem="launch" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="attack" lemma="attack" stem="attack" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="true" />
+        <token id="17" string="near" lemma="near" stem="near" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="Chandpur" lemma="Chandpur" stem="chandpur" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="34" lemma="34" stem="34" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="21" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="22" string="southeast" lemma="southeast" stem="southeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="24" string="Dhaka" lemma="Dhaka" stem="dhaka" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NNP Sagar)) (VP (VBD was) (ADVP (IN en) (NN route) (PP (IN from) (NP (NNP Dhaka)))) (PP (TO to) (NP (NNP Barisal))) (SBAR (WHADVP (WRB when)) (S (NP (QP (RB about) (CD 50)) (NNS pirates)) (VP (VBD launched) (NP (PRP$ their) (NN attack)) (PP (IN near) (NP (NP (NNP Chandpur)) (, ,) (NP (NP (CD 34) (NNS miles)) (NN southeast) (PP (IN of) (NP (NNP Dhaka)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Chandpur" type="NP">
+          <tokens>
+            <token id="18" string="Chandpur" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="was en route from Dhaka to Barisal when about 50 pirates launched their attack near Chandpur , 34 miles southeast of Dhaka" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="en" />
+            <token id="5" string="route" />
+            <token id="6" string="from" />
+            <token id="7" string="Dhaka" />
+            <token id="8" string="to" />
+            <token id="9" string="Barisal" />
+            <token id="10" string="when" />
+            <token id="11" string="about" />
+            <token id="12" string="50" />
+            <token id="13" string="pirates" />
+            <token id="14" string="launched" />
+            <token id="15" string="their" />
+            <token id="16" string="attack" />
+            <token id="17" string="near" />
+            <token id="18" string="Chandpur" />
+            <token id="19" string="," />
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+            <token id="22" string="southeast" />
+            <token id="23" string="of" />
+            <token id="24" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The Sagar" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Sagar" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="about 50 pirates" type="NP">
+          <tokens>
+            <token id="11" string="about" />
+            <token id="12" string="50" />
+            <token id="13" string="pirates" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Chandpur , 34 miles southeast of Dhaka" type="NP">
+          <tokens>
+            <token id="18" string="Chandpur" />
+            <token id="19" string="," />
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+            <token id="22" string="southeast" />
+            <token id="23" string="of" />
+            <token id="24" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="when" type="WHADVP">
+          <tokens>
+            <token id="10" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="launched their attack near Chandpur , 34 miles southeast of Dhaka" type="VP">
+          <tokens>
+            <token id="14" string="launched" />
+            <token id="15" string="their" />
+            <token id="16" string="attack" />
+            <token id="17" string="near" />
+            <token id="18" string="Chandpur" />
+            <token id="19" string="," />
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+            <token id="22" string="southeast" />
+            <token id="23" string="of" />
+            <token id="24" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="their attack" type="NP">
+          <tokens>
+            <token id="15" string="their" />
+            <token id="16" string="attack" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="34 miles" type="NP">
+          <tokens>
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="34 miles southeast of Dhaka" type="NP">
+          <tokens>
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+            <token id="22" string="southeast" />
+            <token id="23" string="of" />
+            <token id="24" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="when about 50 pirates launched their attack near Chandpur , 34 miles southeast of Dhaka" type="SBAR">
+          <tokens>
+            <token id="10" string="when" />
+            <token id="11" string="about" />
+            <token id="12" string="50" />
+            <token id="13" string="pirates" />
+            <token id="14" string="launched" />
+            <token id="15" string="their" />
+            <token id="16" string="attack" />
+            <token id="17" string="near" />
+            <token id="18" string="Chandpur" />
+            <token id="19" string="," />
+            <token id="20" string="34" />
+            <token id="21" string="miles" />
+            <token id="22" string="southeast" />
+            <token id="23" string="of" />
+            <token id="24" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Dhaka" type="NP">
+          <tokens>
+            <token id="7" string="Dhaka" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Barisal" type="NP">
+          <tokens>
+            <token id="9" string="Barisal" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">Sagar</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">Barisal</governor>
+          <dependent id="2">Sagar</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">Barisal</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">route</governor>
+          <dependent id="4">en</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">Barisal</governor>
+          <dependent id="5">route</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Dhaka</governor>
+          <dependent id="6">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">route</governor>
+          <dependent id="7">Dhaka</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Barisal</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">Barisal</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">launched</governor>
+          <dependent id="10">when</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">50</governor>
+          <dependent id="11">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">pirates</governor>
+          <dependent id="12">50</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">launched</governor>
+          <dependent id="13">pirates</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">Barisal</governor>
+          <dependent id="14">launched</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">attack</governor>
+          <dependent id="15">their</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">launched</governor>
+          <dependent id="16">attack</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Chandpur</governor>
+          <dependent id="17">near</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">launched</governor>
+          <dependent id="18">Chandpur</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">miles</governor>
+          <dependent id="20">34</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">southeast</governor>
+          <dependent id="21">miles</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="18">Chandpur</governor>
+          <dependent id="22">southeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Dhaka</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">southeast</governor>
+          <dependent id="24">Dhaka</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Chandpur" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Chandpur" />
+          </tokens>
+        </entity>
+        <entity id="2" string="34" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="34" />
+          </tokens>
+        </entity>
+        <entity id="3" string="attack" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="16" string="attack" />
+          </tokens>
+        </entity>
+        <entity id="4" string="50" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="12" string="50" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Dhaka" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Dhaka" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Barisal" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Barisal" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>The pirates, who had boarded the ferry as passengers, opened fire and exploded bombs shortly before midnight Tuesday as people were bedding down for the night, Chandpur police said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="pirates" lemma="pirate" stem="pirat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="boarded" lemma="board" stem="board" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="ferry" lemma="ferry" stem="ferri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="passengers" lemma="passenger" stem="passeng" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="opened" lemma="open" stem="open" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="fire" lemma="fire" stem="fire" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="exploded" lemma="explode" stem="explod" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="bombs" lemma="bomb" stem="bomb" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="shortly" lemma="shortly" stem="shortli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="midnight" lemma="midnight" stem="midnight" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="20" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="21" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="23" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="bedding" lemma="bedding" stem="bed" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="down" lemma="down" stem="down" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="28" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Chandpur" lemma="Chandpur" stem="chandpur" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="31" string="police" lemma="police" stem="polic" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT The) (NNS pirates)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD had) (VP (VBN boarded) (NP (DT the) (NN ferry)) (PP (IN as) (NP (NNS passengers))))))) (, ,)) (VP (VP (VBD opened) (NP (NN fire))) (CC and) (VP (VBD exploded) (NP (NNS bombs)) (ADVP (RB shortly) (PP (IN before) (NP (NN midnight)) (NP-TMP (NNP Tuesday)))) (SBAR (IN as) (S (NP (NNS people)) (VP (VBD were) (NP (NN bedding)) (ADVP (IN down) (PP (IN for) (NP (DT the) (NN night)))))))))) (, ,) (NP (NNP Chandpur) (NNS police)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The pirates , who had boarded the ferry as passengers ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="pirates" />
+            <token id="3" string="," />
+            <token id="4" string="who" />
+            <token id="5" string="had" />
+            <token id="6" string="boarded" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="as" />
+            <token id="10" string="passengers" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="who had boarded the ferry as passengers" type="SBAR">
+          <tokens>
+            <token id="4" string="who" />
+            <token id="5" string="had" />
+            <token id="6" string="boarded" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="as" />
+            <token id="10" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="passengers" type="NP">
+          <tokens>
+            <token id="10" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="opened fire and exploded bombs shortly before midnight Tuesday as people were bedding down for the night" type="VP">
+          <tokens>
+            <token id="12" string="opened" />
+            <token id="13" string="fire" />
+            <token id="14" string="and" />
+            <token id="15" string="exploded" />
+            <token id="16" string="bombs" />
+            <token id="17" string="shortly" />
+            <token id="18" string="before" />
+            <token id="19" string="midnight" />
+            <token id="20" string="Tuesday" />
+            <token id="21" string="as" />
+            <token id="22" string="people" />
+            <token id="23" string="were" />
+            <token id="24" string="bedding" />
+            <token id="25" string="down" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the night" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="bombs" type="NP">
+          <tokens>
+            <token id="16" string="bombs" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="were bedding down for the night" type="VP">
+          <tokens>
+            <token id="23" string="were" />
+            <token id="24" string="bedding" />
+            <token id="25" string="down" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The pirates" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="pirates" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="people" type="NP">
+          <tokens>
+            <token id="22" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="had boarded the ferry as passengers" type="VP">
+          <tokens>
+            <token id="5" string="had" />
+            <token id="6" string="boarded" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="as" />
+            <token id="10" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="as people were bedding down for the night" type="SBAR">
+          <tokens>
+            <token id="21" string="as" />
+            <token id="22" string="people" />
+            <token id="23" string="were" />
+            <token id="24" string="bedding" />
+            <token id="25" string="down" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="bedding" type="NP">
+          <tokens>
+            <token id="24" string="bedding" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the ferry" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="opened fire" type="VP">
+          <tokens>
+            <token id="12" string="opened" />
+            <token id="13" string="fire" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Chandpur police" type="NP">
+          <tokens>
+            <token id="30" string="Chandpur" />
+            <token id="31" string="police" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="boarded the ferry as passengers" type="VP">
+          <tokens>
+            <token id="6" string="boarded" />
+            <token id="7" string="the" />
+            <token id="8" string="ferry" />
+            <token id="9" string="as" />
+            <token id="10" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="fire" type="NP">
+          <tokens>
+            <token id="13" string="fire" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="midnight" type="NP">
+          <tokens>
+            <token id="19" string="midnight" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="said" type="VP">
+          <tokens>
+            <token id="32" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="exploded bombs shortly before midnight Tuesday as people were bedding down for the night" type="VP">
+          <tokens>
+            <token id="15" string="exploded" />
+            <token id="16" string="bombs" />
+            <token id="17" string="shortly" />
+            <token id="18" string="before" />
+            <token id="19" string="midnight" />
+            <token id="20" string="Tuesday" />
+            <token id="21" string="as" />
+            <token id="22" string="people" />
+            <token id="23" string="were" />
+            <token id="24" string="bedding" />
+            <token id="25" string="down" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="night" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">pirates</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">opened</governor>
+          <dependent id="2">pirates</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">boarded</governor>
+          <dependent id="4">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">boarded</governor>
+          <dependent id="5">had</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">pirates</governor>
+          <dependent id="6">boarded</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">ferry</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">boarded</governor>
+          <dependent id="8">ferry</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">passengers</governor>
+          <dependent id="9">as</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">boarded</governor>
+          <dependent id="10">passengers</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="32">said</governor>
+          <dependent id="12">opened</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">opened</governor>
+          <dependent id="13">fire</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">opened</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">opened</governor>
+          <dependent id="15">exploded</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">exploded</governor>
+          <dependent id="16">bombs</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">exploded</governor>
+          <dependent id="17">shortly</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">midnight</governor>
+          <dependent id="18">before</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">shortly</governor>
+          <dependent id="19">midnight</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="19">midnight</governor>
+          <dependent id="20">Tuesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">bedding</governor>
+          <dependent id="21">as</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">bedding</governor>
+          <dependent id="22">people</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="24">bedding</governor>
+          <dependent id="23">were</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="15">exploded</governor>
+          <dependent id="24">bedding</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">bedding</governor>
+          <dependent id="25">down</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">night</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">night</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">down</governor>
+          <dependent id="28">night</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">police</governor>
+          <dependent id="30">Chandpur</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="32">said</governor>
+          <dependent id="31">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="32">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Chandpur" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="30" string="Chandpur" />
+          </tokens>
+        </entity>
+        <entity id="2" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="28" string="night" />
+          </tokens>
+        </entity>
+        <entity id="3" string="fire" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="13" string="fire" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="Tuesday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="midnight" type="TIME" score="0.0">
+          <tokens>
+            <token id="19" string="midnight" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="true">
+      <content>The attackers escaped in waiting boats, the police added.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="attackers" lemma="attacker" stem="attack" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="escaped" lemma="escape" stem="escap" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="waiting" lemma="wait" stem="wait" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="boats" lemma="boat" stem="boat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="added" lemma="add" stem="ad" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NNS attackers)) (VP (VBD escaped) (PP (IN in) (S (VP (VBG waiting) (NP (NNS boats))))))) (, ,) (NP (DT the) (NN police)) (VP (VBD added)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The attackers" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="attackers" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="escaped in waiting boats" type="VP">
+          <tokens>
+            <token id="3" string="escaped" />
+            <token id="4" string="in" />
+            <token id="5" string="waiting" />
+            <token id="6" string="boats" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="boats" type="NP">
+          <tokens>
+            <token id="6" string="boats" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="added" type="VP">
+          <tokens>
+            <token id="10" string="added" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="waiting boats" type="VP">
+          <tokens>
+            <token id="5" string="waiting" />
+            <token id="6" string="boats" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the police" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="police" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">attackers</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">escaped</governor>
+          <dependent id="2">attackers</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">added</governor>
+          <dependent id="3">escaped</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="5">waiting</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="3">escaped</governor>
+          <dependent id="5">waiting</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">waiting</governor>
+          <dependent id="6">boats</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">police</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">added</governor>
+          <dependent id="9">police</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">added</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="15" has_coreference="true">
+      <content>They said 44 of the injured passengers were hospitalized, including four in critical condition.</content>
+      <tokens>
+        <token id="1" string="They" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="44" lemma="44" stem="44" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="injured" lemma="injured" stem="injur" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="passengers" lemma="passenger" stem="passeng" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="hospitalized" lemma="hospitalize" stem="hospit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="13" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="critical" lemma="critical" stem="critic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP They)) (VP (VBD said) (SBAR (S (NP (NP (CD 44)) (PP (IN of) (NP (DT the) (JJ injured) (NNS passengers)))) (VP (VBD were) (VP (VBN hospitalized) (, ,) (PP (VBG including) (NP (NP (CD four)) (PP (IN in) (NP (JJ critical) (NN condition)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="They" type="NP">
+          <tokens>
+            <token id="1" string="They" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="four" type="NP">
+          <tokens>
+            <token id="12" string="four" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="were hospitalized , including four in critical condition" type="VP">
+          <tokens>
+            <token id="8" string="were" />
+            <token id="9" string="hospitalized" />
+            <token id="10" string="," />
+            <token id="11" string="including" />
+            <token id="12" string="four" />
+            <token id="13" string="in" />
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="44 of the injured passengers" type="NP">
+          <tokens>
+            <token id="3" string="44" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="injured" />
+            <token id="7" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="44 of the injured passengers were hospitalized , including four in critical condition" type="SBAR">
+          <tokens>
+            <token id="3" string="44" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="injured" />
+            <token id="7" string="passengers" />
+            <token id="8" string="were" />
+            <token id="9" string="hospitalized" />
+            <token id="10" string="," />
+            <token id="11" string="including" />
+            <token id="12" string="four" />
+            <token id="13" string="in" />
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the injured passengers" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="injured" />
+            <token id="7" string="passengers" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="hospitalized , including four in critical condition" type="VP">
+          <tokens>
+            <token id="9" string="hospitalized" />
+            <token id="10" string="," />
+            <token id="11" string="including" />
+            <token id="12" string="four" />
+            <token id="13" string="in" />
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="critical condition" type="NP">
+          <tokens>
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said 44 of the injured passengers were hospitalized , including four in critical condition" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="44" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="injured" />
+            <token id="7" string="passengers" />
+            <token id="8" string="were" />
+            <token id="9" string="hospitalized" />
+            <token id="10" string="," />
+            <token id="11" string="including" />
+            <token id="12" string="four" />
+            <token id="13" string="in" />
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="four in critical condition" type="NP">
+          <tokens>
+            <token id="12" string="four" />
+            <token id="13" string="in" />
+            <token id="14" string="critical" />
+            <token id="15" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="44" type="NP">
+          <tokens>
+            <token id="3" string="44" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">They</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">hospitalized</governor>
+          <dependent id="3">44</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">passengers</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">passengers</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">passengers</governor>
+          <dependent id="6">injured</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">44</governor>
+          <dependent id="7">passengers</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">hospitalized</governor>
+          <dependent id="8">were</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="9">hospitalized</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">four</governor>
+          <dependent id="11">including</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">hospitalized</governor>
+          <dependent id="12">four</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">condition</governor>
+          <dependent id="13">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">condition</governor>
+          <dependent id="14">critical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">four</governor>
+          <dependent id="15">condition</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="four" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="12" string="four" />
+          </tokens>
+        </entity>
+        <entity id="2" string="44" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="44" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="12-13-14-15" string="the sinking Wednesday night" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="27-28" string="the night" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="9" string="Chandpur" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="18-24" string="Chandpur , 34 miles southeast of Dhaka" id_sentence="12" />
+        <mention ids_tokens="20-24" string="34 miles southeast of Dhaka" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="6-7-8-9" string="river pirates near Chandpur" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="7-8" string="the pirates" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="10-11" string="late Tuesday" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="20" string="Tuesday" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="18-19" string="Chandpur police" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="17" string="police" id_sentence="6" />
+        <mention ids_tokens="1" string="Police" id_sentence="9" />
+        <mention ids_tokens="8-9" string="the police" id_sentence="14" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="13-14" string="homemade bombs" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="16" string="bombs" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="NOMINAL">
+      <referenced ids_tokens="14-15" string="100 passengers" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1" string="They" id_sentence="7" />
+        <mention ids_tokens="10" string="passengers" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9-10" string="100 people on the ferry 's roof" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="22" string="people" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="NOMINAL">
+      <referenced ids_tokens="7-8-9" string="the ferry 's" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The ferry" id_sentence="8" />
+        <mention ids_tokens="22" string="it" id_sentence="8" />
+        <mention ids_tokens="11-16" string="the ferry , the M.L. Sonali" id_sentence="9" />
+        <mention ids_tokens="11-12" string="the ferry" id_sentence="9" />
+        <mention ids_tokens="15-16" string="the ferry" id_sentence="10" />
+        <mention ids_tokens="7-8" string="the ferry" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="16" type="PROPER">
+      <referenced ids_tokens="10-11" string="M.V. Sagar" id_sentence="11" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The Sagar" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="17" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11" string="The pirate attack on the second ferry , the M.V. Sagar" id_sentence="11" />
+      <mentions>
+        <mention ids_tokens="15-16" string="their attack" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="18" type="NOMINAL">
+      <referenced ids_tokens="11-12-13" string="about 50 pirates" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The pirates" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="19" type="NOMINAL">
+      <referenced ids_tokens="1-2" string="The attackers" id_sentence="14" />
+      <mentions>
+        <mention ids_tokens="1" string="They" id_sentence="15" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

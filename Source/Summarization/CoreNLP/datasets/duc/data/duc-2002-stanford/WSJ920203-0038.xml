@@ -1,0 +1,3571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="WSJ920203-0038">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>With the end of the Cold War, the U.N. is playing an increasingly important role in working to resolve regional disputes.</content>
+      <tokens>
+        <token id="1" string="With" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="end" lemma="end" stem="end" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="Cold" lemma="Cold" stem="cold" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="7" string="War" lemma="War" stem="war" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="U.N." lemma="U.N." stem="u.n." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="playing" lemma="play" stem="plai" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="increasingly" lemma="increasingly" stem="increasingli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="important" lemma="important" stem="import" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="role" lemma="role" stem="role" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="working" lemma="work" stem="work" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="resolve" lemma="resolve" stem="resolv" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="regional" lemma="regional" stem="region" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="disputes" lemma="dispute" stem="disput" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN With) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (DT the) (NNP Cold) (NNP War))))) (, ,) (NP (DT the) (NNP U.N.)) (VP (VBZ is) (VP (VBG playing) (NP (DT an) (ADJP (RB increasingly) (JJ important)) (NN role)) (PP (IN in) (S (VP (VBG working) (S (VP (TO to) (VP (VB resolve) (NP (JJ regional) (NNS disputes)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the end of the Cold War" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="end" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="Cold" />
+            <token id="7" string="War" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the end" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="end" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the U.N." type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="U.N." />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="playing an increasingly important role in working to resolve regional disputes" type="VP">
+          <tokens>
+            <token id="12" string="playing" />
+            <token id="13" string="an" />
+            <token id="14" string="increasingly" />
+            <token id="15" string="important" />
+            <token id="16" string="role" />
+            <token id="17" string="in" />
+            <token id="18" string="working" />
+            <token id="19" string="to" />
+            <token id="20" string="resolve" />
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is playing an increasingly important role in working to resolve regional disputes" type="VP">
+          <tokens>
+            <token id="11" string="is" />
+            <token id="12" string="playing" />
+            <token id="13" string="an" />
+            <token id="14" string="increasingly" />
+            <token id="15" string="important" />
+            <token id="16" string="role" />
+            <token id="17" string="in" />
+            <token id="18" string="working" />
+            <token id="19" string="to" />
+            <token id="20" string="resolve" />
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="regional disputes" type="NP">
+          <tokens>
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Cold War" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="Cold" />
+            <token id="7" string="War" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="an increasingly important role" type="NP">
+          <tokens>
+            <token id="13" string="an" />
+            <token id="14" string="increasingly" />
+            <token id="15" string="important" />
+            <token id="16" string="role" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="resolve regional disputes" type="VP">
+          <tokens>
+            <token id="20" string="resolve" />
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="increasingly important" type="ADJP">
+          <tokens>
+            <token id="14" string="increasingly" />
+            <token id="15" string="important" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="working to resolve regional disputes" type="VP">
+          <tokens>
+            <token id="18" string="working" />
+            <token id="19" string="to" />
+            <token id="20" string="resolve" />
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to resolve regional disputes" type="VP">
+          <tokens>
+            <token id="19" string="to" />
+            <token id="20" string="resolve" />
+            <token id="21" string="regional" />
+            <token id="22" string="disputes" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">end</governor>
+          <dependent id="1">With</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">end</governor>
+          <dependent id="2">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">playing</governor>
+          <dependent id="3">end</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">War</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">War</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">War</governor>
+          <dependent id="6">Cold</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">end</governor>
+          <dependent id="7">War</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">U.N.</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">playing</governor>
+          <dependent id="10">U.N.</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="12">playing</governor>
+          <dependent id="11">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">playing</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">role</governor>
+          <dependent id="13">an</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">important</governor>
+          <dependent id="14">increasingly</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">role</governor>
+          <dependent id="15">important</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">playing</governor>
+          <dependent id="16">role</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">working</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="12">playing</governor>
+          <dependent id="18">working</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="20">resolve</governor>
+          <dependent id="19">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="18">working</governor>
+          <dependent id="20">resolve</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">disputes</governor>
+          <dependent id="21">regional</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">resolve</governor>
+          <dependent id="22">disputes</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Cold War" type="MISC" score="0.0">
+          <tokens>
+            <token id="6" string="Cold" />
+            <token id="7" string="War" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.N." type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="10" string="U.N." />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>It has led efforts to end civil wars in El Salvador and Cambodia, and it also helped monitor elections in Namibia.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="led" lemma="lead" stem="led" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="efforts" lemma="effort" stem="effort" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="end" lemma="end" stem="end" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="civil" lemma="civil" stem="civil" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="wars" lemma="war" stem="war" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="El" lemma="El" stem="el" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="Salvador" lemma="Salvador" stem="salvador" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Cambodia" lemma="Cambodia" stem="cambodia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="helped" lemma="help" stem="help" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="monitor" lemma="monitor" stem="monitor" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="elections" lemma="election" stem="elect" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Namibia" lemma="Namibia" stem="namibia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (PRP It)) (VP (VBZ has) (VP (VBN led) (NP (NNS efforts)) (S (VP (TO to) (VP (VB end) (NP (JJ civil) (NNS wars)) (PP (IN in) (NP (NNP El) (NNP Salvador) (CC and) (NNP Cambodia))))))))) (, ,) (CC and) (S (NP (PRP it)) (ADVP (RB also)) (VP (VBD helped) (VP (VB monitor) (NP (NNS elections)) (PP (IN in) (NP (NNP Namibia)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="civil wars" type="NP">
+          <tokens>
+            <token id="7" string="civil" />
+            <token id="8" string="wars" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to end civil wars in El Salvador and Cambodia" type="VP">
+          <tokens>
+            <token id="5" string="to" />
+            <token id="6" string="end" />
+            <token id="7" string="civil" />
+            <token id="8" string="wars" />
+            <token id="9" string="in" />
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+            <token id="12" string="and" />
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="it" type="NP">
+          <tokens>
+            <token id="16" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="led efforts to end civil wars in El Salvador and Cambodia" type="VP">
+          <tokens>
+            <token id="3" string="led" />
+            <token id="4" string="efforts" />
+            <token id="5" string="to" />
+            <token id="6" string="end" />
+            <token id="7" string="civil" />
+            <token id="8" string="wars" />
+            <token id="9" string="in" />
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+            <token id="12" string="and" />
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="end civil wars in El Salvador and Cambodia" type="VP">
+          <tokens>
+            <token id="6" string="end" />
+            <token id="7" string="civil" />
+            <token id="8" string="wars" />
+            <token id="9" string="in" />
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+            <token id="12" string="and" />
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="elections" type="NP">
+          <tokens>
+            <token id="20" string="elections" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="has led efforts to end civil wars in El Salvador and Cambodia" type="VP">
+          <tokens>
+            <token id="2" string="has" />
+            <token id="3" string="led" />
+            <token id="4" string="efforts" />
+            <token id="5" string="to" />
+            <token id="6" string="end" />
+            <token id="7" string="civil" />
+            <token id="8" string="wars" />
+            <token id="9" string="in" />
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+            <token id="12" string="and" />
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="helped monitor elections in Namibia" type="VP">
+          <tokens>
+            <token id="18" string="helped" />
+            <token id="19" string="monitor" />
+            <token id="20" string="elections" />
+            <token id="21" string="in" />
+            <token id="22" string="Namibia" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="efforts" type="NP">
+          <tokens>
+            <token id="4" string="efforts" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="monitor elections in Namibia" type="VP">
+          <tokens>
+            <token id="19" string="monitor" />
+            <token id="20" string="elections" />
+            <token id="21" string="in" />
+            <token id="22" string="Namibia" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Namibia" type="NP">
+          <tokens>
+            <token id="22" string="Namibia" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="El Salvador and Cambodia" type="NP">
+          <tokens>
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+            <token id="12" string="and" />
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">led</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">led</governor>
+          <dependent id="2">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">led</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">led</governor>
+          <dependent id="4">efforts</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="6">end</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="3">led</governor>
+          <dependent id="6">end</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">wars</governor>
+          <dependent id="7">civil</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">end</governor>
+          <dependent id="8">wars</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Salvador</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Salvador</governor>
+          <dependent id="10">El</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">end</governor>
+          <dependent id="11">Salvador</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">Salvador</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">Salvador</governor>
+          <dependent id="13">Cambodia</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">led</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">helped</governor>
+          <dependent id="16">it</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">helped</governor>
+          <dependent id="17">also</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">led</governor>
+          <dependent id="18">helped</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="18">helped</governor>
+          <dependent id="19">monitor</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">monitor</governor>
+          <dependent id="20">elections</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Namibia</governor>
+          <dependent id="21">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">monitor</governor>
+          <dependent id="22">Namibia</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="El Salvador" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="El" />
+            <token id="11" string="Salvador" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Namibia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="22" string="Namibia" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cambodia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="13" string="Cambodia" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Last Friday, during an unprecedented U.N. Security Council meeting of heads of state, President Bush reaffirmed the U.N.&amp;apost;s leading role in peacemaking.</content>
+      <tokens>
+        <token id="1" string="Last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="unprecedented" lemma="unprecedented" stem="unpreced" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="U.N." lemma="U.N." stem="u.n." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="Security" lemma="Security" stem="secur" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="Council" lemma="Council" stem="council" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="meeting" lemma="meeting" stem="meet" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="heads" lemma="head" stem="head" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="President" lemma="President" stem="presid" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="false" />
+        <token id="17" string="Bush" lemma="Bush" stem="bush" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="reaffirmed" lemma="reaffirm" stem="reaffirm" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="U.N." lemma="U.N." stem="u.n." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="21" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="22" string="leading" lemma="lead" stem="lead" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="role" lemma="role" stem="role" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="peacemaking" lemma="peacemaking" stem="peacemak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP-TMP (JJ Last) (NNP Friday)) (, ,) (PP (IN during) (NP (NP (DT an) (JJ unprecedented) (NNP U.N.) (NNP Security) (NNP Council) (NN meeting)) (PP (IN of) (NP (NP (NNS heads)) (PP (IN of) (NP (NN state))))))) (, ,) (NP (NNP President) (NNP Bush)) (VP (VBD reaffirmed) (NP (NP (NP (DT the) (NNP U.N.) (POS 's)) (VBG leading) (NN role)) (PP (IN in) (NP (NN peacemaking))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="peacemaking" type="NP">
+          <tokens>
+            <token id="25" string="peacemaking" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the U.N. 's leading role in peacemaking" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="U.N." />
+            <token id="21" string="'s" />
+            <token id="22" string="leading" />
+            <token id="23" string="role" />
+            <token id="24" string="in" />
+            <token id="25" string="peacemaking" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the U.N. 's leading role" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="U.N." />
+            <token id="21" string="'s" />
+            <token id="22" string="leading" />
+            <token id="23" string="role" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="heads of state" type="NP">
+          <tokens>
+            <token id="12" string="heads" />
+            <token id="13" string="of" />
+            <token id="14" string="state" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="an unprecedented U.N. Security Council meeting of heads of state" type="NP">
+          <tokens>
+            <token id="5" string="an" />
+            <token id="6" string="unprecedented" />
+            <token id="7" string="U.N." />
+            <token id="8" string="Security" />
+            <token id="9" string="Council" />
+            <token id="10" string="meeting" />
+            <token id="11" string="of" />
+            <token id="12" string="heads" />
+            <token id="13" string="of" />
+            <token id="14" string="state" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="President Bush" type="NP">
+          <tokens>
+            <token id="16" string="President" />
+            <token id="17" string="Bush" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="heads" type="NP">
+          <tokens>
+            <token id="12" string="heads" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="state" type="NP">
+          <tokens>
+            <token id="14" string="state" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="an unprecedented U.N. Security Council meeting" type="NP">
+          <tokens>
+            <token id="5" string="an" />
+            <token id="6" string="unprecedented" />
+            <token id="7" string="U.N." />
+            <token id="8" string="Security" />
+            <token id="9" string="Council" />
+            <token id="10" string="meeting" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="reaffirmed the U.N. 's leading role in peacemaking" type="VP">
+          <tokens>
+            <token id="18" string="reaffirmed" />
+            <token id="19" string="the" />
+            <token id="20" string="U.N." />
+            <token id="21" string="'s" />
+            <token id="22" string="leading" />
+            <token id="23" string="role" />
+            <token id="24" string="in" />
+            <token id="25" string="peacemaking" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the U.N. 's" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="U.N." />
+            <token id="21" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">Friday</governor>
+          <dependent id="1">Last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="18">reaffirmed</governor>
+          <dependent id="2">Friday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">meeting</governor>
+          <dependent id="4">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">meeting</governor>
+          <dependent id="5">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">meeting</governor>
+          <dependent id="6">unprecedented</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">meeting</governor>
+          <dependent id="7">U.N.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">meeting</governor>
+          <dependent id="8">Security</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">meeting</governor>
+          <dependent id="9">Council</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">reaffirmed</governor>
+          <dependent id="10">meeting</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">heads</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">meeting</governor>
+          <dependent id="12">heads</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">state</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">heads</governor>
+          <dependent id="14">state</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Bush</governor>
+          <dependent id="16">President</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">reaffirmed</governor>
+          <dependent id="17">Bush</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">reaffirmed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">U.N.</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="23">role</governor>
+          <dependent id="20">U.N.</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">U.N.</governor>
+          <dependent id="21">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">role</governor>
+          <dependent id="22">leading</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">reaffirmed</governor>
+          <dependent id="23">role</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">peacemaking</governor>
+          <dependent id="24">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">role</governor>
+          <dependent id="25">peacemaking</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Bush" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Bush" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Last Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Last" />
+            <token id="2" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="U.N. Security Council" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="7" string="U.N." />
+            <token id="8" string="Security" />
+            <token id="9" string="Council" />
+          </tokens>
+        </entity>
+        <entity id="4" string="President" type="TITLE" score="0.0">
+          <tokens>
+            <token id="16" string="President" />
+          </tokens>
+        </entity>
+        <entity id="5" string="U.N." type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="20" string="U.N." />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>The assignment in India could be an important one.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="assignment" lemma="assignment" stem="assign" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="India" lemma="India" stem="india" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="important" lemma="important" stem="import" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="10" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NN assignment)) (PP (IN in) (NP (NNP India)))) (VP (MD could) (VP (VB be) (NP (DT an) (JJ important) (CD one)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="could be an important one" type="VP">
+          <tokens>
+            <token id="5" string="could" />
+            <token id="6" string="be" />
+            <token id="7" string="an" />
+            <token id="8" string="important" />
+            <token id="9" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The assignment" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="assignment" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="be an important one" type="VP">
+          <tokens>
+            <token id="6" string="be" />
+            <token id="7" string="an" />
+            <token id="8" string="important" />
+            <token id="9" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="an important one" type="NP">
+          <tokens>
+            <token id="7" string="an" />
+            <token id="8" string="important" />
+            <token id="9" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The assignment in India" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="assignment" />
+            <token id="3" string="in" />
+            <token id="4" string="India" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="India" type="NP">
+          <tokens>
+            <token id="4" string="India" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">assignment</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">one</governor>
+          <dependent id="2">assignment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">India</governor>
+          <dependent id="3">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">assignment</governor>
+          <dependent id="4">India</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">one</governor>
+          <dependent id="5">could</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">one</governor>
+          <dependent id="6">be</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">one</governor>
+          <dependent id="7">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">one</governor>
+          <dependent id="8">important</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">one</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="one" />
+          </tokens>
+        </entity>
+        <entity id="2" string="India" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="4" string="India" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>India and its neighbor Pakistan remain embroiled in a long, bitter feud that has the potential of becoming one of the world&amp;apost;s few remaining nuclear standoffs.</content>
+      <tokens>
+        <token id="1" string="India" lemma="India" stem="india" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="neighbor" lemma="neighbor" stem="neighbor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="Pakistan" lemma="Pakistan" stem="pakistan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="remain" lemma="remain" stem="remain" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="embroiled" lemma="embroil" stem="embroil" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="long" lemma="long" stem="long" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="bitter" lemma="bitter" stem="bitter" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="feud" lemma="feud" stem="feud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="potential" lemma="potential" stem="potenti" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="becoming" lemma="become" stem="becom" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="world" lemma="world" stem="world" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="few" lemma="few" stem="few" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="remaining" lemma="remain" stem="remain" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="nuclear" lemma="nuclear" stem="nuclear" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="standoffs" lemma="standoff" stem="standoff" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP India)) (CC and) (NP (PRP$ its) (NN neighbor) (NNP Pakistan))) (VP (VBP remain) (VP (VBN embroiled) (PP (IN in) (NP (NP (DT a) (ADJP (RB long)) (, ,) (JJ bitter) (NN feud)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (NP (NP (DT the) (NN potential)) (PP (IN of) (S (VP (VBG becoming) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (NN world) (POS 's)) (JJ few) (VBG remaining))) (NP (JJ nuclear) (NNS standoffs)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a long , bitter feud" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="long" />
+            <token id="11" string="," />
+            <token id="12" string="bitter" />
+            <token id="13" string="feud" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="its neighbor Pakistan" type="NP">
+          <tokens>
+            <token id="3" string="its" />
+            <token id="4" string="neighbor" />
+            <token id="5" string="Pakistan" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="one" type="NP">
+          <tokens>
+            <token id="20" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="embroiled in a long , bitter feud that has the potential of becoming one of the world 's few remaining nuclear standoffs" type="VP">
+          <tokens>
+            <token id="7" string="embroiled" />
+            <token id="8" string="in" />
+            <token id="9" string="a" />
+            <token id="10" string="long" />
+            <token id="11" string="," />
+            <token id="12" string="bitter" />
+            <token id="13" string="feud" />
+            <token id="14" string="that" />
+            <token id="15" string="has" />
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="has the potential of becoming one of the world 's few remaining nuclear standoffs" type="VP">
+          <tokens>
+            <token id="15" string="has" />
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the world 's few remaining" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="India and its neighbor Pakistan" type="NP">
+          <tokens>
+            <token id="1" string="India" />
+            <token id="2" string="and" />
+            <token id="3" string="its" />
+            <token id="4" string="neighbor" />
+            <token id="5" string="Pakistan" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="long" type="ADJP">
+          <tokens>
+            <token id="10" string="long" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="that has the potential of becoming one of the world 's few remaining nuclear standoffs" type="SBAR">
+          <tokens>
+            <token id="14" string="that" />
+            <token id="15" string="has" />
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="India" type="NP">
+          <tokens>
+            <token id="1" string="India" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the potential of becoming one of the world 's few remaining nuclear standoffs" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="one of the world 's few remaining nuclear standoffs" type="NP">
+          <tokens>
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="becoming one of the world 's few remaining nuclear standoffs" type="VP">
+          <tokens>
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="remain embroiled in a long , bitter feud that has the potential of becoming one of the world 's few remaining nuclear standoffs" type="VP">
+          <tokens>
+            <token id="6" string="remain" />
+            <token id="7" string="embroiled" />
+            <token id="8" string="in" />
+            <token id="9" string="a" />
+            <token id="10" string="long" />
+            <token id="11" string="," />
+            <token id="12" string="bitter" />
+            <token id="13" string="feud" />
+            <token id="14" string="that" />
+            <token id="15" string="has" />
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a long , bitter feud that has the potential of becoming one of the world 's few remaining nuclear standoffs" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="long" />
+            <token id="11" string="," />
+            <token id="12" string="bitter" />
+            <token id="13" string="feud" />
+            <token id="14" string="that" />
+            <token id="15" string="has" />
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+            <token id="18" string="of" />
+            <token id="19" string="becoming" />
+            <token id="20" string="one" />
+            <token id="21" string="of" />
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+            <token id="25" string="few" />
+            <token id="26" string="remaining" />
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the potential" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="potential" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="nuclear standoffs" type="NP">
+          <tokens>
+            <token id="27" string="nuclear" />
+            <token id="28" string="standoffs" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="the world 's" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="world" />
+            <token id="24" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="6">remain</governor>
+          <dependent id="1">India</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="1">India</governor>
+          <dependent id="2">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="5">Pakistan</governor>
+          <dependent id="3">its</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Pakistan</governor>
+          <dependent id="4">neighbor</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="1">India</governor>
+          <dependent id="5">Pakistan</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">remain</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">remain</governor>
+          <dependent id="7">embroiled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">feud</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">feud</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">feud</governor>
+          <dependent id="10">long</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">feud</governor>
+          <dependent id="12">bitter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">embroiled</governor>
+          <dependent id="13">feud</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">has</governor>
+          <dependent id="14">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">feud</governor>
+          <dependent id="15">has</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">potential</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">has</governor>
+          <dependent id="17">potential</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="19">becoming</governor>
+          <dependent id="18">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="17">potential</governor>
+          <dependent id="19">becoming</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="19">becoming</governor>
+          <dependent id="20">one</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">world</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">world</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">one</governor>
+          <dependent id="23">world</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">world</governor>
+          <dependent id="24">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">world</governor>
+          <dependent id="25">few</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">world</governor>
+          <dependent id="26">remaining</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">standoffs</governor>
+          <dependent id="27">nuclear</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="20">one</governor>
+          <dependent id="28">standoffs</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Pakistan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Pakistan" />
+          </tokens>
+        </entity>
+        <entity id="2" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="one" />
+          </tokens>
+        </entity>
+        <entity id="3" string="India" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="India" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Mr. Pickering was one of President Bush&amp;apost;s first ambassadorial appointments.</content>
+      <tokens>
+        <token id="1" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Pickering" lemma="Pickering" stem="picker" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="President" lemma="President" stem="presid" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="7" string="Bush" lemma="Bush" stem="bush" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="8" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="10" string="ambassadorial" lemma="ambassadorial" stem="ambassadori" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="appointments" lemma="appointment" stem="appoint" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Mr.) (NNP Pickering)) (VP (VBD was) (NP (NP (CD one)) (PP (IN of) (NP (NP (NNP President) (NNP Bush) (POS 's)) (JJ first) (JJ ambassadorial) (NNS appointments))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Mr. Pickering" type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Pickering" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="one" type="NP">
+          <tokens>
+            <token id="4" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="President Bush 's" type="NP">
+          <tokens>
+            <token id="6" string="President" />
+            <token id="7" string="Bush" />
+            <token id="8" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="one of President Bush 's first ambassadorial appointments" type="NP">
+          <tokens>
+            <token id="4" string="one" />
+            <token id="5" string="of" />
+            <token id="6" string="President" />
+            <token id="7" string="Bush" />
+            <token id="8" string="'s" />
+            <token id="9" string="first" />
+            <token id="10" string="ambassadorial" />
+            <token id="11" string="appointments" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was one of President Bush 's first ambassadorial appointments" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="one" />
+            <token id="5" string="of" />
+            <token id="6" string="President" />
+            <token id="7" string="Bush" />
+            <token id="8" string="'s" />
+            <token id="9" string="first" />
+            <token id="10" string="ambassadorial" />
+            <token id="11" string="appointments" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="President Bush 's first ambassadorial appointments" type="NP">
+          <tokens>
+            <token id="6" string="President" />
+            <token id="7" string="Bush" />
+            <token id="8" string="'s" />
+            <token id="9" string="first" />
+            <token id="10" string="ambassadorial" />
+            <token id="11" string="appointments" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Pickering</governor>
+          <dependent id="1">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">one</governor>
+          <dependent id="2">Pickering</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="4">one</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">one</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">appointments</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Bush</governor>
+          <dependent id="6">President</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="11">appointments</governor>
+          <dependent id="7">Bush</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Bush</governor>
+          <dependent id="8">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">appointments</governor>
+          <dependent id="9">first</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">appointments</governor>
+          <dependent id="10">ambassadorial</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">one</governor>
+          <dependent id="11">appointments</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Pickering" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Pickering" />
+          </tokens>
+        </entity>
+        <entity id="2" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="9" string="first" />
+          </tokens>
+        </entity>
+        <entity id="3" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="one" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Bush" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Bush" />
+          </tokens>
+        </entity>
+        <entity id="5" string="President" type="TITLE" score="0.0">
+          <tokens>
+            <token id="6" string="President" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>He served at the U.N. during the time the administration was involved in the delicate negotiations that led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein&amp;apost;s regime.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="served" lemma="serve" stem="serv" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="U.N." lemma="U.N." stem="u.n." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="time" lemma="time" stem="time" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="administration" lemma="administration" stem="administr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="involved" lemma="involve" stem="involv" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="delicate" lemma="delicate" stem="delic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="negotiations" lemma="negotiation" stem="negoti" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="led" lemma="lead" stem="led" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="formation" lemma="formation" stem="format" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="coalition" lemma="coalition" stem="coalit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="Iraq" lemma="Iraq" stem="iraq" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="Persian" lemma="Persian" stem="persian" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="30" string="Gulf" lemma="Gulf" stem="gulf" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="31" string="War" lemma="War" stem="war" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="32" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="U.N." lemma="U.N." stem="u.n." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="35" string="sanctions" lemma="sanction" stem="sanction" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="Saddam" lemma="Saddam" stem="saddam" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="38" string="Hussein" lemma="Hussein" stem="hussein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="39" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="regime" lemma="regime" stem="regim" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (PRP He)) (VP (VBD served) (PP (IN at) (NP (DT the) (NNP U.N.))) (PP (IN during) (NP (DT the) (NN time))))) (NP (DT the) (NN administration)) (VP (VBD was) (VP (VBN involved) (PP (IN in) (NP (NP (DT the) (JJ delicate) (NNS negotiations)) (SBAR (WHNP (WDT that)) (S (VP (VBD led) (PP (TO to) (NP (NP (DT the) (NN formation)) (PP (IN of) (NP (DT the) (NN coalition))))) (PP (IN against) (NP (NP (NP (NNP Iraq)) (PP (IN in) (NP (DT the) (NNP Persian) (NNP Gulf) (NNP War)))) (CC and) (NP (NP (DT the) (NNP U.N.) (NNS sanctions)) (PP (IN against) (NP (NP (NNP Saddam) (NNP Hussein) (POS 's)) (NN regime))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="VP">
+          <tokens>
+            <token id="18" string="led" />
+            <token id="19" string="to" />
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+            <token id="25" string="against" />
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the administration" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="administration" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="NP">
+          <tokens>
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="involved in the delicate negotiations that led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="VP">
+          <tokens>
+            <token id="12" string="involved" />
+            <token id="13" string="in" />
+            <token id="14" string="the" />
+            <token id="15" string="delicate" />
+            <token id="16" string="negotiations" />
+            <token id="17" string="that" />
+            <token id="18" string="led" />
+            <token id="19" string="to" />
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+            <token id="25" string="against" />
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the coalition" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the formation of the coalition" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was involved in the delicate negotiations that led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="VP">
+          <tokens>
+            <token id="11" string="was" />
+            <token id="12" string="involved" />
+            <token id="13" string="in" />
+            <token id="14" string="the" />
+            <token id="15" string="delicate" />
+            <token id="16" string="negotiations" />
+            <token id="17" string="that" />
+            <token id="18" string="led" />
+            <token id="19" string="to" />
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+            <token id="25" string="against" />
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the formation" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the U.N. sanctions against Saddam Hussein 's regime" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the U.N. sanctions" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the delicate negotiations" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="delicate" />
+            <token id="16" string="negotiations" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the delicate negotiations that led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="delicate" />
+            <token id="16" string="negotiations" />
+            <token id="17" string="that" />
+            <token id="18" string="led" />
+            <token id="19" string="to" />
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+            <token id="25" string="against" />
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Saddam Hussein 's" type="NP">
+          <tokens>
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Iraq in the Persian Gulf War" type="NP">
+          <tokens>
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the U.N." type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="U.N." />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="that led to the formation of the coalition against Iraq in the Persian Gulf War and the U.N. sanctions against Saddam Hussein 's regime" type="SBAR">
+          <tokens>
+            <token id="17" string="that" />
+            <token id="18" string="led" />
+            <token id="19" string="to" />
+            <token id="20" string="the" />
+            <token id="21" string="formation" />
+            <token id="22" string="of" />
+            <token id="23" string="the" />
+            <token id="24" string="coalition" />
+            <token id="25" string="against" />
+            <token id="26" string="Iraq" />
+            <token id="27" string="in" />
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+            <token id="32" string="and" />
+            <token id="33" string="the" />
+            <token id="34" string="U.N." />
+            <token id="35" string="sanctions" />
+            <token id="36" string="against" />
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="served at the U.N. during the time" type="VP">
+          <tokens>
+            <token id="2" string="served" />
+            <token id="3" string="at" />
+            <token id="4" string="the" />
+            <token id="5" string="U.N." />
+            <token id="6" string="during" />
+            <token id="7" string="the" />
+            <token id="8" string="time" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="the time" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="time" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Iraq" type="NP">
+          <tokens>
+            <token id="26" string="Iraq" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the Persian Gulf War" type="NP">
+          <tokens>
+            <token id="28" string="the" />
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="Saddam Hussein 's regime" type="NP">
+          <tokens>
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+            <token id="39" string="'s" />
+            <token id="40" string="regime" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">served</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="12">involved</governor>
+          <dependent id="2">served</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">U.N.</governor>
+          <dependent id="3">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">U.N.</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">served</governor>
+          <dependent id="5">U.N.</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">time</governor>
+          <dependent id="6">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">time</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">served</governor>
+          <dependent id="8">time</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">administration</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="12">involved</governor>
+          <dependent id="10">administration</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="12">involved</governor>
+          <dependent id="11">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">involved</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">negotiations</governor>
+          <dependent id="13">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">negotiations</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">negotiations</governor>
+          <dependent id="15">delicate</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">involved</governor>
+          <dependent id="16">negotiations</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">led</governor>
+          <dependent id="17">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="16">negotiations</governor>
+          <dependent id="18">led</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">formation</governor>
+          <dependent id="19">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">formation</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">led</governor>
+          <dependent id="21">formation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">coalition</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">coalition</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">formation</governor>
+          <dependent id="24">coalition</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">Iraq</governor>
+          <dependent id="25">against</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">led</governor>
+          <dependent id="26">Iraq</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">War</governor>
+          <dependent id="27">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">War</governor>
+          <dependent id="28">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">War</governor>
+          <dependent id="29">Persian</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">War</governor>
+          <dependent id="30">Gulf</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">Iraq</governor>
+          <dependent id="31">War</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="26">Iraq</governor>
+          <dependent id="32">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">sanctions</governor>
+          <dependent id="33">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">sanctions</governor>
+          <dependent id="34">U.N.</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">Iraq</governor>
+          <dependent id="35">sanctions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="40">regime</governor>
+          <dependent id="36">against</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="38">Hussein</governor>
+          <dependent id="37">Saddam</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="40">regime</governor>
+          <dependent id="38">Hussein</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="38">Hussein</governor>
+          <dependent id="39">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">sanctions</governor>
+          <dependent id="40">regime</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Saddam Hussein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="37" string="Saddam" />
+            <token id="38" string="Hussein" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Persian Gulf War" type="MISC" score="0.0">
+          <tokens>
+            <token id="29" string="Persian" />
+            <token id="30" string="Gulf" />
+            <token id="31" string="War" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Iraq" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Iraq" />
+          </tokens>
+        </entity>
+        <entity id="4" string="U.N." type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="5" string="U.N." />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>But some senior State Department officials have been irritated by what they call Mr. Pickering&amp;apost;s propensity for the media spotlight.</content>
+      <tokens>
+        <token id="1" string="But" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="senior" lemma="senior" stem="senior" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="State" lemma="State" stem="state" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="Department" lemma="Department" stem="depart" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="officials" lemma="official" stem="offici" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="irritated" lemma="irritated" stem="irrit" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="what" lemma="what" stem="what" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="call" lemma="call" stem="call" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="15" string="Pickering" lemma="Pickering" stem="picker" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="16" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="propensity" lemma="propensity" stem="propens" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="media" lemma="media" stem="media" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="spotlight" lemma="spotlight" stem="spotlight" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (CC But) (NP (DT some) (JJ senior) (NNP State) (NNP Department) (NNS officials)) (VP (VBP have) (VP (VBN been) (VP (JJ irritated) (PP (IN by) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (VBP call) (NP (NP (NP (NNP Mr.) (NNP Pickering) (POS 's)) (NN propensity)) (PP (IN for) (NP (DT the) (NNS media) (NN spotlight))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="they" type="NP">
+          <tokens>
+            <token id="12" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Mr. Pickering 's propensity" type="NP">
+          <tokens>
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="irritated by what they call Mr. Pickering 's propensity for the media spotlight" type="VP">
+          <tokens>
+            <token id="9" string="irritated" />
+            <token id="10" string="by" />
+            <token id="11" string="what" />
+            <token id="12" string="they" />
+            <token id="13" string="call" />
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Mr. Pickering 's" type="NP">
+          <tokens>
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="some senior State Department officials" type="NP">
+          <tokens>
+            <token id="2" string="some" />
+            <token id="3" string="senior" />
+            <token id="4" string="State" />
+            <token id="5" string="Department" />
+            <token id="6" string="officials" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the media spotlight" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="have been irritated by what they call Mr. Pickering 's propensity for the media spotlight" type="VP">
+          <tokens>
+            <token id="7" string="have" />
+            <token id="8" string="been" />
+            <token id="9" string="irritated" />
+            <token id="10" string="by" />
+            <token id="11" string="what" />
+            <token id="12" string="they" />
+            <token id="13" string="call" />
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="call Mr. Pickering 's propensity for the media spotlight" type="VP">
+          <tokens>
+            <token id="13" string="call" />
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="what they call Mr. Pickering 's propensity for the media spotlight" type="SBAR">
+          <tokens>
+            <token id="11" string="what" />
+            <token id="12" string="they" />
+            <token id="13" string="call" />
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Mr. Pickering 's propensity for the media spotlight" type="NP">
+          <tokens>
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="been irritated by what they call Mr. Pickering 's propensity for the media spotlight" type="VP">
+          <tokens>
+            <token id="8" string="been" />
+            <token id="9" string="irritated" />
+            <token id="10" string="by" />
+            <token id="11" string="what" />
+            <token id="12" string="they" />
+            <token id="13" string="call" />
+            <token id="14" string="Mr." />
+            <token id="15" string="Pickering" />
+            <token id="16" string="'s" />
+            <token id="17" string="propensity" />
+            <token id="18" string="for" />
+            <token id="19" string="the" />
+            <token id="20" string="media" />
+            <token id="21" string="spotlight" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="cc">
+          <governor id="9">irritated</governor>
+          <dependent id="1">But</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">officials</governor>
+          <dependent id="2">some</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">officials</governor>
+          <dependent id="3">senior</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">officials</governor>
+          <dependent id="4">State</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">officials</governor>
+          <dependent id="5">Department</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">irritated</governor>
+          <dependent id="6">officials</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">irritated</governor>
+          <dependent id="7">have</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">irritated</governor>
+          <dependent id="8">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">irritated</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">call</governor>
+          <dependent id="10">by</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">call</governor>
+          <dependent id="11">what</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">call</governor>
+          <dependent id="12">they</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">irritated</governor>
+          <dependent id="13">call</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Pickering</governor>
+          <dependent id="14">Mr.</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="17">propensity</governor>
+          <dependent id="15">Pickering</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Pickering</governor>
+          <dependent id="16">'s</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">call</governor>
+          <dependent id="17">propensity</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">spotlight</governor>
+          <dependent id="18">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">spotlight</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">spotlight</governor>
+          <dependent id="20">media</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">propensity</governor>
+          <dependent id="21">spotlight</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Pickering" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="Pickering" />
+          </tokens>
+        </entity>
+        <entity id="2" string="State Department" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="State" />
+            <token id="5" string="Department" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>During the 1980s, when the Reagan administration drew the line against communist-backed insurgences in Central America, Mr. Pickering played an active role in that effort as U.S. envoy to El Salvador.</content>
+      <tokens>
+        <token id="1" string="During" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="1980s" lemma="1980s" stem="1980" pos="CD" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Reagan" lemma="Reagan" stem="reagan" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="8" string="administration" lemma="administration" stem="administr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="drew" lemma="draw" stem="drew" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="line" lemma="line" stem="line" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="communist-backed" lemma="communist-backed" stem="communist-back" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="insurgences" lemma="insurgence" stem="insurg" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Central" lemma="Central" stem="central" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="America" lemma="America" stem="america" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Pickering" lemma="Pickering" stem="picker" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="21" string="played" lemma="play" stem="plai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="active" lemma="active" stem="activ" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="role" lemma="role" stem="role" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="effort" lemma="effort" stem="effort" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="30" string="envoy" lemma="envoy" stem="envoi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="El" lemma="El" stem="el" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="33" string="Salvador" lemma="Salvador" stem="salvador" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN During) (NP (DT the) (CD 1980s))) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNP Reagan) (NN administration)) (VP (VBD drew) (NP (DT the) (NN line)) (PP (IN against) (NP (JJ communist-backed) (NNS insurgences))) (PP (IN in) (NP (NNP Central) (NNP America)))))) (, ,) (NP (NNP Mr.) (NNP Pickering)) (VP (VBD played) (NP (DT an) (JJ active) (NN role)) (PP (IN in) (NP (NP (DT that) (NN effort)) (PP (IN as) (NP (NNP U.S.) (NN envoy))))) (PP (TO to) (NP (NNP El) (NNP Salvador)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Central America" type="NP">
+          <tokens>
+            <token id="16" string="Central" />
+            <token id="17" string="America" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="communist-backed insurgences" type="NP">
+          <tokens>
+            <token id="13" string="communist-backed" />
+            <token id="14" string="insurgences" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="drew the line against communist-backed insurgences in Central America" type="VP">
+          <tokens>
+            <token id="9" string="drew" />
+            <token id="10" string="the" />
+            <token id="11" string="line" />
+            <token id="12" string="against" />
+            <token id="13" string="communist-backed" />
+            <token id="14" string="insurgences" />
+            <token id="15" string="in" />
+            <token id="16" string="Central" />
+            <token id="17" string="America" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="that effort as U.S. envoy" type="NP">
+          <tokens>
+            <token id="26" string="that" />
+            <token id="27" string="effort" />
+            <token id="28" string="as" />
+            <token id="29" string="U.S." />
+            <token id="30" string="envoy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="U.S. envoy" type="NP">
+          <tokens>
+            <token id="29" string="U.S." />
+            <token id="30" string="envoy" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="when" type="WHADVP">
+          <tokens>
+            <token id="5" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Mr. Pickering" type="NP">
+          <tokens>
+            <token id="19" string="Mr." />
+            <token id="20" string="Pickering" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="an active role" type="NP">
+          <tokens>
+            <token id="22" string="an" />
+            <token id="23" string="active" />
+            <token id="24" string="role" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="El Salvador" type="NP">
+          <tokens>
+            <token id="32" string="El" />
+            <token id="33" string="Salvador" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the 1980s" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="1980s" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="when the Reagan administration drew the line against communist-backed insurgences in Central America" type="SBAR">
+          <tokens>
+            <token id="5" string="when" />
+            <token id="6" string="the" />
+            <token id="7" string="Reagan" />
+            <token id="8" string="administration" />
+            <token id="9" string="drew" />
+            <token id="10" string="the" />
+            <token id="11" string="line" />
+            <token id="12" string="against" />
+            <token id="13" string="communist-backed" />
+            <token id="14" string="insurgences" />
+            <token id="15" string="in" />
+            <token id="16" string="Central" />
+            <token id="17" string="America" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="played an active role in that effort as U.S. envoy to El Salvador" type="VP">
+          <tokens>
+            <token id="21" string="played" />
+            <token id="22" string="an" />
+            <token id="23" string="active" />
+            <token id="24" string="role" />
+            <token id="25" string="in" />
+            <token id="26" string="that" />
+            <token id="27" string="effort" />
+            <token id="28" string="as" />
+            <token id="29" string="U.S." />
+            <token id="30" string="envoy" />
+            <token id="31" string="to" />
+            <token id="32" string="El" />
+            <token id="33" string="Salvador" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the line" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="line" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the Reagan administration" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Reagan" />
+            <token id="8" string="administration" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="that effort" type="NP">
+          <tokens>
+            <token id="26" string="that" />
+            <token id="27" string="effort" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">1980s</governor>
+          <dependent id="1">During</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">1980s</governor>
+          <dependent id="2">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">played</governor>
+          <dependent id="3">1980s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">drew</governor>
+          <dependent id="5">when</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">administration</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">administration</governor>
+          <dependent id="7">Reagan</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">drew</governor>
+          <dependent id="8">administration</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="21">played</governor>
+          <dependent id="9">drew</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">line</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">drew</governor>
+          <dependent id="11">line</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">insurgences</governor>
+          <dependent id="12">against</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">insurgences</governor>
+          <dependent id="13">communist-backed</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">drew</governor>
+          <dependent id="14">insurgences</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">America</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">America</governor>
+          <dependent id="16">Central</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">drew</governor>
+          <dependent id="17">America</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Pickering</governor>
+          <dependent id="19">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">played</governor>
+          <dependent id="20">Pickering</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="21">played</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">role</governor>
+          <dependent id="22">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">role</governor>
+          <dependent id="23">active</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">played</governor>
+          <dependent id="24">role</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">effort</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">effort</governor>
+          <dependent id="26">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">played</governor>
+          <dependent id="27">effort</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">envoy</governor>
+          <dependent id="28">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">envoy</governor>
+          <dependent id="29">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">effort</governor>
+          <dependent id="30">envoy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">Salvador</governor>
+          <dependent id="31">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="33">Salvador</governor>
+          <dependent id="32">El</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">played</governor>
+          <dependent id="33">Salvador</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Central America" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="Central" />
+            <token id="17" string="America" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Pickering" type="PERSON" score="0.0">
+          <tokens>
+            <token id="20" string="Pickering" />
+          </tokens>
+        </entity>
+        <entity id="3" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="29" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="4" string="El Salvador" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="32" string="El" />
+            <token id="33" string="Salvador" />
+          </tokens>
+        </entity>
+        <entity id="5" string="the 1980s" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="1980s" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Reagan" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Reagan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Mr. Perkins was the U.S. ambassador to South Africa in 1986, when the U.S. imposed economic sanctions against that nation&amp;apost;s white-minority government to pressure it to end apartheid.</content>
+      <tokens>
+        <token id="1" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="ambassador" lemma="ambassador" stem="ambassador" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="South" lemma="South" stem="south" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="Africa" lemma="Africa" stem="africa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="1986" lemma="1986" stem="1986" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="16" string="imposed" lemma="impose" stem="impos" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="economic" lemma="economic" stem="econom" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="sanctions" lemma="sanction" stem="sanction" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="nation" lemma="nation" stem="nation" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="white-minority" lemma="white-minority" stem="white-minor" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="government" lemma="government" stem="govern" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="pressure" lemma="pressure" stem="pressur" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="end" lemma="end" stem="end" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="apartheid" lemma="apartheid" stem="apartheid" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Mr.) (NNP Perkins)) (VP (VBD was) (NP (DT the) (NNP U.S.) (NN ambassador)) (PP (TO to) (NP (NP (NNP South) (NNP Africa)) (PP (IN in) (NP (CD 1986))))) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNP U.S.)) (VP (VBD imposed) (NP (JJ economic) (NNS sanctions)) (PP (IN against) (NP (NP (DT that) (NN nation) (POS 's)) (JJ white-minority) (NN government))) (S (VP (TO to) (VP (VB pressure) (S (NP (PRP it)) (VP (TO to) (VP (VB end) (NP (NN apartheid)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="apartheid" type="NP">
+          <tokens>
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="when the U.S. imposed economic sanctions against that nation 's white-minority government to pressure it to end apartheid" type="SBAR">
+          <tokens>
+            <token id="13" string="when" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="imposed" />
+            <token id="17" string="economic" />
+            <token id="18" string="sanctions" />
+            <token id="19" string="against" />
+            <token id="20" string="that" />
+            <token id="21" string="nation" />
+            <token id="22" string="'s" />
+            <token id="23" string="white-minority" />
+            <token id="24" string="government" />
+            <token id="25" string="to" />
+            <token id="26" string="pressure" />
+            <token id="27" string="it" />
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="pressure it to end apartheid" type="VP">
+          <tokens>
+            <token id="26" string="pressure" />
+            <token id="27" string="it" />
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="economic sanctions" type="NP">
+          <tokens>
+            <token id="17" string="economic" />
+            <token id="18" string="sanctions" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was the U.S. ambassador to South Africa in 1986 , when the U.S. imposed economic sanctions against that nation 's white-minority government to pressure it to end apartheid" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="the" />
+            <token id="5" string="U.S." />
+            <token id="6" string="ambassador" />
+            <token id="7" string="to" />
+            <token id="8" string="South" />
+            <token id="9" string="Africa" />
+            <token id="10" string="in" />
+            <token id="11" string="1986" />
+            <token id="12" string="," />
+            <token id="13" string="when" />
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+            <token id="16" string="imposed" />
+            <token id="17" string="economic" />
+            <token id="18" string="sanctions" />
+            <token id="19" string="against" />
+            <token id="20" string="that" />
+            <token id="21" string="nation" />
+            <token id="22" string="'s" />
+            <token id="23" string="white-minority" />
+            <token id="24" string="government" />
+            <token id="25" string="to" />
+            <token id="26" string="pressure" />
+            <token id="27" string="it" />
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to end apartheid" type="VP">
+          <tokens>
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="27" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="that nation 's" type="NP">
+          <tokens>
+            <token id="20" string="that" />
+            <token id="21" string="nation" />
+            <token id="22" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="when" type="WHADVP">
+          <tokens>
+            <token id="13" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="1986" type="NP">
+          <tokens>
+            <token id="11" string="1986" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="end apartheid" type="VP">
+          <tokens>
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="to pressure it to end apartheid" type="VP">
+          <tokens>
+            <token id="25" string="to" />
+            <token id="26" string="pressure" />
+            <token id="27" string="it" />
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the U.S." type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="U.S." />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="imposed economic sanctions against that nation 's white-minority government to pressure it to end apartheid" type="VP">
+          <tokens>
+            <token id="16" string="imposed" />
+            <token id="17" string="economic" />
+            <token id="18" string="sanctions" />
+            <token id="19" string="against" />
+            <token id="20" string="that" />
+            <token id="21" string="nation" />
+            <token id="22" string="'s" />
+            <token id="23" string="white-minority" />
+            <token id="24" string="government" />
+            <token id="25" string="to" />
+            <token id="26" string="pressure" />
+            <token id="27" string="it" />
+            <token id="28" string="to" />
+            <token id="29" string="end" />
+            <token id="30" string="apartheid" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="South Africa" type="NP">
+          <tokens>
+            <token id="8" string="South" />
+            <token id="9" string="Africa" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Mr. Perkins" type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the U.S. ambassador" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="U.S." />
+            <token id="6" string="ambassador" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="that nation 's white-minority government" type="NP">
+          <tokens>
+            <token id="20" string="that" />
+            <token id="21" string="nation" />
+            <token id="22" string="'s" />
+            <token id="23" string="white-minority" />
+            <token id="24" string="government" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="South Africa in 1986" type="NP">
+          <tokens>
+            <token id="8" string="South" />
+            <token id="9" string="Africa" />
+            <token id="10" string="in" />
+            <token id="11" string="1986" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Perkins</governor>
+          <dependent id="1">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">ambassador</governor>
+          <dependent id="2">Perkins</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">ambassador</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">ambassador</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">ambassador</governor>
+          <dependent id="5">U.S.</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">ambassador</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Africa</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Africa</governor>
+          <dependent id="8">South</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">ambassador</governor>
+          <dependent id="9">Africa</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">1986</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Africa</governor>
+          <dependent id="11">1986</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">imposed</governor>
+          <dependent id="13">when</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">U.S.</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">imposed</governor>
+          <dependent id="15">U.S.</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">ambassador</governor>
+          <dependent id="16">imposed</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">sanctions</governor>
+          <dependent id="17">economic</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">imposed</governor>
+          <dependent id="18">sanctions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">government</governor>
+          <dependent id="19">against</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">nation</governor>
+          <dependent id="20">that</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="24">government</governor>
+          <dependent id="21">nation</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">nation</governor>
+          <dependent id="22">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">government</governor>
+          <dependent id="23">white-minority</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">imposed</governor>
+          <dependent id="24">government</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="26">pressure</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="16">imposed</governor>
+          <dependent id="26">pressure</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="26">pressure</governor>
+          <dependent id="27">it</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="29">end</governor>
+          <dependent id="28">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="26">pressure</governor>
+          <dependent id="29">end</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="29">end</governor>
+          <dependent id="30">apartheid</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1986" type="DATE" score="0.0">
+          <tokens>
+            <token id="11" string="1986" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="3" string="South Africa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="South" />
+            <token id="9" string="Africa" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Perkins" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Mr. Perkins, who is black, traveled widely across South Africa during this period, making sure he was seen in black townships, attending church services and funerals, as well as in white communities.</content>
+      <tokens>
+        <token id="1" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="black" lemma="black" stem="black" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="traveled" lemma="travel" stem="travel" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="widely" lemma="widely" stem="wide" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="across" lemma="across" stem="across" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="South" lemma="South" stem="south" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="12" string="Africa" lemma="Africa" stem="africa" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="13" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="period" lemma="period" stem="period" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="making" lemma="make" stem="make" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="sure" lemma="sure" stem="sure" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="seen" lemma="see" stem="seen" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="black" lemma="black" stem="black" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="townships" lemma="township" stem="township" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="attending" lemma="attend" stem="attend" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="church" lemma="church" stem="church" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="services" lemma="service" stem="servic" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="funerals" lemma="funeral" stem="funer" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="white" lemma="white" stem="white" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="communities" lemma="community" stem="commun" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Mr.) (NNP Perkins)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (ADJP (JJ black))))) (, ,)) (VP (VBD traveled) (ADVP (RB widely)) (PP (IN across) (NP (NNP South) (NNP Africa))) (PP (IN during) (NP (DT this) (NN period))) (, ,) (S (VP (VBG making) (ADJP (JJ sure) (SBAR (S (NP (PRP he)) (VP (VBD was) (VP (VBN seen) (PP (PP (IN in) (NP (NP (JJ black) (NNS townships)) (, ,) (NP (VBG attending) (NN church) (NNS services)) (CC and) (NP (NNS funerals)))) (, ,) (CONJP (RB as) (RB well) (IN as)) (PP (IN in) (NP (JJ white) (NNS communities)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="black townships , attending church services and funerals" type="NP">
+          <tokens>
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="seen in black townships , attending church services and funerals , as well as in white communities" type="VP">
+          <tokens>
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="making sure he was seen in black townships , attending church services and funerals , as well as in white communities" type="VP">
+          <tokens>
+            <token id="17" string="making" />
+            <token id="18" string="sure" />
+            <token id="19" string="he" />
+            <token id="20" string="was" />
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="black" type="ADJP">
+          <tokens>
+            <token id="6" string="black" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="he was seen in black townships , attending church services and funerals , as well as in white communities" type="SBAR">
+          <tokens>
+            <token id="19" string="he" />
+            <token id="20" string="was" />
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="attending church services" type="NP">
+          <tokens>
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="traveled widely across South Africa during this period , making sure he was seen in black townships , attending church services and funerals , as well as in white communities" type="VP">
+          <tokens>
+            <token id="8" string="traveled" />
+            <token id="9" string="widely" />
+            <token id="10" string="across" />
+            <token id="11" string="South" />
+            <token id="12" string="Africa" />
+            <token id="13" string="during" />
+            <token id="14" string="this" />
+            <token id="15" string="period" />
+            <token id="16" string="," />
+            <token id="17" string="making" />
+            <token id="18" string="sure" />
+            <token id="19" string="he" />
+            <token id="20" string="was" />
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="funerals" type="NP">
+          <tokens>
+            <token id="30" string="funerals" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="is black" type="VP">
+          <tokens>
+            <token id="5" string="is" />
+            <token id="6" string="black" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="black townships" type="NP">
+          <tokens>
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="was seen in black townships , attending church services and funerals , as well as in white communities" type="VP">
+          <tokens>
+            <token id="20" string="was" />
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="who is black" type="SBAR">
+          <tokens>
+            <token id="4" string="who" />
+            <token id="5" string="is" />
+            <token id="6" string="black" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="South Africa" type="NP">
+          <tokens>
+            <token id="11" string="South" />
+            <token id="12" string="Africa" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="this period" type="NP">
+          <tokens>
+            <token id="14" string="this" />
+            <token id="15" string="period" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="sure he was seen in black townships , attending church services and funerals , as well as in white communities" type="ADJP">
+          <tokens>
+            <token id="18" string="sure" />
+            <token id="19" string="he" />
+            <token id="20" string="was" />
+            <token id="21" string="seen" />
+            <token id="22" string="in" />
+            <token id="23" string="black" />
+            <token id="24" string="townships" />
+            <token id="25" string="," />
+            <token id="26" string="attending" />
+            <token id="27" string="church" />
+            <token id="28" string="services" />
+            <token id="29" string="and" />
+            <token id="30" string="funerals" />
+            <token id="31" string="," />
+            <token id="32" string="as" />
+            <token id="33" string="well" />
+            <token id="34" string="as" />
+            <token id="35" string="in" />
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="white communities" type="NP">
+          <tokens>
+            <token id="36" string="white" />
+            <token id="37" string="communities" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Mr. Perkins , who is black ," type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Perkins" />
+            <token id="3" string="," />
+            <token id="4" string="who" />
+            <token id="5" string="is" />
+            <token id="6" string="black" />
+            <token id="7" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="Mr. Perkins" type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="he" type="NP">
+          <tokens>
+            <token id="19" string="he" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Perkins</governor>
+          <dependent id="1">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">traveled</governor>
+          <dependent id="2">Perkins</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">black</governor>
+          <dependent id="4">who</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">black</governor>
+          <dependent id="5">is</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">Perkins</governor>
+          <dependent id="6">black</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">traveled</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">traveled</governor>
+          <dependent id="9">widely</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Africa</governor>
+          <dependent id="10">across</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Africa</governor>
+          <dependent id="11">South</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">traveled</governor>
+          <dependent id="12">Africa</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">period</governor>
+          <dependent id="13">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">period</governor>
+          <dependent id="14">this</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">traveled</governor>
+          <dependent id="15">period</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">traveled</governor>
+          <dependent id="17">making</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="17">making</governor>
+          <dependent id="18">sure</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="21">seen</governor>
+          <dependent id="19">he</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="21">seen</governor>
+          <dependent id="20">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">sure</governor>
+          <dependent id="21">seen</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="21">seen</governor>
+          <dependent id="21">seen</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="21">seen</governor>
+          <dependent id="21">seen</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">townships</governor>
+          <dependent id="22">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">townships</governor>
+          <dependent id="23">black</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">seen</governor>
+          <dependent id="24">townships</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">services</governor>
+          <dependent id="26">attending</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">services</governor>
+          <dependent id="27">church</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">townships</governor>
+          <dependent id="28">services</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="21">seen</governor>
+          <dependent id="29">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">townships</governor>
+          <dependent id="30">funerals</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="21">seen</governor>
+          <dependent id="32">as</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="32">as</governor>
+          <dependent id="33">well</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="32">as</governor>
+          <dependent id="34">as</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">communities</governor>
+          <dependent id="35">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="37">communities</governor>
+          <dependent id="36">white</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">seen</governor>
+          <dependent id="37">communities</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="South Africa" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="South" />
+            <token id="12" string="Africa" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Perkins" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>Mr. Pickering, reached over the weekend, refused to comment on his future plans, and Mr. Perkins couldn&amp;apost;t be reached.</content>
+      <tokens>
+        <token id="1" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Pickering" lemma="Pickering" stem="picker" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="reached" lemma="reach" stem="reach" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="7" string="weekend" lemma="weekend" stem="weekend" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="refused" lemma="refuse" stem="refus" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="comment" lemma="comment" stem="comment" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="future" lemma="future" stem="futur" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="plans" lemma="plan" stem="plan" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Mr." lemma="Mr." stem="mr." pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="n't" lemma="not" stem="n't" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="reached" lemma="reach" stem="reach" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (NNP Mr.) (NNP Pickering)) (, ,) (VP (VBD reached) (PP (IN over) (NP (DT the) (NN weekend)))) (, ,)) (VP (VBD refused) (S (VP (TO to) (VP (VB comment) (PP (IN on) (NP (PRP$ his) (JJ future) (NNS plans)))))))) (, ,) (CC and) (S (NP (NNP Mr.) (NNP Perkins)) (VP (MD could) (RB n't) (VP (VB be) (VP (VBN reached))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="refused to comment on his future plans" type="VP">
+          <tokens>
+            <token id="9" string="refused" />
+            <token id="10" string="to" />
+            <token id="11" string="comment" />
+            <token id="12" string="on" />
+            <token id="13" string="his" />
+            <token id="14" string="future" />
+            <token id="15" string="plans" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Mr. Pickering" type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Pickering" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="comment on his future plans" type="VP">
+          <tokens>
+            <token id="11" string="comment" />
+            <token id="12" string="on" />
+            <token id="13" string="his" />
+            <token id="14" string="future" />
+            <token id="15" string="plans" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="reached" type="VP">
+          <tokens>
+            <token id="23" string="reached" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="to comment on his future plans" type="VP">
+          <tokens>
+            <token id="10" string="to" />
+            <token id="11" string="comment" />
+            <token id="12" string="on" />
+            <token id="13" string="his" />
+            <token id="14" string="future" />
+            <token id="15" string="plans" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="reached over the weekend" type="VP">
+          <tokens>
+            <token id="4" string="reached" />
+            <token id="5" string="over" />
+            <token id="6" string="the" />
+            <token id="7" string="weekend" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the weekend" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="weekend" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="his future plans" type="NP">
+          <tokens>
+            <token id="13" string="his" />
+            <token id="14" string="future" />
+            <token id="15" string="plans" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Mr. Pickering , reached over the weekend ," type="NP">
+          <tokens>
+            <token id="1" string="Mr." />
+            <token id="2" string="Pickering" />
+            <token id="3" string="," />
+            <token id="4" string="reached" />
+            <token id="5" string="over" />
+            <token id="6" string="the" />
+            <token id="7" string="weekend" />
+            <token id="8" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Mr. Perkins" type="NP">
+          <tokens>
+            <token id="18" string="Mr." />
+            <token id="19" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="could n't be reached" type="VP">
+          <tokens>
+            <token id="20" string="could" />
+            <token id="21" string="n't" />
+            <token id="22" string="be" />
+            <token id="23" string="reached" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="be reached" type="VP">
+          <tokens>
+            <token id="22" string="be" />
+            <token id="23" string="reached" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Pickering</governor>
+          <dependent id="1">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">refused</governor>
+          <dependent id="2">Pickering</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">Pickering</governor>
+          <dependent id="4">reached</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">weekend</governor>
+          <dependent id="5">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">weekend</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">reached</governor>
+          <dependent id="7">weekend</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">refused</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">comment</governor>
+          <dependent id="10">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="9">refused</governor>
+          <dependent id="11">comment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">plans</governor>
+          <dependent id="12">on</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="15">plans</governor>
+          <dependent id="13">his</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">plans</governor>
+          <dependent id="14">future</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">comment</governor>
+          <dependent id="15">plans</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">refused</governor>
+          <dependent id="17">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Perkins</governor>
+          <dependent id="18">Mr.</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="23">reached</governor>
+          <dependent id="19">Perkins</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="23">reached</governor>
+          <dependent id="20">could</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="23">reached</governor>
+          <dependent id="21">n't</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="23">reached</governor>
+          <dependent id="22">be</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">refused</governor>
+          <dependent id="23">reached</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Pickering" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Pickering" />
+          </tokens>
+        </entity>
+        <entity id="2" string="future" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="future" />
+          </tokens>
+        </entity>
+        <entity id="3" string="the weekend" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="weekend" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="19" string="Perkins" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="NOMINAL">
+      <referenced ids_tokens="2-3-4-5-6-7" string="the end of the Cold War" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="2" />
+        <mention ids_tokens="16" string="it" id_sentence="2" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="9-10" string="the U.N." id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="19-21" string="the U.N.'s" id_sentence="3" />
+        <mention ids_tokens="34" string="U.N." id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="16-17" string="President Bush" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="7-8" string="Bush's" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="4" string="India" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="3" string="its" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="1-2" string="Mr. Pickering" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="7" />
+        <mention ids_tokens="14-16" string="Mr. Pickering's" id_sentence="8" />
+        <mention ids_tokens="1-7" string="Mr. Pickering , reached over the weekend" id_sentence="12" />
+        <mention ids_tokens="2" string="Pickering" id_sentence="12" />
+        <mention ids_tokens="13" string="his" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PROPER">
+      <referenced ids_tokens="1-2" string="Mr. Perkins" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="1-6" string="Mr. Perkins , who is black" id_sentence="11" />
+        <mention ids_tokens="2" string="Perkins" id_sentence="11" />
+        <mention ids_tokens="19" string="he" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="8-9-10-11" string="South Africa in 1986" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="11-12" string="South Africa" id_sentence="11" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

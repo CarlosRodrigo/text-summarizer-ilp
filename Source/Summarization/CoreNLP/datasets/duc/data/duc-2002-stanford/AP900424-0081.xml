@@ -1,0 +1,3958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP900424-0081">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Jubilant astronomers saw decades of work take wing Tuesday as the Hubble Space Telescope was boosted high above Earth to launch ``a great adventure for mankind.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="Jubilant" lemma="jubilant" stem="jubil" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="astronomers" lemma="astronomer" stem="astronom" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="saw" lemma="see" stem="saw" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="decades" lemma="decade" stem="decad" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="work" lemma="work" stem="work" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="take" lemma="take" stem="take" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="wing" lemma="wing" stem="wing" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="10" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Hubble" lemma="Hubble" stem="hubbl" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="Space" lemma="Space" stem="space" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="Telescope" lemma="Telescope" stem="telescop" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="15" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="boosted" lemma="boost" stem="boost" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="high" lemma="high" stem="high" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="above" lemma="above" stem="abov" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Earth" lemma="Earth" stem="earth" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="launch" lemma="launch" stem="launch" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="24" string="great" lemma="great" stem="great" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="25" string="adventure" lemma="adventure" stem="adventur" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="27" string="mankind" lemma="mankind" stem="mankind" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (JJ Jubilant) (NNS astronomers)) (VP (VBD saw) (SBAR (S (NP (NP (NNS decades)) (PP (IN of) (NP (NN work)))) (VP (VBP take) (NP (NN wing)) (NP-TMP (NNP Tuesday)) (SBAR (IN as) (S (NP (DT the) (NNP Hubble) (NNP Space) (NNP Telescope)) (VP (VBD was) (VP (VBN boosted) (ADVP (JJ high) (PP (IN above) (NP (NNP Earth)))) (S (VP (TO to) (VP (VB launch) (`` ``) (NP (NP (DT a) (JJ great) (NN adventure)) (PP (IN for) (NP (NN mankind))))))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="mankind" type="NP">
+          <tokens>
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a great adventure for mankind" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="work" type="NP">
+          <tokens>
+            <token id="6" string="work" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was boosted high above Earth to launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="15" string="was" />
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="to launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a great adventure" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="decades of work" type="NP">
+          <tokens>
+            <token id="4" string="decades" />
+            <token id="5" string="of" />
+            <token id="6" string="work" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="as the Hubble Space Telescope was boosted high above Earth to launch `` a great adventure for mankind" type="SBAR">
+          <tokens>
+            <token id="10" string="as" />
+            <token id="11" string="the" />
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+            <token id="15" string="was" />
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="saw decades of work take wing Tuesday as the Hubble Space Telescope was boosted high above Earth to launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="3" string="saw" />
+            <token id="4" string="decades" />
+            <token id="5" string="of" />
+            <token id="6" string="work" />
+            <token id="7" string="take" />
+            <token id="8" string="wing" />
+            <token id="9" string="Tuesday" />
+            <token id="10" string="as" />
+            <token id="11" string="the" />
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+            <token id="15" string="was" />
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Earth" type="NP">
+          <tokens>
+            <token id="19" string="Earth" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="boosted high above Earth to launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="decades of work take wing Tuesday as the Hubble Space Telescope was boosted high above Earth to launch `` a great adventure for mankind" type="SBAR">
+          <tokens>
+            <token id="4" string="decades" />
+            <token id="5" string="of" />
+            <token id="6" string="work" />
+            <token id="7" string="take" />
+            <token id="8" string="wing" />
+            <token id="9" string="Tuesday" />
+            <token id="10" string="as" />
+            <token id="11" string="the" />
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+            <token id="15" string="was" />
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the Hubble Space Telescope" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="take wing Tuesday as the Hubble Space Telescope was boosted high above Earth to launch `` a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="7" string="take" />
+            <token id="8" string="wing" />
+            <token id="9" string="Tuesday" />
+            <token id="10" string="as" />
+            <token id="11" string="the" />
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+            <token id="15" string="was" />
+            <token id="16" string="boosted" />
+            <token id="17" string="high" />
+            <token id="18" string="above" />
+            <token id="19" string="Earth" />
+            <token id="20" string="to" />
+            <token id="21" string="launch" />
+            <token id="22" string="``" />
+            <token id="23" string="a" />
+            <token id="24" string="great" />
+            <token id="25" string="adventure" />
+            <token id="26" string="for" />
+            <token id="27" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Jubilant astronomers" type="NP">
+          <tokens>
+            <token id="1" string="Jubilant" />
+            <token id="2" string="astronomers" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="decades" type="NP">
+          <tokens>
+            <token id="4" string="decades" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="wing" type="NP">
+          <tokens>
+            <token id="8" string="wing" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">astronomers</governor>
+          <dependent id="1">Jubilant</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">saw</governor>
+          <dependent id="2">astronomers</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">saw</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">take</governor>
+          <dependent id="4">decades</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">work</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">decades</governor>
+          <dependent id="6">work</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">saw</governor>
+          <dependent id="7">take</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">take</governor>
+          <dependent id="8">wing</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="7">take</governor>
+          <dependent id="9">Tuesday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">boosted</governor>
+          <dependent id="10">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">Telescope</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Telescope</governor>
+          <dependent id="12">Hubble</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Telescope</governor>
+          <dependent id="13">Space</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="16">boosted</governor>
+          <dependent id="14">Telescope</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="16">boosted</governor>
+          <dependent id="15">was</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="7">take</governor>
+          <dependent id="16">boosted</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">boosted</governor>
+          <dependent id="17">high</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Earth</governor>
+          <dependent id="18">above</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">high</governor>
+          <dependent id="19">Earth</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">launch</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="16">boosted</governor>
+          <dependent id="21">launch</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">adventure</governor>
+          <dependent id="23">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">adventure</governor>
+          <dependent id="24">great</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">launch</governor>
+          <dependent id="25">adventure</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">mankind</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">adventure</governor>
+          <dependent id="27">mankind</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Earth" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Earth" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Hubble Space Telescope" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="12" string="Hubble" />
+            <token id="13" string="Space" />
+            <token id="14" string="Telescope" />
+          </tokens>
+        </entity>
+        <entity id="3" string="decades" type="DURATION" score="0.0">
+          <tokens>
+            <token id="4" string="decades" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="Tuesday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Charles Robert O&amp;apost;Dell, a Rice University space physicist who has worked 19 years on Hubble, said seeing it hurled into orbit aboard the shuttle capped an experience that was ``comparable to raising a child.</content>
+      <tokens>
+        <token id="1" string="Charles" lemma="Charles" stem="charl" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Robert" lemma="Robert" stem="robert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="O'Dell" lemma="O'Dell" stem="o'dell" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Rice" lemma="Rice" stem="rice" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="University" lemma="University" stem="univers" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="space" lemma="space" stem="space" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="physicist" lemma="physicist" stem="physicist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="worked" lemma="work" stem="work" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="19" lemma="19" stem="19" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="15" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Hubble" lemma="Hubble" stem="hubbl" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="seeing" lemma="see" stem="see" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="hurled" lemma="hurl" stem="hurl" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="orbit" lemma="orbit" stem="orbit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="aboard" lemma="aboard" stem="aboard" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="shuttle" lemma="shuttle" stem="shuttl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="capped" lemma="cap" stem="cap" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="experience" lemma="experience" stem="experi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="comparable" lemma="comparable" stem="compar" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="raising" lemma="raise" stem="rais" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="child" lemma="child" stem="child" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Charles) (NNP Robert) (NNP O'Dell)) (, ,) (NP (NP (DT a) (NNP Rice) (NNP University) (NN space) (NN physicist)) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (VP (VBN worked) (PP (NP (CD 19) (NNS years)) (IN on) (NP (NNP Hubble)))))))) (, ,)) (VP (VBD said) (SBAR (S (S (VP (VBG seeing) (SBAR (S (NP (PRP it)) (VP (VBD hurled) (PP (IN into) (NP (NN orbit))) (PP (IN aboard) (NP (DT the) (NN shuttle)))))))) (VP (VBD capped) (NP (NP (DT an) (NN experience)) (SBAR (WHNP (WDT that)) (S (VP (VBD was) (`` ``) (ADJP (JJ comparable) (PP (TO to) (S (VP (VBG raising) (NP (DT a) (NN child)))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Charles Robert O'Dell , a Rice University space physicist who has worked 19 years on Hubble ," type="NP">
+          <tokens>
+            <token id="1" string="Charles" />
+            <token id="2" string="Robert" />
+            <token id="3" string="O'Dell" />
+            <token id="4" string="," />
+            <token id="5" string="a" />
+            <token id="6" string="Rice" />
+            <token id="7" string="University" />
+            <token id="8" string="space" />
+            <token id="9" string="physicist" />
+            <token id="10" string="who" />
+            <token id="11" string="has" />
+            <token id="12" string="worked" />
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+            <token id="15" string="on" />
+            <token id="16" string="Hubble" />
+            <token id="17" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="an experience that was `` comparable to raising a child" type="NP">
+          <tokens>
+            <token id="28" string="an" />
+            <token id="29" string="experience" />
+            <token id="30" string="that" />
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the shuttle" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="seeing it hurled into orbit aboard the shuttle capped an experience that was `` comparable to raising a child" type="SBAR">
+          <tokens>
+            <token id="19" string="seeing" />
+            <token id="20" string="it" />
+            <token id="21" string="hurled" />
+            <token id="22" string="into" />
+            <token id="23" string="orbit" />
+            <token id="24" string="aboard" />
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="capped" />
+            <token id="28" string="an" />
+            <token id="29" string="experience" />
+            <token id="30" string="that" />
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="who has worked 19 years on Hubble" type="SBAR">
+          <tokens>
+            <token id="10" string="who" />
+            <token id="11" string="has" />
+            <token id="12" string="worked" />
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+            <token id="15" string="on" />
+            <token id="16" string="Hubble" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a child" type="NP">
+          <tokens>
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a Rice University space physicist" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="Rice" />
+            <token id="7" string="University" />
+            <token id="8" string="space" />
+            <token id="9" string="physicist" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Charles Robert O'Dell" type="NP">
+          <tokens>
+            <token id="1" string="Charles" />
+            <token id="2" string="Robert" />
+            <token id="3" string="O'Dell" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="it" type="NP">
+          <tokens>
+            <token id="20" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="raising a child" type="VP">
+          <tokens>
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="has worked 19 years on Hubble" type="VP">
+          <tokens>
+            <token id="11" string="has" />
+            <token id="12" string="worked" />
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+            <token id="15" string="on" />
+            <token id="16" string="Hubble" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="worked 19 years on Hubble" type="VP">
+          <tokens>
+            <token id="12" string="worked" />
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+            <token id="15" string="on" />
+            <token id="16" string="Hubble" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="was `` comparable to raising a child" type="VP">
+          <tokens>
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="capped an experience that was `` comparable to raising a child" type="VP">
+          <tokens>
+            <token id="27" string="capped" />
+            <token id="28" string="an" />
+            <token id="29" string="experience" />
+            <token id="30" string="that" />
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="hurled into orbit aboard the shuttle" type="VP">
+          <tokens>
+            <token id="21" string="hurled" />
+            <token id="22" string="into" />
+            <token id="23" string="orbit" />
+            <token id="24" string="aboard" />
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="that was `` comparable to raising a child" type="SBAR">
+          <tokens>
+            <token id="30" string="that" />
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="an experience" type="NP">
+          <tokens>
+            <token id="28" string="an" />
+            <token id="29" string="experience" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="19 years" type="NP">
+          <tokens>
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="comparable to raising a child" type="ADJP">
+          <tokens>
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="it hurled into orbit aboard the shuttle" type="SBAR">
+          <tokens>
+            <token id="20" string="it" />
+            <token id="21" string="hurled" />
+            <token id="22" string="into" />
+            <token id="23" string="orbit" />
+            <token id="24" string="aboard" />
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="said seeing it hurled into orbit aboard the shuttle capped an experience that was `` comparable to raising a child" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+            <token id="19" string="seeing" />
+            <token id="20" string="it" />
+            <token id="21" string="hurled" />
+            <token id="22" string="into" />
+            <token id="23" string="orbit" />
+            <token id="24" string="aboard" />
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="capped" />
+            <token id="28" string="an" />
+            <token id="29" string="experience" />
+            <token id="30" string="that" />
+            <token id="31" string="was" />
+            <token id="32" string="``" />
+            <token id="33" string="comparable" />
+            <token id="34" string="to" />
+            <token id="35" string="raising" />
+            <token id="36" string="a" />
+            <token id="37" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="orbit" type="NP">
+          <tokens>
+            <token id="23" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="seeing it hurled into orbit aboard the shuttle" type="VP">
+          <tokens>
+            <token id="19" string="seeing" />
+            <token id="20" string="it" />
+            <token id="21" string="hurled" />
+            <token id="22" string="into" />
+            <token id="23" string="orbit" />
+            <token id="24" string="aboard" />
+            <token id="25" string="the" />
+            <token id="26" string="shuttle" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="a Rice University space physicist who has worked 19 years on Hubble" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="Rice" />
+            <token id="7" string="University" />
+            <token id="8" string="space" />
+            <token id="9" string="physicist" />
+            <token id="10" string="who" />
+            <token id="11" string="has" />
+            <token id="12" string="worked" />
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+            <token id="15" string="on" />
+            <token id="16" string="Hubble" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="Hubble" type="NP">
+          <tokens>
+            <token id="16" string="Hubble" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">O'Dell</governor>
+          <dependent id="1">Charles</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">O'Dell</governor>
+          <dependent id="2">Robert</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="3">O'Dell</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">physicist</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">physicist</governor>
+          <dependent id="6">Rice</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">physicist</governor>
+          <dependent id="7">University</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">physicist</governor>
+          <dependent id="8">space</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">O'Dell</governor>
+          <dependent id="9">physicist</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">worked</governor>
+          <dependent id="10">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="12">worked</governor>
+          <dependent id="11">has</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="9">physicist</governor>
+          <dependent id="12">worked</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="14">years</governor>
+          <dependent id="13">19</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">worked</governor>
+          <dependent id="14">years</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">years</governor>
+          <dependent id="15">on</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">years</governor>
+          <dependent id="16">Hubble</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+        <dependency type="csubj">
+          <governor id="27">capped</governor>
+          <dependent id="19">seeing</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">hurled</governor>
+          <dependent id="20">it</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="19">seeing</governor>
+          <dependent id="21">hurled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">orbit</governor>
+          <dependent id="22">into</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">hurled</governor>
+          <dependent id="23">orbit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">shuttle</governor>
+          <dependent id="24">aboard</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">shuttle</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">hurled</governor>
+          <dependent id="26">shuttle</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="27">capped</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">experience</governor>
+          <dependent id="28">an</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="27">capped</governor>
+          <dependent id="29">experience</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">comparable</governor>
+          <dependent id="30">that</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="33">comparable</governor>
+          <dependent id="31">was</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="29">experience</governor>
+          <dependent id="33">comparable</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="35">raising</governor>
+          <dependent id="34">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="33">comparable</governor>
+          <dependent id="35">raising</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="37">child</governor>
+          <dependent id="36">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="35">raising</governor>
+          <dependent id="37">child</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Charles Robert O'Dell" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Charles" />
+            <token id="2" string="Robert" />
+            <token id="3" string="O'Dell" />
+          </tokens>
+        </entity>
+        <entity id="2" string="19 years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="13" string="19" />
+            <token id="14" string="years" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>I&amp;apost;ve been with the program since it was a concept.</content>
+      <tokens>
+        <token id="1" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="'ve" lemma="have" stem="'ve" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="program" lemma="program" stem="program" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="concept" lemma="concept" stem="concept" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP I)) (VP (VBP 've) (VP (VBN been) (PP (IN with) (NP (DT the) (NN program))) (SBAR (IN since) (S (NP (PRP it)) (VP (VBD was) (NP (DT a) (NN concept))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="since it was a concept" type="SBAR">
+          <tokens>
+            <token id="7" string="since" />
+            <token id="8" string="it" />
+            <token id="9" string="was" />
+            <token id="10" string="a" />
+            <token id="11" string="concept" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="was a concept" type="VP">
+          <tokens>
+            <token id="9" string="was" />
+            <token id="10" string="a" />
+            <token id="11" string="concept" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="'ve been with the program since it was a concept" type="VP">
+          <tokens>
+            <token id="2" string="'ve" />
+            <token id="3" string="been" />
+            <token id="4" string="with" />
+            <token id="5" string="the" />
+            <token id="6" string="program" />
+            <token id="7" string="since" />
+            <token id="8" string="it" />
+            <token id="9" string="was" />
+            <token id="10" string="a" />
+            <token id="11" string="concept" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="I" type="NP">
+          <tokens>
+            <token id="1" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="it" type="NP">
+          <tokens>
+            <token id="8" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="been with the program since it was a concept" type="VP">
+          <tokens>
+            <token id="3" string="been" />
+            <token id="4" string="with" />
+            <token id="5" string="the" />
+            <token id="6" string="program" />
+            <token id="7" string="since" />
+            <token id="8" string="it" />
+            <token id="9" string="was" />
+            <token id="10" string="a" />
+            <token id="11" string="concept" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a concept" type="NP">
+          <tokens>
+            <token id="10" string="a" />
+            <token id="11" string="concept" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the program" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="program" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="6">program</governor>
+          <dependent id="1">I</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">program</governor>
+          <dependent id="2">'ve</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">program</governor>
+          <dependent id="3">been</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">program</governor>
+          <dependent id="4">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">program</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">program</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">concept</governor>
+          <dependent id="7">since</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">concept</governor>
+          <dependent id="8">it</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="11">concept</governor>
+          <dependent id="9">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">concept</governor>
+          <dependent id="10">a</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">program</governor>
+          <dependent id="11">concept</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="4" has_coreference="false">
+      <content>``There is nothing better than to see 19 years of my work and five of my friends thrust into orbit,&amp;apost;&amp;apost; he said.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="nothing" lemma="nothing" stem="noth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="better" lemma="better" stem="better" pos="JJR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="see" lemma="see" stem="see" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="19" lemma="19" stem="19" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="my" lemma="my" stem="my" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="work" lemma="work" stem="work" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="five" lemma="five" stem="five" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="my" lemma="my" stem="my" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="friends" lemma="friend" stem="friend" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="thrust" lemma="thrust" stem="thrust" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="orbit" lemma="orbit" stem="orbit" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (EX There)) (VP (VBZ is) (ADJP (ADJP (NN nothing) (JJR better)) (SBAR (IN than) (S (VP (TO to) (VP (VB see) (NP (NP (NP (CD 19) (NNS years)) (PP (IN of) (NP (PRP$ my) (NN work)))) (CC and) (NP (NP (CD five)) (PP (IN of) (NP (NP (PRP$ my) (NNS friends)) (VP (VBN thrust) (PP (IN into) (NP (NN orbit))))))))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="to see 19 years of my work and five of my friends thrust into orbit" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="see" />
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="19 years of my work" type="NP">
+          <tokens>
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="five of my friends thrust into orbit" type="NP">
+          <tokens>
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is nothing better than to see 19 years of my work and five of my friends thrust into orbit" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="nothing" />
+            <token id="5" string="better" />
+            <token id="6" string="than" />
+            <token id="7" string="to" />
+            <token id="8" string="see" />
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="19 years" type="NP">
+          <tokens>
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="nothing better" type="ADJP">
+          <tokens>
+            <token id="4" string="nothing" />
+            <token id="5" string="better" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="There" type="NP">
+          <tokens>
+            <token id="2" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="than to see 19 years of my work and five of my friends thrust into orbit" type="SBAR">
+          <tokens>
+            <token id="6" string="than" />
+            <token id="7" string="to" />
+            <token id="8" string="see" />
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="see 19 years of my work and five of my friends thrust into orbit" type="VP">
+          <tokens>
+            <token id="8" string="see" />
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="19 years of my work and five of my friends thrust into orbit" type="NP">
+          <tokens>
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="my work" type="NP">
+          <tokens>
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="orbit" type="NP">
+          <tokens>
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="my friends thrust into orbit" type="NP">
+          <tokens>
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="nothing better than to see 19 years of my work and five of my friends thrust into orbit" type="ADJP">
+          <tokens>
+            <token id="4" string="nothing" />
+            <token id="5" string="better" />
+            <token id="6" string="than" />
+            <token id="7" string="to" />
+            <token id="8" string="see" />
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+            <token id="11" string="of" />
+            <token id="12" string="my" />
+            <token id="13" string="work" />
+            <token id="14" string="and" />
+            <token id="15" string="five" />
+            <token id="16" string="of" />
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="he" type="NP">
+          <tokens>
+            <token id="24" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="said" type="VP">
+          <tokens>
+            <token id="25" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="five" type="NP">
+          <tokens>
+            <token id="15" string="five" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="my friends" type="NP">
+          <tokens>
+            <token id="17" string="my" />
+            <token id="18" string="friends" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="thrust into orbit" type="VP">
+          <tokens>
+            <token id="19" string="thrust" />
+            <token id="20" string="into" />
+            <token id="21" string="orbit" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="3">is</governor>
+          <dependent id="2">There</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="25">said</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">is</governor>
+          <dependent id="4">nothing</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">nothing</governor>
+          <dependent id="5">better</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">see</governor>
+          <dependent id="6">than</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">see</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="4">nothing</governor>
+          <dependent id="8">see</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">years</governor>
+          <dependent id="9">19</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">see</governor>
+          <dependent id="10">years</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">work</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">work</governor>
+          <dependent id="12">my</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">years</governor>
+          <dependent id="13">work</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">years</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">years</governor>
+          <dependent id="15">five</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">friends</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="18">friends</governor>
+          <dependent id="17">my</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">five</governor>
+          <dependent id="18">friends</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="18">friends</governor>
+          <dependent id="19">thrust</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">orbit</governor>
+          <dependent id="20">into</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">thrust</governor>
+          <dependent id="21">orbit</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="25">said</governor>
+          <dependent id="24">he</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="25">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="19 years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="9" string="19" />
+            <token id="10" string="years" />
+          </tokens>
+        </entity>
+        <entity id="2" string="five" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="15" string="five" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Colin Norman, a physics and astronomy professor at Johns Hopkins University and academic affairs director of the Space Telescope Science Institute there, called the launch ``the perfect start to a great adventure for mankind.</content>
+      <tokens>
+        <token id="1" string="Colin" lemma="Colin" stem="colin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Norman" lemma="Norman" stem="norman" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="physics" lemma="physics" stem="physic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="astronomy" lemma="astronomy" stem="astronomi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="professor" lemma="professor" stem="professor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Johns" lemma="Johns" stem="john" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="Hopkins" lemma="Hopkins" stem="hopkin" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="University" lemma="University" stem="univers" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="academic" lemma="academic" stem="academ" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="affairs" lemma="affair" stem="affair" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Space" lemma="space" stem="space" pos="NN" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="Telescope" lemma="Telescope" stem="telescop" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="Science" lemma="Science" stem="scienc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="Institute" lemma="Institute" stem="institut" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="there" lemma="there" stem="there" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="called" lemma="call" stem="call" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="27" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="perfect" lemma="perfect" stem="perfect" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="start" lemma="start" stem="start" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="great" lemma="great" stem="great" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="adventure" lemma="adventure" stem="adventur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="mankind" lemma="mankind" stem="mankind" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="38" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Colin) (NNP Norman)) (, ,) (NP (NP (DT a) (NN physics) (CC and) (NN astronomy) (NN professor)) (PP (IN at) (NP (NP (NNP Johns) (NNP Hopkins) (NNP University)) (CC and) (NP (NP (JJ academic) (NNS affairs) (NN director)) (PP (IN of) (NP (NP (NP (DT the) (NN Space)) (NP (NNP Telescope) (NNP Science) (NNP Institute))) (ADVP (RB there)))))))) (, ,)) (VP (VBD called) (S (NP (DT the) (NN launch)) (`` ``) (NP (NP (DT the) (JJ perfect) (NN start)) (PP (TO to) (NP (NP (DT a) (JJ great) (NN adventure)) (PP (IN for) (NP (NN mankind)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Johns Hopkins University" type="NP">
+          <tokens>
+            <token id="10" string="Johns" />
+            <token id="11" string="Hopkins" />
+            <token id="12" string="University" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the perfect start to a great adventure for mankind" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="perfect" />
+            <token id="31" string="start" />
+            <token id="32" string="to" />
+            <token id="33" string="a" />
+            <token id="34" string="great" />
+            <token id="35" string="adventure" />
+            <token id="36" string="for" />
+            <token id="37" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="mankind" type="NP">
+          <tokens>
+            <token id="37" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="academic affairs director" type="NP">
+          <tokens>
+            <token id="14" string="academic" />
+            <token id="15" string="affairs" />
+            <token id="16" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Colin Norman , a physics and astronomy professor at Johns Hopkins University and academic affairs director of the Space Telescope Science Institute there ," type="NP">
+          <tokens>
+            <token id="1" string="Colin" />
+            <token id="2" string="Norman" />
+            <token id="3" string="," />
+            <token id="4" string="a" />
+            <token id="5" string="physics" />
+            <token id="6" string="and" />
+            <token id="7" string="astronomy" />
+            <token id="8" string="professor" />
+            <token id="9" string="at" />
+            <token id="10" string="Johns" />
+            <token id="11" string="Hopkins" />
+            <token id="12" string="University" />
+            <token id="13" string="and" />
+            <token id="14" string="academic" />
+            <token id="15" string="affairs" />
+            <token id="16" string="director" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+            <token id="23" string="there" />
+            <token id="24" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Johns Hopkins University and academic affairs director of the Space Telescope Science Institute there" type="NP">
+          <tokens>
+            <token id="10" string="Johns" />
+            <token id="11" string="Hopkins" />
+            <token id="12" string="University" />
+            <token id="13" string="and" />
+            <token id="14" string="academic" />
+            <token id="15" string="affairs" />
+            <token id="16" string="director" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+            <token id="23" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Space" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a great adventure for mankind" type="NP">
+          <tokens>
+            <token id="33" string="a" />
+            <token id="34" string="great" />
+            <token id="35" string="adventure" />
+            <token id="36" string="for" />
+            <token id="37" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a great adventure" type="NP">
+          <tokens>
+            <token id="33" string="a" />
+            <token id="34" string="great" />
+            <token id="35" string="adventure" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Colin Norman" type="NP">
+          <tokens>
+            <token id="1" string="Colin" />
+            <token id="2" string="Norman" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the Space Telescope Science Institute" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the launch" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the perfect start" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="perfect" />
+            <token id="31" string="start" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Telescope Science Institute" type="NP">
+          <tokens>
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="academic affairs director of the Space Telescope Science Institute there" type="NP">
+          <tokens>
+            <token id="14" string="academic" />
+            <token id="15" string="affairs" />
+            <token id="16" string="director" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+            <token id="23" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the Space Telescope Science Institute there" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+            <token id="23" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="a physics and astronomy professor at Johns Hopkins University and academic affairs director of the Space Telescope Science Institute there" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="physics" />
+            <token id="6" string="and" />
+            <token id="7" string="astronomy" />
+            <token id="8" string="professor" />
+            <token id="9" string="at" />
+            <token id="10" string="Johns" />
+            <token id="11" string="Hopkins" />
+            <token id="12" string="University" />
+            <token id="13" string="and" />
+            <token id="14" string="academic" />
+            <token id="15" string="affairs" />
+            <token id="16" string="director" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+            <token id="23" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="called the launch `` the perfect start to a great adventure for mankind" type="VP">
+          <tokens>
+            <token id="25" string="called" />
+            <token id="26" string="the" />
+            <token id="27" string="launch" />
+            <token id="28" string="``" />
+            <token id="29" string="the" />
+            <token id="30" string="perfect" />
+            <token id="31" string="start" />
+            <token id="32" string="to" />
+            <token id="33" string="a" />
+            <token id="34" string="great" />
+            <token id="35" string="adventure" />
+            <token id="36" string="for" />
+            <token id="37" string="mankind" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="a physics and astronomy professor" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="physics" />
+            <token id="6" string="and" />
+            <token id="7" string="astronomy" />
+            <token id="8" string="professor" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Norman</governor>
+          <dependent id="1">Colin</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="25">called</governor>
+          <dependent id="2">Norman</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">professor</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">professor</governor>
+          <dependent id="5">physics</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">physics</governor>
+          <dependent id="6">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">physics</governor>
+          <dependent id="7">astronomy</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Norman</governor>
+          <dependent id="8">professor</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">University</governor>
+          <dependent id="9">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">University</governor>
+          <dependent id="10">Johns</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">University</governor>
+          <dependent id="11">Hopkins</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">professor</governor>
+          <dependent id="12">University</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">University</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">director</governor>
+          <dependent id="14">academic</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">director</governor>
+          <dependent id="15">affairs</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">University</governor>
+          <dependent id="16">director</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">Space</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">Space</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">director</governor>
+          <dependent id="19">Space</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Institute</governor>
+          <dependent id="20">Telescope</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Institute</governor>
+          <dependent id="21">Science</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="19">Space</governor>
+          <dependent id="22">Institute</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">Space</governor>
+          <dependent id="23">there</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="25">called</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">launch</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="31">start</governor>
+          <dependent id="27">launch</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">start</governor>
+          <dependent id="29">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">start</governor>
+          <dependent id="30">perfect</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="25">called</governor>
+          <dependent id="31">start</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">adventure</governor>
+          <dependent id="32">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">adventure</governor>
+          <dependent id="33">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="35">adventure</governor>
+          <dependent id="34">great</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">start</governor>
+          <dependent id="35">adventure</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">mankind</governor>
+          <dependent id="36">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">adventure</governor>
+          <dependent id="37">mankind</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Johns Hopkins University" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="10" string="Johns" />
+            <token id="11" string="Hopkins" />
+            <token id="12" string="University" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Space Telescope Science Institute" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="19" string="Space" />
+            <token id="20" string="Telescope" />
+            <token id="21" string="Science" />
+            <token id="22" string="Institute" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Colin Norman" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Colin" />
+            <token id="2" string="Norman" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>``It was incredibly beautiful.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="incredibly" lemma="incredibly" stem="incredibli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="beautiful" lemma="beautiful" stem="beauti" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (PRP It)) (VP (VBD was) (ADJP (RB incredibly) (JJ beautiful))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was incredibly beautiful" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="incredibly" />
+            <token id="5" string="beautiful" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="incredibly beautiful" type="ADJP">
+          <tokens>
+            <token id="4" string="incredibly" />
+            <token id="5" string="beautiful" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="It" type="NP">
+          <tokens>
+            <token id="2" string="It" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">beautiful</governor>
+          <dependent id="2">It</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">beautiful</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">beautiful</governor>
+          <dependent id="4">incredibly</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">beautiful</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The power of the launch was awesome and the telescope has an awesome power,&amp;apost;&amp;apost; Norman said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="power" lemma="power" stem="power" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="awesome" lemma="awesome" stem="awesom" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="telescope" lemma="telescope" stem="telescop" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="awesome" lemma="awesome" stem="awesom" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="power" lemma="power" stem="power" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Norman" lemma="Norman" stem="norman" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (S (NP (NP (DT The) (NN power)) (PP (IN of) (NP (DT the) (NN launch)))) (VP (VBD was) (ADJP (JJ awesome)))) (CC and) (S (NP (DT the) (NN telescope)) (VP (VBZ has) (NP (DT an) (JJ awesome) (NN power))))) (, ,) ('' '') (NP (NNP Norman)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="awesome" type="ADJP">
+          <tokens>
+            <token id="7" string="awesome" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="was awesome" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="awesome" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the telescope" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="telescope" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Norman" type="NP">
+          <tokens>
+            <token id="17" string="Norman" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The power of the launch" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="power" />
+            <token id="3" string="of" />
+            <token id="4" string="the" />
+            <token id="5" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="an awesome power" type="NP">
+          <tokens>
+            <token id="12" string="an" />
+            <token id="13" string="awesome" />
+            <token id="14" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The power" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="power" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the launch" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="has an awesome power" type="VP">
+          <tokens>
+            <token id="11" string="has" />
+            <token id="12" string="an" />
+            <token id="13" string="awesome" />
+            <token id="14" string="power" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">power</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">awesome</governor>
+          <dependent id="2">power</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">launch</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">launch</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">power</governor>
+          <dependent id="5">launch</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="7">awesome</governor>
+          <dependent id="6">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="7">awesome</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">awesome</governor>
+          <dependent id="8">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">telescope</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">has</governor>
+          <dependent id="10">telescope</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">awesome</governor>
+          <dependent id="11">has</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">power</governor>
+          <dependent id="12">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">power</governor>
+          <dependent id="13">awesome</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">has</governor>
+          <dependent id="14">power</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="17">Norman</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Norman" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Norman" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>Discovery&amp;apost;s liftoff was especially gratifying since it ended seven years of delays.</content>
+      <tokens>
+        <token id="1" string="Discovery" lemma="Discovery" stem="discoveri" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="liftoff" lemma="liftoff" stem="liftoff" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="especially" lemma="especially" stem="especi" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="gratifying" lemma="gratifying" stem="gratifi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="ended" lemma="end" stem="end" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="seven" lemma="seven" stem="seven" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="delays" lemma="delay" stem="delai" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Discovery) (POS 's)) (NN liftoff)) (VP (VBD was) (ADJP (RB especially) (JJ gratifying)) (SBAR (IN since) (S (NP (PRP it)) (VP (VBD ended) (NP (NP (CD seven) (NNS years)) (PP (IN of) (NP (NNS delays)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Discovery 's" type="NP">
+          <tokens>
+            <token id="1" string="Discovery" />
+            <token id="2" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="especially gratifying" type="ADJP">
+          <tokens>
+            <token id="5" string="especially" />
+            <token id="6" string="gratifying" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="ended seven years of delays" type="VP">
+          <tokens>
+            <token id="9" string="ended" />
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+            <token id="12" string="of" />
+            <token id="13" string="delays" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was especially gratifying since it ended seven years of delays" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="especially" />
+            <token id="6" string="gratifying" />
+            <token id="7" string="since" />
+            <token id="8" string="it" />
+            <token id="9" string="ended" />
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+            <token id="12" string="of" />
+            <token id="13" string="delays" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="seven years of delays" type="NP">
+          <tokens>
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+            <token id="12" string="of" />
+            <token id="13" string="delays" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Discovery 's liftoff" type="NP">
+          <tokens>
+            <token id="1" string="Discovery" />
+            <token id="2" string="'s" />
+            <token id="3" string="liftoff" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="delays" type="NP">
+          <tokens>
+            <token id="13" string="delays" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="it" type="NP">
+          <tokens>
+            <token id="8" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="seven years" type="NP">
+          <tokens>
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="since it ended seven years of delays" type="SBAR">
+          <tokens>
+            <token id="7" string="since" />
+            <token id="8" string="it" />
+            <token id="9" string="ended" />
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+            <token id="12" string="of" />
+            <token id="13" string="delays" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="3">liftoff</governor>
+          <dependent id="1">Discovery</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="1">Discovery</governor>
+          <dependent id="2">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">gratifying</governor>
+          <dependent id="3">liftoff</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">gratifying</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">gratifying</governor>
+          <dependent id="5">especially</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">gratifying</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="9">ended</governor>
+          <dependent id="7">since</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">ended</governor>
+          <dependent id="8">it</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">gratifying</governor>
+          <dependent id="9">ended</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">years</governor>
+          <dependent id="10">seven</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">ended</governor>
+          <dependent id="11">years</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">delays</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">years</governor>
+          <dependent id="13">delays</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="seven years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="10" string="seven" />
+            <token id="11" string="years" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>The $1.5 billion telescope originally was scheduled for launch in 1983 but remained grounded by technical problems and the Challenger explosion.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="3" string="1.5" lemma="1.5" stem="1.5" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="4" string="billion" lemma="billion" stem="billion" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="5" string="telescope" lemma="telescope" stem="telescop" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="originally" lemma="originally" stem="origin" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="scheduled" lemma="schedule" stem="schedul" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="1983" lemma="1983" stem="1983" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="13" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="remained" lemma="remain" stem="remain" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="grounded" lemma="ground" stem="ground" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="technical" lemma="technical" stem="technic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="problems" lemma="problem" stem="problem" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Challenger" lemma="Challenger" stem="challeng" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="explosion" lemma="explosion" stem="explos" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (ADJP (QP ($ $) (CD 1.5) (CD billion))) (NN telescope)) (ADVP (RB originally)) (VP (VP (VBD was) (VP (VBN scheduled) (PP (IN for) (NP (NP (NN launch)) (PP (IN in) (NP (CD 1983))))))) (CC but) (VP (VBD remained) (VP (VBN grounded) (PP (IN by) (NP (NP (JJ technical) (NNS problems)) (CC and) (NP (DT the) (NNP Challenger) (NN explosion))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="technical problems and the Challenger explosion" type="NP">
+          <tokens>
+            <token id="17" string="technical" />
+            <token id="18" string="problems" />
+            <token id="19" string="and" />
+            <token id="20" string="the" />
+            <token id="21" string="Challenger" />
+            <token id="22" string="explosion" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="$ 1.5 billion" type="ADJP">
+          <tokens>
+            <token id="2" string="$" />
+            <token id="3" string="1.5" />
+            <token id="4" string="billion" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was scheduled for launch in 1983 but remained grounded by technical problems and the Challenger explosion" type="VP">
+          <tokens>
+            <token id="7" string="was" />
+            <token id="8" string="scheduled" />
+            <token id="9" string="for" />
+            <token id="10" string="launch" />
+            <token id="11" string="in" />
+            <token id="12" string="1983" />
+            <token id="13" string="but" />
+            <token id="14" string="remained" />
+            <token id="15" string="grounded" />
+            <token id="16" string="by" />
+            <token id="17" string="technical" />
+            <token id="18" string="problems" />
+            <token id="19" string="and" />
+            <token id="20" string="the" />
+            <token id="21" string="Challenger" />
+            <token id="22" string="explosion" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="grounded by technical problems and the Challenger explosion" type="VP">
+          <tokens>
+            <token id="15" string="grounded" />
+            <token id="16" string="by" />
+            <token id="17" string="technical" />
+            <token id="18" string="problems" />
+            <token id="19" string="and" />
+            <token id="20" string="the" />
+            <token id="21" string="Challenger" />
+            <token id="22" string="explosion" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="scheduled for launch in 1983" type="VP">
+          <tokens>
+            <token id="8" string="scheduled" />
+            <token id="9" string="for" />
+            <token id="10" string="launch" />
+            <token id="11" string="in" />
+            <token id="12" string="1983" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The $ 1.5 billion telescope" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="$" />
+            <token id="3" string="1.5" />
+            <token id="4" string="billion" />
+            <token id="5" string="telescope" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="launch" type="NP">
+          <tokens>
+            <token id="10" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Challenger explosion" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="Challenger" />
+            <token id="22" string="explosion" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="was scheduled for launch in 1983" type="VP">
+          <tokens>
+            <token id="7" string="was" />
+            <token id="8" string="scheduled" />
+            <token id="9" string="for" />
+            <token id="10" string="launch" />
+            <token id="11" string="in" />
+            <token id="12" string="1983" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="remained grounded by technical problems and the Challenger explosion" type="VP">
+          <tokens>
+            <token id="14" string="remained" />
+            <token id="15" string="grounded" />
+            <token id="16" string="by" />
+            <token id="17" string="technical" />
+            <token id="18" string="problems" />
+            <token id="19" string="and" />
+            <token id="20" string="the" />
+            <token id="21" string="Challenger" />
+            <token id="22" string="explosion" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="launch in 1983" type="NP">
+          <tokens>
+            <token id="10" string="launch" />
+            <token id="11" string="in" />
+            <token id="12" string="1983" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="technical problems" type="NP">
+          <tokens>
+            <token id="17" string="technical" />
+            <token id="18" string="problems" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="1983" type="NP">
+          <tokens>
+            <token id="12" string="1983" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="5">telescope</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">telescope</governor>
+          <dependent id="2">$</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">billion</governor>
+          <dependent id="3">1.5</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="2">$</governor>
+          <dependent id="4">billion</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="8">scheduled</governor>
+          <dependent id="5">telescope</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">scheduled</governor>
+          <dependent id="6">originally</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="8">scheduled</governor>
+          <dependent id="7">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">scheduled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">launch</governor>
+          <dependent id="9">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">scheduled</governor>
+          <dependent id="10">launch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">1983</governor>
+          <dependent id="11">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">launch</governor>
+          <dependent id="12">1983</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">scheduled</governor>
+          <dependent id="13">but</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">scheduled</governor>
+          <dependent id="14">remained</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="14">remained</governor>
+          <dependent id="15">grounded</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">problems</governor>
+          <dependent id="16">by</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">problems</governor>
+          <dependent id="17">technical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">grounded</governor>
+          <dependent id="18">problems</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">problems</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">explosion</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">explosion</governor>
+          <dependent id="21">Challenger</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">problems</governor>
+          <dependent id="22">explosion</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="explosion" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="22" string="explosion" />
+          </tokens>
+        </entity>
+        <entity id="2" string="$ 1.5 billion" type="MONEY" score="0.0">
+          <tokens>
+            <token id="2" string="$" />
+            <token id="3" string="1.5" />
+            <token id="4" string="billion" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1983" type="DATE" score="0.0">
+          <tokens>
+            <token id="12" string="1983" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Two weeks ago when hundreds of scientists crowded into the Kennedy Space Center, the launch was scrubbed four minutes before liftoff.</content>
+      <tokens>
+        <token id="1" string="Two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="weeks" lemma="week" stem="week" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="ago" lemma="ago" stem="ago" pos="RB" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="hundreds" lemma="hundred" stem="hundr" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="scientists" lemma="scientist" stem="scientist" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="crowded" lemma="crowd" stem="crowd" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Kennedy" lemma="Kennedy" stem="kennedi" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Space" lemma="Space" stem="space" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="Center" lemma="Center" stem="center" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="scrubbed" lemma="scrub" stem="scrub" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="minutes" lemma="minute" stem="minut" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="liftoff" lemma="liftoff" stem="liftoff" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (SBAR (ADVP (NP (CD Two) (NNS weeks)) (RB ago)) (WHADVP (WRB when)) (S (NP (NP (NNS hundreds)) (PP (IN of) (NP (NNS scientists)))) (VP (VBN crowded) (PP (IN into) (NP (DT the) (NNP Kennedy) (NNP Space) (NNP Center)))))) (, ,) (NP (DT the) (NN launch)) (VP (VBD was) (VP (VBN scrubbed) (NP-TMP (CD four) (NNS minutes)) (PP (IN before) (NP (NN liftoff))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="scrubbed four minutes before liftoff" type="VP">
+          <tokens>
+            <token id="18" string="scrubbed" />
+            <token id="19" string="four" />
+            <token id="20" string="minutes" />
+            <token id="21" string="before" />
+            <token id="22" string="liftoff" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Two weeks" type="NP">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="liftoff" type="NP">
+          <tokens>
+            <token id="22" string="liftoff" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="scientists" type="NP">
+          <tokens>
+            <token id="7" string="scientists" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Kennedy Space Center" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="Kennedy" />
+            <token id="12" string="Space" />
+            <token id="13" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="crowded into the Kennedy Space Center" type="VP">
+          <tokens>
+            <token id="8" string="crowded" />
+            <token id="9" string="into" />
+            <token id="10" string="the" />
+            <token id="11" string="Kennedy" />
+            <token id="12" string="Space" />
+            <token id="13" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Two weeks ago when hundreds of scientists crowded into the Kennedy Space Center" type="SBAR">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="weeks" />
+            <token id="3" string="ago" />
+            <token id="4" string="when" />
+            <token id="5" string="hundreds" />
+            <token id="6" string="of" />
+            <token id="7" string="scientists" />
+            <token id="8" string="crowded" />
+            <token id="9" string="into" />
+            <token id="10" string="the" />
+            <token id="11" string="Kennedy" />
+            <token id="12" string="Space" />
+            <token id="13" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="hundreds of scientists" type="NP">
+          <tokens>
+            <token id="5" string="hundreds" />
+            <token id="6" string="of" />
+            <token id="7" string="scientists" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="was scrubbed four minutes before liftoff" type="VP">
+          <tokens>
+            <token id="17" string="was" />
+            <token id="18" string="scrubbed" />
+            <token id="19" string="four" />
+            <token id="20" string="minutes" />
+            <token id="21" string="before" />
+            <token id="22" string="liftoff" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="hundreds" type="NP">
+          <tokens>
+            <token id="5" string="hundreds" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the launch" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="when" type="WHADVP">
+          <tokens>
+            <token id="4" string="when" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">weeks</governor>
+          <dependent id="1">Two</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="3">ago</governor>
+          <dependent id="2">weeks</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">crowded</governor>
+          <dependent id="3">ago</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">crowded</governor>
+          <dependent id="4">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">crowded</governor>
+          <dependent id="5">hundreds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">scientists</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">hundreds</governor>
+          <dependent id="7">scientists</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="18">scrubbed</governor>
+          <dependent id="8">crowded</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Center</governor>
+          <dependent id="9">into</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Center</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Center</governor>
+          <dependent id="11">Kennedy</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Center</governor>
+          <dependent id="12">Space</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">crowded</governor>
+          <dependent id="13">Center</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">launch</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="18">scrubbed</governor>
+          <dependent id="16">launch</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="18">scrubbed</governor>
+          <dependent id="17">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">scrubbed</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">minutes</governor>
+          <dependent id="19">four</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="18">scrubbed</governor>
+          <dependent id="20">minutes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">liftoff</governor>
+          <dependent id="21">before</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">scrubbed</governor>
+          <dependent id="22">liftoff</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Two weeks ago" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Two" />
+            <token id="2" string="weeks" />
+            <token id="3" string="ago" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Kennedy Space Center" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="11" string="Kennedy" />
+            <token id="12" string="Space" />
+            <token id="13" string="Center" />
+          </tokens>
+        </entity>
+        <entity id="3" string="four minutes" type="DURATION" score="0.0">
+          <tokens>
+            <token id="19" string="four" />
+            <token id="20" string="minutes" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Only a few dozen of them returned Tuesday, but they were just as excited.</content>
+      <tokens>
+        <token id="1" string="Only" lemma="only" stem="only" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="few" lemma="few" stem="few" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="dozen" lemma="dozen" stem="dozen" pos="NN" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="returned" lemma="return" stem="return" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Tuesday" lemma="Tuesday" stem="tuesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="just" lemma="just" stem="just" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="excited" lemma="excite" stem="excit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (RB Only) (DT a) (JJ few) (NN dozen)) (PP (IN of) (NP (PRP them)))) (VP (VBD returned) (NP-TMP (NNP Tuesday)))) (, ,) (CC but) (S (NP (PRP they)) (VP (VBD were) (ADVP (RB just)) (VP (ADVP (IN as)) (VBN excited)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="they" type="NP">
+          <tokens>
+            <token id="11" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="returned Tuesday" type="VP">
+          <tokens>
+            <token id="7" string="returned" />
+            <token id="8" string="Tuesday" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Only a few dozen" type="NP">
+          <tokens>
+            <token id="1" string="Only" />
+            <token id="2" string="a" />
+            <token id="3" string="few" />
+            <token id="4" string="dozen" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were just as excited" type="VP">
+          <tokens>
+            <token id="12" string="were" />
+            <token id="13" string="just" />
+            <token id="14" string="as" />
+            <token id="15" string="excited" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="them" type="NP">
+          <tokens>
+            <token id="6" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="as excited" type="VP">
+          <tokens>
+            <token id="14" string="as" />
+            <token id="15" string="excited" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Only a few dozen of them" type="NP">
+          <tokens>
+            <token id="1" string="Only" />
+            <token id="2" string="a" />
+            <token id="3" string="few" />
+            <token id="4" string="dozen" />
+            <token id="5" string="of" />
+            <token id="6" string="them" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="4">dozen</governor>
+          <dependent id="1">Only</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">dozen</governor>
+          <dependent id="2">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">dozen</governor>
+          <dependent id="3">few</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">returned</governor>
+          <dependent id="4">dozen</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">them</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">dozen</governor>
+          <dependent id="6">them</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">returned</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="7">returned</governor>
+          <dependent id="8">Tuesday</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">returned</governor>
+          <dependent id="10">but</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="15">excited</governor>
+          <dependent id="11">they</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="15">excited</governor>
+          <dependent id="12">were</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">excited</governor>
+          <dependent id="13">just</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">excited</governor>
+          <dependent id="14">as</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">returned</governor>
+          <dependent id="15">excited</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="dozen" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="dozen" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Tuesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Tuesday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>``There were times when we were deeply depressed.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="7" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="deeply" lemma="deeply" stem="deepli" pos="RB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="depressed" lemma="depressed" stem="depress" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (EX There)) (VP (VBD were) (NP (NP (NNS times)) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (VBD were) (ADJP (RB deeply) (JJ depressed))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="were times when we were deeply depressed" type="VP">
+          <tokens>
+            <token id="3" string="were" />
+            <token id="4" string="times" />
+            <token id="5" string="when" />
+            <token id="6" string="we" />
+            <token id="7" string="were" />
+            <token id="8" string="deeply" />
+            <token id="9" string="depressed" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="times" type="NP">
+          <tokens>
+            <token id="4" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="There" type="NP">
+          <tokens>
+            <token id="2" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were deeply depressed" type="VP">
+          <tokens>
+            <token id="7" string="were" />
+            <token id="8" string="deeply" />
+            <token id="9" string="depressed" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="deeply depressed" type="ADJP">
+          <tokens>
+            <token id="8" string="deeply" />
+            <token id="9" string="depressed" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="when we were deeply depressed" type="SBAR">
+          <tokens>
+            <token id="5" string="when" />
+            <token id="6" string="we" />
+            <token id="7" string="were" />
+            <token id="8" string="deeply" />
+            <token id="9" string="depressed" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="times when we were deeply depressed" type="NP">
+          <tokens>
+            <token id="4" string="times" />
+            <token id="5" string="when" />
+            <token id="6" string="we" />
+            <token id="7" string="were" />
+            <token id="8" string="deeply" />
+            <token id="9" string="depressed" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="we" type="NP">
+          <tokens>
+            <token id="6" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="when" type="WHADVP">
+          <tokens>
+            <token id="5" string="when" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="3">were</governor>
+          <dependent id="2">There</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">were</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">were</governor>
+          <dependent id="4">times</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">depressed</governor>
+          <dependent id="5">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">depressed</governor>
+          <dependent id="6">we</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">depressed</governor>
+          <dependent id="7">were</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">depressed</governor>
+          <dependent id="8">deeply</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="4">times</governor>
+          <dependent id="9">depressed</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>There were times when we were elated&amp;apost;&amp;apost; about Hubble&amp;apost;s progress, said William H. Jeffreys, a University of Texas astronomer and Hubble&amp;apost;s astrometry project leader.</content>
+      <tokens>
+        <token id="1" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="elated" lemma="elate" stem="elat" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="Hubble" lemma="Hubble" stem="hubbl" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="progress" lemma="progress" stem="progress" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="William" lemma="William" stem="william" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="16" string="H." lemma="H." stem="h." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="17" string="Jeffreys" lemma="Jeffreys" stem="jeffrei" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="University" lemma="University" stem="univers" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="Texas" lemma="Texas" stem="texa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="astronomer" lemma="astronomer" stem="astronom" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="Hubble" lemma="Hubble" stem="hubbl" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="26" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="27" string="astrometry" lemma="astrometry" stem="astrometri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="project" lemma="project" stem="project" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="leader" lemma="leader" stem="leader" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (S (NP (EX There)) (VP (VBD were) (NP (NP (NNS times)) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (VBD were) (VP (VBN elated) ('' '') (PP (IN about) (NP (NP (NNP Hubble) (POS 's)) (NN progress)))))))))) (, ,) (VP (VBD said)) (NP (NP (NNP William) (NNP H.) (NNP Jeffreys)) (, ,) (NP (NP (DT a) (NAC (NNP University) (PP (IN of) (NP (NNP Texas)))) (NN astronomer)) (CC and) (NP (NP (NNP Hubble) (POS 's)) (NN astrometry) (NN project) (NN leader)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Hubble 's" type="NP">
+          <tokens>
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Hubble 's progress" type="NP">
+          <tokens>
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="were elated '' about Hubble 's progress" type="VP">
+          <tokens>
+            <token id="6" string="were" />
+            <token id="7" string="elated" />
+            <token id="8" string="''" />
+            <token id="9" string="about" />
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were times when we were elated '' about Hubble 's progress" type="VP">
+          <tokens>
+            <token id="2" string="were" />
+            <token id="3" string="times" />
+            <token id="4" string="when" />
+            <token id="5" string="we" />
+            <token id="6" string="were" />
+            <token id="7" string="elated" />
+            <token id="8" string="''" />
+            <token id="9" string="about" />
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="we" type="NP">
+          <tokens>
+            <token id="5" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="when" type="WHADVP">
+          <tokens>
+            <token id="4" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a University of Texas astronomer and Hubble 's astrometry project leader" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="University" />
+            <token id="21" string="of" />
+            <token id="22" string="Texas" />
+            <token id="23" string="astronomer" />
+            <token id="24" string="and" />
+            <token id="25" string="Hubble" />
+            <token id="26" string="'s" />
+            <token id="27" string="astrometry" />
+            <token id="28" string="project" />
+            <token id="29" string="leader" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Hubble 's astrometry project leader" type="NP">
+          <tokens>
+            <token id="25" string="Hubble" />
+            <token id="26" string="'s" />
+            <token id="27" string="astrometry" />
+            <token id="28" string="project" />
+            <token id="29" string="leader" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="times" type="NP">
+          <tokens>
+            <token id="3" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="William H. Jeffreys" type="NP">
+          <tokens>
+            <token id="15" string="William" />
+            <token id="16" string="H." />
+            <token id="17" string="Jeffreys" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a University of Texas astronomer" type="NP">
+          <tokens>
+            <token id="19" string="a" />
+            <token id="20" string="University" />
+            <token id="21" string="of" />
+            <token id="22" string="Texas" />
+            <token id="23" string="astronomer" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="There" type="NP">
+          <tokens>
+            <token id="1" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="times when we were elated '' about Hubble 's progress" type="NP">
+          <tokens>
+            <token id="3" string="times" />
+            <token id="4" string="when" />
+            <token id="5" string="we" />
+            <token id="6" string="were" />
+            <token id="7" string="elated" />
+            <token id="8" string="''" />
+            <token id="9" string="about" />
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Texas" type="NP">
+          <tokens>
+            <token id="22" string="Texas" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="elated '' about Hubble 's progress" type="VP">
+          <tokens>
+            <token id="7" string="elated" />
+            <token id="8" string="''" />
+            <token id="9" string="about" />
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="when we were elated '' about Hubble 's progress" type="SBAR">
+          <tokens>
+            <token id="4" string="when" />
+            <token id="5" string="we" />
+            <token id="6" string="were" />
+            <token id="7" string="elated" />
+            <token id="8" string="''" />
+            <token id="9" string="about" />
+            <token id="10" string="Hubble" />
+            <token id="11" string="'s" />
+            <token id="12" string="progress" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="William H. Jeffreys , a University of Texas astronomer and Hubble 's astrometry project leader" type="NP">
+          <tokens>
+            <token id="15" string="William" />
+            <token id="16" string="H." />
+            <token id="17" string="Jeffreys" />
+            <token id="18" string="," />
+            <token id="19" string="a" />
+            <token id="20" string="University" />
+            <token id="21" string="of" />
+            <token id="22" string="Texas" />
+            <token id="23" string="astronomer" />
+            <token id="24" string="and" />
+            <token id="25" string="Hubble" />
+            <token id="26" string="'s" />
+            <token id="27" string="astrometry" />
+            <token id="28" string="project" />
+            <token id="29" string="leader" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="said" type="VP">
+          <tokens>
+            <token id="14" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="2">were</governor>
+          <dependent id="1">There</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="14">said</governor>
+          <dependent id="2">were</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="2">were</governor>
+          <dependent id="3">times</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">elated</governor>
+          <dependent id="4">when</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">elated</governor>
+          <dependent id="5">we</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">elated</governor>
+          <dependent id="6">were</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="3">times</governor>
+          <dependent id="7">elated</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">progress</governor>
+          <dependent id="9">about</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="12">progress</governor>
+          <dependent id="10">Hubble</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Hubble</governor>
+          <dependent id="11">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">elated</governor>
+          <dependent id="12">progress</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Jeffreys</governor>
+          <dependent id="15">William</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">Jeffreys</governor>
+          <dependent id="16">H.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">said</governor>
+          <dependent id="17">Jeffreys</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">astronomer</governor>
+          <dependent id="19">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="23">astronomer</governor>
+          <dependent id="20">University</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Texas</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">University</governor>
+          <dependent id="22">Texas</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="17">Jeffreys</governor>
+          <dependent id="23">astronomer</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="23">astronomer</governor>
+          <dependent id="24">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="29">leader</governor>
+          <dependent id="25">Hubble</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">Hubble</governor>
+          <dependent id="26">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">leader</governor>
+          <dependent id="27">astrometry</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">leader</governor>
+          <dependent id="28">project</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="23">astronomer</governor>
+          <dependent id="29">leader</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="William H. Jeffreys" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="William" />
+            <token id="16" string="H." />
+            <token id="17" string="Jeffreys" />
+          </tokens>
+        </entity>
+        <entity id="2" string="University of Texas" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="20" string="University" />
+            <token id="21" string="of" />
+            <token id="22" string="Texas" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Hubble" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="25" string="Hubble" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="true">
+      <content>Jeffreys said.</content>
+      <tokens>
+        <token id="1" string="Jeffreys" lemma="Jeffreys" stem="jeffrei" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Jeffreys)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Jeffreys" type="NP">
+          <tokens>
+            <token id="1" string="Jeffreys" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="said" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Jeffreys</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Jeffreys" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Jeffreys" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="15" has_coreference="true">
+      <content>``This is one of those times when we are thrilled beyond belief.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="This" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="one" lemma="one" stem="on" pos="CD" type="Word" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="those" lemma="those" stem="those" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="thrilled" lemma="thrill" stem="thrill" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="beyond" lemma="beyond" stem="beyond" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="belief" lemma="belief" stem="belief" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (DT This)) (VP (VBZ is) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT those) (NNS times)) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (VBP are) (VP (VBN thrilled) (PP (IN beyond) (NP (NN belief))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="those times when we are thrilled beyond belief" type="NP">
+          <tokens>
+            <token id="6" string="those" />
+            <token id="7" string="times" />
+            <token id="8" string="when" />
+            <token id="9" string="we" />
+            <token id="10" string="are" />
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="one of those times when we are thrilled beyond belief" type="NP">
+          <tokens>
+            <token id="4" string="one" />
+            <token id="5" string="of" />
+            <token id="6" string="those" />
+            <token id="7" string="times" />
+            <token id="8" string="when" />
+            <token id="9" string="we" />
+            <token id="10" string="are" />
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="one" type="NP">
+          <tokens>
+            <token id="4" string="one" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="when we are thrilled beyond belief" type="SBAR">
+          <tokens>
+            <token id="8" string="when" />
+            <token id="9" string="we" />
+            <token id="10" string="are" />
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="This" type="NP">
+          <tokens>
+            <token id="2" string="This" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="are thrilled beyond belief" type="VP">
+          <tokens>
+            <token id="10" string="are" />
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="thrilled beyond belief" type="VP">
+          <tokens>
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="is one of those times when we are thrilled beyond belief" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="one" />
+            <token id="5" string="of" />
+            <token id="6" string="those" />
+            <token id="7" string="times" />
+            <token id="8" string="when" />
+            <token id="9" string="we" />
+            <token id="10" string="are" />
+            <token id="11" string="thrilled" />
+            <token id="12" string="beyond" />
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="those times" type="NP">
+          <tokens>
+            <token id="6" string="those" />
+            <token id="7" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="belief" type="NP">
+          <tokens>
+            <token id="13" string="belief" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="we" type="NP">
+          <tokens>
+            <token id="9" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="when" type="WHADVP">
+          <tokens>
+            <token id="8" string="when" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="4">one</governor>
+          <dependent id="2">This</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="4">one</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">one</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">times</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">times</governor>
+          <dependent id="6">those</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">one</governor>
+          <dependent id="7">times</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">thrilled</governor>
+          <dependent id="8">when</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="11">thrilled</governor>
+          <dependent id="9">we</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">thrilled</governor>
+          <dependent id="10">are</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="7">times</governor>
+          <dependent id="11">thrilled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">belief</governor>
+          <dependent id="12">beyond</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">thrilled</governor>
+          <dependent id="13">belief</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="one" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="one" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="16" has_coreference="true">
+      <content>Ed Weiler, NASA program scientist for Hubble, said watching the liftoff was ``a double whammy&amp;apost;&amp;apost; because ``it was my first shuttle launch and the launch of the HST.</content>
+      <tokens>
+        <token id="1" string="Ed" lemma="Ed" stem="ed" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Weiler" lemma="Weiler" stem="weiler" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="NASA" lemma="NASA" stem="nasa" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="program" lemma="program" stem="program" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="scientist" lemma="scientist" stem="scientist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Hubble" lemma="Hubble" stem="hubbl" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="watching" lemma="watch" stem="watch" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="liftoff" lemma="liftoff" stem="liftoff" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="double" lemma="double" stem="doubl" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="whammy" lemma="whammy" stem="whammi" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="because" lemma="because" stem="becaus" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="22" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="24" string="my" lemma="my" stem="my" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="26" string="shuttle" lemma="shuttle" stem="shuttl" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="launch" lemma="launch" stem="launch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="HST" lemma="HST" stem="hst" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Ed) (NNP Weiler)) (, ,) (NP (NP (NNP NASA) (NN program) (NN scientist)) (PP (IN for) (NP (NNP Hubble)))) (, ,)) (VP (VBD said) (S (VP (VBG watching) (SBAR (S (NP (DT the) (NN liftoff)) (VP (VBD was) (NP (NP (`` ``) (NP (DT a) (JJ double) (NN whammy)) ('' '') (SBAR (IN because) (`` ``) (S (NP (PRP it)) (VP (VBD was) (NP (PRP$ my) (JJ first) (NN shuttle) (NN launch)))))) (CC and) (NP (NP (DT the) (NN launch)) (PP (IN of) (NP (DT the) (NNP HST))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said watching the liftoff was `` a double whammy '' because `` it was my first shuttle launch and the launch of the HST" type="VP">
+          <tokens>
+            <token id="10" string="said" />
+            <token id="11" string="watching" />
+            <token id="12" string="the" />
+            <token id="13" string="liftoff" />
+            <token id="14" string="was" />
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+            <token id="28" string="and" />
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="`` a double whammy '' because `` it was my first shuttle launch and the launch of the HST" type="NP">
+          <tokens>
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+            <token id="28" string="and" />
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="because `` it was my first shuttle launch" type="SBAR">
+          <tokens>
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Ed Weiler , NASA program scientist for Hubble ," type="NP">
+          <tokens>
+            <token id="1" string="Ed" />
+            <token id="2" string="Weiler" />
+            <token id="3" string="," />
+            <token id="4" string="NASA" />
+            <token id="5" string="program" />
+            <token id="6" string="scientist" />
+            <token id="7" string="for" />
+            <token id="8" string="Hubble" />
+            <token id="9" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="NASA program scientist for Hubble" type="NP">
+          <tokens>
+            <token id="4" string="NASA" />
+            <token id="5" string="program" />
+            <token id="6" string="scientist" />
+            <token id="7" string="for" />
+            <token id="8" string="Hubble" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the liftoff" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="liftoff" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="22" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the launch" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="was `` a double whammy '' because `` it was my first shuttle launch and the launch of the HST" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+            <token id="28" string="and" />
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="watching the liftoff was `` a double whammy '' because `` it was my first shuttle launch and the launch of the HST" type="VP">
+          <tokens>
+            <token id="11" string="watching" />
+            <token id="12" string="the" />
+            <token id="13" string="liftoff" />
+            <token id="14" string="was" />
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+            <token id="28" string="and" />
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the launch of the HST" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the HST" type="NP">
+          <tokens>
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a double whammy" type="NP">
+          <tokens>
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the liftoff was `` a double whammy '' because `` it was my first shuttle launch and the launch of the HST" type="SBAR">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="liftoff" />
+            <token id="14" string="was" />
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+            <token id="28" string="and" />
+            <token id="29" string="the" />
+            <token id="30" string="launch" />
+            <token id="31" string="of" />
+            <token id="32" string="the" />
+            <token id="33" string="HST" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="`` a double whammy '' because `` it was my first shuttle launch" type="NP">
+          <tokens>
+            <token id="15" string="``" />
+            <token id="16" string="a" />
+            <token id="17" string="double" />
+            <token id="18" string="whammy" />
+            <token id="19" string="''" />
+            <token id="20" string="because" />
+            <token id="21" string="``" />
+            <token id="22" string="it" />
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="was my first shuttle launch" type="VP">
+          <tokens>
+            <token id="23" string="was" />
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Ed Weiler" type="NP">
+          <tokens>
+            <token id="1" string="Ed" />
+            <token id="2" string="Weiler" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="NASA program scientist" type="NP">
+          <tokens>
+            <token id="4" string="NASA" />
+            <token id="5" string="program" />
+            <token id="6" string="scientist" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="my first shuttle launch" type="NP">
+          <tokens>
+            <token id="24" string="my" />
+            <token id="25" string="first" />
+            <token id="26" string="shuttle" />
+            <token id="27" string="launch" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="Hubble" type="NP">
+          <tokens>
+            <token id="8" string="Hubble" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Weiler</governor>
+          <dependent id="1">Ed</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">said</governor>
+          <dependent id="2">Weiler</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">scientist</governor>
+          <dependent id="4">NASA</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">scientist</governor>
+          <dependent id="5">program</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Weiler</governor>
+          <dependent id="6">scientist</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Hubble</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">scientist</governor>
+          <dependent id="8">Hubble</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">said</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="10">said</governor>
+          <dependent id="11">watching</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">liftoff</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">whammy</governor>
+          <dependent id="13">liftoff</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="18">whammy</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">whammy</governor>
+          <dependent id="16">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">whammy</governor>
+          <dependent id="17">double</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="11">watching</governor>
+          <dependent id="18">whammy</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="27">launch</governor>
+          <dependent id="20">because</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">launch</governor>
+          <dependent id="22">it</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="27">launch</governor>
+          <dependent id="23">was</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="27">launch</governor>
+          <dependent id="24">my</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">launch</governor>
+          <dependent id="25">first</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">launch</governor>
+          <dependent id="26">shuttle</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="18">whammy</governor>
+          <dependent id="27">launch</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">whammy</governor>
+          <dependent id="28">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">launch</governor>
+          <dependent id="29">the</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">whammy</governor>
+          <dependent id="30">launch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">HST</governor>
+          <dependent id="31">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="33">HST</governor>
+          <dependent id="32">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">launch</governor>
+          <dependent id="33">HST</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="25" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="NASA" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="4" string="NASA" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Ed Weiler" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Ed" />
+            <token id="2" string="Weiler" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="17" has_coreference="true">
+      <content>It really gets to you.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="really" lemma="really" stem="realli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="gets" lemma="get" stem="get" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="you" lemma="you" stem="you" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (ADVP (RB really)) (VP (VBZ gets) (PP (TO to) (NP (PRP you)))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="gets to you" type="VP">
+          <tokens>
+            <token id="3" string="gets" />
+            <token id="4" string="to" />
+            <token id="5" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="you" type="NP">
+          <tokens>
+            <token id="5" string="you" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">gets</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">gets</governor>
+          <dependent id="2">really</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">gets</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">you</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">gets</governor>
+          <dependent id="5">you</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="11-12-13-14" string="the Hubble Space Telescope" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="16" string="Hubble" id_sentence="2" />
+        <mention ids_tokens="9-10" string="the telescope" id_sentence="7" />
+        <mention ids_tokens="10-11" string="Hubble's" id_sentence="13" />
+        <mention ids_tokens="25-26" string="Hubble's" id_sentence="13" />
+        <mention ids_tokens="8" string="Hubble" id_sentence="16" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Charles Robert O'Dell" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1" string="I" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="1-2" string="Colin Norman" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="17" string="Norman" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PROPER">
+      <referenced ids_tokens="10-11-12" string="Johns Hopkins University" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="2" string="It" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="NOMINAL">
+      <referenced ids_tokens="5-6-7" string="hundreds of scientists" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="6" string="them" id_sentence="11" />
+        <mention ids_tokens="11" string="they" id_sentence="11" />
+        <mention ids_tokens="6" string="we" id_sentence="12" />
+        <mention ids_tokens="5" string="we" id_sentence="13" />
+        <mention ids_tokens="9" string="we" id_sentence="15" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9" string="times when we were deeply depressed" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="3-12" string="times when we were elated'' about Hubble's progress" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="14" type="PROPER">
+      <referenced ids_tokens="15-16-17" string="William H. Jeffreys" id_sentence="13" />
+      <mentions>
+        <mention ids_tokens="1" string="Jeffreys" id_sentence="14" />
+      </mentions>
+    </coreference>
+    <coreference id="16" type="PROPER">
+      <referenced ids_tokens="4" string="NASA" id_sentence="16" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="17" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

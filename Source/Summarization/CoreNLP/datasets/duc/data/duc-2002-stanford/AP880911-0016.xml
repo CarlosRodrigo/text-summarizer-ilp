@@ -1,0 +1,3849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880911-0016">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Hurricane Gilbert swept toward the Dominican Republic Sunday, and the Civil Defense alerted its heavily populated south coast to prepare for high winds, heavy rains and high seas.</content>
+      <tokens>
+        <token id="1" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="Gilbert" lemma="Gilbert" stem="gilbert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="swept" lemma="sweep" stem="swept" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="toward" lemma="toward" stem="toward" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="Dominican" lemma="Dominican" stem="dominican" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="Republic" lemma="Republic" stem="republ" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Civil" lemma="civil" stem="civil" pos="JJ" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="Defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="alerted" lemma="alert" stem="alert" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="heavily" lemma="heavily" stem="heavili" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="populated" lemma="populated" stem="popul" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="south" lemma="south" stem="south" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="prepare" lemma="prepare" stem="prepar" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="high" lemma="high" stem="high" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="winds" lemma="wind" stem="wind" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="27" string="rains" lemma="rain" stem="rain" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="high" lemma="high" stem="high" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="seas" lemma="sea" stem="sea" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNP Hurricane) (NNP Gilbert)) (VP (VBD swept) (PP (IN toward) (NP (DT the) (NNP Dominican) (NNP Republic) (NNP Sunday))))) (, ,) (CC and) (S (NP (DT the) (JJ Civil) (NN Defense)) (VP (VBD alerted) (NP (PRP$ its) (ADJP (RB heavily) (JJ populated)) (JJ south) (NN coast)) (S (VP (TO to) (VP (VB prepare) (PP (IN for) (NP (NP (JJ high) (NNS winds)) (, ,) (NP (JJ heavy) (NNS rains)) (CC and) (NP (JJ high) (NNS seas))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Hurricane Gilbert" type="NP">
+          <tokens>
+            <token id="1" string="Hurricane" />
+            <token id="2" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="its heavily populated south coast" type="NP">
+          <tokens>
+            <token id="15" string="its" />
+            <token id="16" string="heavily" />
+            <token id="17" string="populated" />
+            <token id="18" string="south" />
+            <token id="19" string="coast" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="prepare for high winds , heavy rains and high seas" type="VP">
+          <tokens>
+            <token id="21" string="prepare" />
+            <token id="22" string="for" />
+            <token id="23" string="high" />
+            <token id="24" string="winds" />
+            <token id="25" string="," />
+            <token id="26" string="heavy" />
+            <token id="27" string="rains" />
+            <token id="28" string="and" />
+            <token id="29" string="high" />
+            <token id="30" string="seas" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Civil Defense" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="Civil" />
+            <token id="13" string="Defense" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="heavily populated" type="ADJP">
+          <tokens>
+            <token id="16" string="heavily" />
+            <token id="17" string="populated" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="high winds , heavy rains and high seas" type="NP">
+          <tokens>
+            <token id="23" string="high" />
+            <token id="24" string="winds" />
+            <token id="25" string="," />
+            <token id="26" string="heavy" />
+            <token id="27" string="rains" />
+            <token id="28" string="and" />
+            <token id="29" string="high" />
+            <token id="30" string="seas" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="high winds" type="NP">
+          <tokens>
+            <token id="23" string="high" />
+            <token id="24" string="winds" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Dominican Republic Sunday" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="Dominican" />
+            <token id="7" string="Republic" />
+            <token id="8" string="Sunday" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="alerted its heavily populated south coast to prepare for high winds , heavy rains and high seas" type="VP">
+          <tokens>
+            <token id="14" string="alerted" />
+            <token id="15" string="its" />
+            <token id="16" string="heavily" />
+            <token id="17" string="populated" />
+            <token id="18" string="south" />
+            <token id="19" string="coast" />
+            <token id="20" string="to" />
+            <token id="21" string="prepare" />
+            <token id="22" string="for" />
+            <token id="23" string="high" />
+            <token id="24" string="winds" />
+            <token id="25" string="," />
+            <token id="26" string="heavy" />
+            <token id="27" string="rains" />
+            <token id="28" string="and" />
+            <token id="29" string="high" />
+            <token id="30" string="seas" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="swept toward the Dominican Republic Sunday" type="VP">
+          <tokens>
+            <token id="3" string="swept" />
+            <token id="4" string="toward" />
+            <token id="5" string="the" />
+            <token id="6" string="Dominican" />
+            <token id="7" string="Republic" />
+            <token id="8" string="Sunday" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="to prepare for high winds , heavy rains and high seas" type="VP">
+          <tokens>
+            <token id="20" string="to" />
+            <token id="21" string="prepare" />
+            <token id="22" string="for" />
+            <token id="23" string="high" />
+            <token id="24" string="winds" />
+            <token id="25" string="," />
+            <token id="26" string="heavy" />
+            <token id="27" string="rains" />
+            <token id="28" string="and" />
+            <token id="29" string="high" />
+            <token id="30" string="seas" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="heavy rains" type="NP">
+          <tokens>
+            <token id="26" string="heavy" />
+            <token id="27" string="rains" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="high seas" type="NP">
+          <tokens>
+            <token id="29" string="high" />
+            <token id="30" string="seas" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Gilbert</governor>
+          <dependent id="1">Hurricane</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">swept</governor>
+          <dependent id="2">Gilbert</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">swept</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Sunday</governor>
+          <dependent id="4">toward</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">Sunday</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Sunday</governor>
+          <dependent id="6">Dominican</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Sunday</governor>
+          <dependent id="7">Republic</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">swept</governor>
+          <dependent id="8">Sunday</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">swept</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Defense</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">Defense</governor>
+          <dependent id="12">Civil</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">alerted</governor>
+          <dependent id="13">Defense</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">swept</governor>
+          <dependent id="14">alerted</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="19">coast</governor>
+          <dependent id="15">its</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="17">populated</governor>
+          <dependent id="16">heavily</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">coast</governor>
+          <dependent id="17">populated</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">coast</governor>
+          <dependent id="18">south</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">alerted</governor>
+          <dependent id="19">coast</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="21">prepare</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="14">alerted</governor>
+          <dependent id="21">prepare</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">winds</governor>
+          <dependent id="22">for</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">winds</governor>
+          <dependent id="23">high</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">prepare</governor>
+          <dependent id="24">winds</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">rains</governor>
+          <dependent id="26">heavy</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">winds</governor>
+          <dependent id="27">rains</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="24">winds</governor>
+          <dependent id="28">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="30">seas</governor>
+          <dependent id="29">high</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="24">winds</governor>
+          <dependent id="30">seas</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Civil Defense" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="12" string="Civil" />
+            <token id="13" string="Defense" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Gilbert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Gilbert" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Dominican Republic" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Dominican" />
+            <token id="7" string="Republic" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="false">
+      <content>The storm was approaching from the southeast with sustained winds of 75 mph gusting to 92 mph.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="approaching" lemma="approach" stem="approach" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="southeast" lemma="southeast" stem="southeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="sustained" lemma="sustained" stem="sustain" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="winds" lemma="wind" stem="wind" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="75" lemma="75" stem="75" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="13" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="gusting" lemma="gust" stem="gust" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="92" lemma="92" stem="92" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN storm)) (VP (VBD was) (VP (VBG approaching) (PP (IN from) (NP (DT the) (NN southeast))) (PP (IN with) (NP (NP (JJ sustained) (NNS winds)) (PP (IN of) (NP (NP (CD 75) (NN mph)) (VP (VBG gusting) (PP (TO to) (NP (CD 92) (NN mph)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The storm" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="75 mph gusting to 92 mph" type="NP">
+          <tokens>
+            <token id="12" string="75" />
+            <token id="13" string="mph" />
+            <token id="14" string="gusting" />
+            <token id="15" string="to" />
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="75 mph" type="NP">
+          <tokens>
+            <token id="12" string="75" />
+            <token id="13" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="was approaching from the southeast with sustained winds of 75 mph gusting to 92 mph" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="approaching" />
+            <token id="5" string="from" />
+            <token id="6" string="the" />
+            <token id="7" string="southeast" />
+            <token id="8" string="with" />
+            <token id="9" string="sustained" />
+            <token id="10" string="winds" />
+            <token id="11" string="of" />
+            <token id="12" string="75" />
+            <token id="13" string="mph" />
+            <token id="14" string="gusting" />
+            <token id="15" string="to" />
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="92 mph" type="NP">
+          <tokens>
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="approaching from the southeast with sustained winds of 75 mph gusting to 92 mph" type="VP">
+          <tokens>
+            <token id="4" string="approaching" />
+            <token id="5" string="from" />
+            <token id="6" string="the" />
+            <token id="7" string="southeast" />
+            <token id="8" string="with" />
+            <token id="9" string="sustained" />
+            <token id="10" string="winds" />
+            <token id="11" string="of" />
+            <token id="12" string="75" />
+            <token id="13" string="mph" />
+            <token id="14" string="gusting" />
+            <token id="15" string="to" />
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="sustained winds" type="NP">
+          <tokens>
+            <token id="9" string="sustained" />
+            <token id="10" string="winds" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the southeast" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="southeast" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="gusting to 92 mph" type="VP">
+          <tokens>
+            <token id="14" string="gusting" />
+            <token id="15" string="to" />
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="sustained winds of 75 mph gusting to 92 mph" type="NP">
+          <tokens>
+            <token id="9" string="sustained" />
+            <token id="10" string="winds" />
+            <token id="11" string="of" />
+            <token id="12" string="75" />
+            <token id="13" string="mph" />
+            <token id="14" string="gusting" />
+            <token id="15" string="to" />
+            <token id="16" string="92" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">storm</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">approaching</governor>
+          <dependent id="2">storm</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">approaching</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">approaching</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">southeast</governor>
+          <dependent id="5">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">southeast</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">approaching</governor>
+          <dependent id="7">southeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">winds</governor>
+          <dependent id="8">with</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">winds</governor>
+          <dependent id="9">sustained</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">approaching</governor>
+          <dependent id="10">winds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">mph</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">mph</governor>
+          <dependent id="12">75</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">winds</governor>
+          <dependent id="13">mph</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="13">mph</governor>
+          <dependent id="14">gusting</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">mph</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">mph</governor>
+          <dependent id="16">92</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">gusting</governor>
+          <dependent id="17">mph</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="storm" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="2" string="storm" />
+          </tokens>
+        </entity>
+        <entity id="2" string="92" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="92" />
+          </tokens>
+        </entity>
+        <entity id="3" string="75" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="12" string="75" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>``There is no need for alarm,&amp;apost;&amp;apost; Civil Defense Director Eugenio Cabral said in a television alert shortly before midnight Saturday.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="need" lemma="need" stem="need" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="alarm" lemma="alarm" stem="alarm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Civil" lemma="Civil" stem="civil" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="Defense" lemma="Defense" stem="defens" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="Director" lemma="Director" stem="director" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="Eugenio" lemma="Eugenio" stem="eugenio" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="14" string="Cabral" lemma="Cabral" stem="cabral" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="television" lemma="television" stem="televis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="alert" lemma="alert" stem="alert" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="shortly" lemma="shortly" stem="shortli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="midnight" lemma="midnight" stem="midnight" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="23" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (EX There)) (VP (VBZ is) (NP (NP (DT no) (NN need)) (PP (IN for) (NP (NN alarm)))))) (, ,) ('' '') (NP (NNP Civil) (NNP Defense) (NNP Director) (NNP Eugenio) (NNP Cabral)) (VP (VBD said) (PP (IN in) (NP (DT a) (NN television))) (ADJP (JJ alert)) (ADVP (RB shortly) (PP (IN before) (NP (NN midnight)) (NP-TMP (NNP Saturday))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="alert" type="ADJP">
+          <tokens>
+            <token id="19" string="alert" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="There" type="NP">
+          <tokens>
+            <token id="2" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is no need for alarm" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="no" />
+            <token id="5" string="need" />
+            <token id="6" string="for" />
+            <token id="7" string="alarm" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said in a television alert shortly before midnight Saturday" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string="in" />
+            <token id="17" string="a" />
+            <token id="18" string="television" />
+            <token id="19" string="alert" />
+            <token id="20" string="shortly" />
+            <token id="21" string="before" />
+            <token id="22" string="midnight" />
+            <token id="23" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="no need" type="NP">
+          <tokens>
+            <token id="4" string="no" />
+            <token id="5" string="need" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="alarm" type="NP">
+          <tokens>
+            <token id="7" string="alarm" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Civil Defense Director Eugenio Cabral" type="NP">
+          <tokens>
+            <token id="10" string="Civil" />
+            <token id="11" string="Defense" />
+            <token id="12" string="Director" />
+            <token id="13" string="Eugenio" />
+            <token id="14" string="Cabral" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a television" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="television" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="no need for alarm" type="NP">
+          <tokens>
+            <token id="4" string="no" />
+            <token id="5" string="need" />
+            <token id="6" string="for" />
+            <token id="7" string="alarm" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="midnight" type="NP">
+          <tokens>
+            <token id="22" string="midnight" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="3">is</governor>
+          <dependent id="2">There</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="5">need</governor>
+          <dependent id="4">no</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">is</governor>
+          <dependent id="5">need</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">alarm</governor>
+          <dependent id="6">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">need</governor>
+          <dependent id="7">alarm</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Cabral</governor>
+          <dependent id="10">Civil</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Cabral</governor>
+          <dependent id="11">Defense</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Cabral</governor>
+          <dependent id="12">Director</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Cabral</governor>
+          <dependent id="13">Eugenio</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="14">Cabral</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">television</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">television</governor>
+          <dependent id="17">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">said</governor>
+          <dependent id="18">television</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="15">said</governor>
+          <dependent id="19">alert</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">said</governor>
+          <dependent id="20">shortly</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">midnight</governor>
+          <dependent id="21">before</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">shortly</governor>
+          <dependent id="22">midnight</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="22">midnight</governor>
+          <dependent id="23">Saturday</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Eugenio Cabral" type="PERSON" score="0.0">
+          <tokens>
+            <token id="13" string="Eugenio" />
+            <token id="14" string="Cabral" />
+          </tokens>
+        </entity>
+        <entity id="2" string="midnight" type="TIME" score="0.0">
+          <tokens>
+            <token id="22" string="midnight" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="23" string="Saturday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Cabral said residents of the province of Barahona should closely follow Gilbert&amp;apost;s movement.</content>
+      <tokens>
+        <token id="1" string="Cabral" lemma="Cabral" stem="cabral" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="residents" lemma="resident" stem="resid" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="province" lemma="province" stem="provinc" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="Barahona" lemma="Barahona" stem="barahona" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="9" string="should" lemma="should" stem="should" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="closely" lemma="closely" stem="close" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="follow" lemma="follow" stem="follow" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="Gilbert" lemma="Gilbert" stem="gilbert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="13" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="movement" lemma="movement" stem="movement" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Cabral)) (VP (VBD said) (SBAR (S (NP (NP (NNS residents)) (PP (IN of) (NP (NP (DT the) (NN province)) (PP (IN of) (NP (NNP Barahona)))))) (VP (MD should) (ADVP (RB closely)) (VP (VB follow) (NP (NP (NNP Gilbert) (POS 's)) (NN movement))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="follow Gilbert 's movement" type="VP">
+          <tokens>
+            <token id="11" string="follow" />
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+            <token id="14" string="movement" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Cabral" type="NP">
+          <tokens>
+            <token id="1" string="Cabral" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="said residents of the province of Barahona should closely follow Gilbert 's movement" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="residents" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="province" />
+            <token id="7" string="of" />
+            <token id="8" string="Barahona" />
+            <token id="9" string="should" />
+            <token id="10" string="closely" />
+            <token id="11" string="follow" />
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+            <token id="14" string="movement" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="residents of the province of Barahona should closely follow Gilbert 's movement" type="SBAR">
+          <tokens>
+            <token id="3" string="residents" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="province" />
+            <token id="7" string="of" />
+            <token id="8" string="Barahona" />
+            <token id="9" string="should" />
+            <token id="10" string="closely" />
+            <token id="11" string="follow" />
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+            <token id="14" string="movement" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Gilbert 's movement" type="NP">
+          <tokens>
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+            <token id="14" string="movement" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="residents of the province of Barahona" type="NP">
+          <tokens>
+            <token id="3" string="residents" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="province" />
+            <token id="7" string="of" />
+            <token id="8" string="Barahona" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="residents" type="NP">
+          <tokens>
+            <token id="3" string="residents" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="should closely follow Gilbert 's movement" type="VP">
+          <tokens>
+            <token id="9" string="should" />
+            <token id="10" string="closely" />
+            <token id="11" string="follow" />
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+            <token id="14" string="movement" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Gilbert 's" type="NP">
+          <tokens>
+            <token id="12" string="Gilbert" />
+            <token id="13" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the province of Barahona" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="province" />
+            <token id="7" string="of" />
+            <token id="8" string="Barahona" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the province" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="province" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Barahona" type="NP">
+          <tokens>
+            <token id="8" string="Barahona" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Cabral</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">follow</governor>
+          <dependent id="3">residents</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">province</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">province</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">residents</governor>
+          <dependent id="6">province</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Barahona</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">province</governor>
+          <dependent id="8">Barahona</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">follow</governor>
+          <dependent id="9">should</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">follow</governor>
+          <dependent id="10">closely</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="11">follow</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="14">movement</governor>
+          <dependent id="12">Gilbert</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Gilbert</governor>
+          <dependent id="13">'s</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">follow</governor>
+          <dependent id="14">movement</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Cabral" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Cabral" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Gilbert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="12" string="Gilbert" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Barahona" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Barahona" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>An estimated 100,000 people live in the province, including 70,000 in the city of Barahona, about 125 miles west of Santo Domingo.</content>
+      <tokens>
+        <token id="1" string="An" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="estimated" lemma="estimate" stem="estim" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="100,000" lemma="100,000" stem="100,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="live" lemma="live" stem="live" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="province" lemma="province" stem="provinc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="including" lemma="include" stem="includ" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="70,000" lemma="70,000" stem="70,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="city" lemma="city" stem="citi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Barahona" lemma="Barahona" stem="barahona" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="125" lemma="125" stem="125" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="20" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="west" lemma="west" stem="west" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Santo" lemma="Santo" stem="santo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="24" string="Domingo" lemma="Domingo" stem="domingo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT An) (VBN estimated) (QP (CD 100,000)) (NNS people)) (VP (VBP live) (PP (IN in) (NP (DT the) (NN province))) (, ,) (PP (VBG including) (NP (NP (CD 70,000)) (PP (IN in) (NP (NP (DT the) (NN city)) (PP (IN of) (NP (NNP Barahona))))))) (, ,) (PP (IN about) (NP (NP (CD 125) (NNS miles)) (PP (ADVP (NN west)) (IN of) (NP (NNP Santo) (NNP Domingo)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the city" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="city" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Santo Domingo" type="NP">
+          <tokens>
+            <token id="23" string="Santo" />
+            <token id="24" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="An estimated 100,000 people" type="NP">
+          <tokens>
+            <token id="1" string="An" />
+            <token id="2" string="estimated" />
+            <token id="3" string="100,000" />
+            <token id="4" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="70,000 in the city of Barahona" type="NP">
+          <tokens>
+            <token id="11" string="70,000" />
+            <token id="12" string="in" />
+            <token id="13" string="the" />
+            <token id="14" string="city" />
+            <token id="15" string="of" />
+            <token id="16" string="Barahona" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="live in the province , including 70,000 in the city of Barahona , about 125 miles west of Santo Domingo" type="VP">
+          <tokens>
+            <token id="5" string="live" />
+            <token id="6" string="in" />
+            <token id="7" string="the" />
+            <token id="8" string="province" />
+            <token id="9" string="," />
+            <token id="10" string="including" />
+            <token id="11" string="70,000" />
+            <token id="12" string="in" />
+            <token id="13" string="the" />
+            <token id="14" string="city" />
+            <token id="15" string="of" />
+            <token id="16" string="Barahona" />
+            <token id="17" string="," />
+            <token id="18" string="about" />
+            <token id="19" string="125" />
+            <token id="20" string="miles" />
+            <token id="21" string="west" />
+            <token id="22" string="of" />
+            <token id="23" string="Santo" />
+            <token id="24" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="125 miles west of Santo Domingo" type="NP">
+          <tokens>
+            <token id="19" string="125" />
+            <token id="20" string="miles" />
+            <token id="21" string="west" />
+            <token id="22" string="of" />
+            <token id="23" string="Santo" />
+            <token id="24" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="125 miles" type="NP">
+          <tokens>
+            <token id="19" string="125" />
+            <token id="20" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the province" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="province" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Barahona" type="NP">
+          <tokens>
+            <token id="16" string="Barahona" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="70,000" type="NP">
+          <tokens>
+            <token id="11" string="70,000" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the city of Barahona" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="city" />
+            <token id="15" string="of" />
+            <token id="16" string="Barahona" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">people</governor>
+          <dependent id="1">An</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">people</governor>
+          <dependent id="2">estimated</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">people</governor>
+          <dependent id="3">100,000</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">live</governor>
+          <dependent id="4">people</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">live</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">province</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">province</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">live</governor>
+          <dependent id="8">province</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">70,000</governor>
+          <dependent id="10">including</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">live</governor>
+          <dependent id="11">70,000</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">city</governor>
+          <dependent id="12">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">city</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">70,000</governor>
+          <dependent id="14">city</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Barahona</governor>
+          <dependent id="15">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">city</governor>
+          <dependent id="16">Barahona</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">miles</governor>
+          <dependent id="18">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">miles</governor>
+          <dependent id="19">125</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">live</governor>
+          <dependent id="20">miles</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">Domingo</governor>
+          <dependent id="21">west</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Domingo</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">Domingo</governor>
+          <dependent id="23">Santo</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">miles</governor>
+          <dependent id="24">Domingo</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Santo Domingo" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="23" string="Santo" />
+            <token id="24" string="Domingo" />
+          </tokens>
+        </entity>
+        <entity id="2" string="125" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="125" />
+          </tokens>
+        </entity>
+        <entity id="3" string="100,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="100,000" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Barahona" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="Barahona" />
+          </tokens>
+        </entity>
+        <entity id="5" string="70,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="70,000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Tropical Storm Gilbert formed in the eastern Caribbean and strengthened into a hurricane Saturday night.</content>
+      <tokens>
+        <token id="1" string="Tropical" lemma="tropical" stem="tropic" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="Gilbert" lemma="Gilbert" stem="gilbert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="formed" lemma="form" stem="form" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="eastern" lemma="eastern" stem="eastern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Caribbean" lemma="Caribbean" stem="caribbean" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="strengthened" lemma="strengthen" stem="strengthen" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="hurricane" lemma="hurricane" stem="hurrican" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="14" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="15" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="true" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (JJ Tropical) (NN Storm) (NNP Gilbert)) (VP (VP (VBD formed) (PP (IN in) (NP (DT the) (JJ eastern) (NNP Caribbean)))) (CC and) (VP (VBD strengthened) (PP (IN into) (NP (DT a) (NN hurricane))) (NP-TMP (NNP Saturday) (NN night)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a hurricane" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="strengthened into a hurricane Saturday night" type="VP">
+          <tokens>
+            <token id="10" string="strengthened" />
+            <token id="11" string="into" />
+            <token id="12" string="a" />
+            <token id="13" string="hurricane" />
+            <token id="14" string="Saturday" />
+            <token id="15" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="formed in the eastern Caribbean" type="VP">
+          <tokens>
+            <token id="4" string="formed" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="eastern" />
+            <token id="8" string="Caribbean" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Tropical Storm Gilbert" type="NP">
+          <tokens>
+            <token id="1" string="Tropical" />
+            <token id="2" string="Storm" />
+            <token id="3" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="formed in the eastern Caribbean and strengthened into a hurricane Saturday night" type="VP">
+          <tokens>
+            <token id="4" string="formed" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="eastern" />
+            <token id="8" string="Caribbean" />
+            <token id="9" string="and" />
+            <token id="10" string="strengthened" />
+            <token id="11" string="into" />
+            <token id="12" string="a" />
+            <token id="13" string="hurricane" />
+            <token id="14" string="Saturday" />
+            <token id="15" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the eastern Caribbean" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="eastern" />
+            <token id="8" string="Caribbean" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="3">Gilbert</governor>
+          <dependent id="1">Tropical</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Gilbert</governor>
+          <dependent id="2">Storm</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">formed</governor>
+          <dependent id="3">Gilbert</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">formed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Caribbean</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">Caribbean</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">Caribbean</governor>
+          <dependent id="7">eastern</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">formed</governor>
+          <dependent id="8">Caribbean</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">formed</governor>
+          <dependent id="9">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">formed</governor>
+          <dependent id="10">strengthened</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">hurricane</governor>
+          <dependent id="11">into</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">hurricane</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">strengthened</governor>
+          <dependent id="13">hurricane</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">night</governor>
+          <dependent id="14">Saturday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="10">strengthened</governor>
+          <dependent id="15">night</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="15" string="night" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Gilbert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="Gilbert" />
+          </tokens>
+        </entity>
+        <entity id="3" string="hurricane" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="13" string="hurricane" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Caribbean" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Caribbean" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="Saturday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The National Hurricane Center in Miami reported its position at 2 a.m. Sunday at latitude 16.1 north, longitude 67.5 west, about 140 miles south of Ponce, Puerto Rico, and 200 miles southeast of Santo Domingo.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="National" lemma="National" stem="nation" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="Center" lemma="Center" stem="center" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="Miami" lemma="Miami" stem="miami" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="reported" lemma="report" stem="report" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="position" lemma="position" stem="posit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="2" lemma="2" stem="2" pos="CD" type="Number" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="12" string="a.m." lemma="a.m." stem="a.m." pos="RB" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="13" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="14" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="latitude" lemma="latitude" stem="latitud" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="16.1" lemma="16.1" stem="16.1" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="17" string="north" lemma="north" stem="north" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="longitude" lemma="longitude" stem="longitud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="67.5" lemma="67.5" stem="67.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="west" lemma="west" stem="west" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="140" lemma="140" stem="140" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="25" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="26" string="south" lemma="south" stem="south" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="Ponce" lemma="Ponce" stem="ponc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="31" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="32" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="200" lemma="200" stem="200" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="35" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="southeast" lemma="southeast" stem="southeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="Santo" lemma="Santo" stem="santo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="39" string="Domingo" lemma="Domingo" stem="domingo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="40" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNP National) (NNP Hurricane) (NNP Center)) (PP (IN in) (NP (NNP Miami)))) (VP (VBD reported) (NP (PRP$ its) (NN position)) (PP (IN at) (NP (CD 2)) (NP-TMP (RB a.m.) (NNP Sunday))) (PP (IN at) (NP (NP (NN latitude) (CD 16.1) (NN north)) (, ,) (NP (NP (NN longitude)) (NP (CD 67.5) (NN west)) (, ,) (ADVP (IN about) (ADVP (NP (CD 140) (NNS miles)) (RB south)) (PP (IN of) (NP (NP (NAC (NAC (NNP Ponce) (, ,) (NNP Puerto) (NNP Rico)) (, ,) (CC and) (NAC (NP (CD 200)) (NP (NNS miles)))) (NN southeast)) (PP (IN of) (NP (NNP Santo) (NNP Domingo)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Santo Domingo" type="NP">
+          <tokens>
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The National Hurricane Center in Miami" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="National" />
+            <token id="3" string="Hurricane" />
+            <token id="4" string="Center" />
+            <token id="5" string="in" />
+            <token id="6" string="Miami" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The National Hurricane Center" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="National" />
+            <token id="3" string="Hurricane" />
+            <token id="4" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="latitude 16.1 north , longitude 67.5 west , about 140 miles south of Ponce , Puerto Rico , and 200 miles southeast of Santo Domingo" type="NP">
+          <tokens>
+            <token id="15" string="latitude" />
+            <token id="16" string="16.1" />
+            <token id="17" string="north" />
+            <token id="18" string="," />
+            <token id="19" string="longitude" />
+            <token id="20" string="67.5" />
+            <token id="21" string="west" />
+            <token id="22" string="," />
+            <token id="23" string="about" />
+            <token id="24" string="140" />
+            <token id="25" string="miles" />
+            <token id="26" string="south" />
+            <token id="27" string="of" />
+            <token id="28" string="Ponce" />
+            <token id="29" string="," />
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+            <token id="32" string="," />
+            <token id="33" string="and" />
+            <token id="34" string="200" />
+            <token id="35" string="miles" />
+            <token id="36" string="southeast" />
+            <token id="37" string="of" />
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="140 miles" type="NP">
+          <tokens>
+            <token id="24" string="140" />
+            <token id="25" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="reported its position at 2 a.m. Sunday at latitude 16.1 north , longitude 67.5 west , about 140 miles south of Ponce , Puerto Rico , and 200 miles southeast of Santo Domingo" type="VP">
+          <tokens>
+            <token id="7" string="reported" />
+            <token id="8" string="its" />
+            <token id="9" string="position" />
+            <token id="10" string="at" />
+            <token id="11" string="2" />
+            <token id="12" string="a.m." />
+            <token id="13" string="Sunday" />
+            <token id="14" string="at" />
+            <token id="15" string="latitude" />
+            <token id="16" string="16.1" />
+            <token id="17" string="north" />
+            <token id="18" string="," />
+            <token id="19" string="longitude" />
+            <token id="20" string="67.5" />
+            <token id="21" string="west" />
+            <token id="22" string="," />
+            <token id="23" string="about" />
+            <token id="24" string="140" />
+            <token id="25" string="miles" />
+            <token id="26" string="south" />
+            <token id="27" string="of" />
+            <token id="28" string="Ponce" />
+            <token id="29" string="," />
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+            <token id="32" string="," />
+            <token id="33" string="and" />
+            <token id="34" string="200" />
+            <token id="35" string="miles" />
+            <token id="36" string="southeast" />
+            <token id="37" string="of" />
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="miles" type="NP">
+          <tokens>
+            <token id="35" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Miami" type="NP">
+          <tokens>
+            <token id="6" string="Miami" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="2" type="NP">
+          <tokens>
+            <token id="11" string="2" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Ponce , Puerto Rico , and 200 miles southeast" type="NP">
+          <tokens>
+            <token id="28" string="Ponce" />
+            <token id="29" string="," />
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+            <token id="32" string="," />
+            <token id="33" string="and" />
+            <token id="34" string="200" />
+            <token id="35" string="miles" />
+            <token id="36" string="southeast" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="200" type="NP">
+          <tokens>
+            <token id="34" string="200" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Ponce , Puerto Rico , and 200 miles southeast of Santo Domingo" type="NP">
+          <tokens>
+            <token id="28" string="Ponce" />
+            <token id="29" string="," />
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+            <token id="32" string="," />
+            <token id="33" string="and" />
+            <token id="34" string="200" />
+            <token id="35" string="miles" />
+            <token id="36" string="southeast" />
+            <token id="37" string="of" />
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="longitude 67.5 west , about 140 miles south of Ponce , Puerto Rico , and 200 miles southeast of Santo Domingo" type="NP">
+          <tokens>
+            <token id="19" string="longitude" />
+            <token id="20" string="67.5" />
+            <token id="21" string="west" />
+            <token id="22" string="," />
+            <token id="23" string="about" />
+            <token id="24" string="140" />
+            <token id="25" string="miles" />
+            <token id="26" string="south" />
+            <token id="27" string="of" />
+            <token id="28" string="Ponce" />
+            <token id="29" string="," />
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+            <token id="32" string="," />
+            <token id="33" string="and" />
+            <token id="34" string="200" />
+            <token id="35" string="miles" />
+            <token id="36" string="southeast" />
+            <token id="37" string="of" />
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="latitude 16.1 north" type="NP">
+          <tokens>
+            <token id="15" string="latitude" />
+            <token id="16" string="16.1" />
+            <token id="17" string="north" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="its position" type="NP">
+          <tokens>
+            <token id="8" string="its" />
+            <token id="9" string="position" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="67.5 west" type="NP">
+          <tokens>
+            <token id="20" string="67.5" />
+            <token id="21" string="west" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="longitude" type="NP">
+          <tokens>
+            <token id="19" string="longitude" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">Center</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Center</governor>
+          <dependent id="2">National</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Center</governor>
+          <dependent id="3">Hurricane</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">reported</governor>
+          <dependent id="4">Center</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Miami</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">Center</governor>
+          <dependent id="6">Miami</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">reported</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="9">position</governor>
+          <dependent id="8">its</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">reported</governor>
+          <dependent id="9">position</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">2</governor>
+          <dependent id="10">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">reported</governor>
+          <dependent id="11">2</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">Sunday</governor>
+          <dependent id="12">a.m.</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="11">2</governor>
+          <dependent id="13">Sunday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">north</governor>
+          <dependent id="14">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">north</governor>
+          <dependent id="15">latitude</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">north</governor>
+          <dependent id="16">16.1</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">reported</governor>
+          <dependent id="17">north</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="17">north</governor>
+          <dependent id="19">longitude</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">west</governor>
+          <dependent id="20">67.5</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="19">longitude</governor>
+          <dependent id="21">west</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="19">longitude</governor>
+          <dependent id="23">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="25">miles</governor>
+          <dependent id="24">140</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="26">south</governor>
+          <dependent id="25">miles</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">about</governor>
+          <dependent id="26">south</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="36">southeast</governor>
+          <dependent id="27">of</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="36">southeast</governor>
+          <dependent id="28">Ponce</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="28">Ponce</governor>
+          <dependent id="30">Puerto</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="28">Ponce</governor>
+          <dependent id="31">Rico</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">Ponce</governor>
+          <dependent id="33">and</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="28">Ponce</governor>
+          <dependent id="34">200</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="34">200</governor>
+          <dependent id="35">miles</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">about</governor>
+          <dependent id="36">southeast</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="39">Domingo</governor>
+          <dependent id="37">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="39">Domingo</governor>
+          <dependent id="38">Santo</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="36">southeast</governor>
+          <dependent id="39">Domingo</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="16.1" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="16.1" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="30" string="Puerto" />
+            <token id="31" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="3" string="200" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="34" string="200" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Santo Domingo" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="38" string="Santo" />
+            <token id="39" string="Domingo" />
+          </tokens>
+        </entity>
+        <entity id="5" string="2 a.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="11" string="2" />
+            <token id="12" string="a.m." />
+          </tokens>
+        </entity>
+        <entity id="6" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="13" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Ponce" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="Ponce" />
+          </tokens>
+        </entity>
+        <entity id="8" string="140" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="24" string="140" />
+          </tokens>
+        </entity>
+        <entity id="9" string="Miami" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Miami" />
+          </tokens>
+        </entity>
+        <entity id="10" string="67.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="67.5" />
+          </tokens>
+        </entity>
+        <entity id="11" string="National Hurricane Center" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="National" />
+            <token id="3" string="Hurricane" />
+            <token id="4" string="Center" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The National Weather Service in San Juan, Puerto Rico, said Gilbert was moving westward at 15 mph with a ``broad area of cloudiness and heavy weather&amp;apost;&amp;apost; rotating around the center of the storm.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="National" lemma="National" stem="nation" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="Weather" lemma="Weather" stem="weather" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="Service" lemma="Service" stem="servic" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="7" string="Juan" lemma="Juan" stem="juan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="Gilbert" lemma="Gilbert" stem="gilbert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="moving" lemma="move" stem="move" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="westward" lemma="westward" stem="westward" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="15" lemma="15" stem="15" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="19" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="broad" lemma="broad" stem="broad" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="cloudiness" lemma="cloudiness" stem="cloudi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="weather" lemma="weather" stem="weather" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="rotating" lemma="rotate" stem="rotat" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="around" lemma="around" stem="around" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="center" lemma="center" stem="center" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="38" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNP National) (NNP Weather) (NNP Service)) (PP (IN in) (NP (NP (NNP San) (NNP Juan)) (, ,) (NP (NNP Puerto) (NNP Rico)) (, ,)))) (VP (VBD said) (SBAR (S (NP (NNP Gilbert)) (VP (VBD was) (VP (VBG moving) (ADVP (RB westward)) (PP (IN at) (NP (NP (CD 15) (NN mph)) (PP (IN with) (NP (NP (DT a) (`` ``) (JJ broad) (NN area)) (PP (IN of) (NP (NN cloudiness) (CC and) (JJ heavy) (NN weather))))))) ('' '') (S (VP (VBG rotating) (PP (IN around) (NP (NP (DT the) (NN center)) (PP (IN of) (NP (DT the) (NN storm)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The National Weather Service" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="National" />
+            <token id="3" string="Weather" />
+            <token id="4" string="Service" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Puerto Rico" type="NP">
+          <tokens>
+            <token id="9" string="Puerto" />
+            <token id="10" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Gilbert was moving westward at 15 mph with a `` broad area of cloudiness and heavy weather '' rotating around the center of the storm" type="SBAR">
+          <tokens>
+            <token id="13" string="Gilbert" />
+            <token id="14" string="was" />
+            <token id="15" string="moving" />
+            <token id="16" string="westward" />
+            <token id="17" string="at" />
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+            <token id="30" string="''" />
+            <token id="31" string="rotating" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the center of the storm" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the center" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Gilbert" type="NP">
+          <tokens>
+            <token id="13" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The National Weather Service in San Juan , Puerto Rico ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="National" />
+            <token id="3" string="Weather" />
+            <token id="4" string="Service" />
+            <token id="5" string="in" />
+            <token id="6" string="San" />
+            <token id="7" string="Juan" />
+            <token id="8" string="," />
+            <token id="9" string="Puerto" />
+            <token id="10" string="Rico" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="San Juan" type="NP">
+          <tokens>
+            <token id="6" string="San" />
+            <token id="7" string="Juan" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the storm" type="NP">
+          <tokens>
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="said Gilbert was moving westward at 15 mph with a `` broad area of cloudiness and heavy weather '' rotating around the center of the storm" type="VP">
+          <tokens>
+            <token id="12" string="said" />
+            <token id="13" string="Gilbert" />
+            <token id="14" string="was" />
+            <token id="15" string="moving" />
+            <token id="16" string="westward" />
+            <token id="17" string="at" />
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+            <token id="30" string="''" />
+            <token id="31" string="rotating" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="15 mph" type="NP">
+          <tokens>
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a `` broad area" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="cloudiness and heavy weather" type="NP">
+          <tokens>
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="was moving westward at 15 mph with a `` broad area of cloudiness and heavy weather '' rotating around the center of the storm" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="moving" />
+            <token id="16" string="westward" />
+            <token id="17" string="at" />
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+            <token id="30" string="''" />
+            <token id="31" string="rotating" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="San Juan , Puerto Rico ," type="NP">
+          <tokens>
+            <token id="6" string="San" />
+            <token id="7" string="Juan" />
+            <token id="8" string="," />
+            <token id="9" string="Puerto" />
+            <token id="10" string="Rico" />
+            <token id="11" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="moving westward at 15 mph with a `` broad area of cloudiness and heavy weather '' rotating around the center of the storm" type="VP">
+          <tokens>
+            <token id="15" string="moving" />
+            <token id="16" string="westward" />
+            <token id="17" string="at" />
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+            <token id="30" string="''" />
+            <token id="31" string="rotating" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="a `` broad area of cloudiness and heavy weather" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="15 mph with a `` broad area of cloudiness and heavy weather" type="NP">
+          <tokens>
+            <token id="18" string="15" />
+            <token id="19" string="mph" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="``" />
+            <token id="23" string="broad" />
+            <token id="24" string="area" />
+            <token id="25" string="of" />
+            <token id="26" string="cloudiness" />
+            <token id="27" string="and" />
+            <token id="28" string="heavy" />
+            <token id="29" string="weather" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="rotating around the center of the storm" type="VP">
+          <tokens>
+            <token id="31" string="rotating" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="center" />
+            <token id="35" string="of" />
+            <token id="36" string="the" />
+            <token id="37" string="storm" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">Service</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Service</governor>
+          <dependent id="2">National</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Service</governor>
+          <dependent id="3">Weather</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">said</governor>
+          <dependent id="4">Service</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Juan</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Juan</governor>
+          <dependent id="6">San</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">Service</governor>
+          <dependent id="7">Juan</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Rico</governor>
+          <dependent id="9">Puerto</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="7">Juan</governor>
+          <dependent id="10">Rico</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">moving</governor>
+          <dependent id="13">Gilbert</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="15">moving</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="12">said</governor>
+          <dependent id="15">moving</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">moving</governor>
+          <dependent id="16">westward</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">mph</governor>
+          <dependent id="17">at</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="19">mph</governor>
+          <dependent id="18">15</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">moving</governor>
+          <dependent id="19">mph</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">area</governor>
+          <dependent id="20">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">area</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">area</governor>
+          <dependent id="23">broad</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">mph</governor>
+          <dependent id="24">area</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">weather</governor>
+          <dependent id="25">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">weather</governor>
+          <dependent id="26">cloudiness</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="26">cloudiness</governor>
+          <dependent id="27">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">cloudiness</governor>
+          <dependent id="28">heavy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">area</governor>
+          <dependent id="29">weather</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="15">moving</governor>
+          <dependent id="31">rotating</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">center</governor>
+          <dependent id="32">around</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="34">center</governor>
+          <dependent id="33">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">rotating</governor>
+          <dependent id="34">center</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">storm</governor>
+          <dependent id="35">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="37">storm</governor>
+          <dependent id="36">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="34">center</governor>
+          <dependent id="37">storm</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="National Weather Service" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="2" string="National" />
+            <token id="3" string="Weather" />
+            <token id="4" string="Service" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Puerto" />
+            <token id="10" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="3" string="storm" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="37" string="storm" />
+          </tokens>
+        </entity>
+        <entity id="4" string="15" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="18" string="15" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Gilbert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="13" string="Gilbert" />
+          </tokens>
+        </entity>
+        <entity id="6" string="San Juan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="San" />
+            <token id="7" string="Juan" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>The weather service issued a flash flood watch for Puerto Rico and the Virgin Islands until at least 6 p.m. Sunday.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="weather" lemma="weather" stem="weather" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="service" lemma="service" stem="servic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="issued" lemma="issue" stem="issu" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="flash" lemma="flash" stem="flash" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="8" string="watch" lemma="watch" stem="watch" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Virgin" lemma="Virgin" stem="virgin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="Islands" lemma="Islands" stem="island" pos="NNPS" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="until" lemma="until" stem="until" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="least" lemma="least" stem="least" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="6" lemma="6" stem="6" pos="CD" type="Number" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="20" string="p.m." lemma="p.m." stem="p.m." pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="21" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN weather) (NN service)) (VP (VBD issued) (NP (DT a) (NN flash) (NN flood) (NN watch)) (PP (IN for) (NP (NP (NNP Puerto) (NNP Rico)) (CC and) (NP (DT the) (NNP Virgin) (NNPS Islands)))) (PP (IN until) (NP (QP (IN at) (JJS least) (CD 6)) (NN p.m.))) (NP-TMP (NNP Sunday))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Puerto Rico" type="NP">
+          <tokens>
+            <token id="10" string="Puerto" />
+            <token id="11" string="Rico" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="at least 6 p.m." type="NP">
+          <tokens>
+            <token id="17" string="at" />
+            <token id="18" string="least" />
+            <token id="19" string="6" />
+            <token id="20" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="issued a flash flood watch for Puerto Rico and the Virgin Islands until at least 6 p.m. Sunday" type="VP">
+          <tokens>
+            <token id="4" string="issued" />
+            <token id="5" string="a" />
+            <token id="6" string="flash" />
+            <token id="7" string="flood" />
+            <token id="8" string="watch" />
+            <token id="9" string="for" />
+            <token id="10" string="Puerto" />
+            <token id="11" string="Rico" />
+            <token id="12" string="and" />
+            <token id="13" string="the" />
+            <token id="14" string="Virgin" />
+            <token id="15" string="Islands" />
+            <token id="16" string="until" />
+            <token id="17" string="at" />
+            <token id="18" string="least" />
+            <token id="19" string="6" />
+            <token id="20" string="p.m." />
+            <token id="21" string="Sunday" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a flash flood watch" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="flash" />
+            <token id="7" string="flood" />
+            <token id="8" string="watch" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The weather service" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="weather" />
+            <token id="3" string="service" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Puerto Rico and the Virgin Islands" type="NP">
+          <tokens>
+            <token id="10" string="Puerto" />
+            <token id="11" string="Rico" />
+            <token id="12" string="and" />
+            <token id="13" string="the" />
+            <token id="14" string="Virgin" />
+            <token id="15" string="Islands" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Virgin Islands" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Virgin" />
+            <token id="15" string="Islands" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">service</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">service</governor>
+          <dependent id="2">weather</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">issued</governor>
+          <dependent id="3">service</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">issued</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">watch</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">watch</governor>
+          <dependent id="6">flash</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">watch</governor>
+          <dependent id="7">flood</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">issued</governor>
+          <dependent id="8">watch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Rico</governor>
+          <dependent id="9">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">Rico</governor>
+          <dependent id="10">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">issued</governor>
+          <dependent id="11">Rico</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">Rico</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">Islands</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Islands</governor>
+          <dependent id="14">Virgin</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">Rico</governor>
+          <dependent id="15">Islands</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">p.m.</governor>
+          <dependent id="16">until</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">least</governor>
+          <dependent id="17">at</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="19">6</governor>
+          <dependent id="18">least</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">p.m.</governor>
+          <dependent id="19">6</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">issued</governor>
+          <dependent id="20">p.m.</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">issued</governor>
+          <dependent id="21">Sunday</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Puerto" />
+            <token id="11" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="2" string="6 p.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="19" string="6" />
+            <token id="20" string="p.m." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Virgin Islands" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="14" string="Virgin" />
+            <token id="15" string="Islands" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="21" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="7" string="flood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Strong winds associated with the Gilbert brought coastal flooding, strong southeast winds and up to 12 feet feet to Puerto Rico&amp;apost;s south coast.</content>
+      <tokens>
+        <token id="1" string="Strong" lemma="strong" stem="strong" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="winds" lemma="wind" stem="wind" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="associated" lemma="associate" stem="associ" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="Gilbert" lemma="Gilbert" stem="gilbert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="7" string="brought" lemma="bring" stem="brought" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="coastal" lemma="coastal" stem="coastal" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="flooding" lemma="flooding" stem="flood" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="strong" lemma="strong" stem="strong" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="southeast" lemma="southeast" stem="southeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="winds" lemma="wind" stem="wind" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="up" lemma="up" stem="up" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="12" lemma="12" stem="12" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="18" string="feet" lemma="foot" stem="feet" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="feet" lemma="foot" stem="feet" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Puerto" lemma="Puerto" stem="puerto" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="22" string="Rico" lemma="Rico" stem="rico" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="23" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="24" string="south" lemma="south" stem="south" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (JJ Strong) (NNS winds)) (VP (VBN associated) (PP (IN with) (NP (DT the) (NNP Gilbert))))) (VP (VBD brought) (NP (NP (JJ coastal) (NN flooding)) (, ,) (NP (JJ strong) (NN southeast) (NNS winds)) (CC and) (ADVP (RB up) (PP (TO to) (NP (CD 12) (NNS feet)))) (NP (NNS feet))) (PP (TO to) (NP (NP (NNP Puerto) (NNP Rico) (POS 's)) (JJ south) (NN coast)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="feet" type="NP">
+          <tokens>
+            <token id="19" string="feet" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Strong winds associated with the Gilbert" type="NP">
+          <tokens>
+            <token id="1" string="Strong" />
+            <token id="2" string="winds" />
+            <token id="3" string="associated" />
+            <token id="4" string="with" />
+            <token id="5" string="the" />
+            <token id="6" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Strong winds" type="NP">
+          <tokens>
+            <token id="1" string="Strong" />
+            <token id="2" string="winds" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="associated with the Gilbert" type="VP">
+          <tokens>
+            <token id="3" string="associated" />
+            <token id="4" string="with" />
+            <token id="5" string="the" />
+            <token id="6" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="12 feet" type="NP">
+          <tokens>
+            <token id="17" string="12" />
+            <token id="18" string="feet" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the Gilbert" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="Gilbert" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Puerto Rico 's south coast" type="NP">
+          <tokens>
+            <token id="21" string="Puerto" />
+            <token id="22" string="Rico" />
+            <token id="23" string="'s" />
+            <token id="24" string="south" />
+            <token id="25" string="coast" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Puerto Rico 's" type="NP">
+          <tokens>
+            <token id="21" string="Puerto" />
+            <token id="22" string="Rico" />
+            <token id="23" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="brought coastal flooding , strong southeast winds and up to 12 feet feet to Puerto Rico 's south coast" type="VP">
+          <tokens>
+            <token id="7" string="brought" />
+            <token id="8" string="coastal" />
+            <token id="9" string="flooding" />
+            <token id="10" string="," />
+            <token id="11" string="strong" />
+            <token id="12" string="southeast" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="up" />
+            <token id="16" string="to" />
+            <token id="17" string="12" />
+            <token id="18" string="feet" />
+            <token id="19" string="feet" />
+            <token id="20" string="to" />
+            <token id="21" string="Puerto" />
+            <token id="22" string="Rico" />
+            <token id="23" string="'s" />
+            <token id="24" string="south" />
+            <token id="25" string="coast" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="coastal flooding" type="NP">
+          <tokens>
+            <token id="8" string="coastal" />
+            <token id="9" string="flooding" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="strong southeast winds" type="NP">
+          <tokens>
+            <token id="11" string="strong" />
+            <token id="12" string="southeast" />
+            <token id="13" string="winds" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="coastal flooding , strong southeast winds and up to 12 feet feet" type="NP">
+          <tokens>
+            <token id="8" string="coastal" />
+            <token id="9" string="flooding" />
+            <token id="10" string="," />
+            <token id="11" string="strong" />
+            <token id="12" string="southeast" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="up" />
+            <token id="16" string="to" />
+            <token id="17" string="12" />
+            <token id="18" string="feet" />
+            <token id="19" string="feet" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">winds</governor>
+          <dependent id="1">Strong</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">brought</governor>
+          <dependent id="2">winds</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">winds</governor>
+          <dependent id="3">associated</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Gilbert</governor>
+          <dependent id="4">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">Gilbert</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">associated</governor>
+          <dependent id="6">Gilbert</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">brought</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">flooding</governor>
+          <dependent id="8">coastal</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">brought</governor>
+          <dependent id="9">flooding</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">winds</governor>
+          <dependent id="11">strong</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">winds</governor>
+          <dependent id="12">southeast</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">flooding</governor>
+          <dependent id="13">winds</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">flooding</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">flooding</governor>
+          <dependent id="15">up</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">feet</governor>
+          <dependent id="16">to</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="18">feet</governor>
+          <dependent id="17">12</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">up</governor>
+          <dependent id="18">feet</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">flooding</governor>
+          <dependent id="19">feet</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">coast</governor>
+          <dependent id="20">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Rico</governor>
+          <dependent id="21">Puerto</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="25">coast</governor>
+          <dependent id="22">Rico</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Rico</governor>
+          <dependent id="23">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">coast</governor>
+          <dependent id="24">south</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">brought</governor>
+          <dependent id="25">coast</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="12" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="17" string="12" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Puerto Rico" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="21" string="Puerto" />
+            <token id="22" string="Rico" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Gilbert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Gilbert" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="false">
+      <content>There were no reports of casualties.</content>
+      <tokens>
+        <token id="1" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="reports" lemma="report" stem="report" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="casualties" lemma="casualty" stem="casualti" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (EX There)) (VP (VBD were) (NP (NP (DT no) (NNS reports)) (PP (IN of) (NP (NNS casualties))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="no reports" type="NP">
+          <tokens>
+            <token id="3" string="no" />
+            <token id="4" string="reports" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="There" type="NP">
+          <tokens>
+            <token id="1" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="no reports of casualties" type="NP">
+          <tokens>
+            <token id="3" string="no" />
+            <token id="4" string="reports" />
+            <token id="5" string="of" />
+            <token id="6" string="casualties" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were no reports of casualties" type="VP">
+          <tokens>
+            <token id="2" string="were" />
+            <token id="3" string="no" />
+            <token id="4" string="reports" />
+            <token id="5" string="of" />
+            <token id="6" string="casualties" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="casualties" type="NP">
+          <tokens>
+            <token id="6" string="casualties" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="2">were</governor>
+          <dependent id="1">There</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">were</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="4">reports</governor>
+          <dependent id="3">no</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="2">were</governor>
+          <dependent id="4">reports</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">casualties</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">reports</governor>
+          <dependent id="6">casualties</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>San Juan, on the north coast, had heavy rains and gusts Saturday, but they subsided during the night.</content>
+      <tokens>
+        <token id="1" string="San" lemma="San" stem="san" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="Juan" lemma="Juan" stem="juan" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="north" lemma="north" stem="north" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="rains" lemma="rain" stem="rain" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="gusts" lemma="gust" stem="gust" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="subsided" lemma="subside" stem="subsid" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNP San) (NNP Juan)) (, ,) (PP (IN on) (NP (DT the) (NN north) (NN coast))) (, ,) (VP (VBD had) (NP (NP (JJ heavy) (NNS rains)) (CC and) (NP (NNS gusts))) (NP-TMP (NNP Saturday)))) (, ,) (CC but) (S (NP (PRP they)) (VP (VBD subsided) (PP (IN during) (NP (DT the) (NN night))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="gusts" type="NP">
+          <tokens>
+            <token id="13" string="gusts" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="they" type="NP">
+          <tokens>
+            <token id="17" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="had heavy rains and gusts Saturday" type="VP">
+          <tokens>
+            <token id="9" string="had" />
+            <token id="10" string="heavy" />
+            <token id="11" string="rains" />
+            <token id="12" string="and" />
+            <token id="13" string="gusts" />
+            <token id="14" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the night" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="heavy rains and gusts" type="NP">
+          <tokens>
+            <token id="10" string="heavy" />
+            <token id="11" string="rains" />
+            <token id="12" string="and" />
+            <token id="13" string="gusts" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="subsided during the night" type="VP">
+          <tokens>
+            <token id="18" string="subsided" />
+            <token id="19" string="during" />
+            <token id="20" string="the" />
+            <token id="21" string="night" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="heavy rains" type="NP">
+          <tokens>
+            <token id="10" string="heavy" />
+            <token id="11" string="rains" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="San Juan" type="NP">
+          <tokens>
+            <token id="1" string="San" />
+            <token id="2" string="Juan" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the north coast" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="north" />
+            <token id="7" string="coast" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Juan</governor>
+          <dependent id="1">San</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">had</governor>
+          <dependent id="2">Juan</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">coast</governor>
+          <dependent id="4">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">coast</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">coast</governor>
+          <dependent id="6">north</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">had</governor>
+          <dependent id="7">coast</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">had</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">rains</governor>
+          <dependent id="10">heavy</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">had</governor>
+          <dependent id="11">rains</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">rains</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">rains</governor>
+          <dependent id="13">gusts</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="9">had</governor>
+          <dependent id="14">Saturday</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">had</governor>
+          <dependent id="16">but</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">subsided</governor>
+          <dependent id="17">they</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">had</governor>
+          <dependent id="18">subsided</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">night</governor>
+          <dependent id="19">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">night</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">subsided</governor>
+          <dependent id="21">night</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="21" string="night" />
+          </tokens>
+        </entity>
+        <entity id="2" string="San Juan" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="San" />
+            <token id="2" string="Juan" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="Saturday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>On Saturday, Hurricane Florence was downgraded to a tropical storm and its remnants pushed inland from the U.S. Gulf Coast.</content>
+      <tokens>
+        <token id="1" string="On" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Hurricane" lemma="Hurricane" stem="hurrican" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="Florence" lemma="Florence" stem="florenc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="downgraded" lemma="downgrade" stem="downgrad" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="tropical" lemma="tropical" stem="tropic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="remnants" lemma="remnant" stem="remnant" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="pushed" lemma="push" stem="push" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="inland" lemma="inland" stem="inland" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="Gulf" lemma="Gulf" stem="gulf" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="Coast" lemma="Coast" stem="coast" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN On) (NP (NNP Saturday))) (, ,) (S (NP (NNP Hurricane) (NNP Florence)) (VP (VBD was) (VP (VBN downgraded) (PP (TO to) (NP (DT a) (JJ tropical) (NN storm)))))) (CC and) (S (NP (PRP$ its) (NNS remnants)) (VP (VBD pushed) (ADVP (RB inland) (PP (IN from) (NP (DT the) (NNP U.S.) (NNP Gulf) (NNP Coast)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="downgraded to a tropical storm" type="VP">
+          <tokens>
+            <token id="7" string="downgraded" />
+            <token id="8" string="to" />
+            <token id="9" string="a" />
+            <token id="10" string="tropical" />
+            <token id="11" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the U.S. Gulf Coast" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Gulf" />
+            <token id="21" string="Coast" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="was downgraded to a tropical storm" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="downgraded" />
+            <token id="8" string="to" />
+            <token id="9" string="a" />
+            <token id="10" string="tropical" />
+            <token id="11" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="pushed inland from the U.S. Gulf Coast" type="VP">
+          <tokens>
+            <token id="15" string="pushed" />
+            <token id="16" string="inland" />
+            <token id="17" string="from" />
+            <token id="18" string="the" />
+            <token id="19" string="U.S." />
+            <token id="20" string="Gulf" />
+            <token id="21" string="Coast" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Hurricane Florence" type="NP">
+          <tokens>
+            <token id="4" string="Hurricane" />
+            <token id="5" string="Florence" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a tropical storm" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="tropical" />
+            <token id="11" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="its remnants" type="NP">
+          <tokens>
+            <token id="13" string="its" />
+            <token id="14" string="remnants" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Saturday" type="NP">
+          <tokens>
+            <token id="2" string="Saturday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">Saturday</governor>
+          <dependent id="1">On</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">downgraded</governor>
+          <dependent id="2">Saturday</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Florence</governor>
+          <dependent id="4">Hurricane</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">downgraded</governor>
+          <dependent id="5">Florence</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">downgraded</governor>
+          <dependent id="6">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">downgraded</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">storm</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">storm</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">storm</governor>
+          <dependent id="10">tropical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">downgraded</governor>
+          <dependent id="11">storm</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">downgraded</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="14">remnants</governor>
+          <dependent id="13">its</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">pushed</governor>
+          <dependent id="14">remnants</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">downgraded</governor>
+          <dependent id="15">pushed</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">pushed</governor>
+          <dependent id="16">inland</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">Coast</governor>
+          <dependent id="17">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">Coast</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Coast</governor>
+          <dependent id="19">U.S.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Coast</governor>
+          <dependent id="20">Gulf</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">inland</governor>
+          <dependent id="21">Coast</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Florence" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Florence" />
+          </tokens>
+        </entity>
+        <entity id="2" string="storm" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="11" string="storm" />
+          </tokens>
+        </entity>
+        <entity id="3" string="U.S. Gulf Coast" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="U.S." />
+            <token id="20" string="Gulf" />
+            <token id="21" string="Coast" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="Saturday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="true">
+      <content>Residents returned home, happy to find little damage from 80 mph winds and sheets of rain.</content>
+      <tokens>
+        <token id="1" string="Residents" lemma="resident" stem="resid" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="2" string="returned" lemma="return" stem="return" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="home" lemma="home" stem="home" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="happy" lemma="happy" stem="happi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="find" lemma="find" stem="find" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="little" lemma="little" stem="littl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="80" lemma="80" stem="80" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="winds" lemma="wind" stem="wind" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="sheets" lemma="sheet" stem="sheet" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="rain" lemma="rain" stem="rain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNS Residents)) (VP (VBD returned) (NP (NP (NN home)) (, ,) (ADJP (JJ happy) (S (VP (TO to) (VP (VB find) (NP (JJ little) (NN damage)) (PP (IN from) (NP (NP (ADJP (CD 80) (NN mph)) (NNS winds) (CC and) (NNS sheets)) (PP (IN of) (NP (NN rain))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="find little damage from 80 mph winds and sheets of rain" type="VP">
+          <tokens>
+            <token id="7" string="find" />
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+            <token id="10" string="from" />
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="rain" type="NP">
+          <tokens>
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="80 mph winds and sheets of rain" type="NP">
+          <tokens>
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="happy to find little damage from 80 mph winds and sheets of rain" type="ADJP">
+          <tokens>
+            <token id="5" string="happy" />
+            <token id="6" string="to" />
+            <token id="7" string="find" />
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+            <token id="10" string="from" />
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="home , happy to find little damage from 80 mph winds and sheets of rain" type="NP">
+          <tokens>
+            <token id="3" string="home" />
+            <token id="4" string="," />
+            <token id="5" string="happy" />
+            <token id="6" string="to" />
+            <token id="7" string="find" />
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+            <token id="10" string="from" />
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to find little damage from 80 mph winds and sheets of rain" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="find" />
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+            <token id="10" string="from" />
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="80 mph winds and sheets" type="NP">
+          <tokens>
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Residents" type="NP">
+          <tokens>
+            <token id="1" string="Residents" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="home" type="NP">
+          <tokens>
+            <token id="3" string="home" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="returned home , happy to find little damage from 80 mph winds and sheets of rain" type="VP">
+          <tokens>
+            <token id="2" string="returned" />
+            <token id="3" string="home" />
+            <token id="4" string="," />
+            <token id="5" string="happy" />
+            <token id="6" string="to" />
+            <token id="7" string="find" />
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+            <token id="10" string="from" />
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+            <token id="13" string="winds" />
+            <token id="14" string="and" />
+            <token id="15" string="sheets" />
+            <token id="16" string="of" />
+            <token id="17" string="rain" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="little damage" type="NP">
+          <tokens>
+            <token id="8" string="little" />
+            <token id="9" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="80 mph" type="ADJP">
+          <tokens>
+            <token id="11" string="80" />
+            <token id="12" string="mph" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">returned</governor>
+          <dependent id="1">Residents</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">returned</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">returned</governor>
+          <dependent id="3">home</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">home</governor>
+          <dependent id="5">happy</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">find</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">happy</governor>
+          <dependent id="7">find</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">damage</governor>
+          <dependent id="8">little</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">find</governor>
+          <dependent id="9">damage</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">winds</governor>
+          <dependent id="10">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">mph</governor>
+          <dependent id="11">80</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">winds</governor>
+          <dependent id="12">mph</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">find</governor>
+          <dependent id="13">winds</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">winds</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">winds</governor>
+          <dependent id="15">sheets</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">rain</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">winds</governor>
+          <dependent id="17">rain</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="80" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="80" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="15" has_coreference="true">
+      <content>Florence, the sixth named storm of the 1988 Atlantic storm season, was the second hurricane.</content>
+      <tokens>
+        <token id="1" string="Florence" lemma="Florence" stem="florenc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="sixth" lemma="sixth" stem="sixth" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="5" string="named" lemma="name" stem="name" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="1988" lemma="1988" stem="1988" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="Atlantic" lemma="Atlantic" stem="atlantic" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="storm" lemma="storm" stem="storm" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="12" string="season" lemma="season" stem="season" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="second" lemma="second" stem="second" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="17" string="hurricane" lemma="hurricane" stem="hurrican" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Florence)) (, ,) (NP (NP (DT the) (JJ sixth) (VBN named) (NN storm)) (PP (IN of) (NP (NP (DT the) (CD 1988) (NNP Atlantic) (NN storm)) (NP-TMP (NN season))))) (, ,)) (VP (VBD was) (NP (DT the) (JJ second) (NN hurricane))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Florence" type="NP">
+          <tokens>
+            <token id="1" string="Florence" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the sixth named storm of the 1988 Atlantic storm season" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="sixth" />
+            <token id="5" string="named" />
+            <token id="6" string="storm" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="1988" />
+            <token id="10" string="Atlantic" />
+            <token id="11" string="storm" />
+            <token id="12" string="season" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the 1988 Atlantic storm" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="1988" />
+            <token id="10" string="Atlantic" />
+            <token id="11" string="storm" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Florence , the sixth named storm of the 1988 Atlantic storm season ," type="NP">
+          <tokens>
+            <token id="1" string="Florence" />
+            <token id="2" string="," />
+            <token id="3" string="the" />
+            <token id="4" string="sixth" />
+            <token id="5" string="named" />
+            <token id="6" string="storm" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="1988" />
+            <token id="10" string="Atlantic" />
+            <token id="11" string="storm" />
+            <token id="12" string="season" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the second hurricane" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="second" />
+            <token id="17" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the 1988 Atlantic storm season" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="1988" />
+            <token id="10" string="Atlantic" />
+            <token id="11" string="storm" />
+            <token id="12" string="season" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was the second hurricane" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="the" />
+            <token id="16" string="second" />
+            <token id="17" string="hurricane" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the sixth named storm" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="sixth" />
+            <token id="5" string="named" />
+            <token id="6" string="storm" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="17">hurricane</governor>
+          <dependent id="1">Florence</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">storm</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">storm</governor>
+          <dependent id="4">sixth</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">storm</governor>
+          <dependent id="5">named</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="1">Florence</governor>
+          <dependent id="6">storm</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">storm</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">storm</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">storm</governor>
+          <dependent id="9">1988</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">storm</governor>
+          <dependent id="10">Atlantic</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">storm</governor>
+          <dependent id="11">storm</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="11">storm</governor>
+          <dependent id="12">season</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="17">hurricane</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">hurricane</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">hurricane</governor>
+          <dependent id="16">second</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="17">hurricane</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Florence" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Florence" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1988" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="1988" />
+          </tokens>
+        </entity>
+        <entity id="3" string="storm" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="6" string="storm" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Atlantic" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Atlantic" />
+          </tokens>
+        </entity>
+        <entity id="5" string="sixth" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="4" string="sixth" />
+          </tokens>
+        </entity>
+        <entity id="6" string="second" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="16" string="second" />
+          </tokens>
+        </entity>
+        <entity id="7" string="hurricane" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="17" string="hurricane" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="16" has_coreference="false">
+      <content>The first, Debby, reached minimal hurricane strength briefly before hitting the Mexican coast last month.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Debby" lemma="Debby" stem="debbi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="reached" lemma="reach" stem="reach" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="minimal" lemma="minimal" stem="minim" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="hurricane" lemma="hurricane" stem="hurrican" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="9" string="strength" lemma="strength" stem="strength" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="briefly" lemma="briefly" stem="briefli" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="before" lemma="before" stem="befor" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="hitting" lemma="hit" stem="hit" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Mexican" lemma="mexican" stem="mexican" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="15" string="coast" lemma="coast" stem="coast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (JJ first)) (, ,) (NP (NNP Debby)) (, ,)) (VP (VBD reached) (NP (JJ minimal) (NN hurricane) (NN strength)) (ADVP (NN briefly)) (PP (IN before) (S (VP (VBG hitting) (NP (DT the) (JJ Mexican) (NN coast)) (NP-TMP (JJ last) (NN month)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The first , Debby ," type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="first" />
+            <token id="3" string="," />
+            <token id="4" string="Debby" />
+            <token id="5" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the Mexican coast" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="Mexican" />
+            <token id="15" string="coast" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="reached minimal hurricane strength briefly before hitting the Mexican coast last month" type="VP">
+          <tokens>
+            <token id="6" string="reached" />
+            <token id="7" string="minimal" />
+            <token id="8" string="hurricane" />
+            <token id="9" string="strength" />
+            <token id="10" string="briefly" />
+            <token id="11" string="before" />
+            <token id="12" string="hitting" />
+            <token id="13" string="the" />
+            <token id="14" string="Mexican" />
+            <token id="15" string="coast" />
+            <token id="16" string="last" />
+            <token id="17" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="minimal hurricane strength" type="NP">
+          <tokens>
+            <token id="7" string="minimal" />
+            <token id="8" string="hurricane" />
+            <token id="9" string="strength" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Debby" type="NP">
+          <tokens>
+            <token id="4" string="Debby" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="hitting the Mexican coast last month" type="VP">
+          <tokens>
+            <token id="12" string="hitting" />
+            <token id="13" string="the" />
+            <token id="14" string="Mexican" />
+            <token id="15" string="coast" />
+            <token id="16" string="last" />
+            <token id="17" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="The first" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="first" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">first</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">reached</governor>
+          <dependent id="2">first</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">first</governor>
+          <dependent id="4">Debby</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">reached</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">strength</governor>
+          <dependent id="7">minimal</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">strength</governor>
+          <dependent id="8">hurricane</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">reached</governor>
+          <dependent id="9">strength</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">reached</governor>
+          <dependent id="10">briefly</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">hitting</governor>
+          <dependent id="11">before</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">reached</governor>
+          <dependent id="12">hitting</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">coast</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">coast</governor>
+          <dependent id="14">Mexican</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">hitting</governor>
+          <dependent id="15">coast</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">month</governor>
+          <dependent id="16">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="12">hitting</governor>
+          <dependent id="17">month</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="2" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Mexican" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="14" string="Mexican" />
+          </tokens>
+        </entity>
+        <entity id="3" string="last month" type="DATE" score="0.0">
+          <tokens>
+            <token id="16" string="last" />
+            <token id="17" string="month" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Debby" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Debby" />
+          </tokens>
+        </entity>
+        <entity id="5" string="hurricane" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="8" string="hurricane" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Tropical Storm Gilbert" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="1-2" string="Hurricane Gilbert" id_sentence="1" />
+        <mention ids_tokens="12-13" string="Gilbert's" id_sentence="4" />
+        <mention ids_tokens="13" string="Gilbert" id_sentence="8" />
+        <mention ids_tokens="5-6" string="the Gilbert" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="5-6-7-8" string="the Dominican Republic Sunday" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="12-13" string="a.m. Sunday" id_sentence="7" />
+        <mention ids_tokens="21" string="Sunday" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="10-11-12-13-14" string="Civil Defense Director Eugenio Cabral" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="1" string="Cabral" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="23" string="Saturday" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="13" string="its" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="NOMINAL">
+      <referenced ids_tokens="3-4-5-6-7-8" string="residents of the province of Barahona" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="1" string="Residents" id_sentence="14" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="NOMINAL">
+      <referenced ids_tokens="5-6-7-8" string="the province of Barahona" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="7-8" string="the province" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="PROPER">
+      <referenced ids_tokens="14-15" string="Saturday night" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="20-21" string="the night" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="PROPER">
+      <referenced ids_tokens="30-31" string="Puerto Rico" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="21-23" string="Puerto Rico's" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="18" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10" string="The National Weather Service in San Juan , Puerto Rico" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="1-3" string="The weather service" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="20" type="PROPER">
+      <referenced ids_tokens="4-5" string="Hurricane Florence" id_sentence="13" />
+      <mentions>
+        <mention ids_tokens="1" string="Florence" id_sentence="15" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

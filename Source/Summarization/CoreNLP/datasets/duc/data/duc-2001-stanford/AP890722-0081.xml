@@ -1,0 +1,3899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890722-0081">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>A 1987 state constitutional amendment broadening the right to bear arms means that even convicted felons may own guns, a judge ruled.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="1987" lemma="1987" stem="1987" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="3" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="constitutional" lemma="constitutional" stem="constitut" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="broadening" lemma="broaden" stem="broaden" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="true" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="bear" lemma="bear" stem="bear" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="means" lemma="mean" stem="mean" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="even" lemma="even" stem="even" pos="RB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="convicted" lemma="convict" stem="convict" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="felons" lemma="felon" stem="felon" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="may" lemma="may" stem="mai" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="own" lemma="own" stem="own" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="guns" lemma="gun" stem="gun" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="22" string="judge" lemma="judge" stem="judg" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="23" string="ruled" lemma="rule" stem="rule" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT A) (ADJP (NP (CD 1987) (NN state)) (JJ constitutional)) (NN amendment)) (VP (VBG broadening) (NP (DT the) (NN right) (S (VP (TO to) (VP (VB bear) (NP (NNS arms)))))))) (VP (VBZ means) (SBAR (IN that) (S (NP (RB even) (VBN convicted) (NNS felons)) (VP (MD may) (VP (VB own) (NP (NNS guns)))))))) (, ,) (NP (DT a) (NN judge)) (VP (VBD ruled)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="guns" type="NP">
+          <tokens>
+            <token id="19" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="A 1987 state constitutional amendment broadening the right to bear arms" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="1987" />
+            <token id="3" string="state" />
+            <token id="4" string="constitutional" />
+            <token id="5" string="amendment" />
+            <token id="6" string="broadening" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="bear" />
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="that even convicted felons may own guns" type="SBAR">
+          <tokens>
+            <token id="13" string="that" />
+            <token id="14" string="even" />
+            <token id="15" string="convicted" />
+            <token id="16" string="felons" />
+            <token id="17" string="may" />
+            <token id="18" string="own" />
+            <token id="19" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="may own guns" type="VP">
+          <tokens>
+            <token id="17" string="may" />
+            <token id="18" string="own" />
+            <token id="19" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="to bear arms" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="bear" />
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="broadening the right to bear arms" type="VP">
+          <tokens>
+            <token id="6" string="broadening" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="bear" />
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="even convicted felons" type="NP">
+          <tokens>
+            <token id="14" string="even" />
+            <token id="15" string="convicted" />
+            <token id="16" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1987 state constitutional" type="ADJP">
+          <tokens>
+            <token id="2" string="1987" />
+            <token id="3" string="state" />
+            <token id="4" string="constitutional" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a judge" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="judge" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="means that even convicted felons may own guns" type="VP">
+          <tokens>
+            <token id="12" string="means" />
+            <token id="13" string="that" />
+            <token id="14" string="even" />
+            <token id="15" string="convicted" />
+            <token id="16" string="felons" />
+            <token id="17" string="may" />
+            <token id="18" string="own" />
+            <token id="19" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="ruled" type="VP">
+          <tokens>
+            <token id="23" string="ruled" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="arms" type="NP">
+          <tokens>
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="A 1987 state constitutional amendment" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="1987" />
+            <token id="3" string="state" />
+            <token id="4" string="constitutional" />
+            <token id="5" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="bear arms" type="VP">
+          <tokens>
+            <token id="10" string="bear" />
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="own guns" type="VP">
+          <tokens>
+            <token id="18" string="own" />
+            <token id="19" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the right to bear arms" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="bear" />
+            <token id="11" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="1987 state" type="NP">
+          <tokens>
+            <token id="2" string="1987" />
+            <token id="3" string="state" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="5">amendment</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">state</governor>
+          <dependent id="2">1987</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="4">constitutional</governor>
+          <dependent id="3">state</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">amendment</governor>
+          <dependent id="4">constitutional</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">means</governor>
+          <dependent id="5">amendment</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="5">amendment</governor>
+          <dependent id="6">broadening</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">right</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">broadening</governor>
+          <dependent id="8">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">bear</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="8">right</governor>
+          <dependent id="10">bear</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">bear</governor>
+          <dependent id="11">arms</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="23">ruled</governor>
+          <dependent id="12">means</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">own</governor>
+          <dependent id="13">that</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">felons</governor>
+          <dependent id="14">even</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">felons</governor>
+          <dependent id="15">convicted</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">own</governor>
+          <dependent id="16">felons</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">own</governor>
+          <dependent id="17">may</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="12">means</governor>
+          <dependent id="18">own</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">own</governor>
+          <dependent id="19">guns</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">judge</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">ruled</governor>
+          <dependent id="22">judge</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="23">ruled</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1987" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="1987" />
+          </tokens>
+        </entity>
+        <entity id="2" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="8" string="right" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Cumberland County Superior Court Justice Stephen L. Perkins on Friday dismissed a charge of possession of a firearm by a felon against Edward Brown of Cumberland.</content>
+      <tokens>
+        <token id="1" string="Cumberland" lemma="Cumberland" stem="cumberland" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="2" string="County" lemma="County" stem="counti" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="Superior" lemma="Superior" stem="superior" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="Court" lemma="Court" stem="court" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="5" string="Justice" lemma="Justice" stem="justic" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="Stephen" lemma="Stephen" stem="stephen" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="7" string="L." lemma="L." stem="l." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="8" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="9" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="11" string="dismissed" lemma="dismiss" stem="dismiss" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="charge" lemma="charge" stem="charg" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="possession" lemma="possession" stem="possess" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="firearm" lemma="firearm" stem="firearm" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="felon" lemma="felon" stem="felon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="against" lemma="against" stem="against" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Edward" lemma="Edward" stem="edward" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="24" string="Brown" lemma="Brown" stem="brown" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="25" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="Cumberland" lemma="Cumberland" stem="cumberland" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Cumberland) (NNP County) (NNP Superior) (NNP Court) (NNP Justice) (NNP Stephen) (NNP L.) (NNP Perkins)) (PP (IN on) (NP (NNP Friday)))) (VP (VBD dismissed) (NP (NP (DT a) (NN charge)) (PP (IN of) (NP (NP (NN possession)) (PP (IN of) (NP (DT a) (NN firearm)))))) (PP (IN by) (NP (NP (DT a) (NN felon)) (PP (IN against) (NP (NP (NNP Edward) (NNP Brown)) (PP (IN of) (NP (NNP Cumberland)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Edward Brown" type="NP">
+          <tokens>
+            <token id="23" string="Edward" />
+            <token id="24" string="Brown" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a charge" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Edward Brown of Cumberland" type="NP">
+          <tokens>
+            <token id="23" string="Edward" />
+            <token id="24" string="Brown" />
+            <token id="25" string="of" />
+            <token id="26" string="Cumberland" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="possession" type="NP">
+          <tokens>
+            <token id="15" string="possession" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Cumberland County Superior Court Justice Stephen L. Perkins on Friday" type="NP">
+          <tokens>
+            <token id="1" string="Cumberland" />
+            <token id="2" string="County" />
+            <token id="3" string="Superior" />
+            <token id="4" string="Court" />
+            <token id="5" string="Justice" />
+            <token id="6" string="Stephen" />
+            <token id="7" string="L." />
+            <token id="8" string="Perkins" />
+            <token id="9" string="on" />
+            <token id="10" string="Friday" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a felon" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="felon" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a charge of possession of a firearm" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="charge" />
+            <token id="14" string="of" />
+            <token id="15" string="possession" />
+            <token id="16" string="of" />
+            <token id="17" string="a" />
+            <token id="18" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="possession of a firearm" type="NP">
+          <tokens>
+            <token id="15" string="possession" />
+            <token id="16" string="of" />
+            <token id="17" string="a" />
+            <token id="18" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Cumberland" type="NP">
+          <tokens>
+            <token id="26" string="Cumberland" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="dismissed a charge of possession of a firearm by a felon against Edward Brown of Cumberland" type="VP">
+          <tokens>
+            <token id="11" string="dismissed" />
+            <token id="12" string="a" />
+            <token id="13" string="charge" />
+            <token id="14" string="of" />
+            <token id="15" string="possession" />
+            <token id="16" string="of" />
+            <token id="17" string="a" />
+            <token id="18" string="firearm" />
+            <token id="19" string="by" />
+            <token id="20" string="a" />
+            <token id="21" string="felon" />
+            <token id="22" string="against" />
+            <token id="23" string="Edward" />
+            <token id="24" string="Brown" />
+            <token id="25" string="of" />
+            <token id="26" string="Cumberland" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Friday" type="NP">
+          <tokens>
+            <token id="10" string="Friday" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a firearm" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a felon against Edward Brown of Cumberland" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="felon" />
+            <token id="22" string="against" />
+            <token id="23" string="Edward" />
+            <token id="24" string="Brown" />
+            <token id="25" string="of" />
+            <token id="26" string="Cumberland" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Cumberland County Superior Court Justice Stephen L. Perkins" type="NP">
+          <tokens>
+            <token id="1" string="Cumberland" />
+            <token id="2" string="County" />
+            <token id="3" string="Superior" />
+            <token id="4" string="Court" />
+            <token id="5" string="Justice" />
+            <token id="6" string="Stephen" />
+            <token id="7" string="L." />
+            <token id="8" string="Perkins" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="1">Cumberland</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="2">County</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="3">Superior</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="4">Court</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="5">Justice</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="6">Stephen</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Perkins</governor>
+          <dependent id="7">L.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">dismissed</governor>
+          <dependent id="8">Perkins</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Friday</governor>
+          <dependent id="9">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">Perkins</governor>
+          <dependent id="10">Friday</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">dismissed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">charge</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">dismissed</governor>
+          <dependent id="13">charge</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">possession</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">charge</governor>
+          <dependent id="15">possession</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">firearm</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">firearm</governor>
+          <dependent id="17">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">possession</governor>
+          <dependent id="18">firearm</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">felon</governor>
+          <dependent id="19">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">felon</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">dismissed</governor>
+          <dependent id="21">felon</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Brown</governor>
+          <dependent id="22">against</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">Brown</governor>
+          <dependent id="23">Edward</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">felon</governor>
+          <dependent id="24">Brown</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">Cumberland</governor>
+          <dependent id="25">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">Brown</governor>
+          <dependent id="26">Cumberland</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Edward Brown" type="PERSON" score="0.0">
+          <tokens>
+            <token id="23" string="Edward" />
+            <token id="24" string="Brown" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Cumberland County Superior Court" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="1" string="Cumberland" />
+            <token id="2" string="County" />
+            <token id="3" string="Superior" />
+            <token id="4" string="Court" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Stephen L. Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Stephen" />
+            <token id="7" string="L." />
+            <token id="8" string="Perkins" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Cumberland" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Cumberland" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Prosecutors had argued that the amendment&amp;apost;s backers did not intend to allow felons to own guns, but the judge said nothing in the amendment indicated such an intent.</content>
+      <tokens>
+        <token id="1" string="Prosecutors" lemma="prosecutor" stem="prosecutor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="argued" lemma="argue" stem="argu" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="backers" lemma="backer" stem="backer" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="did" lemma="do" stem="did" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="intend" lemma="intend" stem="intend" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="allow" lemma="allow" stem="allow" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="felons" lemma="felon" stem="felon" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="own" lemma="own" stem="own" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="guns" lemma="gun" stem="gun" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="judge" lemma="judge" stem="judg" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="22" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="nothing" lemma="nothing" stem="noth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="27" string="indicated" lemma="indicate" stem="indic" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="such" lemma="such" stem="such" pos="PDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="intent" lemma="intent" stem="intent" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NNS Prosecutors)) (VP (VBD had) (VP (VBN argued) (SBAR (IN that) (S (NP (NP (DT the) (NN amendment) (POS 's)) (NNS backers)) (VP (VBD did) (RB not) (VP (VB intend) (S (VP (TO to) (VP (VB allow) (S (NP (NNS felons)) (VP (TO to) (VP (VB own) (NP (NNS guns))))))))))))))) (, ,) (CC but) (S (NP (DT the) (NN judge)) (VP (VBD said) (SBAR (S (NP (NP (NN nothing)) (PP (IN in) (NP (DT the) (NN amendment)))) (VP (VBD indicated) (NP (PDT such) (DT an) (NN intent))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="such an intent" type="NP">
+          <tokens>
+            <token id="28" string="such" />
+            <token id="29" string="an" />
+            <token id="30" string="intent" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="allow felons to own guns" type="VP">
+          <tokens>
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="guns" type="NP">
+          <tokens>
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said nothing in the amendment indicated such an intent" type="VP">
+          <tokens>
+            <token id="22" string="said" />
+            <token id="23" string="nothing" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="amendment" />
+            <token id="27" string="indicated" />
+            <token id="28" string="such" />
+            <token id="29" string="an" />
+            <token id="30" string="intent" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the amendment" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="that the amendment 's backers did not intend to allow felons to own guns" type="SBAR">
+          <tokens>
+            <token id="4" string="that" />
+            <token id="5" string="the" />
+            <token id="6" string="amendment" />
+            <token id="7" string="'s" />
+            <token id="8" string="backers" />
+            <token id="9" string="did" />
+            <token id="10" string="not" />
+            <token id="11" string="intend" />
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="intend to allow felons to own guns" type="VP">
+          <tokens>
+            <token id="11" string="intend" />
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="indicated such an intent" type="VP">
+          <tokens>
+            <token id="27" string="indicated" />
+            <token id="28" string="such" />
+            <token id="29" string="an" />
+            <token id="30" string="intent" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to own guns" type="VP">
+          <tokens>
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="nothing" type="NP">
+          <tokens>
+            <token id="23" string="nothing" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Prosecutors" type="NP">
+          <tokens>
+            <token id="1" string="Prosecutors" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="argued that the amendment 's backers did not intend to allow felons to own guns" type="VP">
+          <tokens>
+            <token id="3" string="argued" />
+            <token id="4" string="that" />
+            <token id="5" string="the" />
+            <token id="6" string="amendment" />
+            <token id="7" string="'s" />
+            <token id="8" string="backers" />
+            <token id="9" string="did" />
+            <token id="10" string="not" />
+            <token id="11" string="intend" />
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the amendment 's" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="amendment" />
+            <token id="7" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="had argued that the amendment 's backers did not intend to allow felons to own guns" type="VP">
+          <tokens>
+            <token id="2" string="had" />
+            <token id="3" string="argued" />
+            <token id="4" string="that" />
+            <token id="5" string="the" />
+            <token id="6" string="amendment" />
+            <token id="7" string="'s" />
+            <token id="8" string="backers" />
+            <token id="9" string="did" />
+            <token id="10" string="not" />
+            <token id="11" string="intend" />
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="nothing in the amendment indicated such an intent" type="SBAR">
+          <tokens>
+            <token id="23" string="nothing" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="amendment" />
+            <token id="27" string="indicated" />
+            <token id="28" string="such" />
+            <token id="29" string="an" />
+            <token id="30" string="intent" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="felons" type="NP">
+          <tokens>
+            <token id="14" string="felons" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="nothing in the amendment" type="NP">
+          <tokens>
+            <token id="23" string="nothing" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="to allow felons to own guns" type="VP">
+          <tokens>
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="own guns" type="VP">
+          <tokens>
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the amendment 's backers" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="amendment" />
+            <token id="7" string="'s" />
+            <token id="8" string="backers" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the judge" type="NP">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="judge" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="did not intend to allow felons to own guns" type="VP">
+          <tokens>
+            <token id="9" string="did" />
+            <token id="10" string="not" />
+            <token id="11" string="intend" />
+            <token id="12" string="to" />
+            <token id="13" string="allow" />
+            <token id="14" string="felons" />
+            <token id="15" string="to" />
+            <token id="16" string="own" />
+            <token id="17" string="guns" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">argued</governor>
+          <dependent id="1">Prosecutors</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="3">argued</governor>
+          <dependent id="2">had</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">argued</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">intend</governor>
+          <dependent id="4">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">amendment</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">backers</governor>
+          <dependent id="6">amendment</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">amendment</governor>
+          <dependent id="7">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">intend</governor>
+          <dependent id="8">backers</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">intend</governor>
+          <dependent id="9">did</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="11">intend</governor>
+          <dependent id="10">not</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">argued</governor>
+          <dependent id="11">intend</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">allow</governor>
+          <dependent id="12">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="11">intend</governor>
+          <dependent id="13">allow</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">allow</governor>
+          <dependent id="14">felons</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">own</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="13">allow</governor>
+          <dependent id="16">own</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">own</governor>
+          <dependent id="17">guns</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">argued</governor>
+          <dependent id="19">but</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">judge</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">said</governor>
+          <dependent id="21">judge</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">argued</governor>
+          <dependent id="22">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">indicated</governor>
+          <dependent id="23">nothing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">amendment</governor>
+          <dependent id="24">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">amendment</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">nothing</governor>
+          <dependent id="26">amendment</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="22">said</governor>
+          <dependent id="27">indicated</dependent>
+        </dependency>
+        <dependency type="det:predet">
+          <governor id="30">intent</governor>
+          <dependent id="28">such</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">intent</governor>
+          <dependent id="29">an</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="27">indicated</governor>
+          <dependent id="30">intent</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>``If Maine legislators and citizens wanted to restrict or qualify the right to keep and bear arms, they could have enacted a constitutional provision that contained the desired restrictions,&amp;apost;&amp;apost; Perkins wrote.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="If" lemma="if" stem="if" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Maine" lemma="Maine" stem="main" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="legislators" lemma="legislator" stem="legisl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="citizens" lemma="citizen" stem="citizen" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="wanted" lemma="want" stem="want" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="restrict" lemma="restrict" stem="restrict" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="qualify" lemma="qualify" stem="qualifi" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="true" />
+        <token id="14" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="keep" lemma="keep" stem="keep" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="bear" lemma="bear" stem="bear" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="enacted" lemma="enact" stem="enact" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="constitutional" lemma="constitutional" stem="constitut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="provision" lemma="provision" stem="provis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="contained" lemma="contain" stem="contain" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="desired" lemma="desire" stem="desir" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="restrictions" lemma="restriction" stem="restrict" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="35" string="wrote" lemma="write" stem="wrote" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (SBAR (IN If) (S (NP (NNP Maine) (NX (NX (NNS legislators)) (CC and) (NX (NNS citizens)))) (VP (VBD wanted) (S (VP (TO to) (VP (VB restrict) (CC or) (VB qualify) (NP (DT the) (NN right)) (S (VP (TO to) (VP (VB keep) (CC and) (VB bear) (NP (NNS arms))))))))))) (, ,) (NP (PRP they)) (VP (MD could) (VP (VB have) (VP (VBN enacted) (NP (NP (DT a) (JJ constitutional) (NN provision)) (SBAR (WHNP (WDT that)) (S (VP (VBD contained) (NP (DT the) (VBN desired) (NNS restrictions)))))))))) (, ,) ('' '') (NP (NNP Perkins)) (VP (VBD wrote)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="keep and bear arms" type="VP">
+          <tokens>
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that contained the desired restrictions" type="SBAR">
+          <tokens>
+            <token id="27" string="that" />
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the desired restrictions" type="NP">
+          <tokens>
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to keep and bear arms" type="VP">
+          <tokens>
+            <token id="14" string="to" />
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="wrote" type="VP">
+          <tokens>
+            <token id="35" string="wrote" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a constitutional provision that contained the desired restrictions" type="NP">
+          <tokens>
+            <token id="24" string="a" />
+            <token id="25" string="constitutional" />
+            <token id="26" string="provision" />
+            <token id="27" string="that" />
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="contained the desired restrictions" type="VP">
+          <tokens>
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the right" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="right" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="wanted to restrict or qualify the right to keep and bear arms" type="VP">
+          <tokens>
+            <token id="7" string="wanted" />
+            <token id="8" string="to" />
+            <token id="9" string="restrict" />
+            <token id="10" string="or" />
+            <token id="11" string="qualify" />
+            <token id="12" string="the" />
+            <token id="13" string="right" />
+            <token id="14" string="to" />
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="restrict or qualify the right to keep and bear arms" type="VP">
+          <tokens>
+            <token id="9" string="restrict" />
+            <token id="10" string="or" />
+            <token id="11" string="qualify" />
+            <token id="12" string="the" />
+            <token id="13" string="right" />
+            <token id="14" string="to" />
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="could have enacted a constitutional provision that contained the desired restrictions" type="VP">
+          <tokens>
+            <token id="21" string="could" />
+            <token id="22" string="have" />
+            <token id="23" string="enacted" />
+            <token id="24" string="a" />
+            <token id="25" string="constitutional" />
+            <token id="26" string="provision" />
+            <token id="27" string="that" />
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="If Maine legislators and citizens wanted to restrict or qualify the right to keep and bear arms" type="SBAR">
+          <tokens>
+            <token id="2" string="If" />
+            <token id="3" string="Maine" />
+            <token id="4" string="legislators" />
+            <token id="5" string="and" />
+            <token id="6" string="citizens" />
+            <token id="7" string="wanted" />
+            <token id="8" string="to" />
+            <token id="9" string="restrict" />
+            <token id="10" string="or" />
+            <token id="11" string="qualify" />
+            <token id="12" string="the" />
+            <token id="13" string="right" />
+            <token id="14" string="to" />
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a constitutional provision" type="NP">
+          <tokens>
+            <token id="24" string="a" />
+            <token id="25" string="constitutional" />
+            <token id="26" string="provision" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="they" type="NP">
+          <tokens>
+            <token id="20" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="enacted a constitutional provision that contained the desired restrictions" type="VP">
+          <tokens>
+            <token id="23" string="enacted" />
+            <token id="24" string="a" />
+            <token id="25" string="constitutional" />
+            <token id="26" string="provision" />
+            <token id="27" string="that" />
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="to restrict or qualify the right to keep and bear arms" type="VP">
+          <tokens>
+            <token id="8" string="to" />
+            <token id="9" string="restrict" />
+            <token id="10" string="or" />
+            <token id="11" string="qualify" />
+            <token id="12" string="the" />
+            <token id="13" string="right" />
+            <token id="14" string="to" />
+            <token id="15" string="keep" />
+            <token id="16" string="and" />
+            <token id="17" string="bear" />
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Maine legislators and citizens" type="NP">
+          <tokens>
+            <token id="3" string="Maine" />
+            <token id="4" string="legislators" />
+            <token id="5" string="and" />
+            <token id="6" string="citizens" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="arms" type="NP">
+          <tokens>
+            <token id="18" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Perkins" type="NP">
+          <tokens>
+            <token id="34" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="have enacted a constitutional provision that contained the desired restrictions" type="VP">
+          <tokens>
+            <token id="22" string="have" />
+            <token id="23" string="enacted" />
+            <token id="24" string="a" />
+            <token id="25" string="constitutional" />
+            <token id="26" string="provision" />
+            <token id="27" string="that" />
+            <token id="28" string="contained" />
+            <token id="29" string="the" />
+            <token id="30" string="desired" />
+            <token id="31" string="restrictions" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="mark">
+          <governor id="7">wanted</governor>
+          <dependent id="2">If</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">legislators</governor>
+          <dependent id="3">Maine</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">wanted</governor>
+          <dependent id="4">legislators</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">legislators</governor>
+          <dependent id="5">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">legislators</governor>
+          <dependent id="6">citizens</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="23">enacted</governor>
+          <dependent id="7">wanted</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="9">restrict</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">wanted</governor>
+          <dependent id="9">restrict</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">restrict</governor>
+          <dependent id="10">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">restrict</governor>
+          <dependent id="11">qualify</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">right</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">restrict</governor>
+          <dependent id="13">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="15">keep</governor>
+          <dependent id="14">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="9">restrict</governor>
+          <dependent id="15">keep</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="15">keep</governor>
+          <dependent id="16">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">keep</governor>
+          <dependent id="17">bear</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">keep</governor>
+          <dependent id="18">arms</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">enacted</governor>
+          <dependent id="20">they</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="23">enacted</governor>
+          <dependent id="21">could</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="23">enacted</governor>
+          <dependent id="22">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="35">wrote</governor>
+          <dependent id="23">enacted</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">provision</governor>
+          <dependent id="24">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">provision</governor>
+          <dependent id="25">constitutional</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">enacted</governor>
+          <dependent id="26">provision</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="28">contained</governor>
+          <dependent id="27">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="26">provision</governor>
+          <dependent id="28">contained</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">restrictions</governor>
+          <dependent id="29">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">restrictions</governor>
+          <dependent id="30">desired</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="28">contained</governor>
+          <dependent id="31">restrictions</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="35">wrote</governor>
+          <dependent id="34">Perkins</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="35">wrote</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Maine" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="3" string="Maine" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="34" string="Perkins" />
+          </tokens>
+        </entity>
+        <entity id="3" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="13" string="right" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>``Maine&amp;apost;s right to keep and bear arms amendment is the most broad and least restrictive of any of the 43 similar state amendments,&amp;apost;&amp;apost; he wrote.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Maine" lemma="Maine" stem="main" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="3" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="keep" lemma="keep" stem="keep" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="bear" lemma="bear" stem="bear" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="broad" lemma="broad" stem="broad" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="least" lemma="least" stem="least" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="restrictive" lemma="restrictive" stem="restrict" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="any" lemma="any" stem="ani" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="43" lemma="43" stem="43" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="similar" lemma="similar" stem="similar" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="amendments" lemma="amendment" stem="amend" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="29" string="wrote" lemma="write" stem="wrote" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (NP (NNP Maine) (POS 's)) (NN right) (S (VP (TO to) (VP (VB keep) (CC and) (VB bear) (NP (NNS arms) (NN amendment)))))) (VP (VBZ is) (NP (NP (DT the) (ADJP (ADJP (RBS most) (JJ broad)) (CC and) (ADJP (JJS least) (JJ restrictive)))) (PP (IN of) (NP (NP (DT any)) (PP (IN of) (NP (DT the) (CD 43) (JJ similar) (NN state) (NNS amendments)))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD wrote)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="keep and bear arms amendment" type="VP">
+          <tokens>
+            <token id="6" string="keep" />
+            <token id="7" string="and" />
+            <token id="8" string="bear" />
+            <token id="9" string="arms" />
+            <token id="10" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the most broad and least restrictive" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="most" />
+            <token id="14" string="broad" />
+            <token id="15" string="and" />
+            <token id="16" string="least" />
+            <token id="17" string="restrictive" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="most broad" type="ADJP">
+          <tokens>
+            <token id="13" string="most" />
+            <token id="14" string="broad" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Maine 's right to keep and bear arms amendment" type="NP">
+          <tokens>
+            <token id="2" string="Maine" />
+            <token id="3" string="'s" />
+            <token id="4" string="right" />
+            <token id="5" string="to" />
+            <token id="6" string="keep" />
+            <token id="7" string="and" />
+            <token id="8" string="bear" />
+            <token id="9" string="arms" />
+            <token id="10" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="least restrictive" type="ADJP">
+          <tokens>
+            <token id="16" string="least" />
+            <token id="17" string="restrictive" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="wrote" type="VP">
+          <tokens>
+            <token id="29" string="wrote" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="any" type="NP">
+          <tokens>
+            <token id="19" string="any" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to keep and bear arms amendment" type="VP">
+          <tokens>
+            <token id="5" string="to" />
+            <token id="6" string="keep" />
+            <token id="7" string="and" />
+            <token id="8" string="bear" />
+            <token id="9" string="arms" />
+            <token id="10" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="is the most broad and least restrictive of any of the 43 similar state amendments" type="VP">
+          <tokens>
+            <token id="11" string="is" />
+            <token id="12" string="the" />
+            <token id="13" string="most" />
+            <token id="14" string="broad" />
+            <token id="15" string="and" />
+            <token id="16" string="least" />
+            <token id="17" string="restrictive" />
+            <token id="18" string="of" />
+            <token id="19" string="any" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="43" />
+            <token id="23" string="similar" />
+            <token id="24" string="state" />
+            <token id="25" string="amendments" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the 43 similar state amendments" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="43" />
+            <token id="23" string="similar" />
+            <token id="24" string="state" />
+            <token id="25" string="amendments" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the most broad and least restrictive of any of the 43 similar state amendments" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="most" />
+            <token id="14" string="broad" />
+            <token id="15" string="and" />
+            <token id="16" string="least" />
+            <token id="17" string="restrictive" />
+            <token id="18" string="of" />
+            <token id="19" string="any" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="43" />
+            <token id="23" string="similar" />
+            <token id="24" string="state" />
+            <token id="25" string="amendments" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="any of the 43 similar state amendments" type="NP">
+          <tokens>
+            <token id="19" string="any" />
+            <token id="20" string="of" />
+            <token id="21" string="the" />
+            <token id="22" string="43" />
+            <token id="23" string="similar" />
+            <token id="24" string="state" />
+            <token id="25" string="amendments" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="most broad and least restrictive" type="ADJP">
+          <tokens>
+            <token id="13" string="most" />
+            <token id="14" string="broad" />
+            <token id="15" string="and" />
+            <token id="16" string="least" />
+            <token id="17" string="restrictive" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="he" type="NP">
+          <tokens>
+            <token id="28" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="arms amendment" type="NP">
+          <tokens>
+            <token id="9" string="arms" />
+            <token id="10" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Maine 's" type="NP">
+          <tokens>
+            <token id="2" string="Maine" />
+            <token id="3" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="4">right</governor>
+          <dependent id="2">Maine</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="2">Maine</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">broad</governor>
+          <dependent id="4">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="6">keep</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="4">right</governor>
+          <dependent id="6">keep</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">keep</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">keep</governor>
+          <dependent id="8">bear</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">amendment</governor>
+          <dependent id="9">arms</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">keep</governor>
+          <dependent id="10">amendment</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="14">broad</governor>
+          <dependent id="11">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">broad</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">broad</governor>
+          <dependent id="13">most</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="29">wrote</governor>
+          <dependent id="14">broad</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="14">broad</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="17">restrictive</governor>
+          <dependent id="16">least</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="14">broad</governor>
+          <dependent id="17">restrictive</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">any</governor>
+          <dependent id="18">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">broad</governor>
+          <dependent id="19">any</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">amendments</governor>
+          <dependent id="20">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">amendments</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="25">amendments</governor>
+          <dependent id="22">43</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">amendments</governor>
+          <dependent id="23">similar</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">amendments</governor>
+          <dependent id="24">state</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">any</governor>
+          <dependent id="25">amendments</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="29">wrote</governor>
+          <dependent id="28">he</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="29">wrote</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Maine" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Maine" />
+          </tokens>
+        </entity>
+        <entity id="2" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="4" string="right" />
+          </tokens>
+        </entity>
+        <entity id="3" string="43" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="43" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Attorney General James E. Tierney said Saturday that the case would be appealed, adding, ``With all due respect to Justice Perkins, we think he is wrong.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="Attorney" lemma="Attorney" stem="attornei" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="2" string="General" lemma="General" stem="gener" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="false" is_refers="false" />
+        <token id="3" string="James" lemma="James" stem="jame" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="4" string="E." lemma="E." stem="e." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="5" string="Tierney" lemma="Tierney" stem="tiernei" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="6" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="8" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="case" lemma="case" stem="case" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="appealed" lemma="appeal" stem="appeal" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="adding" lemma="add" stem="ad" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="With" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="due" lemma="due" stem="due" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="respect" lemma="respect" stem="respect" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="Justice" lemma="Justice" stem="justic" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="24" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="27" string="think" lemma="think" stem="think" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="29" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="wrong" lemma="wrong" stem="wrong" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Attorney) (NNP General) (NNP James) (NNP E.) (NNP Tierney)) (VP (VBD said) (NP-TMP (NNP Saturday)) (SBAR (IN that) (S (NP (DT the) (NN case)) (VP (MD would) (VP (VB be) (VP (VBN appealed)))))) (, ,) (S (VP (VBG adding) (, ,) (`` ``) (S (PP (IN With) (NP (NP (DT all) (JJ due) (NN respect)) (PP (TO to) (NP (NNP Justice) (NNP Perkins))))) (, ,) (NP (PRP we)) (VP (VBP think) (SBAR (S (NP (PRP he)) (VP (VBZ is) (ADJP (JJ wrong)))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the case" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="case" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="all due respect to Justice Perkins" type="NP">
+          <tokens>
+            <token id="19" string="all" />
+            <token id="20" string="due" />
+            <token id="21" string="respect" />
+            <token id="22" string="to" />
+            <token id="23" string="Justice" />
+            <token id="24" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="appealed" type="VP">
+          <tokens>
+            <token id="13" string="appealed" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="he is wrong" type="SBAR">
+          <tokens>
+            <token id="28" string="he" />
+            <token id="29" string="is" />
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="we" type="NP">
+          <tokens>
+            <token id="26" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="adding , `` With all due respect to Justice Perkins , we think he is wrong" type="VP">
+          <tokens>
+            <token id="15" string="adding" />
+            <token id="16" string="," />
+            <token id="17" string="``" />
+            <token id="18" string="With" />
+            <token id="19" string="all" />
+            <token id="20" string="due" />
+            <token id="21" string="respect" />
+            <token id="22" string="to" />
+            <token id="23" string="Justice" />
+            <token id="24" string="Perkins" />
+            <token id="25" string="," />
+            <token id="26" string="we" />
+            <token id="27" string="think" />
+            <token id="28" string="he" />
+            <token id="29" string="is" />
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="wrong" type="ADJP">
+          <tokens>
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said Saturday that the case would be appealed , adding , `` With all due respect to Justice Perkins , we think he is wrong" type="VP">
+          <tokens>
+            <token id="6" string="said" />
+            <token id="7" string="Saturday" />
+            <token id="8" string="that" />
+            <token id="9" string="the" />
+            <token id="10" string="case" />
+            <token id="11" string="would" />
+            <token id="12" string="be" />
+            <token id="13" string="appealed" />
+            <token id="14" string="," />
+            <token id="15" string="adding" />
+            <token id="16" string="," />
+            <token id="17" string="``" />
+            <token id="18" string="With" />
+            <token id="19" string="all" />
+            <token id="20" string="due" />
+            <token id="21" string="respect" />
+            <token id="22" string="to" />
+            <token id="23" string="Justice" />
+            <token id="24" string="Perkins" />
+            <token id="25" string="," />
+            <token id="26" string="we" />
+            <token id="27" string="think" />
+            <token id="28" string="he" />
+            <token id="29" string="is" />
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="be appealed" type="VP">
+          <tokens>
+            <token id="12" string="be" />
+            <token id="13" string="appealed" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="would be appealed" type="VP">
+          <tokens>
+            <token id="11" string="would" />
+            <token id="12" string="be" />
+            <token id="13" string="appealed" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="is wrong" type="VP">
+          <tokens>
+            <token id="29" string="is" />
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="think he is wrong" type="VP">
+          <tokens>
+            <token id="27" string="think" />
+            <token id="28" string="he" />
+            <token id="29" string="is" />
+            <token id="30" string="wrong" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Justice Perkins" type="NP">
+          <tokens>
+            <token id="23" string="Justice" />
+            <token id="24" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="he" type="NP">
+          <tokens>
+            <token id="28" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="that the case would be appealed" type="SBAR">
+          <tokens>
+            <token id="8" string="that" />
+            <token id="9" string="the" />
+            <token id="10" string="case" />
+            <token id="11" string="would" />
+            <token id="12" string="be" />
+            <token id="13" string="appealed" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="all due respect" type="NP">
+          <tokens>
+            <token id="19" string="all" />
+            <token id="20" string="due" />
+            <token id="21" string="respect" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Attorney General James E. Tierney" type="NP">
+          <tokens>
+            <token id="1" string="Attorney" />
+            <token id="2" string="General" />
+            <token id="3" string="James" />
+            <token id="4" string="E." />
+            <token id="5" string="Tierney" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="5">Tierney</governor>
+          <dependent id="1">Attorney</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Tierney</governor>
+          <dependent id="2">General</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Tierney</governor>
+          <dependent id="3">James</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Tierney</governor>
+          <dependent id="4">E.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">said</governor>
+          <dependent id="5">Tierney</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="6">said</governor>
+          <dependent id="7">Saturday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">appealed</governor>
+          <dependent id="8">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">case</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="13">appealed</governor>
+          <dependent id="10">case</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="13">appealed</governor>
+          <dependent id="11">would</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">appealed</governor>
+          <dependent id="12">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="6">said</governor>
+          <dependent id="13">appealed</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">said</governor>
+          <dependent id="15">adding</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">respect</governor>
+          <dependent id="18">With</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">respect</governor>
+          <dependent id="19">all</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">respect</governor>
+          <dependent id="20">due</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">think</governor>
+          <dependent id="21">respect</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Perkins</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">Perkins</governor>
+          <dependent id="23">Justice</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">respect</governor>
+          <dependent id="24">Perkins</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="27">think</governor>
+          <dependent id="26">we</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">adding</governor>
+          <dependent id="27">think</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="30">wrong</governor>
+          <dependent id="28">he</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="30">wrong</governor>
+          <dependent id="29">is</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="27">think</governor>
+          <dependent id="30">wrong</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Attorney General" type="TITLE" score="0.0">
+          <tokens>
+            <token id="1" string="Attorney" />
+            <token id="2" string="General" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="24" string="Perkins" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="7" string="Saturday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="James E. Tierney" type="PERSON" score="0.0">
+          <tokens>
+            <token id="3" string="James" />
+            <token id="4" string="E." />
+            <token id="5" string="Tierney" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>The Maine constitution used to guaranteed the right to keep and bear arms ``for the common defense.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Maine" lemma="Maine" stem="main" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="constitution" lemma="constitution" stem="constitut" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="used" lemma="use" stem="us" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="guaranteed" lemma="guarantee" stem="guarante" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="true" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="keep" lemma="keep" stem="keep" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="bear" lemma="bear" stem="bear" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="common" lemma="common" stem="common" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (FRAG (NP (NP (DT The) (NNP Maine) (NN constitution)) (VP (VBN used) (S (VP (TO to) (VP (VBN guaranteed) (NP (DT the) (NN right) (S (VP (TO to) (VP (VB keep) (CC and) (VB bear) (NP (NP (NNS arms)) (`` ``) (PP (IN for) (NP (DT the) (JJ common) (NN defense))))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the common defense" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="used to guaranteed the right to keep and bear arms `` for the common defense" type="VP">
+          <tokens>
+            <token id="4" string="used" />
+            <token id="5" string="to" />
+            <token id="6" string="guaranteed" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="guaranteed the right to keep and bear arms `` for the common defense" type="VP">
+          <tokens>
+            <token id="6" string="guaranteed" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The Maine constitution" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Maine" />
+            <token id="3" string="constitution" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the right to keep and bear arms `` for the common defense" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to keep and bear arms `` for the common defense" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to guaranteed the right to keep and bear arms `` for the common defense" type="VP">
+          <tokens>
+            <token id="5" string="to" />
+            <token id="6" string="guaranteed" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="keep and bear arms `` for the common defense" type="VP">
+          <tokens>
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="arms `` for the common defense" type="NP">
+          <tokens>
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="The Maine constitution used to guaranteed the right to keep and bear arms `` for the common defense" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Maine" />
+            <token id="3" string="constitution" />
+            <token id="4" string="used" />
+            <token id="5" string="to" />
+            <token id="6" string="guaranteed" />
+            <token id="7" string="the" />
+            <token id="8" string="right" />
+            <token id="9" string="to" />
+            <token id="10" string="keep" />
+            <token id="11" string="and" />
+            <token id="12" string="bear" />
+            <token id="13" string="arms" />
+            <token id="14" string="``" />
+            <token id="15" string="for" />
+            <token id="16" string="the" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="arms" type="NP">
+          <tokens>
+            <token id="13" string="arms" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">constitution</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">constitution</governor>
+          <dependent id="2">Maine</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">constitution</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="3">constitution</governor>
+          <dependent id="4">used</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="6">guaranteed</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="4">used</governor>
+          <dependent id="6">guaranteed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">right</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">guaranteed</governor>
+          <dependent id="8">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">keep</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="8">right</governor>
+          <dependent id="10">keep</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">keep</governor>
+          <dependent id="11">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">keep</governor>
+          <dependent id="12">bear</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">keep</governor>
+          <dependent id="13">arms</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">defense</governor>
+          <dependent id="15">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">defense</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">defense</governor>
+          <dependent id="17">common</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">arms</governor>
+          <dependent id="18">defense</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Maine" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Maine" />
+          </tokens>
+        </entity>
+        <entity id="2" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="8" string="right" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>In 1986, the Maine Supreme Court upheld a gun violation by focusing on the ``common defense&amp;apost;&amp;apost; phrase.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="1986" lemma="1986" stem="1986" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Maine" lemma="Maine" stem="main" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="Supreme" lemma="Supreme" stem="suprem" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="Court" lemma="Court" stem="court" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="upheld" lemma="uphold" stem="upheld" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="gun" lemma="gun" stem="gun" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="violation" lemma="violation" stem="violat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="focusing" lemma="focus" stem="focus" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="common" lemma="common" stem="common" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="defense" lemma="defense" stem="defens" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="phrase" lemma="phrase" stem="phrase" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (CD 1986))) (, ,) (NP (DT the) (NNP Maine) (NNP Supreme) (NNP Court)) (VP (VBD upheld) (NP (DT a) (NN gun) (NN violation)) (PP (IN by) (S (VP (VBG focusing) (PP (IN on) (NP (DT the) (`` ``) (JJ common) (NN defense) ('' '') (NN phrase))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1986" type="NP">
+          <tokens>
+            <token id="2" string="1986" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the `` common defense '' phrase" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="``" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+            <token id="19" string="''" />
+            <token id="20" string="phrase" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="focusing on the `` common defense '' phrase" type="VP">
+          <tokens>
+            <token id="13" string="focusing" />
+            <token id="14" string="on" />
+            <token id="15" string="the" />
+            <token id="16" string="``" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+            <token id="19" string="''" />
+            <token id="20" string="phrase" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Maine Supreme Court" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Maine" />
+            <token id="6" string="Supreme" />
+            <token id="7" string="Court" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="upheld a gun violation by focusing on the `` common defense '' phrase" type="VP">
+          <tokens>
+            <token id="8" string="upheld" />
+            <token id="9" string="a" />
+            <token id="10" string="gun" />
+            <token id="11" string="violation" />
+            <token id="12" string="by" />
+            <token id="13" string="focusing" />
+            <token id="14" string="on" />
+            <token id="15" string="the" />
+            <token id="16" string="``" />
+            <token id="17" string="common" />
+            <token id="18" string="defense" />
+            <token id="19" string="''" />
+            <token id="20" string="phrase" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a gun violation" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="gun" />
+            <token id="11" string="violation" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">1986</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">upheld</governor>
+          <dependent id="2">1986</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">Court</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Court</governor>
+          <dependent id="5">Maine</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Court</governor>
+          <dependent id="6">Supreme</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">upheld</governor>
+          <dependent id="7">Court</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">upheld</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">violation</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">violation</governor>
+          <dependent id="10">gun</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">upheld</governor>
+          <dependent id="11">violation</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="13">focusing</governor>
+          <dependent id="12">by</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="8">upheld</governor>
+          <dependent id="13">focusing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">phrase</governor>
+          <dependent id="14">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">phrase</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">phrase</governor>
+          <dependent id="17">common</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">phrase</governor>
+          <dependent id="18">defense</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">focusing</governor>
+          <dependent id="20">phrase</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1986" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="1986" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Maine Supreme Court" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="5" string="Maine" />
+            <token id="6" string="Supreme" />
+            <token id="7" string="Court" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>In response, the Legislature enacted a constitutional amendment deleting that language, and voters approved it in November 1987.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="response" lemma="response" stem="respons" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="Legislature" lemma="Legislature" stem="legislatur" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="6" string="enacted" lemma="enact" stem="enact" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="constitutional" lemma="constitutional" stem="constitut" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="deleting" lemma="delete" stem="delet" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="language" lemma="language" stem="languag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="voters" lemma="voter" stem="voter" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="approved" lemma="approve" stem="approv" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="November" lemma="November" stem="novemb" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="20" string="1987" lemma="1987" stem="1987" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (NN response))) (, ,) (NP (DT the) (NNP Legislature)) (VP (VBD enacted) (NP (DT a) (JJ constitutional) (NN amendment)) (S (VP (VBG deleting) (SBAR (IN that) (S (NP (NP (NN language)) (, ,) (CC and) (NP (NNS voters))) (VP (VBD approved) (NP (PRP it)) (PP (IN in) (NP (NNP November) (CD 1987))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="November 1987" type="NP">
+          <tokens>
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a constitutional amendment" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="constitutional" />
+            <token id="9" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="deleting that language , and voters approved it in November 1987" type="VP">
+          <tokens>
+            <token id="10" string="deleting" />
+            <token id="11" string="that" />
+            <token id="12" string="language" />
+            <token id="13" string="," />
+            <token id="14" string="and" />
+            <token id="15" string="voters" />
+            <token id="16" string="approved" />
+            <token id="17" string="it" />
+            <token id="18" string="in" />
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="voters" type="NP">
+          <tokens>
+            <token id="15" string="voters" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Legislature" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="Legislature" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="that language , and voters approved it in November 1987" type="SBAR">
+          <tokens>
+            <token id="11" string="that" />
+            <token id="12" string="language" />
+            <token id="13" string="," />
+            <token id="14" string="and" />
+            <token id="15" string="voters" />
+            <token id="16" string="approved" />
+            <token id="17" string="it" />
+            <token id="18" string="in" />
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="language" type="NP">
+          <tokens>
+            <token id="12" string="language" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="response" type="NP">
+          <tokens>
+            <token id="2" string="response" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="language , and voters" type="NP">
+          <tokens>
+            <token id="12" string="language" />
+            <token id="13" string="," />
+            <token id="14" string="and" />
+            <token id="15" string="voters" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="it" type="NP">
+          <tokens>
+            <token id="17" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="enacted a constitutional amendment deleting that language , and voters approved it in November 1987" type="VP">
+          <tokens>
+            <token id="6" string="enacted" />
+            <token id="7" string="a" />
+            <token id="8" string="constitutional" />
+            <token id="9" string="amendment" />
+            <token id="10" string="deleting" />
+            <token id="11" string="that" />
+            <token id="12" string="language" />
+            <token id="13" string="," />
+            <token id="14" string="and" />
+            <token id="15" string="voters" />
+            <token id="16" string="approved" />
+            <token id="17" string="it" />
+            <token id="18" string="in" />
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="approved it in November 1987" type="VP">
+          <tokens>
+            <token id="16" string="approved" />
+            <token id="17" string="it" />
+            <token id="18" string="in" />
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">response</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">enacted</governor>
+          <dependent id="2">response</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">Legislature</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">enacted</governor>
+          <dependent id="5">Legislature</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">enacted</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">amendment</governor>
+          <dependent id="7">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">amendment</governor>
+          <dependent id="8">constitutional</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">enacted</governor>
+          <dependent id="9">amendment</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="6">enacted</governor>
+          <dependent id="10">deleting</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">approved</governor>
+          <dependent id="11">that</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">approved</governor>
+          <dependent id="12">language</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">language</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">language</governor>
+          <dependent id="15">voters</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">deleting</governor>
+          <dependent id="16">approved</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">approved</governor>
+          <dependent id="17">it</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">November</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">approved</governor>
+          <dependent id="19">November</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="19">November</governor>
+          <dependent id="20">1987</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="November 1987" type="DATE" score="0.0">
+          <tokens>
+            <token id="19" string="November" />
+            <token id="20" string="1987" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Legislature" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="5" string="Legislature" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>The amendment declared, ``Every citizen has a right to keep and bear arms,and this right shall never be questioned.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="amendment" lemma="amendment" stem="amend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="declared" lemma="declare" stem="declar" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Every" lemma="every" stem="everi" pos="DT" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="citizen" lemma="citizen" stem="citizen" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="keep" lemma="keep" stem="keep" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="bear" lemma="bear" stem="bear" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="arms" lemma="arm" stem="arm" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="right" lemma="right" stem="right" pos="NN" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="true" />
+        <token id="20" string="shall" lemma="shall" stem="shall" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="never" lemma="never" stem="never" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="questioned" lemma="question" stem="question" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NN amendment)) (VP (VBD declared) (, ,) (`` ``) (S (NP (DT Every) (NN citizen)) (VP (VBZ has) (NP (DT a) (NN right) (S (VP (TO to) (VP (VB keep) (CC and) (VB bear) (NP (NNS arms)))))))))) (, ,) (CC and) (S (NP (DT this) (NN right)) (VP (MD shall) (ADVP (RB never)) (VP (VB be) (VP (VBN questioned))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="keep and bear arms" type="VP">
+          <tokens>
+            <token id="12" string="keep" />
+            <token id="13" string="and" />
+            <token id="14" string="bear" />
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The amendment" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="amendment" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="to keep and bear arms" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="keep" />
+            <token id="13" string="and" />
+            <token id="14" string="bear" />
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="declared , `` Every citizen has a right to keep and bear arms" type="VP">
+          <tokens>
+            <token id="3" string="declared" />
+            <token id="4" string="," />
+            <token id="5" string="``" />
+            <token id="6" string="Every" />
+            <token id="7" string="citizen" />
+            <token id="8" string="has" />
+            <token id="9" string="a" />
+            <token id="10" string="right" />
+            <token id="11" string="to" />
+            <token id="12" string="keep" />
+            <token id="13" string="and" />
+            <token id="14" string="bear" />
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="has a right to keep and bear arms" type="VP">
+          <tokens>
+            <token id="8" string="has" />
+            <token id="9" string="a" />
+            <token id="10" string="right" />
+            <token id="11" string="to" />
+            <token id="12" string="keep" />
+            <token id="13" string="and" />
+            <token id="14" string="bear" />
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="this right" type="NP">
+          <tokens>
+            <token id="18" string="this" />
+            <token id="19" string="right" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="be questioned" type="VP">
+          <tokens>
+            <token id="22" string="be" />
+            <token id="23" string="questioned" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="questioned" type="VP">
+          <tokens>
+            <token id="23" string="questioned" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="shall never be questioned" type="VP">
+          <tokens>
+            <token id="20" string="shall" />
+            <token id="21" string="never" />
+            <token id="22" string="be" />
+            <token id="23" string="questioned" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Every citizen" type="NP">
+          <tokens>
+            <token id="6" string="Every" />
+            <token id="7" string="citizen" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a right to keep and bear arms" type="NP">
+          <tokens>
+            <token id="9" string="a" />
+            <token id="10" string="right" />
+            <token id="11" string="to" />
+            <token id="12" string="keep" />
+            <token id="13" string="and" />
+            <token id="14" string="bear" />
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="arms" type="NP">
+          <tokens>
+            <token id="15" string="arms" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">amendment</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">declared</governor>
+          <dependent id="2">amendment</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">declared</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">citizen</governor>
+          <dependent id="6">Every</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">has</governor>
+          <dependent id="7">citizen</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">declared</governor>
+          <dependent id="8">has</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">right</governor>
+          <dependent id="9">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">has</governor>
+          <dependent id="10">right</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">keep</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="10">right</governor>
+          <dependent id="12">keep</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">keep</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">keep</governor>
+          <dependent id="14">bear</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">keep</governor>
+          <dependent id="15">arms</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">declared</governor>
+          <dependent id="17">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">right</governor>
+          <dependent id="18">this</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="23">questioned</governor>
+          <dependent id="19">right</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="23">questioned</governor>
+          <dependent id="20">shall</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="23">questioned</governor>
+          <dependent id="21">never</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="23">questioned</governor>
+          <dependent id="22">be</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">declared</governor>
+          <dependent id="23">questioned</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="right" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="10" string="right" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Brown had been accused of criminal threatening in 1988, as well as with illegal possession of a gun.</content>
+      <tokens>
+        <token id="1" string="Brown" lemma="Brown" stem="brown" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="accused" lemma="accuse" stem="accus" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="criminal" lemma="criminal" stem="crimin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="threatening" lemma="threatening" stem="threaten" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="1988" lemma="1988" stem="1988" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="illegal" lemma="illegal" stem="illeg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="possession" lemma="possession" stem="possess" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="gun" lemma="gun" stem="gun" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Brown)) (VP (VBD had) (VP (VBN been) (VP (VBN accused) (PP (IN of) (NP (NP (JJ criminal)) (ADJP (JJ threatening) (PP (PP (IN in) (NP (CD 1988))) (, ,) (CONJP (RB as) (RB well) (IN as)) (PP (IN with) (NP (NP (JJ illegal) (NN possession)) (PP (IN of) (NP (DT a) (NN gun)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1988" type="NP">
+          <tokens>
+            <token id="9" string="1988" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="had been accused of criminal threatening in 1988 , as well as with illegal possession of a gun" type="VP">
+          <tokens>
+            <token id="2" string="had" />
+            <token id="3" string="been" />
+            <token id="4" string="accused" />
+            <token id="5" string="of" />
+            <token id="6" string="criminal" />
+            <token id="7" string="threatening" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="as" />
+            <token id="12" string="well" />
+            <token id="13" string="as" />
+            <token id="14" string="with" />
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Brown" type="NP">
+          <tokens>
+            <token id="1" string="Brown" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="illegal possession" type="NP">
+          <tokens>
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a gun" type="NP">
+          <tokens>
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="accused of criminal threatening in 1988 , as well as with illegal possession of a gun" type="VP">
+          <tokens>
+            <token id="4" string="accused" />
+            <token id="5" string="of" />
+            <token id="6" string="criminal" />
+            <token id="7" string="threatening" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="as" />
+            <token id="12" string="well" />
+            <token id="13" string="as" />
+            <token id="14" string="with" />
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="illegal possession of a gun" type="NP">
+          <tokens>
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="criminal" type="NP">
+          <tokens>
+            <token id="6" string="criminal" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="threatening in 1988 , as well as with illegal possession of a gun" type="ADJP">
+          <tokens>
+            <token id="7" string="threatening" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="as" />
+            <token id="12" string="well" />
+            <token id="13" string="as" />
+            <token id="14" string="with" />
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="been accused of criminal threatening in 1988 , as well as with illegal possession of a gun" type="VP">
+          <tokens>
+            <token id="3" string="been" />
+            <token id="4" string="accused" />
+            <token id="5" string="of" />
+            <token id="6" string="criminal" />
+            <token id="7" string="threatening" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="as" />
+            <token id="12" string="well" />
+            <token id="13" string="as" />
+            <token id="14" string="with" />
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="criminal threatening in 1988 , as well as with illegal possession of a gun" type="NP">
+          <tokens>
+            <token id="6" string="criminal" />
+            <token id="7" string="threatening" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="as" />
+            <token id="12" string="well" />
+            <token id="13" string="as" />
+            <token id="14" string="with" />
+            <token id="15" string="illegal" />
+            <token id="16" string="possession" />
+            <token id="17" string="of" />
+            <token id="18" string="a" />
+            <token id="19" string="gun" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="4">accused</governor>
+          <dependent id="1">Brown</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">accused</governor>
+          <dependent id="2">had</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">accused</governor>
+          <dependent id="3">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">accused</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">criminal</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">accused</governor>
+          <dependent id="6">criminal</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">criminal</governor>
+          <dependent id="7">threatening</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">threatening</governor>
+          <dependent id="7">threatening</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">1988</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">threatening</governor>
+          <dependent id="9">1988</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">threatening</governor>
+          <dependent id="11">as</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="11">as</governor>
+          <dependent id="12">well</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="11">as</governor>
+          <dependent id="13">as</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">possession</governor>
+          <dependent id="14">with</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">possession</governor>
+          <dependent id="15">illegal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">threatening</governor>
+          <dependent id="16">possession</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">gun</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">gun</governor>
+          <dependent id="18">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">possession</governor>
+          <dependent id="19">gun</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1988" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="1988" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Brown" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Brown" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>He previously had been convicted under the state&amp;apost;s habitual offender law for operating a motor vehicle after his driver&amp;apost;s license had been revoked.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="previously" lemma="previously" stem="previous" pos="RB" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="convicted" lemma="convict" stem="convict" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="under" lemma="under" stem="under" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="state" lemma="state" stem="state" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="habitual" lemma="habitual" stem="habitu" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="offender" lemma="offender" stem="offend" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="law" lemma="law" stem="law" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="operating" lemma="operate" stem="oper" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="motor" lemma="motor" stem="motor" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="vehicle" lemma="vehicle" stem="vehicl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="after" lemma="after" stem="after" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="driver" lemma="driver" stem="driver" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="license" lemma="license" stem="licens" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="revoked" lemma="revoke" stem="revok" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (ADVP (RB previously)) (VP (VBD had) (VP (VBN been) (VP (VBN convicted) (PP (IN under) (NP (NP (DT the) (NN state) (POS 's)) (JJ habitual) (NN offender) (NN law))) (PP (IN for) (S (VP (VBG operating) (NP (DT a) (NN motor) (NN vehicle)) (SBAR (IN after) (S (NP (NP (PRP$ his) (NN driver) (POS 's)) (NN license)) (VP (VBD had) (VP (VBN been) (VP (VBN revoked)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="had been revoked" type="VP">
+          <tokens>
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="had been convicted under the state 's habitual offender law for operating a motor vehicle after his driver 's license had been revoked" type="VP">
+          <tokens>
+            <token id="3" string="had" />
+            <token id="4" string="been" />
+            <token id="5" string="convicted" />
+            <token id="6" string="under" />
+            <token id="7" string="the" />
+            <token id="8" string="state" />
+            <token id="9" string="'s" />
+            <token id="10" string="habitual" />
+            <token id="11" string="offender" />
+            <token id="12" string="law" />
+            <token id="13" string="for" />
+            <token id="14" string="operating" />
+            <token id="15" string="a" />
+            <token id="16" string="motor" />
+            <token id="17" string="vehicle" />
+            <token id="18" string="after" />
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="his driver 's" type="NP">
+          <tokens>
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="operating a motor vehicle after his driver 's license had been revoked" type="VP">
+          <tokens>
+            <token id="14" string="operating" />
+            <token id="15" string="a" />
+            <token id="16" string="motor" />
+            <token id="17" string="vehicle" />
+            <token id="18" string="after" />
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the state 's" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="state" />
+            <token id="9" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a motor vehicle" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="motor" />
+            <token id="17" string="vehicle" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="after his driver 's license had been revoked" type="SBAR">
+          <tokens>
+            <token id="18" string="after" />
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="his driver 's license" type="NP">
+          <tokens>
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="revoked" type="VP">
+          <tokens>
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the state 's habitual offender law" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="state" />
+            <token id="9" string="'s" />
+            <token id="10" string="habitual" />
+            <token id="11" string="offender" />
+            <token id="12" string="law" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="been convicted under the state 's habitual offender law for operating a motor vehicle after his driver 's license had been revoked" type="VP">
+          <tokens>
+            <token id="4" string="been" />
+            <token id="5" string="convicted" />
+            <token id="6" string="under" />
+            <token id="7" string="the" />
+            <token id="8" string="state" />
+            <token id="9" string="'s" />
+            <token id="10" string="habitual" />
+            <token id="11" string="offender" />
+            <token id="12" string="law" />
+            <token id="13" string="for" />
+            <token id="14" string="operating" />
+            <token id="15" string="a" />
+            <token id="16" string="motor" />
+            <token id="17" string="vehicle" />
+            <token id="18" string="after" />
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="been revoked" type="VP">
+          <tokens>
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="convicted under the state 's habitual offender law for operating a motor vehicle after his driver 's license had been revoked" type="VP">
+          <tokens>
+            <token id="5" string="convicted" />
+            <token id="6" string="under" />
+            <token id="7" string="the" />
+            <token id="8" string="state" />
+            <token id="9" string="'s" />
+            <token id="10" string="habitual" />
+            <token id="11" string="offender" />
+            <token id="12" string="law" />
+            <token id="13" string="for" />
+            <token id="14" string="operating" />
+            <token id="15" string="a" />
+            <token id="16" string="motor" />
+            <token id="17" string="vehicle" />
+            <token id="18" string="after" />
+            <token id="19" string="his" />
+            <token id="20" string="driver" />
+            <token id="21" string="'s" />
+            <token id="22" string="license" />
+            <token id="23" string="had" />
+            <token id="24" string="been" />
+            <token id="25" string="revoked" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="5">convicted</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">convicted</governor>
+          <dependent id="2">previously</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">convicted</governor>
+          <dependent id="3">had</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">convicted</governor>
+          <dependent id="4">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">convicted</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">law</governor>
+          <dependent id="6">under</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">state</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="12">law</governor>
+          <dependent id="8">state</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">state</governor>
+          <dependent id="9">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">law</governor>
+          <dependent id="10">habitual</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">law</governor>
+          <dependent id="11">offender</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">convicted</governor>
+          <dependent id="12">law</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">operating</governor>
+          <dependent id="13">for</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">convicted</governor>
+          <dependent id="14">operating</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">vehicle</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">vehicle</governor>
+          <dependent id="16">motor</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">operating</governor>
+          <dependent id="17">vehicle</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="25">revoked</governor>
+          <dependent id="18">after</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">driver</governor>
+          <dependent id="19">his</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="22">license</governor>
+          <dependent id="20">driver</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">driver</governor>
+          <dependent id="21">'s</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="25">revoked</governor>
+          <dependent id="22">license</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="25">revoked</governor>
+          <dependent id="23">had</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="25">revoked</governor>
+          <dependent id="24">been</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="14">operating</governor>
+          <dependent id="25">revoked</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="previously" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="previously" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>Perkins denied a motion to dismiss the criminal threatening charge, but threw out the gun possession charge, saying ``there is simply no rational connection&amp;apost;&amp;apost; between Brown&amp;apost;s previous conviction and his ownership of a firearm.</content>
+      <tokens>
+        <token id="1" string="Perkins" lemma="Perkins" stem="perkin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="denied" lemma="deny" stem="deni" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="motion" lemma="motion" stem="motion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="dismiss" lemma="dismiss" stem="dismiss" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="criminal" lemma="criminal" stem="crimin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="threatening" lemma="threatening" stem="threaten" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="charge" lemma="charge" stem="charg" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="threw" lemma="throw" stem="threw" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="out" lemma="out" stem="out" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="gun" lemma="gun" stem="gun" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="possession" lemma="possession" stem="possess" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="charge" lemma="charge" stem="charg" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="saying" lemma="say" stem="sai" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="simply" lemma="simply" stem="simpli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="rational" lemma="rational" stem="ration" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="connection" lemma="connection" stem="connect" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="between" lemma="between" stem="between" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Brown" lemma="Brown" stem="brown" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="31" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="32" string="previous" lemma="previous" stem="previou" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="conviction" lemma="conviction" stem="convict" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="36" string="ownership" lemma="ownership" stem="ownership" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="firearm" lemma="firearm" stem="firearm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="40" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Perkins)) (VP (VP (VBD denied) (NP (DT a) (NN motion)) (S (VP (TO to) (VP (VB dismiss) (NP (DT the) (JJ criminal) (JJ threatening) (NN charge)))))) (, ,) (CC but) (VP (VBD threw) (PRT (RP out)) (NP (DT the) (NN gun) (NN possession) (NN charge))) (, ,) (S (VP (VBG saying) (S (`` ``) (NP (EX there)) (VP (VBZ is) (ADVP (RB simply)) (NP (NP (DT no) (JJ rational) (NN connection)) ('' '') (PP (IN between) (NP (NP (NP (NNP Brown) (POS 's)) (JJ previous) (NN conviction)) (CC and) (NP (NP (PRP$ his) (NN ownership)) (PP (IN of) (NP (DT a) (NN firearm)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="threw out the gun possession charge" type="VP">
+          <tokens>
+            <token id="13" string="threw" />
+            <token id="14" string="out" />
+            <token id="15" string="the" />
+            <token id="16" string="gun" />
+            <token id="17" string="possession" />
+            <token id="18" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="no rational connection '' between Brown 's previous conviction and his ownership of a firearm" type="NP">
+          <tokens>
+            <token id="25" string="no" />
+            <token id="26" string="rational" />
+            <token id="27" string="connection" />
+            <token id="28" string="''" />
+            <token id="29" string="between" />
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+            <token id="34" string="and" />
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="dismiss the criminal threatening charge" type="VP">
+          <tokens>
+            <token id="6" string="dismiss" />
+            <token id="7" string="the" />
+            <token id="8" string="criminal" />
+            <token id="9" string="threatening" />
+            <token id="10" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is simply no rational connection '' between Brown 's previous conviction and his ownership of a firearm" type="VP">
+          <tokens>
+            <token id="23" string="is" />
+            <token id="24" string="simply" />
+            <token id="25" string="no" />
+            <token id="26" string="rational" />
+            <token id="27" string="connection" />
+            <token id="28" string="''" />
+            <token id="29" string="between" />
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+            <token id="34" string="and" />
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="saying `` there is simply no rational connection '' between Brown 's previous conviction and his ownership of a firearm" type="VP">
+          <tokens>
+            <token id="20" string="saying" />
+            <token id="21" string="``" />
+            <token id="22" string="there" />
+            <token id="23" string="is" />
+            <token id="24" string="simply" />
+            <token id="25" string="no" />
+            <token id="26" string="rational" />
+            <token id="27" string="connection" />
+            <token id="28" string="''" />
+            <token id="29" string="between" />
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+            <token id="34" string="and" />
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the gun possession charge" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="gun" />
+            <token id="17" string="possession" />
+            <token id="18" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="no rational connection" type="NP">
+          <tokens>
+            <token id="25" string="no" />
+            <token id="26" string="rational" />
+            <token id="27" string="connection" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Brown 's" type="NP">
+          <tokens>
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Brown 's previous conviction and his ownership of a firearm" type="NP">
+          <tokens>
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+            <token id="34" string="and" />
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="there" type="NP">
+          <tokens>
+            <token id="22" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="to dismiss the criminal threatening charge" type="VP">
+          <tokens>
+            <token id="5" string="to" />
+            <token id="6" string="dismiss" />
+            <token id="7" string="the" />
+            <token id="8" string="criminal" />
+            <token id="9" string="threatening" />
+            <token id="10" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="his ownership of a firearm" type="NP">
+          <tokens>
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Brown 's previous conviction" type="NP">
+          <tokens>
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="denied a motion to dismiss the criminal threatening charge" type="VP">
+          <tokens>
+            <token id="2" string="denied" />
+            <token id="3" string="a" />
+            <token id="4" string="motion" />
+            <token id="5" string="to" />
+            <token id="6" string="dismiss" />
+            <token id="7" string="the" />
+            <token id="8" string="criminal" />
+            <token id="9" string="threatening" />
+            <token id="10" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a firearm" type="NP">
+          <tokens>
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="a motion" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="motion" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the criminal threatening charge" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="criminal" />
+            <token id="9" string="threatening" />
+            <token id="10" string="charge" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="Perkins" type="NP">
+          <tokens>
+            <token id="1" string="Perkins" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="denied a motion to dismiss the criminal threatening charge , but threw out the gun possession charge , saying `` there is simply no rational connection '' between Brown 's previous conviction and his ownership of a firearm" type="VP">
+          <tokens>
+            <token id="2" string="denied" />
+            <token id="3" string="a" />
+            <token id="4" string="motion" />
+            <token id="5" string="to" />
+            <token id="6" string="dismiss" />
+            <token id="7" string="the" />
+            <token id="8" string="criminal" />
+            <token id="9" string="threatening" />
+            <token id="10" string="charge" />
+            <token id="11" string="," />
+            <token id="12" string="but" />
+            <token id="13" string="threw" />
+            <token id="14" string="out" />
+            <token id="15" string="the" />
+            <token id="16" string="gun" />
+            <token id="17" string="possession" />
+            <token id="18" string="charge" />
+            <token id="19" string="," />
+            <token id="20" string="saying" />
+            <token id="21" string="``" />
+            <token id="22" string="there" />
+            <token id="23" string="is" />
+            <token id="24" string="simply" />
+            <token id="25" string="no" />
+            <token id="26" string="rational" />
+            <token id="27" string="connection" />
+            <token id="28" string="''" />
+            <token id="29" string="between" />
+            <token id="30" string="Brown" />
+            <token id="31" string="'s" />
+            <token id="32" string="previous" />
+            <token id="33" string="conviction" />
+            <token id="34" string="and" />
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+            <token id="37" string="of" />
+            <token id="38" string="a" />
+            <token id="39" string="firearm" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="his ownership" type="NP">
+          <tokens>
+            <token id="35" string="his" />
+            <token id="36" string="ownership" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">denied</governor>
+          <dependent id="1">Perkins</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">denied</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">motion</governor>
+          <dependent id="3">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="2">denied</governor>
+          <dependent id="4">motion</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="6">dismiss</governor>
+          <dependent id="5">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="2">denied</governor>
+          <dependent id="6">dismiss</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">charge</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">charge</governor>
+          <dependent id="8">criminal</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">charge</governor>
+          <dependent id="9">threatening</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">dismiss</governor>
+          <dependent id="10">charge</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">denied</governor>
+          <dependent id="12">but</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">denied</governor>
+          <dependent id="13">threw</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="13">threw</governor>
+          <dependent id="14">out</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">charge</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">charge</governor>
+          <dependent id="16">gun</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">charge</governor>
+          <dependent id="17">possession</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">threw</governor>
+          <dependent id="18">charge</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="2">denied</governor>
+          <dependent id="20">saying</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="23">is</governor>
+          <dependent id="22">there</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="20">saying</governor>
+          <dependent id="23">is</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="23">is</governor>
+          <dependent id="24">simply</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="27">connection</governor>
+          <dependent id="25">no</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">connection</governor>
+          <dependent id="26">rational</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">is</governor>
+          <dependent id="27">connection</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">conviction</governor>
+          <dependent id="29">between</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="33">conviction</governor>
+          <dependent id="30">Brown</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">Brown</governor>
+          <dependent id="31">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="33">conviction</governor>
+          <dependent id="32">previous</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">connection</governor>
+          <dependent id="33">conviction</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="33">conviction</governor>
+          <dependent id="34">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="36">ownership</governor>
+          <dependent id="35">his</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="33">conviction</governor>
+          <dependent id="36">ownership</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="39">firearm</governor>
+          <dependent id="37">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="39">firearm</governor>
+          <dependent id="38">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="36">ownership</governor>
+          <dependent id="39">firearm</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Brown" type="PERSON" score="0.0">
+          <tokens>
+            <token id="30" string="Brown" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Perkins" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Perkins" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11" string="A 1987 state constitutional amendment broadening the right to bear arms" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="5-7" string="the amendment's" id_sentence="3" />
+        <mention ids_tokens="25-26" string="the amendment" id_sentence="3" />
+        <mention ids_tokens="9-10" string="arms amendment" id_sentence="5" />
+        <mention ids_tokens="1-2" string="The amendment" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="NOMINAL">
+      <referenced ids_tokens="2-3" string="1987 state" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="7-9" string="the state's" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="7-8-9-10-11" string="the right to bear arms" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="12-13" string="the right" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="14-15-16" string="even convicted felons" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="14" string="felons" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="21-22" string="a judge" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="20-21" string="the judge" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10" string="Cumberland County Superior Court Justice Stephen L. Perkins on Friday" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="34" string="Perkins" id_sentence="4" />
+        <mention ids_tokens="28" string="he" id_sentence="5" />
+        <mention ids_tokens="23-24" string="Justice Perkins" id_sentence="6" />
+        <mention ids_tokens="24" string="Perkins" id_sentence="6" />
+        <mention ids_tokens="28" string="he" id_sentence="6" />
+        <mention ids_tokens="1" string="Perkins" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="23-24-25-26" string="Edward Brown of Cumberland" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1" string="Brown" id_sentence="11" />
+        <mention ids_tokens="1" string="He" id_sentence="12" />
+        <mention ids_tokens="19" string="his" id_sentence="12" />
+        <mention ids_tokens="30-31" string="Brown's" id_sentence="13" />
+        <mention ids_tokens="35" string="his" id_sentence="13" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="PROPER">
+      <referenced ids_tokens="3" string="Maine" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="2-3" string="Maine's" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="LIST">
+      <referenced ids_tokens="3-4-5-6" string="Maine legislators and citizens" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="26" string="we" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="PROPER">
+      <referenced ids_tokens="7-8-9-10-11-12-13-14-15-16-17-18" string="the right to keep and bear arms `` for the common defense" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="18-19" string="this right" id_sentence="10" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

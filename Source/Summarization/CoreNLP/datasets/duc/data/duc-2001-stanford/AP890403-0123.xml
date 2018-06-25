@@ -1,0 +1,2406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890403-0123">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Here are some tornado facts from the National Weather Service, Insurance Information Institute and news accounts: _Tornadoes can occur in any month, but are more frequent from April through June and between 3 and 6 p.m. _Most tornadoes track southwest to northeast, but their paths can spiral erratically.</content>
+      <tokens>
+        <token id="1" string="Here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="tornado" lemma="tornado" stem="tornado" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="5" string="facts" lemma="fact" stem="fact" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="National" lemma="National" stem="nation" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="Weather" lemma="Weather" stem="weather" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="Service" lemma="Service" stem="servic" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="Insurance" lemma="Insurance" stem="insuranc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="Information" lemma="Information" stem="informat" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="14" string="Institute" lemma="Institute" stem="institut" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="news" lemma="news" stem="new" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="accounts" lemma="account" stem="account" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="true" is_refers="true" />
+        <token id="20" string="Tornadoes" lemma="tornado" stem="tornado" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="21" string="can" lemma="can" stem="can" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="22" string="occur" lemma="occur" stem="occur" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="23" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="24" string="any" lemma="any" stem="ani" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="25" string="month" lemma="month" stem="month" pos="NN" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="true" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="27" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="28" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="29" string="more" lemma="more" stem="more" pos="RBR" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="30" string="frequent" lemma="frequent" stem="frequent" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="31" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="32" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="true" />
+        <token id="33" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="34" string="June" lemma="June" stem="june" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="35" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="36" string="between" lemma="between" stem="between" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="37" string="3" lemma="3" stem="3" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="38" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="39" string="6" lemma="6" stem="6" pos="CD" type="Number" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="40" string="p.m." lemma="p.m." stem="p.m." pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="true" />
+        <token id="41" string="_" lemma="_" stem="_" pos="NNP" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="42" string="Most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="tornadoes" lemma="tornado" stem="tornado" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="44" string="track" lemma="track" stem="track" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="45" string="southwest" lemma="southwest" stem="southwest" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="46" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="47" string="northeast" lemma="northeast" stem="northeast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="48" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="49" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="50" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="51" string="paths" lemma="path" stem="path" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="52" string="can" lemma="can" stem="can" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="53" string="spiral" lemma="spiral" stem="spiral" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="54" string="erratically" lemma="erratically" stem="errat" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="55" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (ADVP (RB Here)) (VP (VBP are) (NP (NP (NP (DT some) (NN tornado) (NNS facts)) (PP (IN from) (NP (NP (DT the) (NNP National) (NNP Weather) (NNP Service)) (, ,) (NP (NNP Insurance) (NNP Information) (NNP Institute)) (CC and) (NP (NN news) (NNS accounts))))) (: :) (NP (NP (CD _) (NNS Tornadoes)) (SBAR (S (VP (VP (MD can) (VP (VB occur) (PP (IN in) (NP (DT any) (NN month))))) (, ,) (CC but) (VP (VBP are) (ADJP (RBR more) (JJ frequent) (PP (IN from) (NP (NNP April)))) (PP (PP (IN through) (NP (NNP June))) (CC and) (PP (IN between) (NP (CD 3) (CC and) (CD 6)))) (NP-TMP (NN p.m.))))))))) (NP (NP (NNP _)) (SBAR (S (NP (JJS Most) (NNS tornadoes)) (VP (VBP track) (NP (NN southwest)) (PP (TO to) (NP (NN northeast)))))))) (, ,) (CC but) (S (NP (PRP$ their) (NNS paths)) (VP (MD can) (VP (NP (NN spiral)) (ADVP (RB erratically))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="occur in any month" type="VP">
+          <tokens>
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Insurance Information Institute" type="NP">
+          <tokens>
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="spiral" type="NP">
+          <tokens>
+            <token id="53" string="spiral" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="northeast" type="NP">
+          <tokens>
+            <token id="47" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="their paths" type="NP">
+          <tokens>
+            <token id="50" string="their" />
+            <token id="51" string="paths" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="April" type="NP">
+          <tokens>
+            <token id="32" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="some tornado facts" type="NP">
+          <tokens>
+            <token id="3" string="some" />
+            <token id="4" string="tornado" />
+            <token id="5" string="facts" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="can occur in any month , but are more frequent from April through June and between 3 and 6 p.m." type="SBAR">
+          <tokens>
+            <token id="21" string="can" />
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+            <token id="26" string="," />
+            <token id="27" string="but" />
+            <token id="28" string="are" />
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+            <token id="33" string="through" />
+            <token id="34" string="June" />
+            <token id="35" string="and" />
+            <token id="36" string="between" />
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="more frequent from April" type="ADJP">
+          <tokens>
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="spiral erratically" type="VP">
+          <tokens>
+            <token id="53" string="spiral" />
+            <token id="54" string="erratically" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="some tornado facts from the National Weather Service , Insurance Information Institute and news accounts : _ Tornadoes can occur in any month , but are more frequent from April through June and between 3 and 6 p.m." type="NP">
+          <tokens>
+            <token id="3" string="some" />
+            <token id="4" string="tornado" />
+            <token id="5" string="facts" />
+            <token id="6" string="from" />
+            <token id="7" string="the" />
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+            <token id="11" string="," />
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+            <token id="15" string="and" />
+            <token id="16" string="news" />
+            <token id="17" string="accounts" />
+            <token id="18" string=":" />
+            <token id="19" string="_" />
+            <token id="20" string="Tornadoes" />
+            <token id="21" string="can" />
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+            <token id="26" string="," />
+            <token id="27" string="but" />
+            <token id="28" string="are" />
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+            <token id="33" string="through" />
+            <token id="34" string="June" />
+            <token id="35" string="and" />
+            <token id="36" string="between" />
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="3 and 6" type="NP">
+          <tokens>
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="can occur in any month" type="VP">
+          <tokens>
+            <token id="21" string="can" />
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the National Weather Service" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="June" type="NP">
+          <tokens>
+            <token id="34" string="June" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Most tornadoes track southwest to northeast" type="SBAR">
+          <tokens>
+            <token id="42" string="Most" />
+            <token id="43" string="tornadoes" />
+            <token id="44" string="track" />
+            <token id="45" string="southwest" />
+            <token id="46" string="to" />
+            <token id="47" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="_ Tornadoes" type="NP">
+          <tokens>
+            <token id="19" string="_" />
+            <token id="20" string="Tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="southwest" type="NP">
+          <tokens>
+            <token id="45" string="southwest" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="are some tornado facts from the National Weather Service , Insurance Information Institute and news accounts : _ Tornadoes can occur in any month , but are more frequent from April through June and between 3 and 6 p.m." type="VP">
+          <tokens>
+            <token id="2" string="are" />
+            <token id="3" string="some" />
+            <token id="4" string="tornado" />
+            <token id="5" string="facts" />
+            <token id="6" string="from" />
+            <token id="7" string="the" />
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+            <token id="11" string="," />
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+            <token id="15" string="and" />
+            <token id="16" string="news" />
+            <token id="17" string="accounts" />
+            <token id="18" string=":" />
+            <token id="19" string="_" />
+            <token id="20" string="Tornadoes" />
+            <token id="21" string="can" />
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+            <token id="26" string="," />
+            <token id="27" string="but" />
+            <token id="28" string="are" />
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+            <token id="33" string="through" />
+            <token id="34" string="June" />
+            <token id="35" string="and" />
+            <token id="36" string="between" />
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the National Weather Service , Insurance Information Institute and news accounts" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+            <token id="11" string="," />
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+            <token id="15" string="and" />
+            <token id="16" string="news" />
+            <token id="17" string="accounts" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="news accounts" type="NP">
+          <tokens>
+            <token id="16" string="news" />
+            <token id="17" string="accounts" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="Most tornadoes" type="NP">
+          <tokens>
+            <token id="42" string="Most" />
+            <token id="43" string="tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="some tornado facts from the National Weather Service , Insurance Information Institute and news accounts" type="NP">
+          <tokens>
+            <token id="3" string="some" />
+            <token id="4" string="tornado" />
+            <token id="5" string="facts" />
+            <token id="6" string="from" />
+            <token id="7" string="the" />
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+            <token id="11" string="," />
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+            <token id="15" string="and" />
+            <token id="16" string="news" />
+            <token id="17" string="accounts" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="_ Most tornadoes track southwest to northeast" type="NP">
+          <tokens>
+            <token id="41" string="_" />
+            <token id="42" string="Most" />
+            <token id="43" string="tornadoes" />
+            <token id="44" string="track" />
+            <token id="45" string="southwest" />
+            <token id="46" string="to" />
+            <token id="47" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="track southwest to northeast" type="VP">
+          <tokens>
+            <token id="44" string="track" />
+            <token id="45" string="southwest" />
+            <token id="46" string="to" />
+            <token id="47" string="northeast" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="can spiral erratically" type="VP">
+          <tokens>
+            <token id="52" string="can" />
+            <token id="53" string="spiral" />
+            <token id="54" string="erratically" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="are more frequent from April through June and between 3 and 6 p.m." type="VP">
+          <tokens>
+            <token id="28" string="are" />
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+            <token id="33" string="through" />
+            <token id="34" string="June" />
+            <token id="35" string="and" />
+            <token id="36" string="between" />
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="any month" type="NP">
+          <tokens>
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+          </tokens>
+        </chunking>
+        <chunking id="29" string="_ Tornadoes can occur in any month , but are more frequent from April through June and between 3 and 6 p.m." type="NP">
+          <tokens>
+            <token id="19" string="_" />
+            <token id="20" string="Tornadoes" />
+            <token id="21" string="can" />
+            <token id="22" string="occur" />
+            <token id="23" string="in" />
+            <token id="24" string="any" />
+            <token id="25" string="month" />
+            <token id="26" string="," />
+            <token id="27" string="but" />
+            <token id="28" string="are" />
+            <token id="29" string="more" />
+            <token id="30" string="frequent" />
+            <token id="31" string="from" />
+            <token id="32" string="April" />
+            <token id="33" string="through" />
+            <token id="34" string="June" />
+            <token id="35" string="and" />
+            <token id="36" string="between" />
+            <token id="37" string="3" />
+            <token id="38" string="and" />
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </chunking>
+        <chunking id="30" string="_" type="NP">
+          <tokens>
+            <token id="41" string="_" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="5">facts</governor>
+          <dependent id="1">Here</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">facts</governor>
+          <dependent id="2">are</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">facts</governor>
+          <dependent id="3">some</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">facts</governor>
+          <dependent id="4">tornado</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">facts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Service</governor>
+          <dependent id="6">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Service</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Service</governor>
+          <dependent id="8">National</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Service</governor>
+          <dependent id="9">Weather</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">facts</governor>
+          <dependent id="10">Service</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Institute</governor>
+          <dependent id="12">Insurance</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Institute</governor>
+          <dependent id="13">Information</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">Service</governor>
+          <dependent id="14">Institute</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">Service</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">accounts</governor>
+          <dependent id="16">news</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">Service</governor>
+          <dependent id="17">accounts</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">Tornadoes</governor>
+          <dependent id="19">_</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="5">facts</governor>
+          <dependent id="20">Tornadoes</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">occur</governor>
+          <dependent id="21">can</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="20">Tornadoes</governor>
+          <dependent id="22">occur</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">month</governor>
+          <dependent id="23">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">month</governor>
+          <dependent id="24">any</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">occur</governor>
+          <dependent id="25">month</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="22">occur</governor>
+          <dependent id="27">but</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="30">frequent</governor>
+          <dependent id="28">are</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="30">frequent</governor>
+          <dependent id="29">more</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="22">occur</governor>
+          <dependent id="30">frequent</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="30">frequent</governor>
+          <dependent id="30">frequent</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">April</governor>
+          <dependent id="31">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">frequent</governor>
+          <dependent id="32">April</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">June</governor>
+          <dependent id="33">through</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">frequent</governor>
+          <dependent id="34">June</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="30">frequent</governor>
+          <dependent id="35">and</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="37">3</governor>
+          <dependent id="36">between</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">frequent</governor>
+          <dependent id="37">3</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="37">3</governor>
+          <dependent id="38">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="37">3</governor>
+          <dependent id="39">6</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="30">frequent</governor>
+          <dependent id="40">p.m.</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="5">facts</governor>
+          <dependent id="41">_</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="43">tornadoes</governor>
+          <dependent id="42">Most</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="44">track</governor>
+          <dependent id="43">tornadoes</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="41">_</governor>
+          <dependent id="44">track</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="44">track</governor>
+          <dependent id="45">southwest</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="47">northeast</governor>
+          <dependent id="46">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="44">track</governor>
+          <dependent id="47">northeast</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">facts</governor>
+          <dependent id="49">but</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="51">paths</governor>
+          <dependent id="50">their</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="53">spiral</governor>
+          <dependent id="51">paths</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="53">spiral</governor>
+          <dependent id="52">can</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">facts</governor>
+          <dependent id="53">spiral</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="53">spiral</governor>
+          <dependent id="54">erratically</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="tornado" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="4" string="tornado" />
+          </tokens>
+        </entity>
+        <entity id="2" string="June" type="DATE" score="0.0">
+          <tokens>
+            <token id="34" string="June" />
+          </tokens>
+        </entity>
+        <entity id="3" string="3" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="37" string="3" />
+          </tokens>
+        </entity>
+        <entity id="4" string="6 p.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="39" string="6" />
+            <token id="40" string="p.m." />
+          </tokens>
+        </entity>
+        <entity id="5" string="National Weather Service , Insurance Information Institute" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="8" string="National" />
+            <token id="9" string="Weather" />
+            <token id="10" string="Service" />
+            <token id="11" string="," />
+            <token id="12" string="Insurance" />
+            <token id="13" string="Information" />
+            <token id="14" string="Institute" />
+          </tokens>
+        </entity>
+        <entity id="6" string="month" type="DURATION" score="0.0">
+          <tokens>
+            <token id="25" string="month" />
+          </tokens>
+        </entity>
+        <entity id="7" string="April" type="DATE" score="0.0">
+          <tokens>
+            <token id="32" string="April" />
+          </tokens>
+        </entity>
+        <entity id="8" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>_The portion of a thunderstorm adjacent to large hail is where tornadoes are most likely to occur.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="IN" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="portion" lemma="portion" stem="portion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="thunderstorm" lemma="thunderstorm" stem="thunderstorm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="adjacent" lemma="adjacent" stem="adjac" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="large" lemma="large" stem="larg" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="hail" lemma="hail" stem="hail" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="tornadoes" lemma="tornado" stem="tornado" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="14" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="likely" lemma="likely" stem="like" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="occur" lemma="occur" stem="occur" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN _) (NP (NP (DT The) (NN portion)) (PP (IN of) (NP (DT a) (NN thunderstorm))))) (NP (ADJP (JJ adjacent) (TO to) (JJ large)) (NN hail)) (VP (VBZ is) (SBAR (WHADVP (WRB where)) (S (NP (NNS tornadoes)) (VP (VBP are) (ADJP (RBS most) (JJ likely) (S (VP (TO to) (VP (VB occur))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="occur" type="VP">
+          <tokens>
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="tornadoes" type="NP">
+          <tokens>
+            <token id="13" string="tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="where tornadoes are most likely to occur" type="SBAR">
+          <tokens>
+            <token id="12" string="where" />
+            <token id="13" string="tornadoes" />
+            <token id="14" string="are" />
+            <token id="15" string="most" />
+            <token id="16" string="likely" />
+            <token id="17" string="to" />
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to occur" type="VP">
+          <tokens>
+            <token id="17" string="to" />
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="are most likely to occur" type="VP">
+          <tokens>
+            <token id="14" string="are" />
+            <token id="15" string="most" />
+            <token id="16" string="likely" />
+            <token id="17" string="to" />
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a thunderstorm" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="thunderstorm" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="most likely to occur" type="ADJP">
+          <tokens>
+            <token id="15" string="most" />
+            <token id="16" string="likely" />
+            <token id="17" string="to" />
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="is where tornadoes are most likely to occur" type="VP">
+          <tokens>
+            <token id="11" string="is" />
+            <token id="12" string="where" />
+            <token id="13" string="tornadoes" />
+            <token id="14" string="are" />
+            <token id="15" string="most" />
+            <token id="16" string="likely" />
+            <token id="17" string="to" />
+            <token id="18" string="occur" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="The portion" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="portion" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="where" type="WHADVP">
+          <tokens>
+            <token id="12" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="adjacent to large hail" type="NP">
+          <tokens>
+            <token id="7" string="adjacent" />
+            <token id="8" string="to" />
+            <token id="9" string="large" />
+            <token id="10" string="hail" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="adjacent to large" type="ADJP">
+          <tokens>
+            <token id="7" string="adjacent" />
+            <token id="8" string="to" />
+            <token id="9" string="large" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="The portion of a thunderstorm" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="portion" />
+            <token id="4" string="of" />
+            <token id="5" string="a" />
+            <token id="6" string="thunderstorm" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">portion</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">portion</governor>
+          <dependent id="2">The</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">is</governor>
+          <dependent id="3">portion</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">thunderstorm</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">thunderstorm</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">portion</governor>
+          <dependent id="6">thunderstorm</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">large</governor>
+          <dependent id="7">adjacent</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="9">large</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">hail</governor>
+          <dependent id="9">large</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">is</governor>
+          <dependent id="10">hail</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">is</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">likely</governor>
+          <dependent id="12">where</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">likely</governor>
+          <dependent id="13">tornadoes</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="16">likely</governor>
+          <dependent id="14">are</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">likely</governor>
+          <dependent id="15">most</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="11">is</governor>
+          <dependent id="16">likely</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">occur</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="16">likely</governor>
+          <dependent id="18">occur</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>_There were 32 tornado-related deaths reported in 1988, down from 59 in 1987 and well below the average of 99 a year.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="NN" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="32" lemma="32" stem="32" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="5" string="tornado-related" lemma="tornado-related" stem="tornado-rel" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="deaths" lemma="death" stem="death" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="reported" lemma="report" stem="report" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="1988" lemma="1988" stem="1988" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="down" lemma="down" stem="down" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="59" lemma="59" stem="59" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="14" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="1987" lemma="1987" stem="1987" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="below" lemma="below" stem="below" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="average" lemma="average" stem="averag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="99" lemma="99" stem="99" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="year" lemma="year" stem="year" pos="NN" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NN _)) (SBAR (S (NP (EX There)) (VP (VBD were) (NP (CD 32) (JJ tornado-related) (NNS deaths)))))) (VP (VBN reported) (PP (PP (IN in) (NP (CD 1988))) (, ,) (RB down) (PP (IN from) (NP (NP (CD 59)) (PP (IN in) (NP (CD 1987))))) (CC and) (RB well) (PP (IN below) (NP (NP (DT the) (NN average)) (PP (IN of) (NP (CD 99)))))) (NP-TMP (DT a) (NN year))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="_ There were 32 tornado-related deaths" type="NP">
+          <tokens>
+            <token id="1" string="_" />
+            <token id="2" string="There" />
+            <token id="3" string="were" />
+            <token id="4" string="32" />
+            <token id="5" string="tornado-related" />
+            <token id="6" string="deaths" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="59" type="NP">
+          <tokens>
+            <token id="13" string="59" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the average of 99" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="average" />
+            <token id="21" string="of" />
+            <token id="22" string="99" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="There were 32 tornado-related deaths" type="SBAR">
+          <tokens>
+            <token id="2" string="There" />
+            <token id="3" string="were" />
+            <token id="4" string="32" />
+            <token id="5" string="tornado-related" />
+            <token id="6" string="deaths" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="were 32 tornado-related deaths" type="VP">
+          <tokens>
+            <token id="3" string="were" />
+            <token id="4" string="32" />
+            <token id="5" string="tornado-related" />
+            <token id="6" string="deaths" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="1988" type="NP">
+          <tokens>
+            <token id="9" string="1988" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="59 in 1987" type="NP">
+          <tokens>
+            <token id="13" string="59" />
+            <token id="14" string="in" />
+            <token id="15" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1987" type="NP">
+          <tokens>
+            <token id="15" string="1987" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="There" type="NP">
+          <tokens>
+            <token id="2" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the average" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="average" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="32 tornado-related deaths" type="NP">
+          <tokens>
+            <token id="4" string="32" />
+            <token id="5" string="tornado-related" />
+            <token id="6" string="deaths" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="reported in 1988 , down from 59 in 1987 and well below the average of 99 a year" type="VP">
+          <tokens>
+            <token id="7" string="reported" />
+            <token id="8" string="in" />
+            <token id="9" string="1988" />
+            <token id="10" string="," />
+            <token id="11" string="down" />
+            <token id="12" string="from" />
+            <token id="13" string="59" />
+            <token id="14" string="in" />
+            <token id="15" string="1987" />
+            <token id="16" string="and" />
+            <token id="17" string="well" />
+            <token id="18" string="below" />
+            <token id="19" string="the" />
+            <token id="20" string="average" />
+            <token id="21" string="of" />
+            <token id="22" string="99" />
+            <token id="23" string="a" />
+            <token id="24" string="year" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="_" type="NP">
+          <tokens>
+            <token id="1" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="99" type="NP">
+          <tokens>
+            <token id="22" string="99" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="7">reported</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="3">were</governor>
+          <dependent id="2">There</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="1">_</governor>
+          <dependent id="3">were</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="6">deaths</governor>
+          <dependent id="4">32</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">deaths</governor>
+          <dependent id="5">tornado-related</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">were</governor>
+          <dependent id="6">deaths</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">reported</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">1988</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">reported</governor>
+          <dependent id="9">1988</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">1988</governor>
+          <dependent id="11">down</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">59</governor>
+          <dependent id="12">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">1988</governor>
+          <dependent id="13">59</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">1987</governor>
+          <dependent id="14">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">59</governor>
+          <dependent id="15">1987</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">1988</governor>
+          <dependent id="16">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">1988</governor>
+          <dependent id="17">well</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">average</governor>
+          <dependent id="18">below</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">average</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">1988</governor>
+          <dependent id="20">average</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">99</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">average</governor>
+          <dependent id="22">99</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">year</governor>
+          <dependent id="23">a</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="7">reported</governor>
+          <dependent id="24">year</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1988" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="1988" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1987" type="DATE" score="0.0">
+          <tokens>
+            <token id="15" string="1987" />
+          </tokens>
+        </entity>
+        <entity id="3" string="59" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="59" />
+          </tokens>
+        </entity>
+        <entity id="4" string="a year" type="DURATION" score="0.0">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="year" />
+          </tokens>
+        </entity>
+        <entity id="5" string="32" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="32" />
+          </tokens>
+        </entity>
+        <entity id="6" string="99" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="99" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>_Less than 2 percent of all tornadoes are classified as violent, with wind speeds of more than 200 mph and a path averaging 26 miles.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="NN" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="Less" lemma="less" stem="less" pos="RBR" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="2" lemma="2" stem="2" pos="CD" type="Number" isStopWord="false" ner="PERCENT" is_referenced="false" is_refers="false" />
+        <token id="5" string="percent" lemma="percent" stem="percent" pos="NN" type="Word" isStopWord="false" ner="PERCENT" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="tornadoes" lemma="tornado" stem="tornado" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="classified" lemma="classify" stem="classifi" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="violent" lemma="violent" stem="violent" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="wind" lemma="wind" stem="wind" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="speeds" lemma="speed" stem="speed" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="200" lemma="200" stem="200" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="path" lemma="path" stem="path" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="averaging" lemma="average" stem="averag" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="26" lemma="26" stem="26" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="27" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NN _) (RBR Less)) (PP (IN than) (NP (NP (CD 2) (NN percent)) (PP (IN of) (NP (DT all) (NNS tornadoes))))) (VP (VBP are) (VP (VBN classified) (PP (IN as) (ADJP (JJ violent))) (, ,) (PP (IN with) (NP (NP (NP (NN wind) (NNS speeds)) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 200)) (NN mph)))) (CC and) (NP (NP (DT a) (NN path)) (VP (VBG averaging) (NP (CD 26) (NNS miles)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="violent" type="ADJP">
+          <tokens>
+            <token id="12" string="violent" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="2 percent of all tornadoes" type="NP">
+          <tokens>
+            <token id="4" string="2" />
+            <token id="5" string="percent" />
+            <token id="6" string="of" />
+            <token id="7" string="all" />
+            <token id="8" string="tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a path averaging 26 miles" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="path" />
+            <token id="25" string="averaging" />
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="all tornadoes" type="NP">
+          <tokens>
+            <token id="7" string="all" />
+            <token id="8" string="tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="more than 200 mph" type="NP">
+          <tokens>
+            <token id="18" string="more" />
+            <token id="19" string="than" />
+            <token id="20" string="200" />
+            <token id="21" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="wind speeds of more than 200 mph and a path averaging 26 miles" type="NP">
+          <tokens>
+            <token id="15" string="wind" />
+            <token id="16" string="speeds" />
+            <token id="17" string="of" />
+            <token id="18" string="more" />
+            <token id="19" string="than" />
+            <token id="20" string="200" />
+            <token id="21" string="mph" />
+            <token id="22" string="and" />
+            <token id="23" string="a" />
+            <token id="24" string="path" />
+            <token id="25" string="averaging" />
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="wind speeds of more than 200 mph" type="NP">
+          <tokens>
+            <token id="15" string="wind" />
+            <token id="16" string="speeds" />
+            <token id="17" string="of" />
+            <token id="18" string="more" />
+            <token id="19" string="than" />
+            <token id="20" string="200" />
+            <token id="21" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="wind speeds" type="NP">
+          <tokens>
+            <token id="15" string="wind" />
+            <token id="16" string="speeds" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="are classified as violent , with wind speeds of more than 200 mph and a path averaging 26 miles" type="VP">
+          <tokens>
+            <token id="9" string="are" />
+            <token id="10" string="classified" />
+            <token id="11" string="as" />
+            <token id="12" string="violent" />
+            <token id="13" string="," />
+            <token id="14" string="with" />
+            <token id="15" string="wind" />
+            <token id="16" string="speeds" />
+            <token id="17" string="of" />
+            <token id="18" string="more" />
+            <token id="19" string="than" />
+            <token id="20" string="200" />
+            <token id="21" string="mph" />
+            <token id="22" string="and" />
+            <token id="23" string="a" />
+            <token id="24" string="path" />
+            <token id="25" string="averaging" />
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="averaging 26 miles" type="VP">
+          <tokens>
+            <token id="25" string="averaging" />
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="26 miles" type="NP">
+          <tokens>
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="_ Less" type="NP">
+          <tokens>
+            <token id="1" string="_" />
+            <token id="2" string="Less" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="2 percent" type="NP">
+          <tokens>
+            <token id="4" string="2" />
+            <token id="5" string="percent" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="classified as violent , with wind speeds of more than 200 mph and a path averaging 26 miles" type="VP">
+          <tokens>
+            <token id="10" string="classified" />
+            <token id="11" string="as" />
+            <token id="12" string="violent" />
+            <token id="13" string="," />
+            <token id="14" string="with" />
+            <token id="15" string="wind" />
+            <token id="16" string="speeds" />
+            <token id="17" string="of" />
+            <token id="18" string="more" />
+            <token id="19" string="than" />
+            <token id="20" string="200" />
+            <token id="21" string="mph" />
+            <token id="22" string="and" />
+            <token id="23" string="a" />
+            <token id="24" string="path" />
+            <token id="25" string="averaging" />
+            <token id="26" string="26" />
+            <token id="27" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a path" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="path" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="10">classified</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="1">_</governor>
+          <dependent id="2">Less</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">percent</governor>
+          <dependent id="3">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">percent</governor>
+          <dependent id="4">2</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">classified</governor>
+          <dependent id="5">percent</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">tornadoes</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">tornadoes</governor>
+          <dependent id="7">all</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">percent</governor>
+          <dependent id="8">tornadoes</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="10">classified</governor>
+          <dependent id="9">are</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">classified</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">violent</governor>
+          <dependent id="11">as</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="10">classified</governor>
+          <dependent id="12">violent</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">speeds</governor>
+          <dependent id="14">with</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">speeds</governor>
+          <dependent id="15">wind</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">classified</governor>
+          <dependent id="16">speeds</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">mph</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="20">200</governor>
+          <dependent id="18">more</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="18">more</governor>
+          <dependent id="19">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">mph</governor>
+          <dependent id="20">200</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">speeds</governor>
+          <dependent id="21">mph</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">speeds</governor>
+          <dependent id="22">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">path</governor>
+          <dependent id="23">a</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">speeds</governor>
+          <dependent id="24">path</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="24">path</governor>
+          <dependent id="25">averaging</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="27">miles</governor>
+          <dependent id="26">26</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="25">averaging</governor>
+          <dependent id="27">miles</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="200" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="200" />
+          </tokens>
+        </entity>
+        <entity id="2" string="26" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="26" />
+          </tokens>
+        </entity>
+        <entity id="3" string="2 percent" type="PERCENT" score="0.0">
+          <tokens>
+            <token id="4" string="2" />
+            <token id="5" string="percent" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>The longest tornado on record went 219 miles across Missouri, Illinois and Indiana in March 1925.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="longest" lemma="longest" stem="longest" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="tornado" lemma="tornado" stem="tornado" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="4" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="went" lemma="go" stem="went" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="219" lemma="219" stem="219" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="miles" lemma="mile" stem="mile" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="across" lemma="across" stem="across" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="Missouri" lemma="Missouri" stem="missouri" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Illinois" lemma="Illinois" stem="illinoi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Indiana" lemma="Indiana" stem="indiana" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="March" lemma="March" stem="march" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="1925" lemma="1925" stem="1925" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (JJS longest) (NN tornado)) (PP (IN on) (NP (NN record)))) (VP (VBD went) (NP (CD 219) (NNS miles)) (PP (IN across) (NP (NNP Missouri) (, ,) (NNP Illinois) (CC and) (NNP Indiana))) (PP (IN in) (NP (NNP March) (CD 1925)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="219 miles" type="NP">
+          <tokens>
+            <token id="7" string="219" />
+            <token id="8" string="miles" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="March 1925" type="NP">
+          <tokens>
+            <token id="16" string="March" />
+            <token id="17" string="1925" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="record" type="NP">
+          <tokens>
+            <token id="5" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The longest tornado on record" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="longest" />
+            <token id="3" string="tornado" />
+            <token id="4" string="on" />
+            <token id="5" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="went 219 miles across Missouri , Illinois and Indiana in March 1925" type="VP">
+          <tokens>
+            <token id="6" string="went" />
+            <token id="7" string="219" />
+            <token id="8" string="miles" />
+            <token id="9" string="across" />
+            <token id="10" string="Missouri" />
+            <token id="11" string="," />
+            <token id="12" string="Illinois" />
+            <token id="13" string="and" />
+            <token id="14" string="Indiana" />
+            <token id="15" string="in" />
+            <token id="16" string="March" />
+            <token id="17" string="1925" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The longest tornado" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="longest" />
+            <token id="3" string="tornado" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Missouri , Illinois and Indiana" type="NP">
+          <tokens>
+            <token id="10" string="Missouri" />
+            <token id="11" string="," />
+            <token id="12" string="Illinois" />
+            <token id="13" string="and" />
+            <token id="14" string="Indiana" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">tornado</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">tornado</governor>
+          <dependent id="2">longest</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">went</governor>
+          <dependent id="3">tornado</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">record</governor>
+          <dependent id="4">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">tornado</governor>
+          <dependent id="5">record</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">went</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">miles</governor>
+          <dependent id="7">219</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">went</governor>
+          <dependent id="8">miles</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Missouri</governor>
+          <dependent id="9">across</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">went</governor>
+          <dependent id="10">Missouri</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">Missouri</governor>
+          <dependent id="12">Illinois</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">Missouri</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">Missouri</governor>
+          <dependent id="14">Indiana</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">March</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">went</governor>
+          <dependent id="16">March</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">March</governor>
+          <dependent id="17">1925</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="March 1925" type="DATE" score="0.0">
+          <tokens>
+            <token id="16" string="March" />
+            <token id="17" string="1925" />
+          </tokens>
+        </entity>
+        <entity id="2" string="tornado" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="3" string="tornado" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Missouri" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Missouri" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Illinois" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Illinois" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Indiana" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="14" string="Indiana" />
+          </tokens>
+        </entity>
+        <entity id="6" string="219" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="219" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>_Tornadoes travel at an average 30 mph, but can stand still or go 70 mph.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="NNP" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="Tornadoes" lemma="Tornadoes" stem="tornado" pos="NNPS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="travel" lemma="travel" stem="travel" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="average" lemma="average" stem="averag" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="30" lemma="30" stem="30" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="can" lemma="can" stem="can" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="stand" lemma="stand" stem="stand" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="still" lemma="still" stem="still" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="go" lemma="go" stem="go" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="70" lemma="70" stem="70" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="mph" lemma="mph" stem="mph" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP _) (NNPS Tornadoes)) (VP (VP (VP (VB travel) (PP (IN at) (NP (DT an) (JJ average) (CD 30) (NN mph)))) (, ,) (CC but) (VP (MD can) (VP (VB stand) (ADVP (RB still))))) (CC or) (VP (VB go) (NP (CD 70) (NN mph)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="can stand still" type="VP">
+          <tokens>
+            <token id="11" string="can" />
+            <token id="12" string="stand" />
+            <token id="13" string="still" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="70 mph" type="NP">
+          <tokens>
+            <token id="16" string="70" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="go 70 mph" type="VP">
+          <tokens>
+            <token id="15" string="go" />
+            <token id="16" string="70" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="_ Tornadoes" type="NP">
+          <tokens>
+            <token id="1" string="_" />
+            <token id="2" string="Tornadoes" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="stand still" type="VP">
+          <tokens>
+            <token id="12" string="stand" />
+            <token id="13" string="still" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="travel at an average 30 mph , but can stand still" type="VP">
+          <tokens>
+            <token id="3" string="travel" />
+            <token id="4" string="at" />
+            <token id="5" string="an" />
+            <token id="6" string="average" />
+            <token id="7" string="30" />
+            <token id="8" string="mph" />
+            <token id="9" string="," />
+            <token id="10" string="but" />
+            <token id="11" string="can" />
+            <token id="12" string="stand" />
+            <token id="13" string="still" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="an average 30 mph" type="NP">
+          <tokens>
+            <token id="5" string="an" />
+            <token id="6" string="average" />
+            <token id="7" string="30" />
+            <token id="8" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="travel at an average 30 mph , but can stand still or go 70 mph" type="VP">
+          <tokens>
+            <token id="3" string="travel" />
+            <token id="4" string="at" />
+            <token id="5" string="an" />
+            <token id="6" string="average" />
+            <token id="7" string="30" />
+            <token id="8" string="mph" />
+            <token id="9" string="," />
+            <token id="10" string="but" />
+            <token id="11" string="can" />
+            <token id="12" string="stand" />
+            <token id="13" string="still" />
+            <token id="14" string="or" />
+            <token id="15" string="go" />
+            <token id="16" string="70" />
+            <token id="17" string="mph" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="travel at an average 30 mph" type="VP">
+          <tokens>
+            <token id="3" string="travel" />
+            <token id="4" string="at" />
+            <token id="5" string="an" />
+            <token id="6" string="average" />
+            <token id="7" string="30" />
+            <token id="8" string="mph" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Tornadoes</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">travel</governor>
+          <dependent id="2">Tornadoes</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">travel</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">mph</governor>
+          <dependent id="4">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">mph</governor>
+          <dependent id="5">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">mph</governor>
+          <dependent id="6">average</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">mph</governor>
+          <dependent id="7">30</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">travel</governor>
+          <dependent id="8">mph</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">travel</governor>
+          <dependent id="10">but</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="12">stand</governor>
+          <dependent id="11">can</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">travel</governor>
+          <dependent id="12">stand</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">stand</governor>
+          <dependent id="13">still</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">travel</governor>
+          <dependent id="14">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">travel</governor>
+          <dependent id="15">go</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">mph</governor>
+          <dependent id="16">70</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">go</governor>
+          <dependent id="17">mph</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="70" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="70" />
+          </tokens>
+        </entity>
+        <entity id="2" string="30" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="30" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="false">
+      <content>_The largest single outbreak of twisters on record was in April 1974, when 148 storms killed 300 people in 13 states over two days.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="IN" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="largest" lemma="largest" stem="largest" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="single" lemma="single" stem="singl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="outbreak" lemma="outbreak" stem="outbreak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="twisters" lemma="twister" stem="twister" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="April" lemma="April" stem="april" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="13" string="1974" lemma="1974" stem="1974" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="148" lemma="148" stem="148" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="storms" lemma="storm" stem="storm" pos="NNS" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="18" string="killed" lemma="kill" stem="kill" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="300" lemma="300" stem="300" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="20" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="13" lemma="13" stem="13" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="23" string="states" lemma="state" stem="state" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="days" lemma="day" stem="dai" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (PP (IN _) (NP (NP (DT The) (JJS largest) (JJ single) (NN outbreak)) (PP (IN of) (NP (NP (NNS twisters)) (PP (IN on) (NP (NN record))))))) (VP (VBD was) (PP (IN in) (NP (NNP April)))) (NP (NP (CD 1974)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (CD 148) (NNS storms)) (VP (VBD killed) (NP (CD 300) (NNS people)) (PP (IN in) (NP (CD 13) (NNS states))) (PP (IN over) (NP (CD two) (NNS days))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1974 , when 148 storms killed 300 people in 13 states over two days" type="NP">
+          <tokens>
+            <token id="13" string="1974" />
+            <token id="14" string="," />
+            <token id="15" string="when" />
+            <token id="16" string="148" />
+            <token id="17" string="storms" />
+            <token id="18" string="killed" />
+            <token id="19" string="300" />
+            <token id="20" string="people" />
+            <token id="21" string="in" />
+            <token id="22" string="13" />
+            <token id="23" string="states" />
+            <token id="24" string="over" />
+            <token id="25" string="two" />
+            <token id="26" string="days" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="300 people" type="NP">
+          <tokens>
+            <token id="19" string="300" />
+            <token id="20" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="two days" type="NP">
+          <tokens>
+            <token id="25" string="two" />
+            <token id="26" string="days" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="148 storms" type="NP">
+          <tokens>
+            <token id="16" string="148" />
+            <token id="17" string="storms" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The largest single outbreak of twisters on record" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="largest" />
+            <token id="4" string="single" />
+            <token id="5" string="outbreak" />
+            <token id="6" string="of" />
+            <token id="7" string="twisters" />
+            <token id="8" string="on" />
+            <token id="9" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="killed 300 people in 13 states over two days" type="VP">
+          <tokens>
+            <token id="18" string="killed" />
+            <token id="19" string="300" />
+            <token id="20" string="people" />
+            <token id="21" string="in" />
+            <token id="22" string="13" />
+            <token id="23" string="states" />
+            <token id="24" string="over" />
+            <token id="25" string="two" />
+            <token id="26" string="days" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="April" type="NP">
+          <tokens>
+            <token id="12" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="15" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="The largest single outbreak" type="NP">
+          <tokens>
+            <token id="2" string="The" />
+            <token id="3" string="largest" />
+            <token id="4" string="single" />
+            <token id="5" string="outbreak" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="was in April" type="VP">
+          <tokens>
+            <token id="10" string="was" />
+            <token id="11" string="in" />
+            <token id="12" string="April" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="1974" type="NP">
+          <tokens>
+            <token id="13" string="1974" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="13 states" type="NP">
+          <tokens>
+            <token id="22" string="13" />
+            <token id="23" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="record" type="NP">
+          <tokens>
+            <token id="9" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="twisters on record" type="NP">
+          <tokens>
+            <token id="7" string="twisters" />
+            <token id="8" string="on" />
+            <token id="9" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="twisters" type="NP">
+          <tokens>
+            <token id="7" string="twisters" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="when 148 storms killed 300 people in 13 states over two days" type="SBAR">
+          <tokens>
+            <token id="15" string="when" />
+            <token id="16" string="148" />
+            <token id="17" string="storms" />
+            <token id="18" string="killed" />
+            <token id="19" string="300" />
+            <token id="20" string="people" />
+            <token id="21" string="in" />
+            <token id="22" string="13" />
+            <token id="23" string="states" />
+            <token id="24" string="over" />
+            <token id="25" string="two" />
+            <token id="26" string="days" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="5">outbreak</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">outbreak</governor>
+          <dependent id="2">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">outbreak</governor>
+          <dependent id="3">largest</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">outbreak</governor>
+          <dependent id="4">single</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">April</governor>
+          <dependent id="5">outbreak</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">twisters</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">outbreak</governor>
+          <dependent id="7">twisters</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">record</governor>
+          <dependent id="8">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">twisters</governor>
+          <dependent id="9">record</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="12">April</governor>
+          <dependent id="10">was</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">April</governor>
+          <dependent id="11">in</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">April</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">April</governor>
+          <dependent id="13">1974</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">killed</governor>
+          <dependent id="15">when</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">storms</governor>
+          <dependent id="16">148</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">killed</governor>
+          <dependent id="17">storms</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">1974</governor>
+          <dependent id="18">killed</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="20">people</governor>
+          <dependent id="19">300</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">killed</governor>
+          <dependent id="20">people</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">states</governor>
+          <dependent id="21">in</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="23">states</governor>
+          <dependent id="22">13</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">killed</governor>
+          <dependent id="23">states</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">days</governor>
+          <dependent id="24">over</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="26">days</governor>
+          <dependent id="25">two</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">killed</governor>
+          <dependent id="26">days</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="13" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="22" string="13" />
+          </tokens>
+        </entity>
+        <entity id="2" string="300" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="19" string="300" />
+          </tokens>
+        </entity>
+        <entity id="3" string="two days" type="DURATION" score="0.0">
+          <tokens>
+            <token id="25" string="two" />
+            <token id="26" string="days" />
+          </tokens>
+        </entity>
+        <entity id="4" string="148" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="148" />
+          </tokens>
+        </entity>
+        <entity id="5" string="storms" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="17" string="storms" />
+          </tokens>
+        </entity>
+        <entity id="6" string="April 1974" type="DATE" score="0.0">
+          <tokens>
+            <token id="12" string="April" />
+            <token id="13" string="1974" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>_When a tornado threatens, seek shelter in the basement or central parts of the house, office or school building, away from windows.</content>
+      <tokens>
+        <token id="1" string="_" lemma="_" stem="_" pos="NN" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="When" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="tornado" lemma="tornado" stem="tornado" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="true" />
+        <token id="5" string="threatens" lemma="threaten" stem="threaten" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="seek" lemma="seek" stem="seek" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="shelter" lemma="shelter" stem="shelter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="basement" lemma="basement" stem="basement" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="central" lemma="central" stem="central" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="parts" lemma="part" stem="part" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="house" lemma="house" stem="hous" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="office" lemma="office" stem="offic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="school" lemma="school" stem="school" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="building" lemma="building" stem="build" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="away" lemma="away" stem="awai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="windows" lemma="window" stem="window" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP-TMP (NP (NN _)) (SBAR (WHADVP (WRB When)) (S (NP (DT a) (NN tornado)) (VP (VBZ threatens))))) (, ,) (VP (VB seek) (NP (NN shelter)) (PP (IN in) (NP (NP (DT the) (NN basement)) (CC or) (NP (NP (JJ central) (NNS parts)) (PP (IN of) (NP (NP (DT the) (NN house) (, ,) (NN office) (CC or) (NN school) (NN building)) (, ,) (ADVP (RB away) (PP (IN from) (NP (NNS windows)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="shelter" type="NP">
+          <tokens>
+            <token id="8" string="shelter" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the basement" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="basement" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the basement or central parts of the house , office or school building , away from windows" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="basement" />
+            <token id="12" string="or" />
+            <token id="13" string="central" />
+            <token id="14" string="parts" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="house" />
+            <token id="18" string="," />
+            <token id="19" string="office" />
+            <token id="20" string="or" />
+            <token id="21" string="school" />
+            <token id="22" string="building" />
+            <token id="23" string="," />
+            <token id="24" string="away" />
+            <token id="25" string="from" />
+            <token id="26" string="windows" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="threatens" type="VP">
+          <tokens>
+            <token id="5" string="threatens" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="When a tornado threatens" type="SBAR">
+          <tokens>
+            <token id="2" string="When" />
+            <token id="3" string="a" />
+            <token id="4" string="tornado" />
+            <token id="5" string="threatens" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="central parts of the house , office or school building , away from windows" type="NP">
+          <tokens>
+            <token id="13" string="central" />
+            <token id="14" string="parts" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="house" />
+            <token id="18" string="," />
+            <token id="19" string="office" />
+            <token id="20" string="or" />
+            <token id="21" string="school" />
+            <token id="22" string="building" />
+            <token id="23" string="," />
+            <token id="24" string="away" />
+            <token id="25" string="from" />
+            <token id="26" string="windows" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="windows" type="NP">
+          <tokens>
+            <token id="26" string="windows" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="When" type="WHADVP">
+          <tokens>
+            <token id="2" string="When" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the house , office or school building , away from windows" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="house" />
+            <token id="18" string="," />
+            <token id="19" string="office" />
+            <token id="20" string="or" />
+            <token id="21" string="school" />
+            <token id="22" string="building" />
+            <token id="23" string="," />
+            <token id="24" string="away" />
+            <token id="25" string="from" />
+            <token id="26" string="windows" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="seek shelter in the basement or central parts of the house , office or school building , away from windows" type="VP">
+          <tokens>
+            <token id="7" string="seek" />
+            <token id="8" string="shelter" />
+            <token id="9" string="in" />
+            <token id="10" string="the" />
+            <token id="11" string="basement" />
+            <token id="12" string="or" />
+            <token id="13" string="central" />
+            <token id="14" string="parts" />
+            <token id="15" string="of" />
+            <token id="16" string="the" />
+            <token id="17" string="house" />
+            <token id="18" string="," />
+            <token id="19" string="office" />
+            <token id="20" string="or" />
+            <token id="21" string="school" />
+            <token id="22" string="building" />
+            <token id="23" string="," />
+            <token id="24" string="away" />
+            <token id="25" string="from" />
+            <token id="26" string="windows" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="central parts" type="NP">
+          <tokens>
+            <token id="13" string="central" />
+            <token id="14" string="parts" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the house , office or school building" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="house" />
+            <token id="18" string="," />
+            <token id="19" string="office" />
+            <token id="20" string="or" />
+            <token id="21" string="school" />
+            <token id="22" string="building" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="_" type="NP">
+          <tokens>
+            <token id="1" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a tornado" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="tornado" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="dep">
+          <governor id="7">seek</governor>
+          <dependent id="1">_</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">threatens</governor>
+          <dependent id="2">When</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">tornado</governor>
+          <dependent id="3">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">threatens</governor>
+          <dependent id="4">tornado</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="1">_</governor>
+          <dependent id="5">threatens</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">seek</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">seek</governor>
+          <dependent id="8">shelter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">basement</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">basement</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">seek</governor>
+          <dependent id="11">basement</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">basement</governor>
+          <dependent id="12">or</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">parts</governor>
+          <dependent id="13">central</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">basement</governor>
+          <dependent id="14">parts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">building</governor>
+          <dependent id="15">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">building</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">building</governor>
+          <dependent id="17">house</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="17">house</governor>
+          <dependent id="19">office</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="17">house</governor>
+          <dependent id="20">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="17">house</governor>
+          <dependent id="21">school</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">parts</governor>
+          <dependent id="22">building</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">windows</governor>
+          <dependent id="24">away</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="24">away</governor>
+          <dependent id="25">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">building</governor>
+          <dependent id="26">windows</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="tornado" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="4" string="tornado" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="19" string="_" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1-5" string="_ When a tornado threatens" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="1-2" string="_ Tornadoes" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="19-40" string="_ Tornadoes can occur in any month , but are more frequent from April through June and between 3 and 6 p.m." id_sentence="1" />
+        <mention ids_tokens="13" string="tornadoes" id_sentence="2" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5-6" string="_ There were 32 tornado-related deaths" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="1-2" string="_ Less" id_sentence="4" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

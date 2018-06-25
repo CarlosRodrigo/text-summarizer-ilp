@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP900625-0153">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>The estimated 50,000 dead in the Iran earthquake make it the world&amp;apost;s fourth deadliest quake in the past half-century.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="estimated" lemma="estimate" stem="estim" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="50,000" lemma="50,000" stem="50,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="4" string="dead" lemma="dead" stem="dead" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="8" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="9" string="make" lemma="make" stem="make" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="world" lemma="world" stem="world" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="fourth" lemma="fourth" stem="fourth" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="15" string="deadliest" lemma="deadliest" stem="deadliest" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="19" string="past" lemma="past" stem="past" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="20" string="half-century" lemma="half-century" stem="half-centuri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (VBN estimated) (CD 50,000)) (ADJP (JJ dead) (PP (IN in) (NP (DT the) (NNP Iran) (NN earthquake))))) (VP (VB make) (S (NP (PRP it)) (NP (NP (NP (DT the) (NN world) (POS 's)) (JJ fourth) (JJS deadliest) (NN quake)) (PP (IN in) (NP (DT the) (JJ past) (NN half-century)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="dead in the Iran earthquake" type="ADJP">
+          <tokens>
+            <token id="4" string="dead" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="Iran" />
+            <token id="8" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the past half-century" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="half-century" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Iran earthquake" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Iran" />
+            <token id="8" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="make it the world 's fourth deadliest quake in the past half-century" type="VP">
+          <tokens>
+            <token id="9" string="make" />
+            <token id="10" string="it" />
+            <token id="11" string="the" />
+            <token id="12" string="world" />
+            <token id="13" string="'s" />
+            <token id="14" string="fourth" />
+            <token id="15" string="deadliest" />
+            <token id="16" string="quake" />
+            <token id="17" string="in" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="half-century" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the world 's fourth deadliest quake" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="world" />
+            <token id="13" string="'s" />
+            <token id="14" string="fourth" />
+            <token id="15" string="deadliest" />
+            <token id="16" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The estimated 50,000 dead in the Iran earthquake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="estimated" />
+            <token id="3" string="50,000" />
+            <token id="4" string="dead" />
+            <token id="5" string="in" />
+            <token id="6" string="the" />
+            <token id="7" string="Iran" />
+            <token id="8" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="it" type="NP">
+          <tokens>
+            <token id="10" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The estimated 50,000" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="estimated" />
+            <token id="3" string="50,000" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the world 's fourth deadliest quake in the past half-century" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="world" />
+            <token id="13" string="'s" />
+            <token id="14" string="fourth" />
+            <token id="15" string="deadliest" />
+            <token id="16" string="quake" />
+            <token id="17" string="in" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="half-century" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the world 's" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="world" />
+            <token id="13" string="'s" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">50,000</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">50,000</governor>
+          <dependent id="2">estimated</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">make</governor>
+          <dependent id="3">50,000</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">50,000</governor>
+          <dependent id="4">dead</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">earthquake</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">earthquake</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">earthquake</governor>
+          <dependent id="7">Iran</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">dead</governor>
+          <dependent id="8">earthquake</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">make</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">quake</governor>
+          <dependent id="10">it</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">world</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">quake</governor>
+          <dependent id="12">world</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">world</governor>
+          <dependent id="13">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">quake</governor>
+          <dependent id="14">fourth</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">quake</governor>
+          <dependent id="15">deadliest</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="9">make</governor>
+          <dependent id="16">quake</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">half-century</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">half-century</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">half-century</governor>
+          <dependent id="19">past</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">quake</governor>
+          <dependent id="20">half-century</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="the past" type="DATE" score="0.0">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+          </tokens>
+        </entity>
+        <entity id="2" string="50,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="50,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="7" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="4" string="fourth" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="14" string="fourth" />
+          </tokens>
+        </entity>
+        <entity id="5" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="8" string="earthquake" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="false">
+      <content>Here is a list of the major quakes of the past 50 years.</content>
+      <tokens>
+        <token id="1" string="Here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="list" lemma="list" stem="list" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="major" lemma="major" stem="major" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="quakes" lemma="quake" stem="quak" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="past" lemma="past" stem="past" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="50" lemma="50" stem="50" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="13" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (RB Here)) (VP (VBZ is) (NP (NP (DT a) (NN list)) (PP (IN of) (NP (NP (DT the) (JJ major) (NNS quakes)) (PP (IN of) (NP (DT the) (JJ past) (CD 50) (NNS years))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="is a list of the major quakes of the past 50 years" type="VP">
+          <tokens>
+            <token id="2" string="is" />
+            <token id="3" string="a" />
+            <token id="4" string="list" />
+            <token id="5" string="of" />
+            <token id="6" string="the" />
+            <token id="7" string="major" />
+            <token id="8" string="quakes" />
+            <token id="9" string="of" />
+            <token id="10" string="the" />
+            <token id="11" string="past" />
+            <token id="12" string="50" />
+            <token id="13" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a list of the major quakes of the past 50 years" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="list" />
+            <token id="5" string="of" />
+            <token id="6" string="the" />
+            <token id="7" string="major" />
+            <token id="8" string="quakes" />
+            <token id="9" string="of" />
+            <token id="10" string="the" />
+            <token id="11" string="past" />
+            <token id="12" string="50" />
+            <token id="13" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a list" type="NP">
+          <tokens>
+            <token id="3" string="a" />
+            <token id="4" string="list" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the major quakes of the past 50 years" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="major" />
+            <token id="8" string="quakes" />
+            <token id="9" string="of" />
+            <token id="10" string="the" />
+            <token id="11" string="past" />
+            <token id="12" string="50" />
+            <token id="13" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the past 50 years" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="past" />
+            <token id="12" string="50" />
+            <token id="13" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Here" type="NP">
+          <tokens>
+            <token id="1" string="Here" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the major quakes" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="major" />
+            <token id="8" string="quakes" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="4">list</governor>
+          <dependent id="1">Here</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="4">list</governor>
+          <dependent id="2">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">list</governor>
+          <dependent id="3">a</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">list</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">quakes</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">quakes</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">quakes</governor>
+          <dependent id="7">major</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">list</governor>
+          <dependent id="8">quakes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">years</governor>
+          <dependent id="9">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">years</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">years</governor>
+          <dependent id="11">past</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">years</governor>
+          <dependent id="12">50</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">quakes</governor>
+          <dependent id="13">years</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="the past 50 years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="past" />
+            <token id="12" string="50" />
+            <token id="13" string="years" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="false">
+      <content>The location is followed by the Richter scale magnitude and the number of dead.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="location" lemma="location" stem="locat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="followed" lemma="follow" stem="follow" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="magnitude" lemma="magnitude" stem="magnitud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="dead" lemma="dead" stem="dead" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN location)) (VP (VBZ is) (VP (VBN followed) (PP (IN by) (NP (NP (DT the) (NNP Richter) (NN scale) (NN magnitude)) (CC and) (NP (NP (DT the) (NN number)) (PP (IN of) (ADJP (JJ dead)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the Richter scale magnitude" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+            <token id="9" string="magnitude" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the number of dead" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="number" />
+            <token id="13" string="of" />
+            <token id="14" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The location" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="location" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is followed by the Richter scale magnitude and the number of dead" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="followed" />
+            <token id="5" string="by" />
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+            <token id="9" string="magnitude" />
+            <token id="10" string="and" />
+            <token id="11" string="the" />
+            <token id="12" string="number" />
+            <token id="13" string="of" />
+            <token id="14" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the number" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="dead" type="ADJP">
+          <tokens>
+            <token id="14" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Richter scale magnitude and the number of dead" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+            <token id="9" string="magnitude" />
+            <token id="10" string="and" />
+            <token id="11" string="the" />
+            <token id="12" string="number" />
+            <token id="13" string="of" />
+            <token id="14" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="followed by the Richter scale magnitude and the number of dead" type="VP">
+          <tokens>
+            <token id="4" string="followed" />
+            <token id="5" string="by" />
+            <token id="6" string="the" />
+            <token id="7" string="Richter" />
+            <token id="8" string="scale" />
+            <token id="9" string="magnitude" />
+            <token id="10" string="and" />
+            <token id="11" string="the" />
+            <token id="12" string="number" />
+            <token id="13" string="of" />
+            <token id="14" string="dead" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">location</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">followed</governor>
+          <dependent id="2">location</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">followed</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">followed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">magnitude</governor>
+          <dependent id="5">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">magnitude</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">magnitude</governor>
+          <dependent id="7">Richter</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">magnitude</governor>
+          <dependent id="8">scale</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">followed</governor>
+          <dependent id="9">magnitude</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">magnitude</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">number</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">magnitude</governor>
+          <dependent id="12">number</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">dead</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="12">number</governor>
+          <dependent id="14">dead</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Iran, June 21, 1990, 7.3 to 7.7 on the Richter scale, 50,000 dead (estimated).</content>
+      <tokens>
+        <token id="1" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="June" lemma="June" stem="june" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="21" lemma="21" stem="21" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1990" lemma="1990" stem="1990" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.3" lemma="7.3" stem="7.3" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="7.7" lemma="7.7" stem="7.7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="50,000" lemma="50,000" stem="50,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="true" />
+        <token id="17" string="dead" lemma="dead" stem="dead" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="estimated" lemma="estimated" stem="estim" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Iran) (, ,) (NNP June) (CD 21) (, ,) (CD 1990)) (, ,) (NP (NP (QP (CD 7.3) (TO to) (CD 7.7))) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale))) (, ,) (ADJP (ADJP (CD 50,000) (JJ dead)) (PRN (-LRB- -LRB-) (NP (JJ estimated)) (-RRB- -RRB-)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Iran , June 21 , 1990" type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="June" />
+            <token id="4" string="21" />
+            <token id="5" string="," />
+            <token id="6" string="1990" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the Richter scale" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="Richter" />
+            <token id="14" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="50,000 dead -LRB- estimated -RRB-" type="ADJP">
+          <tokens>
+            <token id="16" string="50,000" />
+            <token id="17" string="dead" />
+            <token id="18" string="(" />
+            <token id="19" string="estimated" />
+            <token id="20" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="7.3 to 7.7 on the Richter scale , 50,000 dead -LRB- estimated -RRB-" type="NP">
+          <tokens>
+            <token id="8" string="7.3" />
+            <token id="9" string="to" />
+            <token id="10" string="7.7" />
+            <token id="11" string="on" />
+            <token id="12" string="the" />
+            <token id="13" string="Richter" />
+            <token id="14" string="scale" />
+            <token id="15" string="," />
+            <token id="16" string="50,000" />
+            <token id="17" string="dead" />
+            <token id="18" string="(" />
+            <token id="19" string="estimated" />
+            <token id="20" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="7.3 to 7.7" type="NP">
+          <tokens>
+            <token id="8" string="7.3" />
+            <token id="9" string="to" />
+            <token id="10" string="7.7" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="50,000 dead" type="ADJP">
+          <tokens>
+            <token id="16" string="50,000" />
+            <token id="17" string="dead" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Iran , June 21 , 1990 , 7.3 to 7.7 on the Richter scale , 50,000 dead -LRB- estimated -RRB- ." type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="June" />
+            <token id="4" string="21" />
+            <token id="5" string="," />
+            <token id="6" string="1990" />
+            <token id="7" string="," />
+            <token id="8" string="7.3" />
+            <token id="9" string="to" />
+            <token id="10" string="7.7" />
+            <token id="11" string="on" />
+            <token id="12" string="the" />
+            <token id="13" string="Richter" />
+            <token id="14" string="scale" />
+            <token id="15" string="," />
+            <token id="16" string="50,000" />
+            <token id="17" string="dead" />
+            <token id="18" string="(" />
+            <token id="19" string="estimated" />
+            <token id="20" string=")" />
+            <token id="21" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="estimated" type="NP">
+          <tokens>
+            <token id="19" string="estimated" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">June</governor>
+          <dependent id="1">Iran</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">June</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">June</governor>
+          <dependent id="4">21</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">June</governor>
+          <dependent id="6">1990</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">7.7</governor>
+          <dependent id="8">7.3</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="10">7.7</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">June</governor>
+          <dependent id="10">7.7</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">scale</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">scale</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">scale</governor>
+          <dependent id="13">Richter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">7.7</governor>
+          <dependent id="14">scale</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">dead</governor>
+          <dependent id="16">50,000</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">7.7</governor>
+          <dependent id="17">dead</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="17">dead</governor>
+          <dependent id="19">estimated</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="2" string="50,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="50,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="7.3" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.3" />
+          </tokens>
+        </entity>
+        <entity id="4" string="June 21 , 1990" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="June" />
+            <token id="4" string="21" />
+            <token id="5" string="," />
+            <token id="6" string="1990" />
+          </tokens>
+        </entity>
+        <entity id="5" string="7.7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="7.7" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>Soviet Armenia, Dec. 7, 1988, 6.9, 25,000.</content>
+      <tokens>
+        <token id="1" string="Soviet" lemma="soviet" stem="soviet" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Armenia" lemma="Armenia" stem="armenia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Dec." lemma="Dec." stem="dec." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="7" lemma="7" stem="7" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="1988" lemma="1988" stem="1988" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="6.9" lemma="6.9" stem="6.9" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="25,000" lemma="25,000" stem="25,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (JJ Soviet)) (NP (NNP Armenia) (, ,) (NNP Dec.) (CD 7) (, ,) (CD 1988) (, ,) (CD 6.9) (, ,) (CD 25,000)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Armenia , Dec. 7 , 1988 , 6.9 , 25,000" type="NP">
+          <tokens>
+            <token id="2" string="Armenia" />
+            <token id="3" string="," />
+            <token id="4" string="Dec." />
+            <token id="5" string="7" />
+            <token id="6" string="," />
+            <token id="7" string="1988" />
+            <token id="8" string="," />
+            <token id="9" string="6.9" />
+            <token id="10" string="," />
+            <token id="11" string="25,000" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Soviet Armenia , Dec. 7 , 1988 , 6.9 , 25,000 ." type="NP">
+          <tokens>
+            <token id="1" string="Soviet" />
+            <token id="2" string="Armenia" />
+            <token id="3" string="," />
+            <token id="4" string="Dec." />
+            <token id="5" string="7" />
+            <token id="6" string="," />
+            <token id="7" string="1988" />
+            <token id="8" string="," />
+            <token id="9" string="6.9" />
+            <token id="10" string="," />
+            <token id="11" string="25,000" />
+            <token id="12" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Soviet" type="NP">
+          <tokens>
+            <token id="1" string="Soviet" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="1">Soviet</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Dec.</governor>
+          <dependent id="2">Armenia</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="1">Soviet</governor>
+          <dependent id="4">Dec.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Dec.</governor>
+          <dependent id="5">7</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Dec.</governor>
+          <dependent id="7">1988</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Dec.</governor>
+          <dependent id="9">6.9</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Dec.</governor>
+          <dependent id="11">25,000</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="6.9" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="6.9" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Armenia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Armenia" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Dec. 7 , 1988" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="Dec." />
+            <token id="5" string="7" />
+            <token id="6" string="," />
+            <token id="7" string="1988" />
+          </tokens>
+        </entity>
+        <entity id="4" string="25,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="25,000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Iran, Sept. 16, 1978, 7.7, 25,000.</content>
+      <tokens>
+        <token id="1" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Sept." lemma="Sept." stem="sept." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="16" lemma="16" stem="16" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1978" lemma="1978" stem="1978" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.7" lemma="7.7" stem="7.7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="25,000" lemma="25,000" stem="25,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Iran) (, ,) (NNP Sept.) (CD 16) (, ,) (CD 1978) (, ,) (CD 7.7)) (, ,) (NP (CD 25,000)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Iran , Sept. 16 , 1978 , 7.7" type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Sept." />
+            <token id="4" string="16" />
+            <token id="5" string="," />
+            <token id="6" string="1978" />
+            <token id="7" string="," />
+            <token id="8" string="7.7" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Iran , Sept. 16 , 1978 , 7.7 , 25,000 ." type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Sept." />
+            <token id="4" string="16" />
+            <token id="5" string="," />
+            <token id="6" string="1978" />
+            <token id="7" string="," />
+            <token id="8" string="7.7" />
+            <token id="9" string="," />
+            <token id="10" string="25,000" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="25,000" type="NP">
+          <tokens>
+            <token id="10" string="25,000" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Sept.</governor>
+          <dependent id="1">Iran</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Sept.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="4">16</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="6">1978</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="8">7.7</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">Sept.</governor>
+          <dependent id="10">25,000</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Sept. 16 , 1978" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="Sept." />
+            <token id="4" string="16" />
+            <token id="5" string="," />
+            <token id="6" string="1978" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="3" string="25,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="25,000" />
+          </tokens>
+        </entity>
+        <entity id="4" string="7.7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.7" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="false">
+      <content>China, July 28, 1976, 8.2, 200,000 officially, 800,000 unofficially.</content>
+      <tokens>
+        <token id="1" string="China" lemma="China" stem="china" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="July" lemma="July" stem="juli" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="28" lemma="28" stem="28" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1976" lemma="1976" stem="1976" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="8.2" lemma="8.2" stem="8.2" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="200,000" lemma="200,000" stem="200,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="officially" lemma="officially" stem="offici" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="800,000" lemma="800,000" stem="800,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="14" string="unofficially" lemma="unofficially" stem="unoffici" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NP (NNP China) (, ,) (NNP July) (CD 28) (, ,) (CD 1976) (, ,) (CD 8.2)) (, ,) (ADVP (NP (CD 200,000)) (RB officially))) (, ,) (NP (NP (CD 800,000)) (ADVP (RB unofficially))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="China , July 28 , 1976 , 8.2 , 200,000 officially , 800,000 unofficially ." type="NP">
+          <tokens>
+            <token id="1" string="China" />
+            <token id="2" string="," />
+            <token id="3" string="July" />
+            <token id="4" string="28" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+            <token id="7" string="," />
+            <token id="8" string="8.2" />
+            <token id="9" string="," />
+            <token id="10" string="200,000" />
+            <token id="11" string="officially" />
+            <token id="12" string="," />
+            <token id="13" string="800,000" />
+            <token id="14" string="unofficially" />
+            <token id="15" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="800,000 unofficially" type="NP">
+          <tokens>
+            <token id="13" string="800,000" />
+            <token id="14" string="unofficially" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="800,000" type="NP">
+          <tokens>
+            <token id="13" string="800,000" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="China , July 28 , 1976 , 8.2" type="NP">
+          <tokens>
+            <token id="1" string="China" />
+            <token id="2" string="," />
+            <token id="3" string="July" />
+            <token id="4" string="28" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+            <token id="7" string="," />
+            <token id="8" string="8.2" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="China , July 28 , 1976 , 8.2 , 200,000 officially" type="NP">
+          <tokens>
+            <token id="1" string="China" />
+            <token id="2" string="," />
+            <token id="3" string="July" />
+            <token id="4" string="28" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+            <token id="7" string="," />
+            <token id="8" string="8.2" />
+            <token id="9" string="," />
+            <token id="10" string="200,000" />
+            <token id="11" string="officially" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="200,000" type="NP">
+          <tokens>
+            <token id="10" string="200,000" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">July</governor>
+          <dependent id="1">China</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">July</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">July</governor>
+          <dependent id="4">28</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">July</governor>
+          <dependent id="6">1976</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">July</governor>
+          <dependent id="8">8.2</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="11">officially</governor>
+          <dependent id="10">200,000</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">July</governor>
+          <dependent id="11">officially</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">July</governor>
+          <dependent id="13">800,000</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">800,000</governor>
+          <dependent id="14">unofficially</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="July 28 , 1976" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="July" />
+            <token id="4" string="28" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+          </tokens>
+        </entity>
+        <entity id="2" string="800,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="800,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="China" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="China" />
+          </tokens>
+        </entity>
+        <entity id="4" string="8.2" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="8.2" />
+          </tokens>
+        </entity>
+        <entity id="5" string="200,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="200,000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>Guatemala, Feb. 4, 1976, 7.5, 22,778.</content>
+      <tokens>
+        <token id="1" string="Guatemala" lemma="Guatemala" stem="guatemala" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Feb." lemma="Feb." stem="feb." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="4" lemma="4" stem="4" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1976" lemma="1976" stem="1976" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.5" lemma="7.5" stem="7.5" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="22,778" lemma="22,778" stem="22,778" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Guatemala) (, ,) (NNP Feb.) (CD 4) (, ,) (CD 1976) (, ,) (CD 7.5)) (, ,) (NP (CD 22,778)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Guatemala , Feb. 4 , 1976 , 7.5" type="NP">
+          <tokens>
+            <token id="1" string="Guatemala" />
+            <token id="2" string="," />
+            <token id="3" string="Feb." />
+            <token id="4" string="4" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+            <token id="7" string="," />
+            <token id="8" string="7.5" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="22,778" type="NP">
+          <tokens>
+            <token id="10" string="22,778" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Guatemala , Feb. 4 , 1976 , 7.5 , 22,778 ." type="NP">
+          <tokens>
+            <token id="1" string="Guatemala" />
+            <token id="2" string="," />
+            <token id="3" string="Feb." />
+            <token id="4" string="4" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+            <token id="7" string="," />
+            <token id="8" string="7.5" />
+            <token id="9" string="," />
+            <token id="10" string="22,778" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Feb.</governor>
+          <dependent id="1">Guatemala</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Feb.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="4">4</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="6">1976</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="8">7.5</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">Feb.</governor>
+          <dependent id="10">22,778</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Feb. 4 , 1976" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="Feb." />
+            <token id="4" string="4" />
+            <token id="5" string="," />
+            <token id="6" string="1976" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Guatemala" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Guatemala" />
+          </tokens>
+        </entity>
+        <entity id="3" string="22,778" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="22,778" />
+          </tokens>
+        </entity>
+        <entity id="4" string="7.5" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.5" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Peru, May 31, 1970, 7.7, 66,794.</content>
+      <tokens>
+        <token id="1" string="Peru" lemma="Peru" stem="peru" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="May" lemma="May" stem="mai" pos="NNP" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="31" lemma="31" stem="31" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1970" lemma="1970" stem="1970" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.7" lemma="7.7" stem="7.7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="66,794" lemma="66,794" stem="66,794" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Peru) (, ,) (NNP May) (CD 31) (, ,) (CD 1970) (, ,) (CD 7.7)) (, ,) (NP (CD 66,794)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Peru , May 31 , 1970 , 7.7 , 66,794 ." type="NP">
+          <tokens>
+            <token id="1" string="Peru" />
+            <token id="2" string="," />
+            <token id="3" string="May" />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1970" />
+            <token id="7" string="," />
+            <token id="8" string="7.7" />
+            <token id="9" string="," />
+            <token id="10" string="66,794" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="66,794" type="NP">
+          <tokens>
+            <token id="10" string="66,794" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Peru , May 31 , 1970 , 7.7" type="NP">
+          <tokens>
+            <token id="1" string="Peru" />
+            <token id="2" string="," />
+            <token id="3" string="May" />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1970" />
+            <token id="7" string="," />
+            <token id="8" string="7.7" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">May</governor>
+          <dependent id="1">Peru</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">May</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">May</governor>
+          <dependent id="4">31</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">May</governor>
+          <dependent id="6">1970</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">May</governor>
+          <dependent id="8">7.7</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">May</governor>
+          <dependent id="10">66,794</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Peru" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Peru" />
+          </tokens>
+        </entity>
+        <entity id="2" string="66,794" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="66,794" />
+          </tokens>
+        </entity>
+        <entity id="3" string="May 31 , 1970" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="May" />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1970" />
+          </tokens>
+        </entity>
+        <entity id="4" string="7.7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.7" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>Iran, Aug. 31, 1968, 7.4, 12,000.</content>
+      <tokens>
+        <token id="1" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Aug." lemma="Aug." stem="aug." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="31" lemma="31" stem="31" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1968" lemma="1968" stem="1968" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.4" lemma="7.4" stem="7.4" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="12,000" lemma="12,000" stem="12,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Iran) (, ,) (NNP Aug.) (CD 31) (, ,) (CD 1968) (, ,) (CD 7.4)) (, ,) (NP (CD 12,000)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="12,000" type="NP">
+          <tokens>
+            <token id="10" string="12,000" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Iran , Aug. 31 , 1968 , 7.4 , 12,000 ." type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Aug." />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1968" />
+            <token id="7" string="," />
+            <token id="8" string="7.4" />
+            <token id="9" string="," />
+            <token id="10" string="12,000" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Iran , Aug. 31 , 1968 , 7.4" type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Aug." />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1968" />
+            <token id="7" string="," />
+            <token id="8" string="7.4" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Aug.</governor>
+          <dependent id="1">Iran</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Aug.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Aug.</governor>
+          <dependent id="4">31</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Aug.</governor>
+          <dependent id="6">1968</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Aug.</governor>
+          <dependent id="8">7.4</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">Aug.</governor>
+          <dependent id="10">12,000</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="12,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="12,000" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="3" string="7.4" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.4" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Aug. 31 , 1968" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="Aug." />
+            <token id="4" string="31" />
+            <token id="5" string="," />
+            <token id="6" string="1968" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="false">
+      <content>Iran, Sept. 1, 1962, 7.1, 12,230.</content>
+      <tokens>
+        <token id="1" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Sept." lemma="Sept." stem="sept." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="1" lemma="1" stem="1" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1962" lemma="1962" stem="1962" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="7.1" lemma="7.1" stem="7.1" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="12,230" lemma="12,230" stem="12,230" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Iran) (, ,) (NNP Sept.) (CD 1) (, ,) (CD 1962) (, ,) (CD 7.1)) (, ,) (NP (CD 12,230)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Iran , Sept. 1 , 1962 , 7.1 , 12,230 ." type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Sept." />
+            <token id="4" string="1" />
+            <token id="5" string="," />
+            <token id="6" string="1962" />
+            <token id="7" string="," />
+            <token id="8" string="7.1" />
+            <token id="9" string="," />
+            <token id="10" string="12,230" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="12,230" type="NP">
+          <tokens>
+            <token id="10" string="12,230" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Iran , Sept. 1 , 1962 , 7.1" type="NP">
+          <tokens>
+            <token id="1" string="Iran" />
+            <token id="2" string="," />
+            <token id="3" string="Sept." />
+            <token id="4" string="1" />
+            <token id="5" string="," />
+            <token id="6" string="1962" />
+            <token id="7" string="," />
+            <token id="8" string="7.1" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Sept.</governor>
+          <dependent id="1">Iran</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Sept.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="4">1</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="6">1962</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Sept.</governor>
+          <dependent id="8">7.1</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">Sept.</governor>
+          <dependent id="10">12,230</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="12,230" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="12,230" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="3" string="7.1" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="7.1" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sept. 1 , 1962" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="Sept." />
+            <token id="4" string="1" />
+            <token id="5" string="," />
+            <token id="6" string="1962" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="false">
+      <content>Morocco, Feb. 29, 1960, 5.8, 12,000.</content>
+      <tokens>
+        <token id="1" string="Morocco" lemma="Morocco" stem="morocco" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Feb." lemma="Feb." stem="feb." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="29" lemma="29" stem="29" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="1960" lemma="1960" stem="1960" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="5.8" lemma="5.8" stem="5.8" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="12,000" lemma="12,000" stem="12,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NNP Morocco) (, ,) (NNP Feb.) (CD 29) (, ,) (CD 1960) (, ,) (CD 5.8)) (, ,) (NP (CD 12,000)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Morocco , Feb. 29 , 1960 , 5.8 , 12,000 ." type="NP">
+          <tokens>
+            <token id="1" string="Morocco" />
+            <token id="2" string="," />
+            <token id="3" string="Feb." />
+            <token id="4" string="29" />
+            <token id="5" string="," />
+            <token id="6" string="1960" />
+            <token id="7" string="," />
+            <token id="8" string="5.8" />
+            <token id="9" string="," />
+            <token id="10" string="12,000" />
+            <token id="11" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="12,000" type="NP">
+          <tokens>
+            <token id="10" string="12,000" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Morocco , Feb. 29 , 1960 , 5.8" type="NP">
+          <tokens>
+            <token id="1" string="Morocco" />
+            <token id="2" string="," />
+            <token id="3" string="Feb." />
+            <token id="4" string="29" />
+            <token id="5" string="," />
+            <token id="6" string="1960" />
+            <token id="7" string="," />
+            <token id="8" string="5.8" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Feb.</governor>
+          <dependent id="1">Morocco</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Feb.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="4">29</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="6">1960</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="3">Feb.</governor>
+          <dependent id="8">5.8</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">Feb.</governor>
+          <dependent id="10">12,000</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="12,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="10" string="12,000" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Morocco" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="1" string="Morocco" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Feb. 29 , 1960" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="Feb." />
+            <token id="4" string="29" />
+            <token id="5" string="," />
+            <token id="6" string="1960" />
+          </tokens>
+        </entity>
+        <entity id="4" string="5.8" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="8" string="5.8" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="false">
+      <content>Soviet Turkmenia, Oct. 5, 1948, (no Richter reading available), 110,000.</content>
+      <tokens>
+        <token id="1" string="Soviet" lemma="soviet" stem="soviet" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Turkmenia" lemma="Turkmenia" stem="turkmenia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Oct." lemma="Oct." stem="oct." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="5" lemma="5" stem="5" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="1948" lemma="1948" stem="1948" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Richter" lemma="richter" stem="richter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="reading" lemma="reading" stem="read" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="available" lemma="available" stem="avail" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="110,000" lemma="110,000" stem="110,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (JJ Soviet) (NNP Turkmenia)) (, ,) (NP (NP (NNP Oct.) (CD 5) (, ,) (CD 1948) (, ,)) (PRN (-LRB- -LRB-) (S (NP (DT no) (NN Richter) (NN reading)) (ADJP (JJ available))) (-RRB- -RRB-)) (, ,) (NP (CD 110,000))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="110,000" type="NP">
+          <tokens>
+            <token id="16" string="110,000" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Soviet Turkmenia" type="NP">
+          <tokens>
+            <token id="1" string="Soviet" />
+            <token id="2" string="Turkmenia" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="no Richter reading" type="NP">
+          <tokens>
+            <token id="10" string="no" />
+            <token id="11" string="Richter" />
+            <token id="12" string="reading" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="available" type="ADJP">
+          <tokens>
+            <token id="13" string="available" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Oct. 5 , 1948 ," type="NP">
+          <tokens>
+            <token id="4" string="Oct." />
+            <token id="5" string="5" />
+            <token id="6" string="," />
+            <token id="7" string="1948" />
+            <token id="8" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Soviet Turkmenia , Oct. 5 , 1948 , -LRB- no Richter reading available -RRB- , 110,000 ." type="NP">
+          <tokens>
+            <token id="1" string="Soviet" />
+            <token id="2" string="Turkmenia" />
+            <token id="3" string="," />
+            <token id="4" string="Oct." />
+            <token id="5" string="5" />
+            <token id="6" string="," />
+            <token id="7" string="1948" />
+            <token id="8" string="," />
+            <token id="9" string="(" />
+            <token id="10" string="no" />
+            <token id="11" string="Richter" />
+            <token id="12" string="reading" />
+            <token id="13" string="available" />
+            <token id="14" string=")" />
+            <token id="15" string="," />
+            <token id="16" string="110,000" />
+            <token id="17" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Oct. 5 , 1948 , -LRB- no Richter reading available -RRB- , 110,000" type="NP">
+          <tokens>
+            <token id="4" string="Oct." />
+            <token id="5" string="5" />
+            <token id="6" string="," />
+            <token id="7" string="1948" />
+            <token id="8" string="," />
+            <token id="9" string="(" />
+            <token id="10" string="no" />
+            <token id="11" string="Richter" />
+            <token id="12" string="reading" />
+            <token id="13" string="available" />
+            <token id="14" string=")" />
+            <token id="15" string="," />
+            <token id="16" string="110,000" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">Turkmenia</governor>
+          <dependent id="1">Soviet</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">Turkmenia</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Turkmenia</governor>
+          <dependent id="4">Oct.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Oct.</governor>
+          <dependent id="5">5</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">Oct.</governor>
+          <dependent id="7">1948</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="12">reading</governor>
+          <dependent id="10">no</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">reading</governor>
+          <dependent id="11">Richter</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="13">available</governor>
+          <dependent id="12">reading</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">Oct.</governor>
+          <dependent id="13">available</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">Oct.</governor>
+          <dependent id="16">110,000</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Oct. 5 , 1948" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="Oct." />
+            <token id="5" string="5" />
+            <token id="6" string="," />
+            <token id="7" string="1948" />
+          </tokens>
+        </entity>
+        <entity id="2" string="110,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="16" string="110,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Turkmenia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Turkmenia" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8" string="The estimated 50,000 dead in the Iran earthquake" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="16" string="50,000" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="8-9-10-11-12-13-14-15-16-17-18-19-20" string="7.3 to 7.7 on the Richter scale , 50,000 dead ( estimated )" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="8" string="7.7" id_sentence="6" />
+        <mention ids_tokens="8" string="7.7" id_sentence="9" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

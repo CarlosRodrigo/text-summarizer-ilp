@@ -1,0 +1,3944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP900621-0186">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>The earthquake that devastated Iran early Thursday took tens of thousands of lives because people were asleep in fragile homes built on flood plains, an earthquake expert said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="true" />
+        <token id="3" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="devastated" lemma="devastate" stem="devast" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="6" string="early" lemma="early" stem="earli" pos="RB" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="true" />
+        <token id="7" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="true" />
+        <token id="8" string="took" lemma="take" stem="took" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="tens" lemma="ten" stem="ten" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="thousands" lemma="thousand" stem="thousand" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="lives" lemma="life" stem="live" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="because" lemma="because" stem="becaus" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="16" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="asleep" lemma="asleep" stem="asleep" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="fragile" lemma="fragile" stem="fragil" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="homes" lemma="home" stem="home" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="built" lemma="build" stem="built" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="24" string="plains" lemma="plain" stem="plain" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="28" string="expert" lemma="expert" stem="expert" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT The) (NN earthquake)) (SBAR (WHNP (WDT that)) (S (VP (VBD devastated) (NP (NNP Iran)) (NP-TMP (RB early) (NNP Thursday)))))) (VP (VBD took) (NP (NP (QP (NNS tens) (IN of) (NNS thousands))) (PP (IN of) (NP (NNS lives)))) (SBAR (IN because) (S (NP (NNS people)) (VP (VBD were) (ADJP (RB asleep)) (PP (IN in) (NP (NP (JJ fragile) (NNS homes)) (VP (VBN built) (PP (IN on) (NP (NN flood) (NNS plains))))))))))) (, ,) (NP (DT an) (NN earthquake) (NN expert)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="took tens of thousands of lives because people were asleep in fragile homes built on flood plains" type="VP">
+          <tokens>
+            <token id="8" string="took" />
+            <token id="9" string="tens" />
+            <token id="10" string="of" />
+            <token id="11" string="thousands" />
+            <token id="12" string="of" />
+            <token id="13" string="lives" />
+            <token id="14" string="because" />
+            <token id="15" string="people" />
+            <token id="16" string="were" />
+            <token id="17" string="asleep" />
+            <token id="18" string="in" />
+            <token id="19" string="fragile" />
+            <token id="20" string="homes" />
+            <token id="21" string="built" />
+            <token id="22" string="on" />
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="lives" type="NP">
+          <tokens>
+            <token id="13" string="lives" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="flood plains" type="NP">
+          <tokens>
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="tens of thousands" type="NP">
+          <tokens>
+            <token id="9" string="tens" />
+            <token id="10" string="of" />
+            <token id="11" string="thousands" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="an earthquake expert" type="NP">
+          <tokens>
+            <token id="26" string="an" />
+            <token id="27" string="earthquake" />
+            <token id="28" string="expert" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="people" type="NP">
+          <tokens>
+            <token id="15" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="tens of thousands of lives" type="NP">
+          <tokens>
+            <token id="9" string="tens" />
+            <token id="10" string="of" />
+            <token id="11" string="thousands" />
+            <token id="12" string="of" />
+            <token id="13" string="lives" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The earthquake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="were asleep in fragile homes built on flood plains" type="VP">
+          <tokens>
+            <token id="16" string="were" />
+            <token id="17" string="asleep" />
+            <token id="18" string="in" />
+            <token id="19" string="fragile" />
+            <token id="20" string="homes" />
+            <token id="21" string="built" />
+            <token id="22" string="on" />
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="fragile homes" type="NP">
+          <tokens>
+            <token id="19" string="fragile" />
+            <token id="20" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="devastated Iran early Thursday" type="VP">
+          <tokens>
+            <token id="4" string="devastated" />
+            <token id="5" string="Iran" />
+            <token id="6" string="early" />
+            <token id="7" string="Thursday" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="built on flood plains" type="VP">
+          <tokens>
+            <token id="21" string="built" />
+            <token id="22" string="on" />
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="because people were asleep in fragile homes built on flood plains" type="SBAR">
+          <tokens>
+            <token id="14" string="because" />
+            <token id="15" string="people" />
+            <token id="16" string="were" />
+            <token id="17" string="asleep" />
+            <token id="18" string="in" />
+            <token id="19" string="fragile" />
+            <token id="20" string="homes" />
+            <token id="21" string="built" />
+            <token id="22" string="on" />
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Iran" type="NP">
+          <tokens>
+            <token id="5" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="The earthquake that devastated Iran early Thursday" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="earthquake" />
+            <token id="3" string="that" />
+            <token id="4" string="devastated" />
+            <token id="5" string="Iran" />
+            <token id="6" string="early" />
+            <token id="7" string="Thursday" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="that devastated Iran early Thursday" type="SBAR">
+          <tokens>
+            <token id="3" string="that" />
+            <token id="4" string="devastated" />
+            <token id="5" string="Iran" />
+            <token id="6" string="early" />
+            <token id="7" string="Thursday" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="asleep" type="ADJP">
+          <tokens>
+            <token id="17" string="asleep" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="said" type="VP">
+          <tokens>
+            <token id="29" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="fragile homes built on flood plains" type="NP">
+          <tokens>
+            <token id="19" string="fragile" />
+            <token id="20" string="homes" />
+            <token id="21" string="built" />
+            <token id="22" string="on" />
+            <token id="23" string="flood" />
+            <token id="24" string="plains" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">earthquake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">took</governor>
+          <dependent id="2">earthquake</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">devastated</governor>
+          <dependent id="3">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">earthquake</governor>
+          <dependent id="4">devastated</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">devastated</governor>
+          <dependent id="5">Iran</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">Thursday</governor>
+          <dependent id="6">early</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">devastated</governor>
+          <dependent id="7">Thursday</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="29">said</governor>
+          <dependent id="8">took</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="11">thousands</governor>
+          <dependent id="9">tens</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">thousands</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">took</governor>
+          <dependent id="11">thousands</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">lives</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">thousands</governor>
+          <dependent id="13">lives</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="17">asleep</governor>
+          <dependent id="14">because</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">asleep</governor>
+          <dependent id="15">people</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="17">asleep</governor>
+          <dependent id="16">were</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="8">took</governor>
+          <dependent id="17">asleep</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">homes</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">homes</governor>
+          <dependent id="19">fragile</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">asleep</governor>
+          <dependent id="20">homes</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="20">homes</governor>
+          <dependent id="21">built</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">plains</governor>
+          <dependent id="22">on</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">plains</governor>
+          <dependent id="23">flood</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">built</governor>
+          <dependent id="24">plains</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">expert</governor>
+          <dependent id="26">an</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="28">expert</governor>
+          <dependent id="27">earthquake</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="29">said</governor>
+          <dependent id="28">expert</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="29">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="2" string="early Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="early" />
+            <token id="7" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="2" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="4" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="23" string="flood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>``Most casualties from earthquakes are caused by something falling on top of you,&amp;apost;&amp;apost; said Russ Needham, a geophysist with the U.S. Geological Survey that monitors ground motion around the world.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="casualties" lemma="casualty" stem="casualti" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="earthquakes" lemma="earthquake" stem="earthquak" pos="NNS" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="6" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="caused" lemma="cause" stem="caus" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="something" lemma="something" stem="someth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="falling" lemma="fall" stem="fall" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="top" lemma="top" stem="top" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="you" lemma="you" stem="you" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="Russ" lemma="Russ" stem="russ" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="19" string="Needham" lemma="Needham" stem="needham" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="geophysist" lemma="geophysist" stem="geophysist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="26" string="Geological" lemma="Geological" stem="geolog" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="Survey" lemma="survey" stem="survei" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="monitors" lemma="monitor" stem="monitor" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="ground" lemma="ground" stem="ground" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="motion" lemma="motion" stem="motion" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="around" lemma="around" stem="around" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="world" lemma="world" stem="world" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (NP (NP (JJS Most) (NNS casualties)) (PP (IN from) (NP (NNS earthquakes)))) (VP (VBP are) (VP (VBN caused) (PP (IN by) (NP (NP (NN something)) (VP (VBG falling) (PP (IN on) (NP (NP (NN top)) (PP (IN of) (NP (PRP you))))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Russ) (NNP Needham)) (, ,) (NP (NP (DT a) (NN geophysist)) (PP (IN with) (NP (DT the) (NNP U.S.) (NNP Geological) (NN Survey))) (SBAR (WHNP (WDT that)) (S (VP (VBZ monitors) (NP (NN ground) (NN motion)) (PP (IN around) (NP (DT the) (NN world)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a geophysist" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="geophysist" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Russ Needham , a geophysist with the U.S. Geological Survey that monitors ground motion around the world" type="NP">
+          <tokens>
+            <token id="18" string="Russ" />
+            <token id="19" string="Needham" />
+            <token id="20" string="," />
+            <token id="21" string="a" />
+            <token id="22" string="geophysist" />
+            <token id="23" string="with" />
+            <token id="24" string="the" />
+            <token id="25" string="U.S." />
+            <token id="26" string="Geological" />
+            <token id="27" string="Survey" />
+            <token id="28" string="that" />
+            <token id="29" string="monitors" />
+            <token id="30" string="ground" />
+            <token id="31" string="motion" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="world" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="that monitors ground motion around the world" type="SBAR">
+          <tokens>
+            <token id="28" string="that" />
+            <token id="29" string="monitors" />
+            <token id="30" string="ground" />
+            <token id="31" string="motion" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="world" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="caused by something falling on top of you" type="VP">
+          <tokens>
+            <token id="7" string="caused" />
+            <token id="8" string="by" />
+            <token id="9" string="something" />
+            <token id="10" string="falling" />
+            <token id="11" string="on" />
+            <token id="12" string="top" />
+            <token id="13" string="of" />
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="ground motion" type="NP">
+          <tokens>
+            <token id="30" string="ground" />
+            <token id="31" string="motion" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Russ Needham" type="NP">
+          <tokens>
+            <token id="18" string="Russ" />
+            <token id="19" string="Needham" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="monitors ground motion around the world" type="VP">
+          <tokens>
+            <token id="29" string="monitors" />
+            <token id="30" string="ground" />
+            <token id="31" string="motion" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="world" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the world" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="world" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="something" type="NP">
+          <tokens>
+            <token id="9" string="something" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="are caused by something falling on top of you" type="VP">
+          <tokens>
+            <token id="6" string="are" />
+            <token id="7" string="caused" />
+            <token id="8" string="by" />
+            <token id="9" string="something" />
+            <token id="10" string="falling" />
+            <token id="11" string="on" />
+            <token id="12" string="top" />
+            <token id="13" string="of" />
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="earthquakes" type="NP">
+          <tokens>
+            <token id="5" string="earthquakes" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a geophysist with the U.S. Geological Survey that monitors ground motion around the world" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="geophysist" />
+            <token id="23" string="with" />
+            <token id="24" string="the" />
+            <token id="25" string="U.S." />
+            <token id="26" string="Geological" />
+            <token id="27" string="Survey" />
+            <token id="28" string="that" />
+            <token id="29" string="monitors" />
+            <token id="30" string="ground" />
+            <token id="31" string="motion" />
+            <token id="32" string="around" />
+            <token id="33" string="the" />
+            <token id="34" string="world" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the U.S. Geological Survey" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="U.S." />
+            <token id="26" string="Geological" />
+            <token id="27" string="Survey" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="falling on top of you" type="VP">
+          <tokens>
+            <token id="10" string="falling" />
+            <token id="11" string="on" />
+            <token id="12" string="top" />
+            <token id="13" string="of" />
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="top" type="NP">
+          <tokens>
+            <token id="12" string="top" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="top of you" type="NP">
+          <tokens>
+            <token id="12" string="top" />
+            <token id="13" string="of" />
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Most casualties" type="NP">
+          <tokens>
+            <token id="2" string="Most" />
+            <token id="3" string="casualties" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="something falling on top of you" type="NP">
+          <tokens>
+            <token id="9" string="something" />
+            <token id="10" string="falling" />
+            <token id="11" string="on" />
+            <token id="12" string="top" />
+            <token id="13" string="of" />
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="Most casualties from earthquakes" type="NP">
+          <tokens>
+            <token id="2" string="Most" />
+            <token id="3" string="casualties" />
+            <token id="4" string="from" />
+            <token id="5" string="earthquakes" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="said" type="VP">
+          <tokens>
+            <token id="17" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="you" type="NP">
+          <tokens>
+            <token id="14" string="you" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="3">casualties</governor>
+          <dependent id="2">Most</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">caused</governor>
+          <dependent id="3">casualties</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">earthquakes</governor>
+          <dependent id="4">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">casualties</governor>
+          <dependent id="5">earthquakes</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">caused</governor>
+          <dependent id="6">are</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="17">said</governor>
+          <dependent id="7">caused</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">something</governor>
+          <dependent id="8">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">caused</governor>
+          <dependent id="9">something</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="9">something</governor>
+          <dependent id="10">falling</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">you</governor>
+          <dependent id="11">on</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="11">on</governor>
+          <dependent id="12">top</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="11">on</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">falling</governor>
+          <dependent id="14">you</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="17">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">Needham</governor>
+          <dependent id="18">Russ</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">said</governor>
+          <dependent id="19">Needham</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">geophysist</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="19">Needham</governor>
+          <dependent id="22">geophysist</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Survey</governor>
+          <dependent id="23">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">Survey</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Survey</governor>
+          <dependent id="25">U.S.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Survey</governor>
+          <dependent id="26">Geological</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">geophysist</governor>
+          <dependent id="27">Survey</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="29">monitors</governor>
+          <dependent id="28">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="22">geophysist</governor>
+          <dependent id="29">monitors</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">motion</governor>
+          <dependent id="30">ground</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="29">monitors</governor>
+          <dependent id="31">motion</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="34">world</governor>
+          <dependent id="32">around</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="34">world</governor>
+          <dependent id="33">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">monitors</governor>
+          <dependent id="34">world</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="25" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="2" string="Russ Needham" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Russ" />
+            <token id="19" string="Needham" />
+          </tokens>
+        </entity>
+        <entity id="3" string="earthquakes" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="5" string="earthquakes" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>The quake hit at 12:30 a.m. in Iran, when most of the people were in their homes, Needham said Thursday in a telephone interview from Golden, Colo.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="hit" lemma="hit" stem="hit" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="12:30" lemma="12:30" stem="12:30" pos="CD" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="6" string="a.m." lemma="a.m." stem="a.m." pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="homes" lemma="home" stem="home" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Needham" lemma="Needham" stem="needham" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="21" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="23" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="telephone" lemma="telephone" stem="telephon" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="interview" lemma="interview" stem="interview" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="Golden" lemma="Golden" stem="golden" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Colo" lemma="Colo." stem="colo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NN quake)) (VP (VBD hit) (PP (IN at) (NP (CD 12:30) (NN a.m.))) (PP (IN in) (NP (NNP Iran))) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NNS people)))) (VP (VBD were) (PP (IN in) (NP (PRP$ their) (NNS homes)))))))) (, ,) (NP (NNP Needham)) (VP (VBD said) (NP-TMP (NNP Thursday)) (PP (IN in) (NP (NP (DT a) (NN telephone) (NN interview)) (PP (IN from) (NP (NNP Golden) (, ,) (NNP Colo.)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Needham" type="NP">
+          <tokens>
+            <token id="20" string="Needham" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Golden , Colo." type="NP">
+          <tokens>
+            <token id="28" string="Golden" />
+            <token id="29" string="," />
+            <token id="30" string="Colo" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="when most of the people were in their homes" type="SBAR">
+          <tokens>
+            <token id="10" string="when" />
+            <token id="11" string="most" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="people" />
+            <token id="15" string="were" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the people" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="were in their homes" type="VP">
+          <tokens>
+            <token id="15" string="were" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="their homes" type="NP">
+          <tokens>
+            <token id="17" string="their" />
+            <token id="18" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="10" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="a telephone interview" type="NP">
+          <tokens>
+            <token id="24" string="a" />
+            <token id="25" string="telephone" />
+            <token id="26" string="interview" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="12:30 a.m." type="NP">
+          <tokens>
+            <token id="5" string="12:30" />
+            <token id="6" string="a.m." />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="most" type="NP">
+          <tokens>
+            <token id="11" string="most" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="said Thursday in a telephone interview from Golden , Colo." type="VP">
+          <tokens>
+            <token id="21" string="said" />
+            <token id="22" string="Thursday" />
+            <token id="23" string="in" />
+            <token id="24" string="a" />
+            <token id="25" string="telephone" />
+            <token id="26" string="interview" />
+            <token id="27" string="from" />
+            <token id="28" string="Golden" />
+            <token id="29" string="," />
+            <token id="30" string="Colo" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="hit at 12:30 a.m. in Iran , when most of the people were in their homes" type="VP">
+          <tokens>
+            <token id="3" string="hit" />
+            <token id="4" string="at" />
+            <token id="5" string="12:30" />
+            <token id="6" string="a.m." />
+            <token id="7" string="in" />
+            <token id="8" string="Iran" />
+            <token id="9" string="," />
+            <token id="10" string="when" />
+            <token id="11" string="most" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="people" />
+            <token id="15" string="were" />
+            <token id="16" string="in" />
+            <token id="17" string="their" />
+            <token id="18" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Iran" type="NP">
+          <tokens>
+            <token id="8" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a telephone interview from Golden , Colo." type="NP">
+          <tokens>
+            <token id="24" string="a" />
+            <token id="25" string="telephone" />
+            <token id="26" string="interview" />
+            <token id="27" string="from" />
+            <token id="28" string="Golden" />
+            <token id="29" string="," />
+            <token id="30" string="Colo" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="most of the people" type="NP">
+          <tokens>
+            <token id="11" string="most" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="people" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">hit</governor>
+          <dependent id="2">quake</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="21">said</governor>
+          <dependent id="3">hit</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">a.m.</governor>
+          <dependent id="4">at</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="6">a.m.</governor>
+          <dependent id="5">12:30</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">hit</governor>
+          <dependent id="6">a.m.</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Iran</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">hit</governor>
+          <dependent id="8">Iran</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">homes</governor>
+          <dependent id="10">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">homes</governor>
+          <dependent id="11">most</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">people</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">people</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">most</governor>
+          <dependent id="14">people</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="18">homes</governor>
+          <dependent id="15">were</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">homes</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="18">homes</governor>
+          <dependent id="17">their</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="3">hit</governor>
+          <dependent id="18">homes</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">said</governor>
+          <dependent id="20">Needham</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="21">said</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="21">said</governor>
+          <dependent id="22">Thursday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">interview</governor>
+          <dependent id="23">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">interview</governor>
+          <dependent id="24">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">interview</governor>
+          <dependent id="25">telephone</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">said</governor>
+          <dependent id="26">interview</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">Colo.</governor>
+          <dependent id="27">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">Colo.</governor>
+          <dependent id="28">Golden</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">interview</governor>
+          <dependent id="30">Colo.</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Needham" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="20" string="Needham" />
+          </tokens>
+        </entity>
+        <entity id="2" string="12:30 a.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="5" string="12:30" />
+            <token id="6" string="a.m." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="22" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Golden" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="28" string="Golden" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Colo" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="30" string="Colo" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>At least 25,000 people died and thousands were injured in the quake, which demolished scores of villages and buried thousands of people in the rubble of their homes, Iranian officials said.</content>
+      <tokens>
+        <token id="1" string="At" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="least" lemma="least" stem="least" pos="JJS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="25,000" lemma="25,000" stem="25,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="4" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="died" lemma="die" stem="di" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="thousands" lemma="thousand" stem="thousand" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="injured" lemma="injure" stem="injur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="demolished" lemma="demolish" stem="demolish" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="scores" lemma="score" stem="score" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="villages" lemma="village" stem="villag" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="buried" lemma="bury" stem="buri" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="thousands" lemma="thousand" stem="thousand" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="rubble" lemma="rubble" stem="rubbl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="29" string="homes" lemma="home" stem="home" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="Iranian" lemma="iranian" stem="iranian" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="32" string="officials" lemma="official" stem="offici" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (S (NP (QP (IN At) (JJS least) (CD 25,000)) (NNS people)) (VP (VBD died))) (CC and) (S (NP (NNS thousands)) (VP (VBD were) (VP (VP (VBN injured) (PP (IN in) (NP (NP (DT the) (NN quake)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD demolished) (NP (NP (NNS scores)) (PP (IN of) (NP (NNS villages)))))))))) (CC and) (VP (VBN buried) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS people)))) (PP (IN in) (NP (NP (DT the) (NN rubble)) (PP (IN of) (NP (PRP$ their) (NNS homes)))))))))) (, ,) (NP (JJ Iranian) (NNS officials)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="thousands of people" type="NP">
+          <tokens>
+            <token id="21" string="thousands" />
+            <token id="22" string="of" />
+            <token id="23" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Iranian officials" type="NP">
+          <tokens>
+            <token id="31" string="Iranian" />
+            <token id="32" string="officials" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="At least 25,000 people" type="NP">
+          <tokens>
+            <token id="1" string="At" />
+            <token id="2" string="least" />
+            <token id="3" string="25,000" />
+            <token id="4" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="which demolished scores of villages" type="SBAR">
+          <tokens>
+            <token id="14" string="which" />
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="scores" type="NP">
+          <tokens>
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="villages" type="NP">
+          <tokens>
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the quake , which demolished scores of villages" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="quake" />
+            <token id="13" string="," />
+            <token id="14" string="which" />
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="injured in the quake , which demolished scores of villages and buried thousands of people in the rubble of their homes" type="VP">
+          <tokens>
+            <token id="9" string="injured" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="quake" />
+            <token id="13" string="," />
+            <token id="14" string="which" />
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+            <token id="19" string="and" />
+            <token id="20" string="buried" />
+            <token id="21" string="thousands" />
+            <token id="22" string="of" />
+            <token id="23" string="people" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="rubble" />
+            <token id="27" string="of" />
+            <token id="28" string="their" />
+            <token id="29" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="died" type="VP">
+          <tokens>
+            <token id="5" string="died" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="people" type="NP">
+          <tokens>
+            <token id="23" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="their homes" type="NP">
+          <tokens>
+            <token id="28" string="their" />
+            <token id="29" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="thousands" type="NP">
+          <tokens>
+            <token id="7" string="thousands" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="scores of villages" type="NP">
+          <tokens>
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="were injured in the quake , which demolished scores of villages and buried thousands of people in the rubble of their homes" type="VP">
+          <tokens>
+            <token id="8" string="were" />
+            <token id="9" string="injured" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="quake" />
+            <token id="13" string="," />
+            <token id="14" string="which" />
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+            <token id="19" string="and" />
+            <token id="20" string="buried" />
+            <token id="21" string="thousands" />
+            <token id="22" string="of" />
+            <token id="23" string="people" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="rubble" />
+            <token id="27" string="of" />
+            <token id="28" string="their" />
+            <token id="29" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="injured in the quake , which demolished scores of villages" type="VP">
+          <tokens>
+            <token id="9" string="injured" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="quake" />
+            <token id="13" string="," />
+            <token id="14" string="which" />
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the rubble" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="rubble" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the rubble of their homes" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="rubble" />
+            <token id="27" string="of" />
+            <token id="28" string="their" />
+            <token id="29" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="buried thousands of people in the rubble of their homes" type="VP">
+          <tokens>
+            <token id="20" string="buried" />
+            <token id="21" string="thousands" />
+            <token id="22" string="of" />
+            <token id="23" string="people" />
+            <token id="24" string="in" />
+            <token id="25" string="the" />
+            <token id="26" string="rubble" />
+            <token id="27" string="of" />
+            <token id="28" string="their" />
+            <token id="29" string="homes" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="demolished scores of villages" type="VP">
+          <tokens>
+            <token id="15" string="demolished" />
+            <token id="16" string="scores" />
+            <token id="17" string="of" />
+            <token id="18" string="villages" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the quake" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="said" type="VP">
+          <tokens>
+            <token id="33" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">least</governor>
+          <dependent id="1">At</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="3">25,000</governor>
+          <dependent id="2">least</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">people</governor>
+          <dependent id="3">25,000</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">died</governor>
+          <dependent id="4">people</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="33">said</governor>
+          <dependent id="5">died</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">died</governor>
+          <dependent id="6">and</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">injured</governor>
+          <dependent id="7">thousands</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">injured</governor>
+          <dependent id="8">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">died</governor>
+          <dependent id="9">injured</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">quake</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">quake</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">injured</governor>
+          <dependent id="12">quake</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">demolished</governor>
+          <dependent id="14">which</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="12">quake</governor>
+          <dependent id="15">demolished</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">demolished</governor>
+          <dependent id="16">scores</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">villages</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">scores</governor>
+          <dependent id="18">villages</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">injured</governor>
+          <dependent id="19">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">injured</governor>
+          <dependent id="20">buried</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">buried</governor>
+          <dependent id="21">thousands</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">people</governor>
+          <dependent id="22">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">thousands</governor>
+          <dependent id="23">people</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">rubble</governor>
+          <dependent id="24">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">rubble</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">buried</governor>
+          <dependent id="26">rubble</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">homes</governor>
+          <dependent id="27">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="29">homes</governor>
+          <dependent id="28">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">rubble</governor>
+          <dependent id="29">homes</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="32">officials</governor>
+          <dependent id="31">Iranian</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">said</governor>
+          <dependent id="32">officials</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="33">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Iranian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="31" string="Iranian" />
+          </tokens>
+        </entity>
+        <entity id="2" string="25,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="25,000" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Needham said most structures in that area are built of a ceramic-type brick or adobe that collapses easily.</content>
+      <tokens>
+        <token id="1" string="Needham" lemma="Needham" stem="needham" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="structures" lemma="structure" stem="structur" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="built" lemma="build" stem="built" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="ceramic-type" lemma="ceramic-type" stem="ceramic-typ" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="brick" lemma="brick" stem="brick" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="adobe" lemma="adobe" stem="adob" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="collapses" lemma="collapse" stem="collaps" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="easily" lemma="easily" stem="easili" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Needham)) (VP (VBD said) (SBAR (S (NP (NP (JJS most) (NNS structures)) (PP (IN in) (NP (DT that) (NN area)))) (VP (VBP are) (VP (VBN built) (PP (IN of) (NP (NP (DT a) (JJ ceramic-type) (NN brick) (CC or) (NN adobe)) (SBAR (WHNP (WDT that)) (S (VP (VBZ collapses) (ADVP (RB easily)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Needham" type="NP">
+          <tokens>
+            <token id="1" string="Needham" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a ceramic-type brick or adobe" type="NP">
+          <tokens>
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="are built of a ceramic-type brick or adobe that collapses easily" type="VP">
+          <tokens>
+            <token id="8" string="are" />
+            <token id="9" string="built" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="said most structures in that area are built of a ceramic-type brick or adobe that collapses easily" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="most" />
+            <token id="4" string="structures" />
+            <token id="5" string="in" />
+            <token id="6" string="that" />
+            <token id="7" string="area" />
+            <token id="8" string="are" />
+            <token id="9" string="built" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="that collapses easily" type="SBAR">
+          <tokens>
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="most structures in that area" type="NP">
+          <tokens>
+            <token id="3" string="most" />
+            <token id="4" string="structures" />
+            <token id="5" string="in" />
+            <token id="6" string="that" />
+            <token id="7" string="area" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="built of a ceramic-type brick or adobe that collapses easily" type="VP">
+          <tokens>
+            <token id="9" string="built" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a ceramic-type brick or adobe that collapses easily" type="NP">
+          <tokens>
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="collapses easily" type="VP">
+          <tokens>
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="most structures" type="NP">
+          <tokens>
+            <token id="3" string="most" />
+            <token id="4" string="structures" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="most structures in that area are built of a ceramic-type brick or adobe that collapses easily" type="SBAR">
+          <tokens>
+            <token id="3" string="most" />
+            <token id="4" string="structures" />
+            <token id="5" string="in" />
+            <token id="6" string="that" />
+            <token id="7" string="area" />
+            <token id="8" string="are" />
+            <token id="9" string="built" />
+            <token id="10" string="of" />
+            <token id="11" string="a" />
+            <token id="12" string="ceramic-type" />
+            <token id="13" string="brick" />
+            <token id="14" string="or" />
+            <token id="15" string="adobe" />
+            <token id="16" string="that" />
+            <token id="17" string="collapses" />
+            <token id="18" string="easily" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="that area" type="NP">
+          <tokens>
+            <token id="6" string="that" />
+            <token id="7" string="area" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">Needham</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">structures</governor>
+          <dependent id="3">most</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">built</governor>
+          <dependent id="4">structures</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">area</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">area</governor>
+          <dependent id="6">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">structures</governor>
+          <dependent id="7">area</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">built</governor>
+          <dependent id="8">are</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="9">built</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">brick</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">brick</governor>
+          <dependent id="11">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">brick</governor>
+          <dependent id="12">ceramic-type</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">built</governor>
+          <dependent id="13">brick</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">brick</governor>
+          <dependent id="14">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">brick</governor>
+          <dependent id="15">adobe</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">collapses</governor>
+          <dependent id="16">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">brick</governor>
+          <dependent id="17">collapses</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="17">collapses</governor>
+          <dependent id="18">easily</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Needham" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="1" string="Needham" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>``It&amp;apost;s very similar to what we had in Armenia,&amp;apost;&amp;apost; he said of the Dec. 7, 1988, earthquake that killed about 25,000 people.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="similar" lemma="similar" stem="similar" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="what" lemma="what" stem="what" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="we" lemma="we" stem="we" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Armenia" lemma="Armenia" stem="armenia" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="15" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Dec." lemma="Dec." stem="dec." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="19" string="7" lemma="7" stem="7" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="20" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="1988" lemma="1988" stem="1988" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="22" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="24" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="killed" lemma="kill" stem="kill" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="25,000" lemma="25,000" stem="25,000" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="28" string="people" lemma="people" stem="peopl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (PRP It)) (VP (VBZ 's) (ADJP (RB very) (JJ similar) (PP (TO to) (SBAR (WHNP (WP what)) (S (NP (PRP we)) (VP (VBD had) (PP (IN in) (NP (NNP Armenia)))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said) (PP (IN of) (NP (DT the) (NP (NNP Dec.) (CD 7) (, ,) (CD 1988)) (, ,) (NP (NP (NN earthquake)) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (PP (IN about) (NP (CD 25,000) (NNS people)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="had in Armenia" type="VP">
+          <tokens>
+            <token id="9" string="had" />
+            <token id="10" string="in" />
+            <token id="11" string="Armenia" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="said of the Dec. 7 , 1988 , earthquake that killed about 25,000 people" type="VP">
+          <tokens>
+            <token id="15" string="said" />
+            <token id="16" string="of" />
+            <token id="17" string="the" />
+            <token id="18" string="Dec." />
+            <token id="19" string="7" />
+            <token id="20" string="," />
+            <token id="21" string="1988" />
+            <token id="22" string="," />
+            <token id="23" string="earthquake" />
+            <token id="24" string="that" />
+            <token id="25" string="killed" />
+            <token id="26" string="about" />
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the Dec. 7 , 1988 , earthquake that killed about 25,000 people" type="NP">
+          <tokens>
+            <token id="17" string="the" />
+            <token id="18" string="Dec." />
+            <token id="19" string="7" />
+            <token id="20" string="," />
+            <token id="21" string="1988" />
+            <token id="22" string="," />
+            <token id="23" string="earthquake" />
+            <token id="24" string="that" />
+            <token id="25" string="killed" />
+            <token id="26" string="about" />
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="It" type="NP">
+          <tokens>
+            <token id="2" string="It" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="earthquake" type="NP">
+          <tokens>
+            <token id="23" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="we" type="NP">
+          <tokens>
+            <token id="8" string="we" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="killed about 25,000 people" type="VP">
+          <tokens>
+            <token id="25" string="killed" />
+            <token id="26" string="about" />
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="25,000 people" type="NP">
+          <tokens>
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="earthquake that killed about 25,000 people" type="NP">
+          <tokens>
+            <token id="23" string="earthquake" />
+            <token id="24" string="that" />
+            <token id="25" string="killed" />
+            <token id="26" string="about" />
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="very similar to what we had in Armenia" type="ADJP">
+          <tokens>
+            <token id="4" string="very" />
+            <token id="5" string="similar" />
+            <token id="6" string="to" />
+            <token id="7" string="what" />
+            <token id="8" string="we" />
+            <token id="9" string="had" />
+            <token id="10" string="in" />
+            <token id="11" string="Armenia" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Armenia" type="NP">
+          <tokens>
+            <token id="11" string="Armenia" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Dec. 7 , 1988" type="NP">
+          <tokens>
+            <token id="18" string="Dec." />
+            <token id="19" string="7" />
+            <token id="20" string="," />
+            <token id="21" string="1988" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="that killed about 25,000 people" type="SBAR">
+          <tokens>
+            <token id="24" string="that" />
+            <token id="25" string="killed" />
+            <token id="26" string="about" />
+            <token id="27" string="25,000" />
+            <token id="28" string="people" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="what we had in Armenia" type="SBAR">
+          <tokens>
+            <token id="7" string="what" />
+            <token id="8" string="we" />
+            <token id="9" string="had" />
+            <token id="10" string="in" />
+            <token id="11" string="Armenia" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="'s very similar to what we had in Armenia" type="VP">
+          <tokens>
+            <token id="3" string="'s" />
+            <token id="4" string="very" />
+            <token id="5" string="similar" />
+            <token id="6" string="to" />
+            <token id="7" string="what" />
+            <token id="8" string="we" />
+            <token id="9" string="had" />
+            <token id="10" string="in" />
+            <token id="11" string="Armenia" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="he" type="NP">
+          <tokens>
+            <token id="14" string="he" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">similar</governor>
+          <dependent id="2">It</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">similar</governor>
+          <dependent id="3">'s</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">similar</governor>
+          <dependent id="4">very</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="15">said</governor>
+          <dependent id="5">similar</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="9">had</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">had</governor>
+          <dependent id="7">what</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">had</governor>
+          <dependent id="8">we</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">similar</governor>
+          <dependent id="9">had</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Armenia</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">had</governor>
+          <dependent id="11">Armenia</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">said</governor>
+          <dependent id="14">he</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">said</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Dec.</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">Dec.</governor>
+          <dependent id="17">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">said</governor>
+          <dependent id="18">Dec.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="18">Dec.</governor>
+          <dependent id="19">7</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="18">Dec.</governor>
+          <dependent id="21">1988</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="18">Dec.</governor>
+          <dependent id="23">earthquake</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="25">killed</governor>
+          <dependent id="24">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="23">earthquake</governor>
+          <dependent id="25">killed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">people</governor>
+          <dependent id="26">about</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="28">people</governor>
+          <dependent id="27">25,000</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">killed</governor>
+          <dependent id="28">people</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Armenia" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Armenia" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Dec. 7 , 1988" type="DATE" score="0.0">
+          <tokens>
+            <token id="18" string="Dec." />
+            <token id="19" string="7" />
+            <token id="20" string="," />
+            <token id="21" string="1988" />
+          </tokens>
+        </entity>
+        <entity id="3" string="25,000" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="27" string="25,000" />
+          </tokens>
+        </entity>
+        <entity id="4" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="23" string="earthquake" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>A Soviet parliamentary report later blamed the high number of fatalities on shoddily built buildings.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Soviet" lemma="soviet" stem="soviet" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="3" string="parliamentary" lemma="parliamentary" stem="parliamentari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="report" lemma="report" stem="report" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="later" lemma="later" stem="later" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="blamed" lemma="blame" stem="blame" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="high" lemma="high" stem="high" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="fatalities" lemma="fatality" stem="fatal" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="shoddily" lemma="shoddily" stem="shoddili" pos="RB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="built" lemma="build" stem="built" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (JJ Soviet) (JJ parliamentary) (NN report)) (ADVP (RB later)) (VP (VBD blamed) (NP (NP (DT the) (JJ high) (NN number)) (PP (IN of) (NP (NP (NNS fatalities)) (PP (IN on) (NP (ADJP (RB shoddily) (VBN built)) (NNS buildings))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the high number of fatalities on shoddily built buildings" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="high" />
+            <token id="9" string="number" />
+            <token id="10" string="of" />
+            <token id="11" string="fatalities" />
+            <token id="12" string="on" />
+            <token id="13" string="shoddily" />
+            <token id="14" string="built" />
+            <token id="15" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the high number" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="high" />
+            <token id="9" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="blamed the high number of fatalities on shoddily built buildings" type="VP">
+          <tokens>
+            <token id="6" string="blamed" />
+            <token id="7" string="the" />
+            <token id="8" string="high" />
+            <token id="9" string="number" />
+            <token id="10" string="of" />
+            <token id="11" string="fatalities" />
+            <token id="12" string="on" />
+            <token id="13" string="shoddily" />
+            <token id="14" string="built" />
+            <token id="15" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="A Soviet parliamentary report" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="Soviet" />
+            <token id="3" string="parliamentary" />
+            <token id="4" string="report" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="fatalities" type="NP">
+          <tokens>
+            <token id="11" string="fatalities" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="shoddily built buildings" type="NP">
+          <tokens>
+            <token id="13" string="shoddily" />
+            <token id="14" string="built" />
+            <token id="15" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="fatalities on shoddily built buildings" type="NP">
+          <tokens>
+            <token id="11" string="fatalities" />
+            <token id="12" string="on" />
+            <token id="13" string="shoddily" />
+            <token id="14" string="built" />
+            <token id="15" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="shoddily built" type="ADJP">
+          <tokens>
+            <token id="13" string="shoddily" />
+            <token id="14" string="built" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="4">report</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">report</governor>
+          <dependent id="2">Soviet</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">report</governor>
+          <dependent id="3">parliamentary</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">blamed</governor>
+          <dependent id="4">report</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">blamed</governor>
+          <dependent id="5">later</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">blamed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">number</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">number</governor>
+          <dependent id="8">high</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">blamed</governor>
+          <dependent id="9">number</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">fatalities</governor>
+          <dependent id="10">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">number</governor>
+          <dependent id="11">fatalities</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">buildings</governor>
+          <dependent id="12">on</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">built</governor>
+          <dependent id="13">shoddily</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">buildings</governor>
+          <dependent id="14">built</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">fatalities</governor>
+          <dependent id="15">buildings</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Soviet" type="MISC" score="0.0">
+          <tokens>
+            <token id="2" string="Soviet" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>The Armenian quake was measured at 6.9 on the Richter scale, but Thursday&amp;apost;s earthquake shook the earth with a magnitude of 7.7.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Armenian" lemma="armenian" stem="armenian" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="3" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="measured" lemma="measure" stem="measur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="6.9" lemma="6.9" stem="6.9" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Richter" lemma="Richter" stem="richter" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="scale" lemma="scale" stem="scale" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="true" />
+        <token id="15" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="16" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="17" string="shook" lemma="shake" stem="shook" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="earth" lemma="earth" stem="earth" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="magnitude" lemma="magnitude" stem="magnitud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="7.7" lemma="7.7" stem="7.7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (JJ Armenian) (NN quake)) (VP (VBD was) (VP (VBN measured) (PP (IN at) (NP (CD 6.9))) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale)))))) (, ,) (CC but) (S (NP (NP (NNP Thursday) (POS 's)) (NN earthquake)) (VP (VBD shook) (NP (DT the) (NN earth)) (PP (IN with) (NP (NP (DT a) (NN magnitude)) (PP (IN of) (NP (CD 7.7))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was measured at 6.9 on the Richter scale" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="measured" />
+            <token id="6" string="at" />
+            <token id="7" string="6.9" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="Richter" />
+            <token id="11" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="6.9" type="NP">
+          <tokens>
+            <token id="7" string="6.9" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the earth" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a magnitude" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="magnitude" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Richter scale" type="NP">
+          <tokens>
+            <token id="9" string="the" />
+            <token id="10" string="Richter" />
+            <token id="11" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="measured at 6.9 on the Richter scale" type="VP">
+          <tokens>
+            <token id="5" string="measured" />
+            <token id="6" string="at" />
+            <token id="7" string="6.9" />
+            <token id="8" string="on" />
+            <token id="9" string="the" />
+            <token id="10" string="Richter" />
+            <token id="11" string="scale" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Thursday 's earthquake" type="NP">
+          <tokens>
+            <token id="14" string="Thursday" />
+            <token id="15" string="'s" />
+            <token id="16" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="The Armenian quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Armenian" />
+            <token id="3" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Thursday 's" type="NP">
+          <tokens>
+            <token id="14" string="Thursday" />
+            <token id="15" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="shook the earth with a magnitude of 7.7" type="VP">
+          <tokens>
+            <token id="17" string="shook" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="with" />
+            <token id="21" string="a" />
+            <token id="22" string="magnitude" />
+            <token id="23" string="of" />
+            <token id="24" string="7.7" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a magnitude of 7.7" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="magnitude" />
+            <token id="23" string="of" />
+            <token id="24" string="7.7" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="7.7" type="NP">
+          <tokens>
+            <token id="24" string="7.7" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">quake</governor>
+          <dependent id="2">Armenian</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="5">measured</governor>
+          <dependent id="3">quake</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="5">measured</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">measured</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">6.9</governor>
+          <dependent id="6">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">measured</governor>
+          <dependent id="7">6.9</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">scale</governor>
+          <dependent id="8">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">scale</governor>
+          <dependent id="9">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">scale</governor>
+          <dependent id="10">Richter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">measured</governor>
+          <dependent id="11">scale</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">measured</governor>
+          <dependent id="13">but</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">earthquake</governor>
+          <dependent id="14">Thursday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Thursday</governor>
+          <dependent id="15">'s</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">shook</governor>
+          <dependent id="16">earthquake</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">measured</governor>
+          <dependent id="17">shook</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">earth</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="17">shook</governor>
+          <dependent id="19">earth</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">magnitude</governor>
+          <dependent id="20">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">magnitude</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">shook</governor>
+          <dependent id="22">magnitude</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">7.7</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">magnitude</governor>
+          <dependent id="24">7.7</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="6.9" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="6.9" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Armenian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="2" string="Armenian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="16" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="5" string="7.7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="24" string="7.7" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>The shock wave traveled through the mountainous section of coastal Iran where most of the buildings are built on a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse, he said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="shock" lemma="shock" stem="shock" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="wave" lemma="wave" stem="wave" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="traveled" lemma="travel" stem="travel" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="mountainous" lemma="mountainous" stem="mountain" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="section" lemma="section" stem="section" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="coastal" lemma="coastal" stem="coastal" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="12" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="most" lemma="most" stem="most" pos="JJS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="16" string="buildings" lemma="building" stem="build" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="built" lemma="build" stem="built" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="flood" lemma="flood" stem="flood" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="22" string="plain" lemma="plain" stem="plain" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="loosely" lemma="loosely" stem="loos" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="deposited" lemma="deposit" stem="deposit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="soil" lemma="soil" stem="soil" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="shifts" lemma="shift" stem="shift" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="32" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="allows" lemma="allow" stem="allow" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="structures" lemma="structure" stem="structur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="35" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="collapse" lemma="collapse" stem="collaps" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="37" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="39" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="40" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NN shock) (NN wave)) (VP (VBD traveled) (PP (IN through) (NP (NP (DT the) (JJ mountainous) (NN section)) (PP (IN of) (NP (JJ coastal) (NNP Iran))))) (SBAR (WHADVP (WRB where)) (S (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NNS buildings)))) (VP (VBP are) (VP (VBN built) (PP (IN on) (NP (NP (DT a) (NN flood) (NN plain)) (PP (IN of) (NP (NP (ADJP (RB loosely) (VBN deposited)) (NN soil)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ shifts) (PP (IN in) (NP (DT an) (NN earthquake)))) (CC and) (VP (VBZ allows) (NP (NNS structures)) (PP (TO to) (NP (NN collapse))))))))))))))))) (, ,) (NP (PRP he)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="that shifts in an earthquake and allows structures to collapse" type="SBAR">
+          <tokens>
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the mountainous section" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="mountainous" />
+            <token id="8" string="section" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="an earthquake" type="NP">
+          <tokens>
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="shifts in an earthquake and allows structures to collapse" type="VP">
+          <tokens>
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="shifts in an earthquake" type="VP">
+          <tokens>
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="built on a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="VP">
+          <tokens>
+            <token id="18" string="built" />
+            <token id="19" string="on" />
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+            <token id="23" string="of" />
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="most" type="NP">
+          <tokens>
+            <token id="13" string="most" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the buildings" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the mountainous section of coastal Iran" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="mountainous" />
+            <token id="8" string="section" />
+            <token id="9" string="of" />
+            <token id="10" string="coastal" />
+            <token id="11" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="are built on a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="VP">
+          <tokens>
+            <token id="17" string="are" />
+            <token id="18" string="built" />
+            <token id="19" string="on" />
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+            <token id="23" string="of" />
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="where most of the buildings are built on a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="SBAR">
+          <tokens>
+            <token id="12" string="where" />
+            <token id="13" string="most" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="buildings" />
+            <token id="17" string="are" />
+            <token id="18" string="built" />
+            <token id="19" string="on" />
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+            <token id="23" string="of" />
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="allows structures to collapse" type="VP">
+          <tokens>
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="he" type="NP">
+          <tokens>
+            <token id="38" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="NP">
+          <tokens>
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="collapse" type="NP">
+          <tokens>
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="a flood plain" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="traveled through the mountainous section of coastal Iran where most of the buildings are built on a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="VP">
+          <tokens>
+            <token id="4" string="traveled" />
+            <token id="5" string="through" />
+            <token id="6" string="the" />
+            <token id="7" string="mountainous" />
+            <token id="8" string="section" />
+            <token id="9" string="of" />
+            <token id="10" string="coastal" />
+            <token id="11" string="Iran" />
+            <token id="12" string="where" />
+            <token id="13" string="most" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="buildings" />
+            <token id="17" string="are" />
+            <token id="18" string="built" />
+            <token id="19" string="on" />
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+            <token id="23" string="of" />
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="most of the buildings" type="NP">
+          <tokens>
+            <token id="13" string="most" />
+            <token id="14" string="of" />
+            <token id="15" string="the" />
+            <token id="16" string="buildings" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="coastal Iran" type="NP">
+          <tokens>
+            <token id="10" string="coastal" />
+            <token id="11" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="The shock wave" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="shock" />
+            <token id="3" string="wave" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="a flood plain of loosely deposited soil that shifts in an earthquake and allows structures to collapse" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="flood" />
+            <token id="22" string="plain" />
+            <token id="23" string="of" />
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+            <token id="27" string="that" />
+            <token id="28" string="shifts" />
+            <token id="29" string="in" />
+            <token id="30" string="an" />
+            <token id="31" string="earthquake" />
+            <token id="32" string="and" />
+            <token id="33" string="allows" />
+            <token id="34" string="structures" />
+            <token id="35" string="to" />
+            <token id="36" string="collapse" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="loosely deposited" type="ADJP">
+          <tokens>
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="structures" type="NP">
+          <tokens>
+            <token id="34" string="structures" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="where" type="WHADVP">
+          <tokens>
+            <token id="12" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="loosely deposited soil" type="NP">
+          <tokens>
+            <token id="24" string="loosely" />
+            <token id="25" string="deposited" />
+            <token id="26" string="soil" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="said" type="VP">
+          <tokens>
+            <token id="39" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">wave</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">wave</governor>
+          <dependent id="2">shock</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">traveled</governor>
+          <dependent id="3">wave</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="39">said</governor>
+          <dependent id="4">traveled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">section</governor>
+          <dependent id="5">through</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">section</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">section</governor>
+          <dependent id="7">mountainous</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">traveled</governor>
+          <dependent id="8">section</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Iran</governor>
+          <dependent id="9">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">Iran</governor>
+          <dependent id="10">coastal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">section</governor>
+          <dependent id="11">Iran</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">built</governor>
+          <dependent id="12">where</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="18">built</governor>
+          <dependent id="13">most</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">buildings</governor>
+          <dependent id="14">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">buildings</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">most</governor>
+          <dependent id="16">buildings</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="18">built</governor>
+          <dependent id="17">are</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="4">traveled</governor>
+          <dependent id="18">built</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">plain</governor>
+          <dependent id="19">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">plain</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">plain</governor>
+          <dependent id="21">flood</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">built</governor>
+          <dependent id="22">plain</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">soil</governor>
+          <dependent id="23">of</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="25">deposited</governor>
+          <dependent id="24">loosely</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">soil</governor>
+          <dependent id="25">deposited</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">plain</governor>
+          <dependent id="26">soil</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="28">shifts</governor>
+          <dependent id="27">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="26">soil</governor>
+          <dependent id="28">shifts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">earthquake</governor>
+          <dependent id="29">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">earthquake</governor>
+          <dependent id="30">an</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">shifts</governor>
+          <dependent id="31">earthquake</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="28">shifts</governor>
+          <dependent id="32">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="28">shifts</governor>
+          <dependent id="33">allows</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="33">allows</governor>
+          <dependent id="34">structures</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="36">collapse</governor>
+          <dependent id="35">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="33">allows</governor>
+          <dependent id="36">collapse</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="39">said</governor>
+          <dependent id="38">he</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="39">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="2" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="31" string="earthquake" />
+          </tokens>
+        </entity>
+        <entity id="3" string="flood" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="21" string="flood" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>The 7.7-magnitude quake was the largest ever recorded in that area, where two major plates of the earth&amp;apost;s crust meet, Needhams said.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="7.7-magnitude" lemma="7.7-magnitude" stem="7.7-magnitud" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="largest" lemma="largest" stem="largest" pos="JJS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="ever" lemma="ever" stem="ever" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="recorded" lemma="record" stem="record" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="area" lemma="area" stem="area" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="15" string="major" lemma="major" stem="major" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="16" string="plates" lemma="plate" stem="plate" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="earth" lemma="earth" stem="earth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="20" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="21" string="crust" lemma="crust" stem="crust" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="22" string="meet" lemma="meet" stem="meet" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Needhams" lemma="Needhams" stem="needham" pos="NNPS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="25" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (JJ 7.7-magnitude) (NN quake)) (VP (VBD was) (NP (NP (DT the) (JJS largest)) (VP (ADVP (RB ever)) (VBN recorded) (PP (IN in) (NP (NP (DT that) (NN area)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NP (CD two) (JJ major) (NNS plates)) (PP (IN of) (NP (NP (DT the) (NN earth) (POS 's)) (NN crust)))) (VP (VB meet)))))))))) (, ,) (NP (NNPS Needhams)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="ever recorded in that area , where two major plates of the earth 's crust meet" type="VP">
+          <tokens>
+            <token id="7" string="ever" />
+            <token id="8" string="recorded" />
+            <token id="9" string="in" />
+            <token id="10" string="that" />
+            <token id="11" string="area" />
+            <token id="12" string="," />
+            <token id="13" string="where" />
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the largest ever recorded in that area , where two major plates of the earth 's crust meet" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="largest" />
+            <token id="7" string="ever" />
+            <token id="8" string="recorded" />
+            <token id="9" string="in" />
+            <token id="10" string="that" />
+            <token id="11" string="area" />
+            <token id="12" string="," />
+            <token id="13" string="where" />
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Needhams" type="NP">
+          <tokens>
+            <token id="24" string="Needhams" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the earth 's crust" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the earth 's" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="two major plates of the earth 's crust" type="NP">
+          <tokens>
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was the largest ever recorded in that area , where two major plates of the earth 's crust meet" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="the" />
+            <token id="6" string="largest" />
+            <token id="7" string="ever" />
+            <token id="8" string="recorded" />
+            <token id="9" string="in" />
+            <token id="10" string="that" />
+            <token id="11" string="area" />
+            <token id="12" string="," />
+            <token id="13" string="where" />
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="meet" type="VP">
+          <tokens>
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the largest" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="largest" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="two major plates" type="NP">
+          <tokens>
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="that area , where two major plates of the earth 's crust meet" type="NP">
+          <tokens>
+            <token id="10" string="that" />
+            <token id="11" string="area" />
+            <token id="12" string="," />
+            <token id="13" string="where" />
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="where" type="WHADVP">
+          <tokens>
+            <token id="13" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="where two major plates of the earth 's crust meet" type="SBAR">
+          <tokens>
+            <token id="13" string="where" />
+            <token id="14" string="two" />
+            <token id="15" string="major" />
+            <token id="16" string="plates" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="earth" />
+            <token id="20" string="'s" />
+            <token id="21" string="crust" />
+            <token id="22" string="meet" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="said" type="VP">
+          <tokens>
+            <token id="25" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="The 7.7-magnitude quake" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="7.7-magnitude" />
+            <token id="3" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="that area" type="NP">
+          <tokens>
+            <token id="10" string="that" />
+            <token id="11" string="area" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">quake</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">quake</governor>
+          <dependent id="2">7.7-magnitude</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">largest</governor>
+          <dependent id="3">quake</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">largest</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">largest</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="25">said</governor>
+          <dependent id="6">largest</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="8">recorded</governor>
+          <dependent id="7">ever</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="6">largest</governor>
+          <dependent id="8">recorded</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">area</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">area</governor>
+          <dependent id="10">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">recorded</governor>
+          <dependent id="11">area</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="22">meet</governor>
+          <dependent id="13">where</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="16">plates</governor>
+          <dependent id="14">two</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">plates</governor>
+          <dependent id="15">major</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="22">meet</governor>
+          <dependent id="16">plates</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">crust</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">earth</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="21">crust</governor>
+          <dependent id="19">earth</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">earth</governor>
+          <dependent id="20">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">plates</governor>
+          <dependent id="21">crust</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="11">area</governor>
+          <dependent id="22">meet</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="25">said</governor>
+          <dependent id="24">Needhams</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="25">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Needhams" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="24" string="Needhams" />
+          </tokens>
+        </entity>
+        <entity id="2" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="14" string="two" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>``Iran is in a very active seismic region,&amp;apost;&amp;apost; he said, and that there have been many smaller quakes.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="active" lemma="active" stem="activ" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="seismic" lemma="seismic" stem="seismic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="region" lemma="region" stem="region" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="many" lemma="many" stem="mani" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="smaller" lemma="smaller" stem="smaller" pos="JJR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="quakes" lemma="quake" stem="quak" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (NNP Iran)) (VP (VBZ is) (PP (IN in) (NP (NP (DT a) (ADJP (RB very) (JJ active)) (JJ seismic) (NN region)) (, ,) ('' '') (SBAR (SBAR (S (NP (PRP he)) (VP (VBD said)))) (, ,) (CC and) (SBAR (IN that) (S (NP (EX there)) (VP (VBP have) (VP (VBN been) (NP (JJ many) (JJR smaller) (NNS quakes)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="have been many smaller quakes" type="VP">
+          <tokens>
+            <token id="18" string="have" />
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="is in a very active seismic region , '' he said , and that there have been many smaller quakes" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="in" />
+            <token id="5" string="a" />
+            <token id="6" string="very" />
+            <token id="7" string="active" />
+            <token id="8" string="seismic" />
+            <token id="9" string="region" />
+            <token id="10" string="," />
+            <token id="11" string="''" />
+            <token id="12" string="he" />
+            <token id="13" string="said" />
+            <token id="14" string="," />
+            <token id="15" string="and" />
+            <token id="16" string="that" />
+            <token id="17" string="there" />
+            <token id="18" string="have" />
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a very active seismic region , '' he said , and that there have been many smaller quakes" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="very" />
+            <token id="7" string="active" />
+            <token id="8" string="seismic" />
+            <token id="9" string="region" />
+            <token id="10" string="," />
+            <token id="11" string="''" />
+            <token id="12" string="he" />
+            <token id="13" string="said" />
+            <token id="14" string="," />
+            <token id="15" string="and" />
+            <token id="16" string="that" />
+            <token id="17" string="there" />
+            <token id="18" string="have" />
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="many smaller quakes" type="NP">
+          <tokens>
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="very active" type="ADJP">
+          <tokens>
+            <token id="6" string="very" />
+            <token id="7" string="active" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="there" type="NP">
+          <tokens>
+            <token id="17" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="he said" type="SBAR">
+          <tokens>
+            <token id="12" string="he" />
+            <token id="13" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="been many smaller quakes" type="VP">
+          <tokens>
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Iran" type="NP">
+          <tokens>
+            <token id="2" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a very active seismic region" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="very" />
+            <token id="7" string="active" />
+            <token id="8" string="seismic" />
+            <token id="9" string="region" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="he" type="NP">
+          <tokens>
+            <token id="12" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="said" type="VP">
+          <tokens>
+            <token id="13" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="that there have been many smaller quakes" type="SBAR">
+          <tokens>
+            <token id="16" string="that" />
+            <token id="17" string="there" />
+            <token id="18" string="have" />
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="he said , and that there have been many smaller quakes" type="SBAR">
+          <tokens>
+            <token id="12" string="he" />
+            <token id="13" string="said" />
+            <token id="14" string="," />
+            <token id="15" string="and" />
+            <token id="16" string="that" />
+            <token id="17" string="there" />
+            <token id="18" string="have" />
+            <token id="19" string="been" />
+            <token id="20" string="many" />
+            <token id="21" string="smaller" />
+            <token id="22" string="quakes" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="9">region</governor>
+          <dependent id="2">Iran</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="9">region</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">region</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">region</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">active</governor>
+          <dependent id="6">very</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">region</governor>
+          <dependent id="7">active</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">region</governor>
+          <dependent id="8">seismic</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">region</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">said</governor>
+          <dependent id="12">he</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="9">region</governor>
+          <dependent id="13">said</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="13">said</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">quakes</governor>
+          <dependent id="16">that</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="22">quakes</governor>
+          <dependent id="17">there</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="22">quakes</governor>
+          <dependent id="18">have</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="22">quakes</governor>
+          <dependent id="19">been</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">quakes</governor>
+          <dependent id="20">many</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">quakes</governor>
+          <dependent id="21">smaller</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="13">said</governor>
+          <dependent id="22">quakes</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="Iran" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>Twelve earthquakes greater than magnitude 7 have occurred in Iran during the last 30 years, Needhams said.</content>
+      <tokens>
+        <token id="1" string="Twelve" lemma="twelve" stem="twelv" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="2" string="earthquakes" lemma="earthquake" stem="earthquak" pos="NNS" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="3" string="greater" lemma="greater" stem="greater" pos="JJR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="magnitude" lemma="magnitude" stem="magnitud" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="7" lemma="7" stem="7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="7" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="occurred" lemma="occur" stem="occur" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Iran" lemma="Iran" stem="iran" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="11" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="13" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="30" lemma="30" stem="30" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Needhams" lemma="needham" stem="needham" pos="NNS" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (ADJP (ADJP (NP (CD Twelve) (NNS earthquakes)) (JJR greater)) (SBAR (IN than) (S (NP (NN magnitude) (CD 7)) (VP (VBP have) (VP (VBN occurred) (PP (IN in) (NP (NNP Iran))) (PP (IN during) (NP (DT the) (JJ last) (CD 30) (NNS years))))))))) (, ,) (NP (NNS Needhams)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Twelve earthquakes" type="NP">
+          <tokens>
+            <token id="1" string="Twelve" />
+            <token id="2" string="earthquakes" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Twelve earthquakes greater than magnitude 7 have occurred in Iran during the last 30 years" type="ADJP">
+          <tokens>
+            <token id="1" string="Twelve" />
+            <token id="2" string="earthquakes" />
+            <token id="3" string="greater" />
+            <token id="4" string="than" />
+            <token id="5" string="magnitude" />
+            <token id="6" string="7" />
+            <token id="7" string="have" />
+            <token id="8" string="occurred" />
+            <token id="9" string="in" />
+            <token id="10" string="Iran" />
+            <token id="11" string="during" />
+            <token id="12" string="the" />
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Iran" type="NP">
+          <tokens>
+            <token id="10" string="Iran" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="magnitude 7" type="NP">
+          <tokens>
+            <token id="5" string="magnitude" />
+            <token id="6" string="7" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="occurred in Iran during the last 30 years" type="VP">
+          <tokens>
+            <token id="8" string="occurred" />
+            <token id="9" string="in" />
+            <token id="10" string="Iran" />
+            <token id="11" string="during" />
+            <token id="12" string="the" />
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Needhams" type="NP">
+          <tokens>
+            <token id="17" string="Needhams" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the last 30 years" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="have occurred in Iran during the last 30 years" type="VP">
+          <tokens>
+            <token id="7" string="have" />
+            <token id="8" string="occurred" />
+            <token id="9" string="in" />
+            <token id="10" string="Iran" />
+            <token id="11" string="during" />
+            <token id="12" string="the" />
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="than magnitude 7 have occurred in Iran during the last 30 years" type="SBAR">
+          <tokens>
+            <token id="4" string="than" />
+            <token id="5" string="magnitude" />
+            <token id="6" string="7" />
+            <token id="7" string="have" />
+            <token id="8" string="occurred" />
+            <token id="9" string="in" />
+            <token id="10" string="Iran" />
+            <token id="11" string="during" />
+            <token id="12" string="the" />
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Twelve earthquakes greater" type="ADJP">
+          <tokens>
+            <token id="1" string="Twelve" />
+            <token id="2" string="earthquakes" />
+            <token id="3" string="greater" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">earthquakes</governor>
+          <dependent id="1">Twelve</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="3">greater</governor>
+          <dependent id="2">earthquakes</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="3">greater</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">occurred</governor>
+          <dependent id="4">than</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">occurred</governor>
+          <dependent id="5">magnitude</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">magnitude</governor>
+          <dependent id="6">7</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">occurred</governor>
+          <dependent id="7">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">greater</governor>
+          <dependent id="8">occurred</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">Iran</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">occurred</governor>
+          <dependent id="10">Iran</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">years</governor>
+          <dependent id="11">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">years</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">years</governor>
+          <dependent id="13">last</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="15">years</governor>
+          <dependent id="14">30</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">occurred</governor>
+          <dependent id="15">years</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="17">Needhams</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="the" type="DURATION" score="0.0">
+          <tokens>
+            <token id="12" string="the" />
+          </tokens>
+        </entity>
+        <entity id="2" string="7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="6" string="7" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Iran" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="10" string="Iran" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Needhams" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="17" string="Needhams" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Twelve" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Twelve" />
+          </tokens>
+        </entity>
+        <entity id="6" string="last 30 years" type="DATE" score="0.0">
+          <tokens>
+            <token id="13" string="last" />
+            <token id="14" string="30" />
+            <token id="15" string="years" />
+          </tokens>
+        </entity>
+        <entity id="7" string="earthquakes" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="2" string="earthquakes" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="false">
+      <content>A quake of magnitude 7 is considered a major earthquake, capable of widespread, heavy damage in populated areas.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="quake" lemma="quake" stem="quak" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="magnitude" lemma="magnitude" stem="magnitud" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="7" lemma="7" stem="7" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="6" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="considered" lemma="consider" stem="consid" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="major" lemma="major" stem="major" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="earthquake" lemma="earthquake" stem="earthquak" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="capable" lemma="capable" stem="capabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="widespread" lemma="widespread" stem="widespread" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="heavy" lemma="heavy" stem="heavi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="damage" lemma="damage" stem="damag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="populated" lemma="populated" stem="popul" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="areas" lemma="area" stem="area" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT A) (NN quake)) (PP (IN of) (NP (NN magnitude) (CD 7)))) (VP (VBZ is) (VP (VBN considered) (NP (NP (DT a) (JJ major) (NN earthquake)) (, ,) (ADJP (JJ capable) (PP (IN of) (NP (JJ widespread) (, ,) (JJ heavy) (NN damage))))) (PP (IN in) (NP (JJ populated) (NNS areas))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a major earthquake , capable of widespread , heavy damage" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="major" />
+            <token id="10" string="earthquake" />
+            <token id="11" string="," />
+            <token id="12" string="capable" />
+            <token id="13" string="of" />
+            <token id="14" string="widespread" />
+            <token id="15" string="," />
+            <token id="16" string="heavy" />
+            <token id="17" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a major earthquake" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="major" />
+            <token id="10" string="earthquake" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="capable of widespread , heavy damage" type="ADJP">
+          <tokens>
+            <token id="12" string="capable" />
+            <token id="13" string="of" />
+            <token id="14" string="widespread" />
+            <token id="15" string="," />
+            <token id="16" string="heavy" />
+            <token id="17" string="damage" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is considered a major earthquake , capable of widespread , heavy damage in populated areas" type="VP">
+          <tokens>
+            <token id="6" string="is" />
+            <token id="7" string="considered" />
+            <token id="8" string="a" />
+            <token id="9" string="major" />
+            <token id="10" string="earthquake" />
+            <token id="11" string="," />
+            <token id="12" string="capable" />
+            <token id="13" string="of" />
+            <token id="14" string="widespread" />
+            <token id="15" string="," />
+            <token id="16" string="heavy" />
+            <token id="17" string="damage" />
+            <token id="18" string="in" />
+            <token id="19" string="populated" />
+            <token id="20" string="areas" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="populated areas" type="NP">
+          <tokens>
+            <token id="19" string="populated" />
+            <token id="20" string="areas" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="A quake of magnitude 7" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="quake" />
+            <token id="3" string="of" />
+            <token id="4" string="magnitude" />
+            <token id="5" string="7" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="A quake" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="quake" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="magnitude 7" type="NP">
+          <tokens>
+            <token id="4" string="magnitude" />
+            <token id="5" string="7" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="considered a major earthquake , capable of widespread , heavy damage in populated areas" type="VP">
+          <tokens>
+            <token id="7" string="considered" />
+            <token id="8" string="a" />
+            <token id="9" string="major" />
+            <token id="10" string="earthquake" />
+            <token id="11" string="," />
+            <token id="12" string="capable" />
+            <token id="13" string="of" />
+            <token id="14" string="widespread" />
+            <token id="15" string="," />
+            <token id="16" string="heavy" />
+            <token id="17" string="damage" />
+            <token id="18" string="in" />
+            <token id="19" string="populated" />
+            <token id="20" string="areas" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="widespread , heavy damage" type="NP">
+          <tokens>
+            <token id="14" string="widespread" />
+            <token id="15" string="," />
+            <token id="16" string="heavy" />
+            <token id="17" string="damage" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">quake</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">considered</governor>
+          <dependent id="2">quake</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">magnitude</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">quake</governor>
+          <dependent id="4">magnitude</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">magnitude</governor>
+          <dependent id="5">7</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">considered</governor>
+          <dependent id="6">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">considered</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">earthquake</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">earthquake</governor>
+          <dependent id="9">major</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">considered</governor>
+          <dependent id="10">earthquake</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">earthquake</governor>
+          <dependent id="12">capable</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">damage</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">damage</governor>
+          <dependent id="14">widespread</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">damage</governor>
+          <dependent id="16">heavy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">capable</governor>
+          <dependent id="17">damage</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">areas</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">areas</governor>
+          <dependent id="19">populated</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">considered</governor>
+          <dependent id="20">areas</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="7" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="5" string="7" />
+          </tokens>
+        </entity>
+        <entity id="2" string="earthquake" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="10" string="earthquake" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="10-11" string="coastal Iran" id_sentence="9" />
+      <mentions>
+        <mention ids_tokens="5" string="Iran" id_sentence="1" />
+        <mention ids_tokens="8" string="Iran" id_sentence="3" />
+        <mention ids_tokens="2" string="Iran" id_sentence="11" />
+        <mention ids_tokens="10" string="Iran" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="14-15-16" string="Thursday 's earthquake" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="1-7" string="The earthquake that devastated Iran early Thursday" id_sentence="1" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="6-7" string="early Thursday" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="22" string="Thursday" id_sentence="3" />
+        <mention ids_tokens="14-15" string="Thursday's" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="13-14" string="the people" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="15" string="people" id_sentence="1" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="19-20-21-22-23-24" string="fragile homes built on flood plains" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="17-18" string="their homes" id_sentence="3" />
+        <mention ids_tokens="28-29" string="their homes" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="18-19" string="Russ Needham" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="20" string="Needham" id_sentence="3" />
+        <mention ids_tokens="1" string="Needham" id_sentence="5" />
+        <mention ids_tokens="14" string="he" id_sentence="6" />
+        <mention ids_tokens="38" string="he" id_sentence="9" />
+        <mention ids_tokens="24" string="Needhams" id_sentence="10" />
+        <mention ids_tokens="12" string="he" id_sentence="11" />
+        <mention ids_tokens="17" string="Needhams" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4" string="At least 25,000 people" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="8" string="we" id_sentence="6" />
+        <mention ids_tokens="27-28" string="25,000 people" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="NOMINAL">
+      <referenced ids_tokens="3-4-5-6-7" string="most structures in that area" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="34" string="structures" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="NOMINAL">
+      <referenced ids_tokens="6-7" string="that area" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="2" string="It" id_sentence="6" />
+        <mention ids_tokens="10-22" string="that area , where two major plates of the earth's crust meet" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="13" type="NOMINAL">
+      <referenced ids_tokens="13-14-15" string="shoddily built buildings" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="15-16" string="the buildings" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="14" type="NOMINAL">
+      <referenced ids_tokens="18-19" string="the earth" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="18-20" string="the earth's" id_sentence="10" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP880929-0042">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Florence Griffith Joyner twice smashed a world record Thursday as she blazed to a gold medal in the 200-meter sprint.</content>
+      <tokens>
+        <token id="1" string="Florence" lemma="Florence" stem="florenc" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="twice" lemma="twice" stem="twice" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="smashed" lemma="smash" stem="smash" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="world" lemma="world" stem="world" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="10" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="blazed" lemma="blaze" stem="blaze" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="gold" lemma="gold" stem="gold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="medal" lemma="medal" stem="medal" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="200-meter" lemma="200-meter" stem="200-meter" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="sprint" lemma="sprint" stem="sprint" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Florence) (NNP Griffith) (NNP Joyner)) (ADVP (RB twice)) (VP (VBD smashed) (NP (DT a) (NN world) (NN record)) (NP-TMP (NNP Thursday)) (SBAR (IN as) (S (NP (PRP she)) (VP (VBD blazed) (PP (TO to) (NP (DT a) (NN gold) (NN medal))) (PP (IN in) (NP (DT the) (JJ 200-meter) (NN sprint))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="blazed to a gold medal in the 200-meter sprint" type="VP">
+          <tokens>
+            <token id="12" string="blazed" />
+            <token id="13" string="to" />
+            <token id="14" string="a" />
+            <token id="15" string="gold" />
+            <token id="16" string="medal" />
+            <token id="17" string="in" />
+            <token id="18" string="the" />
+            <token id="19" string="200-meter" />
+            <token id="20" string="sprint" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a gold medal" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="gold" />
+            <token id="16" string="medal" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a world record" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="world" />
+            <token id="8" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Florence Griffith Joyner" type="NP">
+          <tokens>
+            <token id="1" string="Florence" />
+            <token id="2" string="Griffith" />
+            <token id="3" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="as she blazed to a gold medal in the 200-meter sprint" type="SBAR">
+          <tokens>
+            <token id="10" string="as" />
+            <token id="11" string="she" />
+            <token id="12" string="blazed" />
+            <token id="13" string="to" />
+            <token id="14" string="a" />
+            <token id="15" string="gold" />
+            <token id="16" string="medal" />
+            <token id="17" string="in" />
+            <token id="18" string="the" />
+            <token id="19" string="200-meter" />
+            <token id="20" string="sprint" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="smashed a world record Thursday as she blazed to a gold medal in the 200-meter sprint" type="VP">
+          <tokens>
+            <token id="5" string="smashed" />
+            <token id="6" string="a" />
+            <token id="7" string="world" />
+            <token id="8" string="record" />
+            <token id="9" string="Thursday" />
+            <token id="10" string="as" />
+            <token id="11" string="she" />
+            <token id="12" string="blazed" />
+            <token id="13" string="to" />
+            <token id="14" string="a" />
+            <token id="15" string="gold" />
+            <token id="16" string="medal" />
+            <token id="17" string="in" />
+            <token id="18" string="the" />
+            <token id="19" string="200-meter" />
+            <token id="20" string="sprint" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="she" type="NP">
+          <tokens>
+            <token id="11" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the 200-meter sprint" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="200-meter" />
+            <token id="20" string="sprint" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Joyner</governor>
+          <dependent id="1">Florence</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Joyner</governor>
+          <dependent id="2">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">smashed</governor>
+          <dependent id="3">Joyner</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">smashed</governor>
+          <dependent id="4">twice</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">smashed</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">record</governor>
+          <dependent id="6">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">record</governor>
+          <dependent id="7">world</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">smashed</governor>
+          <dependent id="8">record</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="5">smashed</governor>
+          <dependent id="9">Thursday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">blazed</governor>
+          <dependent id="10">as</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">blazed</governor>
+          <dependent id="11">she</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">smashed</governor>
+          <dependent id="12">blazed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">medal</governor>
+          <dependent id="13">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">medal</governor>
+          <dependent id="14">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">medal</governor>
+          <dependent id="15">gold</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">blazed</governor>
+          <dependent id="16">medal</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">sprint</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">sprint</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">sprint</governor>
+          <dependent id="19">200-meter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">blazed</governor>
+          <dependent id="20">sprint</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Florence Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Florence" />
+            <token id="2" string="Griffith" />
+            <token id="3" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="Thursday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>She also stayed on target to become the second woman to win four track and field gold medals in a single Olympics.</content>
+      <tokens>
+        <token id="1" string="She" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="stayed" lemma="stay" stem="stai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="target" lemma="target" stem="target" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="become" lemma="become" stem="becom" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="second" lemma="second" stem="second" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="10" string="woman" lemma="woman" stem="woman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="win" lemma="win" stem="win" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="14" string="track" lemma="track" stem="track" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="field" lemma="field" stem="field" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="gold" lemma="gold" stem="gold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="medals" lemma="medal" stem="medal" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="single" lemma="single" stem="singl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="Olympics" lemma="Olympics" stem="olympic" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP She)) (ADVP (RB also)) (VP (VBD stayed) (PP (IN on) (NP (NN target))) (S (VP (TO to) (VP (VB become) (NP (DT the) (JJ second) (NN woman)) (S (VP (TO to) (VP (VB win) (NP (NP (CD four) (NN track) (CC and) (NN field) (NN gold) (NNS medals)) (PP (IN in) (NP (DT a) (JJ single) (NNPS Olympics))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the second woman" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="second" />
+            <token id="10" string="woman" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to become the second woman to win four track and field gold medals in a single Olympics" type="VP">
+          <tokens>
+            <token id="6" string="to" />
+            <token id="7" string="become" />
+            <token id="8" string="the" />
+            <token id="9" string="second" />
+            <token id="10" string="woman" />
+            <token id="11" string="to" />
+            <token id="12" string="win" />
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="stayed on target to become the second woman to win four track and field gold medals in a single Olympics" type="VP">
+          <tokens>
+            <token id="3" string="stayed" />
+            <token id="4" string="on" />
+            <token id="5" string="target" />
+            <token id="6" string="to" />
+            <token id="7" string="become" />
+            <token id="8" string="the" />
+            <token id="9" string="second" />
+            <token id="10" string="woman" />
+            <token id="11" string="to" />
+            <token id="12" string="win" />
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="become the second woman to win four track and field gold medals in a single Olympics" type="VP">
+          <tokens>
+            <token id="7" string="become" />
+            <token id="8" string="the" />
+            <token id="9" string="second" />
+            <token id="10" string="woman" />
+            <token id="11" string="to" />
+            <token id="12" string="win" />
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="a single Olympics" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to win four track and field gold medals in a single Olympics" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="win" />
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="four track and field gold medals" type="NP">
+          <tokens>
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="four track and field gold medals in a single Olympics" type="NP">
+          <tokens>
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="win four track and field gold medals in a single Olympics" type="VP">
+          <tokens>
+            <token id="12" string="win" />
+            <token id="13" string="four" />
+            <token id="14" string="track" />
+            <token id="15" string="and" />
+            <token id="16" string="field" />
+            <token id="17" string="gold" />
+            <token id="18" string="medals" />
+            <token id="19" string="in" />
+            <token id="20" string="a" />
+            <token id="21" string="single" />
+            <token id="22" string="Olympics" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="She" type="NP">
+          <tokens>
+            <token id="1" string="She" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="target" type="NP">
+          <tokens>
+            <token id="5" string="target" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">stayed</governor>
+          <dependent id="1">She</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="3">stayed</governor>
+          <dependent id="2">also</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">stayed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">target</governor>
+          <dependent id="4">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">stayed</governor>
+          <dependent id="5">target</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">become</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">stayed</governor>
+          <dependent id="7">become</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">woman</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">woman</governor>
+          <dependent id="9">second</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">become</governor>
+          <dependent id="10">woman</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">win</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="7">become</governor>
+          <dependent id="12">win</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="14">track</governor>
+          <dependent id="13">four</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">win</governor>
+          <dependent id="14">track</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="14">track</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">medals</governor>
+          <dependent id="16">field</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">medals</governor>
+          <dependent id="17">gold</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="14">track</governor>
+          <dependent id="18">medals</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Olympics</governor>
+          <dependent id="19">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">Olympics</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">Olympics</governor>
+          <dependent id="21">single</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">track</governor>
+          <dependent id="22">Olympics</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="four" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="four" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Olympics" type="MISC" score="0.0">
+          <tokens>
+            <token id="22" string="Olympics" />
+          </tokens>
+        </entity>
+        <entity id="3" string="second" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="9" string="second" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Griffith Joyner dashed to her second gold in 21.34 seconds, shattering the world mark she had set just 90 minutes earlier in her semifinal heat.</content>
+      <tokens>
+        <token id="1" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="dashed" lemma="dash" stem="dash" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="second" lemma="second" stem="second" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="7" string="gold" lemma="gold" stem="gold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="21.34" lemma="21.34" stem="21.34" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="seconds" lemma="seconds" stem="second" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="shattering" lemma="shatter" stem="shatter" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="world" lemma="world" stem="world" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="mark" lemma="mark" stem="mark" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="set" lemma="set" stem="set" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="just" lemma="just" stem="just" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="90" lemma="90" stem="90" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="minutes" lemma="minute" stem="minut" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="22" string="earlier" lemma="earlier" stem="earlier" pos="RBR" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="23" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="25" string="semifinal" lemma="semifinal" stem="semifin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="heat" lemma="heat" stem="heat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Griffith) (NNP Joyner)) (VP (VBD dashed) (PP (TO to) (NP (PRP$ her) (JJ second) (NN gold))) (PP (IN in) (NP (CD 21.34) (NNS seconds))) (, ,) (S (VP (VBG shattering) (NP (NP (DT the) (NN world) (NN mark)) (SBAR (S (NP (PRP she)) (VP (VBD had) (VP (VBN set) (PP (ADVP (NP (RB just) (CD 90) (NNS minutes)) (RBR earlier)) (IN in) (NP (PRP$ her) (JJ semifinal) (NN heat))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the world mark she had set just 90 minutes earlier in her semifinal heat" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="world" />
+            <token id="15" string="mark" />
+            <token id="16" string="she" />
+            <token id="17" string="had" />
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="21.34 seconds" type="NP">
+          <tokens>
+            <token id="9" string="21.34" />
+            <token id="10" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Griffith Joyner" type="NP">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="her second gold" type="NP">
+          <tokens>
+            <token id="5" string="her" />
+            <token id="6" string="second" />
+            <token id="7" string="gold" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="shattering the world mark she had set just 90 minutes earlier in her semifinal heat" type="VP">
+          <tokens>
+            <token id="12" string="shattering" />
+            <token id="13" string="the" />
+            <token id="14" string="world" />
+            <token id="15" string="mark" />
+            <token id="16" string="she" />
+            <token id="17" string="had" />
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="her semifinal heat" type="NP">
+          <tokens>
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="she" type="NP">
+          <tokens>
+            <token id="16" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="she had set just 90 minutes earlier in her semifinal heat" type="SBAR">
+          <tokens>
+            <token id="16" string="she" />
+            <token id="17" string="had" />
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="dashed to her second gold in 21.34 seconds , shattering the world mark she had set just 90 minutes earlier in her semifinal heat" type="VP">
+          <tokens>
+            <token id="3" string="dashed" />
+            <token id="4" string="to" />
+            <token id="5" string="her" />
+            <token id="6" string="second" />
+            <token id="7" string="gold" />
+            <token id="8" string="in" />
+            <token id="9" string="21.34" />
+            <token id="10" string="seconds" />
+            <token id="11" string="," />
+            <token id="12" string="shattering" />
+            <token id="13" string="the" />
+            <token id="14" string="world" />
+            <token id="15" string="mark" />
+            <token id="16" string="she" />
+            <token id="17" string="had" />
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="had set just 90 minutes earlier in her semifinal heat" type="VP">
+          <tokens>
+            <token id="17" string="had" />
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the world mark" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="world" />
+            <token id="15" string="mark" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="set just 90 minutes earlier in her semifinal heat" type="VP">
+          <tokens>
+            <token id="18" string="set" />
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+            <token id="23" string="in" />
+            <token id="24" string="her" />
+            <token id="25" string="semifinal" />
+            <token id="26" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="just 90 minutes" type="NP">
+          <tokens>
+            <token id="19" string="just" />
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Joyner</governor>
+          <dependent id="1">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">dashed</governor>
+          <dependent id="2">Joyner</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">dashed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">gold</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="7">gold</governor>
+          <dependent id="5">her</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">gold</governor>
+          <dependent id="6">second</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">dashed</governor>
+          <dependent id="7">gold</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">seconds</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">seconds</governor>
+          <dependent id="9">21.34</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">dashed</governor>
+          <dependent id="10">seconds</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">dashed</governor>
+          <dependent id="12">shattering</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">mark</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">mark</governor>
+          <dependent id="14">world</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">shattering</governor>
+          <dependent id="15">mark</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">set</governor>
+          <dependent id="16">she</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">set</governor>
+          <dependent id="17">had</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="15">mark</governor>
+          <dependent id="18">set</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">minutes</governor>
+          <dependent id="19">just</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">minutes</governor>
+          <dependent id="20">90</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="22">earlier</governor>
+          <dependent id="21">minutes</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="26">heat</governor>
+          <dependent id="22">earlier</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">heat</governor>
+          <dependent id="23">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="26">heat</governor>
+          <dependent id="24">her</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="26">heat</governor>
+          <dependent id="25">semifinal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">set</governor>
+          <dependent id="26">heat</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="90 minutes earlier" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="90" />
+            <token id="21" string="minutes" />
+            <token id="22" string="earlier" />
+          </tokens>
+        </entity>
+        <entity id="2" string="21.34 seconds" type="DURATION" score="0.0">
+          <tokens>
+            <token id="9" string="21.34" />
+            <token id="10" string="seconds" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="4" string="second" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="6" string="second" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>In that race, she ran 21.56, eclipsing the 9-year-old mark of 21.71 set in 1979 by Marita Koch of East Germany and equaled three times since.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="race" lemma="race" stem="race" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="ran" lemma="run" stem="ran" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="21.56" lemma="21.56" stem="21.56" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="eclipsing" lemma="eclipse" stem="eclips" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="9-year-old" lemma="9-year-old" stem="9-year-old" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="12" string="mark" lemma="mark" stem="mark" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="21.71" lemma="21.71" stem="21.71" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="15" string="set" lemma="set" stem="set" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="1979" lemma="1979" stem="1979" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Marita" lemma="Marita" stem="marita" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="Koch" lemma="Koch" stem="koch" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="East" lemma="East" stem="east" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="Germany" lemma="Germany" stem="germani" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="equaled" lemma="equal" stem="equal" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="27" string="times" lemma="time" stem="time" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (DT that) (NN race))) (, ,) (NP (PRP she)) (VP (VBD ran) (NP (CD 21.56)) (, ,) (S (VP (VBG eclipsing) (NP (NP (DT the) (JJ 9-year-old) (NN mark)) (PP (IN of) (NP (NP (CD 21.71)) (VP (VP (VBN set) (PP (IN in) (NP (CD 1979))) (PP (IN by) (NP (NP (NNP Marita) (NNP Koch)) (PP (IN of) (NP (NNP East) (NNP Germany)))))) (CC and) (VP (VBD equaled) (ADVP (NP (CD three) (NNS times)) (IN since)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Marita Koch" type="NP">
+          <tokens>
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="set in 1979 by Marita Koch of East Germany and equaled three times since" type="VP">
+          <tokens>
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+            <token id="24" string="and" />
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="eclipsing the 9-year-old mark of 21.71 set in 1979 by Marita Koch of East Germany and equaled three times since" type="VP">
+          <tokens>
+            <token id="9" string="eclipsing" />
+            <token id="10" string="the" />
+            <token id="11" string="9-year-old" />
+            <token id="12" string="mark" />
+            <token id="13" string="of" />
+            <token id="14" string="21.71" />
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+            <token id="24" string="and" />
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the 9-year-old mark" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="9-year-old" />
+            <token id="12" string="mark" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="set in 1979 by Marita Koch of East Germany" type="VP">
+          <tokens>
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="three times" type="NP">
+          <tokens>
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="that race" type="NP">
+          <tokens>
+            <token id="2" string="that" />
+            <token id="3" string="race" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="she" type="NP">
+          <tokens>
+            <token id="5" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="equaled three times since" type="VP">
+          <tokens>
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="East Germany" type="NP">
+          <tokens>
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="21.56" type="NP">
+          <tokens>
+            <token id="7" string="21.56" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="21.71 set in 1979 by Marita Koch of East Germany and equaled three times since" type="NP">
+          <tokens>
+            <token id="14" string="21.71" />
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+            <token id="24" string="and" />
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the 9-year-old mark of 21.71 set in 1979 by Marita Koch of East Germany and equaled three times since" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="9-year-old" />
+            <token id="12" string="mark" />
+            <token id="13" string="of" />
+            <token id="14" string="21.71" />
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+            <token id="24" string="and" />
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Marita Koch of East Germany" type="NP">
+          <tokens>
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="ran 21.56 , eclipsing the 9-year-old mark of 21.71 set in 1979 by Marita Koch of East Germany and equaled three times since" type="VP">
+          <tokens>
+            <token id="6" string="ran" />
+            <token id="7" string="21.56" />
+            <token id="8" string="," />
+            <token id="9" string="eclipsing" />
+            <token id="10" string="the" />
+            <token id="11" string="9-year-old" />
+            <token id="12" string="mark" />
+            <token id="13" string="of" />
+            <token id="14" string="21.71" />
+            <token id="15" string="set" />
+            <token id="16" string="in" />
+            <token id="17" string="1979" />
+            <token id="18" string="by" />
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+            <token id="21" string="of" />
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+            <token id="24" string="and" />
+            <token id="25" string="equaled" />
+            <token id="26" string="three" />
+            <token id="27" string="times" />
+            <token id="28" string="since" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="1979" type="NP">
+          <tokens>
+            <token id="17" string="1979" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="21.71" type="NP">
+          <tokens>
+            <token id="14" string="21.71" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">race</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">race</governor>
+          <dependent id="2">that</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">ran</governor>
+          <dependent id="3">race</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">ran</governor>
+          <dependent id="5">she</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">ran</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">ran</governor>
+          <dependent id="7">21.56</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">ran</governor>
+          <dependent id="9">eclipsing</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">mark</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">mark</governor>
+          <dependent id="11">9-year-old</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">eclipsing</governor>
+          <dependent id="12">mark</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">21.71</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">mark</governor>
+          <dependent id="14">21.71</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">21.71</governor>
+          <dependent id="15">set</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">1979</governor>
+          <dependent id="16">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">set</governor>
+          <dependent id="17">1979</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Koch</governor>
+          <dependent id="18">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Koch</governor>
+          <dependent id="19">Marita</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">set</governor>
+          <dependent id="20">Koch</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">Germany</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Germany</governor>
+          <dependent id="22">East</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">Koch</governor>
+          <dependent id="23">Germany</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="15">set</governor>
+          <dependent id="24">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">set</governor>
+          <dependent id="25">equaled</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="27">times</governor>
+          <dependent id="26">three</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="25">equaled</governor>
+          <dependent id="27">times</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">times</governor>
+          <dependent id="28">since</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Marita Koch" type="PERSON" score="0.0">
+          <tokens>
+            <token id="19" string="Marita" />
+            <token id="20" string="Koch" />
+          </tokens>
+        </entity>
+        <entity id="2" string="East Germany" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="22" string="East" />
+            <token id="23" string="Germany" />
+          </tokens>
+        </entity>
+        <entity id="3" string="21.56" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="21.56" />
+          </tokens>
+        </entity>
+        <entity id="4" string="9-year-old" type="DURATION" score="0.0">
+          <tokens>
+            <token id="11" string="9-year-old" />
+          </tokens>
+        </entity>
+        <entity id="5" string="1979" type="DATE" score="0.0">
+          <tokens>
+            <token id="17" string="1979" />
+          </tokens>
+        </entity>
+        <entity id="6" string="three" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="three" />
+          </tokens>
+        </entity>
+        <entity id="7" string="21.71" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="14" string="21.71" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>In her 200 quarterfinal heat Wednesday, Griffith Joyner ran an Olympic record 21.76 seconds.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="200" lemma="200" stem="200" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="4" string="quarterfinal" lemma="quarterfinal" stem="quarterfin" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="heat" lemma="heat" stem="heat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="Wednesday" lemma="Wednesday" stem="wednesdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="9" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="10" string="ran" lemma="run" stem="ran" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="Olympic" lemma="olympic" stem="olympic" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="13" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="21.76" lemma="21.76" stem="21.76" pos="CD" type="Number" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="15" string="seconds" lemma="seconds" stem="second" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (PRP$ her) (CD 200) (JJ quarterfinal) (NN heat))) (NP-TMP (NNP Wednesday)) (, ,) (NP (NNP Griffith) (NNP Joyner)) (VP (VBD ran) (NP (DT an) (JJ Olympic) (NN record)) (NP (CD 21.76) (NNS seconds))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="21.76 seconds" type="NP">
+          <tokens>
+            <token id="14" string="21.76" />
+            <token id="15" string="seconds" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Griffith Joyner" type="NP">
+          <tokens>
+            <token id="8" string="Griffith" />
+            <token id="9" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="an Olympic record" type="NP">
+          <tokens>
+            <token id="11" string="an" />
+            <token id="12" string="Olympic" />
+            <token id="13" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="her 200 quarterfinal heat" type="NP">
+          <tokens>
+            <token id="2" string="her" />
+            <token id="3" string="200" />
+            <token id="4" string="quarterfinal" />
+            <token id="5" string="heat" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="ran an Olympic record 21.76 seconds" type="VP">
+          <tokens>
+            <token id="10" string="ran" />
+            <token id="11" string="an" />
+            <token id="12" string="Olympic" />
+            <token id="13" string="record" />
+            <token id="14" string="21.76" />
+            <token id="15" string="seconds" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="5">heat</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="5">heat</governor>
+          <dependent id="2">her</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">heat</governor>
+          <dependent id="3">200</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">heat</governor>
+          <dependent id="4">quarterfinal</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">ran</governor>
+          <dependent id="5">heat</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="10">ran</governor>
+          <dependent id="6">Wednesday</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Joyner</governor>
+          <dependent id="8">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">ran</governor>
+          <dependent id="9">Joyner</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">ran</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">record</governor>
+          <dependent id="11">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">record</governor>
+          <dependent id="12">Olympic</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="10">ran</governor>
+          <dependent id="13">record</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="15">seconds</governor>
+          <dependent id="14">21.76</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">ran</governor>
+          <dependent id="15">seconds</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="200" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="200" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Wednesday" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="Wednesday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="21.76 seconds" type="DURATION" score="0.0">
+          <tokens>
+            <token id="14" string="21.76" />
+            <token id="15" string="seconds" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Griffith" />
+            <token id="9" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Olympic" type="MISC" score="0.0">
+          <tokens>
+            <token id="12" string="Olympic" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Griffith Joyner, who set an Olympic record Sunday in winning the 100 meters, had a big lead Thursday as she turned the curve for the final 100 meters.</content>
+      <tokens>
+        <token id="1" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="set" lemma="set" stem="set" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="Olympic" lemma="olympic" stem="olympic" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="8" string="record" lemma="record" stem="record" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="true" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="winning" lemma="win" stem="win" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="100" lemma="100" stem="100" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="true" />
+        <token id="14" string="meters" lemma="meter" stem="meter" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="big" lemma="big" stem="big" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="lead" lemma="lead" stem="lead" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="23" string="turned" lemma="turn" stem="turn" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="curve" lemma="curve" stem="curv" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="final" lemma="final" stem="final" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="100" lemma="100" stem="100" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="30" string="meters" lemma="meter" stem="meter" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Griffith) (NNP Joyner)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD set) (NP (DT an) (JJ Olympic) (NN record)) (NP-TMP (NNP Sunday)) (PP (IN in) (S (VP (VBG winning) (NP (DT the) (CD 100) (NNS meters)))))))) (, ,)) (VP (VBD had) (NP (DT a) (JJ big) (NN lead)) (NP-TMP (NNP Thursday)) (SBAR (IN as) (S (NP (PRP she)) (VP (VBD turned) (NP (DT the) (NN curve)) (PP (IN for) (NP (DT the) (JJ final) (CD 100) (NNS meters))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a big lead" type="NP">
+          <tokens>
+            <token id="17" string="a" />
+            <token id="18" string="big" />
+            <token id="19" string="lead" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Griffith Joyner" type="NP">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the final 100 meters" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="final" />
+            <token id="29" string="100" />
+            <token id="30" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the 100 meters" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="100" />
+            <token id="14" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the curve" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="curve" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="she" type="NP">
+          <tokens>
+            <token id="22" string="she" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="turned the curve for the final 100 meters" type="VP">
+          <tokens>
+            <token id="23" string="turned" />
+            <token id="24" string="the" />
+            <token id="25" string="curve" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="final" />
+            <token id="29" string="100" />
+            <token id="30" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="winning the 100 meters" type="VP">
+          <tokens>
+            <token id="11" string="winning" />
+            <token id="12" string="the" />
+            <token id="13" string="100" />
+            <token id="14" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Griffith Joyner , who set an Olympic record Sunday in winning the 100 meters ," type="NP">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+            <token id="3" string="," />
+            <token id="4" string="who" />
+            <token id="5" string="set" />
+            <token id="6" string="an" />
+            <token id="7" string="Olympic" />
+            <token id="8" string="record" />
+            <token id="9" string="Sunday" />
+            <token id="10" string="in" />
+            <token id="11" string="winning" />
+            <token id="12" string="the" />
+            <token id="13" string="100" />
+            <token id="14" string="meters" />
+            <token id="15" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="who set an Olympic record Sunday in winning the 100 meters" type="SBAR">
+          <tokens>
+            <token id="4" string="who" />
+            <token id="5" string="set" />
+            <token id="6" string="an" />
+            <token id="7" string="Olympic" />
+            <token id="8" string="record" />
+            <token id="9" string="Sunday" />
+            <token id="10" string="in" />
+            <token id="11" string="winning" />
+            <token id="12" string="the" />
+            <token id="13" string="100" />
+            <token id="14" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="an Olympic record" type="NP">
+          <tokens>
+            <token id="6" string="an" />
+            <token id="7" string="Olympic" />
+            <token id="8" string="record" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="had a big lead Thursday as she turned the curve for the final 100 meters" type="VP">
+          <tokens>
+            <token id="16" string="had" />
+            <token id="17" string="a" />
+            <token id="18" string="big" />
+            <token id="19" string="lead" />
+            <token id="20" string="Thursday" />
+            <token id="21" string="as" />
+            <token id="22" string="she" />
+            <token id="23" string="turned" />
+            <token id="24" string="the" />
+            <token id="25" string="curve" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="final" />
+            <token id="29" string="100" />
+            <token id="30" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="set an Olympic record Sunday in winning the 100 meters" type="VP">
+          <tokens>
+            <token id="5" string="set" />
+            <token id="6" string="an" />
+            <token id="7" string="Olympic" />
+            <token id="8" string="record" />
+            <token id="9" string="Sunday" />
+            <token id="10" string="in" />
+            <token id="11" string="winning" />
+            <token id="12" string="the" />
+            <token id="13" string="100" />
+            <token id="14" string="meters" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="as she turned the curve for the final 100 meters" type="SBAR">
+          <tokens>
+            <token id="21" string="as" />
+            <token id="22" string="she" />
+            <token id="23" string="turned" />
+            <token id="24" string="the" />
+            <token id="25" string="curve" />
+            <token id="26" string="for" />
+            <token id="27" string="the" />
+            <token id="28" string="final" />
+            <token id="29" string="100" />
+            <token id="30" string="meters" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Joyner</governor>
+          <dependent id="1">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">had</governor>
+          <dependent id="2">Joyner</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">set</governor>
+          <dependent id="4">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">Joyner</governor>
+          <dependent id="5">set</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">record</governor>
+          <dependent id="6">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">record</governor>
+          <dependent id="7">Olympic</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">set</governor>
+          <dependent id="8">record</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="5">set</governor>
+          <dependent id="9">Sunday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="11">winning</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">set</governor>
+          <dependent id="11">winning</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">meters</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="14">meters</governor>
+          <dependent id="13">100</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">winning</governor>
+          <dependent id="14">meters</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">had</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">lead</governor>
+          <dependent id="17">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">lead</governor>
+          <dependent id="18">big</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">had</governor>
+          <dependent id="19">lead</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="16">had</governor>
+          <dependent id="20">Thursday</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">turned</governor>
+          <dependent id="21">as</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">turned</governor>
+          <dependent id="22">she</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="16">had</governor>
+          <dependent id="23">turned</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">curve</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">turned</governor>
+          <dependent id="25">curve</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">meters</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">meters</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="30">meters</governor>
+          <dependent id="28">final</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="30">meters</governor>
+          <dependent id="29">100</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">turned</governor>
+          <dependent id="30">meters</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="100" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="13" string="100" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Olympic" type="MISC" score="0.0">
+          <tokens>
+            <token id="7" string="Olympic" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>She glided to the wire.</content>
+      <tokens>
+        <token id="1" string="She" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="glided" lemma="glide" stem="glide" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="wire" lemma="wire" stem="wire" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP She)) (VP (VBD glided) (PP (TO to) (NP (DT the) (NN wire)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="glided to the wire" type="VP">
+          <tokens>
+            <token id="2" string="glided" />
+            <token id="3" string="to" />
+            <token id="4" string="the" />
+            <token id="5" string="wire" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the wire" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="wire" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="She" type="NP">
+          <tokens>
+            <token id="1" string="She" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">glided</governor>
+          <dependent id="1">She</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">glided</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">wire</governor>
+          <dependent id="3">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">wire</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">glided</governor>
+          <dependent id="5">wire</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>``I know I can run much faster,&amp;apost;&amp;apost; she said.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="know" lemma="know" stem="know" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="can" lemma="can" stem="can" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="run" lemma="run" stem="run" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="much" lemma="much" stem="much" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="faster" lemma="faster" stem="faster" pos="RBR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="she" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (PRP I)) (VP (MD can) (VP (VB run) (ADVP (JJ much)) (ADVP (RBR faster)))))))) (, ,) ('' '') (NP (PRP she)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="know I can run much faster" type="VP">
+          <tokens>
+            <token id="3" string="know" />
+            <token id="4" string="I" />
+            <token id="5" string="can" />
+            <token id="6" string="run" />
+            <token id="7" string="much" />
+            <token id="8" string="faster" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="I" type="NP">
+          <tokens>
+            <token id="2" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="can run much faster" type="VP">
+          <tokens>
+            <token id="5" string="can" />
+            <token id="6" string="run" />
+            <token id="7" string="much" />
+            <token id="8" string="faster" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="I can run much faster" type="SBAR">
+          <tokens>
+            <token id="4" string="I" />
+            <token id="5" string="can" />
+            <token id="6" string="run" />
+            <token id="7" string="much" />
+            <token id="8" string="faster" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="said" type="VP">
+          <tokens>
+            <token id="12" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="run much faster" type="VP">
+          <tokens>
+            <token id="6" string="run" />
+            <token id="7" string="much" />
+            <token id="8" string="faster" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="she" type="NP">
+          <tokens>
+            <token id="11" string="she" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">know</governor>
+          <dependent id="2">I</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="12">said</governor>
+          <dependent id="3">know</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">run</governor>
+          <dependent id="4">I</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">run</governor>
+          <dependent id="5">can</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="3">know</governor>
+          <dependent id="6">run</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">run</governor>
+          <dependent id="7">much</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">run</governor>
+          <dependent id="8">faster</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">said</governor>
+          <dependent id="11">she</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="12">said</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>``I felt very relaxed.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="felt" lemma="feel" stem="felt" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="very" lemma="very" stem="veri" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="relaxed" lemma="relax" stem="relax" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBD felt) (ADJP (RB very) (VBN relaxed))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="felt very relaxed" type="VP">
+          <tokens>
+            <token id="3" string="felt" />
+            <token id="4" string="very" />
+            <token id="5" string="relaxed" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="I" type="NP">
+          <tokens>
+            <token id="2" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="very relaxed" type="ADJP">
+          <tokens>
+            <token id="4" string="very" />
+            <token id="5" string="relaxed" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">felt</governor>
+          <dependent id="2">I</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">felt</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">relaxed</governor>
+          <dependent id="4">very</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">felt</governor>
+          <dependent id="5">relaxed</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>That&amp;apost;s the key.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="That" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="key" lemma="key" stem="kei" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT That)) (VP (VBZ 's) (NP (DT the) (NN key))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="That" type="NP">
+          <tokens>
+            <token id="1" string="That" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the key" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="key" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="'s the key" type="VP">
+          <tokens>
+            <token id="2" string="'s" />
+            <token id="3" string="the" />
+            <token id="4" string="key" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="4">key</governor>
+          <dependent id="1">That</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="4">key</governor>
+          <dependent id="2">'s</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">key</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">key</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Griffith Joyner, 28, is scheduled to run in the 400-meter relay Saturday and may compete in the 1,600-meter relay that day.</content>
+      <tokens>
+        <token id="1" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="2" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="28" lemma="28" stem="28" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="true" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="scheduled" lemma="schedule" stem="schedul" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="run" lemma="run" stem="run" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="400-meter" lemma="400-meter" stem="400-meter" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="relay" lemma="relay" stem="relai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="Saturday" lemma="Saturday" stem="saturdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="may" lemma="may" stem="mai" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="compete" lemma="compete" stem="compet" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="1,600-meter" lemma="1,600-meter" stem="1,600-meter" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="relay" lemma="relay" stem="relai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="day" lemma="day" stem="dai" pos="NN" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Griffith) (NNP Joyner)) (, ,) (NP (CD 28)) (, ,)) (VP (VP (VBZ is) (VP (VBN scheduled) (S (VP (TO to) (VP (VB run) (PP (IN in) (NP (DT the) (JJ 400-meter) (NN relay))) (NP-TMP (NNP Saturday))))))) (CC and) (VP (MD may) (VP (VB compete) (PP (IN in) (NP (NP (DT the) (JJ 1,600-meter) (NN relay)) (NP (DT that) (NN day))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="compete in the 1,600-meter relay that day" type="VP">
+          <tokens>
+            <token id="17" string="compete" />
+            <token id="18" string="in" />
+            <token id="19" string="the" />
+            <token id="20" string="1,600-meter" />
+            <token id="21" string="relay" />
+            <token id="22" string="that" />
+            <token id="23" string="day" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the 1,600-meter relay that day" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="1,600-meter" />
+            <token id="21" string="relay" />
+            <token id="22" string="that" />
+            <token id="23" string="day" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the 400-meter relay" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="28" type="NP">
+          <tokens>
+            <token id="4" string="28" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is scheduled to run in the 400-meter relay Saturday and may compete in the 1,600-meter relay that day" type="VP">
+          <tokens>
+            <token id="6" string="is" />
+            <token id="7" string="scheduled" />
+            <token id="8" string="to" />
+            <token id="9" string="run" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+            <token id="14" string="Saturday" />
+            <token id="15" string="and" />
+            <token id="16" string="may" />
+            <token id="17" string="compete" />
+            <token id="18" string="in" />
+            <token id="19" string="the" />
+            <token id="20" string="1,600-meter" />
+            <token id="21" string="relay" />
+            <token id="22" string="that" />
+            <token id="23" string="day" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Griffith Joyner" type="NP">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="that day" type="NP">
+          <tokens>
+            <token id="22" string="that" />
+            <token id="23" string="day" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="scheduled to run in the 400-meter relay Saturday" type="VP">
+          <tokens>
+            <token id="7" string="scheduled" />
+            <token id="8" string="to" />
+            <token id="9" string="run" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+            <token id="14" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="is scheduled to run in the 400-meter relay Saturday" type="VP">
+          <tokens>
+            <token id="6" string="is" />
+            <token id="7" string="scheduled" />
+            <token id="8" string="to" />
+            <token id="9" string="run" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+            <token id="14" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to run in the 400-meter relay Saturday" type="VP">
+          <tokens>
+            <token id="8" string="to" />
+            <token id="9" string="run" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+            <token id="14" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the 1,600-meter relay" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="1,600-meter" />
+            <token id="21" string="relay" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="may compete in the 1,600-meter relay that day" type="VP">
+          <tokens>
+            <token id="16" string="may" />
+            <token id="17" string="compete" />
+            <token id="18" string="in" />
+            <token id="19" string="the" />
+            <token id="20" string="1,600-meter" />
+            <token id="21" string="relay" />
+            <token id="22" string="that" />
+            <token id="23" string="day" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="run in the 400-meter relay Saturday" type="VP">
+          <tokens>
+            <token id="9" string="run" />
+            <token id="10" string="in" />
+            <token id="11" string="the" />
+            <token id="12" string="400-meter" />
+            <token id="13" string="relay" />
+            <token id="14" string="Saturday" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Griffith Joyner , 28 ," type="NP">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+            <token id="3" string="," />
+            <token id="4" string="28" />
+            <token id="5" string="," />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Joyner</governor>
+          <dependent id="1">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="7">scheduled</governor>
+          <dependent id="2">Joyner</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="2">Joyner</governor>
+          <dependent id="4">28</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">scheduled</governor>
+          <dependent id="6">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">scheduled</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="9">run</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">scheduled</governor>
+          <dependent id="9">run</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">relay</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">relay</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">relay</governor>
+          <dependent id="12">400-meter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">run</governor>
+          <dependent id="13">relay</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="9">run</governor>
+          <dependent id="14">Saturday</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">scheduled</governor>
+          <dependent id="15">and</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="17">compete</governor>
+          <dependent id="16">may</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">scheduled</governor>
+          <dependent id="17">compete</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">relay</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">relay</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">relay</governor>
+          <dependent id="20">1,600-meter</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">compete</governor>
+          <dependent id="21">relay</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">day</governor>
+          <dependent id="22">that</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="21">relay</governor>
+          <dependent id="23">day</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="28" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="28" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Griffith" />
+            <token id="2" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="3" string="day" type="DURATION" score="0.0">
+          <tokens>
+            <token id="23" string="day" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Saturday" type="DATE" score="0.0">
+          <tokens>
+            <token id="14" string="Saturday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>Noted for her long, painted fingernails and racy, colorful bodysuits, Griffith Joyner of Los Angeles has a chance to match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis, and by Fanny Blankers-Koen of the Netherlands in 1948.</content>
+      <tokens>
+        <token id="1" string="Noted" lemma="note" stem="note" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="long" lemma="long" stem="long" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="painted" lemma="painted" stem="paint" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="fingernails" lemma="fingernail" stem="fingernail" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="racy" lemma="racy" stem="raci" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="colorful" lemma="colorful" stem="color" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="bodysuits" lemma="bodysuit" stem="bodysuit" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Griffith" lemma="Griffith" stem="griffith" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="15" string="Joyner" lemma="Joyner" stem="joyner" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="16" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Los" lemma="Los" stem="lo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="Angeles" lemma="Angeles" stem="angele" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="19" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="chance" lemma="chance" stem="chanc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="match" lemma="match" stem="match" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="1984" lemma="1984" stem="1984" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="26" string="quadruple" lemma="quadruple" stem="quadrupl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="gold" lemma="gold" stem="gold" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="medal" lemma="medal" stem="medal" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="performance" lemma="performance" stem="perform" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="32" string="sprinter" lemma="sprinter" stem="sprinter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="long" lemma="long" stem="long" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="35" string="jumper" lemma="jumper" stem="jumper" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="Carl" lemma="Carl" stem="carl" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="37" string="Lewis" lemma="Lewis" stem="lewi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="38" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="39" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="Fanny" lemma="Fanny" stem="fanni" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="42" string="Blankers-Koen" lemma="Blankers-Koen" stem="blankers-koen" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="43" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="44" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="45" string="Netherlands" lemma="Netherlands" stem="netherland" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="46" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="47" string="1948" lemma="1948" stem="1948" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="48" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (VP (VBN Noted) (PP (IN for) (NP (NP (PRP$ her) (ADJP (JJ long) (, ,) (JJ painted)) (NNS fingernails)) (CC and) (NP (JJ racy) (, ,) (JJ colorful) (NNS bodysuits)))))) (, ,) (NP (NP (NNP Griffith) (NNP Joyner)) (PP (IN of) (NP (NNP Los) (NNP Angeles)))) (VP (VBZ has) (NP (DT a) (NN chance) (S (VP (VP (TO to) (VP (VB match) (NP (NP (DT the) (ADJP (NP (CD 1984)) (JJ quadruple)) (NN gold) (NN medal) (NN performance)) (PP (IN of) (NP (NNP U.S.) (NN sprinter) (CC and) (JJ long) (NN jumper) (NNP Carl) (NNP Lewis)))))) (, ,) (CC and) (VP (PP (IN by) (NP (NP (NNP Fanny) (NNP Blankers-Koen)) (PP (IN of) (NP (DT the) (NNP Netherlands))))) (PP (IN in) (NP (CD 1948)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Noted for her long , painted fingernails and racy , colorful bodysuits" type="VP">
+          <tokens>
+            <token id="1" string="Noted" />
+            <token id="2" string="for" />
+            <token id="3" string="her" />
+            <token id="4" string="long" />
+            <token id="5" string="," />
+            <token id="6" string="painted" />
+            <token id="7" string="fingernails" />
+            <token id="8" string="and" />
+            <token id="9" string="racy" />
+            <token id="10" string="," />
+            <token id="11" string="colorful" />
+            <token id="12" string="bodysuits" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="her long , painted fingernails and racy , colorful bodysuits" type="NP">
+          <tokens>
+            <token id="3" string="her" />
+            <token id="4" string="long" />
+            <token id="5" string="," />
+            <token id="6" string="painted" />
+            <token id="7" string="fingernails" />
+            <token id="8" string="and" />
+            <token id="9" string="racy" />
+            <token id="10" string="," />
+            <token id="11" string="colorful" />
+            <token id="12" string="bodysuits" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Griffith Joyner" type="NP">
+          <tokens>
+            <token id="14" string="Griffith" />
+            <token id="15" string="Joyner" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="to match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis , and by Fanny Blankers-Koen of the Netherlands in 1948" type="VP">
+          <tokens>
+            <token id="22" string="to" />
+            <token id="23" string="match" />
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+            <token id="38" string="," />
+            <token id="39" string="and" />
+            <token id="40" string="by" />
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+            <token id="43" string="of" />
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+            <token id="46" string="in" />
+            <token id="47" string="1948" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="long , painted" type="ADJP">
+          <tokens>
+            <token id="4" string="long" />
+            <token id="5" string="," />
+            <token id="6" string="painted" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="by Fanny Blankers-Koen of the Netherlands in 1948" type="VP">
+          <tokens>
+            <token id="40" string="by" />
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+            <token id="43" string="of" />
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+            <token id="46" string="in" />
+            <token id="47" string="1948" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the Netherlands" type="NP">
+          <tokens>
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis" type="VP">
+          <tokens>
+            <token id="22" string="to" />
+            <token id="23" string="match" />
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="her long , painted fingernails" type="NP">
+          <tokens>
+            <token id="3" string="her" />
+            <token id="4" string="long" />
+            <token id="5" string="," />
+            <token id="6" string="painted" />
+            <token id="7" string="fingernails" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Fanny Blankers-Koen of the Netherlands" type="NP">
+          <tokens>
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+            <token id="43" string="of" />
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis" type="VP">
+          <tokens>
+            <token id="23" string="match" />
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="1984" type="NP">
+          <tokens>
+            <token id="25" string="1984" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a chance to match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis , and by Fanny Blankers-Koen of the Netherlands in 1948" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="chance" />
+            <token id="22" string="to" />
+            <token id="23" string="match" />
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+            <token id="38" string="," />
+            <token id="39" string="and" />
+            <token id="40" string="by" />
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+            <token id="43" string="of" />
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+            <token id="46" string="in" />
+            <token id="47" string="1948" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the 1984 quadruple gold medal performance" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="U.S. sprinter and long jumper Carl Lewis" type="NP">
+          <tokens>
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="1984 quadruple" type="ADJP">
+          <tokens>
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="has a chance to match the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis , and by Fanny Blankers-Koen of the Netherlands in 1948" type="VP">
+          <tokens>
+            <token id="19" string="has" />
+            <token id="20" string="a" />
+            <token id="21" string="chance" />
+            <token id="22" string="to" />
+            <token id="23" string="match" />
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+            <token id="38" string="," />
+            <token id="39" string="and" />
+            <token id="40" string="by" />
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+            <token id="43" string="of" />
+            <token id="44" string="the" />
+            <token id="45" string="Netherlands" />
+            <token id="46" string="in" />
+            <token id="47" string="1948" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="Los Angeles" type="NP">
+          <tokens>
+            <token id="17" string="Los" />
+            <token id="18" string="Angeles" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the 1984 quadruple gold medal performance of U.S. sprinter and long jumper Carl Lewis" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="1984" />
+            <token id="26" string="quadruple" />
+            <token id="27" string="gold" />
+            <token id="28" string="medal" />
+            <token id="29" string="performance" />
+            <token id="30" string="of" />
+            <token id="31" string="U.S." />
+            <token id="32" string="sprinter" />
+            <token id="33" string="and" />
+            <token id="34" string="long" />
+            <token id="35" string="jumper" />
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="Fanny Blankers-Koen" type="NP">
+          <tokens>
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="1948" type="NP">
+          <tokens>
+            <token id="47" string="1948" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="Griffith Joyner of Los Angeles" type="NP">
+          <tokens>
+            <token id="14" string="Griffith" />
+            <token id="15" string="Joyner" />
+            <token id="16" string="of" />
+            <token id="17" string="Los" />
+            <token id="18" string="Angeles" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="racy , colorful bodysuits" type="NP">
+          <tokens>
+            <token id="9" string="racy" />
+            <token id="10" string="," />
+            <token id="11" string="colorful" />
+            <token id="12" string="bodysuits" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advcl">
+          <governor id="19">has</governor>
+          <dependent id="1">Noted</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">fingernails</governor>
+          <dependent id="2">for</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="7">fingernails</governor>
+          <dependent id="3">her</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">painted</governor>
+          <dependent id="4">long</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">fingernails</governor>
+          <dependent id="6">painted</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Noted</governor>
+          <dependent id="7">fingernails</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">fingernails</governor>
+          <dependent id="8">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">bodysuits</governor>
+          <dependent id="9">racy</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">bodysuits</governor>
+          <dependent id="11">colorful</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">fingernails</governor>
+          <dependent id="12">bodysuits</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Joyner</governor>
+          <dependent id="14">Griffith</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">has</governor>
+          <dependent id="15">Joyner</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Angeles</governor>
+          <dependent id="16">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Angeles</governor>
+          <dependent id="17">Los</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">Joyner</governor>
+          <dependent id="18">Angeles</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">has</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">chance</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">has</governor>
+          <dependent id="21">chance</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">match</governor>
+          <dependent id="22">to</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="21">chance</governor>
+          <dependent id="23">match</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">performance</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="nmod:npmod">
+          <governor id="26">quadruple</governor>
+          <dependent id="25">1984</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">performance</governor>
+          <dependent id="26">quadruple</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">performance</governor>
+          <dependent id="27">gold</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">performance</governor>
+          <dependent id="28">medal</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="23">match</governor>
+          <dependent id="29">performance</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">sprinter</governor>
+          <dependent id="30">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="32">sprinter</governor>
+          <dependent id="31">U.S.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="29">performance</governor>
+          <dependent id="32">sprinter</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="32">sprinter</governor>
+          <dependent id="33">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="37">Lewis</governor>
+          <dependent id="34">long</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="37">Lewis</governor>
+          <dependent id="35">jumper</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="37">Lewis</governor>
+          <dependent id="36">Carl</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="32">sprinter</governor>
+          <dependent id="37">Lewis</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="23">match</governor>
+          <dependent id="39">and</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="42">Blankers-Koen</governor>
+          <dependent id="40">by</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="42">Blankers-Koen</governor>
+          <dependent id="41">Fanny</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="23">match</governor>
+          <dependent id="42">Blankers-Koen</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="45">Netherlands</governor>
+          <dependent id="43">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="45">Netherlands</governor>
+          <dependent id="44">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="42">Blankers-Koen</governor>
+          <dependent id="45">Netherlands</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="47">1948</governor>
+          <dependent id="46">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="42">Blankers-Koen</governor>
+          <dependent id="47">1948</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1984" type="DATE" score="0.0">
+          <tokens>
+            <token id="25" string="1984" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="31" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="3" string="Griffith Joyner" type="PERSON" score="0.0">
+          <tokens>
+            <token id="14" string="Griffith" />
+            <token id="15" string="Joyner" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Carl Lewis" type="PERSON" score="0.0">
+          <tokens>
+            <token id="36" string="Carl" />
+            <token id="37" string="Lewis" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Los Angeles" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="17" string="Los" />
+            <token id="18" string="Angeles" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Fanny Blankers-Koen" type="PERSON" score="0.0">
+          <tokens>
+            <token id="41" string="Fanny" />
+            <token id="42" string="Blankers-Koen" />
+          </tokens>
+        </entity>
+        <entity id="7" string="1948" type="DATE" score="0.0">
+          <tokens>
+            <token id="47" string="1948" />
+          </tokens>
+        </entity>
+        <entity id="8" string="Netherlands" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="45" string="Netherlands" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="1-2-3" string="Florence Griffith Joyner" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1" string="She" id_sentence="2" />
+        <mention ids_tokens="1-2" string="Griffith Joyner" id_sentence="3" />
+        <mention ids_tokens="5" string="her" id_sentence="3" />
+        <mention ids_tokens="16" string="she" id_sentence="3" />
+        <mention ids_tokens="24" string="her" id_sentence="3" />
+        <mention ids_tokens="5" string="she" id_sentence="4" />
+        <mention ids_tokens="2" string="her" id_sentence="5" />
+        <mention ids_tokens="8-9" string="Griffith Joyner" id_sentence="5" />
+        <mention ids_tokens="1-14" string="Griffith Joyner , who set an Olympic record Sunday in winning the 100 meters" id_sentence="6" />
+        <mention ids_tokens="1-2" string="Griffith Joyner" id_sentence="6" />
+        <mention ids_tokens="22" string="she" id_sentence="6" />
+        <mention ids_tokens="1" string="She" id_sentence="7" />
+        <mention ids_tokens="2" string="I" id_sentence="8" />
+        <mention ids_tokens="4" string="I" id_sentence="8" />
+        <mention ids_tokens="11" string="she" id_sentence="8" />
+        <mention ids_tokens="2" string="I" id_sentence="9" />
+        <mention ids_tokens="1-4" string="Griffith Joyner , 28" id_sentence="11" />
+        <mention ids_tokens="1-2" string="Griffith Joyner" id_sentence="11" />
+        <mention ids_tokens="3" string="her" id_sentence="12" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="NOMINAL">
+      <referenced ids_tokens="4-5" string="the wire" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="1" string="That" id_sentence="10" />
+        <mention ids_tokens="3-4" string="the key" id_sentence="10" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

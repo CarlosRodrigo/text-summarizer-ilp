@@ -1,0 +1,3363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP901016-0097">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Leonard Bernstein, whose wide-ranging talents and flamboyant personality helped make him the first American maestro to conquer music&amp;apost;s international podium, was buried today alongside his wife.</content>
+      <tokens>
+        <token id="1" string="Leonard" lemma="Leonard" stem="leonard" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="whose" lemma="whose" stem="whose" pos="WP$" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="wide-ranging" lemma="wide-ranging" stem="wide-rang" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="talents" lemma="talent" stem="talent" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="flamboyant" lemma="flamboyant" stem="flamboy" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="personality" lemma="personality" stem="person" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="helped" lemma="help" stem="help" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="make" lemma="make" stem="make" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="15" string="American" lemma="american" stem="american" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="16" string="maestro" lemma="maestro" stem="maestro" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="conquer" lemma="conquer" stem="conquer" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="music" lemma="music" stem="music" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="international" lemma="international" stem="intern" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="podium" lemma="podium" stem="podium" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="buried" lemma="bury" stem="buri" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="today" lemma="today" stem="todai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="27" string="alongside" lemma="alongside" stem="alongsid" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="wife" lemma="wife" stem="wife" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Leonard) (NNP Bernstein)) (, ,) (SBAR (WHNP (WP$ whose) (ADJP (NP (JJ wide-ranging) (NNS talents)) (CC and) (ADJP (JJ flamboyant))) (NN personality)) (S (VP (VBD helped) (VP (VB make) (NP (PRP him)) (NP (DT the) (JJ first) (JJ American) (NN maestro) (S (VP (TO to) (VP (VB conquer) (NP (NP (NN music) (POS 's)) (JJ international) (NN podium)))))))))) (, ,)) (VP (VBD was) (VP (VBN buried) (NP-TMP (NN today)) (PP (IN alongside) (NP (PRP$ his) (NN wife))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="music 's international podium" type="NP">
+          <tokens>
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to conquer music 's international podium" type="VP">
+          <tokens>
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="flamboyant" type="ADJP">
+          <tokens>
+            <token id="8" string="flamboyant" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="helped make him the first American maestro to conquer music 's international podium" type="VP">
+          <tokens>
+            <token id="10" string="helped" />
+            <token id="11" string="make" />
+            <token id="12" string="him" />
+            <token id="13" string="the" />
+            <token id="14" string="first" />
+            <token id="15" string="American" />
+            <token id="16" string="maestro" />
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="whose wide-ranging talents and flamboyant personality helped make him the first American maestro to conquer music 's international podium" type="SBAR">
+          <tokens>
+            <token id="4" string="whose" />
+            <token id="5" string="wide-ranging" />
+            <token id="6" string="talents" />
+            <token id="7" string="and" />
+            <token id="8" string="flamboyant" />
+            <token id="9" string="personality" />
+            <token id="10" string="helped" />
+            <token id="11" string="make" />
+            <token id="12" string="him" />
+            <token id="13" string="the" />
+            <token id="14" string="first" />
+            <token id="15" string="American" />
+            <token id="16" string="maestro" />
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="him" type="NP">
+          <tokens>
+            <token id="12" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="wide-ranging talents" type="NP">
+          <tokens>
+            <token id="5" string="wide-ranging" />
+            <token id="6" string="talents" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="music 's" type="NP">
+          <tokens>
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Leonard Bernstein , whose wide-ranging talents and flamboyant personality helped make him the first American maestro to conquer music 's international podium ," type="NP">
+          <tokens>
+            <token id="1" string="Leonard" />
+            <token id="2" string="Bernstein" />
+            <token id="3" string="," />
+            <token id="4" string="whose" />
+            <token id="5" string="wide-ranging" />
+            <token id="6" string="talents" />
+            <token id="7" string="and" />
+            <token id="8" string="flamboyant" />
+            <token id="9" string="personality" />
+            <token id="10" string="helped" />
+            <token id="11" string="make" />
+            <token id="12" string="him" />
+            <token id="13" string="the" />
+            <token id="14" string="first" />
+            <token id="15" string="American" />
+            <token id="16" string="maestro" />
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+            <token id="23" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="was buried today alongside his wife" type="VP">
+          <tokens>
+            <token id="24" string="was" />
+            <token id="25" string="buried" />
+            <token id="26" string="today" />
+            <token id="27" string="alongside" />
+            <token id="28" string="his" />
+            <token id="29" string="wife" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Leonard Bernstein" type="NP">
+          <tokens>
+            <token id="1" string="Leonard" />
+            <token id="2" string="Bernstein" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="make him the first American maestro to conquer music 's international podium" type="VP">
+          <tokens>
+            <token id="11" string="make" />
+            <token id="12" string="him" />
+            <token id="13" string="the" />
+            <token id="14" string="first" />
+            <token id="15" string="American" />
+            <token id="16" string="maestro" />
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="wide-ranging talents and flamboyant" type="ADJP">
+          <tokens>
+            <token id="5" string="wide-ranging" />
+            <token id="6" string="talents" />
+            <token id="7" string="and" />
+            <token id="8" string="flamboyant" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="conquer music 's international podium" type="VP">
+          <tokens>
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="buried today alongside his wife" type="VP">
+          <tokens>
+            <token id="25" string="buried" />
+            <token id="26" string="today" />
+            <token id="27" string="alongside" />
+            <token id="28" string="his" />
+            <token id="29" string="wife" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the first American maestro to conquer music 's international podium" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="first" />
+            <token id="15" string="American" />
+            <token id="16" string="maestro" />
+            <token id="17" string="to" />
+            <token id="18" string="conquer" />
+            <token id="19" string="music" />
+            <token id="20" string="'s" />
+            <token id="21" string="international" />
+            <token id="22" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="his wife" type="NP">
+          <tokens>
+            <token id="28" string="his" />
+            <token id="29" string="wife" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Bernstein</governor>
+          <dependent id="1">Leonard</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="25">buried</governor>
+          <dependent id="2">Bernstein</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="9">personality</governor>
+          <dependent id="4">whose</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">talents</governor>
+          <dependent id="5">wide-ranging</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">personality</governor>
+          <dependent id="6">talents</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">talents</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">talents</governor>
+          <dependent id="8">flamboyant</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">helped</governor>
+          <dependent id="9">personality</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">Bernstein</governor>
+          <dependent id="10">helped</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="10">helped</governor>
+          <dependent id="11">make</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="11">make</governor>
+          <dependent id="12">him</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">maestro</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">maestro</governor>
+          <dependent id="14">first</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">maestro</governor>
+          <dependent id="15">American</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">make</governor>
+          <dependent id="16">maestro</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">conquer</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="16">maestro</governor>
+          <dependent id="18">conquer</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="22">podium</governor>
+          <dependent id="19">music</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">music</governor>
+          <dependent id="20">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">podium</governor>
+          <dependent id="21">international</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">conquer</governor>
+          <dependent id="22">podium</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="25">buried</governor>
+          <dependent id="24">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="25">buried</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="25">buried</governor>
+          <dependent id="26">today</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">wife</governor>
+          <dependent id="27">alongside</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="29">wife</governor>
+          <dependent id="28">his</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">buried</governor>
+          <dependent id="29">wife</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="14" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Leonard Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Leonard" />
+            <token id="2" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="3" string="today" type="DATE" score="0.0">
+          <tokens>
+            <token id="26" string="today" />
+          </tokens>
+        </entity>
+        <entity id="4" string="American" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="15" string="American" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Bernstein, who died of lung failure Sunday at age 72, was buried this afternoon in private ceremonies at Greenwood Cemetery in Brooklyn.</content>
+      <tokens>
+        <token id="1" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="died" lemma="die" stem="di" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="lung" lemma="lung" stem="lung" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="failure" lemma="failure" stem="failur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="age" lemma="age" stem="ag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="72" lemma="72" stem="72" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="buried" lemma="bury" stem="buri" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="afternoon" lemma="afternoon" stem="afternoon" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="private" lemma="private" stem="privat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="ceremonies" lemma="ceremony" stem="ceremoni" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="Greenwood" lemma="Greenwood" stem="greenwood" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="22" string="Cemetery" lemma="Cemetery" stem="cemeteri" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Brooklyn" lemma="Brooklyn" stem="brooklyn" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Bernstein)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD died) (PP (IN of) (NP (NN lung) (NN failure))) (NP-TMP (NNP Sunday)) (PP (IN at) (NP (NN age) (CD 72)))))) (, ,)) (VP (VBD was) (VP (VBN buried) (NP-TMP (DT this) (NN afternoon)) (PP (IN in) (NP (NP (JJ private) (NNS ceremonies)) (PP (IN at) (NP (NP (NNP Greenwood) (NNP Cemetery)) (PP (IN in) (NP (NNP Brooklyn))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="age 72" type="NP">
+          <tokens>
+            <token id="10" string="age" />
+            <token id="11" string="72" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Greenwood Cemetery in Brooklyn" type="NP">
+          <tokens>
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+            <token id="23" string="in" />
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="died of lung failure Sunday at age 72" type="VP">
+          <tokens>
+            <token id="4" string="died" />
+            <token id="5" string="of" />
+            <token id="6" string="lung" />
+            <token id="7" string="failure" />
+            <token id="8" string="Sunday" />
+            <token id="9" string="at" />
+            <token id="10" string="age" />
+            <token id="11" string="72" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Greenwood Cemetery" type="NP">
+          <tokens>
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Bernstein" type="NP">
+          <tokens>
+            <token id="1" string="Bernstein" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="private ceremonies" type="NP">
+          <tokens>
+            <token id="18" string="private" />
+            <token id="19" string="ceremonies" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Brooklyn" type="NP">
+          <tokens>
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Bernstein , who died of lung failure Sunday at age 72 ," type="NP">
+          <tokens>
+            <token id="1" string="Bernstein" />
+            <token id="2" string="," />
+            <token id="3" string="who" />
+            <token id="4" string="died" />
+            <token id="5" string="of" />
+            <token id="6" string="lung" />
+            <token id="7" string="failure" />
+            <token id="8" string="Sunday" />
+            <token id="9" string="at" />
+            <token id="10" string="age" />
+            <token id="11" string="72" />
+            <token id="12" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="who died of lung failure Sunday at age 72" type="SBAR">
+          <tokens>
+            <token id="3" string="who" />
+            <token id="4" string="died" />
+            <token id="5" string="of" />
+            <token id="6" string="lung" />
+            <token id="7" string="failure" />
+            <token id="8" string="Sunday" />
+            <token id="9" string="at" />
+            <token id="10" string="age" />
+            <token id="11" string="72" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="was buried this afternoon in private ceremonies at Greenwood Cemetery in Brooklyn" type="VP">
+          <tokens>
+            <token id="13" string="was" />
+            <token id="14" string="buried" />
+            <token id="15" string="this" />
+            <token id="16" string="afternoon" />
+            <token id="17" string="in" />
+            <token id="18" string="private" />
+            <token id="19" string="ceremonies" />
+            <token id="20" string="at" />
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+            <token id="23" string="in" />
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="private ceremonies at Greenwood Cemetery in Brooklyn" type="NP">
+          <tokens>
+            <token id="18" string="private" />
+            <token id="19" string="ceremonies" />
+            <token id="20" string="at" />
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+            <token id="23" string="in" />
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="buried this afternoon in private ceremonies at Greenwood Cemetery in Brooklyn" type="VP">
+          <tokens>
+            <token id="14" string="buried" />
+            <token id="15" string="this" />
+            <token id="16" string="afternoon" />
+            <token id="17" string="in" />
+            <token id="18" string="private" />
+            <token id="19" string="ceremonies" />
+            <token id="20" string="at" />
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+            <token id="23" string="in" />
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="lung failure" type="NP">
+          <tokens>
+            <token id="6" string="lung" />
+            <token id="7" string="failure" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="14">buried</governor>
+          <dependent id="1">Bernstein</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">died</governor>
+          <dependent id="3">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="1">Bernstein</governor>
+          <dependent id="4">died</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">failure</governor>
+          <dependent id="5">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">failure</governor>
+          <dependent id="6">lung</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">died</governor>
+          <dependent id="7">failure</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">died</governor>
+          <dependent id="8">Sunday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">age</governor>
+          <dependent id="9">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">died</governor>
+          <dependent id="10">age</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="10">age</governor>
+          <dependent id="11">72</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="14">buried</governor>
+          <dependent id="13">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">buried</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">afternoon</governor>
+          <dependent id="15">this</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="14">buried</governor>
+          <dependent id="16">afternoon</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">ceremonies</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="19">ceremonies</governor>
+          <dependent id="18">private</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">buried</governor>
+          <dependent id="19">ceremonies</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">Cemetery</governor>
+          <dependent id="20">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Cemetery</governor>
+          <dependent id="21">Greenwood</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">ceremonies</governor>
+          <dependent id="22">Cemetery</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">Brooklyn</governor>
+          <dependent id="23">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">Cemetery</governor>
+          <dependent id="24">Brooklyn</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="this afternoon" type="DATE" score="0.0">
+          <tokens>
+            <token id="15" string="this" />
+            <token id="16" string="afternoon" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Greenwood Cemetery" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="21" string="Greenwood" />
+            <token id="22" string="Cemetery" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Brooklyn" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="24" string="Brooklyn" />
+          </tokens>
+        </entity>
+        <entity id="6" string="72" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="72" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>His wife, Felicia Montealegre, died in 1978.</content>
+      <tokens>
+        <token id="1" string="His" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="wife" lemma="wife" stem="wife" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Felicia" lemma="Felicia" stem="felicia" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="Montealegre" lemma="Montealegre" stem="montealegr" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="died" lemma="die" stem="di" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="1978" lemma="1978" stem="1978" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (PRP$ His) (NN wife)) (, ,) (NP (NNP Felicia) (NNP Montealegre)) (, ,)) (VP (VBD died) (PP (IN in) (NP (CD 1978)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="His wife , Felicia Montealegre ," type="NP">
+          <tokens>
+            <token id="1" string="His" />
+            <token id="2" string="wife" />
+            <token id="3" string="," />
+            <token id="4" string="Felicia" />
+            <token id="5" string="Montealegre" />
+            <token id="6" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="His wife" type="NP">
+          <tokens>
+            <token id="1" string="His" />
+            <token id="2" string="wife" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Felicia Montealegre" type="NP">
+          <tokens>
+            <token id="4" string="Felicia" />
+            <token id="5" string="Montealegre" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="died in 1978" type="VP">
+          <tokens>
+            <token id="7" string="died" />
+            <token id="8" string="in" />
+            <token id="9" string="1978" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1978" type="NP">
+          <tokens>
+            <token id="9" string="1978" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="2">wife</governor>
+          <dependent id="1">His</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">died</governor>
+          <dependent id="2">wife</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Montealegre</governor>
+          <dependent id="4">Felicia</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">wife</governor>
+          <dependent id="5">Montealegre</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">died</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">1978</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">died</governor>
+          <dependent id="9">1978</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Felicia Montealegre" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Felicia" />
+            <token id="5" string="Montealegre" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1978" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="1978" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>Flags at Lincoln Center, where the New York Philharmonic performs, were lowered in memory of the orchestra&amp;apost;s first American-born music director.</content>
+      <tokens>
+        <token id="1" string="Flags" lemma="flag" stem="flag" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="Lincoln" lemma="Lincoln" stem="lincoln" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="4" string="Center" lemma="Center" stem="center" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="9" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="Philharmonic" lemma="Philharmonic" stem="philharmon" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="performs" lemma="perform" stem="perform" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="lowered" lemma="lower" stem="lower" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="memory" lemma="memory" stem="memori" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="orchestra" lemma="orchestra" stem="orchestra" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="22" string="American-born" lemma="american-born" stem="american-born" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="23" string="music" lemma="music" stem="music" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNS Flags)) (PP (IN at) (NP (NNP Lincoln) (NNP Center))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NNP New) (NNP York) (NNP Philharmonic)) (VP (VBZ performs)))) (, ,)) (VP (VBD were) (VP (VBN lowered) (PP (IN in) (NP (NP (NN memory)) (PP (IN of) (NP (NP (DT the) (NN orchestra) (POS 's)) (JJ first) (JJ American-born) (NN music) (NN director))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Flags at Lincoln Center , where the New York Philharmonic performs ," type="NP">
+          <tokens>
+            <token id="1" string="Flags" />
+            <token id="2" string="at" />
+            <token id="3" string="Lincoln" />
+            <token id="4" string="Center" />
+            <token id="5" string="," />
+            <token id="6" string="where" />
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="Philharmonic" />
+            <token id="11" string="performs" />
+            <token id="12" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="performs" type="VP">
+          <tokens>
+            <token id="11" string="performs" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="memory" type="NP">
+          <tokens>
+            <token id="16" string="memory" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Lincoln Center" type="NP">
+          <tokens>
+            <token id="3" string="Lincoln" />
+            <token id="4" string="Center" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="where the New York Philharmonic performs" type="SBAR">
+          <tokens>
+            <token id="6" string="where" />
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="Philharmonic" />
+            <token id="11" string="performs" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="memory of the orchestra 's first American-born music director" type="NP">
+          <tokens>
+            <token id="16" string="memory" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="orchestra" />
+            <token id="20" string="'s" />
+            <token id="21" string="first" />
+            <token id="22" string="American-born" />
+            <token id="23" string="music" />
+            <token id="24" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Flags" type="NP">
+          <tokens>
+            <token id="1" string="Flags" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the orchestra 's first American-born music director" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="orchestra" />
+            <token id="20" string="'s" />
+            <token id="21" string="first" />
+            <token id="22" string="American-born" />
+            <token id="23" string="music" />
+            <token id="24" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the New York Philharmonic" type="NP">
+          <tokens>
+            <token id="7" string="the" />
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="Philharmonic" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="were lowered in memory of the orchestra 's first American-born music director" type="VP">
+          <tokens>
+            <token id="13" string="were" />
+            <token id="14" string="lowered" />
+            <token id="15" string="in" />
+            <token id="16" string="memory" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="orchestra" />
+            <token id="20" string="'s" />
+            <token id="21" string="first" />
+            <token id="22" string="American-born" />
+            <token id="23" string="music" />
+            <token id="24" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="lowered in memory of the orchestra 's first American-born music director" type="VP">
+          <tokens>
+            <token id="14" string="lowered" />
+            <token id="15" string="in" />
+            <token id="16" string="memory" />
+            <token id="17" string="of" />
+            <token id="18" string="the" />
+            <token id="19" string="orchestra" />
+            <token id="20" string="'s" />
+            <token id="21" string="first" />
+            <token id="22" string="American-born" />
+            <token id="23" string="music" />
+            <token id="24" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the orchestra 's" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="orchestra" />
+            <token id="20" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="where" type="WHADVP">
+          <tokens>
+            <token id="6" string="where" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="14">lowered</governor>
+          <dependent id="1">Flags</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">Center</governor>
+          <dependent id="2">at</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Center</governor>
+          <dependent id="3">Lincoln</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Flags</governor>
+          <dependent id="4">Center</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="11">performs</governor>
+          <dependent id="6">where</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">Philharmonic</governor>
+          <dependent id="7">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Philharmonic</governor>
+          <dependent id="8">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">Philharmonic</governor>
+          <dependent id="9">York</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">performs</governor>
+          <dependent id="10">Philharmonic</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="1">Flags</governor>
+          <dependent id="11">performs</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="14">lowered</governor>
+          <dependent id="13">were</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">lowered</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">memory</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">lowered</governor>
+          <dependent id="16">memory</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">director</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">orchestra</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="24">director</governor>
+          <dependent id="19">orchestra</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">orchestra</governor>
+          <dependent id="20">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">director</governor>
+          <dependent id="21">first</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">director</governor>
+          <dependent id="22">American-born</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">director</governor>
+          <dependent id="23">music</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">memory</governor>
+          <dependent id="24">director</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York Philharmonic" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="8" string="New" />
+            <token id="9" string="York" />
+            <token id="10" string="Philharmonic" />
+          </tokens>
+        </entity>
+        <entity id="2" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="21" string="first" />
+          </tokens>
+        </entity>
+        <entity id="3" string="American-born" type="MISC" score="0.0">
+          <tokens>
+            <token id="22" string="American-born" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Lincoln Center" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="3" string="Lincoln" />
+            <token id="4" string="Center" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="false">
+      <content>Bernstein was appointed in 1958 and stepped down in 1969 to spend more time composing.</content>
+      <tokens>
+        <token id="1" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="2" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="appointed" lemma="appoint" stem="appoint" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="1958" lemma="1958" stem="1958" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="6" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="stepped" lemma="step" stem="step" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="down" lemma="down" stem="down" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="1969" lemma="1969" stem="1969" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="11" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="spend" lemma="spend" stem="spend" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="time" lemma="time" stem="time" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="composing" lemma="composing" stem="compos" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Bernstein)) (VP (VP (VBD was) (VP (VBN appointed) (PP (IN in) (NP (CD 1958))))) (CC and) (VP (VBD stepped) (ADVP (RB down) (PP (IN in) (NP (CD 1969)))) (S (VP (TO to) (VP (VB spend) (NP (JJR more) (NN time) (NN composing))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="was appointed in 1958 and stepped down in 1969 to spend more time composing" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="appointed" />
+            <token id="4" string="in" />
+            <token id="5" string="1958" />
+            <token id="6" string="and" />
+            <token id="7" string="stepped" />
+            <token id="8" string="down" />
+            <token id="9" string="in" />
+            <token id="10" string="1969" />
+            <token id="11" string="to" />
+            <token id="12" string="spend" />
+            <token id="13" string="more" />
+            <token id="14" string="time" />
+            <token id="15" string="composing" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="more time composing" type="NP">
+          <tokens>
+            <token id="13" string="more" />
+            <token id="14" string="time" />
+            <token id="15" string="composing" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="appointed in 1958" type="VP">
+          <tokens>
+            <token id="3" string="appointed" />
+            <token id="4" string="in" />
+            <token id="5" string="1958" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Bernstein" type="NP">
+          <tokens>
+            <token id="1" string="Bernstein" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was appointed in 1958" type="VP">
+          <tokens>
+            <token id="2" string="was" />
+            <token id="3" string="appointed" />
+            <token id="4" string="in" />
+            <token id="5" string="1958" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="stepped down in 1969 to spend more time composing" type="VP">
+          <tokens>
+            <token id="7" string="stepped" />
+            <token id="8" string="down" />
+            <token id="9" string="in" />
+            <token id="10" string="1969" />
+            <token id="11" string="to" />
+            <token id="12" string="spend" />
+            <token id="13" string="more" />
+            <token id="14" string="time" />
+            <token id="15" string="composing" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="1958" type="NP">
+          <tokens>
+            <token id="5" string="1958" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1969" type="NP">
+          <tokens>
+            <token id="10" string="1969" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="spend more time composing" type="VP">
+          <tokens>
+            <token id="12" string="spend" />
+            <token id="13" string="more" />
+            <token id="14" string="time" />
+            <token id="15" string="composing" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to spend more time composing" type="VP">
+          <tokens>
+            <token id="11" string="to" />
+            <token id="12" string="spend" />
+            <token id="13" string="more" />
+            <token id="14" string="time" />
+            <token id="15" string="composing" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="3">appointed</governor>
+          <dependent id="1">Bernstein</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="3">appointed</governor>
+          <dependent id="2">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">appointed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">1958</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">appointed</governor>
+          <dependent id="5">1958</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="3">appointed</governor>
+          <dependent id="6">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="3">appointed</governor>
+          <dependent id="7">stepped</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">stepped</governor>
+          <dependent id="8">down</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">1969</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">down</governor>
+          <dependent id="10">1969</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">spend</governor>
+          <dependent id="11">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">stepped</governor>
+          <dependent id="12">spend</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">composing</governor>
+          <dependent id="13">more</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">composing</governor>
+          <dependent id="14">time</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">spend</governor>
+          <dependent id="15">composing</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1958" type="DATE" score="0.0">
+          <tokens>
+            <token id="5" string="1958" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1969" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="1969" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>The Philharmonic will perform an all-Bernstein program beginning Thursday and continuing through Oct. 23.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="Philharmonic" lemma="Philharmonic" stem="philharmon" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="perform" lemma="perform" stem="perform" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="all-Bernstein" lemma="all-bernstein" stem="all-bernstein" pos="JJ" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="7" string="program" lemma="program" stem="program" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="beginning" lemma="beginning" stem="begin" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="continuing" lemma="continue" stem="continu" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Oct." lemma="Oct." stem="oct." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="23" lemma="23" stem="23" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (DT The) (NNP Philharmonic)) (VP (MD will) (VP (VB perform) (NP (DT an) (JJ all-Bernstein) (NN program) (NN beginning)) (NP-TMP (NNP Thursday))))) (CC and) (S (VP (VBG continuing) (PP (IN through) (NP (NNP Oct.) (CD 23))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="continuing through Oct. 23" type="VP">
+          <tokens>
+            <token id="11" string="continuing" />
+            <token id="12" string="through" />
+            <token id="13" string="Oct." />
+            <token id="14" string="23" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Oct. 23" type="NP">
+          <tokens>
+            <token id="13" string="Oct." />
+            <token id="14" string="23" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="will perform an all-Bernstein program beginning Thursday" type="VP">
+          <tokens>
+            <token id="3" string="will" />
+            <token id="4" string="perform" />
+            <token id="5" string="an" />
+            <token id="6" string="all-Bernstein" />
+            <token id="7" string="program" />
+            <token id="8" string="beginning" />
+            <token id="9" string="Thursday" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The Philharmonic" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="Philharmonic" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="an all-Bernstein program beginning" type="NP">
+          <tokens>
+            <token id="5" string="an" />
+            <token id="6" string="all-Bernstein" />
+            <token id="7" string="program" />
+            <token id="8" string="beginning" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="perform an all-Bernstein program beginning Thursday" type="VP">
+          <tokens>
+            <token id="4" string="perform" />
+            <token id="5" string="an" />
+            <token id="6" string="all-Bernstein" />
+            <token id="7" string="program" />
+            <token id="8" string="beginning" />
+            <token id="9" string="Thursday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">Philharmonic</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">perform</governor>
+          <dependent id="2">Philharmonic</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">perform</governor>
+          <dependent id="3">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">perform</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">beginning</governor>
+          <dependent id="5">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">beginning</governor>
+          <dependent id="6">all-Bernstein</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">beginning</governor>
+          <dependent id="7">program</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">perform</governor>
+          <dependent id="8">beginning</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">perform</governor>
+          <dependent id="9">Thursday</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">perform</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">perform</governor>
+          <dependent id="11">continuing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Oct.</governor>
+          <dependent id="12">through</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">continuing</governor>
+          <dependent id="13">Oct.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">Oct.</governor>
+          <dependent id="14">23</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="all-Bernstein" type="MISC" score="0.0">
+          <tokens>
+            <token id="6" string="all-Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="2" string="beginning Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="beginning" />
+            <token id="9" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Oct. 23" type="DATE" score="0.0">
+          <tokens>
+            <token id="13" string="Oct." />
+            <token id="14" string="23" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="false">
+      <content>The schedule had called for works by Shostakovich and Beethoven.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="schedule" lemma="schedule" stem="schedul" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="had" lemma="have" stem="had" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="called" lemma="call" stem="call" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="works" lemma="work" stem="work" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Shostakovich" lemma="Shostakovich" stem="shostakovich" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="Beethoven" lemma="Beethoven" stem="beethoven" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN schedule)) (VP (VBD had) (VP (VBN called) (PP (IN for) (NP (NNS works))) (PP (IN by) (NP (NNP Shostakovich) (CC and) (NNP Beethoven))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="works" type="NP">
+          <tokens>
+            <token id="6" string="works" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="had called for works by Shostakovich and Beethoven" type="VP">
+          <tokens>
+            <token id="3" string="had" />
+            <token id="4" string="called" />
+            <token id="5" string="for" />
+            <token id="6" string="works" />
+            <token id="7" string="by" />
+            <token id="8" string="Shostakovich" />
+            <token id="9" string="and" />
+            <token id="10" string="Beethoven" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="called for works by Shostakovich and Beethoven" type="VP">
+          <tokens>
+            <token id="4" string="called" />
+            <token id="5" string="for" />
+            <token id="6" string="works" />
+            <token id="7" string="by" />
+            <token id="8" string="Shostakovich" />
+            <token id="9" string="and" />
+            <token id="10" string="Beethoven" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The schedule" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="schedule" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Shostakovich and Beethoven" type="NP">
+          <tokens>
+            <token id="8" string="Shostakovich" />
+            <token id="9" string="and" />
+            <token id="10" string="Beethoven" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">schedule</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">called</governor>
+          <dependent id="2">schedule</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="4">called</governor>
+          <dependent id="3">had</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">called</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">works</governor>
+          <dependent id="5">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">called</governor>
+          <dependent id="6">works</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Shostakovich</governor>
+          <dependent id="7">by</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">called</governor>
+          <dependent id="8">Shostakovich</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">Shostakovich</governor>
+          <dependent id="9">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">Shostakovich</governor>
+          <dependent id="10">Beethoven</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Shostakovich" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Shostakovich" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Beethoven" type="PERSON" score="0.0">
+          <tokens>
+            <token id="10" string="Beethoven" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>A memorial concert also is planned for Carnegie Hall on Nov. 14, the 47th anniversary of Bernstein&amp;apost;s Philharmonic debut.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="memorial" lemma="memorial" stem="memori" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="concert" lemma="concert" stem="concert" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="planned" lemma="plan" stem="plan" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Carnegie" lemma="Carnegie" stem="carnegi" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="9" string="Hall" lemma="Hall" stem="hall" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="Nov." lemma="Nov." stem="nov." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="12" string="14" lemma="14" stem="14" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="47th" lemma="47th" stem="47th" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="16" string="anniversary" lemma="anniversary" stem="anniversari" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="19" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="Philharmonic" lemma="Philharmonic" stem="philharmon" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="21" string="debut" lemma="debut" stem="debut" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (NN memorial) (NN concert)) (ADVP (RB also)) (VP (VBZ is) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Carnegie) (NNP Hall)) (PP (IN on) (NP (NP (NNP Nov.) (CD 14)) (, ,) (NP (NP (DT the) (JJ 47th) (NN anniversary)) (PP (IN of) (NP (NP (NNP Bernstein) (POS 's)) (NNP Philharmonic) (NN debut)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="A memorial concert" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="memorial" />
+            <token id="3" string="concert" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Bernstein 's" type="NP">
+          <tokens>
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Carnegie Hall" type="NP">
+          <tokens>
+            <token id="8" string="Carnegie" />
+            <token id="9" string="Hall" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Nov. 14 , the 47th anniversary of Bernstein 's Philharmonic debut" type="NP">
+          <tokens>
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+            <token id="17" string="of" />
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Carnegie Hall on Nov. 14 , the 47th anniversary of Bernstein 's Philharmonic debut" type="NP">
+          <tokens>
+            <token id="8" string="Carnegie" />
+            <token id="9" string="Hall" />
+            <token id="10" string="on" />
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+            <token id="17" string="of" />
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Nov. 14" type="NP">
+          <tokens>
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the 47th anniversary of Bernstein 's Philharmonic debut" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+            <token id="17" string="of" />
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the 47th anniversary" type="NP">
+          <tokens>
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Bernstein 's Philharmonic debut" type="NP">
+          <tokens>
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="is planned for Carnegie Hall on Nov. 14 , the 47th anniversary of Bernstein 's Philharmonic debut" type="VP">
+          <tokens>
+            <token id="5" string="is" />
+            <token id="6" string="planned" />
+            <token id="7" string="for" />
+            <token id="8" string="Carnegie" />
+            <token id="9" string="Hall" />
+            <token id="10" string="on" />
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+            <token id="17" string="of" />
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="planned for Carnegie Hall on Nov. 14 , the 47th anniversary of Bernstein 's Philharmonic debut" type="VP">
+          <tokens>
+            <token id="6" string="planned" />
+            <token id="7" string="for" />
+            <token id="8" string="Carnegie" />
+            <token id="9" string="Hall" />
+            <token id="10" string="on" />
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+            <token id="13" string="," />
+            <token id="14" string="the" />
+            <token id="15" string="47th" />
+            <token id="16" string="anniversary" />
+            <token id="17" string="of" />
+            <token id="18" string="Bernstein" />
+            <token id="19" string="'s" />
+            <token id="20" string="Philharmonic" />
+            <token id="21" string="debut" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">concert</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">concert</governor>
+          <dependent id="2">memorial</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="6">planned</governor>
+          <dependent id="3">concert</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">planned</governor>
+          <dependent id="4">also</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="6">planned</governor>
+          <dependent id="5">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">planned</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Hall</governor>
+          <dependent id="7">for</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Hall</governor>
+          <dependent id="8">Carnegie</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">planned</governor>
+          <dependent id="9">Hall</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">Nov.</governor>
+          <dependent id="10">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">Hall</governor>
+          <dependent id="11">Nov.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">Nov.</governor>
+          <dependent id="12">14</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">anniversary</governor>
+          <dependent id="14">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">anniversary</governor>
+          <dependent id="15">47th</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="11">Nov.</governor>
+          <dependent id="16">anniversary</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">debut</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="21">debut</governor>
+          <dependent id="18">Bernstein</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">Bernstein</governor>
+          <dependent id="19">'s</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">debut</governor>
+          <dependent id="20">Philharmonic</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">anniversary</governor>
+          <dependent id="21">debut</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Carnegie Hall" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="8" string="Carnegie" />
+            <token id="9" string="Hall" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Philharmonic" type="MISC" score="0.0">
+          <tokens>
+            <token id="20" string="Philharmonic" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Nov. 14" type="DATE" score="0.0">
+          <tokens>
+            <token id="11" string="Nov." />
+            <token id="12" string="14" />
+          </tokens>
+        </entity>
+        <entity id="5" string="47th" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="15" string="47th" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>Famed for his gymnastics at the podium, Bernstein composed symphonies as well as movie scores and Broadway shows such as ``West Side Story,&amp;apost;&amp;apost; ``On the Town&amp;apost;&amp;apost; and ``Candide.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="Famed" lemma="famed" stem="fame" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="gymnastics" lemma="gymnastics" stem="gymnast" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="podium" lemma="podium" stem="podium" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="10" string="composed" lemma="compose" stem="compos" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="symphonies" lemma="symphony" stem="symphoni" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="movie" lemma="movie" stem="movi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="scores" lemma="score" stem="score" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Broadway" lemma="Broadway" stem="broadwai" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="shows" lemma="show" stem="show" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="such" lemma="such" stem="such" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="23" string="West" lemma="West" stem="west" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="24" string="Side" lemma="Side" stem="side" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="25" string="Story" lemma="Story" stem="stori" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="27" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="28" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="29" string="On" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="30" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="31" string="Town" lemma="town" stem="town" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="32" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="33" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="34" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="35" string="Candide" lemma="Candide" stem="candid" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (ADJP (JJ Famed) (PP (IN for) (NP (NP (PRP$ his) (NNS gymnastics)) (PP (IN at) (NP (NP (DT the) (NN podium)) (, ,) (NP (NP (NNP Bernstein)) (VP (VBN composed) (NP (NP (NNS symphonies)) (CONJP (RB as) (RB well) (IN as)) (NP (NN movie) (NNS scores))))))))))) (CC and) (S (NP (NNP Broadway)) (VP (VBZ shows) (PP (JJ such) (IN as) (NP (`` ``) (NP (NNP West) (NNP Side) (NNP Story)) (, ,) ('' '') (`` ``) (NP (IN On) (DT the) (NN Town)) ('' '') (CC and) (`` ``) (NP (NNP Candide)))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="composed symphonies as well as movie scores" type="VP">
+          <tokens>
+            <token id="10" string="composed" />
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="symphonies" type="NP">
+          <tokens>
+            <token id="11" string="symphonies" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="`` West Side Story , '' `` On the Town '' and `` Candide" type="NP">
+          <tokens>
+            <token id="22" string="``" />
+            <token id="23" string="West" />
+            <token id="24" string="Side" />
+            <token id="25" string="Story" />
+            <token id="26" string="," />
+            <token id="27" string="''" />
+            <token id="28" string="``" />
+            <token id="29" string="On" />
+            <token id="30" string="the" />
+            <token id="31" string="Town" />
+            <token id="32" string="''" />
+            <token id="33" string="and" />
+            <token id="34" string="``" />
+            <token id="35" string="Candide" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="On the Town" type="NP">
+          <tokens>
+            <token id="29" string="On" />
+            <token id="30" string="the" />
+            <token id="31" string="Town" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Bernstein composed symphonies as well as movie scores" type="NP">
+          <tokens>
+            <token id="9" string="Bernstein" />
+            <token id="10" string="composed" />
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Bernstein" type="NP">
+          <tokens>
+            <token id="9" string="Bernstein" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Broadway" type="NP">
+          <tokens>
+            <token id="18" string="Broadway" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="his gymnastics" type="NP">
+          <tokens>
+            <token id="3" string="his" />
+            <token id="4" string="gymnastics" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="movie scores" type="NP">
+          <tokens>
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="symphonies as well as movie scores" type="NP">
+          <tokens>
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="West Side Story" type="NP">
+          <tokens>
+            <token id="23" string="West" />
+            <token id="24" string="Side" />
+            <token id="25" string="Story" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Candide" type="NP">
+          <tokens>
+            <token id="35" string="Candide" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the podium , Bernstein composed symphonies as well as movie scores" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="podium" />
+            <token id="8" string="," />
+            <token id="9" string="Bernstein" />
+            <token id="10" string="composed" />
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="shows such as `` West Side Story , '' `` On the Town '' and `` Candide" type="VP">
+          <tokens>
+            <token id="19" string="shows" />
+            <token id="20" string="such" />
+            <token id="21" string="as" />
+            <token id="22" string="``" />
+            <token id="23" string="West" />
+            <token id="24" string="Side" />
+            <token id="25" string="Story" />
+            <token id="26" string="," />
+            <token id="27" string="''" />
+            <token id="28" string="``" />
+            <token id="29" string="On" />
+            <token id="30" string="the" />
+            <token id="31" string="Town" />
+            <token id="32" string="''" />
+            <token id="33" string="and" />
+            <token id="34" string="``" />
+            <token id="35" string="Candide" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="the podium" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="podium" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Famed for his gymnastics at the podium , Bernstein composed symphonies as well as movie scores" type="ADJP">
+          <tokens>
+            <token id="1" string="Famed" />
+            <token id="2" string="for" />
+            <token id="3" string="his" />
+            <token id="4" string="gymnastics" />
+            <token id="5" string="at" />
+            <token id="6" string="the" />
+            <token id="7" string="podium" />
+            <token id="8" string="," />
+            <token id="9" string="Bernstein" />
+            <token id="10" string="composed" />
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="his gymnastics at the podium , Bernstein composed symphonies as well as movie scores" type="NP">
+          <tokens>
+            <token id="3" string="his" />
+            <token id="4" string="gymnastics" />
+            <token id="5" string="at" />
+            <token id="6" string="the" />
+            <token id="7" string="podium" />
+            <token id="8" string="," />
+            <token id="9" string="Bernstein" />
+            <token id="10" string="composed" />
+            <token id="11" string="symphonies" />
+            <token id="12" string="as" />
+            <token id="13" string="well" />
+            <token id="14" string="as" />
+            <token id="15" string="movie" />
+            <token id="16" string="scores" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="1">Famed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">gymnastics</governor>
+          <dependent id="2">for</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="4">gymnastics</governor>
+          <dependent id="3">his</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Famed</governor>
+          <dependent id="4">gymnastics</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">podium</governor>
+          <dependent id="5">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">podium</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">gymnastics</governor>
+          <dependent id="7">podium</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="7">podium</governor>
+          <dependent id="9">Bernstein</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="9">Bernstein</governor>
+          <dependent id="10">composed</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="10">composed</governor>
+          <dependent id="11">symphonies</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">symphonies</governor>
+          <dependent id="12">as</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="12">as</governor>
+          <dependent id="13">well</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="12">as</governor>
+          <dependent id="14">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">scores</governor>
+          <dependent id="15">movie</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">symphonies</governor>
+          <dependent id="16">scores</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="1">Famed</governor>
+          <dependent id="17">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="19">shows</governor>
+          <dependent id="18">Broadway</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="1">Famed</governor>
+          <dependent id="19">shows</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">Story</governor>
+          <dependent id="20">such</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="20">such</governor>
+          <dependent id="21">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">Story</governor>
+          <dependent id="23">West</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">Story</governor>
+          <dependent id="24">Side</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">shows</governor>
+          <dependent id="25">Story</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">Town</governor>
+          <dependent id="29">On</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">Town</governor>
+          <dependent id="30">the</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="25">Story</governor>
+          <dependent id="31">Town</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="25">Story</governor>
+          <dependent id="33">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="25">Story</governor>
+          <dependent id="35">Candide</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="9" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Broadway" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="Broadway" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>His Emmy-winning ``Young People&amp;apost;s Concerts&amp;apost;&amp;apost; on television introduced thousands to classical music.</content>
+      <tokens>
+        <token id="1" string="His" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="Emmy-winning" lemma="emmy-winning" stem="emmy-win" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="Young" lemma="Young" stem="young" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="People" lemma="People" stem="peopl" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="Concerts" lemma="Concerts" stem="concert" pos="NNPS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="8" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="9" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="television" lemma="television" stem="televis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="introduced" lemma="introduce" stem="introduc" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="thousands" lemma="thousand" stem="thousand" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="classical" lemma="classical" stem="classic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="music" lemma="music" stem="music" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (PRP$ His) (JJ Emmy-winning)) (NP (`` ``) (NP (NP (NNP Young) (NNP People) (POS 's)) (NNPS Concerts)) ('' '') (PP (IN on) (NP (NN television))))) (VP (VBD introduced) (NP (NNS thousands)) (PP (TO to) (NP (JJ classical) (NN music)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Young People 's" type="NP">
+          <tokens>
+            <token id="4" string="Young" />
+            <token id="5" string="People" />
+            <token id="6" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="classical music" type="NP">
+          <tokens>
+            <token id="14" string="classical" />
+            <token id="15" string="music" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="television" type="NP">
+          <tokens>
+            <token id="10" string="television" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="His Emmy-winning `` Young People 's Concerts '' on television" type="NP">
+          <tokens>
+            <token id="1" string="His" />
+            <token id="2" string="Emmy-winning" />
+            <token id="3" string="``" />
+            <token id="4" string="Young" />
+            <token id="5" string="People" />
+            <token id="6" string="'s" />
+            <token id="7" string="Concerts" />
+            <token id="8" string="''" />
+            <token id="9" string="on" />
+            <token id="10" string="television" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="`` Young People 's Concerts '' on television" type="NP">
+          <tokens>
+            <token id="3" string="``" />
+            <token id="4" string="Young" />
+            <token id="5" string="People" />
+            <token id="6" string="'s" />
+            <token id="7" string="Concerts" />
+            <token id="8" string="''" />
+            <token id="9" string="on" />
+            <token id="10" string="television" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="His Emmy-winning" type="NP">
+          <tokens>
+            <token id="1" string="His" />
+            <token id="2" string="Emmy-winning" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="introduced thousands to classical music" type="VP">
+          <tokens>
+            <token id="11" string="introduced" />
+            <token id="12" string="thousands" />
+            <token id="13" string="to" />
+            <token id="14" string="classical" />
+            <token id="15" string="music" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Young People 's Concerts" type="NP">
+          <tokens>
+            <token id="4" string="Young" />
+            <token id="5" string="People" />
+            <token id="6" string="'s" />
+            <token id="7" string="Concerts" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="thousands" type="NP">
+          <tokens>
+            <token id="12" string="thousands" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nmod:poss">
+          <governor id="2">Emmy-winning</governor>
+          <dependent id="1">His</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">introduced</governor>
+          <dependent id="2">Emmy-winning</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">People</governor>
+          <dependent id="4">Young</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="7">Concerts</governor>
+          <dependent id="5">People</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">People</governor>
+          <dependent id="6">'s</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">Emmy-winning</governor>
+          <dependent id="7">Concerts</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">television</governor>
+          <dependent id="9">on</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">Concerts</governor>
+          <dependent id="10">television</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">introduced</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="11">introduced</governor>
+          <dependent id="12">thousands</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">music</governor>
+          <dependent id="13">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">music</governor>
+          <dependent id="14">classical</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">introduced</governor>
+          <dependent id="15">music</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>``He was the most unique musician of this century, there is no doubt about it,&amp;apost;&amp;apost; said Zubin Mehta, music director of the New York Philharmonic and the Israel Philharmonic Orchestra.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="most" lemma="most" stem="most" pos="RBS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="6" string="unique" lemma="unique" stem="uniqu" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="musician" lemma="musician" stem="musician" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="10" string="century" lemma="century" stem="centuri" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="no" lemma="no" stem="no" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="doubt" lemma="doubt" stem="doubt" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="Zubin" lemma="Zubin" stem="zubin" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="22" string="Mehta" lemma="Mehta" stem="mehta" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="23" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="music" lemma="music" stem="music" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="director" lemma="director" stem="director" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="29" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="30" string="Philharmonic" lemma="Philharmonic" stem="philharmon" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="true" />
+        <token id="31" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="Israel" lemma="Israel" stem="israel" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="34" string="Philharmonic" lemma="Philharmonic" stem="philharmon" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="35" string="Orchestra" lemma="Orchestra" stem="orchestra" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (S (NP (PRP He)) (VP (VBD was) (NP (NP (DT the) (ADJP (RBS most) (JJ unique)) (NN musician)) (PP (IN of) (NP (DT this) (NN century)))))) (, ,) (S (NP (EX there)) (VP (VBZ is) (NP (NP (DT no) (NN doubt)) (PP (IN about) (NP (PRP it))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Zubin) (NNP Mehta)) (, ,) (NP (NP (NN music) (NN director)) (PP (IN of) (NP (NP (DT the) (NNP New) (NNP York) (NNP Philharmonic)) (CC and) (NP (DT the) (NNP Israel) (NNP Philharmonic) (NNP Orchestra)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="this century" type="NP">
+          <tokens>
+            <token id="9" string="this" />
+            <token id="10" string="century" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="most unique" type="ADJP">
+          <tokens>
+            <token id="5" string="most" />
+            <token id="6" string="unique" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="music director of the New York Philharmonic and the Israel Philharmonic Orchestra" type="NP">
+          <tokens>
+            <token id="24" string="music" />
+            <token id="25" string="director" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="New" />
+            <token id="29" string="York" />
+            <token id="30" string="Philharmonic" />
+            <token id="31" string="and" />
+            <token id="32" string="the" />
+            <token id="33" string="Israel" />
+            <token id="34" string="Philharmonic" />
+            <token id="35" string="Orchestra" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Israel Philharmonic Orchestra" type="NP">
+          <tokens>
+            <token id="32" string="the" />
+            <token id="33" string="Israel" />
+            <token id="34" string="Philharmonic" />
+            <token id="35" string="Orchestra" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the most unique musician" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="most" />
+            <token id="6" string="unique" />
+            <token id="7" string="musician" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the New York Philharmonic and the Israel Philharmonic Orchestra" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="New" />
+            <token id="29" string="York" />
+            <token id="30" string="Philharmonic" />
+            <token id="31" string="and" />
+            <token id="32" string="the" />
+            <token id="33" string="Israel" />
+            <token id="34" string="Philharmonic" />
+            <token id="35" string="Orchestra" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was the most unique musician of this century" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="the" />
+            <token id="5" string="most" />
+            <token id="6" string="unique" />
+            <token id="7" string="musician" />
+            <token id="8" string="of" />
+            <token id="9" string="this" />
+            <token id="10" string="century" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="it" type="NP">
+          <tokens>
+            <token id="17" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="music director" type="NP">
+          <tokens>
+            <token id="24" string="music" />
+            <token id="25" string="director" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the New York Philharmonic" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="New" />
+            <token id="29" string="York" />
+            <token id="30" string="Philharmonic" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="there" type="NP">
+          <tokens>
+            <token id="12" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="is no doubt about it" type="VP">
+          <tokens>
+            <token id="13" string="is" />
+            <token id="14" string="no" />
+            <token id="15" string="doubt" />
+            <token id="16" string="about" />
+            <token id="17" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Zubin Mehta , music director of the New York Philharmonic and the Israel Philharmonic Orchestra" type="NP">
+          <tokens>
+            <token id="21" string="Zubin" />
+            <token id="22" string="Mehta" />
+            <token id="23" string="," />
+            <token id="24" string="music" />
+            <token id="25" string="director" />
+            <token id="26" string="of" />
+            <token id="27" string="the" />
+            <token id="28" string="New" />
+            <token id="29" string="York" />
+            <token id="30" string="Philharmonic" />
+            <token id="31" string="and" />
+            <token id="32" string="the" />
+            <token id="33" string="Israel" />
+            <token id="34" string="Philharmonic" />
+            <token id="35" string="Orchestra" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the most unique musician of this century" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="most" />
+            <token id="6" string="unique" />
+            <token id="7" string="musician" />
+            <token id="8" string="of" />
+            <token id="9" string="this" />
+            <token id="10" string="century" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Zubin Mehta" type="NP">
+          <tokens>
+            <token id="21" string="Zubin" />
+            <token id="22" string="Mehta" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="no doubt about it" type="NP">
+          <tokens>
+            <token id="14" string="no" />
+            <token id="15" string="doubt" />
+            <token id="16" string="about" />
+            <token id="17" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="no doubt" type="NP">
+          <tokens>
+            <token id="14" string="no" />
+            <token id="15" string="doubt" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="He" type="NP">
+          <tokens>
+            <token id="2" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="said" type="VP">
+          <tokens>
+            <token id="20" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="7">musician</governor>
+          <dependent id="2">He</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="7">musician</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">musician</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">unique</governor>
+          <dependent id="5">most</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">musician</governor>
+          <dependent id="6">unique</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="20">said</governor>
+          <dependent id="7">musician</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">century</governor>
+          <dependent id="8">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">century</governor>
+          <dependent id="9">this</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">musician</governor>
+          <dependent id="10">century</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="13">is</governor>
+          <dependent id="12">there</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="7">musician</governor>
+          <dependent id="13">is</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="15">doubt</governor>
+          <dependent id="14">no</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">is</governor>
+          <dependent id="15">doubt</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">it</governor>
+          <dependent id="16">about</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">doubt</governor>
+          <dependent id="17">it</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="20">said</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Mehta</governor>
+          <dependent id="21">Zubin</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">said</governor>
+          <dependent id="22">Mehta</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">director</governor>
+          <dependent id="24">music</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="22">Mehta</governor>
+          <dependent id="25">director</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="26">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="28">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="29">York</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">director</governor>
+          <dependent id="30">Philharmonic</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="31">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">Orchestra</governor>
+          <dependent id="32">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">Orchestra</governor>
+          <dependent id="33">Israel</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">Orchestra</governor>
+          <dependent id="34">Philharmonic</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="30">Philharmonic</governor>
+          <dependent id="35">Orchestra</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="this century" type="DATE" score="0.0">
+          <tokens>
+            <token id="9" string="this" />
+            <token id="10" string="century" />
+          </tokens>
+        </entity>
+        <entity id="2" string="New York Philharmonic" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="28" string="New" />
+            <token id="29" string="York" />
+            <token id="30" string="Philharmonic" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Zubin Mehta" type="PERSON" score="0.0">
+          <tokens>
+            <token id="21" string="Zubin" />
+            <token id="22" string="Mehta" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Israel Philharmonic Orchestra" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="33" string="Israel" />
+            <token id="34" string="Philharmonic" />
+            <token id="35" string="Orchestra" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>Larry Kert, who played Tony in the Broadway production of ``West Side Story,&amp;apost;&amp;apost; said Bernstein himself played the piano for him during rehearsals.</content>
+      <tokens>
+        <token id="1" string="Larry" lemma="Larry" stem="larri" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="2" string="Kert" lemma="Kert" stem="kert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="played" lemma="play" stem="plai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="Tony" lemma="Tony" stem="toni" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="7" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="Broadway" lemma="Broadway" stem="broadwai" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="10" string="production" lemma="production" stem="product" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="West" lemma="West" stem="west" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="Side" lemma="Side" stem="side" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="Story" lemma="Story" stem="stori" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Bernstein" lemma="Bernstein" stem="bernstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="20" string="himself" lemma="himself" stem="himself" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="played" lemma="play" stem="plai" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="piano" lemma="piano" stem="piano" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="rehearsals" lemma="rehearsal" stem="rehears" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Larry) (NNP Kert)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD played) (NP (NNP Tony)) (PP (IN in) (NP (NP (DT the) (NNP Broadway) (NN production)) (PP (IN of) (NP (`` ``) (NNP West) (NNP Side) (NNP Story)))))))) (, ,) ('' '')) (VP (VBD said) (NP (NP (NNP Bernstein)) (SBAR (S (NP (PRP himself)) (VP (VBD played) (NP (DT the) (NN piano)) (PP (IN for) (NP (PRP him))) (PP (IN during) (NP (NNS rehearsals)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Tony" type="NP">
+          <tokens>
+            <token id="6" string="Tony" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="who played Tony in the Broadway production of `` West Side Story" type="SBAR">
+          <tokens>
+            <token id="4" string="who" />
+            <token id="5" string="played" />
+            <token id="6" string="Tony" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="Broadway" />
+            <token id="10" string="production" />
+            <token id="11" string="of" />
+            <token id="12" string="``" />
+            <token id="13" string="West" />
+            <token id="14" string="Side" />
+            <token id="15" string="Story" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Bernstein" type="NP">
+          <tokens>
+            <token id="19" string="Bernstein" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="`` West Side Story" type="NP">
+          <tokens>
+            <token id="12" string="``" />
+            <token id="13" string="West" />
+            <token id="14" string="Side" />
+            <token id="15" string="Story" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the Broadway production of `` West Side Story" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Broadway" />
+            <token id="10" string="production" />
+            <token id="11" string="of" />
+            <token id="12" string="``" />
+            <token id="13" string="West" />
+            <token id="14" string="Side" />
+            <token id="15" string="Story" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="him" type="NP">
+          <tokens>
+            <token id="25" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="said Bernstein himself played the piano for him during rehearsals" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+            <token id="19" string="Bernstein" />
+            <token id="20" string="himself" />
+            <token id="21" string="played" />
+            <token id="22" string="the" />
+            <token id="23" string="piano" />
+            <token id="24" string="for" />
+            <token id="25" string="him" />
+            <token id="26" string="during" />
+            <token id="27" string="rehearsals" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the piano" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="piano" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Bernstein himself played the piano for him during rehearsals" type="NP">
+          <tokens>
+            <token id="19" string="Bernstein" />
+            <token id="20" string="himself" />
+            <token id="21" string="played" />
+            <token id="22" string="the" />
+            <token id="23" string="piano" />
+            <token id="24" string="for" />
+            <token id="25" string="him" />
+            <token id="26" string="during" />
+            <token id="27" string="rehearsals" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the Broadway production" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="Broadway" />
+            <token id="10" string="production" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="rehearsals" type="NP">
+          <tokens>
+            <token id="27" string="rehearsals" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="played the piano for him during rehearsals" type="VP">
+          <tokens>
+            <token id="21" string="played" />
+            <token id="22" string="the" />
+            <token id="23" string="piano" />
+            <token id="24" string="for" />
+            <token id="25" string="him" />
+            <token id="26" string="during" />
+            <token id="27" string="rehearsals" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="played Tony in the Broadway production of `` West Side Story" type="VP">
+          <tokens>
+            <token id="5" string="played" />
+            <token id="6" string="Tony" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="Broadway" />
+            <token id="10" string="production" />
+            <token id="11" string="of" />
+            <token id="12" string="``" />
+            <token id="13" string="West" />
+            <token id="14" string="Side" />
+            <token id="15" string="Story" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="himself played the piano for him during rehearsals" type="SBAR">
+          <tokens>
+            <token id="20" string="himself" />
+            <token id="21" string="played" />
+            <token id="22" string="the" />
+            <token id="23" string="piano" />
+            <token id="24" string="for" />
+            <token id="25" string="him" />
+            <token id="26" string="during" />
+            <token id="27" string="rehearsals" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="himself" type="NP">
+          <tokens>
+            <token id="20" string="himself" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Larry Kert , who played Tony in the Broadway production of `` West Side Story , ''" type="NP">
+          <tokens>
+            <token id="1" string="Larry" />
+            <token id="2" string="Kert" />
+            <token id="3" string="," />
+            <token id="4" string="who" />
+            <token id="5" string="played" />
+            <token id="6" string="Tony" />
+            <token id="7" string="in" />
+            <token id="8" string="the" />
+            <token id="9" string="Broadway" />
+            <token id="10" string="production" />
+            <token id="11" string="of" />
+            <token id="12" string="``" />
+            <token id="13" string="West" />
+            <token id="14" string="Side" />
+            <token id="15" string="Story" />
+            <token id="16" string="," />
+            <token id="17" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Larry Kert" type="NP">
+          <tokens>
+            <token id="1" string="Larry" />
+            <token id="2" string="Kert" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Kert</governor>
+          <dependent id="1">Larry</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="2">Kert</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">played</governor>
+          <dependent id="4">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">Kert</governor>
+          <dependent id="5">played</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">played</governor>
+          <dependent id="6">Tony</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">production</governor>
+          <dependent id="7">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">production</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">production</governor>
+          <dependent id="9">Broadway</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">played</governor>
+          <dependent id="10">production</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Story</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Story</governor>
+          <dependent id="13">West</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Story</governor>
+          <dependent id="14">Side</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">production</governor>
+          <dependent id="15">Story</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">said</governor>
+          <dependent id="19">Bernstein</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">played</governor>
+          <dependent id="20">himself</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="19">Bernstein</governor>
+          <dependent id="21">played</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">piano</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">played</governor>
+          <dependent id="23">piano</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="25">him</governor>
+          <dependent id="24">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">played</governor>
+          <dependent id="25">him</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">rehearsals</governor>
+          <dependent id="26">during</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">played</governor>
+          <dependent id="27">rehearsals</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Tony" type="PERSON" score="0.0">
+          <tokens>
+            <token id="6" string="Tony" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Broadway" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="Broadway" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Bernstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="19" string="Bernstein" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Larry Kert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="1" string="Larry" />
+            <token id="2" string="Kert" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>``He could have gotten a rehearsal pianist, but he cared too much,&amp;apost;&amp;apost; Kert said.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="could" lemma="could" stem="could" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="gotten" lemma="get" stem="gotten" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="rehearsal" lemma="rehearsal" stem="rehears" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="pianist" lemma="pianist" stem="pianist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="but" lemma="but" stem="but" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="cared" lemma="care" stem="care" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="too" lemma="too" stem="too" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="much" lemma="much" stem="much" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Kert" lemma="Kert" stem="kert" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="18" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (S (NP (PRP He)) (VP (MD could) (VP (VB have) (VP (VBN gotten) (NP (DT a) (NN rehearsal) (NN pianist)))))) (, ,) (CC but) (S (NP (PRP he)) (VP (VBD cared) (ADVP (RB too) (RB much))))) (, ,) ('' '') (NP (NNP Kert)) (VP (VBD said)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="have gotten a rehearsal pianist" type="VP">
+          <tokens>
+            <token id="4" string="have" />
+            <token id="5" string="gotten" />
+            <token id="6" string="a" />
+            <token id="7" string="rehearsal" />
+            <token id="8" string="pianist" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="could have gotten a rehearsal pianist" type="VP">
+          <tokens>
+            <token id="3" string="could" />
+            <token id="4" string="have" />
+            <token id="5" string="gotten" />
+            <token id="6" string="a" />
+            <token id="7" string="rehearsal" />
+            <token id="8" string="pianist" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a rehearsal pianist" type="NP">
+          <tokens>
+            <token id="6" string="a" />
+            <token id="7" string="rehearsal" />
+            <token id="8" string="pianist" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Kert" type="NP">
+          <tokens>
+            <token id="17" string="Kert" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="He" type="NP">
+          <tokens>
+            <token id="2" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="gotten a rehearsal pianist" type="VP">
+          <tokens>
+            <token id="5" string="gotten" />
+            <token id="6" string="a" />
+            <token id="7" string="rehearsal" />
+            <token id="8" string="pianist" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="he" type="NP">
+          <tokens>
+            <token id="11" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said" type="VP">
+          <tokens>
+            <token id="18" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="cared too much" type="VP">
+          <tokens>
+            <token id="12" string="cared" />
+            <token id="13" string="too" />
+            <token id="14" string="much" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="5">gotten</governor>
+          <dependent id="2">He</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">gotten</governor>
+          <dependent id="3">could</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">gotten</governor>
+          <dependent id="4">have</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">said</governor>
+          <dependent id="5">gotten</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">pianist</governor>
+          <dependent id="6">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">pianist</governor>
+          <dependent id="7">rehearsal</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">gotten</governor>
+          <dependent id="8">pianist</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="5">gotten</governor>
+          <dependent id="10">but</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">cared</governor>
+          <dependent id="11">he</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="5">gotten</governor>
+          <dependent id="12">cared</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">much</governor>
+          <dependent id="13">too</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">cared</governor>
+          <dependent id="14">much</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">said</governor>
+          <dependent id="17">Kert</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="18">said</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Kert" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Kert" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="true">
+      <content>``I was the new kid on the block and he stroked me and took care of me - and I will never forget him for that.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="new" lemma="new" stem="new" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="kid" lemma="kid" stem="kid" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="block" lemma="block" stem="block" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="stroked" lemma="stroke" stem="stroke" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="me" lemma="I" stem="me" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="took" lemma="take" stem="took" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="care" lemma="care" stem="care" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="me" lemma="I" stem="me" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="-" lemma="-" stem="-" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="never" lemma="never" stem="never" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="forget" lemma="forget" stem="forget" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="him" lemma="he" stem="him" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="26" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="that" lemma="that" stem="that" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (`` ``) (S (S (NP (PRP I)) (VP (VBD was) (NP (NP (DT the) (JJ new) (NN kid)) (PP (IN on) (NP (DT the) (NN block)))))) (CC and) (S (NP (PRP he)) (VP (VP (VBD stroked) (NP (PRP me))) (CC and) (VP (VBD took) (NP (NP (NN care)) (PP (IN of) (NP (PRP me)))))))) (: -) (CC and) (S (NP (PRP I)) (VP (MD will) (ADVP (RB never)) (VP (VB forget) (NP (PRP him)) (PP (IN for) (NP (DT that)))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="stroked me and took care of me" type="VP">
+          <tokens>
+            <token id="12" string="stroked" />
+            <token id="13" string="me" />
+            <token id="14" string="and" />
+            <token id="15" string="took" />
+            <token id="16" string="care" />
+            <token id="17" string="of" />
+            <token id="18" string="me" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the new kid on the block" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="new" />
+            <token id="6" string="kid" />
+            <token id="7" string="on" />
+            <token id="8" string="the" />
+            <token id="9" string="block" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="stroked me" type="VP">
+          <tokens>
+            <token id="12" string="stroked" />
+            <token id="13" string="me" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="care of me" type="NP">
+          <tokens>
+            <token id="16" string="care" />
+            <token id="17" string="of" />
+            <token id="18" string="me" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="forget him for that" type="VP">
+          <tokens>
+            <token id="24" string="forget" />
+            <token id="25" string="him" />
+            <token id="26" string="for" />
+            <token id="27" string="that" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="I" type="NP">
+          <tokens>
+            <token id="2" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="took care of me" type="VP">
+          <tokens>
+            <token id="15" string="took" />
+            <token id="16" string="care" />
+            <token id="17" string="of" />
+            <token id="18" string="me" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="him" type="NP">
+          <tokens>
+            <token id="25" string="him" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="will never forget him for that" type="VP">
+          <tokens>
+            <token id="22" string="will" />
+            <token id="23" string="never" />
+            <token id="24" string="forget" />
+            <token id="25" string="him" />
+            <token id="26" string="for" />
+            <token id="27" string="that" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="that" type="NP">
+          <tokens>
+            <token id="27" string="that" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="was the new kid on the block" type="VP">
+          <tokens>
+            <token id="3" string="was" />
+            <token id="4" string="the" />
+            <token id="5" string="new" />
+            <token id="6" string="kid" />
+            <token id="7" string="on" />
+            <token id="8" string="the" />
+            <token id="9" string="block" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="the new kid" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="new" />
+            <token id="6" string="kid" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="me" type="NP">
+          <tokens>
+            <token id="13" string="me" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the block" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="block" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="he" type="NP">
+          <tokens>
+            <token id="11" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="care" type="NP">
+          <tokens>
+            <token id="16" string="care" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="6">kid</governor>
+          <dependent id="2">I</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">kid</governor>
+          <dependent id="3">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">kid</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">kid</governor>
+          <dependent id="5">new</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">kid</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">block</governor>
+          <dependent id="7">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">block</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">kid</governor>
+          <dependent id="9">block</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">kid</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">stroked</governor>
+          <dependent id="11">he</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">kid</governor>
+          <dependent id="12">stroked</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">stroked</governor>
+          <dependent id="13">me</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">stroked</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">stroked</governor>
+          <dependent id="15">took</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">took</governor>
+          <dependent id="16">care</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">me</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">care</governor>
+          <dependent id="18">me</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">kid</governor>
+          <dependent id="20">and</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="24">forget</governor>
+          <dependent id="21">I</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">forget</governor>
+          <dependent id="22">will</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="24">forget</governor>
+          <dependent id="23">never</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">kid</governor>
+          <dependent id="24">forget</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="24">forget</governor>
+          <dependent id="25">him</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">that</governor>
+          <dependent id="26">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">forget</governor>
+          <dependent id="27">that</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="3" type="NOMINAL">
+      <referenced ids_tokens="19-20-21-22" string="music 's international podium" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="6-7" string="the podium" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="1" string="Bernstein" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="1" string="His" id_sentence="3" />
+        <mention ids_tokens="18-19" string="Bernstein's" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="7-8-9-10" string="the New York Philharmonic" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The Philharmonic" id_sentence="6" />
+        <mention ids_tokens="20" string="Philharmonic" id_sentence="8" />
+        <mention ids_tokens="28-30" string="New York Philharmonic" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="15" string="47th" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="3" string="his" id_sentence="9" />
+        <mention ids_tokens="1" string="His" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="12-13-14-15" string="`` West Side Story" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="22-35" string="`` West Side Story ,'' `` On the Town'' and `` Candide" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9-10" string="the most unique musician of this century" id_sentence="11" />
+      <mentions>
+        <mention ids_tokens="1-10" string="His Emmy-winning `` Young People's Concerts'' on television" id_sentence="10" />
+      </mentions>
+    </coreference>
+    <coreference id="14" type="PROPER">
+      <referenced ids_tokens="1-2" string="Larry Kert" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="2" string="He" id_sentence="13" />
+        <mention ids_tokens="11" string="he" id_sentence="13" />
+        <mention ids_tokens="17" string="Kert" id_sentence="13" />
+        <mention ids_tokens="11" string="he" id_sentence="14" />
+        <mention ids_tokens="25" string="him" id_sentence="14" />
+      </mentions>
+    </coreference>
+    <coreference id="15" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9" string="the new kid on the block" id_sentence="14" />
+      <mentions>
+        <mention ids_tokens="25" string="him" id_sentence="12" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

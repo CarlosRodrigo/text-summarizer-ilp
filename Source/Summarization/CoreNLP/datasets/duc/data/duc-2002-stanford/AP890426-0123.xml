@@ -1,0 +1,3999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP890426-0123">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Here are highlights of Lucille Ball&amp;apost;s career: 1911 _ Born Aug. 6, 1911, in Jamestown N.Y., the daughter of an electrician and concert pianist Desiree Ball.</content>
+      <tokens>
+        <token id="1" string="Here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="highlights" lemma="highlight" stem="highlight" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Lucille" lemma="Lucille" stem="lucil" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="6" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="7" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="career" lemma="career" stem="career" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="1911" lemma="1911" stem="1911" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="11" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="Born" lemma="bear" stem="born" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="Aug." lemma="Aug." stem="aug." pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="14" string="6" lemma="6" stem="6" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="1911" lemma="1911" stem="1911" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="Jamestown" lemma="Jamestown" stem="jamestown" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="N.Y." lemma="N.Y." stem="n.y." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="daughter" lemma="daughter" stem="daughter" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="electrician" lemma="electrician" stem="electrician" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="concert" lemma="concert" stem="concert" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="pianist" lemma="pianist" stem="pianist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="Desiree" lemma="Desiree" stem="desire" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="31" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="32" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (RB Here)) (VP (VBP are))) (VP (VBZ highlights) (PP (IN of) (NP (NP (NP (NNP Lucille) (NNP Ball) (POS 's)) (NN career)) (: :) (NP (NP (CD 1911) (CD _)) (VP (VBN Born) (NP-TMP (NNP Aug.) (CD 6) (, ,) (CD 1911) (, ,)) (PP (IN in) (NP (NP (NNP Jamestown) (NNP N.Y.)) (, ,) (NP (NP (DT the) (NN daughter)) (PP (IN of) (NP (NP (DT an) (NN electrician)) (CC and) (NP (NN concert) (NN pianist) (NNP Desiree) (NNP Ball)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1911 _ Born Aug. 6 , 1911 , in Jamestown N.Y. , the daughter of an electrician and concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="10" string="1911" />
+            <token id="11" string="_" />
+            <token id="12" string="Born" />
+            <token id="13" string="Aug." />
+            <token id="14" string="6" />
+            <token id="15" string="," />
+            <token id="16" string="1911" />
+            <token id="17" string="," />
+            <token id="18" string="in" />
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+            <token id="21" string="," />
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="an electrician" type="NP">
+          <tokens>
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="highlights of Lucille Ball 's career : 1911 _ Born Aug. 6 , 1911 , in Jamestown N.Y. , the daughter of an electrician and concert pianist Desiree Ball" type="VP">
+          <tokens>
+            <token id="3" string="highlights" />
+            <token id="4" string="of" />
+            <token id="5" string="Lucille" />
+            <token id="6" string="Ball" />
+            <token id="7" string="'s" />
+            <token id="8" string="career" />
+            <token id="9" string=":" />
+            <token id="10" string="1911" />
+            <token id="11" string="_" />
+            <token id="12" string="Born" />
+            <token id="13" string="Aug." />
+            <token id="14" string="6" />
+            <token id="15" string="," />
+            <token id="16" string="1911" />
+            <token id="17" string="," />
+            <token id="18" string="in" />
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+            <token id="21" string="," />
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Lucille Ball 's" type="NP">
+          <tokens>
+            <token id="5" string="Lucille" />
+            <token id="6" string="Ball" />
+            <token id="7" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Jamestown N.Y. , the daughter of an electrician and concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+            <token id="21" string="," />
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Born Aug. 6 , 1911 , in Jamestown N.Y. , the daughter of an electrician and concert pianist Desiree Ball" type="VP">
+          <tokens>
+            <token id="12" string="Born" />
+            <token id="13" string="Aug." />
+            <token id="14" string="6" />
+            <token id="15" string="," />
+            <token id="16" string="1911" />
+            <token id="17" string="," />
+            <token id="18" string="in" />
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+            <token id="21" string="," />
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Here" type="NP">
+          <tokens>
+            <token id="1" string="Here" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="an electrician and concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="1911 _" type="NP">
+          <tokens>
+            <token id="10" string="1911" />
+            <token id="11" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Here are" type="NP">
+          <tokens>
+            <token id="1" string="Here" />
+            <token id="2" string="are" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="are" type="VP">
+          <tokens>
+            <token id="2" string="are" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Lucille Ball 's career" type="NP">
+          <tokens>
+            <token id="5" string="Lucille" />
+            <token id="6" string="Ball" />
+            <token id="7" string="'s" />
+            <token id="8" string="career" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the daughter" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the daughter of an electrician and concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="Lucille Ball 's career : 1911 _ Born Aug. 6 , 1911 , in Jamestown N.Y. , the daughter of an electrician and concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="5" string="Lucille" />
+            <token id="6" string="Ball" />
+            <token id="7" string="'s" />
+            <token id="8" string="career" />
+            <token id="9" string=":" />
+            <token id="10" string="1911" />
+            <token id="11" string="_" />
+            <token id="12" string="Born" />
+            <token id="13" string="Aug." />
+            <token id="14" string="6" />
+            <token id="15" string="," />
+            <token id="16" string="1911" />
+            <token id="17" string="," />
+            <token id="18" string="in" />
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+            <token id="21" string="," />
+            <token id="22" string="the" />
+            <token id="23" string="daughter" />
+            <token id="24" string="of" />
+            <token id="25" string="an" />
+            <token id="26" string="electrician" />
+            <token id="27" string="and" />
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="concert pianist Desiree Ball" type="NP">
+          <tokens>
+            <token id="28" string="concert" />
+            <token id="29" string="pianist" />
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="Jamestown N.Y." type="NP">
+          <tokens>
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="3">highlights</governor>
+          <dependent id="1">Here</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="1">Here</governor>
+          <dependent id="2">are</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">highlights</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">career</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Ball</governor>
+          <dependent id="5">Lucille</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">career</governor>
+          <dependent id="6">Ball</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">Ball</governor>
+          <dependent id="7">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">highlights</governor>
+          <dependent id="8">career</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="11">_</governor>
+          <dependent id="10">1911</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">career</governor>
+          <dependent id="11">_</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="11">_</governor>
+          <dependent id="12">Born</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="12">Born</governor>
+          <dependent id="13">Aug.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">Aug.</governor>
+          <dependent id="14">6</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">Aug.</governor>
+          <dependent id="16">1911</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">N.Y.</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">N.Y.</governor>
+          <dependent id="19">Jamestown</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">Born</governor>
+          <dependent id="20">N.Y.</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="23">daughter</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="20">N.Y.</governor>
+          <dependent id="23">daughter</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">electrician</governor>
+          <dependent id="24">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">electrician</governor>
+          <dependent id="25">an</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="23">daughter</governor>
+          <dependent id="26">electrician</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="26">electrician</governor>
+          <dependent id="27">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">Ball</governor>
+          <dependent id="28">concert</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">Ball</governor>
+          <dependent id="29">pianist</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">Ball</governor>
+          <dependent id="30">Desiree</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">electrician</governor>
+          <dependent id="31">Ball</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1911" type="DATE" score="0.0">
+          <tokens>
+            <token id="10" string="1911" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Desiree Ball" type="PERSON" score="0.0">
+          <tokens>
+            <token id="30" string="Desiree" />
+            <token id="31" string="Ball" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Aug. 6 , 1911" type="DATE" score="0.0">
+          <tokens>
+            <token id="13" string="Aug." />
+            <token id="14" string="6" />
+            <token id="15" string="," />
+            <token id="16" string="1911" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Jamestown N.Y." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="Jamestown" />
+            <token id="20" string="N.Y." />
+          </tokens>
+        </entity>
+        <entity id="5" string="Lucille Ball" type="PERSON" score="0.0">
+          <tokens>
+            <token id="5" string="Lucille" />
+            <token id="6" string="Ball" />
+          </tokens>
+        </entity>
+        <entity id="6" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>1926 _ Begins career in show business in New York as a chorus girl.</content>
+      <tokens>
+        <token id="1" string="1926" lemma="1926" stem="1926" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Begins" lemma="begin" stem="begin" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="career" lemma="career" stem="career" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="show" lemma="show" stem="show" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="business" lemma="business" stem="busi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="10" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="11" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="chorus" lemma="chorus" stem="choru" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="girl" lemma="girl" stem="girl" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (CD 1926) (CD _)) (VP (VBZ Begins) (NP (NN career)) (PP (IN in) (NP (NP (NN show) (NN business)) (PP (IN in) (NP (NP (NNP New) (NNP York)) (PP (IN as) (NP (DT a) (NN chorus) (NN girl)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="New York" type="NP">
+          <tokens>
+            <token id="9" string="New" />
+            <token id="10" string="York" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="career" type="NP">
+          <tokens>
+            <token id="4" string="career" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1926 _" type="NP">
+          <tokens>
+            <token id="1" string="1926" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="show business in New York as a chorus girl" type="NP">
+          <tokens>
+            <token id="6" string="show" />
+            <token id="7" string="business" />
+            <token id="8" string="in" />
+            <token id="9" string="New" />
+            <token id="10" string="York" />
+            <token id="11" string="as" />
+            <token id="12" string="a" />
+            <token id="13" string="chorus" />
+            <token id="14" string="girl" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="show business" type="NP">
+          <tokens>
+            <token id="6" string="show" />
+            <token id="7" string="business" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="a chorus girl" type="NP">
+          <tokens>
+            <token id="12" string="a" />
+            <token id="13" string="chorus" />
+            <token id="14" string="girl" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Begins career in show business in New York as a chorus girl" type="VP">
+          <tokens>
+            <token id="3" string="Begins" />
+            <token id="4" string="career" />
+            <token id="5" string="in" />
+            <token id="6" string="show" />
+            <token id="7" string="business" />
+            <token id="8" string="in" />
+            <token id="9" string="New" />
+            <token id="10" string="York" />
+            <token id="11" string="as" />
+            <token id="12" string="a" />
+            <token id="13" string="chorus" />
+            <token id="14" string="girl" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="New York as a chorus girl" type="NP">
+          <tokens>
+            <token id="9" string="New" />
+            <token id="10" string="York" />
+            <token id="11" string="as" />
+            <token id="12" string="a" />
+            <token id="13" string="chorus" />
+            <token id="14" string="girl" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1926</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">Begins</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Begins</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">Begins</governor>
+          <dependent id="4">career</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">business</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">business</governor>
+          <dependent id="6">show</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">Begins</governor>
+          <dependent id="7">business</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">York</governor>
+          <dependent id="8">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">York</governor>
+          <dependent id="9">New</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">business</governor>
+          <dependent id="10">York</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">girl</governor>
+          <dependent id="11">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">girl</governor>
+          <dependent id="12">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">girl</governor>
+          <dependent id="13">chorus</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">York</governor>
+          <dependent id="14">girl</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="9" string="New" />
+            <token id="10" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1926" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1926" />
+          </tokens>
+        </entity>
+        <entity id="3" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="false">
+      <content>1933 _ Goes to Hollywood as movie showgirl for RKO, later becoming a successful actress appearing in more than 75 films.</content>
+      <tokens>
+        <token id="1" string="1933" lemma="1933" stem="1933" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Goes" lemma="go" stem="goe" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="Hollywood" lemma="Hollywood" stem="hollywood" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="6" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="movie" lemma="movie" stem="movi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="showgirl" lemma="showgirl" stem="showgirl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="RKO" lemma="RKO" stem="rko" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="later" lemma="later" stem="later" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="becoming" lemma="become" stem="becom" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="successful" lemma="successful" stem="success" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="actress" lemma="actress" stem="actress" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="appearing" lemma="appear" stem="appear" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="75" lemma="75" stem="75" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="22" string="films" lemma="film" stem="film" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (CD 1933) (CD _)) (VP (VBZ Goes) (PP (TO to) (NP (NNP Hollywood))) (PP (IN as) (NP (NP (NN movie) (NN showgirl)) (PP (IN for) (NP (NNP RKO))))) (, ,) (S (ADVP (RB later)) (VP (VBG becoming) (NP (NP (DT a) (JJ successful) (NN actress)) (VP (VBG appearing) (PP (IN in) (NP (QP (JJR more) (IN than) (CD 75)) (NNS films)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Hollywood" type="NP">
+          <tokens>
+            <token id="5" string="Hollywood" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="appearing in more than 75 films" type="VP">
+          <tokens>
+            <token id="17" string="appearing" />
+            <token id="18" string="in" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="75" />
+            <token id="22" string="films" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="a successful actress" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="successful" />
+            <token id="16" string="actress" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="movie showgirl" type="NP">
+          <tokens>
+            <token id="7" string="movie" />
+            <token id="8" string="showgirl" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="RKO" type="NP">
+          <tokens>
+            <token id="10" string="RKO" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Goes to Hollywood as movie showgirl for RKO , later becoming a successful actress appearing in more than 75 films" type="VP">
+          <tokens>
+            <token id="3" string="Goes" />
+            <token id="4" string="to" />
+            <token id="5" string="Hollywood" />
+            <token id="6" string="as" />
+            <token id="7" string="movie" />
+            <token id="8" string="showgirl" />
+            <token id="9" string="for" />
+            <token id="10" string="RKO" />
+            <token id="11" string="," />
+            <token id="12" string="later" />
+            <token id="13" string="becoming" />
+            <token id="14" string="a" />
+            <token id="15" string="successful" />
+            <token id="16" string="actress" />
+            <token id="17" string="appearing" />
+            <token id="18" string="in" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="75" />
+            <token id="22" string="films" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="more than 75 films" type="NP">
+          <tokens>
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="75" />
+            <token id="22" string="films" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="movie showgirl for RKO" type="NP">
+          <tokens>
+            <token id="7" string="movie" />
+            <token id="8" string="showgirl" />
+            <token id="9" string="for" />
+            <token id="10" string="RKO" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="1933 _" type="NP">
+          <tokens>
+            <token id="1" string="1933" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a successful actress appearing in more than 75 films" type="NP">
+          <tokens>
+            <token id="14" string="a" />
+            <token id="15" string="successful" />
+            <token id="16" string="actress" />
+            <token id="17" string="appearing" />
+            <token id="18" string="in" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="75" />
+            <token id="22" string="films" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="becoming a successful actress appearing in more than 75 films" type="VP">
+          <tokens>
+            <token id="13" string="becoming" />
+            <token id="14" string="a" />
+            <token id="15" string="successful" />
+            <token id="16" string="actress" />
+            <token id="17" string="appearing" />
+            <token id="18" string="in" />
+            <token id="19" string="more" />
+            <token id="20" string="than" />
+            <token id="21" string="75" />
+            <token id="22" string="films" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1933</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">Goes</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">Goes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">Hollywood</governor>
+          <dependent id="4">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">Goes</governor>
+          <dependent id="5">Hollywood</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">showgirl</governor>
+          <dependent id="6">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">showgirl</governor>
+          <dependent id="7">movie</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">Goes</governor>
+          <dependent id="8">showgirl</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">RKO</governor>
+          <dependent id="9">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">showgirl</governor>
+          <dependent id="10">RKO</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="13">becoming</governor>
+          <dependent id="12">later</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="3">Goes</governor>
+          <dependent id="13">becoming</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">actress</governor>
+          <dependent id="14">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">actress</governor>
+          <dependent id="15">successful</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="13">becoming</governor>
+          <dependent id="16">actress</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="16">actress</governor>
+          <dependent id="17">appearing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">films</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="21">75</governor>
+          <dependent id="19">more</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="19">more</governor>
+          <dependent id="20">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="22">films</governor>
+          <dependent id="21">75</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">appearing</governor>
+          <dependent id="22">films</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1933" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1933" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Hollywood" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="5" string="Hollywood" />
+          </tokens>
+        </entity>
+        <entity id="3" string="75" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="21" string="75" />
+          </tokens>
+        </entity>
+        <entity id="4" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>1940 _ Marries Desi Arnaz, a Cuban percussionist and bandleader when both were making the movie ``Too Many Girls.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1940" lemma="1940" stem="1940" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Marries" lemma="Marries" stem="marri" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="Desi" lemma="Desi" stem="desi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="Arnaz" lemma="Arnaz" stem="arnaz" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="Cuban" lemma="cuban" stem="cuban" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="true" is_refers="false" />
+        <token id="9" string="percussionist" lemma="percussionist" stem="percussionist" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="bandleader" lemma="bandleader" stem="bandlead" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="both" lemma="both" stem="both" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="making" lemma="make" stem="make" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="movie" lemma="movie" stem="movi" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="Too" lemma="Too" stem="too" pos="NNP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="Many" lemma="many" stem="mani" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="21" string="Girls" lemma="Girls" stem="girl" pos="NNPS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (FRAG (NP (NP (NP (QP (CD 1940) (CD _))) (NP (NNP Marries) (NNP Desi) (NNP Arnaz))) (, ,) (NP (NP (DT a) (JJ Cuban) (NN percussionist) (CC and) (NN bandleader)) (SBAR (WHADVP (WRB when)) (S (NP (CC both)) (VP (VBD were) (VP (VBG making) (NP (NP (DT the) (NN movie)) (`` ``) (NP (NNP Too) (JJ Many) (NNPS Girls))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="making the movie `` Too Many Girls" type="VP">
+          <tokens>
+            <token id="15" string="making" />
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the movie" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Too Many Girls" type="NP">
+          <tokens>
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="when both were making the movie `` Too Many Girls" type="SBAR">
+          <tokens>
+            <token id="12" string="when" />
+            <token id="13" string="both" />
+            <token id="14" string="were" />
+            <token id="15" string="making" />
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the movie `` Too Many Girls" type="NP">
+          <tokens>
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="1940 _ Marries Desi Arnaz , a Cuban percussionist and bandleader when both were making the movie `` Too Many Girls" type="NP">
+          <tokens>
+            <token id="1" string="1940" />
+            <token id="2" string="_" />
+            <token id="3" string="Marries" />
+            <token id="4" string="Desi" />
+            <token id="5" string="Arnaz" />
+            <token id="6" string="," />
+            <token id="7" string="a" />
+            <token id="8" string="Cuban" />
+            <token id="9" string="percussionist" />
+            <token id="10" string="and" />
+            <token id="11" string="bandleader" />
+            <token id="12" string="when" />
+            <token id="13" string="both" />
+            <token id="14" string="were" />
+            <token id="15" string="making" />
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="1940 _ Marries Desi Arnaz" type="NP">
+          <tokens>
+            <token id="1" string="1940" />
+            <token id="2" string="_" />
+            <token id="3" string="Marries" />
+            <token id="4" string="Desi" />
+            <token id="5" string="Arnaz" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="when" type="WHADVP">
+          <tokens>
+            <token id="12" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="both" type="NP">
+          <tokens>
+            <token id="13" string="both" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="were making the movie `` Too Many Girls" type="VP">
+          <tokens>
+            <token id="14" string="were" />
+            <token id="15" string="making" />
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="a Cuban percussionist and bandleader when both were making the movie `` Too Many Girls" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="Cuban" />
+            <token id="9" string="percussionist" />
+            <token id="10" string="and" />
+            <token id="11" string="bandleader" />
+            <token id="12" string="when" />
+            <token id="13" string="both" />
+            <token id="14" string="were" />
+            <token id="15" string="making" />
+            <token id="16" string="the" />
+            <token id="17" string="movie" />
+            <token id="18" string="``" />
+            <token id="19" string="Too" />
+            <token id="20" string="Many" />
+            <token id="21" string="Girls" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a Cuban percussionist and bandleader" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="Cuban" />
+            <token id="9" string="percussionist" />
+            <token id="10" string="and" />
+            <token id="11" string="bandleader" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="Marries Desi Arnaz" type="NP">
+          <tokens>
+            <token id="3" string="Marries" />
+            <token id="4" string="Desi" />
+            <token id="5" string="Arnaz" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="1940 _" type="NP">
+          <tokens>
+            <token id="1" string="1940" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">_</governor>
+          <dependent id="1">1940</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Arnaz</governor>
+          <dependent id="3">Marries</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Arnaz</governor>
+          <dependent id="4">Desi</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="5">Arnaz</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">percussionist</governor>
+          <dependent id="7">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">percussionist</governor>
+          <dependent id="8">Cuban</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">_</governor>
+          <dependent id="9">percussionist</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">percussionist</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">percussionist</governor>
+          <dependent id="11">bandleader</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">making</governor>
+          <dependent id="12">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">making</governor>
+          <dependent id="13">both</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="15">making</governor>
+          <dependent id="14">were</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="9">percussionist</governor>
+          <dependent id="15">making</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">movie</governor>
+          <dependent id="16">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">making</governor>
+          <dependent id="17">movie</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="21">Girls</governor>
+          <dependent id="19">Too</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">Girls</governor>
+          <dependent id="20">Many</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="17">movie</governor>
+          <dependent id="21">Girls</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1940" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1940" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Desi Arnaz" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Desi" />
+            <token id="5" string="Arnaz" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Cuban" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="8" string="Cuban" />
+          </tokens>
+        </entity>
+        <entity id="4" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>1951 _ They form Desilu Productions with $5,000 and ``I Love Lucy&amp;apost;&amp;apost; begins its historic six-year domination of television comedy.</content>
+      <tokens>
+        <token id="1" string="1951" lemma="1951" stem="1951" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="3" string="They" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="4" string="form" lemma="form" stem="form" pos="VBP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="Desilu" lemma="Desilu" stem="desilu" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="Productions" lemma="Productions" stem="product" pos="NNPS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="true" is_refers="false" />
+        <token id="9" string="5,000" lemma="5,000" stem="5,000" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="true" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="12" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="13" string="Love" lemma="Love" stem="love" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="14" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="15" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="16" string="begins" lemma="begin" stem="begin" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="historic" lemma="historic" stem="histor" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="six-year" lemma="six-year" stem="six-year" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="domination" lemma="domination" stem="domin" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="television" lemma="television" stem="televis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="comedy" lemma="comedy" stem="comedi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1951) (CD _)) (SBAR (S (NP (PRP They)) (VP (VBP form) (NP (NP (NNP Desilu) (NNPS Productions)) (PP (IN with) (NP (NP ($ $) (CD 5,000)) (CC and) (NP (`` ``) (NP (PRP I)) (PP (NNP Love) (NP (NNP Lucy))) ('' ''))))))))) (VP (VBZ begins) (NP (NP (PRP$ its) (JJ historic) (JJ six-year) (NN domination)) (PP (IN of) (NP (NN television) (NN comedy))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="They" type="NP">
+          <tokens>
+            <token id="3" string="They" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="its historic six-year domination" type="NP">
+          <tokens>
+            <token id="17" string="its" />
+            <token id="18" string="historic" />
+            <token id="19" string="six-year" />
+            <token id="20" string="domination" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="television comedy" type="NP">
+          <tokens>
+            <token id="22" string="television" />
+            <token id="23" string="comedy" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="They form Desilu Productions with $ 5,000 and `` I Love Lucy ''" type="SBAR">
+          <tokens>
+            <token id="3" string="They" />
+            <token id="4" string="form" />
+            <token id="5" string="Desilu" />
+            <token id="6" string="Productions" />
+            <token id="7" string="with" />
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Desilu Productions" type="NP">
+          <tokens>
+            <token id="5" string="Desilu" />
+            <token id="6" string="Productions" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="$ 5,000" type="NP">
+          <tokens>
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="begins its historic six-year domination of television comedy" type="VP">
+          <tokens>
+            <token id="16" string="begins" />
+            <token id="17" string="its" />
+            <token id="18" string="historic" />
+            <token id="19" string="six-year" />
+            <token id="20" string="domination" />
+            <token id="21" string="of" />
+            <token id="22" string="television" />
+            <token id="23" string="comedy" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="form Desilu Productions with $ 5,000 and `` I Love Lucy ''" type="VP">
+          <tokens>
+            <token id="4" string="form" />
+            <token id="5" string="Desilu" />
+            <token id="6" string="Productions" />
+            <token id="7" string="with" />
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="I" type="NP">
+          <tokens>
+            <token id="12" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="`` I Love Lucy ''" type="NP">
+          <tokens>
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="$ 5,000 and `` I Love Lucy ''" type="NP">
+          <tokens>
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="1951 _ They form Desilu Productions with $ 5,000 and `` I Love Lucy ''" type="NP">
+          <tokens>
+            <token id="1" string="1951" />
+            <token id="2" string="_" />
+            <token id="3" string="They" />
+            <token id="4" string="form" />
+            <token id="5" string="Desilu" />
+            <token id="6" string="Productions" />
+            <token id="7" string="with" />
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="its historic six-year domination of television comedy" type="NP">
+          <tokens>
+            <token id="17" string="its" />
+            <token id="18" string="historic" />
+            <token id="19" string="six-year" />
+            <token id="20" string="domination" />
+            <token id="21" string="of" />
+            <token id="22" string="television" />
+            <token id="23" string="comedy" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="Lucy" type="NP">
+          <tokens>
+            <token id="14" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="1951 _" type="NP">
+          <tokens>
+            <token id="1" string="1951" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Desilu Productions with $ 5,000 and `` I Love Lucy ''" type="NP">
+          <tokens>
+            <token id="5" string="Desilu" />
+            <token id="6" string="Productions" />
+            <token id="7" string="with" />
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+            <token id="10" string="and" />
+            <token id="11" string="``" />
+            <token id="12" string="I" />
+            <token id="13" string="Love" />
+            <token id="14" string="Lucy" />
+            <token id="15" string="''" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1951</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">begins</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">form</governor>
+          <dependent id="3">They</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">_</governor>
+          <dependent id="4">form</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Productions</governor>
+          <dependent id="5">Desilu</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">form</governor>
+          <dependent id="6">Productions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">5,000</governor>
+          <dependent id="7">with</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="9">5,000</governor>
+          <dependent id="8">$</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">Productions</governor>
+          <dependent id="9">5,000</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">5,000</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">5,000</governor>
+          <dependent id="12">I</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">Lucy</governor>
+          <dependent id="13">Love</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">I</governor>
+          <dependent id="14">Lucy</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="16">begins</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">domination</governor>
+          <dependent id="17">its</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">domination</governor>
+          <dependent id="18">historic</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="20">domination</governor>
+          <dependent id="19">six-year</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">begins</governor>
+          <dependent id="20">domination</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">comedy</governor>
+          <dependent id="21">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">comedy</governor>
+          <dependent id="22">television</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">domination</governor>
+          <dependent id="23">comedy</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1951" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1951" />
+          </tokens>
+        </entity>
+        <entity id="2" string="$ 5,000" type="MONEY" score="0.0">
+          <tokens>
+            <token id="8" string="$" />
+            <token id="9" string="5,000" />
+          </tokens>
+        </entity>
+        <entity id="3" string="six-year" type="DURATION" score="0.0">
+          <tokens>
+            <token id="19" string="six-year" />
+          </tokens>
+        </entity>
+        <entity id="4" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>Earlier in the year, they have their first child.</content>
+      <tokens>
+        <token id="1" string="Earlier" lemma="earlier" stem="earlier" pos="RBR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="year" lemma="year" stem="year" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="7" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="9" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="true" is_refers="false" />
+        <token id="10" string="child" lemma="child" stem="child" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (ADVP (RBR Earlier)) (IN in) (NP (DT the) (NN year))) (, ,) (NP (PRP they)) (VP (VBP have) (NP (PRP$ their) (JJ first) (NN child))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="they" type="NP">
+          <tokens>
+            <token id="6" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="have their first child" type="VP">
+          <tokens>
+            <token id="7" string="have" />
+            <token id="8" string="their" />
+            <token id="9" string="first" />
+            <token id="10" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="their first child" type="NP">
+          <tokens>
+            <token id="8" string="their" />
+            <token id="9" string="first" />
+            <token id="10" string="child" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the year" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="year" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="4">year</governor>
+          <dependent id="1">Earlier</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">year</governor>
+          <dependent id="2">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">year</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="7">have</governor>
+          <dependent id="4">year</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="7">have</governor>
+          <dependent id="6">they</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">have</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="10">child</governor>
+          <dependent id="8">their</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">child</governor>
+          <dependent id="9">first</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">have</governor>
+          <dependent id="10">child</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="9" string="first" />
+          </tokens>
+        </entity>
+        <entity id="2" string="the year" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="year" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>1953 _ ``I Love Lucy&amp;apost;&amp;apost; episode in which Lucy Ricardo gives birth to Little Ricky is telecast the same day that Lucille Ball, in real life, gives birth to second child, Desi Jr. 1957 _ Desilu purchases RKO studios and begins producing other programs.</content>
+      <tokens>
+        <token id="1" string="1953" lemma="1953" stem="1953" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="true" is_refers="true" />
+        <token id="3" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="4" string="I" lemma="I" stem="i" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="5" string="Love" lemma="Love" stem="love" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="6" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="7" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="8" string="episode" lemma="episode" stem="episod" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="12" string="Ricardo" lemma="Ricardo" stem="ricardo" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="13" string="gives" lemma="give" stem="give" pos="VBZ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="birth" lemma="birth" stem="birth" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="Little" lemma="little" stem="littl" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="Ricky" lemma="Ricky" stem="ricki" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="18" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="telecast" lemma="telecast" stem="telecast" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="21" string="same" lemma="same" stem="same" pos="JJ" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="22" string="day" lemma="day" stem="dai" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="23" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="Lucille" lemma="Lucille" stem="lucil" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="25" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="26" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="real" lemma="real" stem="real" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="life" lemma="life" stem="life" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="gives" lemma="give" stem="give" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="birth" lemma="birth" stem="birth" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="33" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="second" lemma="second" stem="second" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="35" string="child" lemma="child" stem="child" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="Desi" lemma="Desi" stem="desi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="38" string="Jr." lemma="Jr." stem="jr." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="39" string="1957" lemma="1957" stem="1957" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="40" string="_" lemma="_" stem="_" pos="NNP" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="Desilu" lemma="Desilu" stem="desilu" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="purchases" lemma="purchase" stem="purchas" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="43" string="RKO" lemma="RKO" stem="rko" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="44" string="studios" lemma="studio" stem="studio" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="45" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="46" string="begins" lemma="begin" stem="begin" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="47" string="producing" lemma="produce" stem="produc" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="48" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="49" string="programs" lemma="program" stem="program" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="50" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1953)) (PP (NP (NP (CD _)) (`` ``) (NP (NP (PRP I)) (NP (NNP Love) (NNP Lucy))) ('' '')) (NP (NP (NN episode)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (NNP Lucy) (NNP Ricardo)) (VP (VBZ gives) (NP (NN birth)) (PP (TO to) (NP (JJ Little) (NNP Ricky))))))))) (VP (VBZ is) (NP (NP (NN telecast)) (NP-TMP (DT the) (JJ same) (NN day)) (SBAR (WHNP (WDT that)) (S (NP (NNP Lucille) (NNP Ball)) (, ,) (PP (IN in) (NP (JJ real) (NN life))) (, ,) (VP (VP (VBZ gives) (NP (NP (NN birth)) (PP (TO to) (NP (JJ second) (NN child) (, ,) (NNP Desi) (NNP Jr.) (CD 1957) (NNP _) (NNP Desilu) (NNS purchases)))) (NP (NNP RKO) (NNS studios))) (CC and) (VP (VBZ begins) (S (VP (VBG producing) (NP (JJ other) (NNS programs)))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="gives birth to Little Ricky" type="VP">
+          <tokens>
+            <token id="13" string="gives" />
+            <token id="14" string="birth" />
+            <token id="15" string="to" />
+            <token id="16" string="Little" />
+            <token id="17" string="Ricky" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="birth" type="NP">
+          <tokens>
+            <token id="14" string="birth" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="second child , Desi Jr. 1957 _ Desilu purchases" type="NP">
+          <tokens>
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="I Love Lucy" type="NP">
+          <tokens>
+            <token id="4" string="I" />
+            <token id="5" string="Love" />
+            <token id="6" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="episode in which Lucy Ricardo gives birth to Little Ricky" type="NP">
+          <tokens>
+            <token id="8" string="episode" />
+            <token id="9" string="in" />
+            <token id="10" string="which" />
+            <token id="11" string="Lucy" />
+            <token id="12" string="Ricardo" />
+            <token id="13" string="gives" />
+            <token id="14" string="birth" />
+            <token id="15" string="to" />
+            <token id="16" string="Little" />
+            <token id="17" string="Ricky" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="real life" type="NP">
+          <tokens>
+            <token id="28" string="real" />
+            <token id="29" string="life" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="_ `` I Love Lucy ''" type="NP">
+          <tokens>
+            <token id="2" string="_" />
+            <token id="3" string="``" />
+            <token id="4" string="I" />
+            <token id="5" string="Love" />
+            <token id="6" string="Lucy" />
+            <token id="7" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="producing other programs" type="VP">
+          <tokens>
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="RKO studios" type="NP">
+          <tokens>
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Little Ricky" type="NP">
+          <tokens>
+            <token id="16" string="Little" />
+            <token id="17" string="Ricky" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="other programs" type="NP">
+          <tokens>
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="begins producing other programs" type="VP">
+          <tokens>
+            <token id="46" string="begins" />
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="that Lucille Ball , in real life , gives birth to second child , Desi Jr. 1957 _ Desilu purchases RKO studios and begins producing other programs" type="SBAR">
+          <tokens>
+            <token id="23" string="that" />
+            <token id="24" string="Lucille" />
+            <token id="25" string="Ball" />
+            <token id="26" string="," />
+            <token id="27" string="in" />
+            <token id="28" string="real" />
+            <token id="29" string="life" />
+            <token id="30" string="," />
+            <token id="31" string="gives" />
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+            <token id="45" string="and" />
+            <token id="46" string="begins" />
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="birth to second child , Desi Jr. 1957 _ Desilu purchases" type="NP">
+          <tokens>
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="1953 _ `` I Love Lucy '' episode in which Lucy Ricardo gives birth to Little Ricky" type="NP">
+          <tokens>
+            <token id="1" string="1953" />
+            <token id="2" string="_" />
+            <token id="3" string="``" />
+            <token id="4" string="I" />
+            <token id="5" string="Love" />
+            <token id="6" string="Lucy" />
+            <token id="7" string="''" />
+            <token id="8" string="episode" />
+            <token id="9" string="in" />
+            <token id="10" string="which" />
+            <token id="11" string="Lucy" />
+            <token id="12" string="Ricardo" />
+            <token id="13" string="gives" />
+            <token id="14" string="birth" />
+            <token id="15" string="to" />
+            <token id="16" string="Little" />
+            <token id="17" string="Ricky" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Love Lucy" type="NP">
+          <tokens>
+            <token id="5" string="Love" />
+            <token id="6" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="I" type="NP">
+          <tokens>
+            <token id="4" string="I" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="episode" type="NP">
+          <tokens>
+            <token id="8" string="episode" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="gives birth to second child , Desi Jr. 1957 _ Desilu purchases RKO studios and begins producing other programs" type="VP">
+          <tokens>
+            <token id="31" string="gives" />
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+            <token id="45" string="and" />
+            <token id="46" string="begins" />
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="in which Lucy Ricardo gives birth to Little Ricky" type="SBAR">
+          <tokens>
+            <token id="9" string="in" />
+            <token id="10" string="which" />
+            <token id="11" string="Lucy" />
+            <token id="12" string="Ricardo" />
+            <token id="13" string="gives" />
+            <token id="14" string="birth" />
+            <token id="15" string="to" />
+            <token id="16" string="Little" />
+            <token id="17" string="Ricky" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="telecast" type="NP">
+          <tokens>
+            <token id="19" string="telecast" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="1953" type="NP">
+          <tokens>
+            <token id="1" string="1953" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="Lucy Ricardo" type="NP">
+          <tokens>
+            <token id="11" string="Lucy" />
+            <token id="12" string="Ricardo" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="is telecast the same day that Lucille Ball , in real life , gives birth to second child , Desi Jr. 1957 _ Desilu purchases RKO studios and begins producing other programs" type="VP">
+          <tokens>
+            <token id="18" string="is" />
+            <token id="19" string="telecast" />
+            <token id="20" string="the" />
+            <token id="21" string="same" />
+            <token id="22" string="day" />
+            <token id="23" string="that" />
+            <token id="24" string="Lucille" />
+            <token id="25" string="Ball" />
+            <token id="26" string="," />
+            <token id="27" string="in" />
+            <token id="28" string="real" />
+            <token id="29" string="life" />
+            <token id="30" string="," />
+            <token id="31" string="gives" />
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+            <token id="45" string="and" />
+            <token id="46" string="begins" />
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="telecast the same day that Lucille Ball , in real life , gives birth to second child , Desi Jr. 1957 _ Desilu purchases RKO studios and begins producing other programs" type="NP">
+          <tokens>
+            <token id="19" string="telecast" />
+            <token id="20" string="the" />
+            <token id="21" string="same" />
+            <token id="22" string="day" />
+            <token id="23" string="that" />
+            <token id="24" string="Lucille" />
+            <token id="25" string="Ball" />
+            <token id="26" string="," />
+            <token id="27" string="in" />
+            <token id="28" string="real" />
+            <token id="29" string="life" />
+            <token id="30" string="," />
+            <token id="31" string="gives" />
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+            <token id="45" string="and" />
+            <token id="46" string="begins" />
+            <token id="47" string="producing" />
+            <token id="48" string="other" />
+            <token id="49" string="programs" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="gives birth to second child , Desi Jr. 1957 _ Desilu purchases RKO studios" type="VP">
+          <tokens>
+            <token id="31" string="gives" />
+            <token id="32" string="birth" />
+            <token id="33" string="to" />
+            <token id="34" string="second" />
+            <token id="35" string="child" />
+            <token id="36" string="," />
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+            <token id="39" string="1957" />
+            <token id="40" string="_" />
+            <token id="41" string="Desilu" />
+            <token id="42" string="purchases" />
+            <token id="43" string="RKO" />
+            <token id="44" string="studios" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="_" type="NP">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="Lucille Ball" type="NP">
+          <tokens>
+            <token id="24" string="Lucille" />
+            <token id="25" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="19">telecast</governor>
+          <dependent id="1">1953</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">1953</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">I</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Lucy</governor>
+          <dependent id="5">Love</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">I</governor>
+          <dependent id="6">Lucy</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="8">episode</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">which</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">gives</governor>
+          <dependent id="10">which</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Ricardo</governor>
+          <dependent id="11">Lucy</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="13">gives</governor>
+          <dependent id="12">Ricardo</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="8">episode</governor>
+          <dependent id="13">gives</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="13">gives</governor>
+          <dependent id="14">birth</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">Ricky</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="17">Ricky</governor>
+          <dependent id="16">Little</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">gives</governor>
+          <dependent id="17">Ricky</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="19">telecast</governor>
+          <dependent id="18">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="19">telecast</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">day</governor>
+          <dependent id="20">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">day</governor>
+          <dependent id="21">same</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="19">telecast</governor>
+          <dependent id="22">day</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="31">gives</governor>
+          <dependent id="23">that</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="25">Ball</governor>
+          <dependent id="24">Lucille</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="31">gives</governor>
+          <dependent id="25">Ball</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">life</governor>
+          <dependent id="27">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="29">life</governor>
+          <dependent id="28">real</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="31">gives</governor>
+          <dependent id="29">life</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="19">telecast</governor>
+          <dependent id="31">gives</dependent>
+        </dependency>
+        <dependency type="iobj">
+          <governor id="31">gives</governor>
+          <dependent id="32">birth</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="42">purchases</governor>
+          <dependent id="33">to</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="42">purchases</governor>
+          <dependent id="34">second</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="42">purchases</governor>
+          <dependent id="35">child</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="42">purchases</governor>
+          <dependent id="37">Desi</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="42">purchases</governor>
+          <dependent id="38">Jr.</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="42">purchases</governor>
+          <dependent id="39">1957</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="42">purchases</governor>
+          <dependent id="40">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="42">purchases</governor>
+          <dependent id="41">Desilu</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="32">birth</governor>
+          <dependent id="42">purchases</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="44">studios</governor>
+          <dependent id="43">RKO</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="31">gives</governor>
+          <dependent id="44">studios</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="31">gives</governor>
+          <dependent id="45">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="31">gives</governor>
+          <dependent id="46">begins</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="46">begins</governor>
+          <dependent id="47">producing</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="49">programs</governor>
+          <dependent id="48">other</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="47">producing</governor>
+          <dependent id="49">programs</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1953" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1953" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Lucy Ricardo" type="PERSON" score="0.0">
+          <tokens>
+            <token id="11" string="Lucy" />
+            <token id="12" string="Ricardo" />
+          </tokens>
+        </entity>
+        <entity id="3" string="the same day" type="DATE" score="0.0">
+          <tokens>
+            <token id="20" string="the" />
+            <token id="21" string="same" />
+            <token id="22" string="day" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Desi Jr." type="PERSON" score="0.0">
+          <tokens>
+            <token id="37" string="Desi" />
+            <token id="38" string="Jr." />
+          </tokens>
+        </entity>
+        <entity id="5" string="second" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="34" string="second" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Ricky" type="PERSON" score="0.0">
+          <tokens>
+            <token id="17" string="Ricky" />
+          </tokens>
+        </entity>
+        <entity id="7" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+        <entity id="8" string="Lucille Ball" type="PERSON" score="0.0">
+          <tokens>
+            <token id="24" string="Lucille" />
+            <token id="25" string="Ball" />
+          </tokens>
+        </entity>
+        <entity id="9" string="1957" type="DATE" score="0.0">
+          <tokens>
+            <token id="39" string="1957" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>1960 _ The Arnazes divorce, with Desi selling his share of the studio to Lucy for $3 million.</content>
+      <tokens>
+        <token id="1" string="1960" lemma="1960" stem="1960" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="Arnazes" lemma="Arnazes" stem="arnaze" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="5" string="divorce" lemma="divorce" stem="divorc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Desi" lemma="desi" stem="desi" pos="NN" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="selling" lemma="sell" stem="sell" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="his" lemma="he" stem="hi" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="share" lemma="share" stem="share" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="studio" lemma="studio" stem="studio" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="17" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="19" string="3" lemma="3" stem="3" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="20" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="21" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NP (NP (CD 1960) (CD _)) (NP (DT The) (NNPS Arnazes) (NN divorce))) (, ,) (PP (IN with) (NP (NN Desi)))) (VP (VBG selling) (NP (NP (PRP$ his) (NN share)) (PP (IN of) (NP (DT the) (NN studio)))) (PP (TO to) (NP (NP (NNP Lucy)) (PP (IN for) (NP (QP ($ $) (CD 3) (CD million))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="The Arnazes divorce" type="NP">
+          <tokens>
+            <token id="3" string="The" />
+            <token id="4" string="Arnazes" />
+            <token id="5" string="divorce" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="his share" type="NP">
+          <tokens>
+            <token id="10" string="his" />
+            <token id="11" string="share" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1960 _ The Arnazes divorce , with Desi selling his share of the studio to Lucy for $ 3 million ." type="NP">
+          <tokens>
+            <token id="1" string="1960" />
+            <token id="2" string="_" />
+            <token id="3" string="The" />
+            <token id="4" string="Arnazes" />
+            <token id="5" string="divorce" />
+            <token id="6" string="," />
+            <token id="7" string="with" />
+            <token id="8" string="Desi" />
+            <token id="9" string="selling" />
+            <token id="10" string="his" />
+            <token id="11" string="share" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="studio" />
+            <token id="15" string="to" />
+            <token id="16" string="Lucy" />
+            <token id="17" string="for" />
+            <token id="18" string="$" />
+            <token id="19" string="3" />
+            <token id="20" string="million" />
+            <token id="21" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the studio" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="studio" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="selling his share of the studio to Lucy for $ 3 million" type="VP">
+          <tokens>
+            <token id="9" string="selling" />
+            <token id="10" string="his" />
+            <token id="11" string="share" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="studio" />
+            <token id="15" string="to" />
+            <token id="16" string="Lucy" />
+            <token id="17" string="for" />
+            <token id="18" string="$" />
+            <token id="19" string="3" />
+            <token id="20" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="his share of the studio" type="NP">
+          <tokens>
+            <token id="10" string="his" />
+            <token id="11" string="share" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="studio" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="1960 _ The Arnazes divorce" type="NP">
+          <tokens>
+            <token id="1" string="1960" />
+            <token id="2" string="_" />
+            <token id="3" string="The" />
+            <token id="4" string="Arnazes" />
+            <token id="5" string="divorce" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="$ 3 million" type="NP">
+          <tokens>
+            <token id="18" string="$" />
+            <token id="19" string="3" />
+            <token id="20" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Desi" type="NP">
+          <tokens>
+            <token id="8" string="Desi" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="1960 _" type="NP">
+          <tokens>
+            <token id="1" string="1960" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="Lucy" type="NP">
+          <tokens>
+            <token id="16" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Lucy for $ 3 million" type="NP">
+          <tokens>
+            <token id="16" string="Lucy" />
+            <token id="17" string="for" />
+            <token id="18" string="$" />
+            <token id="19" string="3" />
+            <token id="20" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="1960 _ The Arnazes divorce , with Desi" type="NP">
+          <tokens>
+            <token id="1" string="1960" />
+            <token id="2" string="_" />
+            <token id="3" string="The" />
+            <token id="4" string="Arnazes" />
+            <token id="5" string="divorce" />
+            <token id="6" string="," />
+            <token id="7" string="with" />
+            <token id="8" string="Desi" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1960</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">divorce</governor>
+          <dependent id="3">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">divorce</governor>
+          <dependent id="4">Arnazes</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="5">divorce</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Desi</governor>
+          <dependent id="7">with</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">_</governor>
+          <dependent id="8">Desi</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">_</governor>
+          <dependent id="9">selling</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="11">share</governor>
+          <dependent id="10">his</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">selling</governor>
+          <dependent id="11">share</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">studio</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">studio</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">share</governor>
+          <dependent id="14">studio</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Lucy</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">selling</governor>
+          <dependent id="16">Lucy</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">$</governor>
+          <dependent id="17">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">Lucy</governor>
+          <dependent id="18">$</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">million</governor>
+          <dependent id="19">3</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="18">$</governor>
+          <dependent id="20">million</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="$ 3 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="18" string="$" />
+            <token id="19" string="3" />
+            <token id="20" string="million" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1960" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1960" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Desi" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Desi" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Arnazes" type="MISC" score="0.0">
+          <tokens>
+            <token id="4" string="Arnazes" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Lucy" type="PERSON" score="0.0">
+          <tokens>
+            <token id="16" string="Lucy" />
+          </tokens>
+        </entity>
+        <entity id="6" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>1961 _ Miss Ball marries night-club comic Gary Morton, who becomes her executive producer.</content>
+      <tokens>
+        <token id="1" string="1961" lemma="1961" stem="1961" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="5" string="marries" lemma="marry" stem="marri" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="night-club" lemma="night-club" stem="night-club" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="comic" lemma="comic" stem="comic" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="Gary" lemma="Gary" stem="gari" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="9" string="Morton" lemma="Morton" stem="morton" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="becomes" lemma="become" stem="becom" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="executive" lemma="executive" stem="execut" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="producer" lemma="producer" stem="produc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1961) (CD _)) (NP (NNP Miss) (NNP Ball))) (VP (VBZ marries) (NP (NP (ADJP (JJ night-club) (JJ comic)) (NNP Gary) (NNP Morton)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ becomes) (NP (PRP$ her) (NN executive) (NN producer))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="who becomes her executive producer" type="SBAR">
+          <tokens>
+            <token id="11" string="who" />
+            <token id="12" string="becomes" />
+            <token id="13" string="her" />
+            <token id="14" string="executive" />
+            <token id="15" string="producer" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="her executive producer" type="NP">
+          <tokens>
+            <token id="13" string="her" />
+            <token id="14" string="executive" />
+            <token id="15" string="producer" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="night-club comic Gary Morton" type="NP">
+          <tokens>
+            <token id="6" string="night-club" />
+            <token id="7" string="comic" />
+            <token id="8" string="Gary" />
+            <token id="9" string="Morton" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="1961 _ Miss Ball" type="NP">
+          <tokens>
+            <token id="1" string="1961" />
+            <token id="2" string="_" />
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="becomes her executive producer" type="VP">
+          <tokens>
+            <token id="12" string="becomes" />
+            <token id="13" string="her" />
+            <token id="14" string="executive" />
+            <token id="15" string="producer" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="1961 _" type="NP">
+          <tokens>
+            <token id="1" string="1961" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="night-club comic Gary Morton , who becomes her executive producer" type="NP">
+          <tokens>
+            <token id="6" string="night-club" />
+            <token id="7" string="comic" />
+            <token id="8" string="Gary" />
+            <token id="9" string="Morton" />
+            <token id="10" string="," />
+            <token id="11" string="who" />
+            <token id="12" string="becomes" />
+            <token id="13" string="her" />
+            <token id="14" string="executive" />
+            <token id="15" string="producer" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="marries night-club comic Gary Morton , who becomes her executive producer" type="VP">
+          <tokens>
+            <token id="5" string="marries" />
+            <token id="6" string="night-club" />
+            <token id="7" string="comic" />
+            <token id="8" string="Gary" />
+            <token id="9" string="Morton" />
+            <token id="10" string="," />
+            <token id="11" string="who" />
+            <token id="12" string="becomes" />
+            <token id="13" string="her" />
+            <token id="14" string="executive" />
+            <token id="15" string="producer" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="night-club comic" type="ADJP">
+          <tokens>
+            <token id="6" string="night-club" />
+            <token id="7" string="comic" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1961</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">marries</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ball</governor>
+          <dependent id="3">Miss</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">marries</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">comic</governor>
+          <dependent id="6">night-club</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">Morton</governor>
+          <dependent id="7">comic</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Morton</governor>
+          <dependent id="8">Gary</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">marries</governor>
+          <dependent id="9">Morton</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="12">becomes</governor>
+          <dependent id="11">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="9">Morton</governor>
+          <dependent id="12">becomes</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="15">producer</governor>
+          <dependent id="13">her</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">producer</governor>
+          <dependent id="14">executive</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="12">becomes</governor>
+          <dependent id="15">producer</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ball" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Ball" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1961" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1961" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Gary Morton" type="PERSON" score="0.0">
+          <tokens>
+            <token id="8" string="Gary" />
+            <token id="9" string="Morton" />
+          </tokens>
+        </entity>
+        <entity id="4" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>1962 _ Miss Ball goes solo, returning to the airwaves in ``The Lucy Show.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1962" lemma="1962" stem="1962" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="5" string="goes" lemma="go" stem="goe" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="solo" lemma="solo" stem="solo" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="returning" lemma="return" stem="return" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="airwaves" lemma="airwave" stem="airwav" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="16" string="Show" lemma="Show" stem="show" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1962) (CD _)) (NP (NNP Miss) (NNP Ball))) (VP (VBZ goes) (ADVP (RB solo)) (, ,) (S (VP (VBG returning) (PP (TO to) (NP (DT the) (NNS airwaves))) (PP (IN in) (`` ``) (NP (DT The) (NNP Lucy) (NNP Show)))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1962 _ Miss Ball" type="NP">
+          <tokens>
+            <token id="1" string="1962" />
+            <token id="2" string="_" />
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="The Lucy Show" type="NP">
+          <tokens>
+            <token id="14" string="The" />
+            <token id="15" string="Lucy" />
+            <token id="16" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="returning to the airwaves in `` The Lucy Show" type="VP">
+          <tokens>
+            <token id="8" string="returning" />
+            <token id="9" string="to" />
+            <token id="10" string="the" />
+            <token id="11" string="airwaves" />
+            <token id="12" string="in" />
+            <token id="13" string="``" />
+            <token id="14" string="The" />
+            <token id="15" string="Lucy" />
+            <token id="16" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="1962 _" type="NP">
+          <tokens>
+            <token id="1" string="1962" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the airwaves" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="airwaves" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="goes solo , returning to the airwaves in `` The Lucy Show" type="VP">
+          <tokens>
+            <token id="5" string="goes" />
+            <token id="6" string="solo" />
+            <token id="7" string="," />
+            <token id="8" string="returning" />
+            <token id="9" string="to" />
+            <token id="10" string="the" />
+            <token id="11" string="airwaves" />
+            <token id="12" string="in" />
+            <token id="13" string="``" />
+            <token id="14" string="The" />
+            <token id="15" string="Lucy" />
+            <token id="16" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1962</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">goes</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ball</governor>
+          <dependent id="3">Miss</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">goes</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="5">goes</governor>
+          <dependent id="6">solo</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="5">goes</governor>
+          <dependent id="8">returning</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">airwaves</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">airwaves</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">returning</governor>
+          <dependent id="11">airwaves</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">Show</governor>
+          <dependent id="12">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">Show</governor>
+          <dependent id="14">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="16">Show</governor>
+          <dependent id="15">Lucy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">returning</governor>
+          <dependent id="16">Show</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Ball" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Ball" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1962" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1962" />
+          </tokens>
+        </entity>
+        <entity id="3" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>1967 _ Miss Ball sells company to Gulf &amp;amp;amp; Western for $18 million.</content>
+      <tokens>
+        <token id="1" string="1967" lemma="1967" stem="1967" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="4" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="5" string="sells" lemma="sell" stem="sell" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="company" lemma="company" stem="compani" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="Gulf" lemma="Gulf" stem="gulf" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="&amp;amp;" lemma="&amp;" stem="&amp;amp;" pos="CC" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="Western" lemma="Western" stem="western" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="11" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="13" string="18" lemma="18" stem="18" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="14" string="million" lemma="million" stem="million" pos="CD" type="Word" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="15" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1967) (CD _)) (NP (NNP Miss) (NNP Ball))) (VP (VBZ sells) (NP (NN company)) (PP (TO to) (NP (NP (NNP Gulf) (CC &amp;) (NNP Western)) (PP (IN for) (NP (QP ($ $) (CD 18) (CD million))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Gulf &amp; Western for $ 18 million" type="NP">
+          <tokens>
+            <token id="8" string="Gulf" />
+            <token id="9" string="&amp;amp;" />
+            <token id="10" string="Western" />
+            <token id="11" string="for" />
+            <token id="12" string="$" />
+            <token id="13" string="18" />
+            <token id="14" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="$ 18 million" type="NP">
+          <tokens>
+            <token id="12" string="$" />
+            <token id="13" string="18" />
+            <token id="14" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1967 _ Miss Ball" type="NP">
+          <tokens>
+            <token id="1" string="1967" />
+            <token id="2" string="_" />
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="sells company to Gulf &amp; Western for $ 18 million" type="VP">
+          <tokens>
+            <token id="5" string="sells" />
+            <token id="6" string="company" />
+            <token id="7" string="to" />
+            <token id="8" string="Gulf" />
+            <token id="9" string="&amp;amp;" />
+            <token id="10" string="Western" />
+            <token id="11" string="for" />
+            <token id="12" string="$" />
+            <token id="13" string="18" />
+            <token id="14" string="million" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="company" type="NP">
+          <tokens>
+            <token id="6" string="company" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Gulf &amp; Western" type="NP">
+          <tokens>
+            <token id="8" string="Gulf" />
+            <token id="9" string="&amp;amp;" />
+            <token id="10" string="Western" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="1967 _" type="NP">
+          <tokens>
+            <token id="1" string="1967" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1967</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">sells</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ball</governor>
+          <dependent id="3">Miss</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">sells</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">sells</governor>
+          <dependent id="6">company</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Gulf</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">sells</governor>
+          <dependent id="8">Gulf</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">Gulf</governor>
+          <dependent id="9">&amp;</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">Gulf</governor>
+          <dependent id="10">Western</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">$</governor>
+          <dependent id="11">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">Gulf</governor>
+          <dependent id="12">$</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">million</governor>
+          <dependent id="13">18</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">$</governor>
+          <dependent id="14">million</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Western" type="MISC" score="0.0">
+          <tokens>
+            <token id="10" string="Western" />
+          </tokens>
+        </entity>
+        <entity id="2" string="$ 18 million" type="MONEY" score="0.0">
+          <tokens>
+            <token id="12" string="$" />
+            <token id="13" string="18" />
+            <token id="14" string="million" />
+          </tokens>
+        </entity>
+        <entity id="3" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+        <entity id="4" string="1967" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1967" />
+          </tokens>
+        </entity>
+        <entity id="5" string="Miss Ball" type="MISC" score="0.0">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="12" has_coreference="true">
+      <content>1968 _ ``The Lucy Show&amp;apost;&amp;apost; is redesigned and becomes ``Here&amp;apost;s Lucy.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1968" lemma="1968" stem="1968" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="3" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="4" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="Show" lemma="Show" stem="show" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="redesigned" lemma="redesign" stem="redesign" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="becomes" lemma="become" stem="becom" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1968) (CD _)) (`` ``) (NP (DT The) (NNP Lucy) (NNP Show)) ('' '')) (VP (VP (VBZ is) (ADJP (VBN redesigned))) (CC and) (VP (VBZ becomes) (`` ``) (FRAG (ADVP (RB Here)) (NP (POS 's) (NNP Lucy))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="is redesigned" type="VP">
+          <tokens>
+            <token id="8" string="is" />
+            <token id="9" string="redesigned" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="1968 _ `` The Lucy Show ''" type="NP">
+          <tokens>
+            <token id="1" string="1968" />
+            <token id="2" string="_" />
+            <token id="3" string="``" />
+            <token id="4" string="The" />
+            <token id="5" string="Lucy" />
+            <token id="6" string="Show" />
+            <token id="7" string="''" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1968 _" type="NP">
+          <tokens>
+            <token id="1" string="1968" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="becomes `` Here 's Lucy" type="VP">
+          <tokens>
+            <token id="11" string="becomes" />
+            <token id="12" string="``" />
+            <token id="13" string="Here" />
+            <token id="14" string="'s" />
+            <token id="15" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="'s Lucy" type="NP">
+          <tokens>
+            <token id="14" string="'s" />
+            <token id="15" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="The Lucy Show" type="NP">
+          <tokens>
+            <token id="4" string="The" />
+            <token id="5" string="Lucy" />
+            <token id="6" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="redesigned" type="ADJP">
+          <tokens>
+            <token id="9" string="redesigned" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="is redesigned and becomes `` Here 's Lucy" type="VP">
+          <tokens>
+            <token id="8" string="is" />
+            <token id="9" string="redesigned" />
+            <token id="10" string="and" />
+            <token id="11" string="becomes" />
+            <token id="12" string="``" />
+            <token id="13" string="Here" />
+            <token id="14" string="'s" />
+            <token id="15" string="Lucy" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1968</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">redesigned</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">Show</governor>
+          <dependent id="4">The</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="6">Show</governor>
+          <dependent id="5">Lucy</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="6">Show</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">redesigned</governor>
+          <dependent id="8">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">redesigned</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">redesigned</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">redesigned</governor>
+          <dependent id="11">becomes</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="15">Lucy</governor>
+          <dependent id="13">Here</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Lucy</governor>
+          <dependent id="14">'s</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="11">becomes</governor>
+          <dependent id="15">Lucy</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Lucy" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="Lucy" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1968" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1968" />
+          </tokens>
+        </entity>
+        <entity id="3" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="13" has_coreference="true">
+      <content>It runs until 1974.</content>
+      <tokens>
+        <token id="1" string="It" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="runs" lemma="run" stem="run" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="until" lemma="until" stem="until" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="1974" lemma="1974" stem="1974" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="5" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP It)) (VP (VBZ runs) (PP (IN until) (NP (CD 1974)))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="1974" type="NP">
+          <tokens>
+            <token id="4" string="1974" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="runs until 1974" type="VP">
+          <tokens>
+            <token id="2" string="runs" />
+            <token id="3" string="until" />
+            <token id="4" string="1974" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="It" type="NP">
+          <tokens>
+            <token id="1" string="It" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">runs</governor>
+          <dependent id="1">It</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">runs</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="4">1974</governor>
+          <dependent id="3">until</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">runs</governor>
+          <dependent id="4">1974</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1974" type="DATE" score="0.0">
+          <tokens>
+            <token id="4" string="1974" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="14" has_coreference="true">
+      <content>1974 _ Miss Ball plays the title role in the movie version of ``Mame.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1974" lemma="1974" stem="1974" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="4" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="true" />
+        <token id="5" string="plays" lemma="play" stem="plai" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="title" lemma="title" stem="titl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="role" lemma="role" stem="role" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="movie" lemma="movie" stem="movi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="version" lemma="version" stem="version" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Mame" lemma="Mame" stem="mame" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1974) (CD _)) (NP (NNP Miss) (NNP Ball))) (VP (VBZ plays) (NP (DT the) (NN title) (NN role)) (PP (IN in) (NP (NP (DT the) (NN movie) (NN version)) (PP (IN of) (`` ``) (NP (NNP Mame)))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the movie version" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="movie" />
+            <token id="12" string="version" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the movie version of `` Mame" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="movie" />
+            <token id="12" string="version" />
+            <token id="13" string="of" />
+            <token id="14" string="``" />
+            <token id="15" string="Mame" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the title role" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="title" />
+            <token id="8" string="role" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="1974 _" type="NP">
+          <tokens>
+            <token id="1" string="1974" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="plays the title role in the movie version of `` Mame" type="VP">
+          <tokens>
+            <token id="5" string="plays" />
+            <token id="6" string="the" />
+            <token id="7" string="title" />
+            <token id="8" string="role" />
+            <token id="9" string="in" />
+            <token id="10" string="the" />
+            <token id="11" string="movie" />
+            <token id="12" string="version" />
+            <token id="13" string="of" />
+            <token id="14" string="``" />
+            <token id="15" string="Mame" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="1974 _ Miss Ball" type="NP">
+          <tokens>
+            <token id="1" string="1974" />
+            <token id="2" string="_" />
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Mame" type="NP">
+          <tokens>
+            <token id="15" string="Mame" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1974</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">plays</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ball</governor>
+          <dependent id="3">Miss</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">plays</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">role</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">role</governor>
+          <dependent id="7">title</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="5">plays</governor>
+          <dependent id="8">role</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">version</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">version</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">version</governor>
+          <dependent id="11">movie</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">plays</governor>
+          <dependent id="12">version</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Mame</governor>
+          <dependent id="13">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="12">version</governor>
+          <dependent id="15">Mame</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1974" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1974" />
+          </tokens>
+        </entity>
+        <entity id="2" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Miss Ball" type="MISC" score="0.0">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="15" has_coreference="true">
+      <content>1985 _ In her first serious dramatic role in years, Miss Ball plays a New York bag lady in the CBS-TV movie ``Stone Pillow.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1985" lemma="1985" stem="1985" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="her" lemma="she" stem="her" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="first" lemma="first" stem="first" pos="JJ" type="Word" isStopWord="false" ner="ORDINAL" is_referenced="false" is_refers="false" />
+        <token id="6" string="serious" lemma="serious" stem="seriou" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="dramatic" lemma="dramatic" stem="dramat" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="role" lemma="role" stem="role" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="13" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="14" string="plays" lemma="play" stem="plai" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="New" lemma="New" stem="new" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="17" string="York" lemma="York" stem="york" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="true" />
+        <token id="18" string="bag" lemma="bag" stem="bag" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="lady" lemma="lady" stem="ladi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="CBS-TV" lemma="CBS-TV" stem="cbs-tv" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="23" string="movie" lemma="movie" stem="movi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="Stone" lemma="Stone" stem="stone" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="Pillow" lemma="Pillow" stem="pillow" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (NP (CD 1985) (CD _)) (IN In) (NP (NP (PRP$ her) (JJ first) (JJ serious) (JJ dramatic) (NN role)) (PP (IN in) (NP (NNS years))))) (, ,) (NP (NNP Miss) (NNP Ball)) (VP (VBZ plays) (NP (NP (DT a) (NNP New) (NNP York) (NN bag) (NN lady)) (PP (IN in) (NP (DT the) (NNP CBS-TV) (NN movie) (`` ``) (NNP Stone) (NNP Pillow))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a New York bag lady in the CBS-TV movie `` Stone Pillow" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="New" />
+            <token id="17" string="York" />
+            <token id="18" string="bag" />
+            <token id="19" string="lady" />
+            <token id="20" string="in" />
+            <token id="21" string="the" />
+            <token id="22" string="CBS-TV" />
+            <token id="23" string="movie" />
+            <token id="24" string="``" />
+            <token id="25" string="Stone" />
+            <token id="26" string="Pillow" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a New York bag lady" type="NP">
+          <tokens>
+            <token id="15" string="a" />
+            <token id="16" string="New" />
+            <token id="17" string="York" />
+            <token id="18" string="bag" />
+            <token id="19" string="lady" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="her first serious dramatic role" type="NP">
+          <tokens>
+            <token id="4" string="her" />
+            <token id="5" string="first" />
+            <token id="6" string="serious" />
+            <token id="7" string="dramatic" />
+            <token id="8" string="role" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the CBS-TV movie `` Stone Pillow" type="NP">
+          <tokens>
+            <token id="21" string="the" />
+            <token id="22" string="CBS-TV" />
+            <token id="23" string="movie" />
+            <token id="24" string="``" />
+            <token id="25" string="Stone" />
+            <token id="26" string="Pillow" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1985 _" type="NP">
+          <tokens>
+            <token id="1" string="1985" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="her first serious dramatic role in years" type="NP">
+          <tokens>
+            <token id="4" string="her" />
+            <token id="5" string="first" />
+            <token id="6" string="serious" />
+            <token id="7" string="dramatic" />
+            <token id="8" string="role" />
+            <token id="9" string="in" />
+            <token id="10" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="years" type="NP">
+          <tokens>
+            <token id="10" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="plays a New York bag lady in the CBS-TV movie `` Stone Pillow" type="VP">
+          <tokens>
+            <token id="14" string="plays" />
+            <token id="15" string="a" />
+            <token id="16" string="New" />
+            <token id="17" string="York" />
+            <token id="18" string="bag" />
+            <token id="19" string="lady" />
+            <token id="20" string="in" />
+            <token id="21" string="the" />
+            <token id="22" string="CBS-TV" />
+            <token id="23" string="movie" />
+            <token id="24" string="``" />
+            <token id="25" string="Stone" />
+            <token id="26" string="Pillow" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="12" string="Miss" />
+            <token id="13" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1985</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">plays</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="2">_</governor>
+          <dependent id="3">In</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">role</governor>
+          <dependent id="4">her</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">role</governor>
+          <dependent id="5">first</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">role</governor>
+          <dependent id="6">serious</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">role</governor>
+          <dependent id="7">dramatic</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="8">role</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">years</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">role</governor>
+          <dependent id="10">years</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Ball</governor>
+          <dependent id="12">Miss</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">plays</governor>
+          <dependent id="13">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">plays</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">lady</governor>
+          <dependent id="15">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">lady</governor>
+          <dependent id="16">New</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">lady</governor>
+          <dependent id="17">York</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">lady</governor>
+          <dependent id="18">bag</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">plays</governor>
+          <dependent id="19">lady</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">Pillow</governor>
+          <dependent id="20">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="26">Pillow</governor>
+          <dependent id="21">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Pillow</governor>
+          <dependent id="22">CBS-TV</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Pillow</governor>
+          <dependent id="23">movie</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="26">Pillow</governor>
+          <dependent id="25">Stone</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="19">lady</governor>
+          <dependent id="26">Pillow</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="New York" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="16" string="New" />
+            <token id="17" string="York" />
+          </tokens>
+        </entity>
+        <entity id="2" string="first" type="ORDINAL" score="0.0">
+          <tokens>
+            <token id="5" string="first" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1985" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1985" />
+          </tokens>
+        </entity>
+        <entity id="4" string="CBS-TV" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="22" string="CBS-TV" />
+          </tokens>
+        </entity>
+        <entity id="5" string="years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="10" string="years" />
+          </tokens>
+        </entity>
+        <entity id="6" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+        <entity id="7" string="Miss Ball" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="12" string="Miss" />
+            <token id="13" string="Ball" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="16" has_coreference="true">
+      <content>She is hospitalized for dehydration following strenuous work on the film.</content>
+      <tokens>
+        <token id="1" string="She" lemma="she" stem="she" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="hospitalized" lemma="hospitalize" stem="hospit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="dehydration" lemma="dehydration" stem="dehydr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="following" lemma="follow" stem="follow" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="strenuous" lemma="strenuous" stem="strenuou" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="work" lemma="work" stem="work" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="on" lemma="on" stem="on" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="film" lemma="film" stem="film" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP She)) (VP (VBZ is) (VP (VBN hospitalized) (PP (IN for) (NP (NP (NN dehydration)) (PP (VBG following) (NP (NP (JJ strenuous) (NN work)) (PP (IN on) (NP (DT the) (NN film))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="strenuous work on the film" type="NP">
+          <tokens>
+            <token id="7" string="strenuous" />
+            <token id="8" string="work" />
+            <token id="9" string="on" />
+            <token id="10" string="the" />
+            <token id="11" string="film" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="strenuous work" type="NP">
+          <tokens>
+            <token id="7" string="strenuous" />
+            <token id="8" string="work" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="hospitalized for dehydration following strenuous work on the film" type="VP">
+          <tokens>
+            <token id="3" string="hospitalized" />
+            <token id="4" string="for" />
+            <token id="5" string="dehydration" />
+            <token id="6" string="following" />
+            <token id="7" string="strenuous" />
+            <token id="8" string="work" />
+            <token id="9" string="on" />
+            <token id="10" string="the" />
+            <token id="11" string="film" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="dehydration following strenuous work on the film" type="NP">
+          <tokens>
+            <token id="5" string="dehydration" />
+            <token id="6" string="following" />
+            <token id="7" string="strenuous" />
+            <token id="8" string="work" />
+            <token id="9" string="on" />
+            <token id="10" string="the" />
+            <token id="11" string="film" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="is hospitalized for dehydration following strenuous work on the film" type="VP">
+          <tokens>
+            <token id="2" string="is" />
+            <token id="3" string="hospitalized" />
+            <token id="4" string="for" />
+            <token id="5" string="dehydration" />
+            <token id="6" string="following" />
+            <token id="7" string="strenuous" />
+            <token id="8" string="work" />
+            <token id="9" string="on" />
+            <token id="10" string="the" />
+            <token id="11" string="film" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="dehydration" type="NP">
+          <tokens>
+            <token id="5" string="dehydration" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="She" type="NP">
+          <tokens>
+            <token id="1" string="She" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the film" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="film" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="3">hospitalized</governor>
+          <dependent id="1">She</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="3">hospitalized</governor>
+          <dependent id="2">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">hospitalized</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">dehydration</governor>
+          <dependent id="4">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">hospitalized</governor>
+          <dependent id="5">dehydration</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">work</governor>
+          <dependent id="6">following</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">work</governor>
+          <dependent id="7">strenuous</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">dehydration</governor>
+          <dependent id="8">work</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">film</governor>
+          <dependent id="9">on</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">film</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">work</governor>
+          <dependent id="11">film</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="17" has_coreference="true">
+      <content>1986 _ Miss Ball returns to sitcom television in ABC&amp;apost;s ``Life With Lucy.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="1986" lemma="1986" stem="1986" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="_" lemma="_" stem="_" pos="CD" type="Symbol" isStopWord="true" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="3" string="Miss" lemma="Miss" stem="miss" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="Ball" lemma="Ball" stem="ball" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="5" string="returns" lemma="return" stem="return" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="sitcom" lemma="sitcom" stem="sitcom" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="television" lemma="television" stem="televis" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="ABC" lemma="ABC" stem="abc" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="11" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="Life" lemma="Life" stem="life" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="With" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Lucy" lemma="Lucy" stem="luci" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD 1986) (CD _)) (NP (NNP Miss) (NNP Ball))) (VP (VBZ returns) (PP (TO to) (NP (NP (NN sitcom) (NN television)) (PP (IN in) (NP (NP (NNP ABC) (POS 's)) (`` ``) (NNP Life))))) (PP (IN With) (NP (NNP Lucy)))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="returns to sitcom television in ABC 's `` Life With Lucy" type="VP">
+          <tokens>
+            <token id="5" string="returns" />
+            <token id="6" string="to" />
+            <token id="7" string="sitcom" />
+            <token id="8" string="television" />
+            <token id="9" string="in" />
+            <token id="10" string="ABC" />
+            <token id="11" string="'s" />
+            <token id="12" string="``" />
+            <token id="13" string="Life" />
+            <token id="14" string="With" />
+            <token id="15" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="ABC 's" type="NP">
+          <tokens>
+            <token id="10" string="ABC" />
+            <token id="11" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Lucy" type="NP">
+          <tokens>
+            <token id="15" string="Lucy" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="ABC 's `` Life" type="NP">
+          <tokens>
+            <token id="10" string="ABC" />
+            <token id="11" string="'s" />
+            <token id="12" string="``" />
+            <token id="13" string="Life" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="1986 _ Miss Ball" type="NP">
+          <tokens>
+            <token id="1" string="1986" />
+            <token id="2" string="_" />
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="sitcom television in ABC 's `` Life" type="NP">
+          <tokens>
+            <token id="7" string="sitcom" />
+            <token id="8" string="television" />
+            <token id="9" string="in" />
+            <token id="10" string="ABC" />
+            <token id="11" string="'s" />
+            <token id="12" string="``" />
+            <token id="13" string="Life" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="sitcom television" type="NP">
+          <tokens>
+            <token id="7" string="sitcom" />
+            <token id="8" string="television" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="1986 _" type="NP">
+          <tokens>
+            <token id="1" string="1986" />
+            <token id="2" string="_" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Miss Ball" type="NP">
+          <tokens>
+            <token id="3" string="Miss" />
+            <token id="4" string="Ball" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">_</governor>
+          <dependent id="1">1986</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">returns</governor>
+          <dependent id="2">_</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="4">Ball</governor>
+          <dependent id="3">Miss</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="2">_</governor>
+          <dependent id="4">Ball</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">returns</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">television</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">television</governor>
+          <dependent id="7">sitcom</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">returns</governor>
+          <dependent id="8">television</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">Life</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">Life</governor>
+          <dependent id="10">ABC</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">ABC</governor>
+          <dependent id="11">'s</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">television</governor>
+          <dependent id="13">Life</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Lucy</governor>
+          <dependent id="14">With</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">returns</governor>
+          <dependent id="15">Lucy</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="ABC" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="10" string="ABC" />
+          </tokens>
+        </entity>
+        <entity id="2" string="1986" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="1986" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Lucy" type="PERSON" score="0.0">
+          <tokens>
+            <token id="15" string="Lucy" />
+          </tokens>
+        </entity>
+        <entity id="4" string="_" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="2" string="_" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="18" has_coreference="true">
+      <content>The show is canceled within months.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="show" lemma="show" stem="show" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="canceled" lemma="cancel" stem="cancel" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="within" lemma="within" stem="within" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="months" lemma="month" stem="month" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT The) (NN show)) (VP (VBZ is) (VP (VBN canceled) (PP (IN within) (NP (NNS months))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="months" type="NP">
+          <tokens>
+            <token id="6" string="months" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="canceled within months" type="VP">
+          <tokens>
+            <token id="4" string="canceled" />
+            <token id="5" string="within" />
+            <token id="6" string="months" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The show" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="show" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="is canceled within months" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="canceled" />
+            <token id="5" string="within" />
+            <token id="6" string="months" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">show</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">canceled</governor>
+          <dependent id="2">show</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">canceled</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">canceled</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">months</governor>
+          <dependent id="5">within</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">canceled</governor>
+          <dependent id="6">months</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="months" type="DURATION" score="0.0">
+          <tokens>
+            <token id="6" string="months" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="PROPER">
+      <referenced ids_tokens="5-6-7" string="Lucille Ball 's" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="24-25" string="Lucille Ball" id_sentence="7" />
+        <mention ids_tokens="3-4" string="Miss Ball" id_sentence="9" />
+        <mention ids_tokens="13" string="her" id_sentence="9" />
+        <mention ids_tokens="3-4" string="Miss Ball" id_sentence="10" />
+        <mention ids_tokens="3-4" string="Miss Ball" id_sentence="11" />
+        <mention ids_tokens="3-4" string="Miss Ball" id_sentence="14" />
+        <mention ids_tokens="4" string="her" id_sentence="15" />
+        <mention ids_tokens="12-13" string="Miss Ball" id_sentence="15" />
+        <mention ids_tokens="1" string="She" id_sentence="16" />
+        <mention ids_tokens="3-4" string="Miss Ball" id_sentence="17" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="9-10-11-12-13-14" string="New York as a chorus girl" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="16-17" string="New York" id_sentence="15" />
+      </mentions>
+    </coreference>
+    <coreference id="3" type="PROPER">
+      <referenced ids_tokens="4-5" string="Desi Arnaz" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="11-15" string="`` I Love Lucy''" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="LIST">
+      <referenced ids_tokens="7-8-9-10-11-12-13-14-15-16-17-18-19-20-21" string="a Cuban percussionist and bandleader when both were making the movie `` Too Many Girls" id_sentence="4" />
+      <mentions>
+        <mention ids_tokens="3" string="They" id_sentence="5" />
+        <mention ids_tokens="6" string="they" id_sentence="6" />
+        <mention ids_tokens="8" string="their" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11-12-13-14-15" string="1951 _ They form Desilu Productions with $ 5,000 and `` I Love Lucy ''" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="2-7" string="_ `` I Love Lucy''" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="15" string="Lucy" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="5-6" string="Love Lucy" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="NOMINAL">
+      <referenced ids_tokens="8-9-10" string="their first child" id_sentence="6" />
+      <mentions>
+        <mention ids_tokens="4-6" string="I Love Lucy" id_sentence="7" />
+        <mention ids_tokens="10" string="his" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="10" type="PROPER">
+      <referenced ids_tokens="14-15-16" string="The Lucy Show" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="1-2" string="The show" id_sentence="18" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5-6-7" string="1968 _ `` The Lucy Show ''" id_sentence="12" />
+      <mentions>
+        <mention ids_tokens="1" string="It" id_sentence="13" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

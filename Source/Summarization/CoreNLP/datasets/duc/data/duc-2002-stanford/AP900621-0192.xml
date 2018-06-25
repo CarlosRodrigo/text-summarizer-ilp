@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="AP900621-0192">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>Checkpoint Charlie, the famed Allied border crossing by the Berlin Wall, was to be hauled away Friday.</content>
+      <tokens>
+        <token id="1" string="Checkpoint" lemma="checkpoint" stem="checkpoint" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="Charlie" lemma="Charlie" stem="charli" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="famed" lemma="famed" stem="fame" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="Allied" lemma="Allied" stem="alli" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="7" string="border" lemma="border" stem="border" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="8" string="crossing" lemma="cross" stem="cross" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="Berlin" lemma="Berlin" stem="berlin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="12" string="Wall" lemma="Wall" stem="wall" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="true" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="hauled" lemma="haul" stem="haul" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="away" lemma="away" stem="awai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="true" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NN Checkpoint) (NNP Charlie)) (, ,) (NP (NP (DT the) (JJ famed) (NNP Allied) (NN border)) (VP (VBG crossing) (PP (IN by) (NP (DT the) (NNP Berlin) (NNP Wall))))) (, ,)) (VP (VBD was) (S (VP (TO to) (VP (VB be) (VP (VBN hauled) (ADVP (RB away)) (NP-TMP (NNP Friday))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="be hauled away Friday" type="VP">
+          <tokens>
+            <token id="16" string="be" />
+            <token id="17" string="hauled" />
+            <token id="18" string="away" />
+            <token id="19" string="Friday" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Checkpoint Charlie" type="NP">
+          <tokens>
+            <token id="1" string="Checkpoint" />
+            <token id="2" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the famed Allied border" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="famed" />
+            <token id="6" string="Allied" />
+            <token id="7" string="border" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="crossing by the Berlin Wall" type="VP">
+          <tokens>
+            <token id="8" string="crossing" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="Berlin" />
+            <token id="12" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="hauled away Friday" type="VP">
+          <tokens>
+            <token id="17" string="hauled" />
+            <token id="18" string="away" />
+            <token id="19" string="Friday" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Checkpoint Charlie , the famed Allied border crossing by the Berlin Wall ," type="NP">
+          <tokens>
+            <token id="1" string="Checkpoint" />
+            <token id="2" string="Charlie" />
+            <token id="3" string="," />
+            <token id="4" string="the" />
+            <token id="5" string="famed" />
+            <token id="6" string="Allied" />
+            <token id="7" string="border" />
+            <token id="8" string="crossing" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="Berlin" />
+            <token id="12" string="Wall" />
+            <token id="13" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="was to be hauled away Friday" type="VP">
+          <tokens>
+            <token id="14" string="was" />
+            <token id="15" string="to" />
+            <token id="16" string="be" />
+            <token id="17" string="hauled" />
+            <token id="18" string="away" />
+            <token id="19" string="Friday" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the famed Allied border crossing by the Berlin Wall" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="famed" />
+            <token id="6" string="Allied" />
+            <token id="7" string="border" />
+            <token id="8" string="crossing" />
+            <token id="9" string="by" />
+            <token id="10" string="the" />
+            <token id="11" string="Berlin" />
+            <token id="12" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the Berlin Wall" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="Berlin" />
+            <token id="12" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to be hauled away Friday" type="VP">
+          <tokens>
+            <token id="15" string="to" />
+            <token id="16" string="be" />
+            <token id="17" string="hauled" />
+            <token id="18" string="away" />
+            <token id="19" string="Friday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Charlie</governor>
+          <dependent id="1">Checkpoint</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">was</governor>
+          <dependent id="2">Charlie</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">border</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">border</governor>
+          <dependent id="5">famed</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">border</governor>
+          <dependent id="6">Allied</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">Charlie</governor>
+          <dependent id="7">border</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="7">border</governor>
+          <dependent id="8">crossing</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">Wall</governor>
+          <dependent id="9">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="12">Wall</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">Wall</governor>
+          <dependent id="11">Berlin</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">crossing</governor>
+          <dependent id="12">Wall</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">was</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="17">hauled</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="17">hauled</governor>
+          <dependent id="16">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="14">was</governor>
+          <dependent id="17">hauled</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="17">hauled</governor>
+          <dependent id="18">away</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="17">hauled</governor>
+          <dependent id="19">Friday</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Berlin Wall" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="11" string="Berlin" />
+            <token id="12" string="Wall" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Charlie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="Charlie" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="19" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Allied" type="MISC" score="0.0">
+          <tokens>
+            <token id="6" string="Allied" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>U.S. Army Sgt. Lorn Walsh late Thursday stood sentry for the last time by the little white shack, rendered unnecessary by the thaw in East-West relations.</content>
+      <tokens>
+        <token id="1" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="2" string="Army" lemma="Army" stem="army" pos="NNP" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="Sgt." lemma="Sgt." stem="sgt." pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="Lorn" lemma="Lorn" stem="lorn" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="Walsh" lemma="Walsh" stem="walsh" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="6" string="late" lemma="late" stem="late" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="7" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="8" string="stood" lemma="stand" stem="stood" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="sentry" lemma="sentry" stem="sentri" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="time" lemma="time" stem="time" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="little" lemma="little" stem="littl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="white" lemma="white" stem="white" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="shack" lemma="shack" stem="shack" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="rendered" lemma="render" stem="render" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="unnecessary" lemma="unnecessary" stem="unnecessari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="by" lemma="by" stem="by" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="thaw" lemma="thaw" stem="thaw" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="East-West" lemma="east-west" stem="east-west" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="relations" lemma="relation" stem="relat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP U.S.) (NNP Army) (NNP Sgt.) (NNP Lorn) (NNP Walsh)) (VP (VP (NP-TMP (JJ late) (NNP Thursday)) (VBD stood) (NP (NN sentry)) (PP (IN for) (NP (DT the) (JJ last) (NN time))) (PP (IN by) (NP (DT the) (JJ little) (JJ white) (NN shack)))) (, ,) (VP (VBD rendered) (ADJP (JJ unnecessary)) (PP (IN by) (NP (NP (DT the) (NN thaw)) (PP (IN in) (NP (JJ East-West) (NNS relations))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="East-West relations" type="NP">
+          <tokens>
+            <token id="26" string="East-West" />
+            <token id="27" string="relations" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="rendered unnecessary by the thaw in East-West relations" type="VP">
+          <tokens>
+            <token id="20" string="rendered" />
+            <token id="21" string="unnecessary" />
+            <token id="22" string="by" />
+            <token id="23" string="the" />
+            <token id="24" string="thaw" />
+            <token id="25" string="in" />
+            <token id="26" string="East-West" />
+            <token id="27" string="relations" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="U.S. Army Sgt. Lorn Walsh" type="NP">
+          <tokens>
+            <token id="1" string="U.S." />
+            <token id="2" string="Army" />
+            <token id="3" string="Sgt." />
+            <token id="4" string="Lorn" />
+            <token id="5" string="Walsh" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the thaw in East-West relations" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="thaw" />
+            <token id="25" string="in" />
+            <token id="26" string="East-West" />
+            <token id="27" string="relations" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="late Thursday stood sentry for the last time by the little white shack , rendered unnecessary by the thaw in East-West relations" type="VP">
+          <tokens>
+            <token id="6" string="late" />
+            <token id="7" string="Thursday" />
+            <token id="8" string="stood" />
+            <token id="9" string="sentry" />
+            <token id="10" string="for" />
+            <token id="11" string="the" />
+            <token id="12" string="last" />
+            <token id="13" string="time" />
+            <token id="14" string="by" />
+            <token id="15" string="the" />
+            <token id="16" string="little" />
+            <token id="17" string="white" />
+            <token id="18" string="shack" />
+            <token id="19" string="," />
+            <token id="20" string="rendered" />
+            <token id="21" string="unnecessary" />
+            <token id="22" string="by" />
+            <token id="23" string="the" />
+            <token id="24" string="thaw" />
+            <token id="25" string="in" />
+            <token id="26" string="East-West" />
+            <token id="27" string="relations" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="unnecessary" type="ADJP">
+          <tokens>
+            <token id="21" string="unnecessary" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the little white shack" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="little" />
+            <token id="17" string="white" />
+            <token id="18" string="shack" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the thaw" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="thaw" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the last time" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="last" />
+            <token id="13" string="time" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="late Thursday stood sentry for the last time by the little white shack" type="VP">
+          <tokens>
+            <token id="6" string="late" />
+            <token id="7" string="Thursday" />
+            <token id="8" string="stood" />
+            <token id="9" string="sentry" />
+            <token id="10" string="for" />
+            <token id="11" string="the" />
+            <token id="12" string="last" />
+            <token id="13" string="time" />
+            <token id="14" string="by" />
+            <token id="15" string="the" />
+            <token id="16" string="little" />
+            <token id="17" string="white" />
+            <token id="18" string="shack" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="sentry" type="NP">
+          <tokens>
+            <token id="9" string="sentry" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="5">Walsh</governor>
+          <dependent id="1">U.S.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Walsh</governor>
+          <dependent id="2">Army</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Walsh</governor>
+          <dependent id="3">Sgt.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">Walsh</governor>
+          <dependent id="4">Lorn</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">stood</governor>
+          <dependent id="5">Walsh</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">Thursday</governor>
+          <dependent id="6">late</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="8">stood</governor>
+          <dependent id="7">Thursday</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">stood</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">stood</governor>
+          <dependent id="9">sentry</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">time</governor>
+          <dependent id="10">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">time</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">time</governor>
+          <dependent id="12">last</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">stood</governor>
+          <dependent id="13">time</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">shack</governor>
+          <dependent id="14">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="18">shack</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">shack</governor>
+          <dependent id="16">little</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="18">shack</governor>
+          <dependent id="17">white</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">stood</governor>
+          <dependent id="18">shack</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">stood</governor>
+          <dependent id="20">rendered</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="20">rendered</governor>
+          <dependent id="21">unnecessary</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">thaw</governor>
+          <dependent id="22">by</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">thaw</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">rendered</governor>
+          <dependent id="24">thaw</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">relations</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">relations</governor>
+          <dependent id="26">East-West</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">thaw</governor>
+          <dependent id="27">relations</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Lorn Walsh" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="Lorn" />
+            <token id="5" string="Walsh" />
+          </tokens>
+        </entity>
+        <entity id="2" string="U.S. Army" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="1" string="U.S." />
+            <token id="2" string="Army" />
+          </tokens>
+        </entity>
+        <entity id="3" string="late Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="6" string="late" />
+            <token id="7" string="Thursday" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>``This is a nice way to end my military service ... to be here when they take it down,&amp;apost;&amp;apost; said Walsh, 23, a military police officer who leaves the army in six weeks to study for the priesthood.</content>
+      <tokens>
+        <token id="1" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="This" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="nice" lemma="nice" stem="nice" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="way" lemma="way" stem="wai" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="end" lemma="end" stem="end" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="my" lemma="my" stem="my" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="10" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="service" lemma="service" stem="servic" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="..." lemma="..." stem="..." pos=":" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="here" lemma="here" stem="here" pos="RB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="when" lemma="when" stem="when" pos="WRB" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="take" lemma="take" stem="take" pos="VBP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="19" string="it" lemma="it" stem="it" pos="PRP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="down" lemma="down" stem="down" pos="RP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="Walsh" lemma="Walsh" stem="walsh" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="true" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="23" lemma="23" stem="23" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="27" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="military" lemma="military" stem="militari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="police" lemma="police" stem="polic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="officer" lemma="officer" stem="offic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="leaves" lemma="leave" stem="leav" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="army" lemma="army" stem="armi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="38" string="weeks" lemma="week" stem="week" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="39" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string="study" lemma="study" stem="studi" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="41" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="42" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="43" string="priesthood" lemma="priesthood" stem="priesthood" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="44" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (SINV (`` ``) (S (NP (DT This)) (VP (VBZ is) (NP (DT a) (JJ nice) (NN way) (S (VP (TO to) (VP (VB end) (NP (PRP$ my) (JJ military) (NN service)) (: ...) (S (VP (TO to) (VP (VB be) (ADVP (RB here)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP take) (NP (PRP it)) (PRT (RP down)))))))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Walsh)) (, ,) (NP (NP (CD 23)) (, ,) (NP (NP (DT a) (JJ military) (NN police) (NN officer)) (SBAR (WHNP (WP who)) (S (VP (VBZ leaves) (S (NP (NP (DT the) (NN army)) (PP (IN in) (NP (CD six) (NNS weeks)))) (VP (TO to) (VP (VB study) (PP (IN for) (NP (DT the) (NN priesthood)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Walsh" type="NP">
+          <tokens>
+            <token id="24" string="Walsh" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="be here when they take it down" type="VP">
+          <tokens>
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="it" type="NP">
+          <tokens>
+            <token id="19" string="it" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the priesthood" type="NP">
+          <tokens>
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Walsh , 23 , a military police officer who leaves the army in six weeks to study for the priesthood" type="NP">
+          <tokens>
+            <token id="24" string="Walsh" />
+            <token id="25" string="," />
+            <token id="26" string="23" />
+            <token id="27" string="," />
+            <token id="28" string="a" />
+            <token id="29" string="military" />
+            <token id="30" string="police" />
+            <token id="31" string="officer" />
+            <token id="32" string="who" />
+            <token id="33" string="leaves" />
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="who leaves the army in six weeks to study for the priesthood" type="SBAR">
+          <tokens>
+            <token id="32" string="who" />
+            <token id="33" string="leaves" />
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the army" type="NP">
+          <tokens>
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="23 , a military police officer who leaves the army in six weeks to study for the priesthood" type="NP">
+          <tokens>
+            <token id="26" string="23" />
+            <token id="27" string="," />
+            <token id="28" string="a" />
+            <token id="29" string="military" />
+            <token id="30" string="police" />
+            <token id="31" string="officer" />
+            <token id="32" string="who" />
+            <token id="33" string="leaves" />
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="end my military service ... to be here when they take it down" type="VP">
+          <tokens>
+            <token id="8" string="end" />
+            <token id="9" string="my" />
+            <token id="10" string="military" />
+            <token id="11" string="service" />
+            <token id="12" string="..." />
+            <token id="13" string="to" />
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="to be here when they take it down" type="VP">
+          <tokens>
+            <token id="13" string="to" />
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="leaves the army in six weeks to study for the priesthood" type="VP">
+          <tokens>
+            <token id="33" string="leaves" />
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="23" type="NP">
+          <tokens>
+            <token id="26" string="23" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="when they take it down" type="SBAR">
+          <tokens>
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a military police officer who leaves the army in six weeks to study for the priesthood" type="NP">
+          <tokens>
+            <token id="28" string="a" />
+            <token id="29" string="military" />
+            <token id="30" string="police" />
+            <token id="31" string="officer" />
+            <token id="32" string="who" />
+            <token id="33" string="leaves" />
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="take it down" type="VP">
+          <tokens>
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="when" type="WHADVP">
+          <tokens>
+            <token id="16" string="when" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="a nice way to end my military service ... to be here when they take it down" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="nice" />
+            <token id="6" string="way" />
+            <token id="7" string="to" />
+            <token id="8" string="end" />
+            <token id="9" string="my" />
+            <token id="10" string="military" />
+            <token id="11" string="service" />
+            <token id="12" string="..." />
+            <token id="13" string="to" />
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="they" type="NP">
+          <tokens>
+            <token id="17" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="to end my military service ... to be here when they take it down" type="VP">
+          <tokens>
+            <token id="7" string="to" />
+            <token id="8" string="end" />
+            <token id="9" string="my" />
+            <token id="10" string="military" />
+            <token id="11" string="service" />
+            <token id="12" string="..." />
+            <token id="13" string="to" />
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="my military service" type="NP">
+          <tokens>
+            <token id="9" string="my" />
+            <token id="10" string="military" />
+            <token id="11" string="service" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="a military police officer" type="NP">
+          <tokens>
+            <token id="28" string="a" />
+            <token id="29" string="military" />
+            <token id="30" string="police" />
+            <token id="31" string="officer" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="study for the priesthood" type="VP">
+          <tokens>
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="This" type="NP">
+          <tokens>
+            <token id="2" string="This" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="is a nice way to end my military service ... to be here when they take it down" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="a" />
+            <token id="5" string="nice" />
+            <token id="6" string="way" />
+            <token id="7" string="to" />
+            <token id="8" string="end" />
+            <token id="9" string="my" />
+            <token id="10" string="military" />
+            <token id="11" string="service" />
+            <token id="12" string="..." />
+            <token id="13" string="to" />
+            <token id="14" string="be" />
+            <token id="15" string="here" />
+            <token id="16" string="when" />
+            <token id="17" string="they" />
+            <token id="18" string="take" />
+            <token id="19" string="it" />
+            <token id="20" string="down" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="the army in six weeks" type="NP">
+          <tokens>
+            <token id="34" string="the" />
+            <token id="35" string="army" />
+            <token id="36" string="in" />
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="six weeks" type="NP">
+          <tokens>
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="said" type="VP">
+          <tokens>
+            <token id="23" string="said" />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="to study for the priesthood" type="VP">
+          <tokens>
+            <token id="39" string="to" />
+            <token id="40" string="study" />
+            <token id="41" string="for" />
+            <token id="42" string="the" />
+            <token id="43" string="priesthood" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="6">way</governor>
+          <dependent id="2">This</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">way</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">way</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">way</governor>
+          <dependent id="5">nice</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="23">said</governor>
+          <dependent id="6">way</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">end</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="6">way</governor>
+          <dependent id="8">end</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="11">service</governor>
+          <dependent id="9">my</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="11">service</governor>
+          <dependent id="10">military</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="8">end</governor>
+          <dependent id="11">service</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">be</governor>
+          <dependent id="13">to</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="8">end</governor>
+          <dependent id="14">be</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">be</governor>
+          <dependent id="15">here</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="18">take</governor>
+          <dependent id="16">when</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">take</governor>
+          <dependent id="17">they</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="14">be</governor>
+          <dependent id="18">take</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="18">take</governor>
+          <dependent id="19">it</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="18">take</governor>
+          <dependent id="20">down</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="23">said</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">said</governor>
+          <dependent id="24">Walsh</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="24">Walsh</governor>
+          <dependent id="26">23</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="31">officer</governor>
+          <dependent id="28">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">officer</governor>
+          <dependent id="29">military</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">officer</governor>
+          <dependent id="30">police</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="26">23</governor>
+          <dependent id="31">officer</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">leaves</governor>
+          <dependent id="32">who</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="31">officer</governor>
+          <dependent id="33">leaves</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">army</governor>
+          <dependent id="34">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="33">leaves</governor>
+          <dependent id="35">army</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="38">weeks</governor>
+          <dependent id="36">in</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="38">weeks</governor>
+          <dependent id="37">six</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="35">army</governor>
+          <dependent id="38">weeks</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="40">study</governor>
+          <dependent id="39">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="33">leaves</governor>
+          <dependent id="40">study</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="43">priesthood</governor>
+          <dependent id="41">for</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="43">priesthood</governor>
+          <dependent id="42">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="40">study</governor>
+          <dependent id="43">priesthood</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="23" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="26" string="23" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Walsh" type="PERSON" score="0.0">
+          <tokens>
+            <token id="24" string="Walsh" />
+          </tokens>
+        </entity>
+        <entity id="3" string="six weeks" type="DURATION" score="0.0">
+          <tokens>
+            <token id="37" string="six" />
+            <token id="38" string="weeks" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>A huge crane hung over the small house in the middle of the narrow street that leads to East Berlin, where a sign in English, German, Russian and French says: ``You are now leaving the American sector.&amp;apost;&amp;apost;</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="huge" lemma="huge" stem="huge" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="crane" lemma="crane" stem="crane" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="hung" lemma="hang" stem="hung" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="small" lemma="small" stem="small" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="house" lemma="house" stem="hous" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="middle" lemma="middle" stem="middl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="narrow" lemma="narrow" stem="narrow" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="street" lemma="street" stem="street" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="leads" lemma="lead" stem="lead" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="East" lemma="East" stem="east" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="20" string="Berlin" lemma="Berlin" stem="berlin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="where" lemma="where" stem="where" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="sign" lemma="sign" stem="sign" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="English" lemma="English" stem="english" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="27" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="German" lemma="German" stem="german" pos="NNP" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="29" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="Russian" lemma="Russian" stem="russian" pos="NNP" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="31" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="32" string="French" lemma="French" stem="french" pos="NNP" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="33" string="says" lemma="say" stem="sai" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="``" lemma="``" stem="``" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="You" lemma="you" stem="you" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="37" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="now" lemma="now" stem="now" pos="RB" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="39" string="leaving" lemma="leave" stem="leav" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="40" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="American" lemma="american" stem="american" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="42" string="sector" lemma="sector" stem="sector" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="43" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="44" string="''" lemma="''" stem="''" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (JJ huge) (NN crane)) (VP (VBD hung) (PP (IN over) (NP (DT the) (JJ small) (NN house))) (PP (IN in) (NP (NP (DT the) (NN middle)) (PP (IN of) (NP (NP (DT the) (JJ narrow) (NN street)) (SBAR (WHNP (WDT that)) (S (VP (VBZ leads) (PP (TO to) (NP (NP (NNP East) (NNP Berlin)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NP (DT a) (NN sign)) (PP (IN in) (NP (NNP English) (, ,) (NNP German) (, ,) (NNP Russian) (CC and) (NNP French)))) (VP (VBZ says) (: :) (`` ``) (S (NP (PRP You)) (VP (VBP are) (ADVP (RB now)) (VP (VBG leaving) (NP (DT the) (JJ American) (NN sector)))))))))))))))))) (. .) ('' '')))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="says : `` You are now leaving the American sector" type="VP">
+          <tokens>
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="that leads to East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="SBAR">
+          <tokens>
+            <token id="16" string="that" />
+            <token id="17" string="leads" />
+            <token id="18" string="to" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="hung over the small house in the middle of the narrow street that leads to East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="VP">
+          <tokens>
+            <token id="4" string="hung" />
+            <token id="5" string="over" />
+            <token id="6" string="the" />
+            <token id="7" string="small" />
+            <token id="8" string="house" />
+            <token id="9" string="in" />
+            <token id="10" string="the" />
+            <token id="11" string="middle" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="narrow" />
+            <token id="15" string="street" />
+            <token id="16" string="that" />
+            <token id="17" string="leads" />
+            <token id="18" string="to" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a sign" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="leads to East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="VP">
+          <tokens>
+            <token id="17" string="leads" />
+            <token id="18" string="to" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the American sector" type="NP">
+          <tokens>
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the middle" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="middle" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="NP">
+          <tokens>
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="A huge crane" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="huge" />
+            <token id="3" string="crane" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="East Berlin" type="NP">
+          <tokens>
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="SBAR">
+          <tokens>
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="leaving the American sector" type="VP">
+          <tokens>
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="a sign in English , German , Russian and French" type="NP">
+          <tokens>
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the small house" type="NP">
+          <tokens>
+            <token id="6" string="the" />
+            <token id="7" string="small" />
+            <token id="8" string="house" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="English , German , Russian and French" type="NP">
+          <tokens>
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the narrow street that leads to East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="narrow" />
+            <token id="15" string="street" />
+            <token id="16" string="that" />
+            <token id="17" string="leads" />
+            <token id="18" string="to" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the narrow street" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="narrow" />
+            <token id="15" string="street" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="are now leaving the American sector" type="VP">
+          <tokens>
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="where" type="WHADVP">
+          <tokens>
+            <token id="22" string="where" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="the middle of the narrow street that leads to East Berlin , where a sign in English , German , Russian and French says : `` You are now leaving the American sector" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="middle" />
+            <token id="12" string="of" />
+            <token id="13" string="the" />
+            <token id="14" string="narrow" />
+            <token id="15" string="street" />
+            <token id="16" string="that" />
+            <token id="17" string="leads" />
+            <token id="18" string="to" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="," />
+            <token id="22" string="where" />
+            <token id="23" string="a" />
+            <token id="24" string="sign" />
+            <token id="25" string="in" />
+            <token id="26" string="English" />
+            <token id="27" string="," />
+            <token id="28" string="German" />
+            <token id="29" string="," />
+            <token id="30" string="Russian" />
+            <token id="31" string="and" />
+            <token id="32" string="French" />
+            <token id="33" string="says" />
+            <token id="34" string=":" />
+            <token id="35" string="``" />
+            <token id="36" string="You" />
+            <token id="37" string="are" />
+            <token id="38" string="now" />
+            <token id="39" string="leaving" />
+            <token id="40" string="the" />
+            <token id="41" string="American" />
+            <token id="42" string="sector" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="You" type="NP">
+          <tokens>
+            <token id="36" string="You" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="3">crane</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">crane</governor>
+          <dependent id="2">huge</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">hung</governor>
+          <dependent id="3">crane</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">hung</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">house</governor>
+          <dependent id="5">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">house</governor>
+          <dependent id="6">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">house</governor>
+          <dependent id="7">small</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">hung</governor>
+          <dependent id="8">house</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">middle</governor>
+          <dependent id="9">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">middle</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">hung</governor>
+          <dependent id="11">middle</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">street</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="15">street</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="15">street</governor>
+          <dependent id="14">narrow</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">middle</governor>
+          <dependent id="15">street</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">leads</governor>
+          <dependent id="16">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="15">street</governor>
+          <dependent id="17">leads</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Berlin</governor>
+          <dependent id="18">to</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Berlin</governor>
+          <dependent id="19">East</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">leads</governor>
+          <dependent id="20">Berlin</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="33">says</governor>
+          <dependent id="22">where</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">sign</governor>
+          <dependent id="23">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="33">says</governor>
+          <dependent id="24">sign</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">English</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">sign</governor>
+          <dependent id="26">English</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">English</governor>
+          <dependent id="28">German</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">English</governor>
+          <dependent id="30">Russian</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="26">English</governor>
+          <dependent id="31">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="26">English</governor>
+          <dependent id="32">French</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="20">Berlin</governor>
+          <dependent id="33">says</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="39">leaving</governor>
+          <dependent id="36">You</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="39">leaving</governor>
+          <dependent id="37">are</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="39">leaving</governor>
+          <dependent id="38">now</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="33">says</governor>
+          <dependent id="39">leaving</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="42">sector</governor>
+          <dependent id="40">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="42">sector</governor>
+          <dependent id="41">American</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="39">leaving</governor>
+          <dependent id="42">sector</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="French" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="32" string="French" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Russian" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="30" string="Russian" />
+          </tokens>
+        </entity>
+        <entity id="3" string="now" type="DATE" score="0.0">
+          <tokens>
+            <token id="38" string="now" />
+          </tokens>
+        </entity>
+        <entity id="4" string="German" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="28" string="German" />
+          </tokens>
+        </entity>
+        <entity id="5" string="American" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="41" string="American" />
+          </tokens>
+        </entity>
+        <entity id="6" string="East Berlin" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+          </tokens>
+        </entity>
+        <entity id="7" string="English" type="MISC" score="0.0">
+          <tokens>
+            <token id="26" string="English" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>Secretary of State James A. Baker III, Soviet Foreign Minister Eduard Shevardnadze and their colleagues from France, Britain and the two Germanys were to preside over a ceremony marking the checkpoint&amp;apost;s removal Friday.</content>
+      <tokens>
+        <token id="1" string="Secretary" lemma="Secretary" stem="secretari" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="State" lemma="State" stem="state" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="James" lemma="James" stem="jame" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="5" string="A." lemma="A." stem="a." pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="6" string="Baker" lemma="Baker" stem="baker" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="7" string="III" lemma="III" stem="iii" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="Soviet" lemma="Soviet" stem="soviet" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="true" is_refers="false" />
+        <token id="10" string="Foreign" lemma="Foreign" stem="foreign" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="11" string="Minister" lemma="Minister" stem="minist" pos="NNP" type="Word" isStopWord="false" ner="TITLE" is_referenced="true" is_refers="false" />
+        <token id="12" string="Eduard" lemma="Eduard" stem="eduard" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="13" string="Shevardnadze" lemma="Shevardnadze" stem="shevardnadz" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="15" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="16" string="colleagues" lemma="colleague" stem="colleagu" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="France" lemma="France" stem="franc" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="20" string="Britain" lemma="Britain" stem="britain" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="21" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="22" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="24" string="Germanys" lemma="Germanys" stem="germani" pos="NNPS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="25" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="preside" lemma="preside" stem="presid" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="ceremony" lemma="ceremony" stem="ceremoni" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="marking" lemma="mark" stem="mark" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="33" string="checkpoint" lemma="checkpoint" stem="checkpoint" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="34" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="35" string="removal" lemma="removal" stem="remov" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="Friday" lemma="Friday" stem="fridai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="37" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Secretary)) (PP (IN of) (NP (NP (NNP State) (NNP James) (NNP A.) (NNP Baker) (NNP III)) (, ,) (NP (NNP Soviet) (NNP Foreign) (NNP Minister) (NNP Eduard) (NNP Shevardnadze)) (CC and) (NP (NP (PRP$ their) (NNS colleagues)) (PP (IN from) (NP (NP (NNP France)) (, ,) (NP (NNP Britain)) (CC and) (NP (DT the) (CD two) (NNPS Germanys)))))))) (VP (VBD were) (S (VP (TO to) (VP (VB preside) (PP (IN over) (NP (NP (DT a) (NN ceremony)) (VP (VBG marking) (NP (NP (DT the) (NN checkpoint) (POS 's)) (NN removal)))))))) (NP-TMP (NNP Friday))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a ceremony marking the checkpoint 's removal" type="NP">
+          <tokens>
+            <token id="29" string="a" />
+            <token id="30" string="ceremony" />
+            <token id="31" string="marking" />
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="to preside over a ceremony marking the checkpoint 's removal" type="VP">
+          <tokens>
+            <token id="26" string="to" />
+            <token id="27" string="preside" />
+            <token id="28" string="over" />
+            <token id="29" string="a" />
+            <token id="30" string="ceremony" />
+            <token id="31" string="marking" />
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Soviet Foreign Minister Eduard Shevardnadze" type="NP">
+          <tokens>
+            <token id="9" string="Soviet" />
+            <token id="10" string="Foreign" />
+            <token id="11" string="Minister" />
+            <token id="12" string="Eduard" />
+            <token id="13" string="Shevardnadze" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Secretary" type="NP">
+          <tokens>
+            <token id="1" string="Secretary" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the checkpoint 's" type="NP">
+          <tokens>
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Britain" type="NP">
+          <tokens>
+            <token id="20" string="Britain" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the checkpoint 's removal" type="NP">
+          <tokens>
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="State James A. Baker III" type="NP">
+          <tokens>
+            <token id="3" string="State" />
+            <token id="4" string="James" />
+            <token id="5" string="A." />
+            <token id="6" string="Baker" />
+            <token id="7" string="III" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="their colleagues from France , Britain and the two Germanys" type="NP">
+          <tokens>
+            <token id="15" string="their" />
+            <token id="16" string="colleagues" />
+            <token id="17" string="from" />
+            <token id="18" string="France" />
+            <token id="19" string="," />
+            <token id="20" string="Britain" />
+            <token id="21" string="and" />
+            <token id="22" string="the" />
+            <token id="23" string="two" />
+            <token id="24" string="Germanys" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="the two Germanys" type="NP">
+          <tokens>
+            <token id="22" string="the" />
+            <token id="23" string="two" />
+            <token id="24" string="Germanys" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="State James A. Baker III , Soviet Foreign Minister Eduard Shevardnadze and their colleagues from France , Britain and the two Germanys" type="NP">
+          <tokens>
+            <token id="3" string="State" />
+            <token id="4" string="James" />
+            <token id="5" string="A." />
+            <token id="6" string="Baker" />
+            <token id="7" string="III" />
+            <token id="8" string="," />
+            <token id="9" string="Soviet" />
+            <token id="10" string="Foreign" />
+            <token id="11" string="Minister" />
+            <token id="12" string="Eduard" />
+            <token id="13" string="Shevardnadze" />
+            <token id="14" string="and" />
+            <token id="15" string="their" />
+            <token id="16" string="colleagues" />
+            <token id="17" string="from" />
+            <token id="18" string="France" />
+            <token id="19" string="," />
+            <token id="20" string="Britain" />
+            <token id="21" string="and" />
+            <token id="22" string="the" />
+            <token id="23" string="two" />
+            <token id="24" string="Germanys" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="preside over a ceremony marking the checkpoint 's removal" type="VP">
+          <tokens>
+            <token id="27" string="preside" />
+            <token id="28" string="over" />
+            <token id="29" string="a" />
+            <token id="30" string="ceremony" />
+            <token id="31" string="marking" />
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="their colleagues" type="NP">
+          <tokens>
+            <token id="15" string="their" />
+            <token id="16" string="colleagues" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="a ceremony" type="NP">
+          <tokens>
+            <token id="29" string="a" />
+            <token id="30" string="ceremony" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="marking the checkpoint 's removal" type="VP">
+          <tokens>
+            <token id="31" string="marking" />
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="Secretary of State James A. Baker III , Soviet Foreign Minister Eduard Shevardnadze and their colleagues from France , Britain and the two Germanys" type="NP">
+          <tokens>
+            <token id="1" string="Secretary" />
+            <token id="2" string="of" />
+            <token id="3" string="State" />
+            <token id="4" string="James" />
+            <token id="5" string="A." />
+            <token id="6" string="Baker" />
+            <token id="7" string="III" />
+            <token id="8" string="," />
+            <token id="9" string="Soviet" />
+            <token id="10" string="Foreign" />
+            <token id="11" string="Minister" />
+            <token id="12" string="Eduard" />
+            <token id="13" string="Shevardnadze" />
+            <token id="14" string="and" />
+            <token id="15" string="their" />
+            <token id="16" string="colleagues" />
+            <token id="17" string="from" />
+            <token id="18" string="France" />
+            <token id="19" string="," />
+            <token id="20" string="Britain" />
+            <token id="21" string="and" />
+            <token id="22" string="the" />
+            <token id="23" string="two" />
+            <token id="24" string="Germanys" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="France , Britain and the two Germanys" type="NP">
+          <tokens>
+            <token id="18" string="France" />
+            <token id="19" string="," />
+            <token id="20" string="Britain" />
+            <token id="21" string="and" />
+            <token id="22" string="the" />
+            <token id="23" string="two" />
+            <token id="24" string="Germanys" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="France" type="NP">
+          <tokens>
+            <token id="18" string="France" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="were to preside over a ceremony marking the checkpoint 's removal Friday" type="VP">
+          <tokens>
+            <token id="25" string="were" />
+            <token id="26" string="to" />
+            <token id="27" string="preside" />
+            <token id="28" string="over" />
+            <token id="29" string="a" />
+            <token id="30" string="ceremony" />
+            <token id="31" string="marking" />
+            <token id="32" string="the" />
+            <token id="33" string="checkpoint" />
+            <token id="34" string="'s" />
+            <token id="35" string="removal" />
+            <token id="36" string="Friday" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="25">were</governor>
+          <dependent id="1">Secretary</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">III</governor>
+          <dependent id="2">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">III</governor>
+          <dependent id="3">State</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">III</governor>
+          <dependent id="4">James</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">III</governor>
+          <dependent id="5">A.</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">III</governor>
+          <dependent id="6">Baker</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="1">Secretary</governor>
+          <dependent id="7">III</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Shevardnadze</governor>
+          <dependent id="9">Soviet</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Shevardnadze</governor>
+          <dependent id="10">Foreign</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Shevardnadze</governor>
+          <dependent id="11">Minister</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Shevardnadze</governor>
+          <dependent id="12">Eduard</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">III</governor>
+          <dependent id="13">Shevardnadze</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="7">III</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="16">colleagues</governor>
+          <dependent id="15">their</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="7">III</governor>
+          <dependent id="16">colleagues</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">France</governor>
+          <dependent id="17">from</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">colleagues</governor>
+          <dependent id="18">France</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">France</governor>
+          <dependent id="20">Britain</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="18">France</governor>
+          <dependent id="21">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="24">Germanys</governor>
+          <dependent id="22">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="24">Germanys</governor>
+          <dependent id="23">two</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="18">France</governor>
+          <dependent id="24">Germanys</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="25">were</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="27">preside</governor>
+          <dependent id="26">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="25">were</governor>
+          <dependent id="27">preside</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">ceremony</governor>
+          <dependent id="28">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="30">ceremony</governor>
+          <dependent id="29">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">preside</governor>
+          <dependent id="30">ceremony</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="30">ceremony</governor>
+          <dependent id="31">marking</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="33">checkpoint</governor>
+          <dependent id="32">the</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="35">removal</governor>
+          <dependent id="33">checkpoint</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="33">checkpoint</governor>
+          <dependent id="34">'s</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="31">marking</governor>
+          <dependent id="35">removal</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="25">were</governor>
+          <dependent id="36">Friday</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="James A. Baker III" type="PERSON" score="0.0">
+          <tokens>
+            <token id="4" string="James" />
+            <token id="5" string="A." />
+            <token id="6" string="Baker" />
+            <token id="7" string="III" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Friday" type="DATE" score="0.0">
+          <tokens>
+            <token id="36" string="Friday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Eduard Shevardnadze" type="PERSON" score="0.0">
+          <tokens>
+            <token id="12" string="Eduard" />
+            <token id="13" string="Shevardnadze" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Soviet" type="MISC" score="0.0">
+          <tokens>
+            <token id="9" string="Soviet" />
+          </tokens>
+        </entity>
+        <entity id="5" string="two" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="23" string="two" />
+          </tokens>
+        </entity>
+        <entity id="6" string="Britain" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="Britain" />
+          </tokens>
+        </entity>
+        <entity id="7" string="France" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="18" string="France" />
+          </tokens>
+        </entity>
+        <entity id="8" string="Minister" type="TITLE" score="0.0">
+          <tokens>
+            <token id="11" string="Minister" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="true">
+      <content>The envoys from the German states and the four World War II Allies that divided them were in East Berlin to discuss the international aspects of German unification.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="envoys" lemma="envoy" stem="envoi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="German" lemma="german" stem="german" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="6" string="states" lemma="state" stem="state" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="four" lemma="four" stem="four" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="10" string="World" lemma="World" stem="world" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="11" string="War" lemma="War" stem="war" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="12" string="II" lemma="II" stem="ii" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="13" string="Allies" lemma="ally" stem="alli" pos="NNS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="14" string="that" lemma="that" stem="that" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="divided" lemma="divide" stem="divid" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="them" lemma="they" stem="them" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="17" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="East" lemma="East" stem="east" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="20" string="Berlin" lemma="Berlin" stem="berlin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="discuss" lemma="discuss" stem="discuss" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="international" lemma="international" stem="intern" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="aspects" lemma="aspect" stem="aspect" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="German" lemma="german" stem="german" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="28" string="unification" lemma="unification" stem="unif" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNS envoys)) (PP (IN from) (NP (NP (DT the) (JJ German) (NNS states)) (CC and) (NP (NP (DT the) (CD four) (NNP World) (NNP War) (NNP II) (NNS Allies)) (SBAR (WHNP (WDT that)) (S (VP (VBD divided) (NP (PRP them))))))))) (VP (VBD were) (PP (IN in) (NP (NNP East) (NNP Berlin))) (S (VP (TO to) (VP (VB discuss) (NP (NP (DT the) (JJ international) (NNS aspects)) (PP (IN of) (NP (JJ German) (NN unification)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the four World War II Allies that divided them" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="four" />
+            <token id="10" string="World" />
+            <token id="11" string="War" />
+            <token id="12" string="II" />
+            <token id="13" string="Allies" />
+            <token id="14" string="that" />
+            <token id="15" string="divided" />
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="German unification" type="NP">
+          <tokens>
+            <token id="27" string="German" />
+            <token id="28" string="unification" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="discuss the international aspects of German unification" type="VP">
+          <tokens>
+            <token id="22" string="discuss" />
+            <token id="23" string="the" />
+            <token id="24" string="international" />
+            <token id="25" string="aspects" />
+            <token id="26" string="of" />
+            <token id="27" string="German" />
+            <token id="28" string="unification" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="The envoys" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="envoys" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="that divided them" type="SBAR">
+          <tokens>
+            <token id="14" string="that" />
+            <token id="15" string="divided" />
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="them" type="NP">
+          <tokens>
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="East Berlin" type="NP">
+          <tokens>
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the international aspects of German unification" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="international" />
+            <token id="25" string="aspects" />
+            <token id="26" string="of" />
+            <token id="27" string="German" />
+            <token id="28" string="unification" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the four World War II Allies" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="four" />
+            <token id="10" string="World" />
+            <token id="11" string="War" />
+            <token id="12" string="II" />
+            <token id="13" string="Allies" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="The envoys from the German states and the four World War II Allies that divided them" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="envoys" />
+            <token id="3" string="from" />
+            <token id="4" string="the" />
+            <token id="5" string="German" />
+            <token id="6" string="states" />
+            <token id="7" string="and" />
+            <token id="8" string="the" />
+            <token id="9" string="four" />
+            <token id="10" string="World" />
+            <token id="11" string="War" />
+            <token id="12" string="II" />
+            <token id="13" string="Allies" />
+            <token id="14" string="that" />
+            <token id="15" string="divided" />
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the German states and the four World War II Allies that divided them" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="German" />
+            <token id="6" string="states" />
+            <token id="7" string="and" />
+            <token id="8" string="the" />
+            <token id="9" string="four" />
+            <token id="10" string="World" />
+            <token id="11" string="War" />
+            <token id="12" string="II" />
+            <token id="13" string="Allies" />
+            <token id="14" string="that" />
+            <token id="15" string="divided" />
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="divided them" type="VP">
+          <tokens>
+            <token id="15" string="divided" />
+            <token id="16" string="them" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="were in East Berlin to discuss the international aspects of German unification" type="VP">
+          <tokens>
+            <token id="17" string="were" />
+            <token id="18" string="in" />
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+            <token id="21" string="to" />
+            <token id="22" string="discuss" />
+            <token id="23" string="the" />
+            <token id="24" string="international" />
+            <token id="25" string="aspects" />
+            <token id="26" string="of" />
+            <token id="27" string="German" />
+            <token id="28" string="unification" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the international aspects" type="NP">
+          <tokens>
+            <token id="23" string="the" />
+            <token id="24" string="international" />
+            <token id="25" string="aspects" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="to discuss the international aspects of German unification" type="VP">
+          <tokens>
+            <token id="21" string="to" />
+            <token id="22" string="discuss" />
+            <token id="23" string="the" />
+            <token id="24" string="international" />
+            <token id="25" string="aspects" />
+            <token id="26" string="of" />
+            <token id="27" string="German" />
+            <token id="28" string="unification" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the German states" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="German" />
+            <token id="6" string="states" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">envoys</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">Berlin</governor>
+          <dependent id="2">envoys</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">states</governor>
+          <dependent id="3">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">states</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">states</governor>
+          <dependent id="5">German</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">envoys</governor>
+          <dependent id="6">states</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">states</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">Allies</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="13">Allies</governor>
+          <dependent id="9">four</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Allies</governor>
+          <dependent id="10">World</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Allies</governor>
+          <dependent id="11">War</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="13">Allies</governor>
+          <dependent id="12">II</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">states</governor>
+          <dependent id="13">Allies</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">divided</governor>
+          <dependent id="14">that</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="13">Allies</governor>
+          <dependent id="15">divided</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">divided</governor>
+          <dependent id="16">them</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="20">Berlin</governor>
+          <dependent id="17">were</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Berlin</governor>
+          <dependent id="18">in</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Berlin</governor>
+          <dependent id="19">East</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="20">Berlin</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="22">discuss</governor>
+          <dependent id="21">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="20">Berlin</governor>
+          <dependent id="22">discuss</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">aspects</governor>
+          <dependent id="23">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">aspects</governor>
+          <dependent id="24">international</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">discuss</governor>
+          <dependent id="25">aspects</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">unification</governor>
+          <dependent id="26">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="28">unification</governor>
+          <dependent id="27">German</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">aspects</governor>
+          <dependent id="28">unification</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="four" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="9" string="four" />
+          </tokens>
+        </entity>
+        <entity id="2" string="German" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="5" string="German" />
+          </tokens>
+        </entity>
+        <entity id="3" string="World War II Allies" type="MISC" score="0.0">
+          <tokens>
+            <token id="10" string="World" />
+            <token id="11" string="War" />
+            <token id="12" string="II" />
+            <token id="13" string="Allies" />
+          </tokens>
+        </entity>
+        <entity id="4" string="East Berlin" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="19" string="East" />
+            <token id="20" string="Berlin" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>Since East Germany overthrew its Communist government last fall and the German borders were opened, Checkpoint Charlie has become as superfluous as the crumbling Berlin Wall.</content>
+      <tokens>
+        <token id="1" string="Since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="East" lemma="East" stem="east" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="3" string="Germany" lemma="Germany" stem="germani" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="4" string="overthrew" lemma="overthrow" stem="overthrew" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="its" lemma="its" stem="it" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Communist" lemma="communist" stem="communist" pos="JJ" type="Word" isStopWord="false" ner="IDEOLOGY" is_referenced="false" is_refers="false" />
+        <token id="7" string="government" lemma="government" stem="govern" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="last" lemma="last" stem="last" pos="JJ" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="9" string="fall" lemma="fall" stem="fall" pos="NN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="German" lemma="german" stem="german" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="13" string="borders" lemma="border" stem="border" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="opened" lemma="open" stem="open" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Checkpoint" lemma="Checkpoint" stem="checkpoint" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="Charlie" lemma="Charlie" stem="charli" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="19" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="become" lemma="become" stem="becom" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="superfluous" lemma="superfluous" stem="superflu" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="25" string="crumbling" lemma="crumble" stem="crumbl" pos="VBG" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="26" string="Berlin" lemma="Berlin" stem="berlin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="27" string="Wall" lemma="Wall" stem="wall" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="28" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (SBAR (IN Since) (S (S (NP (NNP East) (NNP Germany)) (VP (VBD overthrew) (NP (PRP$ its) (JJ Communist) (NN government)) (NP-TMP (JJ last) (NN fall)))) (CC and) (S (NP (DT the) (JJ German) (NNS borders)) (VP (VBD were) (VP (VBN opened)))))) (, ,) (NP (NNP Checkpoint) (NNP Charlie)) (VP (VBZ has) (VP (VBN become) (PP (IN as) (ADJP (JJ superfluous))) (PP (IN as) (NP (DT the) (VBG crumbling) (NNP Berlin) (NNP Wall))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the German borders" type="NP">
+          <tokens>
+            <token id="11" string="the" />
+            <token id="12" string="German" />
+            <token id="13" string="borders" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="East Germany" type="NP">
+          <tokens>
+            <token id="2" string="East" />
+            <token id="3" string="Germany" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="overthrew its Communist government last fall" type="VP">
+          <tokens>
+            <token id="4" string="overthrew" />
+            <token id="5" string="its" />
+            <token id="6" string="Communist" />
+            <token id="7" string="government" />
+            <token id="8" string="last" />
+            <token id="9" string="fall" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="were opened" type="VP">
+          <tokens>
+            <token id="14" string="were" />
+            <token id="15" string="opened" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Checkpoint Charlie" type="NP">
+          <tokens>
+            <token id="17" string="Checkpoint" />
+            <token id="18" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="has become as superfluous as the crumbling Berlin Wall" type="VP">
+          <tokens>
+            <token id="19" string="has" />
+            <token id="20" string="become" />
+            <token id="21" string="as" />
+            <token id="22" string="superfluous" />
+            <token id="23" string="as" />
+            <token id="24" string="the" />
+            <token id="25" string="crumbling" />
+            <token id="26" string="Berlin" />
+            <token id="27" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="become as superfluous as the crumbling Berlin Wall" type="VP">
+          <tokens>
+            <token id="20" string="become" />
+            <token id="21" string="as" />
+            <token id="22" string="superfluous" />
+            <token id="23" string="as" />
+            <token id="24" string="the" />
+            <token id="25" string="crumbling" />
+            <token id="26" string="Berlin" />
+            <token id="27" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the crumbling Berlin Wall" type="NP">
+          <tokens>
+            <token id="24" string="the" />
+            <token id="25" string="crumbling" />
+            <token id="26" string="Berlin" />
+            <token id="27" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="superfluous" type="ADJP">
+          <tokens>
+            <token id="22" string="superfluous" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="its Communist government" type="NP">
+          <tokens>
+            <token id="5" string="its" />
+            <token id="6" string="Communist" />
+            <token id="7" string="government" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="opened" type="VP">
+          <tokens>
+            <token id="15" string="opened" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Since East Germany overthrew its Communist government last fall and the German borders were opened" type="SBAR">
+          <tokens>
+            <token id="1" string="Since" />
+            <token id="2" string="East" />
+            <token id="3" string="Germany" />
+            <token id="4" string="overthrew" />
+            <token id="5" string="its" />
+            <token id="6" string="Communist" />
+            <token id="7" string="government" />
+            <token id="8" string="last" />
+            <token id="9" string="fall" />
+            <token id="10" string="and" />
+            <token id="11" string="the" />
+            <token id="12" string="German" />
+            <token id="13" string="borders" />
+            <token id="14" string="were" />
+            <token id="15" string="opened" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="mark">
+          <governor id="4">overthrew</governor>
+          <dependent id="1">Since</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Germany</governor>
+          <dependent id="2">East</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">overthrew</governor>
+          <dependent id="3">Germany</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="20">become</governor>
+          <dependent id="4">overthrew</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="7">government</governor>
+          <dependent id="5">its</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="7">government</governor>
+          <dependent id="6">Communist</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">overthrew</governor>
+          <dependent id="7">government</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="9">fall</governor>
+          <dependent id="8">last</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="4">overthrew</governor>
+          <dependent id="9">fall</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="4">overthrew</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">borders</governor>
+          <dependent id="11">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="13">borders</governor>
+          <dependent id="12">German</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="15">opened</governor>
+          <dependent id="13">borders</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="15">opened</governor>
+          <dependent id="14">were</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="4">overthrew</governor>
+          <dependent id="15">opened</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="18">Charlie</governor>
+          <dependent id="17">Checkpoint</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">become</governor>
+          <dependent id="18">Charlie</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="20">become</governor>
+          <dependent id="19">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="20">become</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="22">superfluous</governor>
+          <dependent id="21">as</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="20">become</governor>
+          <dependent id="22">superfluous</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">Wall</governor>
+          <dependent id="23">as</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">Wall</governor>
+          <dependent id="24">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">Wall</governor>
+          <dependent id="25">crumbling</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">Wall</governor>
+          <dependent id="26">Berlin</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">become</governor>
+          <dependent id="27">Wall</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Berlin Wall" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Berlin" />
+            <token id="27" string="Wall" />
+          </tokens>
+        </entity>
+        <entity id="2" string="East Germany" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="2" string="East" />
+            <token id="3" string="Germany" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Communist" type="IDEOLOGY" score="0.0">
+          <tokens>
+            <token id="6" string="Communist" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Charlie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="18" string="Charlie" />
+          </tokens>
+        </entity>
+        <entity id="5" string="last fall" type="DATE" score="0.0">
+          <tokens>
+            <token id="8" string="last" />
+            <token id="9" string="fall" />
+          </tokens>
+        </entity>
+        <entity id="6" string="German" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="12" string="German" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>With huge sections of the Berlin Wall being ripped down daily, U.S. officials decided two weeks ago to remove Checkpoint Charlie.</content>
+      <tokens>
+        <token id="1" string="With" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="huge" lemma="huge" stem="huge" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="sections" lemma="section" stem="section" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="Berlin" lemma="Berlin" stem="berlin" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="7" string="Wall" lemma="Wall" stem="wall" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="8" string="being" lemma="be" stem="be" pos="VBG" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="ripped" lemma="rip" stem="rip" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="down" lemma="down" stem="down" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="daily" lemma="daily" stem="daili" pos="RB" type="Word" isStopWord="false" ner="SET" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="U.S." lemma="U.S." stem="u.s." pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="14" string="officials" lemma="official" stem="offici" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="decided" lemma="decide" stem="decid" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="two" lemma="two" stem="two" pos="CD" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="weeks" lemma="week" stem="week" pos="NNS" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="18" string="ago" lemma="ago" stem="ago" pos="IN" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="19" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="remove" lemma="remove" stem="remov" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="Checkpoint" lemma="Checkpoint" stem="checkpoint" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="Charlie" lemma="Charlie" stem="charli" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN With) (NP (NP (JJ huge) (NNS sections)) (PP (IN of) (NP (NP (DT the) (NNP Berlin) (NNP Wall)) (VP (VBG being) (VP (VBN ripped) (ADVP (IN down) (RB daily)))))))) (, ,) (NP (NNP U.S.) (NNS officials)) (VP (VBD decided) (ADVP (NP (CD two) (NNS weeks)) (IN ago)) (S (VP (TO to) (VP (VB remove) (NP (NNP Checkpoint) (NNP Charlie)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="two weeks" type="NP">
+          <tokens>
+            <token id="16" string="two" />
+            <token id="17" string="weeks" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Checkpoint Charlie" type="NP">
+          <tokens>
+            <token id="21" string="Checkpoint" />
+            <token id="22" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="huge sections" type="NP">
+          <tokens>
+            <token id="2" string="huge" />
+            <token id="3" string="sections" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the Berlin Wall being ripped down daily" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="Berlin" />
+            <token id="7" string="Wall" />
+            <token id="8" string="being" />
+            <token id="9" string="ripped" />
+            <token id="10" string="down" />
+            <token id="11" string="daily" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="U.S. officials" type="NP">
+          <tokens>
+            <token id="13" string="U.S." />
+            <token id="14" string="officials" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="to remove Checkpoint Charlie" type="VP">
+          <tokens>
+            <token id="19" string="to" />
+            <token id="20" string="remove" />
+            <token id="21" string="Checkpoint" />
+            <token id="22" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="being ripped down daily" type="VP">
+          <tokens>
+            <token id="8" string="being" />
+            <token id="9" string="ripped" />
+            <token id="10" string="down" />
+            <token id="11" string="daily" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the Berlin Wall" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="Berlin" />
+            <token id="7" string="Wall" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="decided two weeks ago to remove Checkpoint Charlie" type="VP">
+          <tokens>
+            <token id="15" string="decided" />
+            <token id="16" string="two" />
+            <token id="17" string="weeks" />
+            <token id="18" string="ago" />
+            <token id="19" string="to" />
+            <token id="20" string="remove" />
+            <token id="21" string="Checkpoint" />
+            <token id="22" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="remove Checkpoint Charlie" type="VP">
+          <tokens>
+            <token id="20" string="remove" />
+            <token id="21" string="Checkpoint" />
+            <token id="22" string="Charlie" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="huge sections of the Berlin Wall being ripped down daily" type="NP">
+          <tokens>
+            <token id="2" string="huge" />
+            <token id="3" string="sections" />
+            <token id="4" string="of" />
+            <token id="5" string="the" />
+            <token id="6" string="Berlin" />
+            <token id="7" string="Wall" />
+            <token id="8" string="being" />
+            <token id="9" string="ripped" />
+            <token id="10" string="down" />
+            <token id="11" string="daily" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="ripped down daily" type="VP">
+          <tokens>
+            <token id="9" string="ripped" />
+            <token id="10" string="down" />
+            <token id="11" string="daily" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">sections</governor>
+          <dependent id="1">With</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="3">sections</governor>
+          <dependent id="2">huge</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="15">decided</governor>
+          <dependent id="3">sections</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Wall</governor>
+          <dependent id="4">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="7">Wall</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">Wall</governor>
+          <dependent id="6">Berlin</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">sections</governor>
+          <dependent id="7">Wall</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">ripped</governor>
+          <dependent id="8">being</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="7">Wall</governor>
+          <dependent id="9">ripped</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">daily</governor>
+          <dependent id="10">down</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">ripped</governor>
+          <dependent id="11">daily</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">officials</governor>
+          <dependent id="13">U.S.</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="15">decided</governor>
+          <dependent id="14">officials</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="15">decided</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="17">weeks</governor>
+          <dependent id="16">two</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">decided</governor>
+          <dependent id="17">weeks</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">weeks</governor>
+          <dependent id="18">ago</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="20">remove</governor>
+          <dependent id="19">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="15">decided</governor>
+          <dependent id="20">remove</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="22">Charlie</governor>
+          <dependent id="21">Checkpoint</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">remove</governor>
+          <dependent id="22">Charlie</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Berlin Wall" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="6" string="Berlin" />
+            <token id="7" string="Wall" />
+          </tokens>
+        </entity>
+        <entity id="2" string="two weeks ago" type="DATE" score="0.0">
+          <tokens>
+            <token id="16" string="two" />
+            <token id="17" string="weeks" />
+            <token id="18" string="ago" />
+          </tokens>
+        </entity>
+        <entity id="3" string="U.S." type="LOCATION" score="0.0">
+          <tokens>
+            <token id="13" string="U.S." />
+          </tokens>
+        </entity>
+        <entity id="4" string="Charlie" type="PERSON" score="0.0">
+          <tokens>
+            <token id="22" string="Charlie" />
+          </tokens>
+        </entity>
+        <entity id="5" string="daily" type="SET" score="0.0">
+          <tokens>
+            <token id="11" string="daily" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>The border crossing was the scene of stirring escapes and heartbreaking captures as East Germans tried flee to the West, breaking through East German control stations just 20 yards away from the Allied checkpoint.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="border" lemma="border" stem="border" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="3" string="crossing" lemma="cross" stem="cross" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="6" string="scene" lemma="scene" stem="scene" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="8" string="stirring" lemma="stir" stem="stir" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="9" string="escapes" lemma="escape" stem="escap" pos="VBZ" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="heartbreaking" lemma="heartbreaking" stem="heartbreak" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="captures" lemma="capture" stem="captur" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="East" lemma="east" stem="east" pos="NNS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="15" string="Germans" lemma="german" stem="german" pos="NNS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="16" string="tried" lemma="try" stem="tri" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="flee" lemma="flee" stem="flee" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="West" lemma="West" stem="west" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="breaking" lemma="break" stem="break" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="East" lemma="east" stem="east" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="German" lemma="german" stem="german" pos="JJ" type="Word" isStopWord="false" ner="NATIONALITY" is_referenced="false" is_refers="false" />
+        <token id="26" string="control" lemma="control" stem="control" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="stations" lemma="station" stem="station" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="just" lemma="just" stem="just" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="20" lemma="20" stem="20" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="30" string="yards" lemma="yard" stem="yard" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="away" lemma="away" stem="awai" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="Allied" lemma="Allied" stem="alli" pos="NNP" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="35" string="checkpoint" lemma="checkpoint" stem="checkpoint" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT The) (NN border)) (VP (VBG crossing))) (VP (VBD was) (NP (NP (DT the) (NN scene)) (PP (IN of) (S (VP (VBG stirring) (VP (VBZ escapes)))))))) (CC and) (S (NP (NP (JJ heartbreaking) (NNS captures)) (SBAR (IN as) (S (NP (NNS East) (NNS Germans)) (VP (VBD tried))))) (VP (VBP flee) (PP (TO to) (NP (DT the) (NNP West))) (, ,) (S (VP (VBG breaking) (PP (IN through) (NP (ADJP (JJ East) (JJ German)) (NN control) (NNS stations))) (NP (NP (QP (RB just) (CD 20)) (NNS yards)) (ADVP (RB away) (PP (IN from) (NP (DT the) (NNP Allied) (NN checkpoint))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="escapes" type="VP">
+          <tokens>
+            <token id="9" string="escapes" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="was the scene of stirring escapes" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="the" />
+            <token id="6" string="scene" />
+            <token id="7" string="of" />
+            <token id="8" string="stirring" />
+            <token id="9" string="escapes" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="the West" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="West" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="as East Germans tried" type="SBAR">
+          <tokens>
+            <token id="13" string="as" />
+            <token id="14" string="East" />
+            <token id="15" string="Germans" />
+            <token id="16" string="tried" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="The border" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="border" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="flee to the West , breaking through East German control stations just 20 yards away from the Allied checkpoint" type="VP">
+          <tokens>
+            <token id="17" string="flee" />
+            <token id="18" string="to" />
+            <token id="19" string="the" />
+            <token id="20" string="West" />
+            <token id="21" string="," />
+            <token id="22" string="breaking" />
+            <token id="23" string="through" />
+            <token id="24" string="East" />
+            <token id="25" string="German" />
+            <token id="26" string="control" />
+            <token id="27" string="stations" />
+            <token id="28" string="just" />
+            <token id="29" string="20" />
+            <token id="30" string="yards" />
+            <token id="31" string="away" />
+            <token id="32" string="from" />
+            <token id="33" string="the" />
+            <token id="34" string="Allied" />
+            <token id="35" string="checkpoint" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the scene" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="scene" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="crossing" type="VP">
+          <tokens>
+            <token id="3" string="crossing" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="just 20 yards away from the Allied checkpoint" type="NP">
+          <tokens>
+            <token id="28" string="just" />
+            <token id="29" string="20" />
+            <token id="30" string="yards" />
+            <token id="31" string="away" />
+            <token id="32" string="from" />
+            <token id="33" string="the" />
+            <token id="34" string="Allied" />
+            <token id="35" string="checkpoint" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="just 20 yards" type="NP">
+          <tokens>
+            <token id="28" string="just" />
+            <token id="29" string="20" />
+            <token id="30" string="yards" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="tried" type="VP">
+          <tokens>
+            <token id="16" string="tried" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="heartbreaking captures as East Germans tried" type="NP">
+          <tokens>
+            <token id="11" string="heartbreaking" />
+            <token id="12" string="captures" />
+            <token id="13" string="as" />
+            <token id="14" string="East" />
+            <token id="15" string="Germans" />
+            <token id="16" string="tried" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the scene of stirring escapes" type="NP">
+          <tokens>
+            <token id="5" string="the" />
+            <token id="6" string="scene" />
+            <token id="7" string="of" />
+            <token id="8" string="stirring" />
+            <token id="9" string="escapes" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="heartbreaking captures" type="NP">
+          <tokens>
+            <token id="11" string="heartbreaking" />
+            <token id="12" string="captures" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="East Germans" type="NP">
+          <tokens>
+            <token id="14" string="East" />
+            <token id="15" string="Germans" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="stirring escapes" type="VP">
+          <tokens>
+            <token id="8" string="stirring" />
+            <token id="9" string="escapes" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="The border crossing" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="border" />
+            <token id="3" string="crossing" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="breaking through East German control stations just 20 yards away from the Allied checkpoint" type="VP">
+          <tokens>
+            <token id="22" string="breaking" />
+            <token id="23" string="through" />
+            <token id="24" string="East" />
+            <token id="25" string="German" />
+            <token id="26" string="control" />
+            <token id="27" string="stations" />
+            <token id="28" string="just" />
+            <token id="29" string="20" />
+            <token id="30" string="yards" />
+            <token id="31" string="away" />
+            <token id="32" string="from" />
+            <token id="33" string="the" />
+            <token id="34" string="Allied" />
+            <token id="35" string="checkpoint" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="East German control stations" type="NP">
+          <tokens>
+            <token id="24" string="East" />
+            <token id="25" string="German" />
+            <token id="26" string="control" />
+            <token id="27" string="stations" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="East German" type="ADJP">
+          <tokens>
+            <token id="24" string="East" />
+            <token id="25" string="German" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="the Allied checkpoint" type="NP">
+          <tokens>
+            <token id="33" string="the" />
+            <token id="34" string="Allied" />
+            <token id="35" string="checkpoint" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">border</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">scene</governor>
+          <dependent id="2">border</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">border</governor>
+          <dependent id="3">crossing</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">scene</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">scene</governor>
+          <dependent id="5">the</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">scene</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="8">stirring</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="6">scene</governor>
+          <dependent id="8">stirring</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">stirring</governor>
+          <dependent id="9">escapes</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="6">scene</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">captures</governor>
+          <dependent id="11">heartbreaking</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="17">flee</governor>
+          <dependent id="12">captures</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">tried</governor>
+          <dependent id="13">as</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Germans</governor>
+          <dependent id="14">East</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">tried</governor>
+          <dependent id="15">Germans</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="12">captures</governor>
+          <dependent id="16">tried</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="6">scene</governor>
+          <dependent id="17">flee</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">West</governor>
+          <dependent id="18">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">West</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">flee</governor>
+          <dependent id="20">West</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="17">flee</governor>
+          <dependent id="22">breaking</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">stations</governor>
+          <dependent id="23">through</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">German</governor>
+          <dependent id="24">East</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="27">stations</governor>
+          <dependent id="25">German</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="27">stations</governor>
+          <dependent id="26">control</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="22">breaking</governor>
+          <dependent id="27">stations</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="29">20</governor>
+          <dependent id="28">just</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="30">yards</governor>
+          <dependent id="29">20</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="22">breaking</governor>
+          <dependent id="30">yards</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="35">checkpoint</governor>
+          <dependent id="31">away</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="31">away</governor>
+          <dependent id="32">from</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">checkpoint</governor>
+          <dependent id="33">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="35">checkpoint</governor>
+          <dependent id="34">Allied</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="30">yards</governor>
+          <dependent id="35">checkpoint</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="East Germans" type="MISC" score="0.0">
+          <tokens>
+            <token id="14" string="East" />
+            <token id="15" string="Germans" />
+          </tokens>
+        </entity>
+        <entity id="2" string="West" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="West" />
+          </tokens>
+        </entity>
+        <entity id="3" string="German" type="NATIONALITY" score="0.0">
+          <tokens>
+            <token id="25" string="German" />
+          </tokens>
+        </entity>
+        <entity id="4" string="Allied" type="MISC" score="0.0">
+          <tokens>
+            <token id="34" string="Allied" />
+          </tokens>
+        </entity>
+        <entity id="5" string="20" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="29" string="20" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>East Germans once manned their side of the checkpoint with emotionless effiency, closely scrutinizing travel documents and creating a palpable tension.</content>
+      <tokens>
+        <token id="1" string="East" lemma="east" stem="east" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="Germans" lemma="german" stem="german" pos="NNS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="3" string="once" lemma="once" stem="onc" pos="RB" type="Word" isStopWord="true" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="4" string="manned" lemma="man" stem="man" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="true" is_refers="true" />
+        <token id="6" string="side" lemma="side" stem="side" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="9" string="checkpoint" lemma="checkpoint" stem="checkpoint" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="11" string="emotionless" lemma="emotionless" stem="emotionless" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="12" string="effiency" lemma="effiency" stem="effienc" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="13" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="closely" lemma="closely" stem="close" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="scrutinizing" lemma="scrutinize" stem="scrutin" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="travel" lemma="travel" stem="travel" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="documents" lemma="document" stem="document" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="creating" lemma="create" stem="creat" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="palpable" lemma="palpable" stem="palpabl" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="tension" lemma="tension" stem="tension" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNS East) (NNS Germans)) (ADVP (RB once)) (VP (VBD manned) (NP (NP (PRP$ their) (NN side)) (PP (IN of) (NP (NP (DT the) (NN checkpoint)) (PP (IN with) (NP (JJ emotionless) (NN effiency)))))) (, ,) (S (ADVP (RB closely)) (VP (VP (VBG scrutinizing) (NP (NN travel) (NNS documents))) (CC and) (VP (VBG creating) (NP (DT a) (JJ palpable) (NN tension)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="emotionless effiency" type="NP">
+          <tokens>
+            <token id="11" string="emotionless" />
+            <token id="12" string="effiency" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the checkpoint with emotionless effiency" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="checkpoint" />
+            <token id="10" string="with" />
+            <token id="11" string="emotionless" />
+            <token id="12" string="effiency" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="creating a palpable tension" type="VP">
+          <tokens>
+            <token id="19" string="creating" />
+            <token id="20" string="a" />
+            <token id="21" string="palpable" />
+            <token id="22" string="tension" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="East Germans" type="NP">
+          <tokens>
+            <token id="1" string="East" />
+            <token id="2" string="Germans" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="their side of the checkpoint with emotionless effiency" type="NP">
+          <tokens>
+            <token id="5" string="their" />
+            <token id="6" string="side" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="checkpoint" />
+            <token id="10" string="with" />
+            <token id="11" string="emotionless" />
+            <token id="12" string="effiency" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="their side" type="NP">
+          <tokens>
+            <token id="5" string="their" />
+            <token id="6" string="side" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a palpable tension" type="NP">
+          <tokens>
+            <token id="20" string="a" />
+            <token id="21" string="palpable" />
+            <token id="22" string="tension" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the checkpoint" type="NP">
+          <tokens>
+            <token id="8" string="the" />
+            <token id="9" string="checkpoint" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="travel documents" type="NP">
+          <tokens>
+            <token id="16" string="travel" />
+            <token id="17" string="documents" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="manned their side of the checkpoint with emotionless effiency , closely scrutinizing travel documents and creating a palpable tension" type="VP">
+          <tokens>
+            <token id="4" string="manned" />
+            <token id="5" string="their" />
+            <token id="6" string="side" />
+            <token id="7" string="of" />
+            <token id="8" string="the" />
+            <token id="9" string="checkpoint" />
+            <token id="10" string="with" />
+            <token id="11" string="emotionless" />
+            <token id="12" string="effiency" />
+            <token id="13" string="," />
+            <token id="14" string="closely" />
+            <token id="15" string="scrutinizing" />
+            <token id="16" string="travel" />
+            <token id="17" string="documents" />
+            <token id="18" string="and" />
+            <token id="19" string="creating" />
+            <token id="20" string="a" />
+            <token id="21" string="palpable" />
+            <token id="22" string="tension" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="scrutinizing travel documents and creating a palpable tension" type="VP">
+          <tokens>
+            <token id="15" string="scrutinizing" />
+            <token id="16" string="travel" />
+            <token id="17" string="documents" />
+            <token id="18" string="and" />
+            <token id="19" string="creating" />
+            <token id="20" string="a" />
+            <token id="21" string="palpable" />
+            <token id="22" string="tension" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="scrutinizing travel documents" type="VP">
+          <tokens>
+            <token id="15" string="scrutinizing" />
+            <token id="16" string="travel" />
+            <token id="17" string="documents" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">Germans</governor>
+          <dependent id="1">East</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">manned</governor>
+          <dependent id="2">Germans</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="4">manned</governor>
+          <dependent id="3">once</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">manned</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="6">side</governor>
+          <dependent id="5">their</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="4">manned</governor>
+          <dependent id="6">side</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">checkpoint</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">checkpoint</governor>
+          <dependent id="8">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">side</governor>
+          <dependent id="9">checkpoint</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">effiency</governor>
+          <dependent id="10">with</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="12">effiency</governor>
+          <dependent id="11">emotionless</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">checkpoint</governor>
+          <dependent id="12">effiency</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="15">scrutinizing</governor>
+          <dependent id="14">closely</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="4">manned</governor>
+          <dependent id="15">scrutinizing</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="17">documents</governor>
+          <dependent id="16">travel</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="15">scrutinizing</governor>
+          <dependent id="17">documents</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="15">scrutinizing</governor>
+          <dependent id="18">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">scrutinizing</governor>
+          <dependent id="19">creating</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">tension</governor>
+          <dependent id="20">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">tension</governor>
+          <dependent id="21">palpable</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="19">creating</governor>
+          <dependent id="22">tension</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Germans" type="MISC" score="0.0">
+          <tokens>
+            <token id="2" string="Germans" />
+          </tokens>
+        </entity>
+        <entity id="2" string="once" type="DATE" score="0.0">
+          <tokens>
+            <token id="3" string="once" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="11" has_coreference="true">
+      <content>Thursday night, they merely waved Westerners through their side of the checkpoint, although some tourists demanded their documents be checked.</content>
+      <tokens>
+        <token id="1" string="Thursday" lemma="Thursday" stem="thursdai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="2" string="night" lemma="night" stem="night" pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="they" lemma="they" stem="thei" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="merely" lemma="merely" stem="mere" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="waved" lemma="wave" stem="wave" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="Westerners" lemma="Westerners" stem="western" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="8" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="10" string="side" lemma="side" stem="side" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="11" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="12" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="checkpoint" lemma="checkpoint" stem="checkpoint" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="14" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="although" lemma="although" stem="although" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="some" lemma="some" stem="some" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="17" string="tourists" lemma="tourist" stem="tourist" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="18" string="demanded" lemma="demand" stem="demand" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="documents" lemma="document" stem="document" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="21" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="checked" lemma="check" stem="check" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP-TMP (NNP Thursday) (NN night)) (, ,) (NP (PRP they)) (ADVP (RB merely)) (VP (VBD waved) (NP (NNPS Westerners)) (PP (IN through) (NP (NP (PRP$ their) (NN side)) (PP (IN of) (NP (DT the) (NN checkpoint))))) (, ,) (SBAR (IN although) (S (NP (DT some) (NNS tourists)) (VP (VBD demanded) (S (NP (PRP$ their) (NNS documents)) (VP (VB be) (VP (VBN checked)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="they" type="NP">
+          <tokens>
+            <token id="4" string="they" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Westerners" type="NP">
+          <tokens>
+            <token id="7" string="Westerners" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="demanded their documents be checked" type="VP">
+          <tokens>
+            <token id="18" string="demanded" />
+            <token id="19" string="their" />
+            <token id="20" string="documents" />
+            <token id="21" string="be" />
+            <token id="22" string="checked" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="their side" type="NP">
+          <tokens>
+            <token id="9" string="their" />
+            <token id="10" string="side" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="their documents" type="NP">
+          <tokens>
+            <token id="19" string="their" />
+            <token id="20" string="documents" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="although some tourists demanded their documents be checked" type="SBAR">
+          <tokens>
+            <token id="15" string="although" />
+            <token id="16" string="some" />
+            <token id="17" string="tourists" />
+            <token id="18" string="demanded" />
+            <token id="19" string="their" />
+            <token id="20" string="documents" />
+            <token id="21" string="be" />
+            <token id="22" string="checked" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the checkpoint" type="NP">
+          <tokens>
+            <token id="12" string="the" />
+            <token id="13" string="checkpoint" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="be checked" type="VP">
+          <tokens>
+            <token id="21" string="be" />
+            <token id="22" string="checked" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="checked" type="VP">
+          <tokens>
+            <token id="22" string="checked" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="waved Westerners through their side of the checkpoint , although some tourists demanded their documents be checked" type="VP">
+          <tokens>
+            <token id="6" string="waved" />
+            <token id="7" string="Westerners" />
+            <token id="8" string="through" />
+            <token id="9" string="their" />
+            <token id="10" string="side" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="checkpoint" />
+            <token id="14" string="," />
+            <token id="15" string="although" />
+            <token id="16" string="some" />
+            <token id="17" string="tourists" />
+            <token id="18" string="demanded" />
+            <token id="19" string="their" />
+            <token id="20" string="documents" />
+            <token id="21" string="be" />
+            <token id="22" string="checked" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="some tourists" type="NP">
+          <tokens>
+            <token id="16" string="some" />
+            <token id="17" string="tourists" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="their side of the checkpoint" type="NP">
+          <tokens>
+            <token id="9" string="their" />
+            <token id="10" string="side" />
+            <token id="11" string="of" />
+            <token id="12" string="the" />
+            <token id="13" string="checkpoint" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">night</governor>
+          <dependent id="1">Thursday</dependent>
+        </dependency>
+        <dependency type="nmod:tmod">
+          <governor id="6">waved</governor>
+          <dependent id="2">night</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="6">waved</governor>
+          <dependent id="4">they</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">waved</governor>
+          <dependent id="5">merely</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">waved</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">waved</governor>
+          <dependent id="7">Westerners</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">side</governor>
+          <dependent id="8">through</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="10">side</governor>
+          <dependent id="9">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">waved</governor>
+          <dependent id="10">side</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">checkpoint</governor>
+          <dependent id="11">of</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">checkpoint</governor>
+          <dependent id="12">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">side</governor>
+          <dependent id="13">checkpoint</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="18">demanded</governor>
+          <dependent id="15">although</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">tourists</governor>
+          <dependent id="16">some</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="18">demanded</governor>
+          <dependent id="17">tourists</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">waved</governor>
+          <dependent id="18">demanded</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="20">documents</governor>
+          <dependent id="19">their</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="22">checked</governor>
+          <dependent id="20">documents</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="22">checked</governor>
+          <dependent id="21">be</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="18">demanded</governor>
+          <dependent id="22">checked</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Westerners" type="MISC" score="0.0">
+          <tokens>
+            <token id="7" string="Westerners" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Thursday" type="DATE" score="0.0">
+          <tokens>
+            <token id="1" string="Thursday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="night" type="TIME" score="0.0">
+          <tokens>
+            <token id="2" string="night" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="24-25-26-27" string="the crumbling Berlin Wall" id_sentence="7" />
+      <mentions>
+        <mention ids_tokens="11-12" string="Berlin Wall" id_sentence="1" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8-9-10-11-12" string="the famed Allied border crossing by the Berlin Wall" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="1-3" string="The border crossing" id_sentence="9" />
+        <mention ids_tokens="5-9" string="the scene of stirring escapes" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="6" type="PROPER">
+      <referenced ids_tokens="1-2-3-4-5" string="U.S. Army Sgt. Lorn Walsh" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="24" string="Walsh" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="26" string="23" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="36" string="You" id_sentence="4" />
+      </mentions>
+    </coreference>
+    <coreference id="9" type="PRONOMINAL">
+      <referenced ids_tokens="17" string="they" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="15" string="their" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="11" type="LIST">
+      <referenced ids_tokens="3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24" string="State James A. Baker III , Soviet Foreign Minister Eduard Shevardnadze and their colleagues from France , Britain and the two Germanys" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="16" string="them" id_sentence="6" />
+      </mentions>
+    </coreference>
+    <coreference id="12" type="NOMINAL">
+      <referenced ids_tokens="32-33-34" string="the checkpoint 's" id_sentence="5" />
+      <mentions>
+        <mention ids_tokens="12-13" string="the checkpoint" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="14" type="NOMINAL">
+      <referenced ids_tokens="13-14" string="U.S. officials" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="5" string="their" id_sentence="10" />
+        <mention ids_tokens="4" string="they" id_sentence="11" />
+        <mention ids_tokens="9" string="their" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="15" type="NOMINAL">
+      <referenced ids_tokens="5-6-7-8-9-10-11-12" string="their side of the checkpoint with emotionless effiency" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="9-13" string="their side of the checkpoint" id_sentence="11" />
+      </mentions>
+    </coreference>
+    <coreference id="16" type="NOMINAL">
+      <referenced ids_tokens="16-17" string="travel documents" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="19-20" string="their documents" id_sentence="11" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

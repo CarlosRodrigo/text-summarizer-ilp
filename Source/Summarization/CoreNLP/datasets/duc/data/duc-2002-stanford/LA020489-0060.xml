@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="LA020489-0060">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>More than 2,500 dogs, representing 138 breeds, will compete for prizes at Sunday&amp;apost;s All Breed Dog Show and Obedience Trials at the Los Angeles Sports Arena.</content>
+      <tokens>
+        <token id="1" string="More" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="3" string="2,500" lemma="2,500" stem="2,500" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="4" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="representing" lemma="represent" stem="repres" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="138" lemma="138" stem="138" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="8" string="breeds" lemma="breed" stem="breed" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="compete" lemma="compete" stem="compet" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="prizes" lemma="prize" stem="prize" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="Sunday" lemma="Sunday" stem="sundai" pos="NNP" type="Word" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="16" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="All" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="Breed" lemma="Breed" stem="breed" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="Dog" lemma="Dog" stem="dog" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="Show" lemma="Show" stem="show" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="Obedience" lemma="obedience" stem="obedienc" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="Trials" lemma="trial" stem="trial" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="at" lemma="at" stem="at" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="Los" lemma="Los" stem="lo" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="27" string="Angeles" lemma="Angeles" stem="angele" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="28" string="Sports" lemma="Sports" stem="sport" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="29" string="Arena" lemma="Arena" stem="arena" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="true" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (QP (JJR More) (IN than) (CD 2,500)) (NNS dogs)) (, ,) (VP (VBG representing) (NP (CD 138) (NNS breeds))) (, ,)) (VP (MD will) (VP (VB compete) (PP (IN for) (NP (NP (NNS prizes)) (PP (IN at) (NP (NP (NNP Sunday) (POS 's)) (NP (NP (DT All) (NNP Breed) (NNP Dog) (NNP Show)) (CC and) (NP (NN Obedience) (NNS Trials))))))) (PP (IN at) (NP (DT the) (NNP Los) (NNP Angeles) (NNP Sports) (NNP Arena))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="More than 2,500 dogs , representing 138 breeds ," type="NP">
+          <tokens>
+            <token id="1" string="More" />
+            <token id="2" string="than" />
+            <token id="3" string="2,500" />
+            <token id="4" string="dogs" />
+            <token id="5" string="," />
+            <token id="6" string="representing" />
+            <token id="7" string="138" />
+            <token id="8" string="breeds" />
+            <token id="9" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Obedience Trials" type="NP">
+          <tokens>
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="138 breeds" type="NP">
+          <tokens>
+            <token id="7" string="138" />
+            <token id="8" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Sunday 's" type="NP">
+          <tokens>
+            <token id="15" string="Sunday" />
+            <token id="16" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="All Breed Dog Show and Obedience Trials" type="NP">
+          <tokens>
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+            <token id="21" string="and" />
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="compete for prizes at Sunday 's All Breed Dog Show and Obedience Trials at the Los Angeles Sports Arena" type="VP">
+          <tokens>
+            <token id="11" string="compete" />
+            <token id="12" string="for" />
+            <token id="13" string="prizes" />
+            <token id="14" string="at" />
+            <token id="15" string="Sunday" />
+            <token id="16" string="'s" />
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+            <token id="21" string="and" />
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+            <token id="24" string="at" />
+            <token id="25" string="the" />
+            <token id="26" string="Los" />
+            <token id="27" string="Angeles" />
+            <token id="28" string="Sports" />
+            <token id="29" string="Arena" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="prizes at Sunday 's All Breed Dog Show and Obedience Trials" type="NP">
+          <tokens>
+            <token id="13" string="prizes" />
+            <token id="14" string="at" />
+            <token id="15" string="Sunday" />
+            <token id="16" string="'s" />
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+            <token id="21" string="and" />
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="More than 2,500 dogs" type="NP">
+          <tokens>
+            <token id="1" string="More" />
+            <token id="2" string="than" />
+            <token id="3" string="2,500" />
+            <token id="4" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="prizes" type="NP">
+          <tokens>
+            <token id="13" string="prizes" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Sunday 's All Breed Dog Show and Obedience Trials" type="NP">
+          <tokens>
+            <token id="15" string="Sunday" />
+            <token id="16" string="'s" />
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+            <token id="21" string="and" />
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="representing 138 breeds" type="VP">
+          <tokens>
+            <token id="6" string="representing" />
+            <token id="7" string="138" />
+            <token id="8" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="All Breed Dog Show" type="NP">
+          <tokens>
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the Los Angeles Sports Arena" type="NP">
+          <tokens>
+            <token id="25" string="the" />
+            <token id="26" string="Los" />
+            <token id="27" string="Angeles" />
+            <token id="28" string="Sports" />
+            <token id="29" string="Arena" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="will compete for prizes at Sunday 's All Breed Dog Show and Obedience Trials at the Los Angeles Sports Arena" type="VP">
+          <tokens>
+            <token id="10" string="will" />
+            <token id="11" string="compete" />
+            <token id="12" string="for" />
+            <token id="13" string="prizes" />
+            <token id="14" string="at" />
+            <token id="15" string="Sunday" />
+            <token id="16" string="'s" />
+            <token id="17" string="All" />
+            <token id="18" string="Breed" />
+            <token id="19" string="Dog" />
+            <token id="20" string="Show" />
+            <token id="21" string="and" />
+            <token id="22" string="Obedience" />
+            <token id="23" string="Trials" />
+            <token id="24" string="at" />
+            <token id="25" string="the" />
+            <token id="26" string="Los" />
+            <token id="27" string="Angeles" />
+            <token id="28" string="Sports" />
+            <token id="29" string="Arena" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="3">2,500</governor>
+          <dependent id="1">More</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="1">More</governor>
+          <dependent id="2">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="4">dogs</governor>
+          <dependent id="3">2,500</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="11">compete</governor>
+          <dependent id="4">dogs</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="4">dogs</governor>
+          <dependent id="6">representing</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="8">breeds</governor>
+          <dependent id="7">138</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="6">representing</governor>
+          <dependent id="8">breeds</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">compete</governor>
+          <dependent id="10">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">compete</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="13">prizes</governor>
+          <dependent id="12">for</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">compete</governor>
+          <dependent id="13">prizes</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Sunday</governor>
+          <dependent id="14">at</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">prizes</governor>
+          <dependent id="15">Sunday</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Sunday</governor>
+          <dependent id="16">'s</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">Show</governor>
+          <dependent id="17">All</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Show</governor>
+          <dependent id="18">Breed</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="20">Show</governor>
+          <dependent id="19">Dog</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="15">Sunday</governor>
+          <dependent id="20">Show</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="20">Show</governor>
+          <dependent id="21">and</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="23">Trials</governor>
+          <dependent id="22">Obedience</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="20">Show</governor>
+          <dependent id="23">Trials</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">Arena</governor>
+          <dependent id="24">at</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="29">Arena</governor>
+          <dependent id="25">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">Arena</governor>
+          <dependent id="26">Los</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">Arena</governor>
+          <dependent id="27">Angeles</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="29">Arena</governor>
+          <dependent id="28">Sports</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">compete</governor>
+          <dependent id="29">Arena</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="138" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="7" string="138" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Sunday" type="DATE" score="0.0">
+          <tokens>
+            <token id="15" string="Sunday" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Los Angeles Sports Arena" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="26" string="Los" />
+            <token id="27" string="Angeles" />
+            <token id="28" string="Sports" />
+            <token id="29" string="Arena" />
+          </tokens>
+        </entity>
+        <entity id="4" string="2,500" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="3" string="2,500" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>For families who are thinking about getting a dog, this is a chance to size up the possibilities and talk with pet owners about the advantages and disadvantages of different breeds.</content>
+      <tokens>
+        <token id="1" string="For" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="families" lemma="family" stem="famili" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="thinking" lemma="think" stem="think" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="getting" lemma="get" stem="get" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="dog" lemma="dog" stem="dog" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="14" string="chance" lemma="chance" stem="chanc" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="size" lemma="size" stem="size" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="17" string="up" lemma="up" stem="up" pos="RP" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="19" string="possibilities" lemma="possibility" stem="possibl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="20" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="21" string="talk" lemma="talk" stem="talk" pos="VB" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="22" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="23" string="pet" lemma="pet" stem="pet" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="24" string="owners" lemma="owner" stem="owner" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="25" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="27" string="advantages" lemma="advantage" stem="advantag" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="28" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="29" string="disadvantages" lemma="disadvantage" stem="disadvantag" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="30" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="31" string="different" lemma="different" stem="differ" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="32" string="breeds" lemma="breed" stem="breed" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN For) (NP (NP (NNS families)) (SBAR (WHNP (WP who)) (S (VP (VBP are) (VP (VBG thinking) (PP (IN about) (S (VP (VBG getting) (NP (DT a) (NN dog))))))))))) (, ,) (NP (DT this)) (VP (VBZ is) (NP (DT a) (NN chance) (S (VP (TO to) (VP (VP (VB size) (PRT (RP up)) (NP (DT the) (NNS possibilities))) (CC and) (VP (VB talk) (PP (IN with) (NP (NN pet) (NNS owners))) (PP (IN about) (NP (NP (DT the) (NNS advantages) (CC and) (NNS disadvantages)) (PP (IN of) (NP (JJ different) (NNS breeds))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="who are thinking about getting a dog" type="SBAR">
+          <tokens>
+            <token id="3" string="who" />
+            <token id="4" string="are" />
+            <token id="5" string="thinking" />
+            <token id="6" string="about" />
+            <token id="7" string="getting" />
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="this" type="NP">
+          <tokens>
+            <token id="11" string="this" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="getting a dog" type="VP">
+          <tokens>
+            <token id="7" string="getting" />
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="thinking about getting a dog" type="VP">
+          <tokens>
+            <token id="5" string="thinking" />
+            <token id="6" string="about" />
+            <token id="7" string="getting" />
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="talk with pet owners about the advantages and disadvantages of different breeds" type="VP">
+          <tokens>
+            <token id="21" string="talk" />
+            <token id="22" string="with" />
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+            <token id="25" string="about" />
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="families" type="NP">
+          <tokens>
+            <token id="2" string="families" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the advantages and disadvantages of different breeds" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a chance to size up the possibilities and talk with pet owners about the advantages and disadvantages of different breeds" type="NP">
+          <tokens>
+            <token id="13" string="a" />
+            <token id="14" string="chance" />
+            <token id="15" string="to" />
+            <token id="16" string="size" />
+            <token id="17" string="up" />
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+            <token id="20" string="and" />
+            <token id="21" string="talk" />
+            <token id="22" string="with" />
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+            <token id="25" string="about" />
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="to size up the possibilities and talk with pet owners about the advantages and disadvantages of different breeds" type="VP">
+          <tokens>
+            <token id="15" string="to" />
+            <token id="16" string="size" />
+            <token id="17" string="up" />
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+            <token id="20" string="and" />
+            <token id="21" string="talk" />
+            <token id="22" string="with" />
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+            <token id="25" string="about" />
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="are thinking about getting a dog" type="VP">
+          <tokens>
+            <token id="4" string="are" />
+            <token id="5" string="thinking" />
+            <token id="6" string="about" />
+            <token id="7" string="getting" />
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="the possibilities" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="families who are thinking about getting a dog" type="NP">
+          <tokens>
+            <token id="2" string="families" />
+            <token id="3" string="who" />
+            <token id="4" string="are" />
+            <token id="5" string="thinking" />
+            <token id="6" string="about" />
+            <token id="7" string="getting" />
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="size up the possibilities" type="VP">
+          <tokens>
+            <token id="16" string="size" />
+            <token id="17" string="up" />
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="the advantages and disadvantages" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a dog" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="dog" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="pet owners" type="NP">
+          <tokens>
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="is a chance to size up the possibilities and talk with pet owners about the advantages and disadvantages of different breeds" type="VP">
+          <tokens>
+            <token id="12" string="is" />
+            <token id="13" string="a" />
+            <token id="14" string="chance" />
+            <token id="15" string="to" />
+            <token id="16" string="size" />
+            <token id="17" string="up" />
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+            <token id="20" string="and" />
+            <token id="21" string="talk" />
+            <token id="22" string="with" />
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+            <token id="25" string="about" />
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="size up the possibilities and talk with pet owners about the advantages and disadvantages of different breeds" type="VP">
+          <tokens>
+            <token id="16" string="size" />
+            <token id="17" string="up" />
+            <token id="18" string="the" />
+            <token id="19" string="possibilities" />
+            <token id="20" string="and" />
+            <token id="21" string="talk" />
+            <token id="22" string="with" />
+            <token id="23" string="pet" />
+            <token id="24" string="owners" />
+            <token id="25" string="about" />
+            <token id="26" string="the" />
+            <token id="27" string="advantages" />
+            <token id="28" string="and" />
+            <token id="29" string="disadvantages" />
+            <token id="30" string="of" />
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="different breeds" type="NP">
+          <tokens>
+            <token id="31" string="different" />
+            <token id="32" string="breeds" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">families</governor>
+          <dependent id="1">For</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">chance</governor>
+          <dependent id="2">families</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">thinking</governor>
+          <dependent id="3">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="5">thinking</governor>
+          <dependent id="4">are</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="2">families</governor>
+          <dependent id="5">thinking</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="7">getting</governor>
+          <dependent id="6">about</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="5">thinking</governor>
+          <dependent id="7">getting</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="9">dog</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="7">getting</governor>
+          <dependent id="9">dog</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="14">chance</governor>
+          <dependent id="11">this</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="14">chance</governor>
+          <dependent id="12">is</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">chance</governor>
+          <dependent id="13">a</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">chance</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="16">size</governor>
+          <dependent id="15">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="14">chance</governor>
+          <dependent id="16">size</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="16">size</governor>
+          <dependent id="17">up</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">possibilities</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">size</governor>
+          <dependent id="19">possibilities</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">size</governor>
+          <dependent id="20">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">size</governor>
+          <dependent id="21">talk</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">owners</governor>
+          <dependent id="22">with</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">owners</governor>
+          <dependent id="23">pet</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">talk</governor>
+          <dependent id="24">owners</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">advantages</governor>
+          <dependent id="25">about</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">advantages</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">talk</governor>
+          <dependent id="27">advantages</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="27">advantages</governor>
+          <dependent id="28">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="27">advantages</governor>
+          <dependent id="29">disadvantages</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="32">breeds</governor>
+          <dependent id="30">of</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="32">breeds</governor>
+          <dependent id="31">different</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="27">advantages</governor>
+          <dependent id="32">breeds</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>Around the arena, owners will be busy grooming and cajoling their charges into center-ring readiness.</content>
+      <tokens>
+        <token id="1" string="Around" lemma="around" stem="around" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="3" string="arena" lemma="arena" stem="arena" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="owners" lemma="owner" stem="owner" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="busy" lemma="busy" stem="busi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="grooming" lemma="groom" stem="groom" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="cajoling" lemma="cajole" stem="cajol" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="charges" lemma="charge" stem="charg" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="into" lemma="into" stem="into" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="center-ring" lemma="center-ring" stem="center-r" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="readiness" lemma="readiness" stem="readi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Around) (NP (DT the) (NN arena))) (, ,) (NP (NNS owners)) (VP (MD will) (VP (VB be) (ADJP (JJ busy)) (S (VP (VBG grooming) (CC and) (VBG cajoling) (NP (PRP$ their) (NNS charges)) (PP (IN into) (NP (JJ center-ring) (NN readiness))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="center-ring readiness" type="NP">
+          <tokens>
+            <token id="15" string="center-ring" />
+            <token id="16" string="readiness" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="owners" type="NP">
+          <tokens>
+            <token id="5" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="busy" type="ADJP">
+          <tokens>
+            <token id="8" string="busy" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="be busy grooming and cajoling their charges into center-ring readiness" type="VP">
+          <tokens>
+            <token id="7" string="be" />
+            <token id="8" string="busy" />
+            <token id="9" string="grooming" />
+            <token id="10" string="and" />
+            <token id="11" string="cajoling" />
+            <token id="12" string="their" />
+            <token id="13" string="charges" />
+            <token id="14" string="into" />
+            <token id="15" string="center-ring" />
+            <token id="16" string="readiness" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="their charges" type="NP">
+          <tokens>
+            <token id="12" string="their" />
+            <token id="13" string="charges" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="grooming and cajoling their charges into center-ring readiness" type="VP">
+          <tokens>
+            <token id="9" string="grooming" />
+            <token id="10" string="and" />
+            <token id="11" string="cajoling" />
+            <token id="12" string="their" />
+            <token id="13" string="charges" />
+            <token id="14" string="into" />
+            <token id="15" string="center-ring" />
+            <token id="16" string="readiness" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="will be busy grooming and cajoling their charges into center-ring readiness" type="VP">
+          <tokens>
+            <token id="6" string="will" />
+            <token id="7" string="be" />
+            <token id="8" string="busy" />
+            <token id="9" string="grooming" />
+            <token id="10" string="and" />
+            <token id="11" string="cajoling" />
+            <token id="12" string="their" />
+            <token id="13" string="charges" />
+            <token id="14" string="into" />
+            <token id="15" string="center-ring" />
+            <token id="16" string="readiness" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the arena" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="arena" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="3">arena</governor>
+          <dependent id="1">Around</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="3">arena</governor>
+          <dependent id="2">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">busy</governor>
+          <dependent id="3">arena</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="8">busy</governor>
+          <dependent id="5">owners</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="8">busy</governor>
+          <dependent id="6">will</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="8">busy</governor>
+          <dependent id="7">be</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="8">busy</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="8">busy</governor>
+          <dependent id="9">grooming</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">grooming</governor>
+          <dependent id="10">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">grooming</governor>
+          <dependent id="11">cajoling</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="13">charges</governor>
+          <dependent id="12">their</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="9">grooming</governor>
+          <dependent id="13">charges</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">readiness</governor>
+          <dependent id="14">into</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="16">readiness</governor>
+          <dependent id="15">center-ring</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">grooming</governor>
+          <dependent id="16">readiness</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="4" has_coreference="false">
+      <content>Between judgings, a troupe of Dobermans will jump through hoops and barrels and will scale walls.</content>
+      <tokens>
+        <token id="1" string="Between" lemma="between" stem="between" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="judgings" lemma="judging" stem="judg" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="troupe" lemma="troupe" stem="troup" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Dobermans" lemma="Dobermans" stem="doberman" pos="NNPS" type="Word" isStopWord="false" ner="MISC" is_referenced="false" is_refers="false" />
+        <token id="8" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="jump" lemma="jump" stem="jump" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="through" lemma="through" stem="through" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="hoops" lemma="hoop" stem="hoop" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="barrels" lemma="barrel" stem="barrel" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="scale" lemma="scale" stem="scale" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="walls" lemma="wall" stem="wall" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Between) (NP (NNS judgings))) (, ,) (NP (NP (DT a) (NN troupe)) (PP (IN of) (NP (NNPS Dobermans)))) (VP (VP (MD will) (VP (VB jump) (PP (IN through) (NP (NNS hoops) (CC and) (NNS barrels))))) (CC and) (VP (MD will) (VP (VB scale) (NP (NNS walls))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="will scale walls" type="VP">
+          <tokens>
+            <token id="15" string="will" />
+            <token id="16" string="scale" />
+            <token id="17" string="walls" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a troupe" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="troupe" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="will jump through hoops and barrels" type="VP">
+          <tokens>
+            <token id="8" string="will" />
+            <token id="9" string="jump" />
+            <token id="10" string="through" />
+            <token id="11" string="hoops" />
+            <token id="12" string="and" />
+            <token id="13" string="barrels" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="walls" type="NP">
+          <tokens>
+            <token id="17" string="walls" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="will jump through hoops and barrels and will scale walls" type="VP">
+          <tokens>
+            <token id="8" string="will" />
+            <token id="9" string="jump" />
+            <token id="10" string="through" />
+            <token id="11" string="hoops" />
+            <token id="12" string="and" />
+            <token id="13" string="barrels" />
+            <token id="14" string="and" />
+            <token id="15" string="will" />
+            <token id="16" string="scale" />
+            <token id="17" string="walls" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="hoops and barrels" type="NP">
+          <tokens>
+            <token id="11" string="hoops" />
+            <token id="12" string="and" />
+            <token id="13" string="barrels" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="judgings" type="NP">
+          <tokens>
+            <token id="2" string="judgings" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="Dobermans" type="NP">
+          <tokens>
+            <token id="7" string="Dobermans" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="scale walls" type="VP">
+          <tokens>
+            <token id="16" string="scale" />
+            <token id="17" string="walls" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a troupe of Dobermans" type="NP">
+          <tokens>
+            <token id="4" string="a" />
+            <token id="5" string="troupe" />
+            <token id="6" string="of" />
+            <token id="7" string="Dobermans" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="jump through hoops and barrels" type="VP">
+          <tokens>
+            <token id="9" string="jump" />
+            <token id="10" string="through" />
+            <token id="11" string="hoops" />
+            <token id="12" string="and" />
+            <token id="13" string="barrels" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">judgings</governor>
+          <dependent id="1">Between</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">jump</governor>
+          <dependent id="2">judgings</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">troupe</governor>
+          <dependent id="4">a</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">jump</governor>
+          <dependent id="5">troupe</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="7">Dobermans</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">troupe</governor>
+          <dependent id="7">Dobermans</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">jump</governor>
+          <dependent id="8">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">jump</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">hoops</governor>
+          <dependent id="10">through</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">jump</governor>
+          <dependent id="11">hoops</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="11">hoops</governor>
+          <dependent id="12">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="11">hoops</governor>
+          <dependent id="13">barrels</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="9">jump</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="16">scale</governor>
+          <dependent id="15">will</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="9">jump</governor>
+          <dependent id="16">scale</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">scale</governor>
+          <dependent id="17">walls</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="Dobermans" type="MISC" score="0.0">
+          <tokens>
+            <token id="7" string="Dobermans" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>In the scent relay, teams of dogs will jump over hurdles and locate the jackets of their owners.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="scent" lemma="scent" stem="scent" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="relay" lemma="relay" stem="relai" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="teams" lemma="team" stem="team" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="9" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="jump" lemma="jump" stem="jump" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="hurdles" lemma="hurdle" stem="hurdl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="locate" lemma="locate" stem="locat" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="jackets" lemma="jacket" stem="jacket" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="19" string="owners" lemma="owner" stem="owner" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (DT the) (JJ scent) (NN relay))) (, ,) (NP (NP (NNS teams)) (PP (IN of) (NP (NNS dogs)))) (VP (MD will) (VP (VP (VB jump) (PP (IN over) (NP (NNS hurdles)))) (CC and) (VP (VB locate) (NP (NP (DT the) (NNS jackets)) (PP (IN of) (NP (PRP$ their) (NNS owners))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="jump over hurdles" type="VP">
+          <tokens>
+            <token id="10" string="jump" />
+            <token id="11" string="over" />
+            <token id="12" string="hurdles" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="jump over hurdles and locate the jackets of their owners" type="VP">
+          <tokens>
+            <token id="10" string="jump" />
+            <token id="11" string="over" />
+            <token id="12" string="hurdles" />
+            <token id="13" string="and" />
+            <token id="14" string="locate" />
+            <token id="15" string="the" />
+            <token id="16" string="jackets" />
+            <token id="17" string="of" />
+            <token id="18" string="their" />
+            <token id="19" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="locate the jackets of their owners" type="VP">
+          <tokens>
+            <token id="14" string="locate" />
+            <token id="15" string="the" />
+            <token id="16" string="jackets" />
+            <token id="17" string="of" />
+            <token id="18" string="their" />
+            <token id="19" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the jackets of their owners" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="jackets" />
+            <token id="17" string="of" />
+            <token id="18" string="their" />
+            <token id="19" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="teams" type="NP">
+          <tokens>
+            <token id="6" string="teams" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the scent relay" type="NP">
+          <tokens>
+            <token id="2" string="the" />
+            <token id="3" string="scent" />
+            <token id="4" string="relay" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="dogs" type="NP">
+          <tokens>
+            <token id="8" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="the jackets" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="jackets" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="teams of dogs" type="NP">
+          <tokens>
+            <token id="6" string="teams" />
+            <token id="7" string="of" />
+            <token id="8" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="will jump over hurdles and locate the jackets of their owners" type="VP">
+          <tokens>
+            <token id="9" string="will" />
+            <token id="10" string="jump" />
+            <token id="11" string="over" />
+            <token id="12" string="hurdles" />
+            <token id="13" string="and" />
+            <token id="14" string="locate" />
+            <token id="15" string="the" />
+            <token id="16" string="jackets" />
+            <token id="17" string="of" />
+            <token id="18" string="their" />
+            <token id="19" string="owners" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="hurdles" type="NP">
+          <tokens>
+            <token id="12" string="hurdles" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="their owners" type="NP">
+          <tokens>
+            <token id="18" string="their" />
+            <token id="19" string="owners" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="4">relay</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="4">relay</governor>
+          <dependent id="2">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="4">relay</governor>
+          <dependent id="3">scent</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">jump</governor>
+          <dependent id="4">relay</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="10">jump</governor>
+          <dependent id="6">teams</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">dogs</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="6">teams</governor>
+          <dependent id="8">dogs</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="10">jump</governor>
+          <dependent id="9">will</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="10">jump</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">hurdles</governor>
+          <dependent id="11">over</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">jump</governor>
+          <dependent id="12">hurdles</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="10">jump</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="10">jump</governor>
+          <dependent id="14">locate</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">jackets</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="14">locate</governor>
+          <dependent id="16">jackets</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">owners</governor>
+          <dependent id="17">of</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="19">owners</governor>
+          <dependent id="18">their</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">jackets</governor>
+          <dependent id="19">owners</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="6" has_coreference="false">
+      <content>There will also be a demonstration of how dogs herd farm animals.</content>
+      <tokens>
+        <token id="1" string="There" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="demonstration" lemma="demonstration" stem="demonstr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="how" lemma="how" stem="how" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="herd" lemma="herd" stem="herd" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="farm" lemma="farm" stem="farm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="animals" lemma="animal" stem="anim" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (EX There)) (VP (MD will) (ADVP (RB also)) (VP (VB be) (NP (DT a) (NN demonstration)) (PP (IN of) (FRAG (WHADVP (WRB how) (NP (NP (NNS dogs)) (NP (NN herd) (NN farm) (NNS animals)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="There" type="NP">
+          <tokens>
+            <token id="1" string="There" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="be a demonstration of how dogs herd farm animals" type="VP">
+          <tokens>
+            <token id="4" string="be" />
+            <token id="5" string="a" />
+            <token id="6" string="demonstration" />
+            <token id="7" string="of" />
+            <token id="8" string="how" />
+            <token id="9" string="dogs" />
+            <token id="10" string="herd" />
+            <token id="11" string="farm" />
+            <token id="12" string="animals" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="will also be a demonstration of how dogs herd farm animals" type="VP">
+          <tokens>
+            <token id="2" string="will" />
+            <token id="3" string="also" />
+            <token id="4" string="be" />
+            <token id="5" string="a" />
+            <token id="6" string="demonstration" />
+            <token id="7" string="of" />
+            <token id="8" string="how" />
+            <token id="9" string="dogs" />
+            <token id="10" string="herd" />
+            <token id="11" string="farm" />
+            <token id="12" string="animals" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="dogs herd farm animals" type="NP">
+          <tokens>
+            <token id="9" string="dogs" />
+            <token id="10" string="herd" />
+            <token id="11" string="farm" />
+            <token id="12" string="animals" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="dogs" type="NP">
+          <tokens>
+            <token id="9" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="herd farm animals" type="NP">
+          <tokens>
+            <token id="10" string="herd" />
+            <token id="11" string="farm" />
+            <token id="12" string="animals" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="a demonstration" type="NP">
+          <tokens>
+            <token id="5" string="a" />
+            <token id="6" string="demonstration" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="how dogs herd farm animals" type="WHADVP">
+          <tokens>
+            <token id="8" string="how" />
+            <token id="9" string="dogs" />
+            <token id="10" string="herd" />
+            <token id="11" string="farm" />
+            <token id="12" string="animals" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="expl">
+          <governor id="6">demonstration</governor>
+          <dependent id="1">There</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="6">demonstration</governor>
+          <dependent id="2">will</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="6">demonstration</governor>
+          <dependent id="3">also</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="6">demonstration</governor>
+          <dependent id="4">be</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="6">demonstration</governor>
+          <dependent id="5">a</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="6">demonstration</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">how</governor>
+          <dependent id="7">of</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="6">demonstration</governor>
+          <dependent id="8">how</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">how</governor>
+          <dependent id="9">dogs</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">animals</governor>
+          <dependent id="10">herd</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="12">animals</governor>
+          <dependent id="11">farm</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="9">dogs</governor>
+          <dependent id="12">animals</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>Other attractions include the appearance of Warren Eckstein, radio host of &amp;quot;Pet Show,&amp;quot; who will answer behavioral questions about dogs (as well as cats, pigs and goldfish, if he&amp;apost;s asked); free veterinary advice; a demonstration of how 4-H youngsters help train puppies to become guide dogs, and more than 70 vendors selling dog paraphernalia.</content>
+      <tokens>
+        <token id="1" string="Other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="attractions" lemma="attraction" stem="attract" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="include" lemma="include" stem="includ" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="appearance" lemma="appearance" stem="appear" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="Warren" lemma="Warren" stem="warren" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="8" string="Eckstein" lemma="Eckstein" stem="eckstein" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="9" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="radio" lemma="radio" stem="radio" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="host" lemma="host" stem="host" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="&quot;" lemma="``" stem="&quot;" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="Pet" lemma="Pet" stem="pet" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="Show" lemma="Show" stem="show" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="&quot;" lemma="''" stem="&quot;" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="who" lemma="who" stem="who" pos="WP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="will" lemma="will" stem="will" pos="MD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="answer" lemma="answer" stem="answer" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="21" string="behavioral" lemma="behavioral" stem="behavior" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="questions" lemma="question" stem="question" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="about" lemma="about" stem="about" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="25" string="(" lemma="-lrb-" stem="(" pos="-LRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="as" lemma="as" stem="a" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="well" lemma="well" stem="well" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="cats" lemma="cat" stem="cat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="31" string="pigs" lemma="pig" stem="pig" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="goldfish" lemma="goldfish" stem="goldfish" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="34" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="35" string="if" lemma="if" stem="if" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="36" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="37" string="'s" lemma="be" stem="'" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="38" string="asked" lemma="ask" stem="ask" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="39" string=")" lemma="-rrb-" stem=")" pos="-RRB-" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="40" string=";" lemma=";" stem=";" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="41" string="free" lemma="free" stem="free" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="42" string="veterinary" lemma="veterinary" stem="veterinari" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="43" string="advice" lemma="advice" stem="advic" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="44" string=";" lemma=";" stem=";" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="45" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="46" string="demonstration" lemma="demonstration" stem="demonstr" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="47" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="48" string="how" lemma="how" stem="how" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="49" string="4-H" lemma="4-h" stem="4-h" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="50" string="youngsters" lemma="youngster" stem="youngster" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="51" string="help" lemma="help" stem="help" pos="VBP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="52" string="train" lemma="train" stem="train" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="53" string="puppies" lemma="puppy" stem="puppi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="54" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="55" string="become" lemma="become" stem="becom" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="56" string="guide" lemma="guide" stem="guid" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="57" string="dogs" lemma="dog" stem="dog" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="58" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="59" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="60" string="more" lemma="more" stem="more" pos="JJR" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="61" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="62" string="70" lemma="70" stem="70" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="63" string="vendors" lemma="vendor" stem="vendor" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="64" string="selling" lemma="sell" stem="sell" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="65" string="dog" lemma="dog" stem="dog" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="66" string="paraphernalia" lemma="paraphernalia" stem="paraphernalia" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="67" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (JJ Other) (NNS attractions)) (VP (VBP include) (NP (NP (DT the) (NN appearance)) (PP (IN of) (NP (NP (NNP Warren) (NNP Eckstein)) (, ,) (NP (NP (NN radio) (NN host)) (PP (IN of) (NP (NP (`` ``) (NP (NNP Pet) (NNP Show)) (, ,) ('' '') (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB answer) (NP (JJ behavioral) (NNS questions)) (PP (IN about) (NP (NNS dogs))) (PRN (-LRB- -LRB-) (ADVP (ADVP (RB as) (RB well)) (SBAR (PP (IN as) (NP (NNS cats) (, ,) (NNS pigs) (CC and) (NN goldfish))) (, ,) (IN if) (S (NP (PRP he)) (VP (VBZ 's) (VP (VBN asked)))))) (-RRB- -RRB-))))))) (: ;) (NP (NP (JJ free) (JJ veterinary) (NN advice)) (: ;) (NP (NP (DT a) (NN demonstration)) (PP (IN of) (SBAR (WHADVP (WRB how)) (S (NP (JJ 4-H) (NNS youngsters)) (VP (VBP help) (VP (VB train) (S (NP (NNS puppies)) (VP (TO to) (VP (VB become) (NP (NN guide) (NNS dogs)))))))))))) (, ,) (CC and) (NP (NP (QP (JJR more) (IN than) (CD 70)) (NNS vendors)) (VP (VBG selling) (NP (NN dog) (NNS paraphernalia))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="behavioral questions" type="NP">
+          <tokens>
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="become guide dogs" type="VP">
+          <tokens>
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Warren Eckstein" type="NP">
+          <tokens>
+            <token id="7" string="Warren" />
+            <token id="8" string="Eckstein" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="more than 70 vendors selling dog paraphernalia" type="NP">
+          <tokens>
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="`` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB-" type="NP">
+          <tokens>
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="the appearance of Warren Eckstein , radio host of `` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB- ; free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs , and more than 70 vendors selling dog paraphernalia" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="appearance" />
+            <token id="6" string="of" />
+            <token id="7" string="Warren" />
+            <token id="8" string="Eckstein" />
+            <token id="9" string="," />
+            <token id="10" string="radio" />
+            <token id="11" string="host" />
+            <token id="12" string="of" />
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+            <token id="40" string=";" />
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+            <token id="58" string="," />
+            <token id="59" string="and" />
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Warren Eckstein , radio host of `` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB- ; free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs , and more than 70 vendors selling dog paraphernalia" type="NP">
+          <tokens>
+            <token id="7" string="Warren" />
+            <token id="8" string="Eckstein" />
+            <token id="9" string="," />
+            <token id="10" string="radio" />
+            <token id="11" string="host" />
+            <token id="12" string="of" />
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+            <token id="40" string=";" />
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+            <token id="58" string="," />
+            <token id="59" string="and" />
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="how 4-H youngsters help train puppies to become guide dogs" type="SBAR">
+          <tokens>
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="selling dog paraphernalia" type="VP">
+          <tokens>
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="as cats , pigs and goldfish , if he 's asked" type="SBAR">
+          <tokens>
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="guide dogs" type="NP">
+          <tokens>
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="4-H youngsters" type="NP">
+          <tokens>
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="include the appearance of Warren Eckstein , radio host of `` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB- ; free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs , and more than 70 vendors selling dog paraphernalia" type="VP">
+          <tokens>
+            <token id="3" string="include" />
+            <token id="4" string="the" />
+            <token id="5" string="appearance" />
+            <token id="6" string="of" />
+            <token id="7" string="Warren" />
+            <token id="8" string="Eckstein" />
+            <token id="9" string="," />
+            <token id="10" string="radio" />
+            <token id="11" string="host" />
+            <token id="12" string="of" />
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+            <token id="40" string=";" />
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+            <token id="58" string="," />
+            <token id="59" string="and" />
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="more than 70 vendors" type="NP">
+          <tokens>
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="he" type="NP">
+          <tokens>
+            <token id="36" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="'s asked" type="VP">
+          <tokens>
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="help train puppies to become guide dogs" type="VP">
+          <tokens>
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="free veterinary advice" type="NP">
+          <tokens>
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="to become guide dogs" type="VP">
+          <tokens>
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="radio host" type="NP">
+          <tokens>
+            <token id="10" string="radio" />
+            <token id="11" string="host" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB-" type="VP">
+          <tokens>
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="22" string="dog paraphernalia" type="NP">
+          <tokens>
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="23" string="the appearance" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="appearance" />
+          </tokens>
+        </chunking>
+        <chunking id="24" string="how" type="WHADVP">
+          <tokens>
+            <token id="48" string="how" />
+          </tokens>
+        </chunking>
+        <chunking id="25" string="puppies" type="NP">
+          <tokens>
+            <token id="53" string="puppies" />
+          </tokens>
+        </chunking>
+        <chunking id="26" string="will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB-" type="VP">
+          <tokens>
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="27" string="Pet Show" type="NP">
+          <tokens>
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+          </tokens>
+        </chunking>
+        <chunking id="28" string="who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB-" type="SBAR">
+          <tokens>
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+          </tokens>
+        </chunking>
+        <chunking id="29" string="a demonstration of how 4-H youngsters help train puppies to become guide dogs" type="NP">
+          <tokens>
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="30" string="Other attractions" type="NP">
+          <tokens>
+            <token id="1" string="Other" />
+            <token id="2" string="attractions" />
+          </tokens>
+        </chunking>
+        <chunking id="31" string="radio host of `` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB- ; free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs , and more than 70 vendors selling dog paraphernalia" type="NP">
+          <tokens>
+            <token id="10" string="radio" />
+            <token id="11" string="host" />
+            <token id="12" string="of" />
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+            <token id="40" string=";" />
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+            <token id="58" string="," />
+            <token id="59" string="and" />
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="32" string="dogs" type="NP">
+          <tokens>
+            <token id="24" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="33" string="train puppies to become guide dogs" type="VP">
+          <tokens>
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="34" string="cats , pigs and goldfish" type="NP">
+          <tokens>
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+          </tokens>
+        </chunking>
+        <chunking id="35" string="asked" type="VP">
+          <tokens>
+            <token id="38" string="asked" />
+          </tokens>
+        </chunking>
+        <chunking id="36" string="`` Pet Show , '' who will answer behavioral questions about dogs -LRB- as well as cats , pigs and goldfish , if he 's asked -RRB- ; free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs , and more than 70 vendors selling dog paraphernalia" type="NP">
+          <tokens>
+            <token id="13" string="&quot;" />
+            <token id="14" string="Pet" />
+            <token id="15" string="Show" />
+            <token id="16" string="," />
+            <token id="17" string="&quot;" />
+            <token id="18" string="who" />
+            <token id="19" string="will" />
+            <token id="20" string="answer" />
+            <token id="21" string="behavioral" />
+            <token id="22" string="questions" />
+            <token id="23" string="about" />
+            <token id="24" string="dogs" />
+            <token id="25" string="(" />
+            <token id="26" string="as" />
+            <token id="27" string="well" />
+            <token id="28" string="as" />
+            <token id="29" string="cats" />
+            <token id="30" string="," />
+            <token id="31" string="pigs" />
+            <token id="32" string="and" />
+            <token id="33" string="goldfish" />
+            <token id="34" string="," />
+            <token id="35" string="if" />
+            <token id="36" string="he" />
+            <token id="37" string="'s" />
+            <token id="38" string="asked" />
+            <token id="39" string=")" />
+            <token id="40" string=";" />
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+            <token id="58" string="," />
+            <token id="59" string="and" />
+            <token id="60" string="more" />
+            <token id="61" string="than" />
+            <token id="62" string="70" />
+            <token id="63" string="vendors" />
+            <token id="64" string="selling" />
+            <token id="65" string="dog" />
+            <token id="66" string="paraphernalia" />
+          </tokens>
+        </chunking>
+        <chunking id="37" string="free veterinary advice ; a demonstration of how 4-H youngsters help train puppies to become guide dogs" type="NP">
+          <tokens>
+            <token id="41" string="free" />
+            <token id="42" string="veterinary" />
+            <token id="43" string="advice" />
+            <token id="44" string=";" />
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+            <token id="47" string="of" />
+            <token id="48" string="how" />
+            <token id="49" string="4-H" />
+            <token id="50" string="youngsters" />
+            <token id="51" string="help" />
+            <token id="52" string="train" />
+            <token id="53" string="puppies" />
+            <token id="54" string="to" />
+            <token id="55" string="become" />
+            <token id="56" string="guide" />
+            <token id="57" string="dogs" />
+          </tokens>
+        </chunking>
+        <chunking id="38" string="a demonstration" type="NP">
+          <tokens>
+            <token id="45" string="a" />
+            <token id="46" string="demonstration" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="amod">
+          <governor id="2">attractions</governor>
+          <dependent id="1">Other</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="3">include</governor>
+          <dependent id="2">attractions</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="3">include</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">appearance</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="3">include</governor>
+          <dependent id="5">appearance</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">Eckstein</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">Eckstein</governor>
+          <dependent id="7">Warren</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">appearance</governor>
+          <dependent id="8">Eckstein</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="11">host</governor>
+          <dependent id="10">radio</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="8">Eckstein</governor>
+          <dependent id="11">host</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="15">Show</governor>
+          <dependent id="12">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="15">Show</governor>
+          <dependent id="14">Pet</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">host</governor>
+          <dependent id="15">Show</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="20">answer</governor>
+          <dependent id="18">who</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="20">answer</governor>
+          <dependent id="19">will</dependent>
+        </dependency>
+        <dependency type="acl:relcl">
+          <governor id="15">Show</governor>
+          <dependent id="20">answer</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="22">questions</governor>
+          <dependent id="21">behavioral</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="20">answer</governor>
+          <dependent id="22">questions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">dogs</governor>
+          <dependent id="23">about</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="20">answer</governor>
+          <dependent id="24">dogs</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="20">answer</governor>
+          <dependent id="26">as</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="26">as</governor>
+          <dependent id="27">well</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="29">cats</governor>
+          <dependent id="28">as</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="38">asked</governor>
+          <dependent id="29">cats</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="29">cats</governor>
+          <dependent id="31">pigs</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="29">cats</governor>
+          <dependent id="32">and</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="29">cats</governor>
+          <dependent id="33">goldfish</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="38">asked</governor>
+          <dependent id="35">if</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="38">asked</governor>
+          <dependent id="36">he</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="38">asked</governor>
+          <dependent id="37">'s</dependent>
+        </dependency>
+        <dependency type="advcl">
+          <governor id="26">as</governor>
+          <dependent id="38">asked</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="43">advice</governor>
+          <dependent id="41">free</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="43">advice</governor>
+          <dependent id="42">veterinary</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">Show</governor>
+          <dependent id="43">advice</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="46">demonstration</governor>
+          <dependent id="45">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="43">advice</governor>
+          <dependent id="46">demonstration</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="51">help</governor>
+          <dependent id="47">of</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="51">help</governor>
+          <dependent id="48">how</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="50">youngsters</governor>
+          <dependent id="49">4-H</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="51">help</governor>
+          <dependent id="50">youngsters</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="46">demonstration</governor>
+          <dependent id="51">help</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="51">help</governor>
+          <dependent id="52">train</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="52">train</governor>
+          <dependent id="53">puppies</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="55">become</governor>
+          <dependent id="54">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="52">train</governor>
+          <dependent id="55">become</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="57">dogs</governor>
+          <dependent id="56">guide</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="55">become</governor>
+          <dependent id="57">dogs</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="15">Show</governor>
+          <dependent id="59">and</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="62">70</governor>
+          <dependent id="60">more</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="60">more</governor>
+          <dependent id="61">than</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="63">vendors</governor>
+          <dependent id="62">70</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="15">Show</governor>
+          <dependent id="63">vendors</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="63">vendors</governor>
+          <dependent id="64">selling</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="66">paraphernalia</governor>
+          <dependent id="65">dog</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="64">selling</governor>
+          <dependent id="66">paraphernalia</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="70" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="62" string="70" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Warren Eckstein" type="PERSON" score="0.0">
+          <tokens>
+            <token id="7" string="Warren" />
+            <token id="8" string="Eckstein" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="false">
+      <content>A computer is provided for visitors&amp;apost; use to find out which breeds would best suit their life styles.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="computer" lemma="computer" stem="comput" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="is" lemma="be" stem="i" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="provided" lemma="provide" stem="provid" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="visitors" lemma="visitor" stem="visitor" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="7" string="'" lemma="'" stem="'" pos="POS" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="use" lemma="use" stem="us" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="find" lemma="find" stem="find" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="out" lemma="out" stem="out" pos="RP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="which" lemma="which" stem="which" pos="WDT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="breeds" lemma="breed" stem="breed" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="would" lemma="would" stem="would" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="best" lemma="best" stem="best" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="suit" lemma="suit" stem="suit" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="their" lemma="they" stem="their" pos="PRP$" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="life" lemma="life" stem="life" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="styles" lemma="style" stem="style" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (DT A) (NN computer)) (VP (VBZ is) (VP (VBN provided) (PP (IN for) (NP (NP (NNS visitors) (POS ')) (NN use) (S (VP (TO to) (VP (VB find) (PRT (RP out)) (SBAR (WHNP (WDT which) (NNS breeds)) (S (VP (MD would) (ADVP (RB best)) (VP (VB suit) (NP (PRP$ their) (NN life) (NNS styles))))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="which breeds would best suit their life styles" type="SBAR">
+          <tokens>
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="A computer" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="computer" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="is provided for visitors ' use to find out which breeds would best suit their life styles" type="VP">
+          <tokens>
+            <token id="3" string="is" />
+            <token id="4" string="provided" />
+            <token id="5" string="for" />
+            <token id="6" string="visitors" />
+            <token id="7" string="'" />
+            <token id="8" string="use" />
+            <token id="9" string="to" />
+            <token id="10" string="find" />
+            <token id="11" string="out" />
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="would best suit their life styles" type="VP">
+          <tokens>
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="find out which breeds would best suit their life styles" type="VP">
+          <tokens>
+            <token id="10" string="find" />
+            <token id="11" string="out" />
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="their life styles" type="NP">
+          <tokens>
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to find out which breeds would best suit their life styles" type="VP">
+          <tokens>
+            <token id="9" string="to" />
+            <token id="10" string="find" />
+            <token id="11" string="out" />
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="provided for visitors ' use to find out which breeds would best suit their life styles" type="VP">
+          <tokens>
+            <token id="4" string="provided" />
+            <token id="5" string="for" />
+            <token id="6" string="visitors" />
+            <token id="7" string="'" />
+            <token id="8" string="use" />
+            <token id="9" string="to" />
+            <token id="10" string="find" />
+            <token id="11" string="out" />
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="visitors ' use to find out which breeds would best suit their life styles" type="NP">
+          <tokens>
+            <token id="6" string="visitors" />
+            <token id="7" string="'" />
+            <token id="8" string="use" />
+            <token id="9" string="to" />
+            <token id="10" string="find" />
+            <token id="11" string="out" />
+            <token id="12" string="which" />
+            <token id="13" string="breeds" />
+            <token id="14" string="would" />
+            <token id="15" string="best" />
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="visitors '" type="NP">
+          <tokens>
+            <token id="6" string="visitors" />
+            <token id="7" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="suit their life styles" type="VP">
+          <tokens>
+            <token id="16" string="suit" />
+            <token id="17" string="their" />
+            <token id="18" string="life" />
+            <token id="19" string="styles" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">computer</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="4">provided</governor>
+          <dependent id="2">computer</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="4">provided</governor>
+          <dependent id="3">is</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="4">provided</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">use</governor>
+          <dependent id="5">for</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="8">use</governor>
+          <dependent id="6">visitors</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">visitors</governor>
+          <dependent id="7">'</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">provided</governor>
+          <dependent id="8">use</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">find</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="8">use</governor>
+          <dependent id="10">find</dependent>
+        </dependency>
+        <dependency type="compound:prt">
+          <governor id="10">find</governor>
+          <dependent id="11">out</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="13">breeds</governor>
+          <dependent id="12">which</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="16">suit</governor>
+          <dependent id="13">breeds</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="16">suit</governor>
+          <dependent id="14">would</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="16">suit</governor>
+          <dependent id="15">best</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="10">find</governor>
+          <dependent id="16">suit</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="19">styles</governor>
+          <dependent id="17">their</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">styles</governor>
+          <dependent id="18">life</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="16">suit</governor>
+          <dependent id="19">styles</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+    <sentence id="9" has_coreference="false">
+      <content>Show hours are 8 a.m. to 9 p.m. Admission: adults, $4.50; children, $1.</content>
+      <tokens>
+        <token id="1" string="Show" lemma="show" stem="show" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="hours" lemma="hour" stem="hour" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="false" is_refers="false" />
+        <token id="3" string="are" lemma="be" stem="ar" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="8" lemma="8" stem="8" pos="CD" type="Number" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="5" string="a.m." lemma="a.m." stem="a.m." pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="6" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="9" lemma="9" stem="9" pos="CD" type="Number" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="8" string="p.m." lemma="p.m." stem="p.m." pos="NN" type="Word" isStopWord="false" ner="TIME" is_referenced="false" is_refers="false" />
+        <token id="9" string="Admission" lemma="Admission" stem="admission" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="adults" lemma="adult" stem="adult" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="14" string="4.50" lemma="4.50" stem="4.50" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="15" string=";" lemma=";" stem=";" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="children" lemma="child" stem="children" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="$" lemma="$" stem="$" pos="$" type="Symbol" isStopWord="true" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="19" string="1" lemma="1" stem="1" pos="CD" type="Number" isStopWord="false" ner="MONEY" is_referenced="false" is_refers="false" />
+        <token id="20" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NN Show) (NNS hours)) (VP (VBP are) (NP (NP (NP (CD 8) (NN a.m.)) (PP (TO to) (NP (CD 9) (NN p.m.) (NNP Admission)))) (: :) (NP (NP (NNS adults)) (, ,) (NP ($ $) (CD 4.50))) (: ;) (NP (NP (NNS children)) (, ,) (NP ($ $) (CD 1))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="adults , $ 4.50" type="NP">
+          <tokens>
+            <token id="11" string="adults" />
+            <token id="12" string="," />
+            <token id="13" string="$" />
+            <token id="14" string="4.50" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="children , $ 1" type="NP">
+          <tokens>
+            <token id="16" string="children" />
+            <token id="17" string="," />
+            <token id="18" string="$" />
+            <token id="19" string="1" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="children" type="NP">
+          <tokens>
+            <token id="16" string="children" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="$ 1" type="NP">
+          <tokens>
+            <token id="18" string="$" />
+            <token id="19" string="1" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Show hours" type="NP">
+          <tokens>
+            <token id="1" string="Show" />
+            <token id="2" string="hours" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="9 p.m. Admission" type="NP">
+          <tokens>
+            <token id="7" string="9" />
+            <token id="8" string="p.m." />
+            <token id="9" string="Admission" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="adults" type="NP">
+          <tokens>
+            <token id="11" string="adults" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="8 a.m. to 9 p.m. Admission : adults , $ 4.50 ; children , $ 1" type="NP">
+          <tokens>
+            <token id="4" string="8" />
+            <token id="5" string="a.m." />
+            <token id="6" string="to" />
+            <token id="7" string="9" />
+            <token id="8" string="p.m." />
+            <token id="9" string="Admission" />
+            <token id="10" string=":" />
+            <token id="11" string="adults" />
+            <token id="12" string="," />
+            <token id="13" string="$" />
+            <token id="14" string="4.50" />
+            <token id="15" string=";" />
+            <token id="16" string="children" />
+            <token id="17" string="," />
+            <token id="18" string="$" />
+            <token id="19" string="1" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="are 8 a.m. to 9 p.m. Admission : adults , $ 4.50 ; children , $ 1" type="VP">
+          <tokens>
+            <token id="3" string="are" />
+            <token id="4" string="8" />
+            <token id="5" string="a.m." />
+            <token id="6" string="to" />
+            <token id="7" string="9" />
+            <token id="8" string="p.m." />
+            <token id="9" string="Admission" />
+            <token id="10" string=":" />
+            <token id="11" string="adults" />
+            <token id="12" string="," />
+            <token id="13" string="$" />
+            <token id="14" string="4.50" />
+            <token id="15" string=";" />
+            <token id="16" string="children" />
+            <token id="17" string="," />
+            <token id="18" string="$" />
+            <token id="19" string="1" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="$ 4.50" type="NP">
+          <tokens>
+            <token id="13" string="$" />
+            <token id="14" string="4.50" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="8 a.m." type="NP">
+          <tokens>
+            <token id="4" string="8" />
+            <token id="5" string="a.m." />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="8 a.m. to 9 p.m. Admission" type="NP">
+          <tokens>
+            <token id="4" string="8" />
+            <token id="5" string="a.m." />
+            <token id="6" string="to" />
+            <token id="7" string="9" />
+            <token id="8" string="p.m." />
+            <token id="9" string="Admission" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="2">hours</governor>
+          <dependent id="1">Show</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="5">a.m.</governor>
+          <dependent id="2">hours</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="5">a.m.</governor>
+          <dependent id="3">are</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">a.m.</governor>
+          <dependent id="4">8</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="5">a.m.</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="9">Admission</governor>
+          <dependent id="6">to</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="9">Admission</governor>
+          <dependent id="7">9</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="9">Admission</governor>
+          <dependent id="8">p.m.</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">a.m.</governor>
+          <dependent id="9">Admission</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="5">a.m.</governor>
+          <dependent id="11">adults</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">4.50</governor>
+          <dependent id="13">$</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="11">adults</governor>
+          <dependent id="14">4.50</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="5">a.m.</governor>
+          <dependent id="16">children</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="19">1</governor>
+          <dependent id="18">$</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="16">children</governor>
+          <dependent id="19">1</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="hours" type="DURATION" score="0.0">
+          <tokens>
+            <token id="2" string="hours" />
+          </tokens>
+        </entity>
+        <entity id="2" string="$ 1" type="MONEY" score="0.0">
+          <tokens>
+            <token id="18" string="$" />
+            <token id="19" string="1" />
+          </tokens>
+        </entity>
+        <entity id="3" string="$ 4.50" type="MONEY" score="0.0">
+          <tokens>
+            <token id="13" string="$" />
+            <token id="14" string="4.50" />
+          </tokens>
+        </entity>
+        <entity id="4" string="8 a.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="4" string="8" />
+            <token id="5" string="a.m." />
+          </tokens>
+        </entity>
+        <entity id="5" string="9 p.m." type="TIME" score="0.0">
+          <tokens>
+            <token id="7" string="9" />
+            <token id="8" string="p.m." />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="false">
+      <content>Information: (818) 789-8350.</content>
+      <tokens>
+        <token id="1" string="Information" lemma="information" stem="informat" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string=":" lemma=":" stem=":" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="(818) 789-8350" lemma="-lrb-818-rrb- 789-8350" stem="(818) 789-8350" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="4" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (NP (NP (NN Information)) (: :) (NP (NN -LRB-818-RRB- 789-8350)) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="Information" type="NP">
+          <tokens>
+            <token id="1" string="Information" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="Information : -LRB-818-RRB- 789-8350 ." type="NP">
+          <tokens>
+            <token id="1" string="Information" />
+            <token id="2" string=":" />
+            <token id="3" string="(818) 789-8350" />
+            <token id="4" string="." />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="-LRB-818-RRB- 789-8350" type="NP">
+          <tokens>
+            <token id="3" string="(818) 789-8350" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="1">Information</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="1">Information</governor>
+          <dependent id="3">-LRB-818-RRB- 789-8350</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4" string="More than 2,500 dogs" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="8" string="dogs" id_sentence="5" />
+        <mention ids_tokens="24" string="dogs" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="PROPER">
+      <referenced ids_tokens="25-26-27-28-29" string="the Los Angeles Sports Arena" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="2-3" string="the arena" id_sentence="3" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="NOMINAL">
+      <referenced ids_tokens="23-24" string="pet owners" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="5" string="owners" id_sentence="3" />
+        <mention ids_tokens="12" string="their" id_sentence="3" />
+        <mention ids_tokens="18-19" string="their owners" id_sentence="5" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>

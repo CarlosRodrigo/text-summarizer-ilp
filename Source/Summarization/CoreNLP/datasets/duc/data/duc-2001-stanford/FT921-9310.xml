@@ -1,0 +1,2760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="0" name="FT921-9310">
+  <sentences>
+    <sentence id="1" has_coreference="true">
+      <content>THE CONDITION known in cattle as &amp;apost;mad cow disease&amp;apost;, spongiform encephalopathies, has been found in Britain&amp;apost;s sparsely-scattered antelope population, the government has admitted.</content>
+      <tokens>
+        <token id="1" string="THE" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="2" string="CONDITION" lemma="condition" stem="condition" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="3" string="known" lemma="know" stem="known" pos="VBN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="4" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="5" string="cattle" lemma="cattle" stem="cattl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="mad" lemma="mad" stem="mad" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="9" string="cow" lemma="cow" stem="cow" pos="NN" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="10" string="disease" lemma="disease" stem="diseas" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="11" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="12" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="13" string="spongiform" lemma="spongiform" stem="spongiform" pos="JJ" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="14" string="encephalopathies" lemma="encephalopathy" stem="encephalopathi" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="found" lemma="find" stem="found" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="Britain" lemma="Britain" stem="britain" pos="NNP" type="Word" isStopWord="false" ner="LOCATION" is_referenced="false" is_refers="false" />
+        <token id="21" string="'s" lemma="'s" stem="'" pos="POS" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="sparsely-scattered" lemma="sparsely-scattered" stem="sparsely-scatt" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="antelope" lemma="antelope" stem="antelop" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="population" lemma="population" stem="popul" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="government" lemma="government" stem="govern" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="admitted" lemma="admit" stem="admit" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (S (NP (NP (DT THE) (NN CONDITION)) (VP (VBN known) (PP (IN in) (NP (NP (NNS cattle)) (PP (IN as) (`` `) (NP (JJ mad) (NN cow) (NN disease)) ('' '))))) (, ,) (NP (JJ spongiform) (NNS encephalopathies)) (, ,)) (VP (VBZ has) (VP (VBN been) (VP (VBN found) (PP (IN in) (NP (NP (NNP Britain) (POS 's)) (JJ sparsely-scattered) (NNS antelope) (NN population))))))) (, ,) (NP (DT the) (NN government)) (VP (VBZ has) (VP (VBN admitted))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="THE CONDITION known in cattle as ` mad cow disease ' , spongiform encephalopathies ," type="NP">
+          <tokens>
+            <token id="1" string="THE" />
+            <token id="2" string="CONDITION" />
+            <token id="3" string="known" />
+            <token id="4" string="in" />
+            <token id="5" string="cattle" />
+            <token id="6" string="as" />
+            <token id="7" string="'" />
+            <token id="8" string="mad" />
+            <token id="9" string="cow" />
+            <token id="10" string="disease" />
+            <token id="11" string="'" />
+            <token id="12" string="," />
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+            <token id="15" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="mad cow disease" type="NP">
+          <tokens>
+            <token id="8" string="mad" />
+            <token id="9" string="cow" />
+            <token id="10" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="found in Britain 's sparsely-scattered antelope population" type="VP">
+          <tokens>
+            <token id="18" string="found" />
+            <token id="19" string="in" />
+            <token id="20" string="Britain" />
+            <token id="21" string="'s" />
+            <token id="22" string="sparsely-scattered" />
+            <token id="23" string="antelope" />
+            <token id="24" string="population" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="admitted" type="VP">
+          <tokens>
+            <token id="29" string="admitted" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="THE CONDITION" type="NP">
+          <tokens>
+            <token id="1" string="THE" />
+            <token id="2" string="CONDITION" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="been found in Britain 's sparsely-scattered antelope population" type="VP">
+          <tokens>
+            <token id="17" string="been" />
+            <token id="18" string="found" />
+            <token id="19" string="in" />
+            <token id="20" string="Britain" />
+            <token id="21" string="'s" />
+            <token id="22" string="sparsely-scattered" />
+            <token id="23" string="antelope" />
+            <token id="24" string="population" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="cattle as ` mad cow disease '" type="NP">
+          <tokens>
+            <token id="5" string="cattle" />
+            <token id="6" string="as" />
+            <token id="7" string="'" />
+            <token id="8" string="mad" />
+            <token id="9" string="cow" />
+            <token id="10" string="disease" />
+            <token id="11" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="cattle" type="NP">
+          <tokens>
+            <token id="5" string="cattle" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="Britain 's sparsely-scattered antelope population" type="NP">
+          <tokens>
+            <token id="20" string="Britain" />
+            <token id="21" string="'s" />
+            <token id="22" string="sparsely-scattered" />
+            <token id="23" string="antelope" />
+            <token id="24" string="population" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="has been found in Britain 's sparsely-scattered antelope population" type="VP">
+          <tokens>
+            <token id="16" string="has" />
+            <token id="17" string="been" />
+            <token id="18" string="found" />
+            <token id="19" string="in" />
+            <token id="20" string="Britain" />
+            <token id="21" string="'s" />
+            <token id="22" string="sparsely-scattered" />
+            <token id="23" string="antelope" />
+            <token id="24" string="population" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="known in cattle as ` mad cow disease '" type="VP">
+          <tokens>
+            <token id="3" string="known" />
+            <token id="4" string="in" />
+            <token id="5" string="cattle" />
+            <token id="6" string="as" />
+            <token id="7" string="'" />
+            <token id="8" string="mad" />
+            <token id="9" string="cow" />
+            <token id="10" string="disease" />
+            <token id="11" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Britain 's" type="NP">
+          <tokens>
+            <token id="20" string="Britain" />
+            <token id="21" string="'s" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the government" type="NP">
+          <tokens>
+            <token id="26" string="the" />
+            <token id="27" string="government" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="spongiform encephalopathies" type="NP">
+          <tokens>
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="has admitted" type="VP">
+          <tokens>
+            <token id="28" string="has" />
+            <token id="29" string="admitted" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">CONDITION</governor>
+          <dependent id="1">THE</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="18">found</governor>
+          <dependent id="2">CONDITION</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">CONDITION</governor>
+          <dependent id="3">known</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">cattle</governor>
+          <dependent id="4">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="3">known</governor>
+          <dependent id="5">cattle</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">disease</governor>
+          <dependent id="6">as</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">disease</governor>
+          <dependent id="8">mad</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="10">disease</governor>
+          <dependent id="9">cow</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">cattle</governor>
+          <dependent id="10">disease</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">encephalopathies</governor>
+          <dependent id="13">spongiform</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="2">CONDITION</governor>
+          <dependent id="14">encephalopathies</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="18">found</governor>
+          <dependent id="16">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="18">found</governor>
+          <dependent id="17">been</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="29">admitted</governor>
+          <dependent id="18">found</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="24">population</governor>
+          <dependent id="19">in</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="24">population</governor>
+          <dependent id="20">Britain</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="20">Britain</governor>
+          <dependent id="21">'s</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="24">population</governor>
+          <dependent id="22">sparsely-scattered</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="24">population</governor>
+          <dependent id="23">antelope</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="18">found</governor>
+          <dependent id="24">population</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="27">government</governor>
+          <dependent id="26">the</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="29">admitted</governor>
+          <dependent id="27">government</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="29">admitted</governor>
+          <dependent id="28">has</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="29">admitted</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="disease" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="10" string="disease" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Britain" type="LOCATION" score="0.0">
+          <tokens>
+            <token id="20" string="Britain" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="2" has_coreference="true">
+      <content>Three elands, three greater kudu and an arabian oryx have been diagnosed with the disease over the past three years.</content>
+      <tokens>
+        <token id="1" string="Three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="2" string="elands" lemma="eland" stem="eland" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="greater" lemma="greater" stem="greater" pos="JJR" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="kudu" lemma="kudu" stem="kudu" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="an" lemma="a" stem="an" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="arabian" lemma="arabian" stem="arabian" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="oryx" lemma="oryx" stem="oryx" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="diagnosed" lemma="diagnose" stem="diagnos" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="16" string="disease" lemma="disease" stem="diseas" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="true" is_refers="false" />
+        <token id="17" string="over" lemma="over" stem="over" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="18" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="19" string="past" lemma="past" stem="past" pos="JJ" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="20" string="three" lemma="three" stem="three" pos="CD" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="21" string="years" lemma="year" stem="year" pos="NNS" type="Word" isStopWord="false" ner="DURATION" is_referenced="true" is_refers="false" />
+        <token id="22" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (CD Three) (NNS elands)) (, ,) (NP (CD three) (JJR greater) (NN kudu)) (CC and) (NP (DT an) (JJ arabian) (NN oryx))) (VP (VBP have) (VP (VBN been) (VP (VBN diagnosed) (PP (IN with) (NP (NP (DT the) (NN disease)) (PP (IN over) (NP (DT the) (JJ past) (CD three) (NNS years)))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="the disease" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="an arabian oryx" type="NP">
+          <tokens>
+            <token id="8" string="an" />
+            <token id="9" string="arabian" />
+            <token id="10" string="oryx" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="have been diagnosed with the disease over the past three years" type="VP">
+          <tokens>
+            <token id="11" string="have" />
+            <token id="12" string="been" />
+            <token id="13" string="diagnosed" />
+            <token id="14" string="with" />
+            <token id="15" string="the" />
+            <token id="16" string="disease" />
+            <token id="17" string="over" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the past three years" type="NP">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="Three elands , three greater kudu and an arabian oryx" type="NP">
+          <tokens>
+            <token id="1" string="Three" />
+            <token id="2" string="elands" />
+            <token id="3" string="," />
+            <token id="4" string="three" />
+            <token id="5" string="greater" />
+            <token id="6" string="kudu" />
+            <token id="7" string="and" />
+            <token id="8" string="an" />
+            <token id="9" string="arabian" />
+            <token id="10" string="oryx" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="diagnosed with the disease over the past three years" type="VP">
+          <tokens>
+            <token id="13" string="diagnosed" />
+            <token id="14" string="with" />
+            <token id="15" string="the" />
+            <token id="16" string="disease" />
+            <token id="17" string="over" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="Three elands" type="NP">
+          <tokens>
+            <token id="1" string="Three" />
+            <token id="2" string="elands" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="three greater kudu" type="NP">
+          <tokens>
+            <token id="4" string="three" />
+            <token id="5" string="greater" />
+            <token id="6" string="kudu" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the disease over the past three years" type="NP">
+          <tokens>
+            <token id="15" string="the" />
+            <token id="16" string="disease" />
+            <token id="17" string="over" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="been diagnosed with the disease over the past three years" type="VP">
+          <tokens>
+            <token id="12" string="been" />
+            <token id="13" string="diagnosed" />
+            <token id="14" string="with" />
+            <token id="15" string="the" />
+            <token id="16" string="disease" />
+            <token id="17" string="over" />
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nummod">
+          <governor id="2">elands</governor>
+          <dependent id="1">Three</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="13">diagnosed</governor>
+          <dependent id="2">elands</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="6">kudu</governor>
+          <dependent id="4">three</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="6">kudu</governor>
+          <dependent id="5">greater</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">elands</governor>
+          <dependent id="6">kudu</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="2">elands</governor>
+          <dependent id="7">and</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">oryx</governor>
+          <dependent id="8">an</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">oryx</governor>
+          <dependent id="9">arabian</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="2">elands</governor>
+          <dependent id="10">oryx</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="13">diagnosed</governor>
+          <dependent id="11">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="13">diagnosed</governor>
+          <dependent id="12">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="13">diagnosed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">disease</governor>
+          <dependent id="14">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="16">disease</governor>
+          <dependent id="15">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="13">diagnosed</governor>
+          <dependent id="16">disease</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="21">years</governor>
+          <dependent id="17">over</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="21">years</governor>
+          <dependent id="18">the</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="21">years</governor>
+          <dependent id="19">past</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="21">years</governor>
+          <dependent id="20">three</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="16">disease</governor>
+          <dependent id="21">years</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="disease" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="16" string="disease" />
+          </tokens>
+        </entity>
+        <entity id="2" string="the past three years" type="DURATION" score="0.0">
+          <tokens>
+            <token id="18" string="the" />
+            <token id="19" string="past" />
+            <token id="20" string="three" />
+            <token id="21" string="years" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Three" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="1" string="Three" />
+          </tokens>
+        </entity>
+        <entity id="4" string="three" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="three" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="3" has_coreference="true">
+      <content>In all, six species other than cattle have been confirmed with the condition during this period.</content>
+      <tokens>
+        <token id="1" string="In" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="all" lemma="all" stem="all" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="six" lemma="six" stem="six" pos="CD" type="Word" isStopWord="false" ner="NUMBER" is_referenced="true" is_refers="false" />
+        <token id="5" string="species" lemma="species" stem="speci" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="6" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="7" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="true" is_refers="false" />
+        <token id="8" string="cattle" lemma="cattle" stem="cattl" pos="NNS" type="Word" isStopWord="false" is_referenced="true" is_refers="true" />
+        <token id="9" string="have" lemma="have" stem="have" pos="VBP" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="confirmed" lemma="confirm" stem="confirm" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="with" lemma="with" stem="with" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="14" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="15" string="during" lemma="during" stem="dure" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="this" lemma="this" stem="thi" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="period" lemma="period" stem="period" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="18" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN In) (NP (DT all))) (, ,) (NP (NP (CD six) (NNS species) (JJ other)) (PP (IN than) (NP (NNS cattle)))) (VP (VBP have) (VP (VBN been) (VP (VBN confirmed) (PP (IN with) (NP (DT the) (NN condition))) (PP (IN during) (NP (DT this) (NN period)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="six species other" type="NP">
+          <tokens>
+            <token id="4" string="six" />
+            <token id="5" string="species" />
+            <token id="6" string="other" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="all" type="NP">
+          <tokens>
+            <token id="2" string="all" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="have been confirmed with the condition during this period" type="VP">
+          <tokens>
+            <token id="9" string="have" />
+            <token id="10" string="been" />
+            <token id="11" string="confirmed" />
+            <token id="12" string="with" />
+            <token id="13" string="the" />
+            <token id="14" string="condition" />
+            <token id="15" string="during" />
+            <token id="16" string="this" />
+            <token id="17" string="period" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="been confirmed with the condition during this period" type="VP">
+          <tokens>
+            <token id="10" string="been" />
+            <token id="11" string="confirmed" />
+            <token id="12" string="with" />
+            <token id="13" string="the" />
+            <token id="14" string="condition" />
+            <token id="15" string="during" />
+            <token id="16" string="this" />
+            <token id="17" string="period" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="the condition" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="this period" type="NP">
+          <tokens>
+            <token id="16" string="this" />
+            <token id="17" string="period" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="confirmed with the condition during this period" type="VP">
+          <tokens>
+            <token id="11" string="confirmed" />
+            <token id="12" string="with" />
+            <token id="13" string="the" />
+            <token id="14" string="condition" />
+            <token id="15" string="during" />
+            <token id="16" string="this" />
+            <token id="17" string="period" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="cattle" type="NP">
+          <tokens>
+            <token id="8" string="cattle" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="six species other than cattle" type="NP">
+          <tokens>
+            <token id="4" string="six" />
+            <token id="5" string="species" />
+            <token id="6" string="other" />
+            <token id="7" string="than" />
+            <token id="8" string="cattle" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">all</governor>
+          <dependent id="1">In</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">confirmed</governor>
+          <dependent id="2">all</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">species</governor>
+          <dependent id="4">six</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="11">confirmed</governor>
+          <dependent id="5">species</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="5">species</governor>
+          <dependent id="6">other</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">cattle</governor>
+          <dependent id="7">than</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">species</governor>
+          <dependent id="8">cattle</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="11">confirmed</governor>
+          <dependent id="9">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="11">confirmed</governor>
+          <dependent id="10">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="11">confirmed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">condition</governor>
+          <dependent id="12">with</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">condition</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">confirmed</governor>
+          <dependent id="14">condition</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="17">period</governor>
+          <dependent id="15">during</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="17">period</governor>
+          <dependent id="16">this</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="11">confirmed</governor>
+          <dependent id="17">period</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="six" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="six" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="4" has_coreference="true">
+      <content>The statistics - released in response to a written question from Mr Ron Davies, a Labour agriculture spokesman - show a disconcertingly rapid increase in the number of sheep found to have the disease.</content>
+      <tokens>
+        <token id="1" string="The" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="statistics" lemma="statistics" stem="statist" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="-" lemma="-" stem="-" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="released" lemma="release" stem="releas" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="response" lemma="response" stem="respons" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="written" lemma="write" stem="written" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="question" lemma="question" stem="question" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="from" lemma="from" stem="from" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="Mr" lemma="Mr" stem="mr" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="Ron" lemma="Ron" stem="ron" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="14" string="Davies" lemma="Davies" stem="davi" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="15" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="Labour" lemma="labour" stem="labour" pos="NN" type="Word" isStopWord="false" ner="ORGANIZATION" is_referenced="false" is_refers="false" />
+        <token id="18" string="agriculture" lemma="agriculture" stem="agricultur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="spokesman" lemma="spokesman" stem="spokesman" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="20" string="-" lemma="-" stem="-" pos=":" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="show" lemma="show" stem="show" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="disconcertingly" lemma="disconcertingly" stem="disconcertingli" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="24" string="rapid" lemma="rapid" stem="rapid" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="increase" lemma="increase" stem="increas" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="26" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="27" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="number" lemma="number" stem="number" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="29" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="30" string="sheep" lemma="sheep" stem="sheep" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="found" lemma="find" stem="found" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="34" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="35" string="disease" lemma="disease" stem="diseas" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="true" />
+        <token id="36" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT The) (NNS statistics)) (: -) (VP (VBN released) (PP (IN in) (NP (NN response))) (PP (TO to) (NP (NP (DT a) (VBN written) (NN question)) (PP (IN from) (NP (NP (NNP Mr) (NNP Ron) (NNP Davies)) (, ,) (NP (DT a) (NN Labour) (NN agriculture) (NN spokesman))))))) (: -)) (VP (VB show) (NP (NP (DT a) (ADJP (RB disconcertingly) (JJ rapid)) (NN increase)) (PP (IN in) (NP (NP (DT the) (NN number)) (PP (IN of) (NP (NP (NN sheep)) (VP (VBN found) (S (VP (TO to) (VP (VB have) (NP (DT the) (NN disease)))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="found to have the disease" type="VP">
+          <tokens>
+            <token id="31" string="found" />
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="a Labour agriculture spokesman" type="NP">
+          <tokens>
+            <token id="16" string="a" />
+            <token id="17" string="Labour" />
+            <token id="18" string="agriculture" />
+            <token id="19" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="The statistics - released in response to a written question from Mr Ron Davies , a Labour agriculture spokesman -" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="statistics" />
+            <token id="3" string="-" />
+            <token id="4" string="released" />
+            <token id="5" string="in" />
+            <token id="6" string="response" />
+            <token id="7" string="to" />
+            <token id="8" string="a" />
+            <token id="9" string="written" />
+            <token id="10" string="question" />
+            <token id="11" string="from" />
+            <token id="12" string="Mr" />
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="Labour" />
+            <token id="18" string="agriculture" />
+            <token id="19" string="spokesman" />
+            <token id="20" string="-" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="a disconcertingly rapid increase" type="NP">
+          <tokens>
+            <token id="22" string="a" />
+            <token id="23" string="disconcertingly" />
+            <token id="24" string="rapid" />
+            <token id="25" string="increase" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="sheep found to have the disease" type="NP">
+          <tokens>
+            <token id="30" string="sheep" />
+            <token id="31" string="found" />
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="Mr Ron Davies" type="NP">
+          <tokens>
+            <token id="12" string="Mr" />
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="to have the disease" type="VP">
+          <tokens>
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="a disconcertingly rapid increase in the number of sheep found to have the disease" type="NP">
+          <tokens>
+            <token id="22" string="a" />
+            <token id="23" string="disconcertingly" />
+            <token id="24" string="rapid" />
+            <token id="25" string="increase" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="number" />
+            <token id="29" string="of" />
+            <token id="30" string="sheep" />
+            <token id="31" string="found" />
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="the disease" type="NP">
+          <tokens>
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="Mr Ron Davies , a Labour agriculture spokesman" type="NP">
+          <tokens>
+            <token id="12" string="Mr" />
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="Labour" />
+            <token id="18" string="agriculture" />
+            <token id="19" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="disconcertingly rapid" type="ADJP">
+          <tokens>
+            <token id="23" string="disconcertingly" />
+            <token id="24" string="rapid" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a written question from Mr Ron Davies , a Labour agriculture spokesman" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="written" />
+            <token id="10" string="question" />
+            <token id="11" string="from" />
+            <token id="12" string="Mr" />
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="Labour" />
+            <token id="18" string="agriculture" />
+            <token id="19" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="have the disease" type="VP">
+          <tokens>
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="response" type="NP">
+          <tokens>
+            <token id="6" string="response" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="a written question" type="NP">
+          <tokens>
+            <token id="8" string="a" />
+            <token id="9" string="written" />
+            <token id="10" string="question" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the number of sheep found to have the disease" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="number" />
+            <token id="29" string="of" />
+            <token id="30" string="sheep" />
+            <token id="31" string="found" />
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="The statistics" type="NP">
+          <tokens>
+            <token id="1" string="The" />
+            <token id="2" string="statistics" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="released in response to a written question from Mr Ron Davies , a Labour agriculture spokesman" type="VP">
+          <tokens>
+            <token id="4" string="released" />
+            <token id="5" string="in" />
+            <token id="6" string="response" />
+            <token id="7" string="to" />
+            <token id="8" string="a" />
+            <token id="9" string="written" />
+            <token id="10" string="question" />
+            <token id="11" string="from" />
+            <token id="12" string="Mr" />
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+            <token id="15" string="," />
+            <token id="16" string="a" />
+            <token id="17" string="Labour" />
+            <token id="18" string="agriculture" />
+            <token id="19" string="spokesman" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="the number" type="NP">
+          <tokens>
+            <token id="27" string="the" />
+            <token id="28" string="number" />
+          </tokens>
+        </chunking>
+        <chunking id="20" string="show a disconcertingly rapid increase in the number of sheep found to have the disease" type="VP">
+          <tokens>
+            <token id="21" string="show" />
+            <token id="22" string="a" />
+            <token id="23" string="disconcertingly" />
+            <token id="24" string="rapid" />
+            <token id="25" string="increase" />
+            <token id="26" string="in" />
+            <token id="27" string="the" />
+            <token id="28" string="number" />
+            <token id="29" string="of" />
+            <token id="30" string="sheep" />
+            <token id="31" string="found" />
+            <token id="32" string="to" />
+            <token id="33" string="have" />
+            <token id="34" string="the" />
+            <token id="35" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="21" string="sheep" type="NP">
+          <tokens>
+            <token id="30" string="sheep" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">statistics</governor>
+          <dependent id="1">The</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="21">show</governor>
+          <dependent id="2">statistics</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="2">statistics</governor>
+          <dependent id="4">released</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="6">response</governor>
+          <dependent id="5">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">released</governor>
+          <dependent id="6">response</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="10">question</governor>
+          <dependent id="7">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="10">question</governor>
+          <dependent id="8">a</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="10">question</governor>
+          <dependent id="9">written</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="4">released</governor>
+          <dependent id="10">question</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">Davies</governor>
+          <dependent id="11">from</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Davies</governor>
+          <dependent id="12">Mr</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">Davies</governor>
+          <dependent id="13">Ron</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="10">question</governor>
+          <dependent id="14">Davies</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="19">spokesman</governor>
+          <dependent id="16">a</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">spokesman</governor>
+          <dependent id="17">Labour</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="19">spokesman</governor>
+          <dependent id="18">agriculture</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="14">Davies</governor>
+          <dependent id="19">spokesman</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="21">show</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="25">increase</governor>
+          <dependent id="22">a</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">rapid</governor>
+          <dependent id="23">disconcertingly</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="25">increase</governor>
+          <dependent id="24">rapid</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="21">show</governor>
+          <dependent id="25">increase</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="28">number</governor>
+          <dependent id="26">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="28">number</governor>
+          <dependent id="27">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="25">increase</governor>
+          <dependent id="28">number</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="30">sheep</governor>
+          <dependent id="29">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="28">number</governor>
+          <dependent id="30">sheep</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="30">sheep</governor>
+          <dependent id="31">found</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="33">have</governor>
+          <dependent id="32">to</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="31">found</governor>
+          <dependent id="33">have</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="35">disease</governor>
+          <dependent id="34">the</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="33">have</governor>
+          <dependent id="35">disease</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="disease" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="35" string="disease" />
+          </tokens>
+        </entity>
+        <entity id="2" string="Labour" type="ORGANIZATION" score="0.0">
+          <tokens>
+            <token id="17" string="Labour" />
+          </tokens>
+        </entity>
+        <entity id="3" string="Ron Davies" type="PERSON" score="0.0">
+          <tokens>
+            <token id="13" string="Ron" />
+            <token id="14" string="Davies" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="5" has_coreference="true">
+      <content>A total of 894 cases of sheep encephalopathies or &amp;apost;scrapie&amp;apost; were diagnosed in 1991, versus just 348 a year-earlier.</content>
+      <tokens>
+        <token id="1" string="A" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="2" string="total" lemma="total" stem="total" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="894" lemma="894" stem="894" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="5" string="cases" lemma="case" stem="case" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="sheep" lemma="sheep" stem="sheep" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="encephalopathies" lemma="encephalopathy" stem="encephalopathi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="or" lemma="or" stem="or" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="11" string="scrapie" lemma="scrapie" stem="scrapi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="12" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="13" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="diagnosed" lemma="diagnose" stem="diagnos" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="1991" lemma="1991" stem="1991" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="17" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="versus" lemma="versus" stem="versu" pos="CC" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="just" lemma="just" stem="just" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="348" lemma="348" stem="348" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="21" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="year-earlier" lemma="year-earlier" stem="year-earli" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (DT A) (NN total)) (PP (IN of) (NP (NP (CD 894) (NNS cases)) (PP (IN of) (NP (NP (NN sheep) (NNS encephalopathies)) (CC or) (NP (`` `) (NN scrapie) ('' '))))))) (VP (VBD were) (VP (VBN diagnosed) (PP (IN in) (NP (NP (CD 1991)) (, ,) (CC versus) (NP (NP (QP (RB just) (CD 348))) (NP (DT a) (JJ year-earlier))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="894 cases of sheep encephalopathies or ` scrapie '" type="NP">
+          <tokens>
+            <token id="4" string="894" />
+            <token id="5" string="cases" />
+            <token id="6" string="of" />
+            <token id="7" string="sheep" />
+            <token id="8" string="encephalopathies" />
+            <token id="9" string="or" />
+            <token id="10" string="'" />
+            <token id="11" string="scrapie" />
+            <token id="12" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="A total" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="total" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="just 348" type="NP">
+          <tokens>
+            <token id="19" string="just" />
+            <token id="20" string="348" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="1991" type="NP">
+          <tokens>
+            <token id="16" string="1991" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="were diagnosed in 1991 , versus just 348 a year-earlier" type="VP">
+          <tokens>
+            <token id="13" string="were" />
+            <token id="14" string="diagnosed" />
+            <token id="15" string="in" />
+            <token id="16" string="1991" />
+            <token id="17" string="," />
+            <token id="18" string="versus" />
+            <token id="19" string="just" />
+            <token id="20" string="348" />
+            <token id="21" string="a" />
+            <token id="22" string="year-earlier" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="894 cases" type="NP">
+          <tokens>
+            <token id="4" string="894" />
+            <token id="5" string="cases" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="just 348 a year-earlier" type="NP">
+          <tokens>
+            <token id="19" string="just" />
+            <token id="20" string="348" />
+            <token id="21" string="a" />
+            <token id="22" string="year-earlier" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="diagnosed in 1991 , versus just 348 a year-earlier" type="VP">
+          <tokens>
+            <token id="14" string="diagnosed" />
+            <token id="15" string="in" />
+            <token id="16" string="1991" />
+            <token id="17" string="," />
+            <token id="18" string="versus" />
+            <token id="19" string="just" />
+            <token id="20" string="348" />
+            <token id="21" string="a" />
+            <token id="22" string="year-earlier" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="A total of 894 cases of sheep encephalopathies or ` scrapie '" type="NP">
+          <tokens>
+            <token id="1" string="A" />
+            <token id="2" string="total" />
+            <token id="3" string="of" />
+            <token id="4" string="894" />
+            <token id="5" string="cases" />
+            <token id="6" string="of" />
+            <token id="7" string="sheep" />
+            <token id="8" string="encephalopathies" />
+            <token id="9" string="or" />
+            <token id="10" string="'" />
+            <token id="11" string="scrapie" />
+            <token id="12" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="` scrapie '" type="NP">
+          <tokens>
+            <token id="10" string="'" />
+            <token id="11" string="scrapie" />
+            <token id="12" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="sheep encephalopathies or ` scrapie '" type="NP">
+          <tokens>
+            <token id="7" string="sheep" />
+            <token id="8" string="encephalopathies" />
+            <token id="9" string="or" />
+            <token id="10" string="'" />
+            <token id="11" string="scrapie" />
+            <token id="12" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="a year-earlier" type="NP">
+          <tokens>
+            <token id="21" string="a" />
+            <token id="22" string="year-earlier" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="sheep encephalopathies" type="NP">
+          <tokens>
+            <token id="7" string="sheep" />
+            <token id="8" string="encephalopathies" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="1991 , versus just 348 a year-earlier" type="NP">
+          <tokens>
+            <token id="16" string="1991" />
+            <token id="17" string="," />
+            <token id="18" string="versus" />
+            <token id="19" string="just" />
+            <token id="20" string="348" />
+            <token id="21" string="a" />
+            <token id="22" string="year-earlier" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="det">
+          <governor id="2">total</governor>
+          <dependent id="1">A</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="14">diagnosed</governor>
+          <dependent id="2">total</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="5">cases</governor>
+          <dependent id="3">of</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="5">cases</governor>
+          <dependent id="4">894</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="2">total</governor>
+          <dependent id="5">cases</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">encephalopathies</governor>
+          <dependent id="6">of</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="8">encephalopathies</governor>
+          <dependent id="7">sheep</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">cases</governor>
+          <dependent id="8">encephalopathies</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="8">encephalopathies</governor>
+          <dependent id="9">or</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="8">encephalopathies</governor>
+          <dependent id="11">scrapie</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="14">diagnosed</governor>
+          <dependent id="13">were</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="14">diagnosed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">1991</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">diagnosed</governor>
+          <dependent id="16">1991</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="16">1991</governor>
+          <dependent id="18">versus</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="20">348</governor>
+          <dependent id="19">just</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="16">1991</governor>
+          <dependent id="20">348</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="22">year-earlier</governor>
+          <dependent id="21">a</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="20">348</governor>
+          <dependent id="22">year-earlier</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="894" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="4" string="894" />
+          </tokens>
+        </entity>
+        <entity id="2" string="348" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="20" string="348" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1991" type="DATE" score="0.0">
+          <tokens>
+            <token id="16" string="1991" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="6" has_coreference="false">
+      <content>However, the government states in a footnote to the table that the reporting of scrapie in sheep has been encouraged since 1991 &amp;apost;to obtain material for spongiform encephalopathy research&amp;apost;.</content>
+      <tokens>
+        <token id="1" string="However" lemma="however" stem="howev" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="government" lemma="government" stem="govern" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="states" lemma="state" stem="state" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="a" lemma="a" stem="a" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="8" string="footnote" lemma="footnote" stem="footnot" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="table" lemma="table" stem="tabl" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="reporting" lemma="reporting" stem="report" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="of" lemma="of" stem="of" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="scrapie" lemma="scrapie" stem="scrapi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="17" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="sheep" lemma="sheep" stem="sheep" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="19" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="20" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="encouraged" lemma="encourage" stem="encourag" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="1991" lemma="1991" stem="1991" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="24" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="25" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="obtain" lemma="obtain" stem="obtain" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="material" lemma="material" stem="materi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="28" string="for" lemma="for" stem="for" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="spongiform" lemma="spongiform" stem="spongiform" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="encephalopathy" lemma="encephalopathy" stem="encephalopathi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="31" string="research" lemma="research" stem="research" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="32" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="33" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (ADVP (RB However)) (, ,) (NP (NP (DT the) (NN government) (NNS states)) (PP (IN in) (NP (NP (DT a) (NN footnote)) (PP (TO to) (NP (DT the) (NN table))) (SBAR (IN that) (S (NP (NP (DT the) (NN reporting)) (PP (IN of) (NP (NN scrapie)))) (PP (IN in) (NP (NN sheep)))))))) (VP (VBZ has) (VP (VBN been) (VP (VBN encouraged) (PP (IN since) (NP (NP (CD 1991)) (`` `) (S (VP (TO to) (VP (VB obtain) (NP (NN material)) (PP (IN for) (NP (JJ spongiform) (NN encephalopathy) (NN research) ('' '))))))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="a footnote to the table that the reporting of scrapie in sheep" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="footnote" />
+            <token id="9" string="to" />
+            <token id="10" string="the" />
+            <token id="11" string="table" />
+            <token id="12" string="that" />
+            <token id="13" string="the" />
+            <token id="14" string="reporting" />
+            <token id="15" string="of" />
+            <token id="16" string="scrapie" />
+            <token id="17" string="in" />
+            <token id="18" string="sheep" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="the table" type="NP">
+          <tokens>
+            <token id="10" string="the" />
+            <token id="11" string="table" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="1991" type="NP">
+          <tokens>
+            <token id="23" string="1991" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the government states" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="government" />
+            <token id="5" string="states" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="encouraged since 1991 ` to obtain material for spongiform encephalopathy research '" type="VP">
+          <tokens>
+            <token id="21" string="encouraged" />
+            <token id="22" string="since" />
+            <token id="23" string="1991" />
+            <token id="24" string="'" />
+            <token id="25" string="to" />
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="that the reporting of scrapie in sheep" type="SBAR">
+          <tokens>
+            <token id="12" string="that" />
+            <token id="13" string="the" />
+            <token id="14" string="reporting" />
+            <token id="15" string="of" />
+            <token id="16" string="scrapie" />
+            <token id="17" string="in" />
+            <token id="18" string="sheep" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="the reporting of scrapie" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="reporting" />
+            <token id="15" string="of" />
+            <token id="16" string="scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="to obtain material for spongiform encephalopathy research '" type="VP">
+          <tokens>
+            <token id="25" string="to" />
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="obtain material for spongiform encephalopathy research '" type="VP">
+          <tokens>
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="a footnote" type="NP">
+          <tokens>
+            <token id="7" string="a" />
+            <token id="8" string="footnote" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="material" type="NP">
+          <tokens>
+            <token id="27" string="material" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="been encouraged since 1991 ` to obtain material for spongiform encephalopathy research '" type="VP">
+          <tokens>
+            <token id="20" string="been" />
+            <token id="21" string="encouraged" />
+            <token id="22" string="since" />
+            <token id="23" string="1991" />
+            <token id="24" string="'" />
+            <token id="25" string="to" />
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="spongiform encephalopathy research '" type="NP">
+          <tokens>
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="has been encouraged since 1991 ` to obtain material for spongiform encephalopathy research '" type="VP">
+          <tokens>
+            <token id="19" string="has" />
+            <token id="20" string="been" />
+            <token id="21" string="encouraged" />
+            <token id="22" string="since" />
+            <token id="23" string="1991" />
+            <token id="24" string="'" />
+            <token id="25" string="to" />
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="scrapie" type="NP">
+          <tokens>
+            <token id="16" string="scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="the government states in a footnote to the table that the reporting of scrapie in sheep" type="NP">
+          <tokens>
+            <token id="3" string="the" />
+            <token id="4" string="government" />
+            <token id="5" string="states" />
+            <token id="6" string="in" />
+            <token id="7" string="a" />
+            <token id="8" string="footnote" />
+            <token id="9" string="to" />
+            <token id="10" string="the" />
+            <token id="11" string="table" />
+            <token id="12" string="that" />
+            <token id="13" string="the" />
+            <token id="14" string="reporting" />
+            <token id="15" string="of" />
+            <token id="16" string="scrapie" />
+            <token id="17" string="in" />
+            <token id="18" string="sheep" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="the reporting" type="NP">
+          <tokens>
+            <token id="13" string="the" />
+            <token id="14" string="reporting" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="sheep" type="NP">
+          <tokens>
+            <token id="18" string="sheep" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="1991 ` to obtain material for spongiform encephalopathy research '" type="NP">
+          <tokens>
+            <token id="23" string="1991" />
+            <token id="24" string="'" />
+            <token id="25" string="to" />
+            <token id="26" string="obtain" />
+            <token id="27" string="material" />
+            <token id="28" string="for" />
+            <token id="29" string="spongiform" />
+            <token id="30" string="encephalopathy" />
+            <token id="31" string="research" />
+            <token id="32" string="'" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="advmod">
+          <governor id="21">encouraged</governor>
+          <dependent id="1">However</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">states</governor>
+          <dependent id="3">the</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="5">states</governor>
+          <dependent id="4">government</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="21">encouraged</governor>
+          <dependent id="5">states</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">footnote</governor>
+          <dependent id="6">in</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="8">footnote</governor>
+          <dependent id="7">a</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="5">states</governor>
+          <dependent id="8">footnote</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="11">table</governor>
+          <dependent id="9">to</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="11">table</governor>
+          <dependent id="10">the</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="8">footnote</governor>
+          <dependent id="11">table</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="14">reporting</governor>
+          <dependent id="12">that</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="14">reporting</governor>
+          <dependent id="13">the</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="8">footnote</governor>
+          <dependent id="14">reporting</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">scrapie</governor>
+          <dependent id="15">of</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">reporting</governor>
+          <dependent id="16">scrapie</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="18">sheep</governor>
+          <dependent id="17">in</dependent>
+        </dependency>
+        <dependency type="dep">
+          <governor id="14">reporting</governor>
+          <dependent id="18">sheep</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="21">encouraged</governor>
+          <dependent id="19">has</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="21">encouraged</governor>
+          <dependent id="20">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="21">encouraged</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="23">1991</governor>
+          <dependent id="22">since</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="21">encouraged</governor>
+          <dependent id="23">1991</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="26">obtain</governor>
+          <dependent id="25">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="23">1991</governor>
+          <dependent id="26">obtain</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="26">obtain</governor>
+          <dependent id="27">material</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="31">research</governor>
+          <dependent id="28">for</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="31">research</governor>
+          <dependent id="29">spongiform</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="31">research</governor>
+          <dependent id="30">encephalopathy</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="26">obtain</governor>
+          <dependent id="31">research</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="1991" type="DATE" score="0.0">
+          <tokens>
+            <token id="23" string="1991" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="7" has_coreference="true">
+      <content>Since 1989, the condition has also been confirmed in 23 cats and 29 goats.</content>
+      <tokens>
+        <token id="1" string="Since" lemma="since" stem="sinc" pos="IN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="1989" lemma="1989" stem="1989" pos="CD" type="Number" isStopWord="false" ner="DATE" is_referenced="false" is_refers="false" />
+        <token id="3" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="5" string="condition" lemma="condition" stem="condit" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="6" string="has" lemma="have" stem="ha" pos="VBZ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="also" lemma="also" stem="also" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="confirmed" lemma="confirm" stem="confirm" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="23" lemma="23" stem="23" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="12" string="cats" lemma="cat" stem="cat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="14" string="29" lemma="29" stem="29" pos="CD" type="Number" isStopWord="false" ner="NUMBER" is_referenced="false" is_refers="false" />
+        <token id="15" string="goats" lemma="goat" stem="goat" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (PP (IN Since) (NP (CD 1989))) (, ,) (NP (DT the) (NN condition)) (VP (VBZ has) (ADVP (RB also)) (VP (VBN been) (VP (VBN confirmed) (PP (IN in) (NP (NP (CD 23) (NNS cats)) (CC and) (NP (CD 29) (NNS goats))))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="been confirmed in 23 cats and 29 goats" type="VP">
+          <tokens>
+            <token id="8" string="been" />
+            <token id="9" string="confirmed" />
+            <token id="10" string="in" />
+            <token id="11" string="23" />
+            <token id="12" string="cats" />
+            <token id="13" string="and" />
+            <token id="14" string="29" />
+            <token id="15" string="goats" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="23 cats and 29 goats" type="NP">
+          <tokens>
+            <token id="11" string="23" />
+            <token id="12" string="cats" />
+            <token id="13" string="and" />
+            <token id="14" string="29" />
+            <token id="15" string="goats" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="29 goats" type="NP">
+          <tokens>
+            <token id="14" string="29" />
+            <token id="15" string="goats" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="the condition" type="NP">
+          <tokens>
+            <token id="4" string="the" />
+            <token id="5" string="condition" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="confirmed in 23 cats and 29 goats" type="VP">
+          <tokens>
+            <token id="9" string="confirmed" />
+            <token id="10" string="in" />
+            <token id="11" string="23" />
+            <token id="12" string="cats" />
+            <token id="13" string="and" />
+            <token id="14" string="29" />
+            <token id="15" string="goats" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="23 cats" type="NP">
+          <tokens>
+            <token id="11" string="23" />
+            <token id="12" string="cats" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="1989" type="NP">
+          <tokens>
+            <token id="2" string="1989" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="has also been confirmed in 23 cats and 29 goats" type="VP">
+          <tokens>
+            <token id="6" string="has" />
+            <token id="7" string="also" />
+            <token id="8" string="been" />
+            <token id="9" string="confirmed" />
+            <token id="10" string="in" />
+            <token id="11" string="23" />
+            <token id="12" string="cats" />
+            <token id="13" string="and" />
+            <token id="14" string="29" />
+            <token id="15" string="goats" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="case">
+          <governor id="2">1989</governor>
+          <dependent id="1">Since</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">confirmed</governor>
+          <dependent id="2">1989</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="5">condition</governor>
+          <dependent id="4">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="9">confirmed</governor>
+          <dependent id="5">condition</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="9">confirmed</governor>
+          <dependent id="6">has</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="9">confirmed</governor>
+          <dependent id="7">also</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="9">confirmed</governor>
+          <dependent id="8">been</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">confirmed</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="12">cats</governor>
+          <dependent id="10">in</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="12">cats</governor>
+          <dependent id="11">23</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="9">confirmed</governor>
+          <dependent id="12">cats</dependent>
+        </dependency>
+        <dependency type="cc">
+          <governor id="12">cats</governor>
+          <dependent id="13">and</dependent>
+        </dependency>
+        <dependency type="nummod">
+          <governor id="15">goats</governor>
+          <dependent id="14">29</dependent>
+        </dependency>
+        <dependency type="conj">
+          <governor id="12">cats</governor>
+          <dependent id="15">goats</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="23" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="11" string="23" />
+          </tokens>
+        </entity>
+        <entity id="2" string="29" type="NUMBER" score="0.0">
+          <tokens>
+            <token id="14" string="29" />
+          </tokens>
+        </entity>
+        <entity id="3" string="1989" type="DATE" score="0.0">
+          <tokens>
+            <token id="2" string="1989" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="8" has_coreference="true">
+      <content>Mr David Maclean, junior agriculture minister, stressed that naturally occurring spongiform encephalopathies in species other than cattle were not notifiable diseases.</content>
+      <tokens>
+        <token id="1" string="Mr" lemma="Mr" stem="mr" pos="NNP" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="2" string="David" lemma="David" stem="david" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="3" string="Maclean" lemma="Maclean" stem="maclean" pos="NNP" type="Word" isStopWord="false" ner="PERSON" is_referenced="true" is_refers="false" />
+        <token id="4" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="junior" lemma="junior" stem="junior" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="6" string="agriculture" lemma="agriculture" stem="agricultur" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="minister" lemma="minister" stem="minist" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="stressed" lemma="stress" stem="stress" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="10" string="that" lemma="that" stem="that" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="naturally" lemma="naturally" stem="natur" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="12" string="occurring" lemma="occur" stem="occur" pos="VBG" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="spongiform" lemma="spongiform" stem="spongiform" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="encephalopathies" lemma="encephalopathy" stem="encephalopathi" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="species" lemma="species" stem="speci" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="17" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="cattle" lemma="cattle" stem="cattl" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="true" />
+        <token id="20" string="were" lemma="be" stem="were" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="21" string="not" lemma="not" stem="not" pos="RB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="22" string="notifiable" lemma="notifiable" stem="notifi" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="23" string="diseases" lemma="disease" stem="diseas" pos="NNS" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="false" />
+        <token id="24" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NP (NNP Mr) (NNP David) (NNP Maclean)) (, ,) (NP (NN junior) (NN agriculture) (NN minister)) (, ,)) (VP (VBD stressed) (SBAR (IN that) (S (NP (NP (ADJP (RB naturally) (VBG occurring)) (JJ spongiform) (NNS encephalopathies)) (PP (IN in) (NP (NNS species))) (ADVP (JJ other) (PP (IN than) (NP (NNS cattle))))) (VP (VBD were) (RB not) (NP (JJ notifiable) (NNS diseases)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="species" type="NP">
+          <tokens>
+            <token id="16" string="species" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="junior agriculture minister" type="NP">
+          <tokens>
+            <token id="5" string="junior" />
+            <token id="6" string="agriculture" />
+            <token id="7" string="minister" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="were not notifiable diseases" type="VP">
+          <tokens>
+            <token id="20" string="were" />
+            <token id="21" string="not" />
+            <token id="22" string="notifiable" />
+            <token id="23" string="diseases" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="Mr David Maclean , junior agriculture minister ," type="NP">
+          <tokens>
+            <token id="1" string="Mr" />
+            <token id="2" string="David" />
+            <token id="3" string="Maclean" />
+            <token id="4" string="," />
+            <token id="5" string="junior" />
+            <token id="6" string="agriculture" />
+            <token id="7" string="minister" />
+            <token id="8" string="," />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="that naturally occurring spongiform encephalopathies in species other than cattle were not notifiable diseases" type="SBAR">
+          <tokens>
+            <token id="10" string="that" />
+            <token id="11" string="naturally" />
+            <token id="12" string="occurring" />
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+            <token id="15" string="in" />
+            <token id="16" string="species" />
+            <token id="17" string="other" />
+            <token id="18" string="than" />
+            <token id="19" string="cattle" />
+            <token id="20" string="were" />
+            <token id="21" string="not" />
+            <token id="22" string="notifiable" />
+            <token id="23" string="diseases" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="naturally occurring spongiform encephalopathies" type="NP">
+          <tokens>
+            <token id="11" string="naturally" />
+            <token id="12" string="occurring" />
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="naturally occurring" type="ADJP">
+          <tokens>
+            <token id="11" string="naturally" />
+            <token id="12" string="occurring" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="stressed that naturally occurring spongiform encephalopathies in species other than cattle were not notifiable diseases" type="VP">
+          <tokens>
+            <token id="9" string="stressed" />
+            <token id="10" string="that" />
+            <token id="11" string="naturally" />
+            <token id="12" string="occurring" />
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+            <token id="15" string="in" />
+            <token id="16" string="species" />
+            <token id="17" string="other" />
+            <token id="18" string="than" />
+            <token id="19" string="cattle" />
+            <token id="20" string="were" />
+            <token id="21" string="not" />
+            <token id="22" string="notifiable" />
+            <token id="23" string="diseases" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="cattle" type="NP">
+          <tokens>
+            <token id="19" string="cattle" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="notifiable diseases" type="NP">
+          <tokens>
+            <token id="22" string="notifiable" />
+            <token id="23" string="diseases" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="naturally occurring spongiform encephalopathies in species other than cattle" type="NP">
+          <tokens>
+            <token id="11" string="naturally" />
+            <token id="12" string="occurring" />
+            <token id="13" string="spongiform" />
+            <token id="14" string="encephalopathies" />
+            <token id="15" string="in" />
+            <token id="16" string="species" />
+            <token id="17" string="other" />
+            <token id="18" string="than" />
+            <token id="19" string="cattle" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="Mr David Maclean" type="NP">
+          <tokens>
+            <token id="1" string="Mr" />
+            <token id="2" string="David" />
+            <token id="3" string="Maclean" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="compound">
+          <governor id="3">Maclean</governor>
+          <dependent id="1">Mr</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="3">Maclean</governor>
+          <dependent id="2">David</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="9">stressed</governor>
+          <dependent id="3">Maclean</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">minister</governor>
+          <dependent id="5">junior</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="7">minister</governor>
+          <dependent id="6">agriculture</dependent>
+        </dependency>
+        <dependency type="appos">
+          <governor id="3">Maclean</governor>
+          <dependent id="7">minister</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="9">stressed</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="23">diseases</governor>
+          <dependent id="10">that</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="12">occurring</governor>
+          <dependent id="11">naturally</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">encephalopathies</governor>
+          <dependent id="12">occurring</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="14">encephalopathies</governor>
+          <dependent id="13">spongiform</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="23">diseases</governor>
+          <dependent id="14">encephalopathies</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="16">species</governor>
+          <dependent id="15">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="14">encephalopathies</governor>
+          <dependent id="16">species</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">encephalopathies</governor>
+          <dependent id="17">other</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="19">cattle</governor>
+          <dependent id="18">than</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="17">other</governor>
+          <dependent id="19">cattle</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="23">diseases</governor>
+          <dependent id="20">were</dependent>
+        </dependency>
+        <dependency type="neg">
+          <governor id="23">diseases</governor>
+          <dependent id="21">not</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="23">diseases</governor>
+          <dependent id="22">notifiable</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="9">stressed</governor>
+          <dependent id="23">diseases</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="diseases" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="23" string="diseases" />
+          </tokens>
+        </entity>
+        <entity id="2" string="David Maclean" type="PERSON" score="0.0">
+          <tokens>
+            <token id="2" string="David" />
+            <token id="3" string="Maclean" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="9" has_coreference="true">
+      <content>He said there was &amp;apost;insufficient epidemiological data&amp;apost; to &amp;apost;draw firm conclusions&amp;apost; as to how the disease might have been contracted in cases other than scrapie.</content>
+      <tokens>
+        <token id="1" string="He" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="2" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="3" string="there" lemma="there" stem="there" pos="EX" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="4" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="5" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="insufficient" lemma="insufficient" stem="insuffici" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="7" string="epidemiological" lemma="epidemiological" stem="epidemiolog" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="data" lemma="datum" stem="data" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="9" string="'" lemma="'" stem="'" pos="POS" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="11" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="draw" lemma="draw" stem="draw" pos="VB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="13" string="firm" lemma="firm" stem="firm" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="conclusions" lemma="conclusion" stem="conclus" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="15" string="'" lemma="'" stem="'" pos="POS" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="16" string="as" lemma="as" stem="a" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="18" string="how" lemma="how" stem="how" pos="WRB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="19" string="the" lemma="the" stem="the" pos="DT" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="20" string="disease" lemma="disease" stem="diseas" pos="NN" type="Word" isStopWord="false" ner="CAUSE_OF_DEATH" is_referenced="false" is_refers="true" />
+        <token id="21" string="might" lemma="might" stem="might" pos="MD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="22" string="have" lemma="have" stem="have" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="23" string="been" lemma="be" stem="been" pos="VBN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="24" string="contracted" lemma="contract" stem="contract" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="25" string="in" lemma="in" stem="in" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="26" string="cases" lemma="case" stem="case" pos="NNS" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="27" string="other" lemma="other" stem="other" pos="JJ" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="28" string="than" lemma="than" stem="than" pos="IN" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="29" string="scrapie" lemma="scrapie" stem="scrapi" pos="NN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="30" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (`` `) (NP (NP (JJ insufficient) (JJ epidemiological) (NNS data) (POS ')) (S (VP (TO to) (`` `) (VP (VB draw) (NP (NP (NN firm) (NNS conclusions) (POS ')) (PP (IN as) (TO to) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NN disease)) (VP (MD might) (VP (VB have) (VP (VBN been) (VP (VBN contracted) (PP (IN in) (NP (NNS cases))) (ADVP (JJ other) (IN than))))))))))))) (NN scrapie)))))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="said there was ` insufficient epidemiological data ' to ` draw firm conclusions ' as to how the disease might have been contracted in cases other than scrapie" type="VP">
+          <tokens>
+            <token id="2" string="said" />
+            <token id="3" string="there" />
+            <token id="4" string="was" />
+            <token id="5" string="'" />
+            <token id="6" string="insufficient" />
+            <token id="7" string="epidemiological" />
+            <token id="8" string="data" />
+            <token id="9" string="'" />
+            <token id="10" string="to" />
+            <token id="11" string="'" />
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+            <token id="29" string="scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="cases" type="NP">
+          <tokens>
+            <token id="26" string="cases" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="insufficient epidemiological data '" type="NP">
+          <tokens>
+            <token id="6" string="insufficient" />
+            <token id="7" string="epidemiological" />
+            <token id="8" string="data" />
+            <token id="9" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="been contracted in cases other than" type="VP">
+          <tokens>
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="how the disease might have been contracted in cases other than" type="SBAR">
+          <tokens>
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="was ` insufficient epidemiological data ' to ` draw firm conclusions ' as to how the disease might have been contracted in cases other than scrapie" type="VP">
+          <tokens>
+            <token id="4" string="was" />
+            <token id="5" string="'" />
+            <token id="6" string="insufficient" />
+            <token id="7" string="epidemiological" />
+            <token id="8" string="data" />
+            <token id="9" string="'" />
+            <token id="10" string="to" />
+            <token id="11" string="'" />
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+            <token id="29" string="scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="draw firm conclusions ' as to how the disease might have been contracted in cases other than" type="VP">
+          <tokens>
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="firm conclusions '" type="NP">
+          <tokens>
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="9" string="how" type="WHADVP">
+          <tokens>
+            <token id="18" string="how" />
+          </tokens>
+        </chunking>
+        <chunking id="10" string="might have been contracted in cases other than" type="VP">
+          <tokens>
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="11" string="contracted in cases other than" type="VP">
+          <tokens>
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="12" string="there" type="NP">
+          <tokens>
+            <token id="3" string="there" />
+          </tokens>
+        </chunking>
+        <chunking id="13" string="the disease" type="NP">
+          <tokens>
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+          </tokens>
+        </chunking>
+        <chunking id="14" string="have been contracted in cases other than" type="VP">
+          <tokens>
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="15" string="there was ` insufficient epidemiological data ' to ` draw firm conclusions ' as to how the disease might have been contracted in cases other than scrapie" type="SBAR">
+          <tokens>
+            <token id="3" string="there" />
+            <token id="4" string="was" />
+            <token id="5" string="'" />
+            <token id="6" string="insufficient" />
+            <token id="7" string="epidemiological" />
+            <token id="8" string="data" />
+            <token id="9" string="'" />
+            <token id="10" string="to" />
+            <token id="11" string="'" />
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+            <token id="29" string="scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="16" string="firm conclusions ' as to how the disease might have been contracted in cases other than" type="NP">
+          <tokens>
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="17" string="to ` draw firm conclusions ' as to how the disease might have been contracted in cases other than" type="VP">
+          <tokens>
+            <token id="10" string="to" />
+            <token id="11" string="'" />
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+          </tokens>
+        </chunking>
+        <chunking id="18" string="He" type="NP">
+          <tokens>
+            <token id="1" string="He" />
+          </tokens>
+        </chunking>
+        <chunking id="19" string="insufficient epidemiological data ' to ` draw firm conclusions ' as to how the disease might have been contracted in cases other than scrapie" type="NP">
+          <tokens>
+            <token id="6" string="insufficient" />
+            <token id="7" string="epidemiological" />
+            <token id="8" string="data" />
+            <token id="9" string="'" />
+            <token id="10" string="to" />
+            <token id="11" string="'" />
+            <token id="12" string="draw" />
+            <token id="13" string="firm" />
+            <token id="14" string="conclusions" />
+            <token id="15" string="'" />
+            <token id="16" string="as" />
+            <token id="17" string="to" />
+            <token id="18" string="how" />
+            <token id="19" string="the" />
+            <token id="20" string="disease" />
+            <token id="21" string="might" />
+            <token id="22" string="have" />
+            <token id="23" string="been" />
+            <token id="24" string="contracted" />
+            <token id="25" string="in" />
+            <token id="26" string="cases" />
+            <token id="27" string="other" />
+            <token id="28" string="than" />
+            <token id="29" string="scrapie" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubj">
+          <governor id="2">said</governor>
+          <dependent id="1">He</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="2">said</dependent>
+        </dependency>
+        <dependency type="expl">
+          <governor id="4">was</governor>
+          <dependent id="3">there</dependent>
+        </dependency>
+        <dependency type="ccomp">
+          <governor id="2">said</governor>
+          <dependent id="4">was</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">data</governor>
+          <dependent id="6">insufficient</dependent>
+        </dependency>
+        <dependency type="amod">
+          <governor id="8">data</governor>
+          <dependent id="7">epidemiological</dependent>
+        </dependency>
+        <dependency type="nmod:poss">
+          <governor id="29">scrapie</governor>
+          <dependent id="8">data</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="8">data</governor>
+          <dependent id="9">'</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="12">draw</governor>
+          <dependent id="10">to</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="29">scrapie</governor>
+          <dependent id="12">draw</dependent>
+        </dependency>
+        <dependency type="compound">
+          <governor id="14">conclusions</governor>
+          <dependent id="13">firm</dependent>
+        </dependency>
+        <dependency type="dobj">
+          <governor id="12">draw</governor>
+          <dependent id="14">conclusions</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="14">conclusions</governor>
+          <dependent id="15">'</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="24">contracted</governor>
+          <dependent id="16">as</dependent>
+        </dependency>
+        <dependency type="mwe">
+          <governor id="16">as</governor>
+          <dependent id="17">to</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">contracted</governor>
+          <dependent id="18">how</dependent>
+        </dependency>
+        <dependency type="det">
+          <governor id="20">disease</governor>
+          <dependent id="19">the</dependent>
+        </dependency>
+        <dependency type="nsubjpass">
+          <governor id="24">contracted</governor>
+          <dependent id="20">disease</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">contracted</governor>
+          <dependent id="21">might</dependent>
+        </dependency>
+        <dependency type="aux">
+          <governor id="24">contracted</governor>
+          <dependent id="22">have</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="24">contracted</governor>
+          <dependent id="23">been</dependent>
+        </dependency>
+        <dependency type="acl">
+          <governor id="14">conclusions</governor>
+          <dependent id="24">contracted</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="26">cases</governor>
+          <dependent id="25">in</dependent>
+        </dependency>
+        <dependency type="nmod">
+          <governor id="24">contracted</governor>
+          <dependent id="26">cases</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="24">contracted</governor>
+          <dependent id="27">other</dependent>
+        </dependency>
+        <dependency type="case">
+          <governor id="27">other</governor>
+          <dependent id="28">than</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">was</governor>
+          <dependent id="29">scrapie</dependent>
+        </dependency>
+      </dependencies>
+      <entities>
+        <entity id="1" string="disease" type="CAUSE_OF_DEATH" score="0.0">
+          <tokens>
+            <token id="20" string="disease" />
+          </tokens>
+        </entity>
+      </entities>
+    </sentence>
+    <sentence id="10" has_coreference="true">
+      <content>Scrapie, he said, was considered to be transmissible &amp;apost;both maternally and horizontally&amp;apost;.</content>
+      <tokens>
+        <token id="1" string="Scrapie" lemma="Scrapie" stem="scrapi" pos="NNP" type="Word" isStopWord="false" is_referenced="true" is_refers="false" />
+        <token id="2" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="3" string="he" lemma="he" stem="he" pos="PRP" type="Word" isStopWord="true" is_referenced="false" is_refers="true" />
+        <token id="4" string="said" lemma="say" stem="said" pos="VBD" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="5" string="," lemma="," stem="," pos="," type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="6" string="was" lemma="be" stem="wa" pos="VBD" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="7" string="considered" lemma="consider" stem="consid" pos="VBN" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="8" string="to" lemma="to" stem="to" pos="TO" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="9" string="be" lemma="be" stem="be" pos="VB" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="10" string="transmissible" lemma="transmissible" stem="transmiss" pos="JJ" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="11" string="'" lemma="`" stem="'" pos="``" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="12" string="both" lemma="both" stem="both" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="13" string="maternally" lemma="maternally" stem="matern" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="14" string="and" lemma="and" stem="and" pos="CC" type="Word" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="15" string="horizontally" lemma="horizontally" stem="horizont" pos="RB" type="Word" isStopWord="false" is_referenced="false" is_refers="false" />
+        <token id="16" string="'" lemma="'" stem="'" pos="''" type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+        <token id="17" string="." lemma="." stem="." pos="." type="Symbol" isStopWord="true" is_referenced="false" is_refers="false" />
+      </tokens>
+      <syntactictree>(ROOT (S (NP (NNP Scrapie)) (PRN (, ,) (S (NP (PRP he)) (VP (VBD said))) (, ,)) (VP (VBD was) (VP (VBN considered) (S (VP (TO to) (VP (VB be) (NP (JJ transmissible)) (`` `) (ADVP (CC both))))) (ADVP (ADVP (RB maternally)) (CC and) (ADVP (RB horizontally))) ('' '))) (. .)))</syntactictree>
+      <chunkings>
+        <chunking id="1" string="to be transmissible ` both" type="VP">
+          <tokens>
+            <token id="8" string="to" />
+            <token id="9" string="be" />
+            <token id="10" string="transmissible" />
+            <token id="11" string="'" />
+            <token id="12" string="both" />
+          </tokens>
+        </chunking>
+        <chunking id="2" string="be transmissible ` both" type="VP">
+          <tokens>
+            <token id="9" string="be" />
+            <token id="10" string="transmissible" />
+            <token id="11" string="'" />
+            <token id="12" string="both" />
+          </tokens>
+        </chunking>
+        <chunking id="3" string="Scrapie" type="NP">
+          <tokens>
+            <token id="1" string="Scrapie" />
+          </tokens>
+        </chunking>
+        <chunking id="4" string="transmissible" type="NP">
+          <tokens>
+            <token id="10" string="transmissible" />
+          </tokens>
+        </chunking>
+        <chunking id="5" string="was considered to be transmissible ` both maternally and horizontally '" type="VP">
+          <tokens>
+            <token id="6" string="was" />
+            <token id="7" string="considered" />
+            <token id="8" string="to" />
+            <token id="9" string="be" />
+            <token id="10" string="transmissible" />
+            <token id="11" string="'" />
+            <token id="12" string="both" />
+            <token id="13" string="maternally" />
+            <token id="14" string="and" />
+            <token id="15" string="horizontally" />
+            <token id="16" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="6" string="considered to be transmissible ` both maternally and horizontally '" type="VP">
+          <tokens>
+            <token id="7" string="considered" />
+            <token id="8" string="to" />
+            <token id="9" string="be" />
+            <token id="10" string="transmissible" />
+            <token id="11" string="'" />
+            <token id="12" string="both" />
+            <token id="13" string="maternally" />
+            <token id="14" string="and" />
+            <token id="15" string="horizontally" />
+            <token id="16" string="'" />
+          </tokens>
+        </chunking>
+        <chunking id="7" string="he" type="NP">
+          <tokens>
+            <token id="3" string="he" />
+          </tokens>
+        </chunking>
+        <chunking id="8" string="said" type="VP">
+          <tokens>
+            <token id="4" string="said" />
+          </tokens>
+        </chunking>
+      </chunkings>
+      <dependencies>
+        <dependency type="nsubjpass">
+          <governor id="7">considered</governor>
+          <dependent id="1">Scrapie</dependent>
+        </dependency>
+        <dependency type="nsubj">
+          <governor id="4">said</governor>
+          <dependent id="3">he</dependent>
+        </dependency>
+        <dependency type="parataxis">
+          <governor id="7">considered</governor>
+          <dependent id="4">said</dependent>
+        </dependency>
+        <dependency type="auxpass">
+          <governor id="7">considered</governor>
+          <dependent id="6">was</dependent>
+        </dependency>
+        <dependency type="root">
+          <governor id="0">ROOT</governor>
+          <dependent id="7">considered</dependent>
+        </dependency>
+        <dependency type="mark">
+          <governor id="10">transmissible</governor>
+          <dependent id="8">to</dependent>
+        </dependency>
+        <dependency type="cop">
+          <governor id="10">transmissible</governor>
+          <dependent id="9">be</dependent>
+        </dependency>
+        <dependency type="xcomp">
+          <governor id="7">considered</governor>
+          <dependent id="10">transmissible</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="10">transmissible</governor>
+          <dependent id="12">both</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">and</governor>
+          <dependent id="13">maternally</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="7">considered</governor>
+          <dependent id="14">and</dependent>
+        </dependency>
+        <dependency type="advmod">
+          <governor id="14">and</governor>
+          <dependent id="15">horizontally</dependent>
+        </dependency>
+      </dependencies>
+    </sentence>
+  </sentences>
+  <coreferences>
+    <coreference id="1" type="NOMINAL">
+      <referenced ids_tokens="1-2-3-4-5-6-7-8-9-10-11-12-13-14" string="THE CONDITION known in cattle as ' mad cow disease ' , spongiform encephalopathies" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="13-14" string="the condition" id_sentence="3" />
+        <mention ids_tokens="4-5" string="the condition" id_sentence="7" />
+      </mentions>
+    </coreference>
+    <coreference id="2" type="NOMINAL">
+      <referenced ids_tokens="5-6-7-8-9-10-11" string="cattle as ' mad cow disease '" id_sentence="1" />
+      <mentions>
+        <mention ids_tokens="8" string="cattle" id_sentence="3" />
+        <mention ids_tokens="19" string="cattle" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="4" type="PROPER">
+      <referenced ids_tokens="15-16-17-18-19-20-21" string="the disease over the past three years" id_sentence="2" />
+      <mentions>
+        <mention ids_tokens="34-35" string="the disease" id_sentence="4" />
+        <mention ids_tokens="19-20" string="the disease" id_sentence="9" />
+      </mentions>
+    </coreference>
+    <coreference id="5" type="NOMINAL">
+      <referenced ids_tokens="4-5-6-7-8" string="six species other than cattle" id_sentence="3" />
+      <mentions>
+        <mention ids_tokens="16" string="species" id_sentence="8" />
+      </mentions>
+    </coreference>
+    <coreference id="7" type="PROPER">
+      <referenced ids_tokens="1" string="Scrapie" id_sentence="10" />
+      <mentions>
+        <mention ids_tokens="10-12" string="' scrapie'" id_sentence="5" />
+      </mentions>
+    </coreference>
+    <coreference id="8" type="PROPER">
+      <referenced ids_tokens="2-3" string="David Maclean" id_sentence="8" />
+      <mentions>
+        <mention ids_tokens="1" string="He" id_sentence="9" />
+        <mention ids_tokens="3" string="he" id_sentence="10" />
+      </mentions>
+    </coreference>
+  </coreferences>
+</document>
